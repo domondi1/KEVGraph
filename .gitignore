@@ -1,0 +1,9 @@
+data/cached_api/
+data/lockfiles/
+data/graphs/
+__pycache__/
+*.pyc
+*.egg-info/
+.env
+dist/
+build/

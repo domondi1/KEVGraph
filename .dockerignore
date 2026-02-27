@@ -1,0 +1,10 @@
+data/cached_api/
+data/lockfiles/
+data/graphs/
+data/plots/
+data/*.csv
+data/*.json
+__pycache__
+*.pyc
+.git
+.env
