@@ -7,3 +7,10 @@ __pycache__/
 .env
 dist/
 build/
+
+# local env + data
+.venv/
+data/
+__pycache__/
+*.pyc
+.env
