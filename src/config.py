@@ -43,3 +43,21 @@ CACHE_TTL_HOURS = 72            # how long cached API responses stay fresh
 # ── Pipeline tuning ──────────────────────────────────────────────────────────
 MIN_DEPS_PER_LOCKFILE = 10      # skip trivially small lockfiles
 MAX_LOCKFILE_SIZE_MB = 50       # skip absurdly large lockfiles
+
+# ── Snapshot / reproducibility ────────────────────────────────────────────────
+SNAPSHOT_DIR = DATA_DIR / "snapshots"
+SNAPSHOT_DIR.mkdir(parents=True, exist_ok=True)
+
+# When set, load the KEV catalogue from a local frozen file instead of the live
+# CISA feed.  Set before running any stage that touches vulnerability data:
+#   export KEVGRAPH_KEV_SNAPSHOT=data/snapshots/2024-XX-XX/kev_catalogue.json
+KEV_SNAPSHOT_PATH: Path | None = (
+    Path(os.environ["KEVGRAPH_KEV_SNAPSHOT"])
+    if "KEVGRAPH_KEV_SNAPSHOT" in os.environ
+    else None
+)
+
+# When "1", the disk cache TTL is ignored — entries never expire.
+# Use with a pre-populated data/cached_api/ directory for fully offline runs:
+#   export KEVGRAPH_SNAPSHOT_MODE=1
+SNAPSHOT_MODE: bool = os.environ.get("KEVGRAPH_SNAPSHOT_MODE", "0") == "1"

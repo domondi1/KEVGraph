@@ -1,0 +1,75 @@
+cff-version: 1.2.0
+message: >-
+  If you use KEVGraph in your research, please cite it using the
+  metadata in this file.
+
+title: >-
+  KEVGraph: Prioritised Dependency Remediation Using CISA KEV
+  and OSV Vulnerability Data
+
+abstract: >-
+  KEVGraph is a reproducible research pipeline that models
+  dependency vulnerability remediation as a weighted set-cover
+  problem. It integrates CISA's Known Exploited Vulnerabilities
+  (KEV) catalogue, OSV vulnerability data, and EPSS exploitability
+  scores to generate and evaluate optimal upgrade plans for npm
+  dependency graphs. The pipeline includes a greedy
+  O(ln n)-approximation planner, an exact ILP planner, four
+  baselines, and publication-ready evaluation metrics.
+
+version: 1.0.0
+license: MIT
+date-released: "2024-01-01"
+
+repository-code: https://github.com/PLACEHOLDER/kevgraph
+
+keywords:
+  - vulnerability remediation
+  - dependency management
+  - CISA KEV
+  - OSV
+  - set cover
+  - software supply chain
+  - npm
+  - security
+
+authors:
+  - name: "PLACEHOLDER — update with author name(s) and ORCID before release"
+    # family-names: Surname
+    # given-names: Given Name
+    # orcid: "https://orcid.org/0000-XXXX-XXXX-XXXX"
+    # affiliation: University / Organization
+
+# Uncomment and populate after paper acceptance:
+# preferred-citation:
+#   type: conference-paper
+#   title: >-
+#     KEVGraph: Prioritised Dependency Remediation Using CISA KEV
+#     and OSV Vulnerability Data
+#   authors:
+#     - family-names: Surname
+#       given-names: Given Name
+#   collection-title: "Proceedings of [Conference Name]"
+#   year: 2024
+#   doi: "10.XXXX/XXXXXXX"
+#   url: "https://doi.org/10.XXXX/XXXXXXX"
+
+references:
+  - type: data
+    title: "CISA Known Exploited Vulnerabilities Catalogue"
+    authors:
+      - name: "Cybersecurity and Infrastructure Security Agency (CISA)"
+    url: "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+    license: "Public Domain"
+
+  - type: software
+    title: "OSV: A distributed vulnerability database for open source"
+    authors:
+      - name: "Google Open Source Security Team"
+    url: "https://osv.dev"
+
+  - type: data
+    title: "Exploit Prediction Scoring System (EPSS)"
+    authors:
+      - name: "Forum of Incident Response and Security Teams (FIRST)"
+    url: "https://www.first.org/epss"

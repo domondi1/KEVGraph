@@ -26,7 +26,11 @@ def _cache_path(key: str) -> Path:
 
 
 def get(method: str, url: str, body: Any = None) -> dict | list | None:
-    """Return cached JSON payload or None if miss / stale."""
+    """Return cached JSON payload or None if miss / stale.
+
+    In snapshot mode (KEVGRAPH_SNAPSHOT_MODE=1) the TTL is never checked —
+    every cache hit is treated as fresh regardless of age.
+    """
     path = _cache_path(_cache_key(method, url, body))
     if not path.exists():
         return None
@@ -34,9 +38,10 @@ def get(method: str, url: str, body: Any = None) -> dict | list | None:
         data = json.loads(path.read_text())
     except (json.JSONDecodeError, OSError):
         return None
-    ts = data.get("_ts", 0)
-    if (time.time() - ts) > config.CACHE_TTL_HOURS * 3600:
-        return None
+    if not config.SNAPSHOT_MODE:
+        ts = data.get("_ts", 0)
+        if (time.time() - ts) > config.CACHE_TTL_HOURS * 3600:
+            return None
     return data.get("payload")
 
 

@@ -53,7 +53,23 @@ class VulnRecord:
 # ── KEV catalogue ────────────────────────────────────────────────────────────
 
 def fetch_kev_catalogue() -> dict[str, dict]:
-    """Return {cve_id: kev_entry} from the CISA KEV JSON feed."""
+    """Return {cve_id: kev_entry} from the CISA KEV JSON feed or a local snapshot.
+
+    When KEVGRAPH_KEV_SNAPSHOT is set, the catalogue is loaded from that file
+    instead of making a live network request.  This guarantees that the exact
+    same KEV data used to produce the paper results is used during reproduction.
+    """
+    if config.KEV_SNAPSHOT_PATH:
+        log.info("Loading KEV from snapshot: %s", config.KEV_SNAPSHOT_PATH)
+        raw = json.loads(config.KEV_SNAPSHOT_PATH.read_text())
+        catalogue = {
+            entry.get("cveID", ""): entry
+            for entry in raw.get("vulnerabilities", [])
+            if entry.get("cveID")
+        }
+        log.info("KEV snapshot loaded: %d entries", len(catalogue))
+        return catalogue
+
     data = get_json(config.CISA_KEV_URL)
     catalogue: dict[str, dict] = {}
     for entry in data.get("vulnerabilities", []):
