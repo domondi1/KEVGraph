@@ -29,6 +29,37 @@ def _lockfile_dest(repo_full_name: str) -> Path:
     return config.LOCKFILE_DIR / f"{safe}.json"
 
 
+def download_one(repo_full_name: str, branch: str, lockfile_path: str) -> Path | None:
+    """Download a single lockfile; return dest Path on success, None on skip.
+
+    Reuses the on-disk cache (dest file) so repeated calls are free.
+    Safe to call from any stage that needs an ad-hoc lockfile fetch.
+    """
+    dest = _lockfile_dest(repo_full_name)
+    if dest.exists() and dest.stat().st_size > 0:
+        return dest
+
+    raw_url = (
+        f"https://raw.githubusercontent.com/{quote(repo_full_name, safe='/')}/"
+        f"{quote(branch)}/{quote(lockfile_path, safe='/')}"
+    )
+    try:
+        resp = _raw_request("GET", raw_url, headers=github_headers())
+        if resp.status_code == 404:
+            log.debug("404 for %s", repo_full_name)
+            return None
+        resp.raise_for_status()
+        size_mb = len(resp.content) / (1024 * 1024)
+        if size_mb > config.MAX_LOCKFILE_SIZE_MB:
+            log.info("Skipping %s (%.1f MB)", repo_full_name, size_mb)
+            return None
+        dest.write_bytes(resp.content)
+        return dest
+    except Exception as exc:
+        log.warning("Failed %s: %s", repo_full_name, exc)
+        return None
+
+
 def fetch_lockfiles() -> int:
     """Download lockfiles listed in manifest.csv. Returns count fetched."""
     if not config.MANIFEST_CSV.exists():
@@ -46,32 +77,10 @@ def fetch_lockfiles() -> int:
         repo = row["repo_full_name"]
         branch = row.get("default_branch", "main")
         lockpath = row.get("lockfile_path", "package-lock.json")
-        dest = _lockfile_dest(repo)
-
-        if dest.exists() and dest.stat().st_size > 0:
+        result = download_one(repo, branch, lockpath)
+        if result is not None:
             fetched += 1
-            continue
-
-        raw_url = (
-            f"https://raw.githubusercontent.com/{quote(repo, safe='/')}/"
-            f"{quote(branch)}/{quote(lockpath, safe='/')}"
-        )
-        try:
-            resp = _raw_request("GET", raw_url, headers=github_headers())
-            if resp.status_code == 404:
-                log.debug("404 for %s", repo)
-                skipped += 1
-                continue
-            resp.raise_for_status()
-            size_mb = len(resp.content) / (1024 * 1024)
-            if size_mb > config.MAX_LOCKFILE_SIZE_MB:
-                log.info("Skipping %s (%.1f MB)", repo, size_mb)
-                skipped += 1
-                continue
-            dest.write_bytes(resp.content)
-            fetched += 1
-        except Exception as exc:
-            log.warning("Failed %s: %s", repo, exc)
+        else:
             skipped += 1
 
     log.info("Fetched %d lockfiles, skipped %d", fetched, skipped)

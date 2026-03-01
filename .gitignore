@@ -7,6 +7,10 @@ data/snapshots/
 data/manifest.csv
 data/results.csv
 
+# KEV scan: transient artefacts (large/volatile); outputs below are committed
+data/kev_scan/candidate_pool.csv
+data/kev_scan/progress.json
+
 # Python
 __pycache__/
 *.pyc

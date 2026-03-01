@@ -15,9 +15,11 @@ Usage:
 
 from __future__ import annotations
 
+import csv as _csv
 import json
 import logging
 from dataclasses import asdict, dataclass, field
+from datetime import datetime, timezone
 from pathlib import Path
 
 import networkx as nx
@@ -279,6 +281,96 @@ def load_vulns() -> dict[str, VulnRecord]:
     }
 
 
+# ── KEV density per repo ─────────────────────────────────────────────────────
+
+def write_kev_density(records: dict[str, VulnRecord]) -> None:
+    """Compute per-repo KEV density, write kev_density.csv, warn on KEV=0,
+    and append corpus-summary rows to results.csv.
+
+    Reads the annotated GraphML files to map vulns back to source repos.
+    """
+    graph_files = sorted(config.GRAPH_DIR.glob("*.graphml"))
+    if not graph_files:
+        log.warning("No graph files found; skipping kev_density output.")
+        return
+
+    density_rows: list[dict] = []
+    now_iso = datetime.now(timezone.utc).isoformat()
+
+    for gf in graph_files:
+        G = nx.read_graphml(str(gf))
+        source = G.graph.get("source", gf.stem)
+        repo_full_name = source.replace("__", "/", 1)
+
+        # All package names present in this repo's graph
+        pkg_names = {attrs.get("name", "") for _, attrs in G.nodes(data=True)}
+        pkg_names.discard("")
+
+        # Total distinct (name, version) pairs (≈ lockfile entries)
+        total_pkgs = sum(
+            1 for _, a in G.nodes(data=True) if a.get("name") and a.get("version")
+        )
+
+        # Vulns whose package is present in this repo
+        repo_vulns = [r for r in records.values() if r.package in pkg_names]
+        unique_vuln_ids = {r.vuln_id for r in repo_vulns}
+        total_vulns = len(unique_vuln_ids)
+        kev_count = sum(1 for r in repo_vulns if r.in_kev)
+        kev_rate = kev_count / total_vulns if total_vulns > 0 else 0.0
+
+        if kev_count == 0:
+            log.warning(
+                "repo %s has kev_count=0 (total_vulns=%d, total_pkgs=%d)",
+                repo_full_name, total_vulns, total_pkgs,
+            )
+
+        density_rows.append({
+            "repo_full_name": repo_full_name,
+            "total_pkgs": total_pkgs,
+            "total_vulns": total_vulns,
+            "kev_count": kev_count,
+            "kev_rate": round(kev_rate, 6),
+            "scan_at": now_iso,
+        })
+
+    # ── Write authoritative per-repo file ────────────────────────────────
+    density_path = config.KEV_SCAN_DIR / "kev_density.csv"
+    density_fields = ["repo_full_name", "total_pkgs", "total_vulns", "kev_count", "kev_rate", "scan_at"]
+    with open(density_path, "w", newline="") as fh:
+        writer = _csv.DictWriter(fh, fieldnames=density_fields)
+        writer.writeheader()
+        writer.writerows(density_rows)
+    log.info("Wrote %s (%d repos)", density_path, len(density_rows))
+
+    # ── Append corpus-summary rows to results.csv ─────────────────────────
+    kev_positive = sum(1 for r in density_rows if r["kev_count"] > 0)
+    kev_zero = len(density_rows) - kev_positive
+    results_fields = ["plan_name", "T0", "T1", "T5", "RTdisc_days", "n_actions", "cert_size", "verify_time_s"]
+    write_header = not config.RESULTS_CSV.exists()
+    with open(config.RESULTS_CSV, "a", newline="") as fh:
+        writer = _csv.DictWriter(fh, fieldnames=results_fields, extrasaction="ignore")
+        if write_header:
+            writer.writeheader()
+        writer.writerow({
+            "plan_name": "kev_summary",
+            "T0": "corpus_kev_positive_repos",
+            "T1": kev_positive,
+            "T5": "-", "RTdisc_days": "-", "n_actions": "-",
+            "cert_size": "-", "verify_time_s": "-",
+        })
+        writer.writerow({
+            "plan_name": "kev_summary",
+            "T0": "corpus_kev_zero_repos",
+            "T1": kev_zero,
+            "T5": "-", "RTdisc_days": "-", "n_actions": "-",
+            "cert_size": "-", "verify_time_s": "-",
+        })
+    log.info(
+        "Appended kev_summary to %s (positive=%d, zero=%d)",
+        config.RESULTS_CSV, kev_positive, kev_zero,
+    )
+
+
 # ── Orchestration ────────────────────────────────────────────────────────────
 
 def run_join() -> dict[str, VulnRecord]:
@@ -304,6 +396,7 @@ def run_join() -> dict[str, VulnRecord]:
     records = build_vuln_records(osv_results, kev)
     save_vulns(records)
     annotate_graphs(records)
+    write_kev_density(records)
     return records
 
 

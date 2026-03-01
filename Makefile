@@ -1,4 +1,4 @@
-.PHONY: install run collect fetch parse join fixes plan evaluate plot all clean docker test lint mre snapshot
+.PHONY: install run collect fetch parse join fixes plan evaluate plot all clean docker test lint mre snapshot scan-mre scan-full
 
 PYTHON ?= python3
 TODAY  := $(shell date -u +%Y-%m-%d)
@@ -20,6 +20,24 @@ mre:
 	$(PYTHON) -m src.parse_lockfile
 	$(PYTHON) -m src.osv_kev_join
 	$(PYTHON) -m src.candidate_fixes
+
+# ── KEV-positive discovery ────────────────────────────────────────────────────
+# MRE: 20 positive repos, curated seed, no GitHub search needed
+scan-mre:
+	$(PYTHON) -m src.find_kev_positive \
+		--seed-file data/curated_repos.txt \
+		--max-candidates 500 \
+		--target-n 20 \
+		--target-control 20 \
+		--random-seed 42
+
+# Paper: 100 positive repos from bounded GitHub search (cap 5 000 candidates)
+scan-full:
+	$(PYTHON) -m src.find_kev_positive \
+		--max-candidates 5000 \
+		--target-n 100 \
+		--target-control 100 \
+		--random-seed 42
 
 # ── Reproducibility snapshot ─────────────────────────────────────────────────
 snapshot:

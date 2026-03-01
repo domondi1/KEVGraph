@@ -1,6 +1,1 @@
 repo_full_name,default_branch,stars,lockfile_path,collected_at
-npm/cli,latest,9550,package-lock.json,2026-03-01T08:49:06.217713+00:00
-microsoft/vscode,main,182174,package-lock.json,2026-03-01T08:49:06.490802+00:00
-facebook/create-react-app,main,103830,package-lock.json,2026-03-01T08:49:06.776783+00:00
-puppeteer/puppeteer,main,93680,package-lock.json,2026-03-01T08:49:07.019193+00:00
-mochajs/mocha,main,22874,package-lock.json,2026-03-01T08:49:07.229039+00:00

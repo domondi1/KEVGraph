@@ -12,10 +12,11 @@ CACHE_DIR = DATA_DIR / "cached_api"
 LOCKFILE_DIR = DATA_DIR / "lockfiles"
 GRAPH_DIR = DATA_DIR / "graphs"
 PLOT_DIR = DATA_DIR / "plots"
+KEV_SCAN_DIR = DATA_DIR / "kev_scan"
 MANIFEST_CSV = DATA_DIR / "manifest.csv"
 RESULTS_CSV = DATA_DIR / "results.csv"
 
-for _d in (CACHE_DIR, LOCKFILE_DIR, GRAPH_DIR, PLOT_DIR):
+for _d in (CACHE_DIR, LOCKFILE_DIR, GRAPH_DIR, PLOT_DIR, KEV_SCAN_DIR):
     _d.mkdir(parents=True, exist_ok=True)
 
 # ── GitHub ───────────────────────────────────────────────────────────────────
@@ -43,6 +44,10 @@ CACHE_TTL_HOURS = 72            # how long cached API responses stay fresh
 # ── Pipeline tuning ──────────────────────────────────────────────────────────
 MIN_DEPS_PER_LOCKFILE = 10      # skip trivially small lockfiles
 MAX_LOCKFILE_SIZE_MB = 50       # skip absurdly large lockfiles
+
+# ── KEV-positive discovery ────────────────────────────────────────────────────
+DEFAULT_MAX_CANDIDATES = int(os.environ.get("KEVGRAPH_MAX_CANDIDATES", "5000"))
+DEFAULT_RANDOM_SEED = 42
 
 # ── Snapshot / reproducibility ────────────────────────────────────────────────
 SNAPSHOT_DIR = DATA_DIR / "snapshots"
