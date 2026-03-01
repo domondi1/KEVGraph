@@ -1,16 +1,19 @@
+# Generated pipeline data (runtime artefacts — not committed)
 data/cached_api/
 data/lockfiles/
 data/graphs/
+data/plots/
+data/snapshots/
+data/manifest.csv
+data/results.csv
+
+# Python
 __pycache__/
 *.pyc
 *.egg-info/
-.env
 dist/
 build/
 
-# local env + data
+# Local environment
 .venv/
-data/
-__pycache__/
-*.pyc
 .env

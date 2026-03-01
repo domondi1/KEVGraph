@@ -1,9 +1,29 @@
-.PHONY: install run collect fetch parse join fixes plan evaluate plot all clean docker
+.PHONY: install run collect fetch parse join fixes plan evaluate plot all clean docker test lint mre snapshot
 
 PYTHON ?= python3
+TODAY  := $(shell date -u +%Y-%m-%d)
 
 install:
 	$(PYTHON) -m pip install -e ".[dev]"
+
+# ── Quality gates ─────────────────────────────────────────────────────────────
+test:
+	pytest tests/ -v
+
+lint:
+	ruff check src/ tests/
+
+# ── Minimal reproducible example (5 curated repos, no search API needed) ─────
+mre:
+	$(PYTHON) -m src.collect_repos --curated data/curated_repos.txt
+	$(PYTHON) -m src.fetch_lockfiles
+	$(PYTHON) -m src.parse_lockfile
+	$(PYTHON) -m src.osv_kev_join
+	$(PYTHON) -m src.candidate_fixes
+
+# ── Reproducibility snapshot ─────────────────────────────────────────────────
+snapshot:
+	$(PYTHON) scripts/consolidate_snapshot.py --tag $(TODAY)
 
 # ── Individual pipeline stages ───────────────────────────────────────────────
 collect:

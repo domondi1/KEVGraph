@@ -1,0 +1,737 @@
+[
+  {
+    "fix_id": "upgrade:@babel/helpers->@7.28.6",
+    "package": "@babel/helpers",
+    "from_version": "*",
+    "to_version": "7.28.6",
+    "covers": [
+      "GHSA-968p-4wvh-cqc8"
+    ]
+  },
+  {
+    "fix_id": "upgrade:@babel/traverse->@7.29.0",
+    "package": "@babel/traverse",
+    "from_version": "*",
+    "to_version": "7.29.0",
+    "covers": [
+      "GHSA-67hx-6x53-jw92"
+    ]
+  },
+  {
+    "fix_id": "upgrade:@isaacs/brace-expansion->@5.0.1",
+    "package": "@isaacs/brace-expansion",
+    "from_version": "*",
+    "to_version": "5.0.1",
+    "covers": [
+      "GHSA-7h2j-956f-4vf2"
+    ]
+  },
+  {
+    "fix_id": "upgrade:@npmcli/arborist->@9.4.0",
+    "package": "@npmcli/arborist",
+    "from_version": "*",
+    "to_version": "9.4.0",
+    "covers": [
+      "GHSA-2h3h-q99f-3fhc",
+      "GHSA-gmw6-94gg-2rc2"
+    ]
+  },
+  {
+    "fix_id": "upgrade:@octokit/plugin-paginate-rest->@14.0.0",
+    "package": "@octokit/plugin-paginate-rest",
+    "from_version": "*",
+    "to_version": "14.0.0",
+    "covers": [
+      "GHSA-h5c3-5r3r-rr8q"
+    ]
+  },
+  {
+    "fix_id": "upgrade:@octokit/request->@10.0.8",
+    "package": "@octokit/request",
+    "from_version": "*",
+    "to_version": "10.0.8",
+    "covers": [
+      "GHSA-rmvr-2pp2-xj38"
+    ]
+  },
+  {
+    "fix_id": "upgrade:@octokit/request-error->@7.1.0",
+    "package": "@octokit/request-error",
+    "from_version": "*",
+    "to_version": "7.1.0",
+    "covers": [
+      "GHSA-xx4v-prfh-6cgc"
+    ]
+  },
+  {
+    "fix_id": "upgrade:@sideway/formula->@3.0.1",
+    "package": "@sideway/formula",
+    "from_version": "*",
+    "to_version": "3.0.1",
+    "covers": [
+      "GHSA-c2jc-4fpr-4vhg"
+    ]
+  },
+  {
+    "fix_id": "upgrade:ajv->@8.9.0",
+    "package": "ajv",
+    "from_version": "*",
+    "to_version": "8.9.0",
+    "covers": [
+      "GHSA-2g4f-4pwh-qvx6"
+    ]
+  },
+  {
+    "fix_id": "upgrade:algoliasearch-helper->@3.9.0",
+    "package": "algoliasearch-helper",
+    "from_version": "*",
+    "to_version": "3.9.0",
+    "covers": [
+      "GHSA-529q-4j3p-7c5r"
+    ]
+  },
+  {
+    "fix_id": "upgrade:ansi-regex->@6.2.2",
+    "package": "ansi-regex",
+    "from_version": "*",
+    "to_version": "6.2.2",
+    "covers": [
+      "GHSA-93q8-gq69-wqmw"
+    ]
+  },
+  {
+    "fix_id": "upgrade:async->@3.2.6",
+    "package": "async",
+    "from_version": "*",
+    "to_version": "3.2.6",
+    "covers": [
+      "GHSA-fwr7-v2mv-hh25"
+    ]
+  },
+  {
+    "fix_id": "upgrade:axios->@1.9.0",
+    "package": "axios",
+    "from_version": "*",
+    "to_version": "1.9.0",
+    "covers": [
+      "GHSA-43fc-jf86-j433",
+      "GHSA-jr5f-v2jv-69x6",
+      "GHSA-wf5p-g6vw-rhxx"
+    ]
+  },
+  {
+    "fix_id": "upgrade:basic-ftp->@5.2.0",
+    "package": "basic-ftp",
+    "from_version": "*",
+    "to_version": "5.2.0",
+    "covers": [
+      "GHSA-5rq4-664w-9x2c"
+    ]
+  },
+  {
+    "fix_id": "upgrade:bn.js->@5.2.3",
+    "package": "bn.js",
+    "from_version": "*",
+    "to_version": "5.2.3",
+    "covers": [
+      "GHSA-378v-28hj-76wf"
+    ]
+  },
+  {
+    "fix_id": "upgrade:body-parser->@2.2.2",
+    "package": "body-parser",
+    "from_version": "*",
+    "to_version": "2.2.2",
+    "covers": [
+      "GHSA-qwcr-r2fm-qrc7"
+    ]
+  },
+  {
+    "fix_id": "upgrade:brace-expansion->@5.0.4",
+    "package": "brace-expansion",
+    "from_version": "*",
+    "to_version": "5.0.4",
+    "covers": [
+      "GHSA-v6h2-p8h4-qcjw"
+    ]
+  },
+  {
+    "fix_id": "upgrade:braces->@3.0.3",
+    "package": "braces",
+    "from_version": "*",
+    "to_version": "3.0.3",
+    "covers": [
+      "GHSA-grv7-fg5c-xmjg"
+    ]
+  },
+  {
+    "fix_id": "upgrade:code-oss-dev->@0.0.1-security",
+    "package": "code-oss-dev",
+    "from_version": "*",
+    "to_version": "0.0.1-security",
+    "covers": [
+      "MAL-2022-1966"
+    ]
+  },
+  {
+    "fix_id": "upgrade:cookie->@1.1.1",
+    "package": "cookie",
+    "from_version": "*",
+    "to_version": "1.1.1",
+    "covers": [
+      "GHSA-pxg6-pf52-xh8x"
+    ]
+  },
+  {
+    "fix_id": "upgrade:cross-spawn->@7.0.6",
+    "package": "cross-spawn",
+    "from_version": "*",
+    "to_version": "7.0.6",
+    "covers": [
+      "GHSA-3xgq-45jj-v275"
+    ]
+  },
+  {
+    "fix_id": "upgrade:decode-uri-component->@0.4.1",
+    "package": "decode-uri-component",
+    "from_version": "*",
+    "to_version": "0.4.1",
+    "covers": [
+      "GHSA-w573-4hg7-7wgq"
+    ]
+  },
+  {
+    "fix_id": "upgrade:diff->@8.0.3",
+    "package": "diff",
+    "from_version": "*",
+    "to_version": "8.0.3",
+    "covers": [
+      "GHSA-73rr-hh4g-fpgx"
+    ]
+  },
+  {
+    "fix_id": "upgrade:ejs->@4.0.1",
+    "package": "ejs",
+    "from_version": "*",
+    "to_version": "4.0.1",
+    "covers": [
+      "GHSA-ghr5-ch3p-vcr6",
+      "GHSA-phwq-j96m-2c2q"
+    ]
+  },
+  {
+    "fix_id": "upgrade:elliptic->@6.6.1",
+    "package": "elliptic",
+    "from_version": "*",
+    "to_version": "6.6.1",
+    "covers": [
+      "GHSA-848j-6mx2-7j84"
+    ]
+  },
+  {
+    "fix_id": "upgrade:eta->@4.5.1",
+    "package": "eta",
+    "from_version": "*",
+    "to_version": "4.5.1",
+    "covers": [
+      "GHSA-mf6x-hrgr-658f",
+      "GHSA-xrh7-m5pp-39r6"
+    ]
+  },
+  {
+    "fix_id": "upgrade:express->@5.2.1",
+    "package": "express",
+    "from_version": "*",
+    "to_version": "5.2.1",
+    "covers": [
+      "GHSA-qw6h-vgh9-j6wx",
+      "GHSA-rv95-896h-c2vc"
+    ]
+  },
+  {
+    "fix_id": "upgrade:follow-redirects->@1.9.1",
+    "package": "follow-redirects",
+    "from_version": "*",
+    "to_version": "1.9.1",
+    "covers": [
+      "GHSA-74fj-2j2h-c42q",
+      "GHSA-cxjh-pqwp-8mfp",
+      "GHSA-jchw-25xp-jwwc",
+      "GHSA-pw2r-vq6v-hr8c"
+    ]
+  },
+  {
+    "fix_id": "upgrade:form-data->@4.0.5",
+    "package": "form-data",
+    "from_version": "*",
+    "to_version": "4.0.5",
+    "covers": [
+      "GHSA-fjxv-7rqg-78g4"
+    ]
+  },
+  {
+    "fix_id": "upgrade:got->@9.6.0",
+    "package": "got",
+    "from_version": "*",
+    "to_version": "9.6.0",
+    "covers": [
+      "GHSA-pfrx-2q88-qq97"
+    ]
+  },
+  {
+    "fix_id": "upgrade:http-cache-semantics->@4.2.0-beta.2",
+    "package": "http-cache-semantics",
+    "from_version": "*",
+    "to_version": "4.2.0-beta.2",
+    "covers": [
+      "GHSA-rc47-6667-2j5j"
+    ]
+  },
+  {
+    "fix_id": "upgrade:http-proxy-middleware->@3.0.5",
+    "package": "http-proxy-middleware",
+    "from_version": "*",
+    "to_version": "3.0.5",
+    "covers": [
+      "GHSA-4www-5p9h-95mh",
+      "GHSA-9gqv-wp59-fq42",
+      "GHSA-c7qv-q95q-8v27"
+    ]
+  },
+  {
+    "fix_id": "upgrade:ip->@2.0.1",
+    "package": "ip",
+    "from_version": "*",
+    "to_version": "2.0.1",
+    "covers": [
+      "GHSA-2p57-rm9w-gvfp",
+      "GHSA-78xj-cgh5-2h22"
+    ]
+  },
+  {
+    "fix_id": "upgrade:js-yaml->@4.1.1",
+    "package": "js-yaml",
+    "from_version": "*",
+    "to_version": "4.1.1",
+    "covers": [
+      "GHSA-mh29-5h37-fv8m"
+    ]
+  },
+  {
+    "fix_id": "upgrade:json5->@2.2.3",
+    "package": "json5",
+    "from_version": "*",
+    "to_version": "2.2.3",
+    "covers": [
+      "GHSA-9c47-m6qq-7p4h"
+    ]
+  },
+  {
+    "fix_id": "upgrade:loader-utils->@3.3.1",
+    "package": "loader-utils",
+    "from_version": "*",
+    "to_version": "3.3.1",
+    "covers": [
+      "GHSA-3rfm-jhwj-7488",
+      "GHSA-76p3-8jx3-jpfq",
+      "GHSA-hhq3-ff78-jv3g"
+    ]
+  },
+  {
+    "fix_id": "upgrade:lodash->@4.9.0",
+    "package": "lodash",
+    "from_version": "*",
+    "to_version": "4.9.0",
+    "covers": [
+      "GHSA-xxjr-mmjv-4gpg"
+    ]
+  },
+  {
+    "fix_id": "upgrade:lodash.pick->@4.4.0",
+    "package": "lodash.pick",
+    "from_version": "*",
+    "to_version": "4.4.0",
+    "covers": [
+      "GHSA-p6mc-m468-83gw"
+    ]
+  },
+  {
+    "fix_id": "upgrade:lodash.template->@4.5.0",
+    "package": "lodash.template",
+    "from_version": "*",
+    "to_version": "4.5.0",
+    "covers": [
+      "GHSA-35jh-r3h4-6jhm"
+    ]
+  },
+  {
+    "fix_id": "upgrade:markdown-it->@9.1.0",
+    "package": "markdown-it",
+    "from_version": "*",
+    "to_version": "9.1.0",
+    "covers": [
+      "GHSA-38c4-r59v-3vqw"
+    ]
+  },
+  {
+    "fix_id": "upgrade:micromatch->@4.0.8",
+    "package": "micromatch",
+    "from_version": "*",
+    "to_version": "4.0.8",
+    "covers": [
+      "GHSA-952p-6rrq-rcjv"
+    ]
+  },
+  {
+    "fix_id": "upgrade:minimatch->@9.0.9",
+    "package": "minimatch",
+    "from_version": "*",
+    "to_version": "9.0.9",
+    "covers": [
+      "GHSA-23c5-xmqv-rm74",
+      "GHSA-3ppc-4f35-3m26",
+      "GHSA-7r86-cg39-jmmj",
+      "GHSA-f8q6-p94x-37v3"
+    ]
+  },
+  {
+    "fix_id": "upgrade:nanoid->@5.1.6",
+    "package": "nanoid",
+    "from_version": "*",
+    "to_version": "5.1.6",
+    "covers": [
+      "GHSA-mwcw-c2x4-8c55",
+      "GHSA-qrpm-p2h7-hrv2"
+    ]
+  },
+  {
+    "fix_id": "upgrade:node-fetch->@4.0.0-beta.4",
+    "package": "node-fetch",
+    "from_version": "*",
+    "to_version": "4.0.0-beta.4",
+    "covers": [
+      "GHSA-r683-j2x4-v87g"
+    ]
+  },
+  {
+    "fix_id": "upgrade:node-forge->@1.3.3",
+    "package": "node-forge",
+    "from_version": "*",
+    "to_version": "1.3.3",
+    "covers": [
+      "GHSA-2r2c-g63r-vccr",
+      "GHSA-554w-wpv2-vw27",
+      "GHSA-5gfm-wpxj-wjgq",
+      "GHSA-5rrq-pxf6-6jx5",
+      "GHSA-65ch-62r8-g69g",
+      "GHSA-8fr3-hfg3-gpgp",
+      "GHSA-cfm4-qjh2-4765",
+      "GHSA-gf8q-jrpm-jvxq",
+      "GHSA-x4jg-mjrx-434g"
+    ]
+  },
+  {
+    "fix_id": "upgrade:nth-check->@2.1.1",
+    "package": "nth-check",
+    "from_version": "*",
+    "to_version": "2.1.1",
+    "covers": [
+      "GHSA-rp65-9cf3-cjxr"
+    ]
+  },
+  {
+    "fix_id": "upgrade:on-headers->@1.1.0",
+    "package": "on-headers",
+    "from_version": "*",
+    "to_version": "1.1.0",
+    "covers": [
+      "GHSA-76c9-3jph-rj3q"
+    ]
+  },
+  {
+    "fix_id": "upgrade:parse-path->@7.1.0",
+    "package": "parse-path",
+    "from_version": "*",
+    "to_version": "7.1.0",
+    "covers": [
+      "GHSA-3j8f-xvm3-ffx4"
+    ]
+  },
+  {
+    "fix_id": "upgrade:parse-url->@9.2.0",
+    "package": "parse-url",
+    "from_version": "*",
+    "to_version": "9.2.0",
+    "covers": [
+      "GHSA-4p35-cfcx-8653",
+      "GHSA-7f3x-x4pr-wqhj",
+      "GHSA-j9fq-vwqv-2fm2",
+      "GHSA-jpp7-7chh-cf67",
+      "GHSA-pqw5-jmp5-px4v",
+      "GHSA-q6wq-5p59-983w"
+    ]
+  },
+  {
+    "fix_id": "upgrade:path-to-regexp->@8.3.0",
+    "package": "path-to-regexp",
+    "from_version": "*",
+    "to_version": "8.3.0",
+    "covers": [
+      "GHSA-9wv6-86v2-598j",
+      "GHSA-rhx6-c78j-4q9w"
+    ]
+  },
+  {
+    "fix_id": "upgrade:plist->@3.1.0",
+    "package": "plist",
+    "from_version": "*",
+    "to_version": "3.1.0",
+    "covers": [
+      "GHSA-4cpg-3vgw-4877"
+    ]
+  },
+  {
+    "fix_id": "upgrade:postcss->@8.5.6",
+    "package": "postcss",
+    "from_version": "*",
+    "to_version": "8.5.6",
+    "covers": [
+      "GHSA-7fh5-64p2-3v2j"
+    ]
+  },
+  {
+    "fix_id": "upgrade:prismjs->@1.9.0",
+    "package": "prismjs",
+    "from_version": "*",
+    "to_version": "1.9.0",
+    "covers": [
+      "GHSA-3949-f494-cm99",
+      "GHSA-x7hr-w5r2-h6wg"
+    ]
+  },
+  {
+    "fix_id": "upgrade:puppeteer->@9.1.1",
+    "package": "puppeteer",
+    "from_version": "*",
+    "to_version": "9.1.1",
+    "covers": [
+      "GHSA-c2gp-86p4-5935"
+    ]
+  },
+  {
+    "fix_id": "upgrade:qs->@6.9.9",
+    "package": "qs",
+    "from_version": "*",
+    "to_version": "6.9.9",
+    "covers": [
+      "GHSA-6rw7-vpxm-498p",
+      "GHSA-hrpp-h998-j3pp",
+      "GHSA-w7fw-mjwx-w883"
+    ]
+  },
+  {
+    "fix_id": "upgrade:request->@2.9.3",
+    "package": "request",
+    "from_version": "*",
+    "to_version": "2.9.3",
+    "covers": [
+      "GHSA-p8p7-x288-28g6"
+    ]
+  },
+  {
+    "fix_id": "upgrade:rollup->@4.9.6",
+    "package": "rollup",
+    "from_version": "*",
+    "to_version": "4.9.6",
+    "covers": [
+      "GHSA-gcx4-mw62-g8wm",
+      "GHSA-mw96-cpmx-2vgc"
+    ]
+  },
+  {
+    "fix_id": "upgrade:semver->@7.7.4",
+    "package": "semver",
+    "from_version": "*",
+    "to_version": "7.7.4",
+    "covers": [
+      "GHSA-c2qf-rxjj-qqgw"
+    ]
+  },
+  {
+    "fix_id": "upgrade:semver-regex->@4.0.5",
+    "package": "semver-regex",
+    "from_version": "*",
+    "to_version": "4.0.5",
+    "covers": [
+      "GHSA-4x5v-gmq8-25ch"
+    ]
+  },
+  {
+    "fix_id": "upgrade:send->@1.2.1",
+    "package": "send",
+    "from_version": "*",
+    "to_version": "1.2.1",
+    "covers": [
+      "GHSA-m6fv-jmcg-4jfg"
+    ]
+  },
+  {
+    "fix_id": "upgrade:serialize-javascript->@7.0.3",
+    "package": "serialize-javascript",
+    "from_version": "*",
+    "to_version": "7.0.3",
+    "covers": [
+      "GHSA-5c6j-r48x-rmvq",
+      "GHSA-76p7-773f-r4q5"
+    ]
+  },
+  {
+    "fix_id": "upgrade:serve-static->@2.2.1",
+    "package": "serve-static",
+    "from_version": "*",
+    "to_version": "2.2.1",
+    "covers": [
+      "GHSA-cm22-4g7w-348p"
+    ]
+  },
+  {
+    "fix_id": "upgrade:tar->@7.5.9",
+    "package": "tar",
+    "from_version": "*",
+    "to_version": "7.5.9",
+    "covers": [
+      "GHSA-34x7-hfp2-rc4v",
+      "GHSA-3jfq-g458-7qm9",
+      "GHSA-5955-9wpr-37jh",
+      "GHSA-83g3-92jg-28cx",
+      "GHSA-8qq5-rm4j-mr97",
+      "GHSA-f5x3-32g6-xq36",
+      "GHSA-r6q2-hw4h-h46w"
+    ]
+  },
+  {
+    "fix_id": "upgrade:tar-fs->@3.1.1",
+    "package": "tar-fs",
+    "from_version": "*",
+    "to_version": "3.1.1",
+    "covers": [
+      "GHSA-8cj5-5rvv-wf4v",
+      "GHSA-pq67-2wwv-3xjx",
+      "GHSA-vj76-c3g6-qr5v"
+    ]
+  },
+  {
+    "fix_id": "upgrade:terser->@5.9.0",
+    "package": "terser",
+    "from_version": "*",
+    "to_version": "5.9.0",
+    "covers": [
+      "GHSA-4wf5-vphf-c2xc"
+    ]
+  },
+  {
+    "fix_id": "upgrade:tmp->@0.2.5",
+    "package": "tmp",
+    "from_version": "*",
+    "to_version": "0.2.5",
+    "covers": [
+      "GHSA-52f5-9888-hmc6"
+    ]
+  },
+  {
+    "fix_id": "upgrade:tough-cookie->@6.0.0-rc.2",
+    "package": "tough-cookie",
+    "from_version": "*",
+    "to_version": "6.0.0-rc.2",
+    "covers": [
+      "GHSA-72xf-g2v4-qvf3"
+    ]
+  },
+  {
+    "fix_id": "upgrade:trim->@1.0.1",
+    "package": "trim",
+    "from_version": "*",
+    "to_version": "1.0.1",
+    "covers": [
+      "GHSA-w5p7-h5w8-2hfq"
+    ]
+  },
+  {
+    "fix_id": "upgrade:trim-newlines->@5.0.0",
+    "package": "trim-newlines",
+    "from_version": "*",
+    "to_version": "5.0.0",
+    "covers": [
+      "GHSA-7p7h-4mm5-852v"
+    ]
+  },
+  {
+    "fix_id": "upgrade:ua-parser-js->@2.0.9",
+    "package": "ua-parser-js",
+    "from_version": "*",
+    "to_version": "2.0.9",
+    "covers": [
+      "GHSA-fhg7-m89q-25r3"
+    ]
+  },
+  {
+    "fix_id": "upgrade:webpack->@5.99.9",
+    "package": "webpack",
+    "from_version": "*",
+    "to_version": "5.99.9",
+    "covers": [
+      "GHSA-38r7-794h-5758",
+      "GHSA-4vvj-4cpr-p986",
+      "GHSA-8fgc-7cc6-rx7x",
+      "GHSA-hc6q-2mpp-qw7j"
+    ]
+  },
+  {
+    "fix_id": "upgrade:webpack-dev-middleware->@7.4.5",
+    "package": "webpack-dev-middleware",
+    "from_version": "*",
+    "to_version": "7.4.5",
+    "covers": [
+      "GHSA-wr3j-pwj9-hqq6"
+    ]
+  },
+  {
+    "fix_id": "upgrade:webpack-dev-server->@5.2.3",
+    "package": "webpack-dev-server",
+    "from_version": "*",
+    "to_version": "5.2.3",
+    "covers": [
+      "GHSA-4v9v-hfq4-rm2v",
+      "GHSA-9jgg-88mc-972h"
+    ]
+  },
+  {
+    "fix_id": "upgrade:word-wrap->@1.2.5",
+    "package": "word-wrap",
+    "from_version": "*",
+    "to_version": "1.2.5",
+    "covers": [
+      "GHSA-j8xg-fqg3-53r7"
+    ]
+  },
+  {
+    "fix_id": "upgrade:ws->@8.9.0",
+    "package": "ws",
+    "from_version": "*",
+    "to_version": "8.9.0",
+    "covers": [
+      "GHSA-3h5v-q93c-6h6q"
+    ]
+  },
+  {
+    "fix_id": "upgrade:xmldom->@0.6.0",
+    "package": "xmldom",
+    "from_version": "*",
+    "to_version": "0.6.0",
+    "covers": [
+      "GHSA-5fg8-2547-mr8q",
+      "GHSA-crh6-fp67-6883",
+      "GHSA-h6q6-9hqw-rwfv"
+    ]
+  }
+]

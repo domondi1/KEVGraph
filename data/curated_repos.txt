@@ -1,0 +1,7 @@
+# Curated repos verified to have package-lock.json at root (HEAD GET confirmed).
+# One owner/repo per line. Blank lines and lines starting with # are ignored.
+npm/cli
+microsoft/vscode
+facebook/create-react-app
+puppeteer/puppeteer
+mochajs/mocha

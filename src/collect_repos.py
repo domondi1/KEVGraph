@@ -11,6 +11,7 @@ Strategy:
 Usage:
     python -m src.collect_repos          # collects TARGET_N_REPOS repos
     python -m src.collect_repos --n 500  # override target
+    python -m src.collect_repos --curated data/curated_repos.txt  # bypass search
 """
 
 from __future__ import annotations
@@ -20,6 +21,7 @@ import csv
 import logging
 import time
 from datetime import datetime, timezone
+from pathlib import Path
 
 from tqdm import tqdm
 
@@ -39,6 +41,11 @@ _STAR_RANGES = [
     "5001..50000",
     ">=50001",
 ]
+
+
+def _is_root_lockfile(path: str) -> bool:
+    """Return True only for paths that are exactly the lockfile name or end with /name."""
+    return path == "package-lock.json" or path.endswith("/package-lock.json")
 
 
 def _search_page(query: str, page: int) -> dict:
@@ -64,6 +71,8 @@ def _collect_from_bucket(star_range: str, seen: set[str], target: int) -> list[d
         if not items:
             break
         for item in items:
+            if not _is_root_lockfile(item["path"]):
+                continue
             repo = item["repository"]
             full_name = repo["full_name"]
             if full_name in seen:
@@ -121,6 +130,8 @@ def collect_repos(target_n: int = config.TARGET_N_REPOS) -> list[dict]:
                 if not items:
                     break
                 for item in items:
+                    if not _is_root_lockfile(item["path"]):
+                        continue
                     repo = item["repository"]
                     fn = repo["full_name"]
                     if fn in seen:
@@ -142,6 +153,39 @@ def collect_repos(target_n: int = config.TARGET_N_REPOS) -> list[dict]:
     return all_rows
 
 
+def collect_from_curated(curated_path: Path) -> list[dict]:
+    """Read owner/repo lines from *curated_path* and build manifest rows.
+
+    Fetches repo metadata (default_branch, stars) from the GitHub Repos API.
+    Bypasses the Code Search API entirely — no GITHUB_TOKEN required, though
+    providing one raises the rate limit from 60 to 5000 requests/hour.
+    """
+    lines = [
+        ln.strip()
+        for ln in curated_path.read_text().splitlines()
+        if ln.strip() and not ln.startswith("#")
+    ]
+    rows: list[dict] = []
+    for full_name in lines:
+        url = f"{config.GITHUB_API}/repos/{full_name}"
+        try:
+            repo_data = get_json(url, headers=github_headers())
+        except Exception as exc:
+            log.warning("Could not fetch metadata for %s: %s", full_name, exc)
+            continue
+        rows.append(
+            {
+                "repo_full_name": full_name,
+                "default_branch": repo_data.get("default_branch", "main"),
+                "stars": repo_data.get("stargazers_count", 0),
+                "lockfile_path": "package-lock.json",
+                "collected_at": datetime.now(timezone.utc).isoformat(),
+            }
+        )
+    log.info("Loaded %d repos from curated list %s", len(rows), curated_path)
+    return rows
+
+
 def write_manifest(rows: list[dict]) -> None:
     fields = ["repo_full_name", "default_branch", "stars", "lockfile_path", "collected_at"]
     with open(config.MANIFEST_CSV, "w", newline="") as fh:
@@ -155,8 +199,17 @@ def main() -> None:
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
     parser = argparse.ArgumentParser(description="Collect repos with package-lock.json")
     parser.add_argument("--n", type=int, default=config.TARGET_N_REPOS)
+    parser.add_argument(
+        "--curated",
+        metavar="PATH",
+        help="Path to a file of owner/repo lines; bypasses GitHub code search.",
+    )
     args = parser.parse_args()
-    rows = collect_repos(target_n=args.n)
+
+    if args.curated:
+        rows = collect_from_curated(Path(args.curated))
+    else:
+        rows = collect_repos(target_n=args.n)
     write_manifest(rows)
 
 
