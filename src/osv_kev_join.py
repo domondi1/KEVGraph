@@ -85,11 +85,26 @@ def fetch_kev_catalogue() -> dict[str, dict]:
 # ── OSV queries ──────────────────────────────────────────────────────────────
 
 def _query_osv_batch(queries: list[dict]) -> list[list[dict]]:
-    """POST to /v1/querybatch. Returns list-of-lists of vulns."""
+    """POST to /v1/querybatch. Returns list-of-lists of stub vuln dicts.
+
+    NOTE: The querybatch response only returns minimal records (id + a few
+    fields). Aliases (CVE-*) are NOT populated.  Call _fetch_full_osv_record()
+    per unique ID to get the complete record including aliases.
+    """
     url = f"{config.OSV_API}/querybatch"
     body = {"queries": queries}
     resp = post_json(url, body)
     return [r.get("vulns", []) for r in resp.get("results", [])]
+
+
+def _fetch_full_osv_record(vuln_id: str) -> dict:
+    """Return the complete OSV record for *vuln_id* (disk-cached).
+
+    The individual GET /vulns/{id} endpoint returns the full record with
+    CVE aliases, severity, affected ranges, etc. — which querybatch omits.
+    """
+    url = f"{config.OSV_API}/vulns/{vuln_id}"
+    return get_json(url)
 
 
 def query_osv_for_packages(
@@ -178,61 +193,79 @@ def build_vuln_records(
     osv_results: dict[tuple[str, str], list[dict]],
     kev_catalogue: dict[str, dict],
 ) -> dict[str, VulnRecord]:
-    """Merge OSV results with KEV catalogue. Returns {vuln_id: VulnRecord}."""
+    """Merge OSV results with KEV catalogue. Returns {vuln_id: VulnRecord}.
+
+    The querybatch response only returns stub records (aliases=None). We fetch
+    the full record for each unique vuln ID via GET /vulns/{id} (disk-cached)
+    so that CVE aliases are available for KEV intersection.
+    """
+    # ── Step 1: collect all unique (vuln_id → first pkg_name seen) ────────
+    vuln_to_pkg: dict[str, str] = {}
+    for (pkg_name, _pkg_version), stubs in osv_results.items():
+        for stub in stubs:
+            vid = stub.get("id", "")
+            if vid and vid not in vuln_to_pkg:
+                vuln_to_pkg[vid] = pkg_name
+
+    # ── Step 2: fetch full OSV records (one GET /vulns/{id} each, cached) ─
+    full_records: dict[str, dict] = {}
+    for vid in tqdm(vuln_to_pkg, desc="Fetching full OSV records", unit="vuln", leave=False):
+        try:
+            full_records[vid] = _fetch_full_osv_record(vid)
+        except Exception as exc:
+            log.warning("Could not fetch full OSV record %s: %s", vid, exc)
+            full_records[vid] = {"id": vid, "aliases": [], "affected": [], "severity": []}
+
+    # ── Step 3: build VulnRecord from full records ─────────────────────────
     records: dict[str, VulnRecord] = {}
     all_cve_ids: set[str] = set()
 
-    for (pkg_name, pkg_version), vulns in osv_results.items():
-        for v in vulns:
-            vid = v.get("id", "")
-            if vid in records:
-                continue
-            aliases = v.get("aliases", [])
+    for vid, pkg_name in vuln_to_pkg.items():
+        v = full_records.get(vid, {})
+        aliases = v.get("aliases") or []
 
-            # Build the full CVE candidate set:
-            #   • CVEs found in the aliases list (common for GHSA-primary records)
-            #   • The vuln_id itself when it is a CVE (NVD-primary records, rare for npm)
-            # Both paths must be checked so we don't silently miss KEV matches.
-            cves: list[str] = [a for a in aliases if a.startswith("CVE-")]
-            if vid.startswith("CVE-") and vid not in cves:
-                cves.insert(0, vid)
-            all_cve_ids.update(cves)
+        # Build full CVE candidate set:
+        #   • CVEs in the aliases list (common for GHSA-primary records)
+        #   • The vuln_id itself when it is a CVE (NVD-primary records, rare for npm)
+        cves: list[str] = [a for a in aliases if a.startswith("CVE-")]
+        if vid.startswith("CVE-") and vid not in cves:
+            cves.insert(0, vid)
+        all_cve_ids.update(cves)
 
-            sev_type, sev_score = _extract_severity(v)
-            fixed = _extract_fixed_version(v, pkg_name)
+        sev_type, sev_score = _extract_severity(v)
+        fixed = _extract_fixed_version(v, pkg_name)
 
-            in_kev = any(cve in kev_catalogue for cve in cves)
-            kev_entry = next(
-                (kev_catalogue[cve] for cve in cves if cve in kev_catalogue), {}
+        in_kev = any(cve in kev_catalogue for cve in cves)
+        kev_entry = next(
+            (kev_catalogue[cve] for cve in cves if cve in kev_catalogue), {}
+        )
+
+        records[vid] = VulnRecord(
+            vuln_id=vid,
+            aliases=aliases,
+            package=pkg_name,
+            affected_range=str(
+                v.get("affected", [{}])[0]
+                .get("ranges", [{}])[0]
+                .get("events", [])
             )
-
-            records[vid] = VulnRecord(
-                vuln_id=vid,
-                aliases=aliases,
-                package=pkg_name,
-                affected_range=str(
-                    v.get("affected", [{}])[0]
-                    .get("ranges", [{}])[0]
-                    .get("events", [])
-                )
-                if v.get("affected")
-                else "",
-                fixed_version=fixed,
-                severity_type=sev_type,
-                severity_score=sev_score,
-                in_kev=in_kev,
-                kev_date_added=kev_entry.get("dateAdded", ""),
-                kev_due_date=kev_entry.get("dueDate", ""),
-                summary=v.get("summary", "")[:200],
-            )
+            if v.get("affected")
+            else "",
+            fixed_version=fixed,
+            severity_type=sev_type,
+            severity_score=sev_score,
+            in_kev=in_kev,
+            kev_date_added=kev_entry.get("dateAdded", ""),
+            kev_due_date=kev_entry.get("dueDate", ""),
+            summary=v.get("summary", "")[:200],
+        )
 
     # ── Enrich with EPSS ─────────────────────────────────────────────────
     cve_list = sorted(all_cve_ids)
     if cve_list:
         epss = _fetch_epss(cve_list)
         for rec in records.values():
-            cve_ids_for_rec = [rec.vuln_id] + rec.aliases
-            for cid in cve_ids_for_rec:
+            for cid in [rec.vuln_id] + rec.aliases:
                 if cid in epss:
                     rec.epss_score = max(rec.epss_score, epss[cid])
 
