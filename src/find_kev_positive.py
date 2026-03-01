@@ -50,7 +50,7 @@ from pathlib import Path
 from tqdm import tqdm
 
 from . import config
-from .collect_repos import _collect_from_bucket, _is_root_lockfile, collect_from_curated
+from .collect_repos import collect_from_curated
 from .fetch_lockfiles import download_one
 from .osv_kev_join import build_vuln_records, fetch_kev_catalogue, query_osv_for_packages
 from .parse_lockfile import parse_lockfile
@@ -75,12 +75,17 @@ _POOL_FIELDS = [
     "lockfile_path", "collected_at",
 ]
 
-_STAR_RANGES = [
-    ">=1000",       # high-star first — real projects, more likely to have vulns
-    "201..999",
-    "51..200",
-    "11..50",
-    "0..10",
+# Repository search star buckets (high-star repos first — more likely to have
+# real dependencies and therefore KEV-matching packages).
+# Note: the GitHub *code* search API does NOT support `stars:` filtering; we
+# use the repository search API (/search/repositories) instead, which does.
+# The `>=` operator must be URL-encoded (%3E%3D) to survive query-string parsing.
+_REPO_SEARCH_BUCKETS = [
+    "%3E%3D10000",   # >= 10 000 stars
+    "1000..9999",
+    "100..999",
+    "10..99",
+    "1..9",
 ]
 
 
@@ -118,22 +123,62 @@ class CheckpointState:
 # ── Candidate pool ────────────────────────────────────────────────────────────
 
 def _build_pool_from_search(max_candidates: int, star_min: int) -> list[dict]:
-    """Run bounded GitHub Code Search and return manifest-schema rows."""
+    """Use the GitHub repository search API to build a candidate pool.
+
+    The repository search API supports `stars:` filtering; the code search API
+    does not (it silently returns 0 results).  We query JavaScript+TypeScript
+    repos in descending-star order, page through buckets, and stop once we have
+    max_candidates entries.  Lockfile existence is verified lazily in scan_repo.
+    """
     if not config.GITHUB_TOKEN:
         raise EnvironmentError(
-            "GITHUB_TOKEN is required for GitHub Code Search. "
+            "GITHUB_TOKEN is required for GitHub repository search. "
             "Use --seed-file to bypass search, or set GITHUB_TOKEN."
         )
     seen: set[str] = set()
     rows: list[dict] = []
-    for star_range in _STAR_RANGES:
-        if len(seen) >= max_candidates:
-            break
-        # Apply star_min filter by adjusting the lower bound of the first range
-        bucket_rows = _collect_from_bucket(star_range, seen, max_candidates)
-        for r in bucket_rows:
-            if r["stars"] >= star_min:
-                rows.append(r)
+
+    for lang in ("JavaScript", "TypeScript"):
+        for bucket in _REPO_SEARCH_BUCKETS:
+            if len(rows) >= max_candidates:
+                break
+            query = f"language:{lang}+stars:{bucket}"
+            page = 1
+            while page <= 10 and len(rows) < max_candidates:
+                url = (
+                    f"{config.GITHUB_API}/search/repositories"
+                    f"?q={query}&per_page=100&page={page}&sort=stars&order=desc"
+                )
+                try:
+                    data = get_json(url, headers=github_headers())
+                except Exception as exc:
+                    log.warning(
+                        "Repo search failed (lang=%s bucket=%s page=%d): %s",
+                        lang, bucket, page, exc,
+                    )
+                    break
+                items = data.get("items", [])
+                if not items:
+                    break
+                for repo in items:
+                    if len(rows) >= max_candidates:
+                        break
+                    full_name = repo["full_name"]
+                    if full_name in seen:
+                        continue
+                    stars = repo.get("stargazers_count", 0)
+                    if stars < star_min:
+                        continue
+                    seen.add(full_name)
+                    rows.append({
+                        "repo_full_name": full_name,
+                        "default_branch": repo.get("default_branch", "main"),
+                        "stars": stars,
+                        "lockfile_path": "package-lock.json",
+                        "collected_at": datetime.now(timezone.utc).isoformat(),
+                    })
+                page += 1
+
     log.info("Built candidate pool: %d repos", len(rows))
     return rows
 
@@ -270,7 +315,7 @@ def scan_repo(row: dict, kev_catalogue: dict[str, dict]) -> RepoResult:
 def _append_density_row(result: RepoResult) -> None:
     """Append one row to kev_density.csv; write header on first call."""
     write_header = not _DENSITY_CSV.exists()
-    """ with open(_DENSITY_CSV, "a", newline="") as fh:
+    with open(_DENSITY_CSV, "a", newline="") as fh:
         writer = csv.DictWriter(fh, fieldnames=_DENSITY_FIELDS)
         if write_header:
             writer.writeheader()
@@ -282,7 +327,7 @@ def _append_density_row(result: RepoResult) -> None:
             "kev_rate": f"{result.kev_rate:.6f}",
             "scan_at": result.scan_at,
         })
-    fh.flush() """  # ensure crash-safe append
+        fh.flush()  # ensure crash-safe append
 
 
 def write_final_outputs(

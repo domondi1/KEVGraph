@@ -188,7 +188,14 @@ def build_vuln_records(
             if vid in records:
                 continue
             aliases = v.get("aliases", [])
-            cves = [a for a in aliases if a.startswith("CVE-")]
+
+            # Build the full CVE candidate set:
+            #   • CVEs found in the aliases list (common for GHSA-primary records)
+            #   • The vuln_id itself when it is a CVE (NVD-primary records, rare for npm)
+            # Both paths must be checked so we don't silently miss KEV matches.
+            cves: list[str] = [a for a in aliases if a.startswith("CVE-")]
+            if vid.startswith("CVE-") and vid not in cves:
+                cves.insert(0, vid)
             all_cve_ids.update(cves)
 
             sev_type, sev_score = _extract_severity(v)
@@ -224,14 +231,21 @@ def build_vuln_records(
     if cve_list:
         epss = _fetch_epss(cve_list)
         for rec in records.values():
-            for alias in rec.aliases:
-                if alias in epss:
-                    rec.epss_score = max(rec.epss_score, epss[alias])
+            cve_ids_for_rec = [rec.vuln_id] + rec.aliases
+            for cid in cve_ids_for_rec:
+                if cid in epss:
+                    rec.epss_score = max(rec.epss_score, epss[cid])
 
+    # ── Diagnostic counters ───────────────────────────────────────────────
+    n_total = len(records)
+    n_with_cve = sum(
+        1 for r in records.values()
+        if r.vuln_id.startswith("CVE-") or any(a.startswith("CVE-") for a in r.aliases)
+    )
+    n_kev = sum(1 for r in records.values() if r.in_kev)
     log.info(
-        "Built %d vuln records (%d KEV-listed)",
-        len(records),
-        sum(1 for r in records.values() if r.in_kev),
+        "KEV join stats: total_vulns=%d  vulns_with_cve_alias=%d  matched_kev_by_alias=%d",
+        n_total, n_with_cve, n_kev,
     )
     return records
 
