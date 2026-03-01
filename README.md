@@ -130,6 +130,17 @@ data/
 
 ## Configuration
 
+## Running
+#To confirm the outputs exist and look right
+wc -l data/kev_scan/kev_positive_repos.txt data/kev_scan/kev_zero_repos.txt
+head -20 data/kev_scan/kev_positive_repos.txt
+
+#Run the full KEVGraph pipeline on the KEV-positive repos:
+python -m src.collect_repos --curated data/kev_scan/kev_positive_repos.txt
+make fetch parse join fixes plan evaluate plot
+
+
+
 Override defaults via environment variables:
 
 | Variable | Default | Description |
