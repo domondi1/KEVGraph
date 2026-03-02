@@ -32398,7 +32398,7 @@
       "RTdisc_days": 105.0,
       "n_actions": 448,
       "cert_size": 911,
-      "verify_time_s": 0.027528
+      "verify_time_s": 0.018505
     },
     {
       "plan_name": "kevgraph_ilp",
@@ -32408,7 +32408,7 @@
       "RTdisc_days": 105.0,
       "n_actions": 448,
       "cert_size": 911,
-      "verify_time_s": 0.027884
+      "verify_time_s": 0.018409
     },
     {
       "plan_name": "baseline_random",
@@ -32418,7 +32418,7 @@
       "RTdisc_days": 105.0,
       "n_actions": 448,
       "cert_size": 911,
-      "verify_time_s": 0.089974
+      "verify_time_s": 0.018431
     },
     {
       "plan_name": "baseline_cvss",
@@ -32428,7 +32428,7 @@
       "RTdisc_days": 105.0,
       "n_actions": 448,
       "cert_size": 911,
-      "verify_time_s": 0.067458
+      "verify_time_s": 0.018416
     },
     {
       "plan_name": "baseline_epss",
@@ -32438,7 +32438,7 @@
       "RTdisc_days": 105.0,
       "n_actions": 448,
       "cert_size": 911,
-      "verify_time_s": 0.041391
+      "verify_time_s": 0.018146
     },
     {
       "plan_name": "baseline_dependabot",
@@ -32448,7 +32448,7 @@
       "RTdisc_days": 105.0,
       "n_actions": 448,
       "cert_size": 911,
-      "verify_time_s": 0.04502
+      "verify_time_s": 0.018348
     }
   ]
 }
