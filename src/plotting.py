@@ -79,18 +79,24 @@ def plot_coverage_curves(plans: list[RemediationPlan], out: Path | None = None) 
 
 
 def plot_metric_bars(metrics_list: list[PlanMetrics], out: Path | None = None) -> None:
-    """Grouped bar chart comparing plans across key metrics."""
+    """Grouped bar chart comparing plans across key metrics.
+
+    Shows T₁, T₅, and AUCC_KEV (the order-sensitive KEV prioritization score).
+    Higher AUCC_KEV means KEV-listed vulns are fixed earlier in the plan.
+    """
     rows = []
     for m in metrics_list:
-        rows.append({"Plan": PLAN_LABELS.get(m.plan_name, m.plan_name), "Metric": "$T_1$", "Value": m.T1})
-        rows.append({"Plan": PLAN_LABELS.get(m.plan_name, m.plan_name), "Metric": "$T_5$", "Value": m.T5})
-        rows.append({"Plan": PLAN_LABELS.get(m.plan_name, m.plan_name), "Metric": "#Actions (norm)", "Value": m.n_actions / max(m2.n_actions for m2 in metrics_list) if max(m2.n_actions for m2 in metrics_list) > 0 else 0})
+        label = PLAN_LABELS.get(m.plan_name, m.plan_name)
+        rows.append({"Plan": label, "Metric": "$T_1$",      "Value": m.T1})
+        rows.append({"Plan": label, "Metric": "$T_5$",      "Value": m.T5})
+        rows.append({"Plan": label, "Metric": "AUCC$_{KEV}$", "Value": m.aucc_kev})
 
     df = pd.DataFrame(rows)
     fig, ax = plt.subplots(figsize=(10, 5))
     sns.barplot(data=df, x="Metric", y="Value", hue="Plan", ax=ax)
-    ax.set_title("Plan Comparison")
+    ax.set_title("Plan Comparison (T₁, T₅: higher=better; AUCC$_{KEV}$: higher=faster KEV fix)")
     ax.set_ylabel("Score")
+    ax.set_ylim(0, 1.05)
     ax.legend(loc="upper right", fontsize=8)
     fig.tight_layout()
 

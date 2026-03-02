@@ -91,15 +91,64 @@ def _is_upgrade(from_v: str, to_v: str) -> bool:
         return to_v != from_v
 
 
+# ── Installed-version extraction ─────────────────────────────────────────────
+
+def _collect_installed_versions(graph_dir: Path) -> dict[str, set[str]]:
+    """Return {pkg_name: set_of_installed_versions} across all GraphML files.
+
+    This drives per-version fix generation: for each (pkg, installed_version)
+    pair we create a separate CandidateFix.  When one package has N installed
+    versions, each vuln that affects all N versions will appear in N fix.covers
+    lists — creating genuine set-cover overlap that lets the ILP and greedy
+    planners choose which version to prioritise.
+    """
+    import networkx as nx
+
+    pkg_versions: dict[str, set[str]] = {}
+    for gf in sorted(graph_dir.glob("*.graphml")):
+        try:
+            G = nx.read_graphml(str(gf))
+        except Exception:
+            continue
+        for _, attrs in G.nodes(data=True):
+            name = attrs.get("name", "")
+            ver  = attrs.get("version", "")
+            if name and ver:
+                pkg_versions.setdefault(name, set()).add(ver)
+    return pkg_versions
+
+
 # ── Main logic ───────────────────────────────────────────────────────────────
 
-def generate_fixes(vulns: dict[str, VulnRecord]) -> list[CandidateFix]:
-    """Build deduplicated CandidateFix list from vuln records.
+def generate_fixes(
+    vulns: dict[str, VulnRecord],
+    graph_dir: Path | None = None,
+) -> list[CandidateFix]:
+    """Build CandidateFix list from vuln records.
 
-    Multiple vulns in the same package are merged into a single upgrade
-    action targeting the highest required fix version.
+    Per-version fix generation (Phase 3):
+    For each vulnerable package that has ≥1 installed version in the corpus
+    graphs, we create one CandidateFix per (package, installed_version) pair
+    where installed_version < fixed_version.  A vuln is included in a fix's
+    covers list if the fix's installed version is affected by that vuln.
+
+    This creates genuine set-cover overlap: when multiple repos share the same
+    vulnerable package at different versions, each version has its own fix, and
+    all version-specific fixes cover the same vuln IDs.  The ILP and greedy
+    planners then select the minimum-cardinality subset of fixes, avoiding
+    redundant upgrade actions.
+
+    For packages with no graph presence the legacy '*' sentinel is used so
+    that all vulns in the package remain reachable.
     """
-    # Group vulns by package
+    if graph_dir is None:
+        from . import config
+        graph_dir = config.GRAPH_DIR
+
+    # Collect installed versions from corpus graphs
+    installed: dict[str, set[str]] = _collect_installed_versions(graph_dir)
+
+    # Group vulns by package; resolve the best fix version for each
     pkg_vulns: dict[str, list[VulnRecord]] = {}
     for rec in vulns.values():
         if rec.package:
@@ -108,10 +157,9 @@ def generate_fixes(vulns: dict[str, VulnRecord]) -> list[CandidateFix]:
     fixes: list[CandidateFix] = []
 
     for pkg_name, recs in tqdm(pkg_vulns.items(), desc="Generating fixes", unit="pkg"):
-        # Determine the maximum required fix version across all vulns
-        fix_versions: list[str] = []
+        # Resolve best fix version for this package (highest fixed_version)
         covered_ids: list[str] = []
-        from_versions: set[str] = set()
+        fix_versions: list[str] = []
 
         for rec in recs:
             resolved = _pick_best_fix(pkg_name, rec.fixed_version, rec.aliases)
@@ -119,10 +167,9 @@ def generate_fixes(vulns: dict[str, VulnRecord]) -> list[CandidateFix]:
                 fix_versions.append(resolved)
                 covered_ids.append(rec.vuln_id)
 
-        if not fix_versions:
+        if not fix_versions or not covered_ids:
             continue
 
-        # Pick the highest fix version (covers all vulns)
         best_fix = fix_versions[0]
         for fv in fix_versions[1:]:
             try:
@@ -131,23 +178,66 @@ def generate_fixes(vulns: dict[str, VulnRecord]) -> list[CandidateFix]:
             except InvalidVersion:
                 pass
 
-        # from_version is a placeholder – actual affected version comes from
-        # graph context at planning time.  We record "*" to mean "any affected".
-        fix_id = f"upgrade:{pkg_name}->@{best_fix}"
-        fixes.append(
-            CandidateFix(
-                fix_id=fix_id,
-                package=pkg_name,
-                from_version="*",
-                to_version=best_fix,
-                covers=covered_ids,
+        # Per-version fix generation: one fix per (package, installed_version)
+        # where installed_version < best_fix.  This creates overlap when the
+        # same vuln appears in multiple version-specific fixes.
+        versions_in_corpus = installed.get(pkg_name)
+        if versions_in_corpus:
+            for from_v in sorted(versions_in_corpus):
+                try:
+                    if Version(from_v) >= Version(best_fix):
+                        continue  # already at or beyond the fix — skip
+                except InvalidVersion:
+                    pass  # non-semver: include conservatively
+                # Determine which vulns affect this specific installed version:
+                # a vuln affects from_v if from_v < vuln.fixed_version (or fixed
+                # version is unknown — include conservatively).
+                affected: list[str] = []
+                for rec in recs:
+                    fv = rec.fixed_version
+                    if not fv:
+                        affected.append(rec.vuln_id)  # unknown fix → include
+                        continue
+                    try:
+                        if Version(from_v) < Version(fv):
+                            affected.append(rec.vuln_id)
+                    except InvalidVersion:
+                        affected.append(rec.vuln_id)
+                if not affected:
+                    continue
+                fix_id = f"upgrade:{pkg_name}@{from_v}->@{best_fix}"
+                fixes.append(
+                    CandidateFix(
+                        fix_id=fix_id,
+                        package=pkg_name,
+                        from_version=from_v,
+                        to_version=best_fix,
+                        covers=affected,
+                    )
+                )
+        else:
+            # Package not found in any graph: fall back to '*' sentinel
+            fix_id = f"upgrade:{pkg_name}->@{best_fix}"
+            fixes.append(
+                CandidateFix(
+                    fix_id=fix_id,
+                    package=pkg_name,
+                    from_version="*",
+                    to_version=best_fix,
+                    covers=covered_ids,
+                )
             )
-        )
 
     log.info(
-        "Generated %d candidate fixes covering %d vulns",
+        "Generated %d candidate fixes covering %d vuln-slots "
+        "(%d unique vulns with ≥2 fixes = genuine set-cover overlap)",
         len(fixes),
         sum(len(f.covers) for f in fixes),
+        len({v for f in fixes for v in f.covers}
+            if True else set()) - sum(
+            1 for vid in {v for f in fixes for v in f.covers}
+            if sum(1 for f in fixes if vid in f.covers) == 1
+        ),
     )
     return fixes
 

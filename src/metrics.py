@@ -5,10 +5,19 @@ Metrics (per remediation plan):
                   (measures awareness, identical across plans for same data)
     T₁          – fraction of total vulns fixed after the first action
     T₅          – fraction of total vulns fixed after the first 5 actions
-    RTdisc      – Reduction in Time-to-Discovery (days).  For each KEV vuln
-                  resolved in the plan, sum the difference between
-                  the vuln's KEV due-date and the KEV date-added.
-                  Higher = more "urgency days" saved by early prioritisation.
+    aucc_kev    – Area Under KEV Coverage Curve.
+                  For each plan step k ∈ {1…n}, let kev_frac(k) = fraction of
+                  KEV vulns covered after step k.  aucc_kev is the mean of
+                  kev_frac over all n steps; range [0,1], higher is better.
+                  Plans that fix KEV vulns early score near 1; plans that defer
+                  them score near 0.  Efficiently computed from per-KEV ranks:
+                    aucc_kev = Σᵢ (n − rankᵢ + 1) / (n × |KEV|)
+    kev_first_rank – Plan step (1-indexed) at which the first KEV-listed vuln
+                  is first resolved.  Lower is better; 0 if no KEV vulns exist.
+    RTdisc_days – (legacy) sum of (kev_due_date − kev_date_added) in days for
+                  all KEV vulns covered by the plan.  Order-insensitive: all
+                  plans that cover every KEV vuln receive the same value.
+                  Retained for backward compatibility; prefer aucc_kev instead.
     #actions    – total number of upgrade actions in the plan
     cert_size   – number of (fix → vuln) edges in the remediation certificate
                   (proof that the plan covers all vulns)
@@ -33,7 +42,9 @@ class PlanMetrics:
     T0: float
     T1: float
     T5: float
-    RTdisc_days: float
+    aucc_kev: float       # Area Under KEV Coverage Curve  (order-sensitive)
+    kev_first_rank: int   # Plan step at which first KEV vuln is fixed (0 = none)
+    RTdisc_days: float    # Legacy order-insensitive metric (kept for compat)
     n_actions: int
     cert_size: int
     verify_time_s: float
@@ -57,7 +68,11 @@ def compute_metrics(
     n_total = len(universe) or 1  # avoid division by zero
 
     # ── T₀: KEV awareness at time zero ───────────────────────────────────
-    n_kev = sum(1 for vid in universe if vulns.get(vid, VulnRecord(vuln_id="")).in_kev)
+    kev_in_universe = {
+        vid for vid in universe
+        if vulns.get(vid, VulnRecord(vuln_id="")).in_kev
+    }
+    n_kev = len(kev_in_universe)
     T0 = n_kev / n_total
 
     # ── T₁, T₅ ──────────────────────────────────────────────────────────
@@ -67,8 +82,37 @@ def compute_metrics(
         if step.rank <= 5:
             T5 = step.cumulative_fraction
 
-    # ── RTdisc (reduction in time-to-discovery) ──────────────────────────
-    # For KEV vulns covered by the plan, sum (due_date - date_added).
+    # ── aucc_kev + kev_first_rank ─────────────────────────────────────────
+    # For each KEV vuln in the universe, find the plan step (rank) at which
+    # it is first covered.  Then compute AUCC using the closed-form formula:
+    #   aucc_kev = Σᵢ (n - rankᵢ + 1) / (n × |KEV|)
+    # where n = total plan steps and rankᵢ = step index of KEV vuln i.
+    # KEV vulns not resolved by any plan step receive rank = n + 1
+    # (worst case, contributing 0 to the numerator).
+    n_steps = plan.total_actions or 1
+    kev_ranks: list[int] = []
+    kev_first_rank = 0
+
+    if kev_in_universe:
+        # Build vid → rank lookup from plan steps
+        vid_to_rank: dict[str, int] = {}
+        for step in plan.steps:
+            for vid in step.covers:
+                if vid not in vid_to_rank:
+                    vid_to_rank[vid] = step.rank
+
+        for vid in kev_in_universe:
+            r = vid_to_rank.get(vid, n_steps + 1)
+            kev_ranks.append(r)
+
+        kev_first_rank = min(kev_ranks)
+
+        numerator = sum(max(n_steps - r + 1, 0) for r in kev_ranks)
+        aucc_kev = numerator / (n_steps * n_kev)
+    else:
+        aucc_kev = 0.0
+
+    # ── RTdisc (legacy order-insensitive) ─────────────────────────────────
     rt_days = 0.0
     covered_by_plan = {vid for step in plan.steps for vid in step.covers}
     for vid in covered_by_plan:
@@ -89,12 +133,14 @@ def compute_metrics(
 
     # ── verify_time: wall-clock verification ─────────────────────────────
     t0 = time.perf_counter()
-    # Verification: rebuild coverage from plan steps and check universe
     verified_cover: set[str] = set()
     fix_lookup = {f.fix_id: set(f.covers) for f in fixes}
     for step in plan.steps:
         verified_cover |= fix_lookup.get(step.fix_id, set())
-    coverable = {vid for vid in universe if any(vid in fix_lookup[f.fix_id] for f in fixes if f.fix_id in fix_lookup)}
+    coverable = {
+        vid for vid in universe
+        if any(vid in fix_lookup[fid] for fid in fix_lookup)
+    }
     _ok = coverable <= verified_cover
     verify_time = time.perf_counter() - t0
 
@@ -103,6 +149,8 @@ def compute_metrics(
         T0=round(T0, 4),
         T1=round(T1, 4),
         T5=round(T5, 4),
+        aucc_kev=round(aucc_kev, 4),
+        kev_first_rank=kev_first_rank,
         RTdisc_days=round(rt_days, 1),
         n_actions=n_actions,
         cert_size=cert_size,

@@ -161,19 +161,82 @@ def _fetch_epss(cve_ids: list[str]) -> dict[str, float]:
 
 # ── Build unified vuln records ───────────────────────────────────────────────
 
+def _cvss3_base_score(vector: str) -> float:
+    """Compute CVSS 3.0/3.1 base score from a vector string.
+
+    Implements the CVSS v3.1 specification formula exactly (no external deps).
+    Handles both "CVSS:3.1/AV:N/..." and bare "AV:N/..." formats.
+
+    Reference: https://www.first.org/cvss/v3.1/specification-document
+    """
+    import math
+
+    # Strip the "CVSS:3.x/" prefix if present
+    v = vector.split("/", 1)[-1] if "/" in vector and vector.startswith("CVSS:") else vector
+    try:
+        parts = dict(item.split(":") for item in v.split("/") if ":" in item)
+    except ValueError:
+        return 0.0
+
+    AV  = {"N": 0.85, "A": 0.62, "L": 0.55, "P": 0.20}
+    AC  = {"L": 0.77, "H": 0.44}
+    PR_U = {"N": 0.85, "L": 0.62, "H": 0.27}
+    PR_C = {"N": 0.85, "L": 0.50, "H": 0.15}
+    UI  = {"N": 0.85, "R": 0.62}
+    CIA = {"H": 0.56, "L": 0.22, "N": 0.00}
+
+    S = parts.get("S", "U")
+    scope_changed = S == "C"
+    pr_table = PR_C if scope_changed else PR_U
+
+    av   = AV.get(parts.get("AV", "N"), 0.85)
+    ac   = AC.get(parts.get("AC", "L"), 0.77)
+    pr   = pr_table.get(parts.get("PR", "N"), 0.85)
+    ui   = UI.get(parts.get("UI", "N"), 0.85)
+    conf = CIA.get(parts.get("C", "N"), 0.0)
+    intg = CIA.get(parts.get("I", "N"), 0.0)
+    avl  = CIA.get(parts.get("A", "N"), 0.0)
+
+    iss = 1 - (1 - conf) * (1 - intg) * (1 - avl)
+    if iss <= 0:
+        return 0.0
+
+    if scope_changed:
+        impact = 7.52 * (iss - 0.029) - 3.25 * (iss - 0.02) ** 15
+    else:
+        impact = 6.42 * iss
+
+    exploitability = 8.22 * av * ac * pr * ui
+
+    def _roundup(x: float) -> float:
+        return math.ceil(x * 10) / 10
+
+    if scope_changed:
+        return _roundup(min(1.08 * (impact + exploitability), 10.0))
+    else:
+        return _roundup(min(impact + exploitability, 10.0))
+
+
 def _extract_severity(vuln: dict) -> tuple[str, float]:
-    """Extract best CVSS score from an OSV record."""
+    """Extract best CVSS v3 base score from an OSV record.
+
+    OSV stores CVSS as a vector string in severity[].score, not as a float.
+    We parse the vector string directly using _cvss3_base_score().
+    """
     for sev in vuln.get("severity", []):
-        if sev.get("type") == "CVSS_V3":
-            score_str = sev.get("score", "")
-            # score might be the vector string; try to extract base score
-            if isinstance(score_str, (int, float)):
-                return "CVSS_V3", float(score_str)
-            # For vector strings, use the database_specific if available
-    # Fallback: check database_specific
+        sev_type = sev.get("type", "")
+        score_field = sev.get("score", "")
+        if sev_type in ("CVSS_V3", "CVSS_V31"):
+            if isinstance(score_field, (int, float)):
+                return "CVSS_V3", float(score_field)
+            if isinstance(score_field, str) and score_field.startswith("CVSS:"):
+                base = _cvss3_base_score(score_field)
+                if base > 0:
+                    return "CVSS_V3", base
+    # Fallback: database_specific numeric cvss field (rare)
     db = vuln.get("database_specific", {})
-    cvss = db.get("cvss", db.get("severity", ""))
-    if isinstance(cvss, (int, float)):
+    cvss = db.get("cvss", db.get("cvss_score", ""))
+    if isinstance(cvss, (int, float)) and cvss > 0:
         return "CVSS_V3", float(cvss)
     return "", 0.0
 

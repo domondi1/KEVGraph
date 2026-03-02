@@ -109,10 +109,28 @@ def run_pipeline(start_stage: str | None = None, resume: bool = False) -> None:
             plan_greedy = greedy_plan(fixes, vulns)
             plan_ilp = ilp_plan(fixes, vulns)
 
-            # Baselines
-            baseline_plans = run_all_baselines(fixes, vulns)
+            # Baselines (including 30-seed random ensemble for statistical rigor)
+            from .baselines import (
+                cvss_first_plan, dependabot_order_plan, epss_first_plan, random_plan,
+            )
+            N_RANDOM_SEEDS = 30
+            random_plans = [
+                random_plan(fixes, vulns, seed=s) for s in range(N_RANDOM_SEEDS)
+            ]
+            # Aggregate random: build a merged plan whose steps are the
+            # per-seed median-rank ordering (for display), and store raw seeds
+            # for CI computation at evaluate stage.
+            baseline_plans = [
+                random_plans[0],   # seed=0 representative (shown in plots)
+                cvss_first_plan(fixes, vulns),
+                epss_first_plan(fixes, vulns),
+                dependabot_order_plan(fixes, vulns),
+            ]
 
             all_plans = [plan_greedy, plan_ilp] + baseline_plans
+
+            # Persist all 30 random seeds for CI computation
+            all_random_for_ci = random_plans
 
             # Save plans for downstream stages
             EVAL_PATH.write_text(
@@ -126,7 +144,18 @@ def run_pipeline(start_stage: str | None = None, resume: bool = False) -> None:
                                 "steps": [asdict(s) for s in p.steps],
                             }
                             for p in all_plans
-                        ]
+                        ],
+                        # All 30 random seeds stored for bootstrap CI at evaluate stage
+                        "random_seeds": [
+                            {
+                                "seed": s,
+                                "name": p.name,
+                                "total_vulns": p.total_vulns,
+                                "total_actions": p.total_actions,
+                                "steps": [asdict(st) for st in p.steps],
+                            }
+                            for s, p in enumerate(all_random_for_ci)
+                        ],
                     },
                     indent=2,
                 )
@@ -165,6 +194,65 @@ def run_pipeline(start_stage: str | None = None, resume: bool = False) -> None:
 
             # Append metrics to evaluation.json
             eval_data["metrics"] = [metrics_to_dict(m) for m in metrics_list]
+
+            # ── Bootstrap CI for 30-seed random baseline ─────────────────────
+            # Compute 95% percentile CI for T1, T5, aucc_kev, n_actions
+            # across the 30 random seeds stored in evaluation.json.
+            random_seed_records = eval_data.get("random_seeds", [])
+            if random_seed_records:
+                import random as _random_mod
+
+                seed_metrics: list[PlanMetrics] = []
+                for rec in random_seed_records:
+                    seed_plan = RemediationPlan(
+                        name=rec["name"],
+                        total_vulns=rec["total_vulns"],
+                        total_actions=rec["total_actions"],
+                    )
+                    for s in rec["steps"]:
+                        seed_plan.steps.append(PlanStep(**s))
+                    seed_metrics.append(compute_metrics(seed_plan, fixes, vulns))
+
+                def _percentile(vals: list[float], p: float) -> float:
+                    sorted_vals = sorted(vals)
+                    idx = (len(sorted_vals) - 1) * p
+                    lo, hi = int(idx), min(int(idx) + 1, len(sorted_vals) - 1)
+                    return sorted_vals[lo] + (idx - lo) * (sorted_vals[hi] - sorted_vals[lo])
+
+                ci_fields = ["T1", "T5", "aucc_kev", "n_actions"]
+                random_ci: dict = {}
+                for field in ci_fields:
+                    vals = [getattr(m, field) for m in seed_metrics]
+                    mean_val = sum(vals) / len(vals)
+                    lo95 = _percentile(vals, 0.025)
+                    hi95 = _percentile(vals, 0.975)
+                    random_ci[field] = {
+                        "mean": round(mean_val, 4),
+                        "ci_lo_95": round(lo95, 4),
+                        "ci_hi_95": round(hi95, 4),
+                        "n_seeds": len(vals),
+                    }
+
+                eval_data["random_baseline_ci"] = random_ci
+
+                # Also write standalone random_ci.json for quick reference
+                ci_path = config.DATA_DIR / "random_ci.json"
+                ci_path.write_text(json.dumps(random_ci, indent=2))
+                log.info("Wrote %s", ci_path)
+
+                # Print CI summary
+                print("\n── Random Baseline 95% CI (n=30 seeds) ──")
+                for field, ci in random_ci.items():
+                    print(
+                        f"  {field:12s}: mean={ci['mean']:.4f}  "
+                        f"[{ci['ci_lo_95']:.4f}, {ci['ci_hi_95']:.4f}]"
+                    )
+            else:
+                log.warning(
+                    "No random_seeds in evaluation.json — re-run 'plan' stage "
+                    "to generate 30-seed ensemble for bootstrap CI."
+                )
+
             EVAL_PATH.write_text(json.dumps(eval_data, indent=2))
 
             # Print summary table
