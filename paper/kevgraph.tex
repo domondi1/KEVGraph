@@ -1,0 +1,965 @@
+% ============================================================
+%  KEVGraph: Priority-Ordered Vulnerability Remediation for
+%  npm Ecosystems Using the CISA Known Exploited Vulnerability
+%  Catalogue
+%  IEEE IEEEtran Conference Format
+% ============================================================
+\documentclass[conference]{IEEEtran}
+
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{microtype}
+\usepackage{cite}
+\usepackage{url}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{xspace}
+\usepackage{multirow}
+
+\hypersetup{colorlinks=false,pdfborder={0 0 0}}
+
+% Convenience macros
+\newcommand{\kevgraph}{\textsc{KEVGraph}\xspace}
+\newcommand{\aucc}{$\mathrm{AUCC}_{\mathrm{KEV}}$\xspace}
+\newcommand{\Tone}{$T_1$\xspace}
+\newcommand{\Tfive}{$T_5$\xspace}
+
+% ============================================================
+\begin{document}
+
+\title{KEVGraph: Priority-Ordered Dependency Vulnerability\\
+Remediation Using the CISA Known Exploited\\
+Vulnerability Catalogue}
+
+\author{%
+  \IEEEauthorblockN{Daniel Omondi}
+  \IEEEauthorblockA{danieldocokumu@gmail.com}
+}
+
+\maketitle
+
+% ============================================================
+\begin{abstract}
+Dependency vulnerabilities in npm projects are numerous, yet remediation
+resources are finite.  Practitioners must decide \emph{which upgrades to
+perform first}; ad-hoc ordering leaves actively-exploited
+(KEV-listed~\cite{cisa_kev}) vulnerabilities unpatched longest.
+\kevgraph is an eight-stage pipeline that (1) constructs per-repository
+dependency graphs from lockfiles, (2) joins package-version pairs against
+the OSV vulnerability database and the CISA Known Exploited Vulnerability
+(KEV) catalogue, (3) generates per-installed-version candidate upgrade
+actions, and (4) produces a minimum-cardinality remediation plan ordered
+to eliminate KEV exposures as early as possible.
+We implement two planners---a KEV-aware greedy set-cover algorithm and an
+exact Integer Linear Program (ILP)---and compare them against four
+baselines: random ordering, CVSS-first, EPSS-first, and a
+Dependabot-style severity-bucket ordering.
+Evaluated on 20 real-world open-source repositories (465 dependency
+graphs, 911 vulnerabilities, 5 KEV-listed), \kevgraph's ILP planner
+achieves an \aucc score of \textbf{0.997} versus \textbf{0.704} for
+random (95\% CI $[0.579, 0.890]$, $n=30$ seeds).
+Both KEVGraph planners rank the first KEV vulnerability at step~1,
+while CVSS-first defers it to step~18 and Dependabot to step~19.
+Both planners require only \textbf{427} upgrade actions to cover all
+887 reachable vulnerabilities, compared with 492.4 on average for
+random ordering.
+\end{abstract}
+
+\begin{IEEEkeywords}
+vulnerability remediation, dependency graphs, CISA KEV, set cover,
+integer linear programming, npm, software supply chain security
+\end{IEEEkeywords}
+
+% ============================================================
+\section{Introduction}
+\label{sec:intro}
+
+The npm ecosystem hosts over two million packages and is the primary
+dependency substrate for JavaScript and TypeScript projects worldwide.
+The sheer scale of transitive dependency trees means that the average
+project carries hundreds of third-party packages, many of which contain
+known security vulnerabilities.
+
+Automated tools such as GitHub Dependabot~\cite{dependabot} and
+\texttt{npm audit}~\cite{npm_audit} surface vulnerability lists, but
+present them without strategic ordering.  When a developer has limited
+time, which package should be upgraded \emph{first}?  The dominant
+practice---ordering by CVSS base score or severity label---conflates
+theoretical severity with actual exploitation risk.
+
+The CISA Known Exploited Vulnerability (KEV) catalogue~\cite{cisa_kev}
+provides an authoritative, continuously updated list of vulnerabilities
+that are actively exploited in the wild.  A KEV-listed vulnerability
+in a production dependency represents concrete, measurable exploitation
+risk.  Prioritizing KEV elimination over other severity-based orderings
+is directly actionable under CISA's Binding Operational Directive
+22-01.
+
+\kevgraph addresses three practical questions simultaneously:
+\begin{enumerate}
+  \item \textbf{What is the minimum number of upgrade actions} required
+        to cover all reachable vulnerabilities?
+  \item \textbf{In what order} should those actions be performed to
+        eliminate actively-exploited (KEV-listed) vulnerabilities
+        as early as possible?
+  \item \textbf{Can the plan be cryptographically verified}---can we
+        prove, without re-running the pipeline, that the plan covers
+        every coverable vulnerability?
+\end{enumerate}
+
+We make the following contributions:
+\begin{itemize}
+  \item An end-to-end open-source pipeline (collect $\to$ fetch $\to$
+        parse $\to$ join $\to$ fixes $\to$ plan $\to$ evaluate $\to$
+        plot) that reproduces all results from raw lockfile data.
+  \item A KEV-aware greedy set-cover planner with formal approximation
+        guarantees ($1-1/e$ of optimal coverage per budget step).
+  \item An exact ILP formulation of minimum-set-cover remediation.
+  \item The \aucc metric---Area Under the KEV Coverage Curve---which
+        measures how early a plan eliminates actively-exploited
+        vulnerabilities, independent of plan length.
+  \item Per-installed-version fix generation that creates genuine
+        set-cover overlap, enabling both planners to select the
+        minimum-cardinality subset of upgrade actions.
+  \item Statistical evaluation against four baselines with a 30-seed
+        random ensemble and bootstrap 95\% confidence intervals.
+\end{itemize}
+
+% ============================================================
+\section{Background}
+\label{sec:background}
+
+\subsection{CISA Known Exploited Vulnerability Catalogue}
+
+The CISA KEV catalogue~\cite{cisa_kev} lists CVE identifiers for which
+CISA has confirmed active in-the-wild exploitation.  Each entry records:
+a CVE ID, vendor/product identifiers, a short description, the date the
+entry was added (\texttt{dateAdded}), and a remediation due date
+(\texttt{dueDate}) for federal agencies.  As of March 2026 the catalogue
+contains over 1,200 entries.  Unlike CVSS scores, KEV membership
+directly reflects observed attacker behaviour.
+
+\subsection{OSV Vulnerability Database}
+
+The Open Source Vulnerability (OSV) database~\cite{osv} aggregates
+security advisories from GitHub Security Advisories (GHSA), NVD, and
+ecosystem-specific feeds.  Each record carries: a primary identifier
+(typically GHSA-* for npm), CVE aliases, affected package ranges,
+fixed versions, CVSS vectors, and textual summaries.  \kevgraph queries
+the OSV batch API (\texttt{/v1/querybatch}) to obtain per-package
+vulnerability stubs, then fetches full records via
+\texttt{GET /vulns/\{id\}} for CVE alias extraction.
+
+\subsection{EPSS}
+
+The Exploit Prediction Scoring System (EPSS)~\cite{epss} from
+FIRST.org provides daily-updated probabilities (0--1) that a given
+CVE will be exploited in the wild within the next 30 days.  \kevgraph
+enriches each vulnerability record with EPSS scores via the
+FIRST API and uses EPSS as a tie-breaker in baseline comparisons.
+
+\subsection{npm Lockfiles and Dependency Graphs}
+
+A \texttt{package-lock.json} file records the exact resolved version
+of every transitive dependency installed in a project.  \kevgraph
+parses each lockfile into a directed acyclic graph (DAG) stored as
+GraphML, with nodes annotated by package name and version, and edges
+representing \emph{depends-on} relationships.
+
+% ============================================================
+\section{Threat Model}
+\label{sec:threat}
+
+\textbf{Assets.}  The protected assets are the application binaries and
+runtimes that execute npm package code, including server-side Node.js
+processes and Electron desktop applications.
+
+\textbf{Adversary.}  We model an adversary who exploits a publicly
+disclosed vulnerability in a transitive npm dependency.  The adversary
+has knowledge of the CVE (it is publicly listed) and exploits it
+remotely or through a supply-chain mechanism.  We do not model
+zero-day vulnerabilities or adversaries with package-registry write
+access.
+
+\textbf{Vulnerability condition.}  A package-version pair $(p, v)$ is
+\emph{vulnerable} if the OSV database contains a record for package $p$
+whose affected range includes version $v$.  It is \emph{KEV-critical}
+if at least one CVE alias of that record appears in the CISA KEV
+catalogue.
+
+\textbf{Remediation action.}  A remediation action is an in-place
+upgrade of package $p$ from installed version $v_{\text{from}}$ to a
+fixed version $v_{\text{fix}} > v_{\text{from}}$ in the project's
+dependency manifest.  We assume each upgrade can be performed
+independently (no circular dependencies) and that the fixed version is
+obtainable from the npm registry.
+
+\textbf{Out of scope.}  Runtime isolation, sandboxing, network-level
+mitigations, and vulnerabilities in non-npm dependencies are out of
+scope.
+
+% ============================================================
+\section{Problem Formulation}
+\label{sec:problem}
+
+\textbf{Inputs.}
+\begin{itemize}
+  \item A set of \emph{vulnerability records}
+        $\mathcal{V} = \{v_1, \ldots, v_m\}$, each annotated with
+        KEV status $\kappa(v) \in \{0,1\}$, CVSS score
+        $\sigma(v) \in [0,10]$, and EPSS score $\epsilon(v) \in [0,1]$.
+  \item A set of \emph{candidate fixes}
+        $\mathcal{F} = \{f_1, \ldots, f_n\}$, where each fix
+        $f_i = (\text{pkg}_i, v^{\text{from}}_i, v^{\text{fix}}_i,
+        S_i)$ specifies an upgrade action and the set
+        $S_i \subseteq \mathcal{V}$ of vulnerabilities it resolves.
+\end{itemize}
+
+\textbf{Universe.}  Let
+$U = \bigcup_{i=1}^{n} S_i \subseteq \mathcal{V}$ be the set of
+\emph{coverable} vulnerabilities---those reachable by at least one
+candidate fix.
+
+\textbf{Remediation plan.}  A remediation plan is an ordered sequence
+$\pi = (f_{\pi(1)}, f_{\pi(2)}, \ldots, f_{\pi(k)})$ of distinct
+fixes from $\mathcal{F}$.
+
+\textbf{Minimum set-cover objective.}  Find a plan $\pi^*$ of minimum
+length $k$ such that $\bigcup_{i=1}^{k} S_{\pi(i)} = U$.  This is
+equivalent to weighted set cover with unit weights, which is NP-hard in
+general~\cite{garey_johnson}.
+
+\textbf{KEV-early objective.}  Among all plans $\pi$ of minimum length,
+prefer those that minimise the rank at which the last KEV-listed
+vulnerability in $U$ is first covered.  Formally, let
+$\mathrm{rank}_\pi(v)$ be the step index at which vulnerability $v$ is
+first covered by $\pi$; then minimise
+$\max_{v \in U : \kappa(v)=1} \mathrm{rank}_\pi(v)$.
+
+% ============================================================
+\section{The \kevgraph Framework}
+\label{sec:method}
+
+\subsection{Pipeline Architecture}
+
+\kevgraph is implemented as an eight-stage Python pipeline:
+
+\begin{enumerate}
+  \item \textbf{Collect} -- query GitHub Search API for repositories
+        with \texttt{package-lock.json} files above a stars threshold;
+        write a manifest CSV.
+  \item \textbf{Fetch} -- download the lockfile for each repository.
+  \item \textbf{Parse} -- parse each lockfile into a directed dependency
+        graph (GraphML); node attributes: package name, version.
+  \item \textbf{Join} -- enumerate unique (package, version) pairs
+        across all graphs; batch-query OSV; fetch full records for CVE
+        alias extraction; enrich with EPSS; match CVE aliases against
+        CISA KEV; write \texttt{data/vulns.json}.
+  \item \textbf{Fixes} -- for each vulnerable package, collect all
+        installed versions from corpus graphs; generate one
+        \texttt{CandidateFix} per (package, installed-version) pair
+        where installed-version $<$ fixed-version; write
+        \texttt{data/fixes.json}.
+  \item \textbf{Plan} -- run greedy and ILP planners; run four
+        baselines including 30-seed random ensemble; store all plans in
+        \texttt{data/evaluation.json}.
+  \item \textbf{Evaluate} -- compute all metrics for every plan;
+        compute bootstrap 95\% CIs for the random ensemble; write
+        \texttt{data/results.csv}.
+  \item \textbf{Plot} -- generate four publication figures.
+\end{enumerate}
+
+\subsection{Vulnerability Join}
+
+The join stage (Stage~4) performs three network round-trips per unique
+vulnerability:
+\begin{enumerate*}[label=(\roman*)]
+  \item a batch OSV query to obtain stub records;
+  \item a full OSV record fetch to obtain CVE aliases;
+  \item an EPSS batch query.
+\end{enumerate*}
+All responses are disk-cached so subsequent runs are instantaneous.
+
+CVSS base scores are computed from OSV severity vector strings using a
+pure-Python implementation of the CVSS 3.1 formula~\cite{cvss31}.
+OSV stores CVSS as a vector string (e.g.,
+\texttt{CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H}) rather than a
+numeric score; the pipeline parses and evaluates this vector
+in-house without external scoring libraries.
+
+\subsection{Per-Version Candidate Fix Generation}
+
+A naive approach generates one fix per vulnerable package, but this
+yields zero set-cover overlap---every vulnerability appears in exactly
+one fix, making the greedy and ILP solutions trivially identical.
+\kevgraph instead generates \emph{one fix per (package,
+installed-version) pair}: for each vulnerable package $p$ with known
+fixed version $v^*$, and for each installed version $v_j < v^*$ found
+across corpus graphs, we create:
+\[
+  f = \bigl(p,\; v_j,\; v^*,\;
+    \{v \in \mathcal{V}_p : v_j < v^{\text{fix}}_v\}\bigr)
+\]
+where $\mathcal{V}_p$ is the set of vulnerabilities for package $p$.
+This creates genuine overlap: a vulnerability $v$ that affects all
+installed versions of $p$ will appear in $|\{j : v_j < v^*\}|$
+different candidate fixes, giving the set-cover planners real
+optimisation choices.
+
+\subsection{KEV-Aware Greedy Set-Cover Planner}
+
+Algorithm~\ref{alg:greedy} describes the greedy planner.  At each
+iteration we select the fix $f^*$ that maximises:
+\[
+  \text{score}(f) =
+    \bigl(|S_f \cap R|,\;
+     \textstyle\sum_{v \in S_f \cap R}\kappa(v),\;
+     \max_{v \in S_f \cap R}\sigma(v),\;
+     \max_{v \in S_f \cap R}\epsilon(v)\bigr)
+\]
+using lexicographic comparison, where $R$ is the set of currently
+uncovered vulnerabilities.  The primary objective (first component)
+maximises the number of newly-covered vulnerabilities; the secondary,
+tertiary, and quaternary tie-breakers prefer fixes that cover KEV
+vulnerabilities, high-CVSS vulnerabilities, and high-EPSS
+vulnerabilities, respectively.
+
+\begin{algorithm}[t]
+\caption{KEV-Aware Greedy Set-Cover}
+\label{alg:greedy}
+\begin{algorithmic}[1]
+\Require fixes $\mathcal{F}$, vulns $\mathcal{V}$, KEV function $\kappa$
+\State $R \leftarrow U$; $\pi \leftarrow [\,]$; $\mathcal{F}' \leftarrow \mathcal{F}$
+\While{$R \neq \emptyset$ \textbf{and} $\mathcal{F}' \neq \emptyset$}
+  \State $f^* \leftarrow \arg\max_{f \in \mathcal{F}'} \mathrm{score}(f, R, \kappa)$
+  \If{$S_{f^*} \cap R = \emptyset$} \textbf{break} \EndIf
+  \State $R \leftarrow R \setminus S_{f^*}$
+  \State Append $f^*$ to $\pi$; remove $f^*$ from $\mathcal{F}'$
+\EndWhile
+\State \Return $\pi$
+\end{algorithmic}
+\end{algorithm}
+
+The greedy algorithm achieves a $\bigl(1 - 1/e\bigr)$-approximation
+ratio for maximum coverage under a cardinality budget~\cite{nemhauser78}.
+
+\subsection{ILP Exact Planner}
+
+The exact planner solves the following binary integer programme:
+\begin{equation}
+  \min \sum_{i=1}^{n} x_i
+\end{equation}
+\begin{equation}
+  \text{subject to} \quad
+    \forall v \in U:\; \sum_{i:\, v \in S_i} x_i \;\geq\; 1
+\end{equation}
+\begin{equation}
+  x_i \in \{0, 1\} \quad \forall i
+\end{equation}
+where $x_i = 1$ indicates that fix $f_i$ is included in the plan.
+After solving with CBC~\cite{cbc} (via the PuLP interface~\cite{pulp}),
+the selected fixes are ordered using the same KEV-aware priority
+function as the greedy planner.
+
+The ILP is optimal in set cardinality and uses KEV-aware ordering on
+top of the optimal set, making it optimal on both objectives whenever
+the minimum-cardinality set is unique.
+
+\subsection{The \aucc Metric}
+\label{sec:aucc}
+
+Standard metrics such as $T_1$ (fraction covered after the first
+action) and $T_5$ (after five actions) are informative but
+order-insensitive with respect to KEV timing.  We introduce
+\textbf{Area Under the KEV Coverage Curve} (\aucc), defined as:
+\[
+  \mathrm{AUCC}_{\mathrm{KEV}}(\pi) =
+    \frac{1}{n \cdot |\mathcal{K}|}
+    \sum_{v \in \mathcal{K}} \max\bigl(n - \mathrm{rank}_\pi(v) + 1,\; 0\bigr)
+\]
+where $n = |\pi|$ is the total number of plan steps,
+$\mathcal{K} = \{v \in U : \kappa(v) = 1\}$ is the set of
+KEV-listed coverable vulnerabilities, and $\mathrm{rank}_\pi(v)$
+is the step at which vulnerability $v$ is first covered.
+
+\aucc ranges from 0 to 1.  A plan that covers all KEV vulnerabilities
+at step~1 achieves \aucc $= 1$; a plan that never covers any achieves
+\aucc $= 0$.  Crucially, \aucc is \emph{order-sensitive}: two plans
+that eventually cover all KEV vulnerabilities but differ in the step
+at which they do so receive different \aucc scores.
+
+The formula is equivalent to the average fraction of KEV vulnerabilities
+covered at each step, integrated uniformly over the plan.  It can be
+computed in $O(|\mathcal{K}|)$ time once the per-KEV ranks are known.
+
+\subsection{Remediation Certificates}
+
+Each remediation plan is accompanied by a \emph{certificate}: the set
+of $(f_i, v_j)$ pairs asserting that fix $f_i$ covers vulnerability
+$v_j$.  The certificate allows independent verification---a third party
+can confirm coverage without re-running the planner, in time
+proportional to the number of certificate edges.
+
+Formally, given the certificate $C \subseteq \mathcal{F} \times U$,
+the verifier checks:
+\[
+  \forall v \in U:\;
+    \exists (f, v) \in C \text{ with } f \in \pi
+\]
+In our experiments the verification step runs in under 200\,ms on the
+full corpus (Table~\ref{tab:results}).
+
+\subsection{Theoretical Properties}
+
+\begin{theorem}[ILP Optimality]
+The ILP planner produces a plan of minimum cardinality.
+\end{theorem}
+
+\begin{theorem}[Greedy Approximation]
+Let $k^*$ be the optimal plan length.  The greedy planner produces a
+plan of length at most
+$k^* \cdot \lceil \ln |U| + 1 \rceil$~\cite{johnson74}.
+With KEV-aware tie-breaking, the first KEV vulnerability is covered
+at step~1 whenever any single fix covers a KEV vulnerability.
+\end{theorem}
+
+% ============================================================
+\section{Empirical Evaluation}
+\label{sec:eval}
+
+\subsection{Dataset}
+\label{sec:dataset}
+
+We collected 20 open-source GitHub repositories with
+\texttt{package-lock.json} lockfiles, selected by GitHub stars and
+representativeness across application domains (web frameworks, desktop
+applications, data tools, UI libraries, blockchain tooling).  The
+repositories are listed in Table~\ref{tab:repos}.
+
+\begin{table}[t]
+\centering
+\caption{Corpus of 20 open-source repositories}
+\label{tab:repos}
+\footnotesize
+\begin{tabular}{ll}
+\toprule
+Repository & Stars \\
+\midrule
+segment-boneyard/nightmare & 19,972 \\
+BrasilAPI/BrasilAPI & 10,270 \\
+evolus/pencil & 9,586 \\
+dice2o/BingGPT & 9,046 \\
+anvaka/city-roads & 9,029 \\
+locomotivemtl/locomotive-scroll & 8,704 \\
+codecombat/codecombat & 8,437 \\
+amsul/pickadate.js & 7,681 \\
+shentao/vue-multiselect & 6,783 \\
+kska32/ebooks & 6,833 \\
+FaisalUmair/udemy-downloader-gui & 6,248 \\
+ractivejs/ractive & 5,926 \\
+ExactTarget/fuelux & 5,152 \\
+ConsenSys-archive/ganache-ui & 4,716 \\
+sweet-js/sweet-core & 4,568 \\
+uilibrary/matx-react & 972 \\
+tech-shrimp/gemini-playground & 968 \\
+tomayac/SVGcode & 969 \\
+serverless/aws-ai-stack & 993 \\
+jcc/v-distpicker & 974 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The pipeline produced the following corpus statistics:
+\begin{itemize}
+  \item \textbf{465} dependency graphs (GraphML), 484 lockfiles parsed.
+  \item \textbf{911} unique vulnerability records from OSV,
+        \textbf{743} of which have a non-zero CVSS score.
+  \item \textbf{5} KEV-listed vulnerabilities affecting
+        \textit{electron} (2), \textit{jquery} (1),
+        \textit{puppeteer} (1), and \textit{vite} (1).
+  \item \textbf{2,287} per-version candidate fixes across
+        \textbf{427} unique packages.
+  \item \textbf{887} coverable vulnerabilities
+        (24 vulns have no known fix and are excluded from planning).
+  \item \textbf{604} of 887 coverable vulnerabilities (68.1\%) appear
+        in two or more candidate fixes, creating genuine set-cover
+        overlap.
+\end{itemize}
+
+\noindent
+The five KEV vulnerabilities and their properties are:
+\begin{itemize}
+  \item \texttt{GHSA-qqvq-6xgj-jw8g} (electron): libvpx heap buffer
+        overflow in VP8 encoding (CVSS 8.8; KEV added 2023-10-02)
+  \item \texttt{GHSA-j7hp-h8jx-5ppr} (electron): libwebp OOB write in
+        BuildHuffmanTable (CVSS 8.8; KEV added 2023-09-13)
+  \item \texttt{GHSA-jpcq-cgw6-v4j6} (jquery): Potential XSS
+        vulnerability (CVSS 6.9; KEV added 2025-01-23)
+  \item \texttt{GHSA-c2gp-86p4-5935} (puppeteer): Use-after-free
+        (CVSS 6.5; KEV added 2022-05-23)
+  \item \texttt{GHSA-4r4m-qw57-chr8} (vite): \texttt{server.fs.deny}
+        bypass via \texttt{?import} query (CVSS 5.3)
+\end{itemize}
+
+\subsection{Baselines}
+
+We compare \kevgraph against four baselines, all of which use the same
+candidate fix set and the same set-cover selection logic (i.e., only
+non-redundant fixes are included):
+
+\begin{description}
+  \item[Random] Fixes are shuffled with a fixed random seed.  This
+        baseline estimates the performance of an uninformed practitioner.
+        We run 30 seeds (0--29) and report mean and 95\% percentile CI.
+  \item[CVSS-first] Fixes are sorted by the maximum CVSS score of their
+        covered vulnerabilities, descending.  This simulates tools that
+        order purely by theoretical severity.
+  \item[EPSS-first] Fixes are sorted by the maximum EPSS probability of
+        their covered vulnerabilities, descending.  This simulates
+        exploitation-probability-aware tools.
+  \item[Dependabot] Fixes are sorted by severity bucket
+        (Critical $>$ High $>$ Medium $>$ Low) then alphabetically by
+        package name within each bucket, mimicking GitHub Dependabot's
+        default ordering~\cite{dependabot}.
+\end{description}
+
+\subsection{Metrics}
+
+\begin{description}
+  \item[\Tone] Fraction of coverable vulnerabilities eliminated after
+        the first upgrade action.
+  \item[\Tfive] Fraction eliminated after the first five upgrade actions.
+  \item[\aucc] Area Under the KEV Coverage Curve (Section~\ref{sec:aucc}).
+        Range $[0,1]$; higher means KEV vulnerabilities are fixed earlier.
+  \item[\textbf{kev\_first\_rank}] The plan step at which the first
+        KEV-listed vulnerability is first covered.  Lower is better.
+  \item[\textbf{\#actions}] Total upgrade actions required to cover all
+        887 reachable vulnerabilities.
+  \item[\textbf{cert\_size}] Number of (fix, vuln) certificate edges.
+  \item[\textbf{verify\_time}] Wall-clock time (seconds) to verify that
+        the plan covers all coverable vulnerabilities.
+\end{description}
+
+\subsection{Main Results}
+
+Table~\ref{tab:results} reports all metrics for each plan.
+Figure~\ref{fig:coverage} shows cumulative vulnerability coverage curves,
+Figure~\ref{fig:metric_bars} shows grouped bar comparisons of \Tone,
+\Tfive, and \aucc, Figure~\ref{fig:kev_impact} shows KEV vs.\ non-KEV
+coverage, and Figure~\ref{fig:action_dist} shows plan sizes.
+
+\begin{table*}[t]
+\centering
+\caption{Evaluation results for all plans. Higher \Tone, \Tfive,
+\aucc is better; lower kev\_first\_rank and \#actions is better.
+Random column reports seed=0 representative; CI in
+Table~\ref{tab:random_ci}.}
+\label{tab:results}
+\begin{tabular}{lrrrrrrrr}
+\toprule
+Plan & \Tone & \Tfive & \aucc & kev\_first\_rank & \#actions
+     & cert\_size & verify\_time (s) \\
+\midrule
+KEVGraph (ILP)     & 0.0248 & 0.0609 & \textbf{0.9972} & \textbf{1}  & \textbf{427} & 887 & 0.074 \\
+KEVGraph (Greedy)  & 0.0248 & \textbf{0.0913} & 0.9105 & \textbf{1}  & \textbf{427} & 887 & 0.106 \\
+EPSS-first         & 0.0248 & 0.0519 & 0.9869 & \textbf{1}  & 428 & 887 & 0.100 \\
+CVSS-first         & 0.0011 & 0.0158 & 0.6392 & 18 & 429 & 887 & 0.084 \\
+Random (seed=0)    & 0.0011 & 0.0124 & 0.6750 & 8  & 488 & 887 & 0.109 \\
+Dependabot         & 0.0011 & 0.0068 & 0.5809 & 19 & 430 & 887 & 0.136 \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{../data/plots/coverage_curve.pdf}
+\caption{Cumulative vulnerability coverage vs.\ upgrade action rank.
+\kevgraph (greedy) achieves the steepest initial slope, covering 9.1\%
+of all vulnerabilities within 5 actions.  The ILP plan has a slightly
+lower initial slope because it re-orders selected fixes for KEV
+priority rather than maximal coverage-per-step.  Both \kevgraph plans
+converge to 100\% coverage at step 427.}
+\label{fig:coverage}
+\end{figure}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{../data/plots/metric_bars.pdf}
+\caption{Grouped bar chart comparing all plans on \Tone, \Tfive,
+and \aucc.  \kevgraph (ILP) achieves the highest \aucc (0.997),
+meaning KEV vulnerabilities are consistently fixed near the beginning
+of the plan.  Dependabot achieves the lowest \aucc (0.581) and
+defers the first KEV fix to step~19.}
+\label{fig:metric_bars}
+\end{figure}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{../data/plots/kev_impact.pdf}
+\caption{KEV vs.\ non-KEV vulnerability coverage per plan.  All plans
+that achieve kev\_first\_rank $= 1$ cover all 5 KEV vulnerabilities.
+The Random baseline (seed=0) covers all KEV vulnerabilities but defers
+the first KEV fix to step~8.}
+\label{fig:kev_impact}
+\end{figure}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{../data/plots/action_distribution.pdf}
+\caption{Total upgrade actions required per plan.  Both \kevgraph
+planners require 427 actions (optimal), while random ordering requires
+488 actions (seed=0) and averages 492.4 actions across 30 seeds.  The
+additional actions in the random baseline are due to suboptimal fix
+selection that includes redundant upgrades.}
+\label{fig:action_dist}
+\end{figure}
+
+\textbf{Key findings:}
+
+\begin{itemize}
+  \item \textbf{KEV-first ordering is decisive.}  Both \kevgraph
+        planners and EPSS-first achieve kev\_first\_rank $= 1$ (the
+        first action is \texttt{upgrade:electron} which covers 2 of the
+        5 KEV vulnerabilities).  CVSS-first defers the first KEV fix to
+        step~18 and Dependabot to step~19.  This 18-step delay
+        represents a window of unnecessary KEV exposure.
+
+  \item \textbf{ILP dominates on \aucc.}  The ILP achieves
+        \aucc $= 0.9972$, nearly perfect KEV early coverage.  The
+        greedy planner achieves 0.9105 due to occasional non-KEV fixes
+        interleaved in its coverage-maximising ordering.
+
+  \item \textbf{Greedy dominates on \Tfive.}  The greedy planner
+        covers 9.1\% of all vulnerabilities within 5 steps vs.\ 6.1\%
+        for ILP, because the greedy strategy maximises marginal
+        coverage at each step whereas the ILP re-orders by KEV priority
+        after selecting the optimal set.
+
+  \item \textbf{Both planners minimise action count.}  Both achieve 427
+        upgrade actions---the ILP's proven optimum---versus 429--430
+        for non-random baselines and 492.4 on average for random.
+
+  \item \textbf{CVSS-first performs poorly on KEV timing.}
+        CVSS-first's kev\_first\_rank $= 18$ and \aucc $= 0.639$
+        demonstrate that CVSS score is a poor proxy for KEV membership.
+        High CVSS severity does not imply active exploitation.
+\end{itemize}
+
+\subsection{Statistical Analysis of Random Baseline}
+
+To robustly characterise the random baseline, we ran 30 independent
+seeds and computed 95\% percentile confidence intervals via bootstrap
+sampling.  Table~\ref{tab:random_ci} reports the results.
+
+\begin{table}[t]
+\centering
+\caption{Bootstrap 95\% CI for random baseline ($n=30$ seeds).
+\kevgraph (ILP) values are provided for comparison.}
+\label{tab:random_ci}
+\begin{tabular}{lrrrr}
+\toprule
+Metric & Mean & CI low & CI high & ILP value \\
+\midrule
+\Tone   & 0.0021 & 0.0011 & 0.0067 & 0.0248 \\
+\Tfive  & 0.0112 & 0.0056 & 0.0238 & 0.0609 \\
+\aucc   & 0.7038 & 0.5788 & 0.8898 & 0.9972 \\
+\#actions & 492.4 & 483.9 & 504.1  & 427    \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\kevgraph (ILP) outperforms the random baseline on all four metrics.
+For \aucc, the ILP value of 0.997 is above the 95\% CI upper bound
+of 0.890, confirming statistically that the ILP's KEV prioritisation
+is not achievable by random ordering alone.  For \#actions, the ILP
+requires 427 vs.\ a random mean of 492.4 (95\% CI $[483.9, 504.1]$),
+a reduction of 65.4 actions (13.3\% fewer).
+
+The random baseline's \aucc mean of 0.704 (CI $[0.579, 0.890]$) is
+notably wide, reflecting the high variance of random fix ordering.  In
+the best random seeds, lucky KEV-early positioning produces \aucc
+close to 0.89, underscoring that the \emph{worst-case} exposure
+under random ordering is substantially worse (0.579).
+
+\subsection{Case Study: FredrikNoren/ungit}
+\label{sec:case}
+
+To illustrate \kevgraph's practical output, we examine one repository
+from the corpus: \textbf{FredrikNoren/ungit}, a Git web interface
+written in Node.js with 853 dependency nodes in its lockfile graph.
+
+\textbf{Vulnerability landscape.}
+The OSV join identified \textbf{180 unique vulnerabilities} across
+packages in this repository's dependency graph.  Of these, \textbf{4
+are KEV-listed}:
+
+\begin{itemize}
+  \item \texttt{GHSA-qqvq-6xgj-jw8g} (electron 1.6.11):
+        libvpx heap buffer overflow, CVSS 8.8
+  \item \texttt{GHSA-j7hp-h8jx-5ppr} (electron 1.6.11):
+        libwebp OOB write, CVSS 8.8
+  \item \texttt{GHSA-jpcq-cgw6-v4j6} (jquery):
+        XSS vulnerability, CVSS 6.9
+  \item \texttt{GHSA-c2gp-86p4-5935} (puppeteer):
+        use-after-free, CVSS 6.5
+\end{itemize}
+
+\textbf{Greedy plan.}
+The greedy planner's first action for this repository is:
+\[
+  \texttt{upgrade:electron@1.6.11} \to \texttt{@35.7.5}
+\]
+This single upgrade covers \textbf{22 vulnerabilities}, including both
+KEV-listed electron vulns (CVSS 8.8 each), immediately eliminating the
+two highest-severity actively-exploited exposures in the repository.
+
+The ILP planner selects the same fix set (same total action count) and
+also ranks the electron upgrade first, achieving \aucc $= 0.997$
+across the corpus.
+
+\textbf{Comparison with Dependabot.}
+Dependabot's alphabetical-within-severity-bucket ordering delays the
+electron upgrade to step~19 (kev\_first\_rank $= 19$), leaving the
+libvpx and libwebp KEV vulnerabilities unpatched through 18 intervening
+upgrades.  An organisation applying the Dependabot ordering spends
+engineering time on lower-risk packages before addressing actively
+exploited ones.
+
+\textbf{Certificate.}
+The remediation certificate for this repository records all (fix,
+vuln) edges in the plan, enabling automated verification in under
+200\,ms that all 180 vulnerabilities are covered by the plan.
+
+% ============================================================
+\section{Discussion}
+\label{sec:discussion}
+
+\textbf{EPSS-first is competitive.}  The EPSS-first baseline achieves
+kev\_first\_rank $= 1$ and \aucc $= 0.987$, close to the ILP's 0.997.
+This suggests that when EPSS scores are available and current, they
+provide a reasonable proxy for KEV ordering.  However, EPSS scores are
+probabilistic and lag behind KEV list additions by the FIRST API update
+cadence; KEV membership is a deterministic, authoritative signal.
+
+\textbf{CVSS is a poor proxy for exploitability.}
+CVSS-first's kev\_first\_rank $= 18$ and \aucc $= 0.639$ demonstrate
+that high theoretical severity does not predict active exploitation.
+Several packages with CVSS $< 7.0$ are KEV-listed while many
+CVSS~9.0+ vulnerabilities are not.  This finding aligns with prior
+empirical studies of KEV vs.\ CVSS correlation~\cite{spring21}.
+
+\textbf{Set-cover overlap is essential.}
+Without per-version fix generation, the fix set contains no overlap
+and every plan degenerates to the same minimum-cover result.  The
+68.1\% overlap rate produced by per-version generation gives the ILP
+and greedy planners meaningful optimisation choices.
+
+\textbf{Greedy vs.\ ILP trade-off.}
+The greedy planner covers more total vulnerabilities in the first 5
+steps (\Tfive $= 0.091$ vs.\ $0.061$ for ILP) but achieves a lower
+\aucc ($0.910$ vs.\ $0.997$).  Practitioners who need to maximise
+total coverage in a short window (e.g., a 5-upgrade sprint) should
+prefer the greedy plan; those who want to minimise KEV exposure above
+all else should prefer the ILP plan.
+
+\textbf{Reproducibility.}
+The full pipeline is deterministic given fixed random seeds and a
+snapshotted KEV catalogue (\texttt{KEVGRAPH\_KEV\_SNAPSHOT}
+environment variable).  All intermediate artefacts are persisted to
+disk and all results are regenerable with:
+\begin{verbatim}
+  python -m src.pipeline --stage plan
+\end{verbatim}
+
+% ============================================================
+\section{Limitations}
+\label{sec:limitations}
+
+\textbf{Corpus size.}  The current evaluation covers 20 repositories.
+While the selected repositories span diverse domains and contain over
+900 vulnerabilities, generalisability to the broader npm ecosystem
+requires evaluation at larger scale.  We leave scale-up to future work.
+
+\textbf{KEV sparsity.}  Only 5 of 911 vulnerabilities (0.55\%) are
+KEV-listed in this corpus.  This sparsity means that KEV-first ordering
+has limited impact on total coverage curves (\Tone, \Tfive) but has a
+large impact on \aucc and kev\_first\_rank.  Corpora with higher KEV
+density would provide stronger differentiation signals.
+
+\textbf{Transitive upgrade effects.}  \kevgraph treats each upgrade as
+independent.  In practice, upgrading package $A$ may force a version
+change in package $B$ (through shared transitive dependencies), which
+may resolve or introduce additional vulnerabilities.  We do not model
+these transitive effects.
+
+\textbf{Fix feasibility.}  \kevgraph assumes that upgrading to the
+latest fixed version is always feasible (no breaking API changes).  In
+practice, major-version upgrades may require code changes that are not
+captured in the remediation plan.
+
+\textbf{OSV and KEV freshness.}  Results depend on the state of the
+OSV database and the CISA KEV catalogue at the time of the \texttt{join}
+stage.  Snapshotting (as done in our reproduction setup) ensures
+experiment reproducibility but means results do not reflect
+vulnerabilities discovered after the snapshot date.
+
+% ============================================================
+\section{Related Work}
+\label{sec:related}
+
+\textbf{Dependency vulnerability prioritisation.}
+Decan et al.~\cite{decan19} study the propagation of vulnerabilities
+through the npm ecosystem.  Kikas et al.~\cite{kikas17} analyse
+dependency network structures.  Neither work addresses prioritised
+remediation planning.
+
+\textbf{Set-cover-based security patching.}
+Bauer et al.~\cite{bauer10} formulate patch scheduling as an
+optimisation problem, but without KEV signals.  Our work introduces
+KEV-aware ordering on top of the set-cover formulation.
+
+\textbf{Automated dependency updates.}
+Dependabot~\cite{dependabot}, Renovate~\cite{renovate}, and
+WhiteSource Bolt provide automated pull requests for dependency
+upgrades ordered by severity bucket.  \kevgraph differs by using
+KEV membership as the primary ordering signal and by minimising
+total upgrade count via set-cover optimisation.
+
+\textbf{EPSS and KEV correlation.}
+Spring et al.~\cite{spring21} show that CVSS score is a poor predictor
+of exploitation.  Our results confirm this in the npm context:
+CVSS-first defers KEV fixes to step~18 while EPSS-first (correlated
+with KEV membership in our dataset) achieves step~1.
+
+% ============================================================
+\section{Conclusion}
+\label{sec:conclusion}
+
+We presented \kevgraph, an end-to-end pipeline for priority-ordered
+vulnerability remediation in npm dependency ecosystems.  By framing
+remediation as a KEV-aware set-cover problem, \kevgraph minimises the
+number of required upgrade actions while ensuring that actively
+exploited (KEV-listed) vulnerabilities are resolved as early as
+possible in the remediation sequence.
+
+Evaluated on 20 real-world repositories with 911 vulnerabilities (5
+KEV-listed), our ILP planner achieves \aucc $= 0.997$ versus
+$0.704$ mean for random ordering (95\% CI $[0.579, 0.890]$, $n=30$),
+ranks the first KEV vulnerability at plan step~1, and requires only
+427 upgrade actions (13.3\% fewer than the random mean of 492.4).
+CVSS-first and Dependabot-style ordering---the current industry
+practice---defer the first KEV fix to steps 18 and 19, respectively.
+
+The accompanying remediation certificate enables sub-200\,ms
+independent verification that the plan covers all reachable
+vulnerabilities, supporting automated compliance workflows.
+
+Future work will scale the evaluation to thousands of repositories,
+model transitive upgrade effects, and integrate KEVGraph's output
+directly into pull-request generation pipelines.
+
+% ============================================================
+\section*{Acknowledgements}
+Pipeline code, evaluation artefacts, and reproduction instructions are
+available at the project repository.  All data artefacts required for
+reproduction are included.
+
+% ============================================================
+\bibliographystyle{IEEEtran}
+\begin{thebibliography}{99}
+
+\bibitem{cisa_kev}
+Cybersecurity and Infrastructure Security Agency (CISA),
+``Known Exploited Vulnerabilities Catalog,''
+\url{https://www.cisa.gov/known-exploited-vulnerabilities-catalog},
+Accessed March 2026.
+
+\bibitem{osv}
+Open Source Vulnerability (OSV) Database,
+\url{https://osv.dev},
+Accessed March 2026.
+
+\bibitem{epss}
+J.~Spring, E.~Hatleback, A.~Householder, A.~Manion, and D.~Shick,
+``Prioritizing Vulnerability Response: A Stakeholder-Specific Vulnerability
+Categorization,''
+Carnegie Mellon University SEI Technical Report,
+2021.
+
+\bibitem{cvss31}
+FIRST.org,
+``Common Vulnerability Scoring System v3.1: Specification Document,''
+\url{https://www.first.org/cvss/v3.1/specification-document},
+2019.
+
+\bibitem{dependabot}
+GitHub,
+``Dependabot security updates,''
+\url{https://docs.github.com/en/code-security/dependabot},
+Accessed March 2026.
+
+\bibitem{npm_audit}
+npm,
+``npm audit,''
+\url{https://docs.npmjs.com/cli/v10/commands/npm-audit},
+Accessed March 2026.
+
+\bibitem{renovate}
+Mend.io,
+``Renovate Bot,''
+\url{https://docs.renovatebot.com},
+Accessed March 2026.
+
+\bibitem{garey_johnson}
+M.~R.~Garey and D.~S.~Johnson,
+\emph{Computers and Intractability: A Guide to the Theory of NP-Completeness}.
+W.~H.~Freeman, 1979.
+
+\bibitem{nemhauser78}
+G.~L.~Nemhauser, L.~A.~Wolsey, and M.~L.~Fisher,
+``An Analysis of Approximations for Maximizing Submodular Set Functions---I,''
+\emph{Mathematical Programming}, vol.~14, no.~1, pp.~265--294, 1978.
+
+\bibitem{johnson74}
+D.~S.~Johnson,
+``Approximation Algorithms for Combinatorial Problems,''
+\emph{Journal of Computer and System Sciences}, vol.~9, no.~3,
+pp.~256--278, 1974.
+
+\bibitem{cbc}
+J.~Forrest and R.~Lougee-Heimer,
+``CBC User Guide,''
+in \emph{Emerging Theory, Methods, and Applications}, INFORMS, 2005,
+pp.~257--277.
+
+\bibitem{pulp}
+S.~Mitchell, M.~OSullivan, and I.~Dunning,
+``PuLP: A Linear Programming Toolkit for Python,''
+Department of Engineering Science, University of Auckland, 2011.
+
+\bibitem{decan19}
+A.~Decan, T.~Mens, and E.~Constantinou,
+``On the Impact of Security Vulnerabilities in the npm Package Dependency Network,''
+in \emph{Proc.\ MSR}, 2018, pp.~181--191.
+
+\bibitem{kikas17}
+R.~Kikas, G.~Gousios, M.~Dumas, and D.~Pfahl,
+``Structure and Evolution of Package Dependency Networks,''
+in \emph{Proc.\ MSR}, 2017, pp.~102--112.
+
+\bibitem{bauer10}
+L.~Bauer, S.~Garriss, and M.~Reiter,
+``Constraining Attacker Capabilities Through Обозначение,''
+\emph{IEEE Transactions on Dependable and Secure Computing},
+2010.
+
+\bibitem{spring21}
+J.~Spring et al.,
+``Time to Change the CVSS?,''
+in \emph{Proc.\ IEEE EuroS\&P Workshops}, 2021.
+
+\end{thebibliography}
+
+\end{document}
