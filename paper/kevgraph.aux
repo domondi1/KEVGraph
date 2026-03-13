@@ -1,0 +1,104 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{cisa_kev}
+\citation{osv}
+\citation{dependabot}
+\citation{npm_audit}
+\citation{cisa_kev}
+\citation{cisa_kev}
+\@writefile{toc}{\contentsline {section}{\numberline {I}Introduction}{1}{section.1}\protected@file@percent }
+\newlabel{sec:intro}{{I}{1}{Introduction}{section.1}{}}
+\citation{cisa_kev}
+\citation{osv}
+\citation{epss}
+\citation{garey_johnson}
+\@writefile{toc}{\contentsline {section}{\numberline {II}Background}{2}{section.2}\protected@file@percent }
+\newlabel{sec:background}{{II}{2}{Background}{section.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-A}}CISA Known Exploited Vulnerability Catalogue}{2}{subsection.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-B}}OSV Vulnerability Database}{2}{subsection.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-C}}EPSS}{2}{subsection.2.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-D}}npm Lockfiles and Dependency Graphs}{2}{subsection.2.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {III}Threat Model}{2}{section.3}\protected@file@percent }
+\newlabel{sec:threat}{{III}{2}{Threat Model}{section.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {IV}Problem Formulation}{2}{section.4}\protected@file@percent }
+\newlabel{sec:problem}{{IV}{2}{Problem Formulation}{section.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {V}The \textsc  {KEVGraph}\xspace  Framework}{2}{section.5}\protected@file@percent }
+\newlabel{sec:method}{{V}{2}{The \kevgraph Framework}{section.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-A}}Pipeline Architecture}{2}{subsection.5.1}\protected@file@percent }
+\citation{cvss31}
+\citation{nemhauser78}
+\citation{cbc}
+\citation{pulp}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-B}}Vulnerability Join}{3}{subsection.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-C}}Per-Version Candidate Fix Generation}{3}{subsection.5.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-D}}KEV-Aware Greedy Set-Cover Planner}{3}{subsection.5.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-E}}ILP Exact Planner}{3}{subsection.5.5}\protected@file@percent }
+\@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces KEV-Aware Greedy Set-Cover}}{3}{algorithm.1}\protected@file@percent }
+\newlabel{alg:greedy}{{1}{3}{KEV-Aware Greedy Set-Cover Planner}{algorithm.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-F}}The $\mathrm  {AUCC}_{\mathrm  {KEV}}$\xspace  Metric}{3}{subsection.5.6}\protected@file@percent }
+\newlabel{sec:aucc}{{\mbox  {V-F}}{3}{The \aucc Metric}{subsection.5.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-G}}Remediation Certificates}{3}{subsection.5.7}\protected@file@percent }
+\citation{johnson74}
+\citation{dependabot}
+\@writefile{lot}{\contentsline {table}{\numberline {I}{\ignorespaces Corpus of 20 open-source repositories}}{4}{table.1}\protected@file@percent }
+\newlabel{tab:repos}{{I}{4}{Corpus of 20 open-source repositories}{table.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-H}}Theoretical Properties}{4}{subsection.5.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {VI}Empirical Evaluation}{4}{section.6}\protected@file@percent }
+\newlabel{sec:eval}{{VI}{4}{Empirical Evaluation}{section.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-A}}Dataset}{4}{subsection.6.1}\protected@file@percent }
+\newlabel{sec:dataset}{{\mbox  {VI-A}}{4}{Dataset}{subsection.6.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-B}}Baselines}{4}{subsection.6.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-C}}Metrics}{4}{subsection.6.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-D}}Main Results}{4}{subsection.6.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {II}{\ignorespaces Evaluation results for all plans. Higher $T_1$\xspace  , $T_5$\xspace  , $\mathrm  {AUCC}_{\mathrm  {KEV}}$\xspace  is better; lower kev\_first\_rank and \#actions is better. Random column reports seed=0 representative; CI in Table~\ref {tab:random_ci}.}}{5}{table.2}\protected@file@percent }
+\newlabel{tab:results}{{II}{5}{Evaluation results for all plans. Higher \Tone , \Tfive , \aucc is better; lower kev\_first\_rank and \#actions is better. Random column reports seed=0 representative; CI in Table~\ref {tab:random_ci}}{table.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Cumulative vulnerability coverage vs.\ upgrade action rank. \textsc  {KEVGraph}\xspace  (greedy) achieves the steepest initial slope, covering 9.1\% of all vulnerabilities within 5 actions. The ILP plan has a slightly lower initial slope because it re-orders selected fixes for KEV priority rather than maximal coverage-per-step. Both \textsc  {KEVGraph}\xspace  plans converge to 100\% coverage at step 427.}}{5}{figure.1}\protected@file@percent }
+\newlabel{fig:coverage}{{1}{5}{Cumulative vulnerability coverage vs.\ upgrade action rank. \kevgraph (greedy) achieves the steepest initial slope, covering 9.1\% of all vulnerabilities within 5 actions. The ILP plan has a slightly lower initial slope because it re-orders selected fixes for KEV priority rather than maximal coverage-per-step. Both \kevgraph plans converge to 100\% coverage at step 427}{figure.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Grouped bar chart comparing all plans on $T_1$\xspace  , $T_5$\xspace  , and $\mathrm  {AUCC}_{\mathrm  {KEV}}$\xspace  . \textsc  {KEVGraph}\xspace  (ILP) achieves the highest $\mathrm  {AUCC}_{\mathrm  {KEV}}$\xspace  (0.997), meaning KEV vulnerabilities are consistently fixed near the beginning of the plan. Dependabot achieves the lowest $\mathrm  {AUCC}_{\mathrm  {KEV}}$\xspace  (0.581) and defers the first KEV fix to step~19.}}{5}{figure.2}\protected@file@percent }
+\newlabel{fig:metric_bars}{{2}{5}{Grouped bar chart comparing all plans on \Tone , \Tfive , and \aucc . \kevgraph (ILP) achieves the highest \aucc (0.997), meaning KEV vulnerabilities are consistently fixed near the beginning of the plan. Dependabot achieves the lowest \aucc (0.581) and defers the first KEV fix to step~19}{figure.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces KEV vs.\ non-KEV vulnerability coverage per plan. All plans that achieve kev\_first\_rank $= 1$ cover all 5 KEV vulnerabilities. The Random baseline (seed=0) covers all KEV vulnerabilities but defers the first KEV fix to step~8.}}{5}{figure.3}\protected@file@percent }
+\newlabel{fig:kev_impact}{{3}{5}{KEV vs.\ non-KEV vulnerability coverage per plan. All plans that achieve kev\_first\_rank $= 1$ cover all 5 KEV vulnerabilities. The Random baseline (seed=0) covers all KEV vulnerabilities but defers the first KEV fix to step~8}{figure.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Total upgrade actions required per plan. Both \textsc  {KEVGraph}\xspace  planners require 427 actions (optimal), while random ordering requires 488 actions (seed=0) and averages 492.4 actions across 30 seeds. The additional actions in the random baseline are due to suboptimal fix selection that includes redundant upgrades.}}{5}{figure.4}\protected@file@percent }
+\newlabel{fig:action_dist}{{4}{5}{Total upgrade actions required per plan. Both \kevgraph planners require 427 actions (optimal), while random ordering requires 488 actions (seed=0) and averages 492.4 actions across 30 seeds. The additional actions in the random baseline are due to suboptimal fix selection that includes redundant upgrades}{figure.4}{}}
+\citation{spring21}
+\@writefile{lot}{\contentsline {table}{\numberline {III}{\ignorespaces Bootstrap 95\% CI for random baseline ($n=30$ seeds). \textsc  {KEVGraph}\xspace  (ILP) values are provided for comparison.}}{6}{table.3}\protected@file@percent }
+\newlabel{tab:random_ci}{{III}{6}{Bootstrap 95\% CI for random baseline ($n=30$ seeds). \kevgraph (ILP) values are provided for comparison}{table.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-E}}Statistical Analysis of Random Baseline}{6}{subsection.6.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-F}}Case Study: ExactTarget/fuelux}{6}{subsection.6.6}\protected@file@percent }
+\newlabel{sec:case}{{\mbox  {VI-F}}{6}{Case Study: ExactTarget/fuelux}{subsection.6.6}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {VII}Discussion}{6}{section.7}\protected@file@percent }
+\newlabel{sec:discussion}{{VII}{6}{Discussion}{section.7}{}}
+\citation{decan19}
+\citation{kikas17}
+\citation{dependabot}
+\citation{renovate}
+\citation{spring21}
+\citation{epss}
+\citation{garey_johnson}
+\@writefile{toc}{\contentsline {section}{\numberline {VIII}Limitations}{7}{section.8}\protected@file@percent }
+\newlabel{sec:limitations}{{VIII}{7}{Limitations}{section.8}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {IX}Related Work}{7}{section.9}\protected@file@percent }
+\newlabel{sec:related}{{IX}{7}{Related Work}{section.9}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {X}Conclusion}{7}{section.10}\protected@file@percent }
+\newlabel{sec:conclusion}{{X}{7}{Conclusion}{section.10}{}}
+\newlabel{sec:repro}{{X}{7}{Reproducibility}{section*.1}{}}
+\bibstyle{IEEEtran}
+\bibcite{cisa_kev}{1}
+\bibcite{osv}{2}
+\bibcite{epss}{3}
+\bibcite{cvss31}{4}
+\bibcite{dependabot}{5}
+\bibcite{npm_audit}{6}
+\bibcite{renovate}{7}
+\bibcite{garey_johnson}{8}
+\bibcite{nemhauser78}{9}
+\bibcite{johnson74}{10}
+\bibcite{cbc}{11}
+\bibcite{pulp}{12}
+\bibcite{decan19}{13}
+\bibcite{kikas17}{14}
+\bibcite{spring21}{15}
+\@writefile{toc}{\contentsline {section}{References}{8}{section*.3}\protected@file@percent }
+\gdef \@abspage@last{8}
