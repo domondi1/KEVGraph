@@ -1,0 +1,3714 @@
+[
+  {
+    "owner": "11ty",
+    "repo": "eleventy",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364201+00:00"
+  },
+  {
+    "owner": "15Dkatz",
+    "repo": "official_joke_api",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364213+00:00"
+  },
+  {
+    "owner": "1j01",
+    "repo": "jspaint",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364220+00:00"
+  },
+  {
+    "owner": "AMAI-GmbH",
+    "repo": "AI-Expert-Roadmap",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364224+00:00"
+  },
+  {
+    "owner": "AR-js-org",
+    "repo": "AR.js",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364227+00:00"
+  },
+  {
+    "owner": "Aerolab",
+    "repo": "blockrain.js",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364230+00:00"
+  },
+  {
+    "owner": "ApoorvSaxena",
+    "repo": "lozad.js",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364233+00:00"
+  },
+  {
+    "owner": "ArthurGLCout",
+    "repo": "primeiro-html",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364235+00:00"
+  },
+  {
+    "owner": "Azgaar",
+    "repo": "Fantasy-Map-Generator",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364238+00:00"
+  },
+  {
+    "owner": "BMayhew",
+    "repo": "awesome-sites-to-test-on",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364241+00:00"
+  },
+  {
+    "owner": "BrowserSync",
+    "repo": "browser-sync",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364244+00:00"
+  },
+  {
+    "owner": "Chalarangelo",
+    "repo": "30-seconds-of-interviews",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364249+00:00"
+  },
+  {
+    "owner": "Charca",
+    "repo": "bootbot",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364252+00:00"
+  },
+  {
+    "owner": "CodeGenieApp",
+    "repo": "serverless-express",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364254+00:00"
+  },
+  {
+    "owner": "ConardLi",
+    "repo": "easy-dataset",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364257+00:00"
+  },
+  {
+    "owner": "Countly",
+    "repo": "countly-server",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364260+00:00"
+  },
+  {
+    "owner": "Dash-Industry-Forum",
+    "repo": "dash.js",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364263+00:00"
+  },
+  {
+    "owner": "DavidHDev",
+    "repo": "react-bits",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364290+00:00"
+  },
+  {
+    "owner": "DevExpress",
+    "repo": "testcafe",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364298+00:00"
+  },
+  {
+    "owner": "EddieHubCommunity",
+    "repo": "BioDrop",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364307+00:00"
+  },
+  {
+    "owner": "ElemeFE",
+    "repo": "v-charts",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364312+00:00"
+  },
+  {
+    "owner": "EricSmekens",
+    "repo": "jsep",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364317+00:00"
+  },
+  {
+    "owner": "FilipePS",
+    "repo": "Traduzir-paginas-web",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364327+00:00"
+  },
+  {
+    "owner": "Foundry376",
+    "repo": "Mailspring",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364330+00:00"
+  },
+  {
+    "owner": "FredrikNoren",
+    "repo": "ungit",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364332+00:00"
+  },
+  {
+    "owner": "Gar-b-age",
+    "repo": "CookLikeHOC",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364335+00:00"
+  },
+  {
+    "owner": "GitSquared",
+    "repo": "edex-ui",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364340+00:00"
+  },
+  {
+    "owner": "GoogleChromeLabs",
+    "repo": "ProjectVisBug",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364343+00:00"
+  },
+  {
+    "owner": "GoogleChromeLabs",
+    "repo": "react-adaptive-hooks",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364346+00:00"
+  },
+  {
+    "owner": "GoogleChrome",
+    "repo": "samples",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364348+00:00"
+  },
+  {
+    "owner": "GoogleChrome",
+    "repo": "web-vitals",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364351+00:00"
+  },
+  {
+    "owner": "GoogleChrome",
+    "repo": "workbox",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364353+00:00"
+  },
+  {
+    "owner": "HabitRPG",
+    "repo": "habitica",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364356+00:00"
+  },
+  {
+    "owner": "HashLips",
+    "repo": "hashlips_art_engine",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364359+00:00"
+  },
+  {
+    "owner": "HeyPuter",
+    "repo": "puter",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364361+00:00"
+  },
+  {
+    "owner": "HuddleEng",
+    "repo": "PhantomCSS",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364364+00:00"
+  },
+  {
+    "owner": "Hypfer",
+    "repo": "Valetudo",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364367+00:00"
+  },
+  {
+    "owner": "InSeong-So",
+    "repo": "IT-Note",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364369+00:00"
+  },
+  {
+    "owner": "JackyAndroid",
+    "repo": "AndroidInterview-Q-A",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364372+00:00"
+  },
+  {
+    "owner": "Jackywine",
+    "repo": "Bella",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364375+00:00"
+  },
+  {
+    "owner": "JannisX11",
+    "repo": "blockbench",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364377+00:00"
+  },
+  {
+    "owner": "KartikChugh",
+    "repo": "Otto",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364380+00:00"
+  },
+  {
+    "owner": "Kristories",
+    "repo": "awesome-guidelines",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364382+00:00"
+  },
+  {
+    "owner": "L-ubu",
+    "repo": "Project_V1",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364385+00:00"
+  },
+  {
+    "owner": "Leaflet",
+    "repo": "Leaflet",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364389+00:00"
+  },
+  {
+    "owner": "LibreSpark",
+    "repo": "LibreTV",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364392+00:00"
+  },
+  {
+    "owner": "Lufeeydeveloper",
+    "repo": "Lufeeydeveloper",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364395+00:00"
+  },
+  {
+    "owner": "MagicMirrorOrg",
+    "repo": "MagicMirror",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364397+00:00"
+  },
+  {
+    "owner": "MithrilJS",
+    "repo": "mithril.js",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364400+00:00"
+  },
+  {
+    "owner": "MoOx",
+    "repo": "postcss-cssnext",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364402+00:00"
+  },
+  {
+    "owner": "Modernizr",
+    "repo": "Modernizr",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364409+00:00"
+  },
+  {
+    "owner": "ModusCreateOrg",
+    "repo": "budgeting",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364411+00:00"
+  },
+  {
+    "owner": "MrSwitch",
+    "repo": "hello.js",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364414+00:00"
+  },
+  {
+    "owner": "MrXujiang",
+    "repo": "h5-Dooring",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364416+00:00"
+  },
+  {
+    "owner": "NASAWorldWind",
+    "repo": "WebWorldWind",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364419+00:00"
+  },
+  {
+    "owner": "NaturalNode",
+    "repo": "natural",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364421+00:00"
+  },
+  {
+    "owner": "NervJS",
+    "repo": "nerv",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364424+00:00"
+  },
+  {
+    "owner": "Netflix",
+    "repo": "falcor",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364427+00:00"
+  },
+  {
+    "owner": "OfficeDev",
+    "repo": "Office-Add-in-samples",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364431+00:00"
+  },
+  {
+    "owner": "OnsenUI",
+    "repo": "OnsenUI",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364434+00:00"
+  },
+  {
+    "owner": "OpenSignLabs",
+    "repo": "OpenSign",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364437+00:00"
+  },
+  {
+    "owner": "Pikaday",
+    "repo": "Pikaday",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364439+00:00"
+  },
+  {
+    "owner": "PrismJS",
+    "repo": "prism",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364442+00:00"
+  },
+  {
+    "owner": "RaspberryPiFoundation",
+    "repo": "blockly-samples",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364445+00:00"
+  },
+  {
+    "owner": "RobinHerbots",
+    "repo": "Inputmask",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364447+00:00"
+  },
+  {
+    "owner": "S0nder9",
+    "repo": "Programming-Handbooks",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364513+00:00"
+  },
+  {
+    "owner": "SaekiRaku",
+    "repo": "vscode-rainbow-fart",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364517+00:00"
+  },
+  {
+    "owner": "Sage",
+    "repo": "streamlinejs",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364519+00:00"
+  },
+  {
+    "owner": "SharonKoch",
+    "repo": "govuk-frontend_Demo",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364522+00:00"
+  },
+  {
+    "owner": "Stuk",
+    "repo": "jszip",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364525+00:00"
+  },
+  {
+    "owner": "TalAter",
+    "repo": "annyang",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364527+00:00"
+  },
+  {
+    "owner": "Tencent",
+    "repo": "kbone",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364530+00:00"
+  },
+  {
+    "owner": "TheOdinProject",
+    "repo": "curriculum",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364532+00:00"
+  },
+  {
+    "owner": "ToolJet",
+    "repo": "ToolJet",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364535+00:00"
+  },
+  {
+    "owner": "Unitech",
+    "repo": "pm2",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364538+00:00"
+  },
+  {
+    "owner": "VulcanJS",
+    "repo": "Vulcan",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364544+00:00"
+  },
+  {
+    "owner": "Wei-Shaw",
+    "repo": "claude-relay-service",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364547+00:00"
+  },
+  {
+    "owner": "WickyNilliams",
+    "repo": "headroom.js",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364550+00:00"
+  },
+  {
+    "owner": "WordPress",
+    "repo": "gutenberg",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364553+00:00"
+  },
+  {
+    "owner": "YMFE",
+    "repo": "yapi",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364555+00:00"
+  },
+  {
+    "owner": "a597873885",
+    "repo": "webfunny_monitor",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364558+00:00"
+  },
+  {
+    "owner": "aFarkas",
+    "repo": "lazysizes",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364560+00:00"
+  },
+  {
+    "owner": "aamirafridi",
+    "repo": "jQuery.Marquee",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364563+00:00"
+  },
+  {
+    "owner": "aaronshaf",
+    "repo": "react-toggle",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364565+00:00"
+  },
+  {
+    "owner": "addyosmani",
+    "repo": "critical",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364568+00:00"
+  },
+  {
+    "owner": "adrianhajdin",
+    "repo": "award-winning-website",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364570+00:00"
+  },
+  {
+    "owner": "adrianhajdin",
+    "repo": "project_3D_developer_portfolio",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364573+00:00"
+  },
+  {
+    "owner": "affaan-m",
+    "repo": "everything-claude-code",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364575+00:00"
+  },
+  {
+    "owner": "aframevr",
+    "repo": "aframe",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364578+00:00"
+  },
+  {
+    "owner": "akira-cn",
+    "repo": "FE_You_dont_know",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364581+00:00"
+  },
+  {
+    "owner": "aksakalli",
+    "repo": "gtop",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364583+00:00"
+  },
+  {
+    "owner": "alanshaw",
+    "repo": "david",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364586+00:00"
+  },
+  {
+    "owner": "alphagov",
+    "repo": "govuk-design-system",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364588+00:00"
+  },
+  {
+    "owner": "alphagov",
+    "repo": "govuk-frontend",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364591+00:00"
+  },
+  {
+    "owner": "alyssaxuu",
+    "repo": "screenity",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364594+00:00"
+  },
+  {
+    "owner": "amazon-archives",
+    "repo": "amazon-cognito-identity-js",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364598+00:00"
+  },
+  {
+    "owner": "amejiarosario",
+    "repo": "dsa.js-data-structures-algorithms-javascript",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364601+00:00"
+  },
+  {
+    "owner": "andrepimenta",
+    "repo": "claude-code-chat",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364604+00:00"
+  },
+  {
+    "owner": "angular-fullstack",
+    "repo": "generator-angular-fullstack",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364607+00:00"
+  },
+  {
+    "owner": "anuraghazra",
+    "repo": "github-readme-stats",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364609+00:00"
+  },
+  {
+    "owner": "apache",
+    "repo": "cordova-cli",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364615+00:00"
+  },
+  {
+    "owner": "apache",
+    "repo": "pouchdb",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364618+00:00"
+  },
+  {
+    "owner": "apidoc",
+    "repo": "apidoc",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364620+00:00"
+  },
+  {
+    "owner": "apocas",
+    "repo": "dockerode",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364623+00:00"
+  },
+  {
+    "owner": "apollographql",
+    "repo": "react-apollo",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364625+00:00"
+  },
+  {
+    "owner": "ascoders",
+    "repo": "weekly",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364628+00:00"
+  },
+  {
+    "owner": "assaf",
+    "repo": "zombie",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364630+00:00"
+  },
+  {
+    "owner": "atom",
+    "repo": "atom",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364635+00:00"
+  },
+  {
+    "owner": "atom",
+    "repo": "autocomplete-plus",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364637+00:00"
+  },
+  {
+    "owner": "auduno",
+    "repo": "clmtrackr",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364640+00:00"
+  },
+  {
+    "owner": "aui",
+    "repo": "font-spider",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364643+00:00"
+  },
+  {
+    "owner": "avajs",
+    "repo": "ava",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364645+00:00"
+  },
+  {
+    "owner": "avwo",
+    "repo": "whistle",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364648+00:00"
+  },
+  {
+    "owner": "ayastreb",
+    "repo": "money-tracker",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364650+00:00"
+  },
+  {
+    "owner": "azukaar",
+    "repo": "Cosmos-Server",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364653+00:00"
+  },
+  {
+    "owner": "baidu",
+    "repo": "san",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364655+00:00"
+  },
+  {
+    "owner": "ballercat",
+    "repo": "walt",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364658+00:00"
+  },
+  {
+    "owner": "be5invis",
+    "repo": "Iosevka",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364661+00:00"
+  },
+  {
+    "owner": "beefproject",
+    "repo": "beef",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364663+00:00"
+  },
+  {
+    "owner": "benweet",
+    "repo": "stackedit",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364666+00:00"
+  },
+  {
+    "owner": "bestiejs",
+    "repo": "benchmark.js",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364668+00:00"
+  },
+  {
+    "owner": "bilibili",
+    "repo": "flv.js",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364671+00:00"
+  },
+  {
+    "owner": "blueedgetechno",
+    "repo": "win11React",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364675+00:00"
+  },
+  {
+    "owner": "blueimp",
+    "repo": "JavaScript-MD5",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364678+00:00"
+  },
+  {
+    "owner": "bmad-code-org",
+    "repo": "BMAD-METHOD",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364680+00:00"
+  },
+  {
+    "owner": "bootboxjs",
+    "repo": "bootbox",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364683+00:00"
+  },
+  {
+    "owner": "bowser-js",
+    "repo": "bowser",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364686+00:00"
+  },
+  {
+    "owner": "btford",
+    "repo": "write-good",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364688+00:00"
+  },
+  {
+    "owner": "caolan",
+    "repo": "async",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364691+00:00"
+  },
+  {
+    "owner": "casperjs",
+    "repo": "casperjs",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364694+00:00"
+  },
+  {
+    "owner": "catamphetamine",
+    "repo": "react-phone-number-input",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364696+00:00"
+  },
+  {
+    "owner": "cazala",
+    "repo": "synaptic",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364699+00:00"
+  },
+  {
+    "owner": "ccampbell",
+    "repo": "mousetrap",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364702+00:00"
+  },
+  {
+    "owner": "cferdinandi",
+    "repo": "smooth-scroll",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364704+00:00"
+  },
+  {
+    "owner": "chavyleung",
+    "repo": "scripts",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364707+00:00"
+  },
+  {
+    "owner": "chrisleekr",
+    "repo": "binance-trading-bot",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364709+00:00"
+  },
+  {
+    "owner": "chrisvfritz",
+    "repo": "prerender-spa-plugin",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364712+00:00"
+  },
+  {
+    "owner": "commitizen",
+    "repo": "cz-cli",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364717+00:00"
+  },
+  {
+    "owner": "coryhouse",
+    "repo": "react-slingshot",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364720+00:00"
+  },
+  {
+    "owner": "crsnbrt",
+    "repo": "keysim",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364724+00:00"
+  },
+  {
+    "owner": "cryptpad",
+    "repo": "cryptpad",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364727+00:00"
+  },
+  {
+    "owner": "csstools",
+    "repo": "postcss-font-magician",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364729+00:00"
+  },
+  {
+    "owner": "cure53",
+    "repo": "DOMPurify",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364732+00:00"
+  },
+  {
+    "owner": "cytoscape",
+    "repo": "cytoscape.js",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364734+00:00"
+  },
+  {
+    "owner": "dagrejs",
+    "repo": "dagre",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364737+00:00"
+  },
+  {
+    "owner": "danburzo",
+    "repo": "percollate",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364739+00:00"
+  },
+  {
+    "owner": "dat-ecosystem",
+    "repo": "dat",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364744+00:00"
+  },
+  {
+    "owner": "dataarts",
+    "repo": "dat.gui",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364746+00:00"
+  },
+  {
+    "owner": "davidjbradshaw",
+    "repo": "iframe-resizer",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364749+00:00"
+  },
+  {
+    "owner": "dc-js",
+    "repo": "dc.js",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364752+00:00"
+  },
+  {
+    "owner": "denysdovhan",
+    "repo": "bash-handbook",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364754+00:00"
+  },
+  {
+    "owner": "depcheck",
+    "repo": "depcheck",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364757+00:00"
+  },
+  {
+    "owner": "dequelabs",
+    "repo": "axe-core",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364759+00:00"
+  },
+  {
+    "owner": "desandro",
+    "repo": "imagesloaded",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364762+00:00"
+  },
+  {
+    "owner": "designmodo",
+    "repo": "Flat-UI",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364764+00:00"
+  },
+  {
+    "owner": "dessant",
+    "repo": "buster",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364767+00:00"
+  },
+  {
+    "owner": "developit",
+    "repo": "microbundle",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364769+00:00"
+  },
+  {
+    "owner": "developit",
+    "repo": "redaxios",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364772+00:00"
+  },
+  {
+    "owner": "developit",
+    "repo": "unfetch",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364774+00:00"
+  },
+  {
+    "owner": "devxprite",
+    "repo": "infoooze",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364776+00:00"
+  },
+  {
+    "owner": "dherault",
+    "repo": "serverless-offline",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364779+00:00"
+  },
+  {
+    "owner": "di-sukharev",
+    "repo": "opencommit",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364782+00:00"
+  },
+  {
+    "owner": "digitalocean",
+    "repo": "nginxconfig.io",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364785+00:00"
+  },
+  {
+    "owner": "dimsemenov",
+    "repo": "PhotoSwipe",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364787+00:00"
+  },
+  {
+    "owner": "distillpub",
+    "repo": "template",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364790+00:00"
+  },
+  {
+    "owner": "divamgupta",
+    "repo": "diffusionbee-stable-diffusion-ui",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364793+00:00"
+  },
+  {
+    "owner": "documentationjs",
+    "repo": "documentation",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364795+00:00"
+  },
+  {
+    "owner": "dotenvx",
+    "repo": "dotenvx",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364798+00:00"
+  },
+  {
+    "owner": "draios",
+    "repo": "sysdig-inspect",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364800+00:00"
+  },
+  {
+    "owner": "dropbox",
+    "repo": "dropbox-sdk-js",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364805+00:00"
+  },
+  {
+    "owner": "dscalzi",
+    "repo": "HeliosLauncher",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364807+00:00"
+  },
+  {
+    "owner": "dtjohnson",
+    "repo": "xlsx-populate",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364812+00:00"
+  },
+  {
+    "owner": "duxianwei520",
+    "repo": "react",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364814+00:00"
+  },
+  {
+    "owner": "dyatko",
+    "repo": "arkit",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364817+00:00"
+  },
+  {
+    "owner": "dylang",
+    "repo": "npm-check",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364820+00:00"
+  },
+  {
+    "owner": "dzoba",
+    "repo": "gptrpg",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364822+00:00"
+  },
+  {
+    "owner": "ehmpathy",
+    "repo": "declapract-typescript-ehmpathy",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364825+00:00"
+  },
+  {
+    "owner": "electerm",
+    "repo": "electerm",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364827+00:00"
+  },
+  {
+    "owner": "electron",
+    "repo": "minimal-repro",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364830+00:00"
+  },
+  {
+    "owner": "emn178",
+    "repo": "js-sha256",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364832+00:00"
+  },
+  {
+    "owner": "entropic-dev",
+    "repo": "entropic",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364835+00:00"
+  },
+  {
+    "owner": "eslint-community",
+    "repo": "eslint-plugin-promise",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364839+00:00"
+  },
+  {
+    "owner": "everestpipkin",
+    "repo": "image-scrubber",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364842+00:00"
+  },
+  {
+    "owner": "eyaltoledano",
+    "repo": "claude-task-master",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364845+00:00"
+  },
+  {
+    "owner": "facebook",
+    "repo": "create-react-app",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364847+00:00"
+  },
+  {
+    "owner": "faisalman",
+    "repo": "ua-parser-js",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364850+00:00"
+  },
+  {
+    "owner": "fengyuanchen",
+    "repo": "cropper",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364852+00:00"
+  },
+  {
+    "owner": "fengyuanchen",
+    "repo": "viewerjs",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364855+00:00"
+  },
+  {
+    "owner": "filamentgroup",
+    "repo": "loadCSS",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364857+00:00"
+  },
+  {
+    "owner": "floccusaddon",
+    "repo": "floccus",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364860+00:00"
+  },
+  {
+    "owner": "flot",
+    "repo": "flot",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364863+00:00"
+  },
+  {
+    "owner": "flutterchina",
+    "repo": "flutter-in-action",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364865+00:00"
+  },
+  {
+    "owner": "forwardemail",
+    "repo": "supertest",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364870+00:00"
+  },
+  {
+    "owner": "framework7io",
+    "repo": "framework7",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364872+00:00"
+  },
+  {
+    "owner": "francisrstokes",
+    "repo": "super-expressive",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364875+00:00"
+  },
+  {
+    "owner": "gchq",
+    "repo": "CyberChef",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364878+00:00"
+  },
+  {
+    "owner": "gibber-cc",
+    "repo": "gibber",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364880+00:00"
+  },
+  {
+    "owner": "gildas-lormeau",
+    "repo": "SingleFile",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364883+00:00"
+  },
+  {
+    "owner": "git-tips",
+    "repo": "tips",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364885+00:00"
+  },
+  {
+    "owner": "github",
+    "repo": "awesome-copilot",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364888+00:00"
+  },
+  {
+    "owner": "givanz",
+    "repo": "VvvebJs",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364890+00:00"
+  },
+  {
+    "owner": "glenjamin",
+    "repo": "ultimate-hot-reloading-example",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364893+00:00"
+  },
+  {
+    "owner": "glidejs",
+    "repo": "glide",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364899+00:00"
+  },
+  {
+    "owner": "goabstract",
+    "repo": "Awesome-Design-Tools",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364902+00:00"
+  },
+  {
+    "owner": "golden-layout",
+    "repo": "golden-layout",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364904+00:00"
+  },
+  {
+    "owner": "goofychris",
+    "repo": "art-template",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364907+00:00"
+  },
+  {
+    "owner": "gorhill",
+    "repo": "uBlock",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364909+00:00"
+  },
+  {
+    "owner": "gpujs",
+    "repo": "gpu.js",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364912+00:00"
+  },
+  {
+    "owner": "graphql",
+    "repo": "graphql-spec",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364914+00:00"
+  },
+  {
+    "owner": "greatsuspender",
+    "repo": "thegreatsuspender",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364917+00:00"
+  },
+  {
+    "owner": "gsd-build",
+    "repo": "get-shit-done",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364920+00:00"
+  },
+  {
+    "owner": "guidone",
+    "repo": "node-red-contrib-chatbot",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364922+00:00"
+  },
+  {
+    "owner": "h5bp",
+    "repo": "html5-boilerplate",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364925+00:00"
+  },
+  {
+    "owner": "hackmdio",
+    "repo": "codimd",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364927+00:00"
+  },
+  {
+    "owner": "hakimel",
+    "repo": "reveal.js",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364930+00:00"
+  },
+  {
+    "owner": "heyman",
+    "repo": "heynote",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364933+00:00"
+  },
+  {
+    "owner": "highlightjs",
+    "repo": "highlight.js",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364935+00:00"
+  },
+  {
+    "owner": "hound-search",
+    "repo": "hound",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364938+00:00"
+  },
+  {
+    "owner": "hubotio",
+    "repo": "hubot",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364940+00:00"
+  },
+  {
+    "owner": "humanwhocodes",
+    "repo": "computer-science-in-javascript",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364943+00:00"
+  },
+  {
+    "owner": "i18next",
+    "repo": "i18next-browser-languageDetector",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364949+00:00"
+  },
+  {
+    "owner": "i18next",
+    "repo": "react-i18next",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364952+00:00"
+  },
+  {
+    "owner": "iamkun",
+    "repo": "dayjs",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364955+00:00"
+  },
+  {
+    "owner": "illuspas",
+    "repo": "Node-Media-Server",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364957+00:00"
+  },
+  {
+    "owner": "imba",
+    "repo": "imba",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364960+00:00"
+  },
+  {
+    "owner": "imfunniee",
+    "repo": "gitfolio",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364962+00:00"
+  },
+  {
+    "owner": "imgix",
+    "repo": "imgix.js",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364965+00:00"
+  },
+  {
+    "owner": "impress",
+    "repo": "impress.js",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364968+00:00"
+  },
+  {
+    "owner": "indexeddbshim",
+    "repo": "IndexedDBShim",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364970+00:00"
+  },
+  {
+    "owner": "infernojs",
+    "repo": "inferno",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364973+00:00"
+  },
+  {
+    "owner": "ipfs",
+    "repo": "awesome-ipfs",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364975+00:00"
+  },
+  {
+    "owner": "istanbuljs",
+    "repo": "nyc",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364978+00:00"
+  },
+  {
+    "owner": "jackmoore",
+    "repo": "autosize",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364980+00:00"
+  },
+  {
+    "owner": "jackocnr",
+    "repo": "intl-tel-input",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364983+00:00"
+  },
+  {
+    "owner": "jagenjo",
+    "repo": "litegraph.js",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364987+00:00"
+  },
+  {
+    "owner": "jakearchibald",
+    "repo": "svgomg",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364990+00:00"
+  },
+  {
+    "owner": "jakesgordon",
+    "repo": "javascript-state-machine",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364992+00:00"
+  },
+  {
+    "owner": "jalaali",
+    "repo": "moment-jalaali",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364995+00:00"
+  },
+  {
+    "owner": "jaredhanson",
+    "repo": "passport-http-bearer",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.364998+00:00"
+  },
+  {
+    "owner": "jaredreich",
+    "repo": "notie",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365000+00:00"
+  },
+  {
+    "owner": "jaredreich",
+    "repo": "pell",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365003+00:00"
+  },
+  {
+    "owner": "jashkenas",
+    "repo": "backbone",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365005+00:00"
+  },
+  {
+    "owner": "jashkenas",
+    "repo": "underscore",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365008+00:00"
+  },
+  {
+    "owner": "javve",
+    "repo": "list.js",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365010+00:00"
+  },
+  {
+    "owner": "jdan",
+    "repo": "tota11y",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365014+00:00"
+  },
+  {
+    "owner": "jerosoler",
+    "repo": "Drawflow",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365016+00:00"
+  },
+  {
+    "owner": "jezen",
+    "repo": "is-thirteen",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365021+00:00"
+  },
+  {
+    "owner": "jfhbrook",
+    "repo": "node-ecstatic",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365023+00:00"
+  },
+  {
+    "owner": "jhuckaby",
+    "repo": "Cronicle",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365026+00:00"
+  },
+  {
+    "owner": "jimhigson",
+    "repo": "oboe.js",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365029+00:00"
+  },
+  {
+    "owner": "joaonuno",
+    "repo": "tree-model-js",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365031+00:00"
+  },
+  {
+    "owner": "joemccann",
+    "repo": "dillinger",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365034+00:00"
+  },
+  {
+    "owner": "johnfactotum",
+    "repo": "foliate",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365036+00:00"
+  },
+  {
+    "owner": "josdejong",
+    "repo": "jsoneditor",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365039+00:00"
+  },
+  {
+    "owner": "josdejong",
+    "repo": "mathjs",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365041+00:00"
+  },
+  {
+    "owner": "jquery-form",
+    "repo": "form",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365044+00:00"
+  },
+  {
+    "owner": "jquery",
+    "repo": "jquery-ui",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365046+00:00"
+  },
+  {
+    "owner": "jquery",
+    "repo": "jquery",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365049+00:00"
+  },
+  {
+    "owner": "js-cookie",
+    "repo": "js-cookie",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365051+00:00"
+  },
+  {
+    "owner": "jsdoc",
+    "repo": "jsdoc",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365054+00:00"
+  },
+  {
+    "owner": "jshint",
+    "repo": "jshint",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365056+00:00"
+  },
+  {
+    "owner": "json-editor",
+    "repo": "json-editor",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365059+00:00"
+  },
+  {
+    "owner": "json-schema-org",
+    "repo": "json-schema-spec",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365061+00:00"
+  },
+  {
+    "owner": "json5",
+    "repo": "json5",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365064+00:00"
+  },
+  {
+    "owner": "jsonresume",
+    "repo": "resume-cli",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365067+00:00"
+  },
+  {
+    "owner": "jtydhr88",
+    "repo": "ComfyUI-qwenmultiangle",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365071+00:00"
+  },
+  {
+    "owner": "juliangarnier",
+    "repo": "anime",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365075+00:00"
+  },
+  {
+    "owner": "justlovemaki",
+    "repo": "AIClient-2-API",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365078+00:00"
+  },
+  {
+    "owner": "kangax",
+    "repo": "html-minifier",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365080+00:00"
+  },
+  {
+    "owner": "kefranabg",
+    "repo": "readme-md-generator",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365083+00:00"
+  },
+  {
+    "owner": "koajs",
+    "repo": "koa",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365085+00:00"
+  },
+  {
+    "owner": "koush",
+    "repo": "electron-chrome",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365088+00:00"
+  },
+  {
+    "owner": "krausest",
+    "repo": "js-framework-benchmark",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365092+00:00"
+  },
+  {
+    "owner": "krisk",
+    "repo": "Fuse",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365095+00:00"
+  },
+  {
+    "owner": "l0o0",
+    "repo": "translators_CN",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365098+00:00"
+  },
+  {
+    "owner": "laravel-mix",
+    "repo": "laravel-mix",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365101+00:00"
+  },
+  {
+    "owner": "larsenwork",
+    "repo": "postcss-easing-gradients",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365103+00:00"
+  },
+  {
+    "owner": "layui",
+    "repo": "layui",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365106+00:00"
+  },
+  {
+    "owner": "leaningtech",
+    "repo": "webvm",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365108+00:00"
+  },
+  {
+    "owner": "lebab",
+    "repo": "lebab",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365111+00:00"
+  },
+  {
+    "owner": "leonardomso",
+    "repo": "33-js-concepts",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365113+00:00"
+  },
+  {
+    "owner": "liabru",
+    "repo": "matter-js",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365116+00:00"
+  },
+  {
+    "owner": "lindell",
+    "repo": "JsBarcode",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365118+00:00"
+  },
+  {
+    "owner": "lint-staged",
+    "repo": "lint-staged",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365121+00:00"
+  },
+  {
+    "owner": "listen1",
+    "repo": "listen1_chrome_extension",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365123+00:00"
+  },
+  {
+    "owner": "listen1",
+    "repo": "listen1_desktop",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365126+00:00"
+  },
+  {
+    "owner": "livebud",
+    "repo": "bud",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365128+00:00"
+  },
+  {
+    "owner": "liyupi",
+    "repo": "ai-guide",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365131+00:00"
+  },
+  {
+    "owner": "lockfale",
+    "repo": "OSINT-Framework",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365134+00:00"
+  },
+  {
+    "owner": "lodash",
+    "repo": "lodash",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365137+00:00"
+  },
+  {
+    "owner": "log4js-node",
+    "repo": "log4js-node",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365139+00:00"
+  },
+  {
+    "owner": "loiane",
+    "repo": "javascript-datastructures-algorithms",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365142+00:00"
+  },
+  {
+    "owner": "lokesh",
+    "repo": "color-thief",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365144+00:00"
+  },
+  {
+    "owner": "lokesh",
+    "repo": "lightbox2",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365147+00:00"
+  },
+  {
+    "owner": "lrsjng",
+    "repo": "h5ai",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365149+00:00"
+  },
+  {
+    "owner": "luin",
+    "repo": "medis",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365152+00:00"
+  },
+  {
+    "owner": "lutzroeder",
+    "repo": "netron",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365154+00:00"
+  },
+  {
+    "owner": "lvarayut",
+    "repo": "relay-fullstack",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365157+00:00"
+  },
+  {
+    "owner": "mandatoryprogrammer",
+    "repo": "thermoptic",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365162+00:00"
+  },
+  {
+    "owner": "marcelscruz",
+    "repo": "public-apis",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365166+00:00"
+  },
+  {
+    "owner": "margox",
+    "repo": "braft-editor",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365169+00:00"
+  },
+  {
+    "owner": "marko-js",
+    "repo": "marko",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365171+00:00"
+  },
+  {
+    "owner": "markodenic",
+    "repo": "web-development-resources",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365174+00:00"
+  },
+  {
+    "owner": "marmelab",
+    "repo": "gremlins.js",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365176+00:00"
+  },
+  {
+    "owner": "mattboldt",
+    "repo": "typed.js",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365179+00:00"
+  },
+  {
+    "owner": "mattdesl",
+    "repo": "canvas-sketch",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365182+00:00"
+  },
+  {
+    "owner": "maxwellito",
+    "repo": "vivus",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365186+00:00"
+  },
+  {
+    "owner": "mediaelement",
+    "repo": "mediaelement",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365189+00:00"
+  },
+  {
+    "owner": "memochou1993",
+    "repo": "gpt-ai-assistant",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365191+00:00"
+  },
+  {
+    "owner": "metafizzy",
+    "repo": "flickity",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365194+00:00"
+  },
+  {
+    "owner": "metafizzy",
+    "repo": "zdog",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365196+00:00"
+  },
+  {
+    "owner": "metalsmith",
+    "repo": "metalsmith",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365199+00:00"
+  },
+  {
+    "owner": "metarhia",
+    "repo": "impress",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365201+00:00"
+  },
+  {
+    "owner": "meteor",
+    "repo": "meteor",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365204+00:00"
+  },
+  {
+    "owner": "metowolf",
+    "repo": "vCards",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365206+00:00"
+  },
+  {
+    "owner": "microsoft",
+    "repo": "vscode",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365209+00:00"
+  },
+  {
+    "owner": "mikaelbr",
+    "repo": "node-notifier",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365211+00:00"
+  },
+  {
+    "owner": "ml5js",
+    "repo": "ml5-library",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365214+00:00"
+  },
+  {
+    "owner": "mochajs",
+    "repo": "mocha",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365216+00:00"
+  },
+  {
+    "owner": "moment",
+    "repo": "moment",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365219+00:00"
+  },
+  {
+    "owner": "motdotla",
+    "repo": "dotenv",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365222+00:00"
+  },
+  {
+    "owner": "mozilla",
+    "repo": "readability",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365224+00:00"
+  },
+  {
+    "owner": "mroderick",
+    "repo": "PubSubJS",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365227+00:00"
+  },
+  {
+    "owner": "myliang",
+    "repo": "x-spreadsheet",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365229+00:00"
+  },
+  {
+    "owner": "nadbm",
+    "repo": "react-datasheet",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365232+00:00"
+  },
+  {
+    "owner": "ndelvalle",
+    "repo": "v-click-outside",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365236+00:00"
+  },
+  {
+    "owner": "necolas",
+    "repo": "react-native-web",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365239+00:00"
+  },
+  {
+    "owner": "needim",
+    "repo": "noty",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365242+00:00"
+  },
+  {
+    "owner": "nestcn",
+    "repo": "docs.nestjs.cn",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365244+00:00"
+  },
+  {
+    "owner": "neuland",
+    "repo": "micro-frontends",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365249+00:00"
+  },
+  {
+    "owner": "nextapps-de",
+    "repo": "flexsearch",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365251+00:00"
+  },
+  {
+    "owner": "nextcloud",
+    "repo": "mail",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365254+00:00"
+  },
+  {
+    "owner": "nfl",
+    "repo": "react-helmet",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365256+00:00"
+  },
+  {
+    "owner": "node-config",
+    "repo": "node-config",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365259+00:00"
+  },
+  {
+    "owner": "nodegit",
+    "repo": "nodegit",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365261+00:00"
+  },
+  {
+    "owner": "nodemailer",
+    "repo": "nodemailer",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365264+00:00"
+  },
+  {
+    "owner": "nosir",
+    "repo": "cleave.js",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365297+00:00"
+  },
+  {
+    "owner": "notion-enhancer",
+    "repo": "notion-enhancer",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365301+00:00"
+  },
+  {
+    "owner": "notwaldorf",
+    "repo": "tiny-care-terminal",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365303+00:00"
+  },
+  {
+    "owner": "npm",
+    "repo": "cli",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365306+00:00"
+  },
+  {
+    "owner": "nttgin",
+    "repo": "BGPalerter",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365309+00:00"
+  },
+  {
+    "owner": "octokatherine",
+    "repo": "readme.so",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365312+00:00"
+  },
+  {
+    "owner": "oldboyxx",
+    "repo": "jira_clone",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365314+00:00"
+  },
+  {
+    "owner": "olton",
+    "repo": "metroui",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365317+00:00"
+  },
+  {
+    "owner": "opencx-labs",
+    "repo": "OpenChat",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365319+00:00"
+  },
+  {
+    "owner": "orbitdb",
+    "repo": "orbitdb",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365322+00:00"
+  },
+  {
+    "owner": "os-js",
+    "repo": "OS.js",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365324+00:00"
+  },
+  {
+    "owner": "ossf",
+    "repo": "wg-best-practices-os-developers",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365327+00:00"
+  },
+  {
+    "owner": "pahen",
+    "repo": "madge",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365332+00:00"
+  },
+  {
+    "owner": "paschmann",
+    "repo": "rasa-ui",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365335+00:00"
+  },
+  {
+    "owner": "peaksandpies",
+    "repo": "universal-analytics",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365338+00:00"
+  },
+  {
+    "owner": "phaserjs",
+    "repo": "phaser",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365340+00:00"
+  },
+  {
+    "owner": "pickle-com",
+    "repo": "glass",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365345+00:00"
+  },
+  {
+    "owner": "piskelapp",
+    "repo": "piskel",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365347+00:00"
+  },
+  {
+    "owner": "pistazie",
+    "repo": "cdk-dia",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365350+00:00"
+  },
+  {
+    "owner": "plankanban",
+    "repo": "planka",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365352+00:00"
+  },
+  {
+    "owner": "playcanvas",
+    "repo": "engine",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365355+00:00"
+  },
+  {
+    "owner": "postmanlabs",
+    "repo": "newman",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365357+00:00"
+  },
+  {
+    "owner": "potree",
+    "repo": "potree",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365360+00:00"
+  },
+  {
+    "owner": "pouchdb",
+    "repo": "pouchdb-server",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365362+00:00"
+  },
+  {
+    "owner": "pqina",
+    "repo": "filepond",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365365+00:00"
+  },
+  {
+    "owner": "preactjs",
+    "repo": "preact",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365371+00:00"
+  },
+  {
+    "owner": "processing",
+    "repo": "p5.js",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365374+00:00"
+  },
+  {
+    "owner": "projectfluent",
+    "repo": "fluent.js",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365376+00:00"
+  },
+  {
+    "owner": "prose",
+    "repo": "prose",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365379+00:00"
+  },
+  {
+    "owner": "puppeteer",
+    "repo": "puppeteer",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365382+00:00"
+  },
+  {
+    "owner": "pure-css",
+    "repo": "pure",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365384+00:00"
+  },
+  {
+    "owner": "purifycss",
+    "repo": "purifycss",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365387+00:00"
+  },
+  {
+    "owner": "qeeqbox",
+    "repo": "social-analyzer",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365389+00:00"
+  },
+  {
+    "owner": "qishibo",
+    "repo": "AnotherRedisDesktopManager",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365392+00:00"
+  },
+  {
+    "owner": "rastapasta",
+    "repo": "mapscii",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365395+00:00"
+  },
+  {
+    "owner": "react-boilerplate",
+    "repo": "react-boilerplate",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365398+00:00"
+  },
+  {
+    "owner": "react-ga",
+    "repo": "react-ga",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365400+00:00"
+  },
+  {
+    "owner": "react-syntax-highlighter",
+    "repo": "react-syntax-highlighter",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365403+00:00"
+  },
+  {
+    "owner": "redux-form",
+    "repo": "redux-form",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365406+00:00"
+  },
+  {
+    "owner": "release-it",
+    "repo": "release-it",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365408+00:00"
+  },
+  {
+    "owner": "remix-run",
+    "repo": "history",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365411+00:00"
+  },
+  {
+    "owner": "remoteinterview",
+    "repo": "zero",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365413+00:00"
+  },
+  {
+    "owner": "remy",
+    "repo": "nodemon",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365416+00:00"
+  },
+  {
+    "owner": "reorproject",
+    "repo": "reor",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365420+00:00"
+  },
+  {
+    "owner": "riot",
+    "repo": "riot",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365423+00:00"
+  },
+  {
+    "owner": "rollup",
+    "repo": "rollup-starter-lib",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365426+00:00"
+  },
+  {
+    "owner": "romannurik",
+    "repo": "AndroidAssetStudio",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365428+00:00"
+  },
+  {
+    "owner": "rwaldron",
+    "repo": "johnny-five",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365431+00:00"
+  },
+  {
+    "owner": "salesforce",
+    "repo": "design-system-react",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365433+00:00"
+  },
+  {
+    "owner": "santinic",
+    "repo": "how2",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365436+00:00"
+  },
+  {
+    "owner": "schlagmichdoch",
+    "repo": "PairDrop",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365439+00:00"
+  },
+  {
+    "owner": "scratchfoundation",
+    "repo": "scratch-gui",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365441+00:00"
+  },
+  {
+    "owner": "seanprashad",
+    "repo": "leetcode-patterns",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365444+00:00"
+  },
+  {
+    "owner": "select2",
+    "repo": "select2",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365447+00:00"
+  },
+  {
+    "owner": "semantic-release",
+    "repo": "semantic-release",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365449+00:00"
+  },
+  {
+    "owner": "serverless",
+    "repo": "examples",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365453+00:00"
+  },
+  {
+    "owner": "serverless",
+    "repo": "plugins",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365455+00:00"
+  },
+  {
+    "owner": "serverless",
+    "repo": "serverless",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365462+00:00"
+  },
+  {
+    "owner": "shaka-project",
+    "repo": "shaka-player",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365465+00:00"
+  },
+  {
+    "owner": "shelljs",
+    "repo": "shelljs",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365467+00:00"
+  },
+  {
+    "owner": "showdownjs",
+    "repo": "showdown",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365471+00:00"
+  },
+  {
+    "owner": "sigalor",
+    "repo": "whatsapp-web-reveng",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365473+00:00"
+  },
+  {
+    "owner": "simple-icons",
+    "repo": "simple-icons",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365476+00:00"
+  },
+  {
+    "owner": "simplesmiler",
+    "repo": "vue-clickaway",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365478+00:00"
+  },
+  {
+    "owner": "sinonjs",
+    "repo": "sinon",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365481+00:00"
+  },
+  {
+    "owner": "sintaxi",
+    "repo": "harp",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365484+00:00"
+  },
+  {
+    "owner": "snapappointments",
+    "repo": "bootstrap-select",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365486+00:00"
+  },
+  {
+    "owner": "sockjs",
+    "repo": "sockjs-client",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365489+00:00"
+  },
+  {
+    "owner": "someshkar",
+    "repo": "covid19india-cluster",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365491+00:00"
+  },
+  {
+    "owner": "soumyajit4419",
+    "repo": "Portfolio",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365494+00:00"
+  },
+  {
+    "owner": "spencermountain",
+    "repo": "compromise",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365497+00:00"
+  },
+  {
+    "owner": "spiermar",
+    "repo": "d3-flame-graph",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365499+00:00"
+  },
+  {
+    "owner": "statsd",
+    "repo": "statsd",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365502+00:00"
+  },
+  {
+    "owner": "steffest",
+    "repo": "DPaint-js",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365506+00:00"
+  },
+  {
+    "owner": "style-dictionary",
+    "repo": "style-dictionary",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365509+00:00"
+  },
+  {
+    "owner": "stylelint",
+    "repo": "stylelint",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365512+00:00"
+  },
+  {
+    "owner": "sudheerj",
+    "repo": "ECMAScript-features",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365514+00:00"
+  },
+  {
+    "owner": "sunniejs",
+    "repo": "sol-weapp",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365517+00:00"
+  },
+  {
+    "owner": "sverweij",
+    "repo": "dependency-cruiser",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365519+00:00"
+  },
+  {
+    "owner": "svgdotjs",
+    "repo": "svg.js",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365522+00:00"
+  },
+  {
+    "owner": "tailwindlabs",
+    "repo": "heroicons",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365525+00:00"
+  },
+  {
+    "owner": "tailwindlabs",
+    "repo": "tailwindcss-typography",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365528+00:00"
+  },
+  {
+    "owner": "tangbc",
+    "repo": "vue-virtual-scroll-list",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365530+00:00"
+  },
+  {
+    "owner": "techfort",
+    "repo": "LokiJS",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365534+00:00"
+  },
+  {
+    "owner": "tengbao",
+    "repo": "vanta",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365536+00:00"
+  },
+  {
+    "owner": "terkelg",
+    "repo": "prompts",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365539+00:00"
+  },
+  {
+    "owner": "terser",
+    "repo": "terser",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365541+00:00"
+  },
+  {
+    "owner": "testdouble",
+    "repo": "scripty",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365544+00:00"
+  },
+  {
+    "owner": "thomaspark",
+    "repo": "bootswatch",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365546+00:00"
+  },
+  {
+    "owner": "thomaspark",
+    "repo": "flexboxfroggy",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365551+00:00"
+  },
+  {
+    "owner": "toji",
+    "repo": "gl-matrix",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365553+00:00"
+  },
+  {
+    "owner": "transitive-bullshit",
+    "repo": "create-react-library",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365557+00:00"
+  },
+  {
+    "owner": "travist",
+    "repo": "jsencrypt",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365559+00:00"
+  },
+  {
+    "owner": "tvkhoa",
+    "repo": "react-tippy",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365562+00:00"
+  },
+  {
+    "owner": "typicode",
+    "repo": "hotel",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365566+00:00"
+  },
+  {
+    "owner": "typicode",
+    "repo": "husky",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365569+00:00"
+  },
+  {
+    "owner": "typicode",
+    "repo": "lowdb",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365571+00:00"
+  },
+  {
+    "owner": "uncss",
+    "repo": "uncss",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365575+00:00"
+  },
+  {
+    "owner": "up-for-grabs",
+    "repo": "up-for-grabs.net",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365577+00:00"
+  },
+  {
+    "owner": "usebruno",
+    "repo": "bruno",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365580+00:00"
+  },
+  {
+    "owner": "ustbhuangyi",
+    "repo": "vue-analysis",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365582+00:00"
+  },
+  {
+    "owner": "vakata",
+    "repo": "jstree",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365585+00:00"
+  },
+  {
+    "owner": "verlok",
+    "repo": "vanilla-lazyload",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365587+00:00"
+  },
+  {
+    "owner": "videojs",
+    "repo": "video.js",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365592+00:00"
+  },
+  {
+    "owner": "wagerfield",
+    "repo": "parallax",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365594+00:00"
+  },
+  {
+    "owner": "webpack",
+    "repo": "enhanced-resolve",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365597+00:00"
+  },
+  {
+    "owner": "webpack",
+    "repo": "less-loader",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365599+00:00"
+  },
+  {
+    "owner": "webpack",
+    "repo": "mini-css-extract-plugin",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365602+00:00"
+  },
+  {
+    "owner": "webpack",
+    "repo": "webpack-bundle-analyzer",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365605+00:00"
+  },
+  {
+    "owner": "webpack",
+    "repo": "webpack-dev-server",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365607+00:00"
+  },
+  {
+    "owner": "webslides",
+    "repo": "WebSlides",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365610+00:00"
+  },
+  {
+    "owner": "webtorrent",
+    "repo": "webtorrent-desktop",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365612+00:00"
+  },
+  {
+    "owner": "wekan",
+    "repo": "wekan",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365615+00:00"
+  },
+  {
+    "owner": "wesbos",
+    "repo": "awesome-uses",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365617+00:00"
+  },
+  {
+    "owner": "winstonjs",
+    "repo": "winston",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365620+00:00"
+  },
+  {
+    "owner": "xanderfrangos",
+    "repo": "twinkle-tray",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365622+00:00"
+  },
+  {
+    "owner": "yaronn",
+    "repo": "blessed-contrib",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365625+00:00"
+  },
+  {
+    "owner": "ygs-code",
+    "repo": "vue",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365628+00:00"
+  },
+  {
+    "owner": "you-dont-need",
+    "repo": "You-Dont-Need-Lodash-Underscore",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365630+00:00"
+  },
+  {
+    "owner": "you-dont-need",
+    "repo": "You-Dont-Need-Momentjs",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365633+00:00"
+  },
+  {
+    "owner": "zen-browser",
+    "repo": "desktop",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365637+00:00"
+  },
+  {
+    "owner": "zenorocha",
+    "repo": "clipboard.js",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365640+00:00"
+  },
+  {
+    "owner": "zhaoolee",
+    "repo": "ChineseBQB",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365642+00:00"
+  },
+  {
+    "owner": "zhaoolee",
+    "repo": "ChromeAppHeroes",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365645+00:00"
+  },
+  {
+    "owner": "zhukov",
+    "repo": "webogram",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365648+00:00"
+  },
+  {
+    "owner": "zhw2590582",
+    "repo": "SubPlayer",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365650+00:00"
+  },
+  {
+    "owner": "ziahamza",
+    "repo": "webui-aria2",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365653+00:00"
+  },
+  {
+    "owner": "zloirock",
+    "repo": "core-js",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-13T17:24:49.365655+00:00"
+  }
+]
