@@ -27,7 +27,7 @@
     "fixed_version": "21.2.0",
     "severity_type": "CVSS_V3",
     "severity_score": 6.1,
-    "epss_score": 0.0004,
+    "epss_score": 0.00044,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -44,7 +44,7 @@
     "fixed_version": "2.1.7",
     "severity_type": "",
     "severity_score": 0.0,
-    "epss_score": 0.00058,
+    "epss_score": 0.00064,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -61,7 +61,7 @@
     "fixed_version": "2.1.2",
     "severity_type": "",
     "severity_score": 0.0,
-    "epss_score": 0.00056,
+    "epss_score": 0.00061,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -78,7 +78,7 @@
     "fixed_version": "2.0.65",
     "severity_type": "",
     "severity_score": 0.0,
-    "epss_score": 0.00048,
+    "epss_score": 0.00024,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -95,7 +95,7 @@
     "fixed_version": "2.0.74",
     "severity_type": "",
     "severity_score": 0.0,
-    "epss_score": 0.00017,
+    "epss_score": 0.00019,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -112,11 +112,28 @@
     "fixed_version": "2.0.72",
     "severity_type": "",
     "severity_score": 0.0,
-    "epss_score": 0.00039,
+    "epss_score": 0.00045,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
     "summary": "Claude Code has a Command Injection in find Command Bypasses User Approval Prompt"
+  },
+  "GHSA-rfx7-4xw3-gh4m": {
+    "vuln_id": "GHSA-rfx7-4xw3-gh4m",
+    "aliases": [
+      "CVE-2026-30973"
+    ],
+    "package": "@appium/support",
+    "ecosystem": "npm",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '7.0.6'}]",
+    "fixed_version": "7.0.6",
+    "severity_type": "CVSS_V3",
+    "severity_score": 6.5,
+    "epss_score": 0.00042,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "@appium/support has a Zip Slip arbitrary file write in its ZIP extraction"
   },
   "GHSA-rrc9-gqf8-8rwg": {
     "vuln_id": "GHSA-rrc9-gqf8-8rwg",
@@ -189,7 +206,8 @@
   "GHSA-hqq7-2q2v-82xq": {
     "vuln_id": "GHSA-hqq7-2q2v-82xq",
     "aliases": [
-      "CVE-2021-23648"
+      "CVE-2021-23648",
+      "SNYK-JS-BRAINTREESANITIZEURL-2339882"
     ],
     "package": "@braintree/sanitize-url",
     "ecosystem": "npm",
@@ -214,11 +232,28 @@
     "fixed_version": "6.0.1",
     "severity_type": "CVSS_V3",
     "severity_score": 6.1,
-    "epss_score": 0.00691,
+    "epss_score": 0.00582,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
     "summary": "@braintree/sanitize-url Cross-site Scripting vulnerability"
+  },
+  "GHSA-jrqm-vmqc-gm93": {
+    "vuln_id": "GHSA-jrqm-vmqc-gm93",
+    "aliases": [
+      "CVE-2026-28343"
+    ],
+    "package": "@ckeditor/ckeditor5-html-support",
+    "ecosystem": "npm",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '47.6.0'}]",
+    "fixed_version": "47.6.0",
+    "severity_type": "CVSS_V3",
+    "severity_score": 5.5,
+    "epss_score": 0.00048,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "CKEditor 5 has Cross-site Scripting (XSS) in the HTML Support package"
   },
   "GHSA-p8p7-x288-28g6": {
     "vuln_id": "GHSA-p8p7-x288-28g6",
@@ -231,7 +266,7 @@
     "fixed_version": "3.0.0",
     "severity_type": "CVSS_V3",
     "severity_score": 6.1,
-    "epss_score": 0.0056,
+    "epss_score": 0.00576,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -285,6 +320,23 @@
     "kev_date_added": "",
     "kev_due_date": "",
     "summary": "@grpc/grpc-js can allocate memory for incoming messages well above configured limits"
+  },
+  "GHSA-wc8c-qw6v-h7f6": {
+    "vuln_id": "GHSA-wc8c-qw6v-h7f6",
+    "aliases": [
+      "CVE-2026-29087"
+    ],
+    "package": "@hono/node-server",
+    "ecosystem": "npm",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '1.19.10'}]",
+    "fixed_version": "1.19.10",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.00042,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "@hono/node-server has authorization bypass for protected static paths via encoded slashes in Serve Static Middleware"
   },
   "GHSA-p2ph-7g93-hw3m": {
     "vuln_id": "GHSA-p2ph-7g93-hw3m",
@@ -365,7 +417,7 @@
     "fixed_version": "5.0.1",
     "severity_type": "",
     "severity_score": 0.0,
-    "epss_score": 0.00018,
+    "epss_score": 0.00019,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -433,7 +485,7 @@
     "fixed_version": "1.1.18",
     "severity_type": "CVSS_V3",
     "severity_score": 3.4,
-    "epss_score": 0.00031,
+    "epss_score": 0.00032,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -450,7 +502,7 @@
     "fixed_version": "1.1.8",
     "severity_type": "CVSS_V3",
     "severity_score": 8.6,
-    "epss_score": 0.00045,
+    "epss_score": 0.00047,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -467,7 +519,7 @@
     "fixed_version": "3.0.2",
     "severity_type": "CVSS_V3",
     "severity_score": 5.3,
-    "epss_score": 0.001,
+    "epss_score": 0.00114,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -484,7 +536,7 @@
     "fixed_version": "1.26.0",
     "severity_type": "CVSS_V3",
     "severity_score": 7.1,
-    "epss_score": 0.00011,
+    "epss_score": 0.00012,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -518,7 +570,7 @@
     "fixed_version": "1.24.0",
     "severity_type": "",
     "severity_score": 0.0,
-    "epss_score": 0.00037,
+    "epss_score": 0.00029,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -637,7 +689,7 @@
     "fixed_version": "2.17.2",
     "severity_type": "CVSS_V3",
     "severity_score": 9.1,
-    "epss_score": 0.00037,
+    "epss_score": 0.00026,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -775,6 +827,23 @@
     "kev_due_date": "",
     "summary": "SvelteKit is vulnerable to denial of service and possible SSRF when using prerendering"
   },
+  "GHSA-vpq2-c234-7xj6": {
+    "vuln_id": "GHSA-vpq2-c234-7xj6",
+    "aliases": [
+      "CVE-2026-3449"
+    ],
+    "package": "@tootallnate/once",
+    "ecosystem": "npm",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '3.0.1'}]",
+    "fixed_version": "3.0.1",
+    "severity_type": "CVSS_V3",
+    "severity_score": 3.3,
+    "epss_score": 0.00013,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "@tootallnate/once vulnerable to Incorrect Control Flow Scoping"
+  },
   "GHSA-6chw-6frg-f759": {
     "vuln_id": "GHSA-6chw-6frg-f759",
     "aliases": [],
@@ -801,7 +870,7 @@
     "fixed_version": "5.0.52",
     "severity_type": "CVSS_V3",
     "severity_score": 3.7,
-    "epss_score": 0.00116,
+    "epss_score": 0.00165,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -818,7 +887,7 @@
     "fixed_version": "8.18.0",
     "severity_type": "",
     "severity_score": 0.0,
-    "epss_score": 0.00069,
+    "epss_score": 0.00055,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -852,7 +921,7 @@
     "fixed_version": "3.11.2",
     "severity_type": "CVSS_V3",
     "severity_score": 5.9,
-    "epss_score": 0.00098,
+    "epss_score": 0.00123,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -927,7 +996,8 @@
   "GHSA-89mq-4x47-5v83": {
     "vuln_id": "GHSA-89mq-4x47-5v83",
     "aliases": [
-      "CVE-2019-10768"
+      "CVE-2019-10768",
+      "SNYK-JS-ANGULAR-534884"
     ],
     "package": "angular",
     "ecosystem": "npm",
@@ -952,7 +1022,7 @@
     "fixed_version": null,
     "severity_type": "CVSS_V3",
     "severity_score": 4.8,
-    "epss_score": 0.00057,
+    "epss_score": 0.00048,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -969,7 +1039,7 @@
     "fixed_version": null,
     "severity_type": "CVSS_V3",
     "severity_score": 4.8,
-    "epss_score": 0.00018,
+    "epss_score": 0.00015,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -978,7 +1048,8 @@
   "GHSA-mhp6-pxh8-r675": {
     "vuln_id": "GHSA-mhp6-pxh8-r675",
     "aliases": [
-      "CVE-2020-7676"
+      "CVE-2020-7676",
+      "SNYK-JS-ANGULAR-570058"
     ],
     "package": "angular",
     "ecosystem": "npm",
@@ -1154,7 +1225,7 @@
     "fixed_version": null,
     "severity_type": "CVSS_V3",
     "severity_score": 7.5,
-    "epss_score": 0.00056,
+    "epss_score": 0.00061,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -1233,7 +1304,7 @@
     "fixed_version": "5.0.8",
     "severity_type": "",
     "severity_score": 0.0,
-    "epss_score": 0.07721,
+    "epss_score": 0.05856,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -1250,7 +1321,7 @@
     "fixed_version": "5.14.3",
     "severity_type": "CVSS_V3",
     "severity_score": 6.5,
-    "epss_score": 0.0003,
+    "epss_score": 0.00031,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -1335,7 +1406,7 @@
     "fixed_version": "4.16.1",
     "severity_type": "CVSS_V3",
     "severity_score": 5.9,
-    "epss_score": 0.00694,
+    "epss_score": 0.0094,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -1369,7 +1440,7 @@
     "fixed_version": "5.15.8",
     "severity_type": "CVSS_V3",
     "severity_score": 7.1,
-    "epss_score": 0.00552,
+    "epss_score": 0.00469,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -1403,7 +1474,7 @@
     "fixed_version": "5.13.2",
     "severity_type": "CVSS_V3",
     "severity_score": 6.1,
-    "epss_score": 0.00153,
+    "epss_score": 0.00169,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -1420,7 +1491,7 @@
     "fixed_version": "3.2.2",
     "severity_type": "CVSS_V3",
     "severity_score": 7.8,
-    "epss_score": 0.00706,
+    "epss_score": 0.00657,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -1437,7 +1508,7 @@
     "fixed_version": "2.1.0",
     "severity_type": "CVSS_V3",
     "severity_score": 9.1,
-    "epss_score": 0.00968,
+    "epss_score": 0.00964,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -1486,7 +1557,7 @@
     "fixed_version": "1.13.5",
     "severity_type": "CVSS_V3",
     "severity_score": 7.5,
-    "epss_score": 0.00033,
+    "epss_score": 0.00036,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -1520,7 +1591,7 @@
     "fixed_version": "0.21.2",
     "severity_type": "CVSS_V3",
     "severity_score": 7.5,
-    "epss_score": 0.09325,
+    "epss_score": 0.08262,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -1537,7 +1608,7 @@
     "fixed_version": "1.8.2",
     "severity_type": "",
     "severity_score": 0.0,
-    "epss_score": 0.00065,
+    "epss_score": 0.00095,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -1669,7 +1740,7 @@
     "fixed_version": "5.2.0",
     "severity_type": "CVSS_V3",
     "severity_score": 9.1,
-    "epss_score": 0.00056,
+    "epss_score": 0.00074,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -1686,7 +1757,7 @@
     "fixed_version": "1.2.3",
     "severity_type": "CVSS_V3",
     "severity_score": 6.5,
-    "epss_score": 0.01125,
+    "epss_score": 0.01033,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -1837,7 +1908,7 @@
     "fixed_version": "4.1.2",
     "severity_type": "CVSS_V3",
     "severity_score": 6.1,
-    "epss_score": 0.01985,
+    "epss_score": 0.02276,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -1905,7 +1976,7 @@
     "fixed_version": null,
     "severity_type": "CVSS_V3",
     "severity_score": 5.6,
-    "epss_score": 0.00092,
+    "epss_score": 0.00296,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -1958,7 +2029,7 @@
     "fixed_version": "2.0.2",
     "severity_type": "CVSS_V3",
     "severity_score": 3.1,
-    "epss_score": 0.00027,
+    "epss_score": 0.0003,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -2060,7 +2131,7 @@
     "fixed_version": "1.5.9",
     "severity_type": "",
     "severity_score": 0.0,
-    "epss_score": 0.00072,
+    "epss_score": 0.00089,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -2086,7 +2157,8 @@
   "GHSA-v8w9-2789-6hhr": {
     "vuln_id": "GHSA-v8w9-2789-6hhr",
     "aliases": [
-      "CVE-2020-7610"
+      "CVE-2020-7610",
+      "SNYK-JS-BSON-561052"
     ],
     "package": "bson",
     "ecosystem": "npm",
@@ -2179,7 +2251,7 @@
     "fixed_version": "2.9.4",
     "severity_type": "CVSS_V3",
     "severity_score": 7.5,
-    "epss_score": 0.002,
+    "epss_score": 0.00184,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -2205,7 +2277,8 @@
   "GHSA-gp2j-mg4w-2rh5": {
     "vuln_id": "GHSA-gp2j-mg4w-2rh5",
     "aliases": [
-      "CVE-2020-7645"
+      "CVE-2020-7645",
+      "SNYK-JS-CHROMELAUNCHER-537575"
     ],
     "package": "chrome-launcher",
     "ecosystem": "npm",
@@ -2381,7 +2454,7 @@
     "fixed_version": "2.7.0",
     "severity_type": "CVSS_V3",
     "severity_score": 8.6,
-    "epss_score": 0.0007,
+    "epss_score": 0.00091,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -2424,7 +2497,8 @@
   "GHSA-5q88-cjfq-g2mh": {
     "vuln_id": "GHSA-5q88-cjfq-g2mh",
     "aliases": [
-      "CVE-2020-7597"
+      "CVE-2020-7597",
+      "SNYK-JS-CODECOV-548879"
     ],
     "package": "codecov",
     "ecosystem": "npm",
@@ -2441,7 +2515,8 @@
   "GHSA-mh2h-6j8q-x246": {
     "vuln_id": "GHSA-mh2h-6j8q-x246",
     "aliases": [
-      "CVE-2020-7596"
+      "CVE-2020-7596",
+      "SNYK-JS-CODECOV-543183"
     ],
     "package": "codecov",
     "ecosystem": "npm",
@@ -2766,7 +2841,7 @@
     "fixed_version": "2.1.3",
     "severity_type": "CVSS_V3",
     "severity_score": 7.5,
-    "epss_score": 0.00246,
+    "epss_score": 0.00238,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -2830,7 +2905,7 @@
     "fixed_version": "3.1.0",
     "severity_type": "CVSS_V3",
     "severity_score": 7.5,
-    "epss_score": 0.02135,
+    "epss_score": 0.01578,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -3062,7 +3137,7 @@
     "fixed_version": "8.0.3",
     "severity_type": "",
     "severity_score": 0.0,
-    "epss_score": 0.0002,
+    "epss_score": 0.00019,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -3137,7 +3212,8 @@
   "GHSA-qpqh-46qj-vwcw": {
     "vuln_id": "GHSA-qpqh-46qj-vwcw",
     "aliases": [
-      "CVE-2020-7680"
+      "CVE-2020-7680",
+      "SNYK-JS-DOCSIFY-567099"
     ],
     "package": "docsify",
     "ecosystem": "npm",
@@ -3196,7 +3272,7 @@
     "fixed_version": "2.5.0",
     "severity_type": "CVSS_V3",
     "severity_score": 10.0,
-    "epss_score": 0.0053,
+    "epss_score": 0.00699,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -3213,7 +3289,7 @@
     "fixed_version": "2.5.4",
     "severity_type": "CVSS_V3",
     "severity_score": 7.0,
-    "epss_score": 0.00078,
+    "epss_score": 0.00065,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -3253,10 +3329,45 @@
     "kev_due_date": "",
     "summary": "DOMPurify allows Cross-site Scripting (XSS)"
   },
+  "GHSA-v2wj-7wpq-c8vv": {
+    "vuln_id": "GHSA-v2wj-7wpq-c8vv",
+    "aliases": [
+      "CVE-2026-0540"
+    ],
+    "package": "dompurify",
+    "ecosystem": "npm",
+    "affected_range": "[{'introduced': '3.1.3'}, {'fixed': '3.3.2'}]",
+    "fixed_version": "3.3.2",
+    "severity_type": "CVSS_V3",
+    "severity_score": 6.1,
+    "epss_score": 0.00031,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "DOMPurify contains a Cross-site Scripting vulnerability"
+  },
+  "GHSA-v8jm-5vwx-cfxm": {
+    "vuln_id": "GHSA-v8jm-5vwx-cfxm",
+    "aliases": [
+      "CVE-2025-15599"
+    ],
+    "package": "dompurify",
+    "ecosystem": "npm",
+    "affected_range": "[{'introduced': '3.1.3'}, {'fixed': '3.2.7'}]",
+    "fixed_version": "3.2.7",
+    "severity_type": "CVSS_V3",
+    "severity_score": 6.1,
+    "epss_score": 0.00031,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "DOMPurify contains a Cross-site Scripting vulnerability"
+  },
   "GHSA-j9cf-pr2x-5273": {
     "vuln_id": "GHSA-j9cf-pr2x-5273",
     "aliases": [
-      "CVE-2019-10793"
+      "CVE-2019-10793",
+      "SNYK-JS-DOTOBJECT-548905"
     ],
     "package": "dot-object",
     "ecosystem": "npm",
@@ -3281,7 +3392,7 @@
     "fixed_version": "4.2.1",
     "severity_type": "CVSS_V3",
     "severity_score": 7.3,
-    "epss_score": 0.00786,
+    "epss_score": 0.00764,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -3298,7 +3409,7 @@
     "fixed_version": "2.0.4",
     "severity_type": "CVSS_V3",
     "severity_score": 7.5,
-    "epss_score": 0.00161,
+    "epss_score": 0.00201,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -3315,7 +3426,7 @@
     "fixed_version": "2.0.7",
     "severity_type": "CVSS_V3",
     "severity_score": 6.3,
-    "epss_score": 0.00066,
+    "epss_score": 0.00071,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -3390,7 +3501,8 @@
   "GHSA-jc84-3g44-wf2q": {
     "vuln_id": "GHSA-jc84-3g44-wf2q",
     "aliases": [
-      "CVE-2019-10775"
+      "CVE-2019-10775",
+      "SNYK-JS-ECSTATIC-540354"
     ],
     "package": "ecstatic",
     "ecosystem": "npm",
@@ -3534,7 +3646,7 @@
     "fixed_version": "28.3.2",
     "severity_type": "",
     "severity_score": 0.0,
-    "epss_score": 0.00019,
+    "epss_score": 0.0002,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -3828,7 +3940,7 @@
     "fixed_version": "22.3.24",
     "severity_type": "CVSS_V3",
     "severity_score": 8.8,
-    "epss_score": 0.94117,
+    "epss_score": 0.94083,
     "in_kev": true,
     "kev_date_added": "2023-09-13",
     "kev_due_date": "2023-10-04",
@@ -3896,7 +4008,7 @@
     "fixed_version": "6.5.6",
     "severity_type": "CVSS_V3",
     "severity_score": 5.3,
-    "epss_score": 0.00158,
+    "epss_score": 0.00292,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -3981,7 +4093,7 @@
     "fixed_version": "6.6.0",
     "severity_type": "CVSS_V3",
     "severity_score": 4.8,
-    "epss_score": 0.00119,
+    "epss_score": 0.00162,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -4098,7 +4210,7 @@
     "fixed_version": "6.4.2",
     "severity_type": "CVSS_V3",
     "severity_score": 6.5,
-    "epss_score": 0.00878,
+    "epss_score": 0.00936,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -4115,7 +4227,7 @@
     "fixed_version": "0.10.63",
     "severity_type": "",
     "severity_score": 0.0,
-    "epss_score": 0.01846,
+    "epss_score": 0.01692,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -4249,7 +4361,7 @@
     "fixed_version": null,
     "severity_type": "",
     "severity_score": 0.0,
-    "epss_score": 0.00049,
+    "epss_score": 0.0007,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -4266,7 +4378,7 @@
     "fixed_version": "4.0.0-rc1",
     "severity_type": "CVSS_V3",
     "severity_score": 4.0,
-    "epss_score": 0.00214,
+    "epss_score": 0.0033,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -4341,6 +4453,23 @@
     "kev_due_date": "",
     "summary": "Insecure template handling in Express-handlebars"
   },
+  "GHSA-46wh-pxpv-q5gq": {
+    "vuln_id": "GHSA-46wh-pxpv-q5gq",
+    "aliases": [
+      "CVE-2026-30827"
+    ],
+    "package": "express-rate-limit",
+    "ecosystem": "npm",
+    "affected_range": "[{'introduced': '8.2.0'}, {'fixed': '8.2.2'}]",
+    "fixed_version": "8.2.2",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.00017,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "express-rate-limit: IPv4-mapped IPv6 addresses bypass per-client rate limiting on servers with dual-stack network"
+  },
   "GHSA-qrmc-fj45-qfc2": {
     "vuln_id": "GHSA-qrmc-fj45-qfc2",
     "aliases": [
@@ -4392,27 +4521,12 @@
     "kev_due_date": "",
     "summary": "Starcounter-Jack JSON-Patch Prototype Pollution vulnerability"
   },
-  "GHSA-fj3w-jwp8-x2g3": {
-    "vuln_id": "GHSA-fj3w-jwp8-x2g3",
-    "aliases": [
-      "CVE-2026-27942"
-    ],
-    "package": "fast-xml-parser",
-    "ecosystem": "npm",
-    "affected_range": "[{'introduced': '0'}, {'fixed': '5.3.8'}]",
-    "fixed_version": "5.3.8",
-    "severity_type": "",
-    "severity_score": 0.0,
-    "epss_score": 0.00038,
-    "in_kev": false,
-    "kev_date_added": "",
-    "kev_due_date": "",
-    "summary": "fast-xml-parser has stack overflow in XMLBuilder with preserveOrder"
-  },
   "GHSA-x3cc-x39p-42qx": {
     "vuln_id": "GHSA-x3cc-x39p-42qx",
     "aliases": [
-      "CVE-2023-26920"
+      "CVE-2021-26920",
+      "CVE-2023-26920",
+      "GHSA-793h-6f7r-6qvm"
     ],
     "package": "fast-xml-parser",
     "ecosystem": "npm",
@@ -4420,11 +4534,28 @@
     "fixed_version": "4.1.2",
     "severity_type": "CVSS_V3",
     "severity_score": 6.5,
-    "epss_score": 0.00199,
+    "epss_score": 0.03207,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
     "summary": "fast-xml-parser vulnerable to Prototype Pollution through tag or attribute name"
+  },
+  "GHSA-fj3w-jwp8-x2g3": {
+    "vuln_id": "GHSA-fj3w-jwp8-x2g3",
+    "aliases": [
+      "CVE-2026-27942"
+    ],
+    "package": "fast-xml-parser",
+    "ecosystem": "npm",
+    "affected_range": "[{'introduced': '5.0.0'}, {'fixed': '5.3.8'}]",
+    "fixed_version": "5.3.8",
+    "severity_type": "",
+    "severity_score": 0.0,
+    "epss_score": 0.0005,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "fast-xml-parser has stack overflow in XMLBuilder with preserveOrder"
   },
   "GHSA-jmr7-xgp7-cmfj": {
     "vuln_id": "GHSA-jmr7-xgp7-cmfj",
@@ -4454,7 +4585,7 @@
     "fixed_version": "5.3.5",
     "severity_type": "CVSS_V3",
     "severity_score": 9.3,
-    "epss_score": 0.00038,
+    "epss_score": 0.0004,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -4488,7 +4619,7 @@
     "fixed_version": "5.3.4",
     "severity_type": "CVSS_V3",
     "severity_score": 7.5,
-    "epss_score": 0.0005,
+    "epss_score": 0.00074,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -4505,7 +4636,7 @@
     "fixed_version": "5.7.2",
     "severity_type": "CVSS_V3",
     "severity_score": 7.5,
-    "epss_score": 0.00017,
+    "epss_score": 0.00019,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -4522,11 +4653,28 @@
     "fixed_version": "5.7.3",
     "severity_type": "CVSS_V3",
     "severity_score": 3.7,
-    "epss_score": 0.00015,
+    "epss_score": 0.00016,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
     "summary": "Fastify Vulnerable to DoS via Unbounded Memory Allocation in sendWebStream"
+  },
+  "GHSA-5v7r-6r5c-r473": {
+    "vuln_id": "GHSA-5v7r-6r5c-r473",
+    "aliases": [
+      "CVE-2026-31808"
+    ],
+    "package": "file-type",
+    "ecosystem": "npm",
+    "affected_range": "[{'introduced': '13.0.0'}, {'fixed': '21.3.1'}]",
+    "fixed_version": "21.3.1",
+    "severity_type": "CVSS_V3",
+    "severity_score": 5.3,
+    "epss_score": 0.00044,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "file-type affected by infinite loop in ASF parser on malformed input with zero-size sub-header"
   },
   "GHSA-mhxj-85r3-2x55": {
     "vuln_id": "GHSA-mhxj-85r3-2x55",
@@ -4590,7 +4738,7 @@
     "fixed_version": "1.6.2",
     "severity_type": "CVSS_V3",
     "severity_score": 9.8,
-    "epss_score": 0.00601,
+    "epss_score": 0.00784,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -4612,6 +4760,23 @@
     "kev_date_added": "",
     "kev_due_date": "",
     "summary": "flatnest Prototype Pollution vulnerability"
+  },
+  "GHSA-25h7-pfq9-p65f": {
+    "vuln_id": "GHSA-25h7-pfq9-p65f",
+    "aliases": [
+      "CVE-2026-32141"
+    ],
+    "package": "flatted",
+    "ecosystem": "npm",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '3.4.0'}]",
+    "fixed_version": "3.4.0",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.00038,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "flatted vulnerable to unbounded recursion DoS in parse() revive phase"
   },
   "GHSA-74fj-2j2h-c42q": {
     "vuln_id": "GHSA-74fj-2j2h-c42q",
@@ -4826,7 +4991,7 @@
     "fixed_version": "2.0.1",
     "severity_type": "CVSS_V3",
     "severity_score": 7.5,
-    "epss_score": 0.00833,
+    "epss_score": 0.00934,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -4869,7 +5034,8 @@
   "GHSA-8jmw-wjr8-2x66": {
     "vuln_id": "GHSA-8jmw-wjr8-2x66",
     "aliases": [
-      "CVE-2022-25900"
+      "CVE-2022-25900",
+      "SNYK-JS-GITCLONE-2434308"
     ],
     "package": "git-clone",
     "ecosystem": "npm",
@@ -4929,7 +5095,7 @@
     "fixed_version": "5.1.2",
     "severity_type": "CVSS_V3",
     "severity_score": 7.5,
-    "epss_score": 0.00913,
+    "epss_score": 0.00888,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -4963,7 +5129,7 @@
     "fixed_version": "20200315.0.0",
     "severity_type": "CVSS_V3",
     "severity_score": 6.5,
-    "epss_score": 0.00072,
+    "epss_score": 0.00094,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -4997,7 +5163,7 @@
     "fixed_version": "16.8.1",
     "severity_type": "CVSS_V3",
     "severity_score": 5.3,
-    "epss_score": 0.02263,
+    "epss_score": 0.02529,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -5106,7 +5272,8 @@
   "GHSA-3cqr-58rm-57f8": {
     "vuln_id": "GHSA-3cqr-58rm-57f8",
     "aliases": [
-      "CVE-2019-20920"
+      "CVE-2019-20920",
+      "SNYK-JS-HANDLEBARS-534478"
     ],
     "package": "handlebars",
     "ecosystem": "npm",
@@ -5236,7 +5403,8 @@
   "GHSA-62gr-4qp9-h98f": {
     "vuln_id": "GHSA-62gr-4qp9-h98f",
     "aliases": [
-      "CVE-2019-20922"
+      "CVE-2019-20922",
+      "SNYK-JS-HANDLEBARS-480388"
     ],
     "package": "handlebars",
     "ecosystem": "npm",
@@ -5293,7 +5461,7 @@
     "fixed_version": "20.0.0",
     "severity_type": "",
     "severity_score": 0.0,
-    "epss_score": 0.00588,
+    "epss_score": 0.00298,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -5448,6 +5616,23 @@
     "kev_due_date": "",
     "summary": "Hono JWK Auth Middleware has JWT algorithm confusion when JWK lacks \"alg\" (untrusted header.alg fallback)"
   },
+  "GHSA-5pq2-9x2x-5p6w": {
+    "vuln_id": "GHSA-5pq2-9x2x-5p6w",
+    "aliases": [
+      "CVE-2026-29086"
+    ],
+    "package": "hono",
+    "ecosystem": "npm",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '4.12.4'}]",
+    "fixed_version": "4.12.4",
+    "severity_type": "CVSS_V3",
+    "severity_score": 5.4,
+    "epss_score": 0.00032,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Hono Vulnerable to Cookie Attribute Injection via Unsanitized domain and path in setCookie()"
+  },
   "GHSA-6wqw-2p9w-4vw4": {
     "vuln_id": "GHSA-6wqw-2p9w-4vw4",
     "aliases": [
@@ -5514,6 +5699,40 @@
     "kev_due_date": "",
     "summary": "Hono added timing comparison hardening in basicAuth and bearerAuth"
   },
+  "GHSA-p6xx-57qc-3wxr": {
+    "vuln_id": "GHSA-p6xx-57qc-3wxr",
+    "aliases": [
+      "CVE-2026-29085"
+    ],
+    "package": "hono",
+    "ecosystem": "npm",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '4.12.4'}]",
+    "fixed_version": "4.12.4",
+    "severity_type": "CVSS_V3",
+    "severity_score": 6.5,
+    "epss_score": 0.00053,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Hono Vulnerable to SSE Control Field Injection via CR/LF in writeSSE()"
+  },
+  "GHSA-q5qw-h33p-qvwr": {
+    "vuln_id": "GHSA-q5qw-h33p-qvwr",
+    "aliases": [
+      "CVE-2026-29045"
+    ],
+    "package": "hono",
+    "ecosystem": "npm",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '4.12.4'}]",
+    "fixed_version": "4.12.4",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.00044,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Hono vulnerable to arbitrary file access via serveStatic vulnerability "
+  },
   "GHSA-r354-f388-2fhh": {
     "vuln_id": "GHSA-r354-f388-2fhh",
     "aliases": [
@@ -5530,6 +5749,21 @@
     "kev_date_added": "",
     "kev_due_date": "",
     "summary": "Hono IPv4 address validation bypass in IP Restriction Middleware allows IP spoofing"
+  },
+  "GHSA-v8w9-8mx6-g223": {
+    "vuln_id": "GHSA-v8w9-8mx6-g223",
+    "aliases": [],
+    "package": "hono",
+    "ecosystem": "npm",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '4.12.7'}]",
+    "fixed_version": "4.12.7",
+    "severity_type": "CVSS_V3",
+    "severity_score": 4.8,
+    "epss_score": 0.0,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Hono vulnerable to Prototype Pollution possible through __proto__ key allowed in parseBody({ dot: true })"
   },
   "GHSA-w332-q679-j88p": {
     "vuln_id": "GHSA-w332-q679-j88p",
@@ -5770,7 +6004,7 @@
     "fixed_version": "9.0.6",
     "severity_type": "CVSS_V3",
     "severity_score": 9.8,
-    "epss_score": 0.00176,
+    "epss_score": 0.00098,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -5787,7 +6021,7 @@
     "fixed_version": "8.0.1",
     "severity_type": "CVSS_V3",
     "severity_score": 7.5,
-    "epss_score": 0.00321,
+    "epss_score": 0.00216,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -5810,10 +6044,28 @@
     "kev_due_date": "",
     "summary": "Prototype Pollution in immer"
   },
+  "GHSA-wf6x-7x77-mvgw": {
+    "vuln_id": "GHSA-wf6x-7x77-mvgw",
+    "aliases": [
+      "CVE-2026-29063"
+    ],
+    "package": "immutable",
+    "ecosystem": "npm",
+    "affected_range": "[{'introduced': '4.0.0-rc.1'}, {'fixed': '4.3.8'}]",
+    "fixed_version": "4.3.8",
+    "severity_type": "",
+    "severity_score": 0.0,
+    "epss_score": 0.0006,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Immutable is vulnerable to Prototype Pollution"
+  },
   "GHSA-qqgx-2p2h-9c37": {
     "vuln_id": "GHSA-qqgx-2p2h-9c37",
     "aliases": [
-      "CVE-2020-7788"
+      "CVE-2020-7788",
+      "SNYK-JS-INI-1048974"
     ],
     "package": "ini",
     "ecosystem": "npm",
@@ -5838,7 +6090,7 @@
     "fixed_version": null,
     "severity_type": "CVSS_V3",
     "severity_score": 8.1,
-    "epss_score": 0.86505,
+    "epss_score": 0.84599,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -5855,7 +6107,7 @@
     "fixed_version": "2.0.1",
     "severity_type": "",
     "severity_score": 0.0,
-    "epss_score": 0.0075,
+    "epss_score": 0.0073,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -5957,7 +6209,7 @@
     "fixed_version": "0.4.0",
     "severity_type": "CVSS_V3",
     "severity_score": 5.5,
-    "epss_score": 0.00679,
+    "epss_score": 0.00481,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -5984,7 +6236,8 @@
     "vuln_id": "GHSA-6c3j-c64m-qhgq",
     "aliases": [
       "CVE-2019-11358",
-      "DRUPAL-CORE-2019-006"
+      "DRUPAL-CORE-2019-006",
+      "SNYK-JS-JQUERY-174006"
     ],
     "package": "jquery",
     "ecosystem": "npm",
@@ -5992,7 +6245,7 @@
     "fixed_version": "3.4.0",
     "severity_type": "CVSS_V3",
     "severity_score": 6.1,
-    "epss_score": 0.00838,
+    "epss_score": 0.01856,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -6010,7 +6263,7 @@
     "fixed_version": "3.5.0",
     "severity_type": "CVSS_V3",
     "severity_score": 6.9,
-    "epss_score": 0.07242,
+    "epss_score": 0.0951,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -6177,7 +6430,7 @@
     "fixed_version": null,
     "severity_type": "CVSS_V3",
     "severity_score": 6.5,
-    "epss_score": 0.00115,
+    "epss_score": 0.00126,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -6194,7 +6447,7 @@
     "fixed_version": "2.2.2",
     "severity_type": "CVSS_V3",
     "severity_score": 7.1,
-    "epss_score": 0.39945,
+    "epss_score": 0.46501,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -6228,7 +6481,7 @@
     "fixed_version": "1.2.0",
     "severity_type": "",
     "severity_score": 0.0,
-    "epss_score": 0.0006,
+    "epss_score": 0.00066,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -6245,7 +6498,7 @@
     "fixed_version": null,
     "severity_type": "CVSS_V3",
     "severity_score": 9.8,
-    "epss_score": 0.00094,
+    "epss_score": 0.00103,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -6381,7 +6634,7 @@
     "fixed_version": "4.1.0",
     "severity_type": "",
     "severity_score": 0.0,
-    "epss_score": 0.00015,
+    "epss_score": 0.00017,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -6415,7 +6668,7 @@
     "fixed_version": "4.1.0",
     "severity_type": "",
     "severity_score": 0.0,
-    "epss_score": 0.00011,
+    "epss_score": 0.00012,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -6466,7 +6719,7 @@
     "fixed_version": "4.1.0",
     "severity_type": "CVSS_V3",
     "severity_score": 8.1,
-    "epss_score": 0.00011,
+    "epss_score": 0.00012,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -6483,7 +6736,7 @@
     "fixed_version": "4.1.0",
     "severity_type": "",
     "severity_score": 0.0,
-    "epss_score": 0.00012,
+    "epss_score": 0.00013,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -6700,7 +6953,7 @@
     "fixed_version": "3.2.3",
     "severity_type": "CVSS_V3",
     "severity_score": 7.5,
-    "epss_score": 9e-05,
+    "epss_score": 0.0001,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -6836,7 +7089,7 @@
     "fixed_version": "6.0.3",
     "severity_type": "CVSS_V3",
     "severity_score": 7.5,
-    "epss_score": 0.0019,
+    "epss_score": 0.00184,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -6862,7 +7115,8 @@
   "GHSA-58v4-qwx5-7f59": {
     "vuln_id": "GHSA-58v4-qwx5-7f59",
     "aliases": [
-      "CVE-2019-10757"
+      "CVE-2019-10757",
+      "SNYK-JS-KNEX-471962"
     ],
     "package": "knex",
     "ecosystem": "npm",
@@ -6904,7 +7158,7 @@
     "fixed_version": "3.1.2",
     "severity_type": "CVSS_V3",
     "severity_score": 7.5,
-    "epss_score": 0.00073,
+    "epss_score": 0.00117,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -6995,6 +7249,23 @@
     "kev_due_date": "",
     "summary": "Linkify Allows Prototype Pollution & HTML Attribute Injection (XSS)"
   },
+  "GHSA-wmfp-5q7x-987x": {
+    "vuln_id": "GHSA-wmfp-5q7x-987x",
+    "aliases": [
+      "CVE-2026-30952"
+    ],
+    "package": "liquidjs",
+    "ecosystem": "npm",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '10.25.0'}]",
+    "fixed_version": "10.25.0",
+    "severity_type": "",
+    "severity_score": 0.0,
+    "epss_score": 0.00063,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "liquidjs has a path traversal fallback vulnerability"
+  },
   "GHSA-45rm-2893-5f49": {
     "vuln_id": "GHSA-45rm-2893-5f49",
     "aliases": [
@@ -7063,6 +7334,23 @@
     "kev_due_date": "",
     "summary": "loader-utils is vulnerable to Regular Expression Denial of Service (ReDoS)"
   },
+  "GHSA-fp25-p6mj-qqg6": {
+    "vuln_id": "GHSA-fp25-p6mj-qqg6",
+    "aliases": [
+      "CVE-2026-29091"
+    ],
+    "package": "locutus",
+    "ecosystem": "npm",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '3.0.0'}]",
+    "fixed_version": "3.0.0",
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.1,
+    "epss_score": 0.00333,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "locutus call_user_func_array vulnerable to Remote Code Execution (RCE) due to Code Injection"
+  },
   "GHSA-rxrv-835q-v5mh": {
     "vuln_id": "GHSA-rxrv-835q-v5mh",
     "aliases": [
@@ -7074,11 +7362,28 @@
     "fixed_version": "2.0.39",
     "severity_type": "",
     "severity_score": 0.0,
-    "epss_score": 8e-05,
+    "epss_score": 9e-05,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
     "summary": "locutus is vulnerable to Prototype Pollution"
+  },
+  "GHSA-vh9h-29pq-r5m8": {
+    "vuln_id": "GHSA-vh9h-29pq-r5m8",
+    "aliases": [
+      "CVE-2026-32304"
+    ],
+    "package": "locutus",
+    "ecosystem": "npm",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '3.0.14'}]",
+    "fixed_version": "3.0.14",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.8,
+    "epss_score": 0.00078,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Locutus vulnerable to RCE via unsanitized input in create_function()"
   },
   "GHSA-35jh-r3h4-6jhm": {
     "vuln_id": "GHSA-35jh-r3h4-6jhm",
@@ -7134,7 +7439,8 @@
   "GHSA-jf85-cpcp-j695": {
     "vuln_id": "GHSA-jf85-cpcp-j695",
     "aliases": [
-      "CVE-2019-10744"
+      "CVE-2019-10744",
+      "SNYK-JS-LODASH-450202"
     ],
     "package": "lodash",
     "ecosystem": "npm",
@@ -7142,7 +7448,7 @@
     "fixed_version": "4.17.12",
     "severity_type": "CVSS_V3",
     "severity_score": 9.1,
-    "epss_score": 0.02441,
+    "epss_score": 0.03254,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -7185,7 +7491,8 @@
   "GHSA-x5rq-j2xg-h7qm": {
     "vuln_id": "GHSA-x5rq-j2xg-h7qm",
     "aliases": [
-      "CVE-2019-1010266"
+      "CVE-2019-1010266",
+      "SNYK-JS-LODASH-73639"
     ],
     "package": "lodash",
     "ecosystem": "npm",
@@ -7421,7 +7728,7 @@
     "fixed_version": "7.4.0",
     "severity_type": "CVSS_V3",
     "severity_score": 6.1,
-    "epss_score": 0.00225,
+    "epss_score": 0.00305,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -7470,7 +7777,7 @@
     "fixed_version": "0.3.17",
     "severity_type": "",
     "severity_score": 0.0,
-    "epss_score": 0.00272,
+    "epss_score": 0.00274,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -7553,7 +7860,7 @@
     "fixed_version": "0.3.4",
     "severity_type": "CVSS_V3",
     "severity_score": 7.5,
-    "epss_score": 0.0102,
+    "epss_score": 0.0089,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -7853,7 +8160,7 @@
     "fixed_version": "3.0.0-beta.0",
     "severity_type": "",
     "severity_score": 0.0,
-    "epss_score": 0.0028,
+    "epss_score": 0.00306,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -7870,7 +8177,7 @@
     "fixed_version": null,
     "severity_type": "CVSS_V3",
     "severity_score": 3.7,
-    "epss_score": 0.00237,
+    "epss_score": 0.00725,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -7921,7 +8228,7 @@
     "fixed_version": "2.19.1",
     "severity_type": "",
     "severity_score": 0.0,
-    "epss_score": 0.00099,
+    "epss_score": 0.00108,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -7938,7 +8245,7 @@
     "fixed_version": "10.2.3",
     "severity_type": "CVSS_V3",
     "severity_score": 7.5,
-    "epss_score": 0.0004,
+    "epss_score": 0.00052,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -7972,7 +8279,7 @@
     "fixed_version": "10.2.3",
     "severity_type": "CVSS_V3",
     "severity_score": 7.5,
-    "epss_score": 0.00045,
+    "epss_score": 0.00054,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -8015,7 +8322,10 @@
   "GHSA-vh95-rmgr-6w4m": {
     "vuln_id": "GHSA-vh95-rmgr-6w4m",
     "aliases": [
-      "CVE-2020-7598"
+      "CVE-2020-7598",
+      "CVE-2021-44906",
+      "GHSA-xvch-5gv4-984h",
+      "SNYK-JS-MINIMIST-559764"
     ],
     "package": "minimist",
     "ecosystem": "npm",
@@ -8023,7 +8333,7 @@
     "fixed_version": "0.2.1",
     "severity_type": "CVSS_V3",
     "severity_score": 5.6,
-    "epss_score": 0.00253,
+    "epss_score": 0.00882,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -8032,7 +8342,10 @@
   "GHSA-xvch-5gv4-984h": {
     "vuln_id": "GHSA-xvch-5gv4-984h",
     "aliases": [
-      "CVE-2021-44906"
+      "CVE-2020-7598",
+      "CVE-2021-44906",
+      "GHSA-vh95-rmgr-6w4m",
+      "SNYK-JS-MINIMIST-559764"
     ],
     "package": "minimist",
     "ecosystem": "npm",
@@ -8040,7 +8353,7 @@
     "fixed_version": "1.2.6",
     "severity_type": "CVSS_V3",
     "severity_score": 9.8,
-    "epss_score": 0.00813,
+    "epss_score": 0.00882,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -8057,7 +8370,7 @@
     "fixed_version": "1.3.1",
     "severity_type": "CVSS_V3",
     "severity_score": 8.8,
-    "epss_score": 0.00639,
+    "epss_score": 0.00542,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -8066,7 +8379,8 @@
   "GHSA-fhjf-83wg-r2j9": {
     "vuln_id": "GHSA-fhjf-83wg-r2j9",
     "aliases": [
-      "CVE-2019-10746"
+      "CVE-2019-10746",
+      "SNYK-JS-MIXINDEEP-450212"
     ],
     "package": "mixin-deep",
     "ecosystem": "npm",
@@ -8083,7 +8397,9 @@
   "GHSA-79jw-6wg7-r9g4": {
     "vuln_id": "GHSA-79jw-6wg7-r9g4",
     "aliases": [
-      "CVE-2021-29491"
+      "CVE-2021-28860",
+      "CVE-2021-29491",
+      "GHSA-r5cq-9537-9rpf"
     ],
     "package": "mixme",
     "ecosystem": "npm",
@@ -8091,7 +8407,7 @@
     "fixed_version": "0.5.1",
     "severity_type": "CVSS_V3",
     "severity_score": 7.1,
-    "epss_score": 0.0,
+    "epss_score": 0.01156,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -8115,7 +8431,9 @@
   "GHSA-r5cq-9537-9rpf": {
     "vuln_id": "GHSA-r5cq-9537-9rpf",
     "aliases": [
-      "CVE-2021-28860"
+      "CVE-2021-28860",
+      "CVE-2021-29491",
+      "GHSA-79jw-6wg7-r9g4"
     ],
     "package": "mixme",
     "ecosystem": "npm",
@@ -8253,7 +8571,7 @@
     "fixed_version": "3.6.10",
     "severity_type": "CVSS_V3",
     "severity_score": 4.2,
-    "epss_score": 0.00039,
+    "epss_score": 0.00043,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -8271,7 +8589,7 @@
     "fixed_version": "7.3.3",
     "severity_type": "CVSS_V3",
     "severity_score": 10.0,
-    "epss_score": 0.00272,
+    "epss_score": 0.00369,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -8342,7 +8660,7 @@
     "fixed_version": "8.9.5",
     "severity_type": "CVSS_V3",
     "severity_score": 9.0,
-    "epss_score": 0.49541,
+    "epss_score": 0.55912,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -8444,7 +8762,7 @@
     "fixed_version": "0.7.1",
     "severity_type": "CVSS_V3",
     "severity_score": 7.5,
-    "epss_score": 0.00944,
+    "epss_score": 0.00855,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -8461,7 +8779,7 @@
     "fixed_version": "2.0.0",
     "severity_type": "CVSS_V3",
     "severity_score": 5.3,
-    "epss_score": 0.00567,
+    "epss_score": 0.00379,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -8495,11 +8813,62 @@
     "fixed_version": "2.0.0",
     "severity_type": "CVSS_V3",
     "severity_score": 7.5,
-    "epss_score": 0.00048,
+    "epss_score": 0.00049,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
     "summary": "Multer vulnerable to Denial of Service via memory leaks from unclosed streams"
+  },
+  "GHSA-5528-5vmv-3xc2": {
+    "vuln_id": "GHSA-5528-5vmv-3xc2",
+    "aliases": [
+      "CVE-2026-3520"
+    ],
+    "package": "multer",
+    "ecosystem": "npm",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '2.1.1'}]",
+    "fixed_version": "2.1.1",
+    "severity_type": "",
+    "severity_score": 0.0,
+    "epss_score": 0.00058,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Multer Vulnerable to Denial of Service via Uncontrolled Recursion"
+  },
+  "GHSA-v52c-386h-88mc": {
+    "vuln_id": "GHSA-v52c-386h-88mc",
+    "aliases": [
+      "CVE-2026-2359"
+    ],
+    "package": "multer",
+    "ecosystem": "npm",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '2.1.0'}]",
+    "fixed_version": "2.1.0",
+    "severity_type": "",
+    "severity_score": 0.0,
+    "epss_score": 0.00055,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Multer vulnerable to Denial of Service via resource exhaustion"
+  },
+  "GHSA-xf7r-hgr6-v32p": {
+    "vuln_id": "GHSA-xf7r-hgr6-v32p",
+    "aliases": [
+      "CVE-2026-3304"
+    ],
+    "package": "multer",
+    "ecosystem": "npm",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '2.1.0'}]",
+    "fixed_version": "2.1.0",
+    "severity_type": "",
+    "severity_score": 0.0,
+    "epss_score": 0.00055,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Multer vulnerable to Denial of Service via incomplete cleanup"
   },
   "GHSA-4pg4-qvpc-4q3h": {
     "vuln_id": "GHSA-4pg4-qvpc-4q3h",
@@ -8563,7 +8932,7 @@
     "fixed_version": "3.9.4",
     "severity_type": "CVSS_V3",
     "severity_score": 6.5,
-    "epss_score": 0.00601,
+    "epss_score": 0.00585,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -8708,7 +9077,9 @@
   "GHSA-4c7m-wxvm-r7gc": {
     "vuln_id": "GHSA-4c7m-wxvm-r7gc",
     "aliases": [
-      "CVE-2021-28918"
+      "CVE-2021-28918",
+      "CVE-2021-29418",
+      "GHSA-pch5-whg9-qr2r"
     ],
     "package": "netmask",
     "ecosystem": "npm",
@@ -8716,7 +9087,7 @@
     "fixed_version": "1.1.0",
     "severity_type": "CVSS_V3",
     "severity_score": 9.1,
-    "epss_score": 0.85896,
+    "epss_score": 0.87227,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -8725,7 +9096,9 @@
   "GHSA-pch5-whg9-qr2r": {
     "vuln_id": "GHSA-pch5-whg9-qr2r",
     "aliases": [
-      "CVE-2021-29418"
+      "CVE-2021-28918",
+      "CVE-2021-29418",
+      "GHSA-4c7m-wxvm-r7gc"
     ],
     "package": "netmask",
     "ecosystem": "npm",
@@ -8733,7 +9106,7 @@
     "fixed_version": "2.0.1",
     "severity_type": "CVSS_V3",
     "severity_score": 5.3,
-    "epss_score": 0.00023,
+    "epss_score": 0.87227,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -8750,7 +9123,7 @@
     "fixed_version": "12.0.5",
     "severity_type": "CVSS_V3",
     "severity_score": 7.5,
-    "epss_score": 0.02726,
+    "epss_score": 0.02055,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -8767,7 +9140,7 @@
     "fixed_version": "14.2.32",
     "severity_type": "CVSS_V3",
     "severity_score": 6.5,
-    "epss_score": 0.0435,
+    "epss_score": 0.05626,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -8886,7 +9259,7 @@
     "fixed_version": "14.2.24",
     "severity_type": "CVSS_V3",
     "severity_score": 3.7,
-    "epss_score": 0.00121,
+    "epss_score": 0.0036,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -8920,7 +9293,7 @@
     "fixed_version": "13.5.9",
     "severity_type": "CVSS_V3",
     "severity_score": 9.1,
-    "epss_score": 0.92896,
+    "epss_score": 0.92955,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -9363,7 +9736,7 @@
     "fixed_version": "7.0.0",
     "severity_type": "CVSS_V3",
     "severity_score": 5.3,
-    "epss_score": 0.00482,
+    "epss_score": 0.0049,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -9380,7 +9753,7 @@
     "fixed_version": null,
     "severity_type": "CVSS_V3",
     "severity_score": 7.5,
-    "epss_score": 0.0112,
+    "epss_score": 0.01609,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -9478,7 +9851,7 @@
     "fixed_version": "7.0.7",
     "severity_type": "",
     "severity_score": 0.0,
-    "epss_score": 0.00027,
+    "epss_score": 0.0003,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -9638,7 +10011,8 @@
   "GHSA-pw54-mh39-w3hc": {
     "vuln_id": "GHSA-pw54-mh39-w3hc",
     "aliases": [
-      "CVE-2020-7754"
+      "CVE-2020-7754",
+      "GHSA-xgh6-85xh-479p"
     ],
     "package": "npm-user-validate",
     "ecosystem": "npm",
@@ -9654,14 +10028,17 @@
   },
   "GHSA-xgh6-85xh-479p": {
     "vuln_id": "GHSA-xgh6-85xh-479p",
-    "aliases": [],
+    "aliases": [
+      "CVE-2020-7754",
+      "GHSA-pw54-mh39-w3hc"
+    ],
     "package": "npm-user-validate",
     "ecosystem": "npm",
     "affected_range": "[{'introduced': '0'}, {'fixed': '1.0.1'}]",
     "fixed_version": "1.0.1",
     "severity_type": "",
     "severity_score": 0.0,
-    "epss_score": 0.0,
+    "epss_score": 0.0163,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -9946,7 +10323,7 @@
     "fixed_version": "8.1.0",
     "severity_type": "CVSS_V3",
     "severity_score": 9.1,
-    "epss_score": 0.0041,
+    "epss_score": 0.00432,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -9980,7 +10357,7 @@
     "fixed_version": "8.1.0",
     "severity_type": "CVSS_V3",
     "severity_score": 6.1,
-    "epss_score": 0.00322,
+    "epss_score": 0.0034,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -10040,7 +10417,8 @@
   "GHSA-v923-w3x8-wh69": {
     "vuln_id": "GHSA-v923-w3x8-wh69",
     "aliases": [
-      "CVE-2022-25896"
+      "CVE-2022-25896",
+      "SNYK-JS-PASSPORT-2840631"
     ],
     "package": "passport",
     "ecosystem": "npm",
@@ -10065,7 +10443,7 @@
     "fixed_version": null,
     "severity_type": "CVSS_V3",
     "severity_score": 10.0,
-    "epss_score": 0.0005,
+    "epss_score": 0.00037,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -10159,7 +10537,8 @@
   "GHSA-g6ww-v8xp-vmwg": {
     "vuln_id": "GHSA-g6ww-v8xp-vmwg",
     "aliases": [
-      "CVE-2020-7751"
+      "CVE-2020-7751",
+      "SNYK-JS-PATHVAL-596926"
     ],
     "package": "pathval",
     "ecosystem": "npm",
@@ -10184,7 +10563,7 @@
     "fixed_version": "3.1.3",
     "severity_type": "",
     "severity_score": 0.0,
-    "epss_score": 0.0011,
+    "epss_score": 0.00125,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -10201,7 +10580,7 @@
     "fixed_version": "3.1.3",
     "severity_type": "",
     "severity_score": 0.0,
-    "epss_score": 0.00024,
+    "epss_score": 0.00027,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -10284,7 +10663,7 @@
     "fixed_version": "1.55.1",
     "severity_type": "",
     "severity_score": 0.0,
-    "epss_score": 0.00056,
+    "epss_score": 0.00025,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -10318,7 +10697,7 @@
     "fixed_version": null,
     "severity_type": "CVSS_V3",
     "severity_score": 4.3,
-    "epss_score": 0.00107,
+    "epss_score": 0.00119,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -10352,7 +10731,7 @@
     "fixed_version": "8.4.31",
     "severity_type": "CVSS_V3",
     "severity_score": 5.3,
-    "epss_score": 0.00176,
+    "epss_score": 0.00197,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -10395,7 +10774,8 @@
   "GHSA-xfhp-gmh8-r8v2": {
     "vuln_id": "GHSA-xfhp-gmh8-r8v2",
     "aliases": [
-      "CVE-2021-23354"
+      "CVE-2021-23354",
+      "SNYK-JS-PRINTF-1072096"
     ],
     "package": "printf",
     "ecosystem": "npm",
@@ -10420,7 +10800,7 @@
     "fixed_version": "1.27.0",
     "severity_type": "CVSS_V3",
     "severity_score": 7.5,
-    "epss_score": 0.00066,
+    "epss_score": 0.00392,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -10640,8 +11020,8 @@
     "affected_range": "[{'introduced': '0'}, {'fixed': '6.14.1'}]",
     "fixed_version": "6.14.1",
     "severity_type": "CVSS_V3",
-    "severity_score": 7.5,
-    "epss_score": 0.00224,
+    "severity_score": 3.7,
+    "epss_score": 0.00193,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -10692,7 +11072,7 @@
     "fixed_version": "6.10.3",
     "severity_type": "CVSS_V3",
     "severity_score": 7.5,
-    "epss_score": 0.01422,
+    "epss_score": 0.01543,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -10709,7 +11089,7 @@
     "fixed_version": "1.0.0",
     "severity_type": "",
     "severity_score": 0.0,
-    "epss_score": 0.0258,
+    "epss_score": 0.0069,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -10843,7 +11223,7 @@
     "fixed_version": "16.0.1",
     "severity_type": "CVSS_V3",
     "severity_score": 6.1,
-    "epss_score": 0.16684,
+    "epss_score": 0.10572,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -10894,7 +11274,7 @@
     "fixed_version": "3.1.1",
     "severity_type": "CVSS_V3",
     "severity_score": 7.5,
-    "epss_score": 0.0062,
+    "epss_score": 0.01526,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -11013,7 +11393,7 @@
     "fixed_version": "2.80.0",
     "severity_type": "",
     "severity_score": 0.0,
-    "epss_score": 0.00475,
+    "epss_score": 0.00624,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -11054,7 +11434,8 @@
   "GHSA-hgch-jjmr-gp7w": {
     "vuln_id": "GHSA-hgch-jjmr-gp7w",
     "aliases": [
-      "CVE-2019-10760"
+      "CVE-2019-10760",
+      "SNYK-JS-SAFEREVAL-473029"
     ],
     "package": "safer-eval",
     "ecosystem": "npm",
@@ -11071,7 +11452,8 @@
   "GHSA-r3x4-wr4h-pw33": {
     "vuln_id": "GHSA-r3x4-wr4h-pw33",
     "aliases": [
-      "CVE-2019-10759"
+      "CVE-2019-10759",
+      "SNYK-JS-SAFEREVAL-173772"
     ],
     "package": "safer-eval",
     "ecosystem": "npm",
@@ -11088,7 +11470,8 @@
   "GHSA-v63x-xc9j-hhvq": {
     "vuln_id": "GHSA-v63x-xc9j-hhvq",
     "aliases": [
-      "CVE-2019-10769"
+      "CVE-2019-10769",
+      "SNYK-JS-SAFEREVAL-534901"
     ],
     "package": "safer-eval",
     "ecosystem": "npm",
@@ -11215,7 +11598,7 @@
     "fixed_version": "3.2.1",
     "severity_type": "CVSS_V3",
     "severity_score": 4.8,
-    "epss_score": 0.0001,
+    "epss_score": 0.00012,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -11249,7 +11632,7 @@
     "fixed_version": "5.0.1",
     "severity_type": "",
     "severity_score": 0.0,
-    "epss_score": 0.0016,
+    "epss_score": 0.00217,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -11317,7 +11700,7 @@
     "fixed_version": "7.5.2",
     "severity_type": "CVSS_V3",
     "severity_score": 7.5,
-    "epss_score": 0.00598,
+    "epss_score": 0.00581,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -11330,11 +11713,11 @@
     ],
     "package": "semver",
     "ecosystem": "npm",
-    "affected_range": "[{'introduced': '0'}, {'fixed': '4.3.2'}]",
+    "affected_range": "[{'introduced': '1.0.4'}, {'fixed': '4.3.2'}]",
     "fixed_version": "4.3.2",
     "severity_type": "CVSS_V3",
     "severity_score": 7.5,
-    "epss_score": 0.01023,
+    "epss_score": 0.01092,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -11385,7 +11768,7 @@
     "fixed_version": "0.11.1",
     "severity_type": "CVSS_V3",
     "severity_score": 5.3,
-    "epss_score": 0.00184,
+    "epss_score": 0.00603,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -11487,7 +11870,7 @@
     "fixed_version": "6.19.1",
     "severity_type": "CVSS_V3",
     "severity_score": 10.0,
-    "epss_score": 0.039,
+    "epss_score": 0.03518,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -11713,7 +12096,8 @@
   "GHSA-4g88-fppr-53pp": {
     "vuln_id": "GHSA-4g88-fppr-53pp",
     "aliases": [
-      "CVE-2019-10747"
+      "CVE-2019-10747",
+      "SNYK-JS-SETVALUE-450213"
     ],
     "package": "set-value",
     "ecosystem": "npm",
@@ -11789,7 +12173,7 @@
     "fixed_version": "1.7.3",
     "severity_type": "CVSS_V3",
     "severity_score": 9.8,
-    "epss_score": 0.05365,
+    "epss_score": 0.09042,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -11830,7 +12214,8 @@
   "GHSA-9mx2-prfp-8hqp": {
     "vuln_id": "GHSA-9mx2-prfp-8hqp",
     "aliases": [
-      "CVE-2020-7742"
+      "CVE-2020-7742",
+      "SNYK-JS-SIMPLSCHEMA-1016157"
     ],
     "package": "simpl-schema",
     "ecosystem": "npm",
@@ -11906,7 +12291,7 @@
     "fixed_version": "3.15.0",
     "severity_type": "CVSS_V3",
     "severity_score": 8.1,
-    "epss_score": 0.433,
+    "epss_score": 0.60203,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -11923,11 +12308,28 @@
     "fixed_version": "3.16.0",
     "severity_type": "CVSS_V3",
     "severity_score": 9.8,
-    "epss_score": 0.44526,
+    "epss_score": 0.41149,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
     "summary": "Remote code execution in simple-git"
+  },
+  "GHSA-r275-fr43-pm7q": {
+    "vuln_id": "GHSA-r275-fr43-pm7q",
+    "aliases": [
+      "CVE-2026-28292"
+    ],
+    "package": "simple-git",
+    "ecosystem": "npm",
+    "affected_range": "[{'introduced': '3.15.0'}, {'fixed': '3.32.3'}]",
+    "fixed_version": "3.32.3",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.8,
+    "epss_score": 0.00073,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "simple-git has blockUnsafeOperationsPlugin bypass via case-insensitive protocol.allow config key enables RCE"
   },
   "GHSA-gff7-g5r8-mg8m": {
     "vuln_id": "GHSA-gff7-g5r8-mg8m",
@@ -12159,7 +12561,7 @@
     "fixed_version": "2.14.4",
     "severity_type": "CVSS_V3",
     "severity_score": 6.1,
-    "epss_score": 0.00212,
+    "epss_score": 0.00794,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -12176,7 +12578,7 @@
     "fixed_version": "8.6.17",
     "severity_type": "",
     "severity_score": 0.0,
-    "epss_score": 0.00359,
+    "epss_score": 0.00171,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -12227,7 +12629,7 @@
     "fixed_version": "0.0.6",
     "severity_type": "",
     "severity_score": 0.0,
-    "epss_score": 0.0036,
+    "epss_score": 0.00528,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -12361,7 +12763,7 @@
     "fixed_version": "5.53.5",
     "severity_type": "",
     "severity_score": 0.0,
-    "epss_score": 0.00045,
+    "epss_score": 0.00032,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -12370,7 +12772,8 @@
   "GHSA-wv8q-r932-8hc7": {
     "vuln_id": "GHSA-wv8q-r932-8hc7",
     "aliases": [
-      "CVE-2022-25875"
+      "CVE-2022-25875",
+      "SNYK-JS-SVELTE-2931080"
     ],
     "package": "svelte",
     "ecosystem": "npm",
@@ -12378,7 +12781,7 @@
     "fixed_version": "3.49.0",
     "severity_type": "CVSS_V3",
     "severity_score": 6.1,
-    "epss_score": 0.00776,
+    "epss_score": 0.00725,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -12417,6 +12820,23 @@
     "kev_date_added": "",
     "kev_due_date": "",
     "summary": "XSS in svg2png (NPM package)"
+  },
+  "GHSA-xpqw-6gx7-v673": {
+    "vuln_id": "GHSA-xpqw-6gx7-v673",
+    "aliases": [
+      "CVE-2026-29074"
+    ],
+    "package": "svgo",
+    "ecosystem": "npm",
+    "affected_range": "[{'introduced': '2.1.0'}, {'fixed': '2.8.1'}]",
+    "fixed_version": "2.8.1",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.00055,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "SVGO DoS through entity expansion in DOCTYPE (Billion Laughs)"
   },
   "GHSA-2rq5-699j-x7p6": {
     "vuln_id": "GHSA-2rq5-699j-x7p6",
@@ -12463,7 +12883,7 @@
     "fixed_version": null,
     "severity_type": "CVSS_V3",
     "severity_score": 6.5,
-    "epss_score": 0.00262,
+    "epss_score": 0.00369,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -12557,7 +12977,8 @@
   "GHSA-mxhp-79qh-mcx6": {
     "vuln_id": "GHSA-mxhp-79qh-mcx6",
     "aliases": [
-      "CVE-2019-10790"
+      "CVE-2019-10790",
+      "SNYK-JS-TAFFY-546521"
     ],
     "package": "taffydb",
     "ecosystem": "npm",
@@ -12582,7 +13003,7 @@
     "fixed_version": "7.5.7",
     "severity_type": "CVSS_V3",
     "severity_score": 8.2,
-    "epss_score": 0.00012,
+    "epss_score": 0.00018,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -12616,7 +13037,7 @@
     "fixed_version": "4.4.18",
     "severity_type": "CVSS_V3",
     "severity_score": 8.2,
-    "epss_score": 0.00582,
+    "epss_score": 0.00316,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -12656,6 +13077,23 @@
     "kev_due_date": "",
     "summary": "node-tar is Vulnerable to Arbitrary File Overwrite and Symlink Poisoning via Insufficient Path Sanitization"
   },
+  "GHSA-9ppj-qmqm-q256": {
+    "vuln_id": "GHSA-9ppj-qmqm-q256",
+    "aliases": [
+      "CVE-2026-31802"
+    ],
+    "package": "tar",
+    "ecosystem": "npm",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '7.5.11'}]",
+    "fixed_version": "7.5.11",
+    "severity_type": "",
+    "severity_score": 0.0,
+    "epss_score": 6e-05,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "node-tar Symlink Path Traversal via Drive-Relative Linkpath"
+  },
   "GHSA-f5x3-32g6-xq36": {
     "vuln_id": "GHSA-f5x3-32g6-xq36",
     "aliases": [
@@ -12690,6 +13128,23 @@
     "kev_due_date": "",
     "summary": "Arbitrary File Overwrite in tar"
   },
+  "GHSA-qffp-2rhf-9h96": {
+    "vuln_id": "GHSA-qffp-2rhf-9h96",
+    "aliases": [
+      "CVE-2026-29786"
+    ],
+    "package": "tar",
+    "ecosystem": "npm",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '7.5.10'}]",
+    "fixed_version": "7.5.10",
+    "severity_type": "",
+    "severity_score": 0.0,
+    "epss_score": 0.00016,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "tar has Hardlink Path Traversal via Drive-Relative Linkpath"
+  },
   "GHSA-r6q2-hw4h-h46w": {
     "vuln_id": "GHSA-r6q2-hw4h-h46w",
     "aliases": [
@@ -12701,7 +13156,7 @@
     "fixed_version": "7.5.4",
     "severity_type": "CVSS_V3",
     "severity_score": 8.8,
-    "epss_score": 6e-05,
+    "epss_score": 8e-05,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -12718,7 +13173,7 @@
     "fixed_version": "4.4.16",
     "severity_type": "CVSS_V3",
     "severity_score": 8.2,
-    "epss_score": 0.00025,
+    "epss_score": 0.00113,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -12735,7 +13190,7 @@
     "fixed_version": "4.4.18",
     "severity_type": "CVSS_V3",
     "severity_score": 8.2,
-    "epss_score": 0.00019,
+    "epss_score": 0.00087,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -12803,7 +13258,7 @@
     "fixed_version": "3.1.1",
     "severity_type": "",
     "severity_score": 0.0,
-    "epss_score": 0.00027,
+    "epss_score": 0.0003,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -12905,7 +13360,7 @@
     "fixed_version": "0.2.4",
     "severity_type": "CVSS_V3",
     "severity_score": 2.5,
-    "epss_score": 0.00074,
+    "epss_score": 0.00085,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -12939,7 +13394,7 @@
     "fixed_version": null,
     "severity_type": "",
     "severity_score": 0.0,
-    "epss_score": 0.00124,
+    "epss_score": 0.00135,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -13075,7 +13530,7 @@
     "fixed_version": "3.0.1",
     "severity_type": "CVSS_V3",
     "severity_score": 7.5,
-    "epss_score": 0.01795,
+    "epss_score": 0.0138,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -13192,7 +13647,7 @@
     "fixed_version": "0.7.33",
     "severity_type": "CVSS_V3",
     "severity_score": 7.5,
-    "epss_score": 0.01803,
+    "epss_score": 0.01755,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -13235,7 +13690,8 @@
   "GHSA-332q-7ff2-57h2": {
     "vuln_id": "GHSA-332q-7ff2-57h2",
     "aliases": [
-      "CVE-2019-10795"
+      "CVE-2019-10795",
+      "SNYK-JS-UNDEFSAFE-548940"
     ],
     "package": "undefsafe",
     "ecosystem": "npm",
@@ -13266,6 +13722,23 @@
     "kev_due_date": "",
     "summary": "Arbitrary Code Execution in underscore"
   },
+  "GHSA-qpx9-hpmf-5gmw": {
+    "vuln_id": "GHSA-qpx9-hpmf-5gmw",
+    "aliases": [
+      "CVE-2026-27601"
+    ],
+    "package": "underscore",
+    "ecosystem": "npm",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '1.13.8'}]",
+    "fixed_version": "1.13.8",
+    "severity_type": "",
+    "severity_score": 0.0,
+    "epss_score": 0.00044,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Underscore has unlimited recursion in _.flatten and _.isEqual, potential for DoS attack"
+  },
   "GHSA-v2p6-4mp7-3r9v": {
     "vuln_id": "GHSA-v2p6-4mp7-3r9v",
     "aliases": [],
@@ -13292,7 +13765,7 @@
     "fixed_version": "5.28.3",
     "severity_type": "CVSS_V3",
     "severity_score": 3.9,
-    "epss_score": 0.00205,
+    "epss_score": 0.00278,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -13309,7 +13782,7 @@
     "fixed_version": "5.8.0",
     "severity_type": "CVSS_V3",
     "severity_score": 5.3,
-    "epss_score": 0.00542,
+    "epss_score": 0.00507,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -13328,7 +13801,7 @@
     "fixed_version": "5.19.1",
     "severity_type": "CVSS_V3",
     "severity_score": 4.6,
-    "epss_score": 0.00626,
+    "epss_score": 0.00727,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -13379,7 +13852,7 @@
     "fixed_version": "5.28.5",
     "severity_type": "CVSS_V3",
     "severity_score": 6.8,
-    "epss_score": 0.00174,
+    "epss_score": 0.00605,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -13396,7 +13869,7 @@
     "fixed_version": "5.29.0",
     "severity_type": "CVSS_V3",
     "severity_score": 3.1,
-    "epss_score": 0.0008,
+    "epss_score": 0.00203,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -13481,7 +13954,7 @@
     "fixed_version": "5.8.0",
     "severity_type": "CVSS_V3",
     "severity_score": 3.7,
-    "epss_score": 0.00127,
+    "epss_score": 0.00118,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -13498,7 +13971,7 @@
     "fixed_version": "5.19.1",
     "severity_type": "CVSS_V3",
     "severity_score": 7.5,
-    "epss_score": 0.00262,
+    "epss_score": 0.00305,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -13811,7 +14284,8 @@
   "GHSA-v4rh-8p82-6h5w": {
     "vuln_id": "GHSA-v4rh-8p82-6h5w",
     "aliases": [
-      "CVE-2020-7661"
+      "CVE-2020-7661",
+      "SNYK-JS-URLREGEX-569472"
     ],
     "package": "url-regex",
     "ecosystem": "npm",
@@ -13870,7 +14344,7 @@
     "fixed_version": "13.15.20",
     "severity_type": "CVSS_V3",
     "severity_score": 6.1,
-    "epss_score": 0.00035,
+    "epss_score": 0.00045,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -14106,7 +14580,7 @@
     "fixed_version": "6.2.4",
     "severity_type": "CVSS_V3",
     "severity_score": 5.3,
-    "epss_score": 0.62361,
+    "epss_score": 0.7755,
     "in_kev": true,
     "kev_date_added": "2026-01-22",
     "kev_due_date": "2026-02-12",
@@ -14123,7 +14597,7 @@
     "fixed_version": "5.4.6",
     "severity_type": "CVSS_V3",
     "severity_score": 6.4,
-    "epss_score": 0.00256,
+    "epss_score": 0.00257,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -14208,7 +14682,7 @@
     "fixed_version": "7.1.5",
     "severity_type": "",
     "severity_score": 0.0,
-    "epss_score": 0.01918,
+    "epss_score": 0.01421,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -14225,7 +14699,7 @@
     "fixed_version": "7.1.5",
     "severity_type": "",
     "severity_score": 0.0,
-    "epss_score": 0.00024,
+    "epss_score": 0.00016,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -14242,7 +14716,7 @@
     "fixed_version": "6.0.9",
     "severity_type": "CVSS_V3",
     "severity_score": 6.5,
-    "epss_score": 0.001,
+    "epss_score": 0.00092,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -14259,7 +14733,7 @@
     "fixed_version": "6.2.3",
     "severity_type": "CVSS_V3",
     "severity_score": 5.3,
-    "epss_score": 0.88123,
+    "epss_score": 0.88956,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -14276,7 +14750,7 @@
     "fixed_version": "6.2.5",
     "severity_type": "CVSS_V3",
     "severity_score": 5.3,
-    "epss_score": 0.04313,
+    "epss_score": 0.02464,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -14310,7 +14784,7 @@
     "fixed_version": "4.4.12",
     "severity_type": "CVSS_V3",
     "severity_score": 6.1,
-    "epss_score": 0.00397,
+    "epss_score": 0.00502,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -14361,7 +14835,7 @@
     "fixed_version": "3.10.2",
     "severity_type": "CVSS_V3",
     "severity_score": 9.8,
-    "epss_score": 0.00033,
+    "epss_score": 0.00044,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -14387,7 +14861,8 @@
   "GHSA-6pw2-5hjv-9pf7": {
     "vuln_id": "GHSA-6pw2-5hjv-9pf7",
     "aliases": [
-      "CVE-2021-23555"
+      "CVE-2021-23555",
+      "SNYK-JS-VM2-2309905"
     ],
     "package": "vm2",
     "ecosystem": "npm",
@@ -14497,7 +14972,7 @@
     "fixed_version": "3.9.18",
     "severity_type": "CVSS_V3",
     "severity_score": 5.3,
-    "epss_score": 0.0057,
+    "epss_score": 0.00575,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -14506,7 +14981,8 @@
   "GHSA-rjf2-j2r6-q8gr": {
     "vuln_id": "GHSA-rjf2-j2r6-q8gr",
     "aliases": [
-      "CVE-2021-23449"
+      "CVE-2021-23449",
+      "SNYK-JS-VM2-1585918"
     ],
     "package": "vm2",
     "ecosystem": "npm",
@@ -14531,7 +15007,7 @@
     "fixed_version": "3.9.18",
     "severity_type": "CVSS_V3",
     "severity_score": 9.8,
-    "epss_score": 0.69875,
+    "epss_score": 0.70028,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -14699,7 +15175,7 @@
     "fixed_version": null,
     "severity_type": "",
     "severity_score": 0.0,
-    "epss_score": 0.00124,
+    "epss_score": 0.00135,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -14716,7 +15192,7 @@
     "fixed_version": null,
     "severity_type": "",
     "severity_score": 0.0,
-    "epss_score": 0.00124,
+    "epss_score": 0.00135,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -14733,7 +15209,7 @@
     "fixed_version": "5.104.0",
     "severity_type": "CVSS_V3",
     "severity_score": 3.7,
-    "epss_score": 9e-05,
+    "epss_score": 0.0001,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -14750,7 +15226,7 @@
     "fixed_version": "5.104.1",
     "severity_type": "CVSS_V3",
     "severity_score": 3.7,
-    "epss_score": 9e-05,
+    "epss_score": 0.0001,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -14784,7 +15260,7 @@
     "fixed_version": "5.76.0",
     "severity_type": "CVSS_V3",
     "severity_score": 9.8,
-    "epss_score": 0.0145,
+    "epss_score": 0.01449,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -14833,7 +15309,7 @@
     "fixed_version": "5.2.1",
     "severity_type": "CVSS_V3",
     "severity_score": 5.3,
-    "epss_score": 0.00096,
+    "epss_score": 0.00154,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -14876,7 +15352,8 @@
   "GHSA-g78m-2chm-r7qv": {
     "vuln_id": "GHSA-g78m-2chm-r7qv",
     "aliases": [
-      "CVE-2020-7662"
+      "CVE-2020-7662",
+      "SNYK-JS-WEBSOCKETEXTENSIONS-570623"
     ],
     "package": "websocket-extensions",
     "ecosystem": "npm",
@@ -14884,7 +15361,7 @@
     "fixed_version": "0.1.4",
     "severity_type": "CVSS_V3",
     "severity_score": 8.2,
-    "epss_score": 0.0029,
+    "epss_score": 0.00304,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -14918,7 +15395,7 @@
     "fixed_version": "3.114.17",
     "severity_type": "",
     "severity_score": 0.0,
-    "epss_score": 0.00067,
+    "epss_score": 0.00051,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -15001,7 +15478,7 @@
     "fixed_version": "7.4.6",
     "severity_type": "CVSS_V3",
     "severity_score": 5.3,
-    "epss_score": 0.00522,
+    "epss_score": 0.00452,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -15103,7 +15580,7 @@
     "fixed_version": "6.0.1",
     "severity_type": "",
     "severity_score": 0.0,
-    "epss_score": 0.00138,
+    "epss_score": 0.00187,
     "in_kev": false,
     "kev_date_added": "",
     "kev_due_date": "",
@@ -15280,7 +15757,8 @@
   "GHSA-p9pc-299p-vxgp": {
     "vuln_id": "GHSA-p9pc-299p-vxgp",
     "aliases": [
-      "CVE-2020-7608"
+      "CVE-2020-7608",
+      "SNYK-JS-YARGSPARSER-560381"
     ],
     "package": "yargs-parser",
     "ecosystem": "npm",

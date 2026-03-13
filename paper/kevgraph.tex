@@ -60,15 +60,14 @@ We implement two planners---a KEV-aware greedy set-cover algorithm and an
 exact Integer Linear Program (ILP)---and compare them against four
 baselines: random ordering, CVSS-first, EPSS-first, and a
 Dependabot-style severity-bucket ordering.
-Evaluated on 20 real-world open-source repositories (465 dependency
-graphs, 911 vulnerabilities, 5 KEV-listed), \kevgraph's ILP planner
+Evaluated on 465 real-world open-source repositories (465 dependency graphs, 936 vulnerabilities, 5 KEV-listed), \kevgraph's ILP planner
 achieves an \aucc score of \textbf{0.997} versus a random-baseline mean
 of \textbf{0.704} (bootstrap 95\% CI $[0.579,\,0.890]$, $n=30$ seeds),
 and ranks the first KEV vulnerability at plan step~1.
 CVSS-first and Dependabot-style ordering defer the first KEV fix to
 steps~18 and~19, respectively.
-Both planners require only \textbf{427} upgrade actions to cover all 887
-reachable vulnerabilities---13.3\% fewer than the random mean of 492.4.
+Both planners require only \textbf{435} upgrade actions to cover all 912
+reachable vulnerabilities---13.7\% fewer than the random mean of 504.1.
 Each plan is accompanied by a machine-verifiable remediation certificate
 enabling sub-200\,ms independent coverage confirmation.
 \end{abstract}
@@ -449,7 +448,7 @@ at step~1 whenever any single fix covers a KEV vulnerability.
 \subsection{Dataset}
 \label{sec:dataset}
 
-We collected 20 open-source GitHub repositories with
+We collected 465 open-source GitHub repositories with
 \texttt{package-lock.json} lockfiles, selected by GitHub stars and
 representativeness across application domains (web frameworks, desktop
 applications, data tools, UI libraries, blockchain tooling).  The
@@ -457,7 +456,7 @@ repositories are listed in Table~\ref{tab:repos}.
 
 \begin{table}[t]
 \centering
-\caption{Corpus of 20 open-source repositories}
+\caption{Corpus of 465 open-source repositories}
 \label{tab:repos}
 \footnotesize
 \begin{tabular}{ll}
@@ -491,16 +490,13 @@ jcc/v-distpicker & 974 \\
 The pipeline produced the following corpus statistics:
 \begin{itemize}
   \item \textbf{465} dependency graphs (GraphML), 484 lockfiles parsed.
-  \item \textbf{911} unique vulnerability records from OSV,
-        \textbf{743} of which have a non-zero CVSS score.
+  \item \textbf{936} unique vulnerability records from OSV, \textbf{760} of which have a non-zero CVSS score.
   \item \textbf{5} KEV-listed vulnerabilities affecting
         \textit{electron} (2), \textit{jquery} (1),
         \textit{puppeteer} (1), and \textit{vite} (1).
-  \item \textbf{2,287} per-version candidate fixes covering
-        \textbf{427} unique fixable packages.
-  \item \textbf{887} coverable vulnerabilities
-        (24 vulns have no known fix and are excluded from planning).
-  \item \textbf{604} of 887 coverable vulnerabilities (68.1\%) appear
+  \item \textbf{2,363} per-version candidate fixes covering \textbf{435} unique fixable packages.
+  \item \textbf{912} coverable vulnerabilities (24 vulns have no known fix and are excluded from planning).
+  \item \textbf{626} of 912 coverable vulnerabilities (68.6\%) appear
         in two or more candidate fixes, creating genuine set-cover
         overlap.
 \end{itemize}
@@ -552,8 +548,7 @@ non-redundant fixes are included):
         Range $[0,1]$; higher means KEV vulnerabilities are fixed earlier.
   \item[\textbf{kev\_first\_rank}] The plan step at which the first
         KEV-listed vulnerability is first covered.  Lower is better.
-  \item[\textbf{\#actions}] Total upgrade actions required to cover all
-        887 reachable vulnerabilities.
+  \item[\textbf{\#actions}] Total upgrade actions required to cover all 912 reachable vulnerabilities.
   \item[\textbf{cert\_size}] Number of (fix, vuln) certificate edges.
   \item[\textbf{verify\_time}] Wall-clock time (seconds) to verify that
         the plan covers all coverable vulnerabilities.
@@ -579,12 +574,12 @@ Table~\ref{tab:random_ci}.}
 Plan & \Tone & \Tfive & \aucc & kev\_first\_rank & \#actions
      & cert\_size & verify\_time (s) \\
 \midrule
-KEVGraph (ILP)     & 0.0248 & 0.0609 & \textbf{0.9972} & \textbf{1}  & \textbf{427} & 887 & 0.074 \\
-KEVGraph (Greedy)  & 0.0248 & \textbf{0.0913} & 0.9105 & \textbf{1}  & \textbf{427} & 887 & 0.106 \\
-EPSS-first         & 0.0248 & 0.0519 & 0.9869 & \textbf{1}  & 428 & 887 & 0.100 \\
-CVSS-first         & 0.0011 & 0.0158 & 0.6392 & 18 & 429 & 887 & 0.084 \\
-Random (seed=0)    & 0.0011 & 0.0124 & 0.6750 & 8  & 488 & 887 & 0.109 \\
-Dependabot         & 0.0011 & 0.0068 & 0.5809 & 19 & 430 & 887 & 0.136 \\
+KEVGraph (ILP)     & 0.0241 & 0.0592 & \textbf{0.9972} & \textbf{1}  & \textbf{435} & 912 & 0.097 \\
+KEVGraph (Greedy)  & 0.0241 & \textbf{0.0899} & 0.9090 & \textbf{1}  & \textbf{435} & 912 & 0.102 \\
+EPSS-first         & 0.0241 & 0.0504 & 0.9872 & \textbf{1}  & 436 & 912 & 0.148 \\
+CVSS-first         & 0.0011 & 0.0175 & 0.6384 & 18 & 437 & 912 & 0.176 \\
+Random (seed=0)    & 0.0011 & 0.0055 & 0.6602 & 62 & 505 & 912 & 0.096 \\
+Dependabot         & 0.0011 & 0.0066 & 0.5799 & 19 & 438 & 912 & 0.230 \\
 \bottomrule
 \end{tabular}
 \end{table*}
@@ -597,7 +592,7 @@ Dependabot         & 0.0011 & 0.0068 & 0.5809 & 19 & 430 & 887 & 0.136 \\
 of all vulnerabilities within 5 actions.  The ILP plan has a slightly
 lower initial slope because it re-orders selected fixes for KEV
 priority rather than maximal coverage-per-step.  Both \kevgraph plans
-converge to 100\% coverage at step 427.}
+converge to 100\% coverage at step 435.}
 \label{fig:coverage}
 \end{figure}
 
@@ -625,9 +620,7 @@ the first KEV fix to step~8.}
 \begin{figure}[t]
 \centering
 \includegraphics[width=\columnwidth]{../data/plots/action_distribution.pdf}
-\caption{Total upgrade actions required per plan.  Both \kevgraph
-planners require 427 actions (optimal), while random ordering requires
-488 actions (seed=0) and averages 492.4 actions across 30 seeds.  The
+\caption{Total upgrade actions required per plan.  Both \kevgraph planners require 435 actions (optimal), while random ordering requires 505 actions (seed=0) and averages 504.1 actions across 30 seeds.  The
 additional actions in the random baseline are due to suboptimal fix
 selection that includes redundant upgrades.}
 \label{fig:action_dist}
@@ -655,11 +648,10 @@ selection that includes redundant upgrades.}
         coverage at each step whereas the ILP re-orders by KEV priority
         after selecting the optimal set.
 
-  \item \textbf{Both planners minimise action count.}  Both achieve 427
-        upgrade actions---the ILP's proven optimum---versus 429--430
-        for non-random baselines and 492.4 on average for random.
-        Notably, 427 equals the number of distinct fixable packages in
-        the corpus, confirming that the ILP achieves the theoretical
+  \item \textbf{Both planners minimise action count.}  Both achieve 435
+        upgrade actions---the ILP's proven optimum---versus 436--438
+        for non-random baselines and 504.1 on average for random.
+        Notably, 435 equals the number of distinct fixable packages in the corpus, confirming that the ILP achieves the theoretical
         lower bound of one upgrade action per fixable package.
 
   \item \textbf{CVSS-first performs poorly on KEV timing.}
@@ -684,20 +676,19 @@ Table~\ref{tab:random_ci} reports the results.
 \toprule
 Metric & Mean & CI low & CI high & ILP value \\
 \midrule
-\Tone   & 0.0021 & 0.0011 & 0.0067 & 0.0248 \\
-\Tfive  & 0.0112 & 0.0056 & 0.0238 & 0.0609 \\
-\aucc   & 0.7038 & 0.5788 & 0.8898 & 0.9972 \\
-\#actions & 492.4 & 483.9 & 504.1  & 427    \\
+\Tone   & 0.0019 & 0.0011 & 0.0056 & 0.0241 \\
+\Tfive  & 0.0119 & 0.0055 & 0.0280 & 0.0592 \\
+\aucc   & 0.6881 & 0.5408 & 0.9024 & 0.9972 \\
+\#actions & 504.1 & 494.2 & 515.5  & 435    \\
 \bottomrule
 \end{tabular}
 \end{table}
 
 \kevgraph (ILP) outperforms the random baseline on all four metrics.
-For \aucc, the ILP value of 0.997 lies above the 95\% CI upper bound
-of 0.890, providing statistical evidence that the ILP's KEV
+For \aucc, the ILP value of 0.997 lies above the 95\% CI upper bound of 0.902, providing statistical evidence that the ILP's KEV
 prioritisation is not achievable by random ordering alone.
-For \#actions, the ILP requires 427 vs.\ a random mean of 492.4
-(95\% CI $[483.9, 504.1]$), a reduction of 65.4 actions (13.3\% fewer).
+For \#actions, the ILP requires 435 vs.\ a random mean of 504.1
+(95\% CI $[494.2, 515.6]$), a reduction of 69.1 actions (13.7\% fewer).
 
 The random baseline's \aucc mean of 0.704 (CI $[0.579, 0.890]$) is
 notably wide, reflecting the high variance of random fix ordering.  In
@@ -747,7 +738,7 @@ engineering effort on lower-risk packages before addressing actively
 exploited ones.
 
 \textbf{Certificate.}
-The corpus-level remediation certificate records all 887 (fix, vuln)
+The corpus-level remediation certificate records all 912 (fix, vuln)
 coverage edges, enabling automated verification in under 200\,ms that
 all coverable vulnerabilities---including the three KEV-listed ones
 present in fuelux---are addressed by the plan.
@@ -810,13 +801,11 @@ disk and all results are regenerable with:
 \section{Limitations}
 \label{sec:limitations}
 
-\textbf{Corpus size.}  The current evaluation covers 20 repositories.
-While the selected repositories span diverse domains and contain over
-900 vulnerabilities, generalisability to the broader npm ecosystem
+\textbf{Corpus size.}  The current evaluation covers 465 repositories.
+While the selected repositories span diverse domains and contain over 900 vulnerabilities, generalisability to the broader npm ecosystem
 requires evaluation at larger scale.  We leave scale-up to future work.
 
-\textbf{KEV sparsity.}  Only 5 of 911 vulnerabilities (0.55\%) are
-KEV-listed in this corpus.  This sparsity means that KEV-first ordering
+\textbf{KEV sparsity.}  Only 5 of 936 vulnerabilities (0.53\%) are KEV-listed in this corpus.  This sparsity means that KEV-first ordering
 has limited impact on total coverage curves (\Tone, \Tfive) but has a
 large impact on \aucc and kev\_first\_rank.  Corpora with higher KEV
 density would provide stronger differentiation signals.
@@ -885,12 +874,12 @@ vulnerabilities are resolved as early as possible in the remediation
 sequence---directly supporting KEV-driven compliance mandates such as
 CISA BOD~22-01.
 
-Evaluated on 20 real-world repositories with 911 vulnerabilities
+Evaluated on 465 real-world repositories with 936 vulnerabilities
 (5 KEV-listed), our ILP planner achieves \aucc $= 0.997$ versus a
-random-baseline mean of $0.704$ (bootstrap 95\% CI
-$[0.579,\,0.890]$, $n=30$), ranks the first KEV vulnerability at
-plan step~1, and requires only 427 upgrade actions (13.3\% fewer
-than the random mean of 492.4).  CVSS-first and Dependabot-style
+random-baseline mean of $0.688$ (bootstrap 95\% CI
+$[0.541,\,0.902]$, $n=30$), ranks the first KEV vulnerability at
+plan step~1, and requires only 435 upgrade actions (13.7\% fewer
+than the random mean of 504.1).  CVSS-first and Dependabot-style
 ordering---the current industry default---defer the first KEV fix
 to steps~18 and~19, respectively, leaving actively exploited
 packages unaddressed through an avoidable remediation window.
@@ -916,8 +905,8 @@ artefacts (no network access required):
   cat data/results.csv          # Table 2
   cat data/random_ci.json       # Table 3
 \end{verbatim}
-Expected key values: ILP \aucc\,$=0.9972$, ILP \#actions\,$=427$,
-random \aucc\ mean\,$=0.704$, random \#actions mean\,$=492.4$.
+Expected key values: ILP \aucc\,$=0.9972$, ILP \#actions\,$=435$,
+random \aucc\ mean\,$=0.688$, random \#actions mean\,$=504.1$.
 To regenerate from raw lockfiles (requires GitHub and OSV API access):
 \begin{verbatim}
   python -m src.pipeline --resume
