@@ -33,6 +33,7 @@ from . import config
 from .baselines import run_all_baselines
 from .candidate_fixes import load_fixes, run_candidate_fixes
 from .collect_repos import collect_repos, write_manifest
+from .ecosystems.npm import NpmAdapter
 from .fetch_lockfiles import fetch_lockfiles
 from .metrics import PlanMetrics, compute_metrics, metrics_to_dict
 from .osv_kev_join import load_vulns, run_join
@@ -81,25 +82,27 @@ def run_pipeline(start_stage: str | None = None, resume: bool = False) -> None:
 
     start_idx = STAGES.index(start_stage) if start_stage else 0
 
+    adapter = NpmAdapter()
+
     for stage in STAGES[start_idx:]:
         t0 = time.perf_counter()
         log.info("═══ Stage: %s ═══", stage.upper())
 
         if stage == "collect":
-            rows = collect_repos()
+            rows = collect_repos(adapter=adapter)
             write_manifest(rows)
 
         elif stage == "fetch":
-            fetch_lockfiles()
+            fetch_lockfiles(adapter=adapter)
 
         elif stage == "parse":
-            parse_all()
+            parse_all(adapter=adapter)
 
         elif stage == "join":
-            run_join()
+            run_join(adapter=adapter)
 
         elif stage == "fixes":
-            run_candidate_fixes()
+            run_candidate_fixes(adapter=adapter)
 
         elif stage == "plan":
             vulns = load_vulns()

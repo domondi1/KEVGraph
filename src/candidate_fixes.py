@@ -27,6 +27,7 @@ from packaging.version import InvalidVersion, Version
 from tqdm import tqdm
 
 from . import config
+from .ecosystems.base import EcosystemAdapter
 from .osv_kev_join import VulnRecord, load_vulns
 from .rate_limit import get_json
 
@@ -124,6 +125,7 @@ def generate_fixes(
     vulns: dict[str, VulnRecord],
     graph_dir: Path | None = None,
     production_only: bool = True,
+    adapter: EcosystemAdapter | None = None,
 ) -> list[CandidateFix]:
     """Build CandidateFix list from vuln records.
 
@@ -145,6 +147,10 @@ def generate_fixes(
     if graph_dir is None:
         from . import config
         graph_dir = config.GRAPH_DIR
+
+    if adapter is None:
+        from .ecosystems.npm import NpmAdapter
+        adapter = NpmAdapter()
 
     # Filter to production-relevant vulnerabilities only
     if production_only:
@@ -173,7 +179,7 @@ def generate_fixes(
         fix_versions: list[str] = []
 
         for rec in recs:
-            resolved = _pick_best_fix(pkg_name, rec.fixed_version, rec.aliases)
+            resolved = adapter.resolve_fixed_version(pkg_name, rec.fixed_version, rec.aliases)
             if resolved:
                 fix_versions.append(resolved)
                 covered_ids.append(rec.vuln_id)
@@ -264,9 +270,12 @@ def load_fixes() -> list[CandidateFix]:
     return [CandidateFix(**d) for d in data]
 
 
-def run_candidate_fixes(production_only: bool = True) -> list[CandidateFix]:
+def run_candidate_fixes(
+    production_only: bool = True,
+    adapter: EcosystemAdapter | None = None,
+) -> list[CandidateFix]:
     vulns = load_vulns()
-    fixes = generate_fixes(vulns, production_only=production_only)
+    fixes = generate_fixes(vulns, production_only=production_only, adapter=adapter)
     save_fixes(fixes)
     return fixes
 
