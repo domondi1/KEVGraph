@@ -19,6 +19,7 @@ from urllib.parse import quote
 from tqdm import tqdm
 
 from . import config
+from .ecosystems.base import EcosystemAdapter
 from .rate_limit import _raw_request, github_headers
 
 log = logging.getLogger(__name__)
@@ -60,7 +61,7 @@ def download_one(repo_full_name: str, branch: str, lockfile_path: str) -> Path |
         return None
 
 
-def fetch_lockfiles() -> int:
+def fetch_lockfiles(adapter: EcosystemAdapter | None = None) -> int:
     """Download lockfiles listed in manifest.csv. Returns count fetched."""
     if not config.MANIFEST_CSV.exists():
         raise FileNotFoundError(

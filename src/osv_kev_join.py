@@ -26,6 +26,7 @@ import networkx as nx
 from tqdm import tqdm
 
 from . import config
+from .ecosystems.base import EcosystemAdapter
 from .rate_limit import get_json, post_json
 
 log = logging.getLogger(__name__)
@@ -110,8 +111,13 @@ def _fetch_full_osv_record(vuln_id: str) -> dict:
 
 def query_osv_for_packages(
     pkg_versions: list[tuple[str, str]],
+    adapter: EcosystemAdapter | None = None,
 ) -> dict[tuple[str, str], list[dict]]:
     """Query OSV for a list of (name, version) tuples. Returns raw vuln dicts."""
+    if adapter is None:
+        from .ecosystems.npm import NpmAdapter
+        adapter = NpmAdapter()
+
     results: dict[tuple[str, str], list[dict]] = {}
 
     # Build batches of up to OSV_BATCH_SIZE
@@ -119,7 +125,7 @@ def query_osv_for_packages(
     keys = []
     for name, version in pkg_versions:
         queries.append(
-            {"package": {"name": name, "ecosystem": "npm"}, "version": version}
+            {"package": {"name": adapter.normalize_package_name(name), "ecosystem": adapter.osv_ecosystem}, "version": version}
         )
         keys.append((name, version))
 
@@ -242,10 +248,10 @@ def _extract_severity(vuln: dict) -> tuple[str, float]:
     return "", 0.0
 
 
-def _extract_fixed_version(vuln: dict, pkg_name: str) -> str | None:
+def _extract_fixed_version(vuln: dict, pkg_name: str, ecosystem: str = "npm") -> str | None:
     for affected in vuln.get("affected", []):
         pkg = affected.get("package", {})
-        if pkg.get("name") == pkg_name and pkg.get("ecosystem") == "npm":
+        if pkg.get("name") == pkg_name and pkg.get("ecosystem") == ecosystem:
             for rng in affected.get("ranges", []):
                 for evt in rng.get("events", []):
                     if "fixed" in evt:
@@ -257,6 +263,7 @@ def build_vuln_records(
     osv_results: dict[tuple[str, str], list[dict]],
     kev_catalogue: dict[str, dict],
     dev_only_pkgs: set[str] | None = None,
+    ecosystem: str = "npm",
 ) -> dict[str, VulnRecord]:
     """Merge OSV results with KEV catalogue. Returns {vuln_id: VulnRecord}.
 
@@ -298,7 +305,7 @@ def build_vuln_records(
         all_cve_ids.update(cves)
 
         sev_type, sev_score = _extract_severity(v)
-        fixed = _extract_fixed_version(v, pkg_name)
+        fixed = _extract_fixed_version(v, pkg_name, ecosystem)
 
         in_kev = any(cve in kev_catalogue for cve in cves)
         kev_entry = next(
@@ -309,6 +316,7 @@ def build_vuln_records(
             vuln_id=vid,
             aliases=aliases,
             package=pkg_name,
+            ecosystem=ecosystem,
             affected_range=str(
                 v.get("affected", [{}])[0]
                 .get("ranges", [{}])[0]
@@ -531,8 +539,12 @@ def write_kev_density(records: dict[str, VulnRecord]) -> None:
 
 # ── Orchestration ────────────────────────────────────────────────────────────
 
-def run_join() -> dict[str, VulnRecord]:
+def run_join(adapter: EcosystemAdapter | None = None) -> dict[str, VulnRecord]:
     """Full Stage 4: query OSV + KEV, build records, annotate graphs."""
+    if adapter is None:
+        from .ecosystems.npm import NpmAdapter
+        adapter = NpmAdapter()
+
     # Collect unique (pkg, version) pairs across all graphs
     pkg_versions: set[tuple[str, str]] = set()
     graph_files = sorted(config.GRAPH_DIR.glob("*.graphml"))
@@ -553,8 +565,10 @@ def run_join() -> dict[str, VulnRecord]:
     dev_only_pkgs = _compute_dev_only_packages(config.GRAPH_DIR)
 
     kev = fetch_kev_catalogue()
-    osv_results = query_osv_for_packages(sorted(pkg_versions))
-    records = build_vuln_records(osv_results, kev, dev_only_pkgs=dev_only_pkgs)
+    osv_results = query_osv_for_packages(sorted(pkg_versions), adapter=adapter)
+    records = build_vuln_records(
+        osv_results, kev, dev_only_pkgs=dev_only_pkgs, ecosystem=adapter.osv_ecosystem
+    )
     save_vulns(records)
     annotate_graphs(records)
     write_kev_density(records)

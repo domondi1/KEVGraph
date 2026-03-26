@@ -26,6 +26,7 @@ from pathlib import Path
 from tqdm import tqdm
 
 from . import config
+from .ecosystems.base import EcosystemAdapter
 from .rate_limit import get_json, github_headers
 
 log = logging.getLogger(__name__)
@@ -43,11 +44,6 @@ _STAR_RANGES = [
 ]
 
 
-def _is_root_lockfile(path: str) -> bool:
-    """Return True only for paths that are exactly the lockfile name or end with /name."""
-    return path == "package-lock.json" or path.endswith("/package-lock.json")
-
-
 def _search_page(query: str, page: int) -> dict:
     url = (
         f"{config.GITHUB_API}/search/code"
@@ -56,9 +52,14 @@ def _search_page(query: str, page: int) -> dict:
     return get_json(url, headers=github_headers())
 
 
-def _collect_from_bucket(star_range: str, seen: set[str], target: int) -> list[dict]:
+def _collect_from_bucket(
+    star_range: str,
+    seen: set[str],
+    target: int,
+    adapter: EcosystemAdapter,
+) -> list[dict]:
     """Search one star bucket, return list of repo records."""
-    query = f"filename:package-lock.json+in:path+stars:{star_range}"
+    query = adapter.github_search_query(star_range)
     rows: list[dict] = []
     page = 1
     while page <= 10 and len(seen) < target:  # max 10 pages per bucket
@@ -71,7 +72,7 @@ def _collect_from_bucket(star_range: str, seen: set[str], target: int) -> list[d
         if not items:
             break
         for item in items:
-            if not _is_root_lockfile(item["path"]):
+            if not adapter.is_root_lockfile(item["path"]):
                 continue
             repo = item["repository"]
             full_name = repo["full_name"]
@@ -93,8 +94,15 @@ def _collect_from_bucket(star_range: str, seen: set[str], target: int) -> list[d
     return rows
 
 
-def collect_repos(target_n: int = config.TARGET_N_REPOS) -> list[dict]:
+def collect_repos(
+    target_n: int = config.TARGET_N_REPOS,
+    adapter: EcosystemAdapter | None = None,
+) -> list[dict]:
     """Main entry: collect up to *target_n* unique repos."""
+    if adapter is None:
+        from .ecosystems.npm import NpmAdapter
+        adapter = NpmAdapter()
+
     if not config.GITHUB_TOKEN:
         raise EnvironmentError(
             "GITHUB_TOKEN env var is required for code search. "
@@ -108,7 +116,7 @@ def collect_repos(target_n: int = config.TARGET_N_REPOS) -> list[dict]:
     for bucket in _STAR_RANGES:
         if len(seen) >= target_n:
             break
-        rows = _collect_from_bucket(bucket, seen, target_n)
+        rows = _collect_from_bucket(bucket, seen, target_n, adapter)
         all_rows.extend(rows)
         pbar.update(len(rows))
     pbar.close()
@@ -116,10 +124,10 @@ def collect_repos(target_n: int = config.TARGET_N_REPOS) -> list[dict]:
     # ── Supplement with explicit search if still short ────────────────────
     # Use topic / language filters to widen the net.
     if len(all_rows) < target_n:
-        for lang in ("JavaScript", "TypeScript"):
+        for lang in adapter.supplementary_language_filters:
             if len(seen) >= target_n:
                 break
-            query = f"filename:package-lock.json+language:{lang}"
+            query = adapter.supplementary_github_query(lang)
             page = 1
             while page <= 10 and len(seen) < target_n:
                 try:
@@ -130,7 +138,7 @@ def collect_repos(target_n: int = config.TARGET_N_REPOS) -> list[dict]:
                 if not items:
                     break
                 for item in items:
-                    if not _is_root_lockfile(item["path"]):
+                    if not adapter.is_root_lockfile(item["path"]):
                         continue
                     repo = item["repository"]
                     fn = repo["full_name"]
