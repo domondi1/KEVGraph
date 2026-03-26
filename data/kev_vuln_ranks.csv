@@ -1,0 +1,6 @@
+vuln_id,package,epss_score,cvss_score,ilp_rank,greedy_rank,epss_rank,epss_minus_ilp
+GHSA-jpcq-cgw6-v4j6,jquery,0.36851,6.9,3,47,18,15
+GHSA-4r4m-qw57-chr8,vite,0.74409,5.3,2,4,5,3
+GHSA-qqvq-6xgj-jw8g,electron,0.04775,8.8,1,2,1,0
+GHSA-j7hp-h8jx-5ppr,electron,0.94083,8.8,1,2,1,0
+GHSA-c2gp-86p4-5935,puppeteer,0.8955,6.5,4,155,4,0

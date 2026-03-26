@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
-"""Scale the KEVGraph dataset to ~120 npm repositories.
+"""Scale the KEVGraph dataset to ~120+ npm repositories.
 
 Steps:
   1. Query GitHub Search API for repos with filename:package-lock.json,
-     language:JavaScript, stars>=100.  Collect 120 unique repos and save
+     language:JavaScript, stars>=100.  Collect target unique repos and save
      them to  data/repo_pool.json.
   2. Download lockfiles in parallel (max 4 workers) to
      data/lockfiles/{owner}__{repo}.json.
-  3. Merge new repos into data/manifest.csv (existing 20 are preserved).
+  3. Merge new repos into data/manifest.csv (existing repos are preserved).
   4. Run pipeline stages: parse -> join -> fixes -> plan -> evaluate -> plot.
   5. Update numeric statistics in paper/kevgraph.tex.
   6. Print dataset and evaluation summary.
@@ -17,6 +17,7 @@ Usage:
     python scripts/scale_dataset.py --target 120 --workers 4
     python scripts/scale_dataset.py --from-stage join    # skip discovery
     python scripts/scale_dataset.py --skip-paper         # skip paper update
+    python scripts/scale_dataset.py --kev-targeted       # KEV-targeted search
 """
 
 from __future__ import annotations
@@ -49,6 +50,79 @@ TARGET_REPOS = 120
 # Star buckets chosen so each query returns <1000 results (GitHub limit).
 _STAR_RANGES = ["100..500", "501..2000", "2001..10000", ">=10001"]
 
+# KEV-prone npm packages: these appear in repos most likely to have KEV-listed
+# vulnerabilities.  Each entry is used as a filename search query to find
+# repos whose lockfile references that package.
+# Sources: CISA KEV catalogue npm-relevant entries + OSV KEV cross-matches.
+_KEV_PACKAGES = [
+    # Currently in our corpus
+    "electron",
+    "jquery",
+    "vite",
+    "puppeteer",
+    # system-information (CVE-2021-21315 in KEV)
+    "system-information",
+    # mongo-express (CVE-2019-10758 in KEV)
+    "mongo-express",
+    # n8n (CVE-2025-68613 in KEV)
+    "n8n",
+    # High-vuln packages with KEV potential
+    "vm2",
+    "handlebars",
+    "lodash",
+    "bootstrap",
+    "angular",
+    "next",
+    "undici",
+]
+
+# Lockfile content pre-screen: check if a lockfile JSON string mentions any
+# KEV-prone package to decide if a repo is worth downloading.
+_KEV_PACKAGE_NAMES_SET = frozenset(_KEV_PACKAGES)
+
+
+# ── Lockfile KEV pre-screen ──────────────────────────────────────────────────
+
+def lockfile_mentions_kev_package(lockfile_text: str) -> bool:
+    """Return True if the lockfile text references any KEV-prone package.
+
+    This is a fast string-based pre-screen: we check if any package name from
+    _KEV_PACKAGE_NAMES_SET appears as a quoted JSON key in the lockfile.
+    False positives are fine; false negatives are avoided.
+    """
+    for pkg in _KEV_PACKAGE_NAMES_SET:
+        # Match "pkg" or "node_modules/pkg" as a JSON key
+        if f'"{pkg}"' in lockfile_text or f'"node_modules/{pkg}"' in lockfile_text:
+            return True
+    return False
+
+
+def _kev_targeted_queries() -> list[str]:
+    """Build GitHub code-search queries targeting KEV-prone packages.
+
+    Each query searches for package-lock.json files that mention a specific
+    KEV-prone package name, using the GitHub code-search 'in:file' qualifier.
+
+    Note: GitHub Code Search does not support 'stars:' filtering; we use
+    multiple queries per package to spread across GitHub's 1000-result cap.
+    """
+    # Use top packages with highest KEV correlation
+    priority_pkgs = [
+        "electron",
+        "jquery",
+        "system-information",
+        "mongo-express",
+        "vite",
+        "vm2",
+        "handlebars",
+        "n8n",
+    ]
+    queries = []
+    for pkg in priority_pkgs:
+        # Standard content search: package name appears in package-lock.json
+        queries.append(f"{pkg}+in:file+filename:package-lock.json")
+    return queries
+
 
 # ── Stage 1: discover repos ──────────────────────────────────────────────────
 
@@ -58,6 +132,82 @@ def _load_manifest_names() -> set[str]:
         return set()
     with open(config.MANIFEST_CSV) as fh:
         return {row["repo_full_name"] for row in csv.DictReader(fh)}
+
+
+def discover_repos_kev_targeted(target: int = 1500) -> list[dict]:
+    """Discover repos via KEV-package-targeted GitHub search queries.
+
+    Unlike discover_repos() which uses generic star-range queries, this
+    function issues queries specifically for repos whose lockfile contains
+    known KEV-prone packages.  This maximises the probability of finding
+    repos with KEV-listed vulnerabilities.
+
+    Results are merged into the existing repo_pool.json.
+    """
+    pool: list[dict] = []
+    if REPO_POOL_PATH.exists():
+        pool = json.loads(REPO_POOL_PATH.read_text())
+        log.info("Loaded %d repos from existing repo_pool.json", len(pool))
+
+    manifest_names = _load_manifest_names()
+    seen: set[str] = {f"{r['owner']}/{r['repo']}" for r in pool} | manifest_names
+
+    n_already = len(pool) + len(manifest_names)
+    if n_already >= target:
+        log.info("Already have %d repos; target=%d met.", n_already, target)
+        return pool
+
+    queries = _kev_targeted_queries()
+    log.info(
+        "KEV-targeted discovery: %d queries, need %d more repos",
+        len(queries), target - n_already,
+    )
+
+    for query in queries:
+        if len(pool) + len(manifest_names) >= target:
+            break
+        for page in range(1, 11):
+            if len(pool) + len(manifest_names) >= target:
+                break
+            try:
+                data = _search_page(query, page)
+            except Exception as exc:
+                log.warning("Search failed [%s] page %d: %s", query[:60], page, exc)
+                break
+
+            items = data.get("items", [])
+            if not items:
+                break
+
+            for item in items:
+                if not _is_root_lockfile(item["path"]):
+                    continue
+                repo_meta = item["repository"]
+                full_name = repo_meta["full_name"]
+                if full_name in seen:
+                    continue
+                seen.add(full_name)
+                owner, repo_name = full_name.split("/", 1)
+                pool.append({
+                    "owner": owner,
+                    "repo": repo_name,
+                    "stars": repo_meta.get("stargazers_count", 0),
+                    "default_branch": repo_meta.get("default_branch", "main"),
+                    "lockfile_path": item["path"],
+                    "collected_at": datetime.now(timezone.utc).isoformat(),
+                    "kev_targeted": True,
+                })
+
+            log.info(
+                "KEV query [%s] page %d → pool=%d repos",
+                query[:60], page, len(pool),
+            )
+            if not data.get("items"):
+                break  # no more results for this query
+
+    REPO_POOL_PATH.write_text(json.dumps(pool, indent=2))
+    log.info("Saved repo_pool.json: %d repos (KEV-targeted)", len(pool))
+    return pool
 
 
 def discover_repos(target: int = TARGET_REPOS) -> list[dict]:
@@ -704,7 +854,7 @@ def main() -> None:
     )
 
     parser = argparse.ArgumentParser(
-        description="Scale KEVGraph dataset to ~120 npm repositories"
+        description="Scale KEVGraph dataset to ~120+ npm repositories"
     )
     parser.add_argument(
         "--target", type=int, default=TARGET_REPOS,
@@ -732,6 +882,13 @@ def main() -> None:
         "--no-plan", action="store_true",
         help="Stop after 'parse' stage (skip join/fixes/plan/evaluate/plot)",
     )
+    parser.add_argument(
+        "--kev-targeted", action="store_true",
+        help=(
+            "Use KEV-package-targeted GitHub search queries instead of generic "
+            "star-range queries. Maximises KEV vuln density in collected repos."
+        ),
+    )
     args = parser.parse_args()
 
     t_start = time.perf_counter()
@@ -740,8 +897,12 @@ def main() -> None:
     # ── Stage 1: discover ────────────────────────────────────────────────────
     pool: list[dict] = []
     if start_idx <= _STAGES.index("discover"):
-        log.info("═══ Stage: DISCOVER (target=%d repos) ═══", args.target)
-        pool = discover_repos(target=args.target)
+        if args.kev_targeted:
+            log.info("═══ Stage: DISCOVER (KEV-targeted, target=%d repos) ═══", args.target)
+            pool = discover_repos_kev_targeted(target=args.target)
+        else:
+            log.info("═══ Stage: DISCOVER (target=%d repos) ═══", args.target)
+            pool = discover_repos(target=args.target)
         log.info("Pool size: %d repos", len(pool))
     else:
         if REPO_POOL_PATH.exists():

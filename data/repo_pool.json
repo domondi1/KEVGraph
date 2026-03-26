@@ -3710,5 +3710,5441 @@
     "default_branch": "main",
     "lockfile_path": "package-lock.json",
     "collected_at": "2026-03-13T17:24:49.365655+00:00"
+  },
+  {
+    "owner": "mccaesar",
+    "repo": "iot-labs",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "iot-lab-2/electron/package-lock.json",
+    "collected_at": "2026-03-26T01:36:20.202037+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "jaelcam",
+    "repo": "my-react-app",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:20.202063+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Tchapis",
+    "repo": "Three.js-Projects",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:20.202073+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "AakarshDubey",
+    "repo": "Clothing-cart-feature-website",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:20.202080+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Jumvi",
+    "repo": "Exercice-url-parser-lucid",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:20.202088+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "agentsify25",
+    "repo": "patient-connect-ai-hub",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "frontend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:20.202100+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "KSSaiTeja",
+    "repo": "pixel-innovativ-edemo",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:20.202106+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "johnnymunox004",
+    "repo": "copia_de_proyecto",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "client/package-lock.json",
+    "collected_at": "2026-03-26T01:36:20.202113+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "gopaldahale",
+    "repo": "gdahalewordpress",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "wp-content/themes/sloppy/package-lock.json",
+    "collected_at": "2026-03-26T01:36:20.202119+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "DinukaS2004",
+    "repo": "QuickStay",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "client/package-lock.json",
+    "collected_at": "2026-03-26T01:36:20.202127+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "appacademy",
+    "repo": "practice-for-week-08-fetch-from-server",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:20.202137+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "democrapp",
+    "repo": "democrapp.github.io",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:20.202143+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "MicolPA",
+    "repo": "PlanetaRD",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "assets/vex/package-lock.json",
+    "collected_at": "2026-03-26T01:36:20.202148+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "faithbianposs",
+    "repo": "Bolsa-laboral",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "lb-frontend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:20.202156+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "beekntr",
+    "repo": "blockchain",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "my-react-app/package-lock.json",
+    "collected_at": "2026-03-26T01:36:20.202162+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "abhchow",
+    "repo": "FIT2102-Tutorials",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "Week4/package-lock.json",
+    "collected_at": "2026-03-26T01:36:20.202168+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "aul14",
+    "repo": "sis_asset_rs",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "assets/main-library/click-tap-image/package-lock.json",
+    "collected_at": "2026-03-26T01:36:20.202173+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Edret0",
+    "repo": "Mobile-Computing-Labs",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "iot-lab-2/electron/package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518589+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Amsozzer1",
+    "repo": "Electron-Car",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "iot-lab-2/electron/package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518611+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Amsozzer1",
+    "repo": "Car_electron",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "iot-lab-2/electron/package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518618+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "jdubpark",
+    "repo": "cs437-lab2",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "our-app/package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518623+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "robotixnitrr",
+    "repo": "RobotiX_Official_Site",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "client/package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518629+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "redha28",
+    "repo": "redhacourse-git",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518635+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "sudoanand",
+    "repo": "diffon",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "example/v1/package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518641+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Laurence-Cullen",
+    "repo": "fire-reporting",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "firebase/public/package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518647+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "NickNish09",
+    "repo": "templates-bootstrap4",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "Templates-Lading-Page-Scroll/startbootstrap-new-age-gh-pages/package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518653+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "UmeshMehta1",
+    "repo": "BookStore",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "frontend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518659+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "BenjaminSchrager",
+    "repo": "my-react-app",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518665+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "santzthedon",
+    "repo": "my-react-app",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518670+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "TJor-L",
+    "repo": "hello-react",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "my-react-app/package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518676+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "DerrickLin0110",
+    "repo": "Assignment",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "Assignment-4/package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518681+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "2024eb03069-code",
+    "repo": "BOB-GYM",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518686+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "formidabilus",
+    "repo": "portofolio",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518691+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "IT20642914",
+    "repo": "React-course-pr5",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518697+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "saladinhodzic",
+    "repo": "The-Elegant-Context",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518702+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Davide-Barca",
+    "repo": "The-Complete-React-Guide-2024",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "OnlineShop/package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518708+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "maticjesenicnik",
+    "repo": "learn-react",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "08-starting-project-advanced-state-management/package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518714+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "BatHenBetty",
+    "repo": "Switch",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "ReactClient/Switch-project/package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518721+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "fattym",
+    "repo": "containerconnect",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "frontend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518727+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "SCServices",
+    "repo": "dynamic-slides",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "frontend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518733+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "axzoraharry",
+    "repo": "axzora-ecosystem",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "frontend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518739+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "gsharabok",
+    "repo": "messenger",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518745+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "shawon-majid",
+    "repo": "EmployerNexus-frontend",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518750+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Beboo-stack",
+    "repo": "My-portfolio",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518756+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "stefanoesposito",
+    "repo": "my-portfolio",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518761+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Mohmdev",
+    "repo": "next-basic-portfolio",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518766+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "johnnymunox004",
+    "repo": "proyecto",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "client/package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518772+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "MykolasS77",
+    "repo": "Package-Tracker",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "PackageTracker.client/package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518778+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "stallev",
+    "repo": "wpchurchdocker",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "site/wp-content/themes/twentytwentyone/package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518785+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "HarshBhardwaj",
+    "repo": "wordpress",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "html/wp-content/themes/twentytwentyone/package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518791+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "FadiZahhar",
+    "repo": "wordpress-theme-development-with-docker",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "html/wp-content/themes/twentytwentyone/package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518797+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "devchoiteam",
+    "repo": "231020-kwf-vote",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "wordpress/www_root/wp-content/themes/twentytwentyone/package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518803+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "zhoums",
+    "repo": "crx-operation",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518808+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "zhoums",
+    "repo": "v-mission",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518814+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "zhoums",
+    "repo": "v_mission_third",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518818+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "LakshyaAhlawat",
+    "repo": "SIH_FRONTEND",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518823+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "evertonvilar",
+    "repo": "ecommerce-front-main",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518828+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "letticiamoura",
+    "repo": "ecommerce-front",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518836+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "devdenisviana",
+    "repo": "projetofrontend",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518841+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "florianleux",
+    "repo": "Ahoy",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518847+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "ict-programmer",
+    "repo": "teamcabinets-laravel",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518851+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "erichlin1",
+    "repo": "aa-open",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "promise/server/package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518857+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "mohamedhany01",
+    "repo": "e-courses",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "appacademy/aa-backend/promises/practice-for-week-08-fetch-from-server-main/package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518863+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "hrrshpal",
+    "repo": "javascript",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "async-js/async-js-3/fetch/fetch-from-server/package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518869+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "cameron-eth",
+    "repo": "fetch-server",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "practice-for-week-08-fetch-from-server/package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518874+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "javduzen",
+    "repo": "javiera.tech",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518880+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Pplum09",
+    "repo": "path-finder",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518885+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "makac1896",
+    "repo": "young-voices-of-talent",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "yvot/package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518891+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "MicolPA",
+    "repo": "emet_blog",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "assets/vex/package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518897+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "HubSpot",
+    "repo": "vex",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518902+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "TiagoDeserth",
+    "repo": "VEX",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518908+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Digital-E",
+    "repo": "hellobordeaux.tours",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "javascript/vex-master/package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518914+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "23Vvrangler",
+    "repo": "Examen-Parcial-De-DAD",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "front/package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518919+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "julmerqa",
+    "repo": "examen-parcial-dad",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "front/package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518925+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "maiksurco",
+    "repo": "Entregable_Final_MOVILES",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "ProyectoMobiles-Flutter/lb-frontend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518930+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Gowtham-Chitturi",
+    "repo": "my-react-app",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "my-react-app/package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518936+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "karasi-sonica",
+    "repo": "my-react-app",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518941+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "bimocahyo7",
+    "repo": "02-fundamental-react",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518946+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "KaiYi-0102",
+    "repo": "fit2102-tutorials",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "week_4/package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518951+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "krooldonutz",
+    "repo": "Monash-Year2Sem1",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "FIT2102/week4/tute4/package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518958+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Hebaallah61",
+    "repo": "ITI",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "jQuery/Day38/day2/task2/click-tap-image/package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518964+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "pppeonnyyy",
+    "repo": "B-tods-Website",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "css/click-tap-image/click-tap-image/package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518969+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Leopalds",
+    "repo": "E-commerce",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "e-commerce-bala/public/libs/click-tap-image/package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518975+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "muhamam",
+    "repo": "project_sidomba",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "frontend/sidombareborn/percobaan js/click-tap-image/package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518980+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "foliojs",
+    "repo": "fontkit",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518986+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Wicloz",
+    "repo": "AnimeSentinel",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "website/package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518991+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "gkatsev",
+    "repo": "babel-plugin-inline-json",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.518997+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "OneWeekGraphQL",
+    "repo": "OneWeekGraphQL-Final",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "chapter-12/package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.519002+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "sanjsanj",
+    "repo": "oop-vs-fp",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.519007+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Canybardeloton",
+    "repo": "Transcende_me_if_you_can",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "frontend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.519013+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "XavAsh",
+    "repo": "UbearItz",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.519018+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Rohitn-2312",
+    "repo": "Rohit_AI-Powered-Content-Summarizer-Dashboard_Frontend",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.519024+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "marionikolov17",
+    "repo": "Zynkle",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "client/package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.519029+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "hoangminhbao8102",
+    "repo": "PTUDWebNangCao-CTK44",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "BaiTapCaNhan/WebElectroShop/webelectroshop.client/package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.519034+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "thaisc98",
+    "repo": "ReactProject",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.519039+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "GustavoLeck",
+    "repo": "vue-setup",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.519044+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Calum2899",
+    "repo": "InfloTechChallange",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "UserManagement.Client/package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.519051+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Co-den",
+    "repo": "newly-updated-meetup",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.519056+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "HabibElias",
+    "repo": "game-hub",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.519062+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Milan-960",
+    "repo": "Athlete-data-processor",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.519068+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "KeyurVaghani",
+    "repo": "InstagramScraper",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.519073+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "stoyanov-kaloyan",
+    "repo": "lambda-symbol",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.519078+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "AliZaiN-157",
+    "repo": "Food-ordering-app",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.519084+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "bilal1718",
+    "repo": "News_Aggregator",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "frontend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.519090+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "joanavarro23",
+    "repo": "react-algo-que-pedir",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.519095+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Skinzin",
+    "repo": "estudo-nest",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.519101+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "kubaskaw000",
+    "repo": "soulsart-monorepo",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "soulsart-fe/package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.519106+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "shubhranshu",
+    "repo": "nodejs-starter-template",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:21.519112+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "junocchi",
+    "repo": "fe-project-template",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.048909+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "TherealE2O",
+    "repo": "Games-",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.048935+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Mncconcepts",
+    "repo": "zenix-shop-mall",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.048944+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "toniii98",
+    "repo": "CraftRoni",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.048950+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Jathin321",
+    "repo": "Ai_ToolHub",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "frontend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.048958+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "StephenWDickey",
+    "repo": "team-profile-generator",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.048964+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "sutharrahul",
+    "repo": "rahul-suthar",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.048970+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "AustinGil",
+    "repo": "chatbot-workshop",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.048975+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "apulapaka6",
+    "repo": "PromptOpts",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "web/package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.048981+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "zytact",
+    "repo": "anime-pentascore",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.048987+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Borehms",
+    "repo": "smart-home-guardian",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "frontend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.048994+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "vmorilla",
+    "repo": "csv2xbrl",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "packages/csv2xbrl/package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049000+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "shivamwebdev0811",
+    "repo": "reactjs",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "04-card-project/package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049006+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "teketekepon",
+    "repo": "2026-0202-AgenticCoding",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049012+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "ZachBeta",
+    "repo": "slopcore_yaj_rpg",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049017+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "HimajahnaviKanagala",
+    "repo": "EmpowerHer_Assignments",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "React/props-drilling-api/package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049024+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "bullseye405",
+    "repo": "ecommerce-store",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049030+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "rgottleber",
+    "repo": "FEM_profile_card",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049036+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "CiviCooP",
+    "repo": "vva_forms",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049041+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Laraib1806-Ahmad",
+    "repo": "Portfolio",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049047+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "vnkraitis",
+    "repo": "MD-12-REACT-crud",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049054+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Cicada0909",
+    "repo": "Vana-telegram-mini-app",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049062+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "buildwithkode",
+    "repo": "parcel-react-app",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049069+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "IamCoder18",
+    "repo": "render-latex",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049075+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Akshaipr2506",
+    "repo": "mediaplayer-frontend",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049082+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "bamblebam",
+    "repo": "Permission-Based-Backend",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049089+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "devprnx",
+    "repo": "cryonix-bot",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049096+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "PhanHoangKhang",
+    "repo": "jet2holidays-bookstore",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049101+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Raj102546",
+    "repo": "Restaurant-page",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049107+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "tenthreee",
+    "repo": "minimalism-2022",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049113+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "ashajosh360",
+    "repo": "ICU-Capacity",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049120+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "jiwlee97",
+    "repo": "wanted-pre-onboarding-challenge-fe-27",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049127+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "lidaaupova",
+    "repo": "adaptive-slider",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049133+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "gabrielwm1",
+    "repo": "amarillo-tanstack",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049139+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "codemathphp",
+    "repo": "clantip",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049145+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "thekily",
+    "repo": "daily-scrum",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049152+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "jobsonita",
+    "repo": "test-codespaces-fullstack",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "web/package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049159+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "tom-guastapaglia",
+    "repo": "fullstack_projet_final",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "vitrine/package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049165+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "sunil-singh-j",
+    "repo": "Trading-platform",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "my-app/package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049172+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Mhamzaihsan",
+    "repo": "videotube",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "client/package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049179+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Vikas-N-2006",
+    "repo": "Team-generator",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "frontend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049185+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "vinamrasahu",
+    "repo": "chta-gpt",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "frontend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049191+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "ImpactGLX323",
+    "repo": "IntelliFlow",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "mobile/package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049197+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "JoaoEstevam01",
+    "repo": "Itinerario-projeto",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049202+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "mohid-mughal",
+    "repo": "AIRYZE-Enhanced",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "backend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049208+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "nvsnikhil",
+    "repo": "EventMate_AI_Based_Event_Management_System",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "frontend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049215+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "MangChhunleang",
+    "repo": "ShopEase_E_Commerce",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "backend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049221+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "mishraprajwal",
+    "repo": "ai-code-review-assistant",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "frontend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049228+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "NEXUS-AI-Innovation-lab-for-Health",
+    "repo": "WiGo",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "frontend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049235+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "AakashJyoti",
+    "repo": "Introductions",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "Tailwind.css/1ne/package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049242+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "gabrielwilliandev",
+    "repo": "familly-finance",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "family-finance-web/package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049248+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "luiz2k",
+    "repo": "encurtador",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "back-end/package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049254+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Rene-SandovalL",
+    "repo": "Angular",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "practica5/package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049260+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "jacqueterrell",
+    "repo": "IceCream-App-BackEnd",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "functions/package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049266+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "jindal07",
+    "repo": "password-gen",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049272+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "magic-spells",
+    "repo": "cart-panel",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049279+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "profvic",
+    "repo": "Blockchain-agri-commerce-platform",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "web-frontend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049285+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Fateme-qnbr",
+    "repo": "validation-app",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049291+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "redoamain",
+    "repo": "react-stopwatch",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049297+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "podarhacker",
+    "repo": "NewGame",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049303+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "GIHAA",
+    "repo": "fortify-now",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "auth-service/package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049309+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "rudradas05",
+    "repo": "sahayak-platform",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049316+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "zoltantakacs-born",
+    "repo": "builder-memory-leak",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049322+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "ccnmtl",
+    "repo": "swallowassessment-pack",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049328+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "renu-sv",
+    "repo": "starhack",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "youmatter-hack/package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049335+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "hosnaml",
+    "repo": "FullstackOpen",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "part2/courseInfo/package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049341+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Al-Basit",
+    "repo": "ShopIn-Mern-Ecommerce",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "frontend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049346+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "humbertodrc",
+    "repo": "principios-solid-react",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "single-responsibility/package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049353+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "cstuartroe",
+    "repo": "django-react-heroku-template",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049359+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "skkuse",
+    "repo": "2023spring_41class_team10",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "frontend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049365+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "hjbaez7800",
+    "repo": "macro5-landing",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049371+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "azmtbek",
+    "repo": "itransition-ilearning",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "week1/task_4/mix/package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049378+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "vimalprakash404",
+    "repo": "Gen-Ai",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "frontend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049384+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "PawelHeleniak",
+    "repo": "gym-sync",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "gym-sync-frontend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049390+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "AbdullahWins",
+    "repo": "event_calender",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049396+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "jonchurch",
+    "repo": "dash-dash",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049402+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "ashhwinx",
+    "repo": "3-Months",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049407+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Rahulsingh1810",
+    "repo": "ekatra",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049413+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "XtraKrispi",
+    "repo": "budget-purescript",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049419+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "taukirattar",
+    "repo": "invoice--app",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049425+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "mfilipenko",
+    "repo": "dextor-website",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049431+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "pratikjadhav6632",
+    "repo": "web-development_journey",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "React/Projects/Counter/package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049439+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Nkaringa",
+    "repo": "Sub-TimeManagement",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049445+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "LynxSumit",
+    "repo": "FrontendSocialMedia",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049451+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "AlekseiGlazyrin34",
+    "repo": "ticketsystemmobile",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049457+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "raj2410p",
+    "repo": "logistics-app",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "Logistics-app/Swiftly/package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049463+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "AndersonKeller",
+    "repo": "MePedeAi-node",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049469+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "UmeshMehta1",
+    "repo": "tShirtHub-P2",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "adminDashboard/package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049475+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "mch-fauzy",
+    "repo": "tic-tac-toe-game",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049482+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "J-Prajwal",
+    "repo": "pj-templates",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "templates/redux-chakra-vite/package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049488+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "SanaArshad12",
+    "repo": "SHIFFTAPP",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "client/package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049495+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "khaledmo77",
+    "repo": "AddressBookProject",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "Client/address-book-client/package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049501+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "sakshamsingh03",
+    "repo": "Student-Guide-App",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "frontend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049508+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "stevenp17",
+    "repo": "Quiz-App",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "quizapp/package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049515+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "domutai",
+    "repo": "JANB",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "frontend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049521+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "pallaviipp",
+    "repo": "RemittanceCalc",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "frontend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049527+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Md-SalmanHossen",
+    "repo": "React-Practice",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "Practice/package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049533+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "therahulkumar28",
+    "repo": "Chat-app",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "Frontend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049539+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "bikashgiri2002",
+    "repo": "USBM_MCA_2025",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "frontend/React/class-3-react/package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049544+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Jugrajsinghbali",
+    "repo": "PetLifeLandinPage",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "tempelate/package-lock.json",
+    "collected_at": "2026-03-26T01:36:22.049550+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "NielsvanHoof",
+    "repo": "kpop-idol-viewer",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "website/package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999761+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "maestro-org",
+    "repo": "maestro-replit-templates",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "maestro-wallet-demo/package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999781+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "udaygurav1122",
+    "repo": "react-project",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "instagram/package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999786+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "radhi621",
+    "repo": "Ecommerce_Website_Laravel",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "example-app/package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999790+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "scott-gianan",
+    "repo": "udemy-react",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "usepopcorn/package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999793+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Nik30codes",
+    "repo": "react",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "09-usestate/package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999796+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Guru54",
+    "repo": "sort-x",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "sorting-visualizer/package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999799+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "DafeCpp",
+    "repo": "product_dev_course",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "projects/frontend/apps/experiment-portal/package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999802+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "avoidwork",
+    "repo": "tiny-stack",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999805+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "wisdomairey",
+    "repo": "key-react-concept-book",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "activity-4.2/package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999807+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "dkueng01",
+    "repo": "lunchbuddy",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999810+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "samuelkim085",
+    "repo": "tg_consol_uc",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "tg-consol-viz/package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999813+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "anburocky3",
+    "repo": "Calculator-App",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999816+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "MarioStojcevski",
+    "repo": "react-course-ch-2024",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "05-button-app/package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999819+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "BishalParajuli4",
+    "repo": "Final_Project",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "Final_project/package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999822+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "yoniwolde",
+    "repo": "Netflix-Clone2024",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "netflix-clone/package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999825+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "graficos",
+    "repo": "pipe-js",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999827+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Abhay-333",
+    "repo": "MERN-Stack",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "React/LocalStorage/package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999830+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "jhonriosgalindez",
+    "repo": "lily-restaurant",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999833+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "kapildwivedi23",
+    "repo": "FSD_CS_B",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "restaurant-project/package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999836+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "servicetitan",
+    "repo": "anvil2-docs-live-code",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "examples/dateandtime-abbreviation-dont/package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999839+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "cyruschueng",
+    "repo": "goodwxapp",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "d1money-master/hdlgl-neiqin/package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999842+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "firihy",
+    "repo": "alx-fe-reactjs",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "form-handling-react/package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999845+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "ryanmstokes",
+    "repo": "next-ts-ra-apollo",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999848+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "jepiqueau",
+    "repo": "jeep-photoviewer",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999851+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Hafsajillani",
+    "repo": "ask-ai",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "my-screen-share-app/package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999854+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "dwkerwin",
+    "repo": "ssm-config",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999857+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "shitoletushar3132",
+    "repo": "Jobs_Projects",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "frontend_Search_poc/package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999859+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "sillypears",
+    "repo": "rivals2-elo-frontend",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999862+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "rmontero",
+    "repo": "spider",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999865+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "multitroid",
+    "repo": "multitroid-web",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999868+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "bigyaa",
+    "repo": "React-Vite-Boilerplate-TS",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999870+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "richa290903",
+    "repo": "SmartLearnAI",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "Admin_Panel/package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999873+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Brijesh1990",
+    "repo": "reactjs_3pmmwf",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "module7/dictionary-app/package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999877+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "YangliDeng",
+    "repo": "flyingFox2",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999880+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Muth80",
+    "repo": "car_showcase",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999883+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "NikCodePro",
+    "repo": "React-practices",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "theme project context api/package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999885+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "vchirikov",
+    "repo": "solidjs-repro",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999888+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "devwaseem",
+    "repo": "uhn-services",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999891+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "rudrakshSoni-dev",
+    "repo": "memeGenerator",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999893+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "leanne110",
+    "repo": "crowdfunding-frontend",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999896+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "gaikwadpranav",
+    "repo": "NotesApp",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999899+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "huynhli",
+    "repo": "LichtWebsite",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "frontend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999902+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "9199sk",
+    "repo": "studentsenior",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999904+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Rahimbugti",
+    "repo": "react.js",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999907+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Dip-1432",
+    "repo": "React-Projects",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "Project 2 - Password Generator/package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999910+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "kylejmorris",
+    "repo": "coolstory",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999912+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "adelinbojan96",
+    "repo": "simple_trading_system",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999915+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Shubham-Sati",
+    "repo": "DatePicker",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999918+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "mengxianqiu-code",
+    "repo": "ai-news-dashboard",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999921+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "MobiCode48",
+    "repo": "form-validation-zod",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999923+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "satyachandu11",
+    "repo": "pocket-notes",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999926+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "ReOblis",
+    "repo": "spotify_clone",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "frontend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999929+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "alnao",
+    "repo": "AngularReactNodeExamples",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "Next14App/package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999932+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "arjunchoudhury07",
+    "repo": "prismforce",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999934+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "benjaminhpham",
+    "repo": "WEB103-Prework---Creatorverse",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999937+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "yusuken1121",
+    "repo": "React_TS_PokemonList",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999940+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "RigLatvin-lang",
+    "repo": "INST-LIKE-NEW",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999942+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "DEATH-senpai",
+    "repo": "doptica-discord-bot-dashboard",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "frontend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999945+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Shewale41",
+    "repo": "SreyashEnterprises",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999948+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "GusmonVious",
+    "repo": "ThadingyutFestivalWeb",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999951+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "szymonrucinski",
+    "repo": "flip-dat-card",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999953+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "SickkMade",
+    "repo": "mobile-gallary-react",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999956+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "ntoyoda-cac",
+    "repo": "react-kiso1",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999959+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "aalmamunsikder",
+    "repo": "SecurePay",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999963+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Kota-Karthik",
+    "repo": "NumberQuest",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999966+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Datman56",
+    "repo": "datman_library_components",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999970+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "ashleyfrieze",
+    "repo": "easy-tdd-typescript",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "jest/section 4/record-source-id-1/package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999973+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "adarsha-7",
+    "repo": "hangman",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999976+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "aegis4206",
+    "repo": "my-blog",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999979+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "MohdSaifulM",
+    "repo": "portfolio",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999981+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "selimq",
+    "repo": "aws-cdk-demo",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999984+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "PiROkhar",
+    "repo": "Front-work",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999987+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Abinayanafaiq",
+    "repo": "PortoBang",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999990+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "earanda84",
+    "repo": "fregor-next-app",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999992+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "FreeNewMan",
+    "repo": "ajs",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999995+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "TuroTheReal",
+    "repo": "Transcendence",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "frontend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:23.999998+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Hackersaikiran",
+    "repo": "Ai-ToolHub",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "frontend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.000001+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "ChandanaBalan",
+    "repo": "mediaplayernew",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.000003+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "saadahmedrana",
+    "repo": "FullStackOpenSaadAhmedRana",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "part 1/courseinfo/package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.000006+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Abrarkhan19",
+    "repo": "prodapp",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.000009+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "taukirattar",
+    "repo": "ecs-2-project-",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.000012+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "jvlavan",
+    "repo": "cal-pwa",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.000016+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "IshwaranRudhara",
+    "repo": "calculator-app",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.000018+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "aftabshahmadar",
+    "repo": "reactjs-data",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "module 7/dictionary-app/package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.000021+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Emily2955",
+    "repo": "crowdfunding_frontend",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.000024+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "huynhli",
+    "repo": "GriefWebsite",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "frontend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.000027+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Farooqbaqer9",
+    "repo": "videogen2",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.000030+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "pspn",
+    "repo": "go-hydra",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.000032+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "sfccdevops",
+    "repo": "sfcc-cartridge-diff",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.000036+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "quantum-advantage-tracker",
+    "repo": "quantum-advantage-tracker.github.io",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.000039+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "danfuzz",
+    "repo": "lactoserv",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "src/main-tester/package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.000041+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "opengeos",
+    "repo": "maplibre-gl-geo-editor",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.000044+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "nationalarchives",
+    "repo": "tdr-generated-graphql",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "ts/package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.000047+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Bavon101",
+    "repo": "style-me",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.000049+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "1234445666666",
+    "repo": "robo-school",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.000052+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "LeandroRochAlg",
+    "repo": "job-failure",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.000055+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "aaravjj2",
+    "repo": "ledgerlive",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "apps/web/package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.000057+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "CalebWright156",
+    "repo": "portfolio2024",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.000060+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "sonugpc",
+    "repo": "redirect-tracer-backend",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745462+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Farrukh-Murtaza",
+    "repo": "healthlinear",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745485+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "logs123",
+    "repo": "one-greek",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "frontend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745494+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "dhananjayralebhat",
+    "repo": "Full-stack-Project",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "BookMyDoc/admin/package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745499+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "VaibbhavD",
+    "repo": "Tinder-Clone",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745504+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Med-Fedi-Adel",
+    "repo": "Web-sockets",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745509+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "charleycorneil",
+    "repo": "portfolio-final",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745513+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "mahidhar-25",
+    "repo": "courseSellingApp-MERN-",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "backend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745518+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "PadoleKiran",
+    "repo": "mern-stack",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "React/1/contest/package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745522+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "AaronYeeeet",
+    "repo": "PayPal-Visualizer",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745527+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "rahulbhuse16",
+    "repo": "ai-chatbot",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745531+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "ricable",
+    "repo": "mcai",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "video-project/package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745536+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Ranjan095",
+    "repo": "daily-code",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "React/all-problems/package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745540+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "JCarlosLucio",
+    "repo": "weather-app",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745545+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Treblle",
+    "repo": "api-insights-action",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745550+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Elzelkers",
+    "repo": "Analyse-Sujet-Concours",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745554+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Eyupaln",
+    "repo": "Calculator-React",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745577+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "opitzconsulting",
+    "repo": "oc-learning-react",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "6-forms/package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745583+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "tonybnya",
+    "repo": "mock-store-api",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "frontend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745588+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "cyman82",
+    "repo": "RizeOS",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "frontend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745592+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "vophamquocanh12",
+    "repo": "MERN-JobPortal",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "frontend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745597+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "ecna",
+    "repo": "QAInsecureCodeDetection",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745602+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "thutasann",
+    "repo": "thuta-portfolio",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745606+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Otmeal",
+    "repo": "codex-monitor",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745611+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "VyperX2",
+    "repo": "portfolio",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745617+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "GLRSoufyan",
+    "repo": "TEST_GLR_Examen_Uitreiking",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745622+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "JohanCodeForFun",
+    "repo": "jh-portfolio-spa",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745627+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "aattanasio",
+    "repo": "aattanasio.github.io",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745633+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "phamthanhhungpro",
+    "repo": "AssetManagement",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "frontend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745638+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "SAEBelgradeWeb",
+    "repo": "eloquent-tasks",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745643+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Naveen-Th",
+    "repo": "React-ChildToParent",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745648+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "adamu-tako",
+    "repo": "new-project",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745653+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Fanou59",
+    "repo": "MeteoApp",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745659+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "isabella-capp",
+    "repo": "Planit-FE",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745664+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "amanuel-wonde",
+    "repo": "SDLC-automation-frontend",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745668+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "rangelojc",
+    "repo": "vite-react-typescript-template",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745673+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "bubbis-poncho",
+    "repo": "DataForge",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745678+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "maazajaz",
+    "repo": "ai-avatar-final",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745683+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "jasmandeep15",
+    "repo": "Programs",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "TODO/package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745689+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "SubhechhyaSigdel",
+    "repo": "Learning-React",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "03tailwindprops/package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745695+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Danielkombou",
+    "repo": "frontendSV",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "notes-app/package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745700+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "ketandad",
+    "repo": "clicko",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "app/package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745707+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "iglesiaskevinralphbusiness",
+    "repo": "iglesiaskevinralphbusiness.github.io",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "works/PRACTICE/practice_2/package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745713+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "jasperleeyz",
+    "repo": "simplymanaged",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "client/package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745718+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "ghinaiyariken",
+    "repo": "CodeSphere",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "frontend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745723+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "EASS-HIT-PART-A-2025-CLASS-VII",
+    "repo": "WhatTheNote",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "frontend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745728+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "alecreates",
+    "repo": "HACKS2026",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745733+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "MZeyneb",
+    "repo": "azmp-class-tasks",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "cards-task/package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745739+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Mustafoski",
+    "repo": "Crypto-React",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745745+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Akhil07-ctrl",
+    "repo": "Pop-X",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745750+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "DavidBaghdasaryan1",
+    "repo": "react-advice-app",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745755+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "rickyhemawan",
+    "repo": "rickyhemawan-portofolio",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745761+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "degranda",
+    "repo": "routing-system-wc",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745767+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "daria-medeleanu",
+    "repo": "notes-app",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "notes-app-frontend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745774+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Emkay2309",
+    "repo": "Malhari",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745779+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "misbahsy",
+    "repo": "Meal-tracker-backend",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745785+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "InnaIazovskaia",
+    "repo": "portfolio",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745789+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "rushabhcodes",
+    "repo": "olap-viz-old",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745794+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Esscraye",
+    "repo": "UQAC-chat-irc",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745799+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "JoseAugustoFS",
+    "repo": "testes-automatizados-excercicio1",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745804+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "samjarrett",
+    "repo": "trouble-making",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745833+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Arwindpianist",
+    "repo": "kmtcs-2.0",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745842+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "EzequielVilla",
+    "repo": "back-blog",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745848+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "KnifeOnlyI",
+    "repo": "heartstone-search",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745854+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "papermoonio",
+    "repo": "2026-h1-building-production-grade-dApps",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "homework/lesson-6/1589/ui/package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745860+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "shayaantx",
+    "repo": "simple-logger",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745866+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "PawanKumar666",
+    "repo": "100xdevs-cohort-2-assignments",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "week-10/1-postgres-simple/package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745871+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "codewaghre",
+    "repo": "LamaAI",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "LamaAI-Clone/package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745876+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "mwanago",
+    "repo": "nestjs-mongodb",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745881+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "paulweezydesign",
+    "repo": "Full-Stack-TODO-Application",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "Client/package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745886+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "solitdio079",
+    "repo": "the-hub",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "client/package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745890+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "rkamysz",
+    "repo": "evm-game-backend",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "backend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745895+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "psychopatz",
+    "repo": "ModManager",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "DynamicTradingManager/frontend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745900+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Exygy",
+    "repo": "sf-components",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745905+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "art-suite",
+    "repo": "art-suite-foundations",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745910+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "gane-2005",
+    "repo": "frontendproject",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745915+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "migueljpi",
+    "repo": "fullstack-open",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "part6/redux-anecdotes/package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745920+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "IndusSSS",
+    "repo": "IOT",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "frontend/client/package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745925+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "vikashrock4545",
+    "repo": "100xdevs-Code",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "week-07/context/package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745930+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "osul1p",
+    "repo": "Post-Mors",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "magical-mercury/package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745936+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "jayzstep",
+    "repo": "HY-fullstack-palautukset",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "osa1/kurssitiedot/package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745940+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "musictechlab",
+    "repo": "mtl-ddex-vscode-helper",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745945+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "toyochaaan",
+    "repo": "tweetsaver",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745950+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Isaquedias",
+    "repo": "async-runner-js",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745955+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "antoine-coulon",
+    "repo": "effect-introduction-parisjs",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745960+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "athulantonynp",
+    "repo": "VideoEditorElectronJs",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745966+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "desmumeii",
+    "repo": "fullStackOpen",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "part2/dataforcountries/package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745972+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "barrett28",
+    "repo": "1_IT-vedant",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "11_react/day6/stateffect/package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745977+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "ankur-upflairs",
+    "repo": "Upflairs-batch-03-evening",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "react/components and inline style/package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745982+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "renhongl",
+    "repo": "fe-infra",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "webpack/webpack-dev/package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745987+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Vishnu14052002",
+    "repo": "python-practice",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "web development/react practice/my learning in react/onlypractice/only practice/package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.745995+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Hamad-cmd",
+    "repo": "Consignee-Leads",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.746000+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "craig-booth",
+    "repo": "Booth.PortfolioManager",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "booth.portfoliomanager.ui/package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.746005+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "faabiopontes",
+    "repo": "laravel-bootstrap",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.746010+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "WhiteDevil1247",
+    "repo": "Swasth-Saarthi-Main",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.746015+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "fabiankaegy",
+    "repo": "blockkit",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.746020+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "koushikxd",
+    "repo": "Beatrix",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.746024+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "nishitardeshana27",
+    "repo": "portfolio-react-project",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.746029+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "ramonges",
+    "repo": "Worldbiggestoptionstradingcompetition",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.746034+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "anshulyadav32",
+    "repo": "ay-digital-website",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:24.746038+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "supakit0607",
+    "repo": "Porforio",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209636+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "BogBond2000",
+    "repo": "Itmo_labs",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209655+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "imkpandey",
+    "repo": "starclinch",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209659+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "matanswisa",
+    "repo": "typescript-home-assignment-",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209662+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Ritul-Void",
+    "repo": "browShell",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209666+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "egemenokte",
+    "repo": "rheology",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209669+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "sabbirziauddin",
+    "repo": "taskerApp",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209672+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "EL-CITRA",
+    "repo": "ExpenseTracker",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209675+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "jaecheol-jeong",
+    "repo": "grid-csv",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209678+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Huytai1o2",
+    "repo": "project_mvp_cnpm_251",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "frontend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209681+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "emiliaKomba25",
+    "repo": "routinenodeapp",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209684+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "do040",
+    "repo": "shout-app",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209687+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Kapil-2305",
+    "repo": "Kapil_3D-Portfolio",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209690+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "lyevan",
+    "repo": "EMS-Frontend",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209693+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "andyroberson",
+    "repo": "gridium-practice",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209696+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "ryaneghrari",
+    "repo": "JayCopper",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209699+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Aryan-Ganeshkar",
+    "repo": "Attendance-System",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209701+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Aabhas2",
+    "repo": "react-todo-context",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209704+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "jpitzer23",
+    "repo": "harrison-orr",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209707+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Trntannan",
+    "repo": "Tic-Tac-Toe",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209709+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "antoniorusso2",
+    "repo": "laravel-portfolio",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209712+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "tlashla373",
+    "repo": "gaming-portfolio",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209715+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "PushpakRaut",
+    "repo": "Contact-Us-page",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209717+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "abdulbari786",
+    "repo": "react-portfolio",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209720+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "seniorjafar",
+    "repo": "contect",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209723+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "shnkrgalav",
+    "repo": "week-11-react-hooks",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209726+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "MayankDevil",
+    "repo": "Portfolio",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209728+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "sagarhutagi",
+    "repo": "blackhole",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209731+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "SuperETF",
+    "repo": "kim",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209734+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "dp487",
+    "repo": "ideal-system",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209737+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "nyllereth421",
+    "repo": "PROYECTO-BILLAR",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209739+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "yueqianw",
+    "repo": "tuneMap",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209742+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "mintusyaka",
+    "repo": "lyceum-proactiveness",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209745+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "ValenciaJocelyn",
+    "repo": "AcademiaCampus",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209748+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "IlhanBasic",
+    "repo": "Euro-Treasures-Project",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209750+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "JrGustavo",
+    "repo": "PracticeSpline",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209753+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "santiagochinellato",
+    "repo": "baritrekking",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209756+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "shivansh023023",
+    "repo": "Threat_Sim",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209759+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "jhabineet",
+    "repo": "course-backend-with-jwt",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209762+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "phuckid28",
+    "repo": "chello-web",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209764+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "nadiaS11",
+    "repo": "nadia-sultana-portfolio",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209767+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "guiteixeira-io",
+    "repo": "meu-voto-sistema",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209770+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "fahrezyman",
+    "repo": "desa-frontend",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209773+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Dhruv-Kapoor-1202",
+    "repo": "dem-project",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209775+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "mohamedabuhamida",
+    "repo": "securty",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209778+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "k41531",
+    "repo": "playground-next",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209780+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "saurabhbachhav",
+    "repo": "TicketMitra",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209783+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "tanvibansal2004",
+    "repo": "Canvas-Text-Editor",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209786+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Aarav-J",
+    "repo": "popflix",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209788+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "kcvijay",
+    "repo": "recipes-nextjs-ts",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209791+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Muntaha4356",
+    "repo": "ClientHack",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209794+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Hassani2409",
+    "repo": "prototype-design-pro-portfolio",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209796+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Mayank0597",
+    "repo": "Teetar",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209799+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "kajee27",
+    "repo": "ai-visual-testing-poc",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209802+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Erics1337",
+    "repo": "the-mindfulness-toolbox",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209804+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "asdf1596",
+    "repo": "clone",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "JavaScript/React/notion-clone/package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209807+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "vijay3150",
+    "repo": "Ecommerce-Website",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209810+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "janki-singh",
+    "repo": "Supermarket_Automation",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209813+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "rjcli",
+    "repo": "react-with-typescript",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "02_advanced-component-types/10_custom-card-component/package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209816+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "collinsmezie",
+    "repo": "Backend-Stage-One-Task",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209818+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "LasseRB",
+    "repo": "droemmehavet_website",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209821+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "emrhnyz",
+    "repo": "web3-tracker",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209824+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Anesu1",
+    "repo": "mri",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209826+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "radifkhanrafin",
+    "repo": "Work-manager-next.js",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209829+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Ghegghe",
+    "repo": "Nurale",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209831+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "xyzarnav",
+    "repo": "CryptoApp",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209834+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Cloudy-Skies",
+    "repo": "blog-api",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209836+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "GSG-G10",
+    "repo": "pomodorokitty-team2",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209839+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Clos266",
+    "repo": "itacademy-sprint07-movies-app",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209842+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "GALBICCIM",
+    "repo": "geometry-viewer",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209844+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "WOMSTY",
+    "repo": "crrytpofolio",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209847+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "younusFoysal",
+    "repo": "Shape-File-Viewer",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209850+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "CHIDI00",
+    "repo": "tgipay-frontend",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209852+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "iansmith35",
+    "repo": "Rebecca-ai-studio-",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209855+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Surenderdubeyofficial",
+    "repo": "portfolio-main",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209858+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "SulemanAli-Asif",
+    "repo": "CRUD-next-express-custom-",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209860+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "sushie-builds",
+    "repo": "OpenFund-updated",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209863+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "nick5616",
+    "repo": "nickel-tools",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209866+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "DanzellC",
+    "repo": "se_project_aroundtheus",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209868+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "vinnikalessia",
+    "repo": "research_project",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209871+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "a-down",
+    "repo": "portfolio",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209874+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "mathensley",
+    "repo": "ProjetoWeb2",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209876+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "lucasaclima03",
+    "repo": "nestjs-users-playground",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209879+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "LiNePasha",
+    "repo": "abrahimskman",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209882+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "fynnoman",
+    "repo": "portocervo-saarlouis",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209885+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "FR-TheFury",
+    "repo": "neon-ride-3d-blaze",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209887+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "tommyrharper",
+    "repo": "webpack-tutorial",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209890+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "VarunTogaru",
+    "repo": "angular_app",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209893+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "adityanshinde",
+    "repo": "BPCQF",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209895+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "joydeep2810",
+    "repo": "Conversta",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "frontend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209898+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "SachinM44",
+    "repo": "BoB",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "frontend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209901+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "anshul9809",
+    "repo": "expense-tracker-saas",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "frontend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209904+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "jayakumari14",
+    "repo": "Typescriptproject",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "frontend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209907+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "hieumt24",
+    "repo": "Online-Asset-Management",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "frontend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209910+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "YunusShaikh29",
+    "repo": "100xdev-Assignments",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "week-10/1-postgres-simple/package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209913+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "mohits-git",
+    "repo": "the-16-weeks",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "Assignments/week-10/1-postgres-simple/package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209916+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "krishna-Ra-na",
+    "repo": "cohort-2",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "assignments/week-10/1-postgres-simple/package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209920+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "tkssharma",
+    "repo": "nodejs-db-orm-world",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "with MongoDB/nestjs-mongodb-apis/package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209923+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "meghsha",
+    "repo": "tkssharma-code-Node-Express-Prisma-MongoDB-Postgres-API-s-and-ORM",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "with MongoDB/nestjs-mongodb-apis/package-lock.json",
+    "collected_at": "2026-03-26T01:36:25.209926+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "RZ-Rakib",
+    "repo": "University-of-Helsinki-fullstack",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "part2/dataForCountries/package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134395+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "imkpandey",
+    "repo": "starclinch0",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134413+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Syahira",
+    "repo": "AcademiaCampus-SE_Project",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "SE_AoLProject-master/package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134417+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "VitoDD",
+    "repo": "ProofOfConcept",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134421+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "adityanshinde",
+    "repo": "Bug-Prediction-Frontend",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134424+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "adityanshinde",
+    "repo": "Bug-Prediction-And-Code-Quality",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "BPCQF/package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134427+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "graphlit",
+    "repo": "graphlit-samples",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "nextjs/uppy/package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134430+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "cns-studios",
+    "repo": "freestorage",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "electron-app/package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134434+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "gta191977649",
+    "repo": "bootstrap-aero-theme",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134436+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "JamSprint",
+    "repo": "MultiPong",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134439+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "luffySAMA",
+    "repo": "electron-app",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134442+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "jeremielenoir",
+    "repo": "react-tag-commander",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134445+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "ntaubitz",
+    "repo": "natetaubitzdotcom",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134448+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "walter-garay",
+    "repo": "Contraloria-management",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134451+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "AliceLaurent",
+    "repo": "Smart-Hand-Automated-Recognition-Project",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "frontend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134454+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "brishikiran",
+    "repo": "realtime-transcribe-with-nextjs",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134456+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "peelarajkumar",
+    "repo": "ReactPractice",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134459+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "FXStrato",
+    "repo": "coplay",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134462+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "aung-khantkyaw",
+    "repo": "social-network-platform",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134465+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "es-tooling",
+    "repo": "es-tooling.github.io",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134468+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Aldistwn29",
+    "repo": "moonton",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134471+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Pikkmaa",
+    "repo": "front-end-koolitus-2025",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "laptops/package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134473+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "AmalEN20",
+    "repo": "GPT-API",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134476+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "jessy-p",
+    "repo": "quick-jira",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134479+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Gokulviji",
+    "repo": "ChatApplication",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134482+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Kruithne",
+    "repo": "kogs-logger",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134485+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "smme2009",
+    "repo": "VueJS-Vite-Shop",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134487+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "fhwrdh",
+    "repo": "fhwrdh.github.io",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134490+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "anandabhijeet1999",
+    "repo": "Notes_App",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134493+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "hutaifu",
+    "repo": "mygit",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "vite-vue2/package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134495+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "rahulkumarvh",
+    "repo": "DashRide",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "frontend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134498+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "JosueRomero2002",
+    "repo": "ProyectoAlgoritmos",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "GTSP/frontend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134502+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Antoine-FdRg",
+    "repo": "HealthTracker",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "box/normalizer/package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134504+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "AbreuOliver",
+    "repo": "opinionated-sveltekit-typescript-tailwind-starter",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134507+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "MrIsmail1",
+    "repo": "Triumph-FleetSync",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "infrastructure/platforms/adonis-ts/package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134510+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "SharatRokkam",
+    "repo": "react-series-b36",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "reactday-07/package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134513+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "LyeZinho",
+    "repo": "danbooru-sdk",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134516+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Ziko225",
+    "repo": "Dictionary",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "client/package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134519+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "SulthanShaik1",
+    "repo": "React-JIOHotstar-Replicate-Project",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134522+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "jenan-hong",
+    "repo": "gsg-case-study",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134524+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "sarthak536",
+    "repo": "Sentiment-Analysis-Hackcraft2.0",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134527+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "simbld",
+    "repo": "React-Hooks---useReducer",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134530+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "ShivrajShelar99",
+    "repo": "Outreach-Pro-AI-Cold-Email-Generator",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134532+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "HasanAmmar05",
+    "repo": "ZenTask",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134535+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "ajeigbepaul",
+    "repo": "talk",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134538+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "MedHubTeam",
+    "repo": "medhub-backend",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134541+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "allthis-mieras",
+    "repo": "AstroStudioStart",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134543+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "mhm396",
+    "repo": "SWAPI-BACKEND",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134546+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "KarkuriAnil",
+    "repo": "kits-arena-clash",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134549+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "MuhammadArslanKhan96",
+    "repo": "mangabento",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134552+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "jairojrdv",
+    "repo": "hadassa-beauty-website",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134555+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "pyrozhok",
+    "repo": "chat-with-video",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134557+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "t4traw",
+    "repo": "iconclinic-dev",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134585+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "dontloseyourheadsu",
+    "repo": "crypto-currency-dashboard",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134589+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "KI-Anik",
+    "repo": "l2-b5",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "Mission-4-redux/m22-23-todo-app/package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134592+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "shini66",
+    "repo": "LandinPageServices",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134595+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "MindGardenAI",
+    "repo": "Web-UI",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "web/package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134598+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "CodeHut-Market",
+    "repo": "codein",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "next components/Login Page/package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134601+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "lreinaca",
+    "repo": "Web_Condos-RegionKamouraska",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "CascadeProjects/Web_Condos-RegionKamouraska/package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134604+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "eemuston",
+    "repo": "FullStackopen",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "osa7/ultimate-hooks/package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134607+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "karivarkey",
+    "repo": "portfolio",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134610+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "MarkusWahlman",
+    "repo": "palautusrepositorio-Fullstack",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "osa9/course-app/package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134613+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "sayandeeppaul",
+    "repo": "react-playlist",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "05_tailwind_css/package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134616+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Kidkasam",
+    "repo": "ecommerce",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "ecommerce_frontend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134619+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "nikolaluk",
+    "repo": "ZettahostingTestTask",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "zettahosting-task/package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134621+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "ulima-arqsoft",
+    "repo": "arqui252-grupo1",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "0/0.8/0.8.4/Demo2/package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134624+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Riddhi-Jethava",
+    "repo": "NODE_JS",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134627+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "evb0110",
+    "repo": "pravenc",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134630+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "kiruluchamika",
+    "repo": "portfolio-Kirulu-Hettige",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134633+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "srikar0805",
+    "repo": "ModelMigrate",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "frontend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134635+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "barasa001",
+    "repo": "devops-blog-api",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "backend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134639+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Thyge123",
+    "repo": "Spac-Uge-6-7-Inventory-Management",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "frontend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134642+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "3957ki",
+    "repo": "MST365",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "demo/demo-front/demo-next/package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134645+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Vimal1602",
+    "repo": "quiz_shahid",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "client/package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134647+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "mattverse",
+    "repo": "what-i-love",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "15-halftone-cat/package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134650+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Prit1011",
+    "repo": "TradeHive",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "dashboard/package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134653+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "tejas-2706",
+    "repo": "medium",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "frontend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134656+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "butter6482",
+    "repo": "TuBot",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "chatbot-saas-frontend/Frontend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134659+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "VarunReddyT",
+    "repo": "FEWD_Lab",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "exp_9_18_03/package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134662+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Ericmiano",
+    "repo": "CYBER-SENSEI",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "cyber-sensei/frontend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134664+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "arpitkashyap22",
+    "repo": "phaser-rpg-game",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "rpg-frontend/package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134667+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "MAROUANE-ED-DAHRAOUI",
+    "repo": "Path-Geeks-Institute",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "week9/day4/exercises/exercises xp/package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134670+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Fayli775",
+    "repo": "Industry-Analyzer-AI",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134673+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Adityakumarsinghstm",
+    "repo": "React-Projects",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "reactForm/formApp/package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134676+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "mustafagenc",
+    "repo": "aprs",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134679+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "PRINCE123853",
+    "repo": "REACT.JS",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "6condition-Rendering/package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134682+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "DevWithEasy",
+    "repo": "express-socket.io-practice",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "client/package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134684+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Kingsman71",
+    "repo": "blogora",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134687+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "KingGoku910",
+    "repo": "inno-var-ai-prompt-genie",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134690+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "TheHiddenLoop",
+    "repo": "React-Projects",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "passport-oauth/oauth/package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134693+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "balajikarthik2004",
+    "repo": "hrm-tenant",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "frontend/super-admin/package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134695+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "AnitusA",
+    "repo": "Anitus",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134698+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "redx94",
+    "repo": "quantum-web3-agent",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134701+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "JMcKenna01",
+    "repo": "TaskPro",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134703+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "draginojd",
+    "repo": "casino-slots",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134706+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "andyprime",
+    "repo": "dungeontimes",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "web/package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134709+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "craftgear",
+    "repo": "snake-camel",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134711+00:00",
+    "kev_targeted": true
+  },
+  {
+    "owner": "Likima",
+    "repo": "chessbot-2.0",
+    "stars": 0,
+    "default_branch": "main",
+    "lockfile_path": "package-lock.json",
+    "collected_at": "2026-03-26T01:36:27.134714+00:00",
+    "kev_targeted": true
   }
 ]

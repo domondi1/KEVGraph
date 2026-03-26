@@ -20,6 +20,7 @@
 \usepackage[inline]{enumitem}
 \usepackage{amsthm}
 \newtheorem{theorem}{Theorem}
+\newtheorem{proposition}{Proposition}
 
 \hypersetup{colorlinks=false,pdfborder={0 0 0}}
 
@@ -62,12 +63,12 @@ baselines: random ordering, CVSS-first, EPSS-first, and a
 Dependabot-style severity-bucket ordering.
 Evaluated on 465 real-world open-source repositories (465 dependency graphs, 936 vulnerabilities, 5 KEV-listed), \kevgraph's ILP planner
 achieves an \aucc score of \textbf{0.997} versus a random-baseline mean
-of \textbf{0.704} (bootstrap 95\% CI $[0.579,\,0.890]$, $n=30$ seeds),
+of \textbf{0.688} (empirical 95th-percentile interval $[0.541,\,0.902]$, $n=30$ seeds),
 and ranks the first KEV vulnerability at plan step~1.
 CVSS-first and Dependabot-style ordering defer the first KEV fix to
 steps~18 and~19, respectively.
 Both planners require only \textbf{435} upgrade actions to cover all 912
-reachable vulnerabilities---13.7\% fewer than the random mean of 504.1.
+coverable vulnerabilities---13.7\% fewer than the random mean of 504.1.
 Each plan is accompanied by a machine-verifiable remediation certificate
 enabling sub-200\,ms independent coverage confirmation.
 \end{abstract}
@@ -113,12 +114,12 @@ organisations relying on open-source JavaScript infrastructure.
 \kevgraph addresses three practical questions simultaneously:
 \begin{enumerate}
   \item \textbf{What is the minimum number of upgrade actions} required
-        to cover all reachable vulnerabilities?
+        to cover all coverable vulnerabilities?
   \item \textbf{In what order} should those actions be performed to
         eliminate actively-exploited (KEV-listed) vulnerabilities
         as early as possible?
-  \item \textbf{Can the plan be cryptographically verified}---can we
-        prove, without re-running the pipeline, that the plan covers
+  \item \textbf{Can the plan be independently verified}---can we
+        confirm, without re-running the pipeline, that the plan covers
         every coverable vulnerability?
 \end{enumerate}
 
@@ -127,8 +128,9 @@ We make the following contributions:
   \item An end-to-end open-source pipeline (collect $\to$ fetch $\to$
         parse $\to$ join $\to$ fixes $\to$ plan $\to$ evaluate $\to$
         plot) that reproduces all results from raw lockfile data.
-  \item A KEV-aware greedy set-cover planner with formal approximation
-        guarantees ($1-1/e$ of optimal coverage per budget step).
+  \item A KEV-aware greedy set-cover planner with classical approximation
+        guarantees: $O(\log|U|)$ factor for minimum set cover~\cite{johnson74}
+        and $(1-1/e)$ of maximum coverage under a budget~\cite{nemhauser78}.
   \item An exact ILP formulation of minimum-set-cover remediation with
         proven optimality in plan cardinality.
   \item The \aucc metric---Area Under the KEV Coverage Curve---which
@@ -138,7 +140,7 @@ We make the following contributions:
         set-cover overlap, enabling both planners to select the
         minimum-cardinality subset of upgrade actions.
   \item Statistical evaluation against four baselines with a 30-seed
-        random ensemble and bootstrap 95\% confidence intervals.
+        random ensemble and empirical 95th-percentile intervals.
   \item Machine-verifiable remediation certificates supporting
         automated compliance workflows.
 \end{itemize}
@@ -235,7 +237,7 @@ scope.
 
 \textbf{Universe.}  Let
 $U = \bigcup_{i=1}^{n} S_i \subseteq \mathcal{V}$ be the set of
-\emph{coverable} vulnerabilities---those reachable by at least one
+\emph{coverable} vulnerabilities---those addressed by at least one
 candidate fix.
 
 \textbf{Remediation plan.}  A remediation plan is an ordered sequence
@@ -282,7 +284,7 @@ $\max_{v \in U : \kappa(v)=1} \mathrm{rank}_\pi(v)$.
         baselines including 30-seed random ensemble; store all plans in
         \texttt{data/evaluation.json}.
   \item \textbf{Evaluate} -- compute all metrics for every plan;
-        compute bootstrap 95\% CIs for the random ensemble; write
+        compute empirical 95th-percentile intervals for the random ensemble; write
         \texttt{data/results.csv}.
   \item \textbf{Plot} -- generate four publication figures.
 \end{enumerate}
@@ -358,8 +360,13 @@ vulnerabilities, respectively.
 \end{algorithmic}
 \end{algorithm}
 
-The greedy algorithm achieves a $\bigl(1 - 1/e\bigr)$-approximation
-ratio for maximum coverage under a cardinality budget~\cite{nemhauser78}.
+For minimum set cover, the greedy algorithm has plan length at most
+$k^* \cdot \lceil \ln|U| + 1\rceil$~\cite{johnson74}.
+For maximum coverage under a fixed budget $B$, it achieves
+at least $\bigl(1 - 1/e\bigr)$ of the maximum possible
+coverage~\cite{nemhauser78}.  These are distinct guarantees for
+distinct problem formulations; \kevgraph uses the greedy strategy
+for the minimum set-cover objective.
 
 \subsection{ILP Exact Planner}
 
@@ -379,9 +386,11 @@ After solving with CBC~\cite{cbc} (via the PuLP interface~\cite{pulp}),
 the selected fixes are ordered using the same KEV-aware priority
 function as the greedy planner.
 
-The ILP is optimal in set cardinality and uses KEV-aware ordering on
-top of the optimal set, making it optimal on both objectives whenever
-the minimum-cardinality set is unique.
+The ILP is provably optimal in remediation cardinality.  After the
+optimal set is selected, fixes are ordered using the same KEV-aware
+priority function as the greedy planner (post-processing step);
+joint optimality of cardinality and KEV-early ordering is not
+guaranteed in general.
 
 \subsection{The \aucc Metric}
 \label{sec:aucc}
@@ -429,17 +438,25 @@ full corpus (Table~\ref{tab:results}).
 
 \subsection{Theoretical Properties}
 
-\begin{theorem}[ILP Optimality]
+\begin{proposition}[ILP Cardinality Optimality]
 The ILP planner produces a plan of minimum cardinality.
-\end{theorem}
+\emph{By construction}: the ILP minimises $\sum x_i$ subject to
+full-coverage constraints; any feasible solution with fewer selected
+fixes would violate at least one coverage constraint.
+\end{proposition}
 
-\begin{theorem}[Greedy Approximation]
+\begin{proposition}[Greedy Set-Cover Bound]
 Let $k^*$ be the optimal plan length.  The greedy planner produces a
 plan of length at most
-$k^* \cdot \lceil \ln |U| + 1 \rceil$~\cite{johnson74}.
+$k^* \cdot \lceil \ln |U| + 1 \rceil$~\cite{johnson74},
+the classical set-cover approximation ratio.
+Separately, as a maximum-coverage algorithm under a cardinality
+budget, the greedy strategy achieves at least $(1 - 1/e)$ of the
+maximum achievable coverage~\cite{nemhauser78}; these are distinct
+guarantees for distinct problem variants.
 With KEV-aware tie-breaking, the first KEV vulnerability is covered
 at step~1 whenever any single fix covers a KEV vulnerability.
-\end{theorem}
+\end{proposition}
 
 % ============================================================
 \section{Empirical Evaluation}
@@ -534,8 +551,10 @@ non-redundant fixes are included):
         exploitation-probability-aware tools.
   \item[Dependabot] Fixes are sorted by severity bucket
         (Critical $>$ High $>$ Medium $>$ Low) then alphabetically by
-        package name within each bucket, mimicking GitHub Dependabot's
-        default ordering~\cite{dependabot}.
+        package name within each bucket.  This is a simplified
+        approximation of Dependabot-style ordering~\cite{dependabot};
+        actual Dependabot behaviour includes additional heuristics
+        not modelled here.
 \end{description}
 
 \subsection{Metrics}
@@ -548,7 +567,7 @@ non-redundant fixes are included):
         Range $[0,1]$; higher means KEV vulnerabilities are fixed earlier.
   \item[\textbf{kev\_first\_rank}] The plan step at which the first
         KEV-listed vulnerability is first covered.  Lower is better.
-  \item[\textbf{\#actions}] Total upgrade actions required to cover all 912 reachable vulnerabilities.
+  \item[\textbf{\#actions}] Total upgrade actions required to cover all 912 coverable vulnerabilities.
   \item[\textbf{cert\_size}] Number of (fix, vuln) certificate edges.
   \item[\textbf{verify\_time}] Wall-clock time (seconds) to verify that
         the plan covers all coverable vulnerabilities.
@@ -639,7 +658,7 @@ selection that includes redundant upgrades.}
 
   \item \textbf{ILP dominates on \aucc.}  The ILP achieves
         \aucc $= 0.9972$, nearly perfect KEV early coverage.  The
-        greedy planner achieves 0.9105 due to occasional non-KEV fixes
+        greedy planner achieves 0.9090 due to occasional non-KEV fixes
         interleaved in its coverage-maximising ordering.
 
   \item \textbf{Greedy dominates on \Tfive.}  The greedy planner
@@ -655,7 +674,7 @@ selection that includes redundant upgrades.}
         lower bound of one upgrade action per fixable package.
 
   \item \textbf{CVSS-first performs poorly on KEV timing.}
-        CVSS-first's kev\_first\_rank $= 18$ and \aucc $= 0.639$
+        CVSS-first's kev\_first\_rank $= 18$ and \aucc $= 0.638$
         demonstrate that CVSS score is a poor proxy for KEV membership.
         High CVSS severity does not imply active exploitation.
 \end{itemize}
@@ -663,13 +682,13 @@ selection that includes redundant upgrades.}
 \subsection{Statistical Analysis of Random Baseline}
 
 To robustly characterise the random baseline, we ran 30 independent
-seeds and computed bootstrap 95\% percentile confidence intervals by
-resampling the 30 seed outcomes with replacement (10,000 resamples).
+seeds (seeds 0--29) and report the 2.5th--97.5th percentile interval
+across the 30 seed outcomes as an empirical 95th-percentile interval.
 Table~\ref{tab:random_ci} reports the results.
 
 \begin{table}[t]
 \centering
-\caption{Bootstrap 95\% CI for random baseline ($n=30$ seeds).
+\caption{Empirical 95th-percentile interval for random baseline ($n=30$ seeds).
 \kevgraph (ILP) values are provided for comparison.}
 \label{tab:random_ci}
 \begin{tabular}{lrrrr}
@@ -688,13 +707,13 @@ Metric & Mean & CI low & CI high & ILP value \\
 For \aucc, the ILP value of 0.997 lies above the 95\% CI upper bound of 0.902, providing statistical evidence that the ILP's KEV
 prioritisation is not achievable by random ordering alone.
 For \#actions, the ILP requires 435 vs.\ a random mean of 504.1
-(95\% CI $[494.2, 515.6]$), a reduction of 69.1 actions (13.7\% fewer).
+(95\% CI $[494.2, 515.5]$), a reduction of 69.1 actions (13.7\% fewer).
 
-The random baseline's \aucc mean of 0.704 (CI $[0.579, 0.890]$) is
+The random baseline's \aucc mean of 0.688 (CI $[0.541, 0.902]$) is
 notably wide, reflecting the high variance of random fix ordering.  In
 the best random seeds, lucky KEV-early positioning produces \aucc
-close to 0.89, underscoring that the \emph{worst-case} exposure
-under random ordering is substantially worse (0.579).
+close to 0.90, underscoring that the \emph{worst-case} exposure
+under random ordering is substantially worse (0.541).
 
 \subsection{Case Study: ExactTarget/fuelux}
 \label{sec:case}
@@ -729,8 +748,8 @@ including both KEV-listed electron vulnerabilities present in fuelux
 across the entire corpus are resolved: electron at step~1, vite at
 step~2, jquery at step~3, and puppeteer at step~4.
 
-\textbf{Comparison with Dependabot.}
-Dependabot's alphabetical-within-severity-bucket ordering delays the
+\textbf{Comparison with simplified Dependabot-style ordering.}
+The Dependabot-style baseline's alphabetical-within-severity-bucket ordering delays the
 electron upgrade to step~19 (kev\_first\_rank $= 19$), leaving the
 libvpx and libwebp KEV vulnerabilities unpatched through 18 intervening
 upgrades.  An organisation applying the Dependabot ordering expends
@@ -755,7 +774,7 @@ probabilistic and lag behind KEV list additions by the FIRST API update
 cadence; KEV membership is a deterministic, authoritative signal.
 
 \textbf{CVSS is a poor proxy for exploitability.}
-CVSS-first's kev\_first\_rank $= 18$ and \aucc $= 0.639$ demonstrate
+CVSS-first's kev\_first\_rank $= 18$ and \aucc $= 0.638$ demonstrate
 that high theoretical severity does not predict active exploitation.
 Several packages with CVSS $< 7.0$ are KEV-listed while many
 CVSS~9.0+ vulnerabilities are not.  This finding aligns with prior
@@ -770,7 +789,7 @@ and greedy planners meaningful optimisation choices.
 \textbf{Greedy vs.\ ILP trade-off.}
 The greedy planner covers more total vulnerabilities in the first 5
 steps (\Tfive $= 0.091$ vs.\ $0.061$ for ILP) but achieves a lower
-\aucc ($0.910$ vs.\ $0.997$).  Practitioners who need to maximise
+\aucc ($0.909$ vs.\ $0.997$).  Practitioners who need to maximise
 total coverage in a short window (e.g., a 5-upgrade sprint) should
 prefer the greedy plan; those who want to minimise KEV exposure above
 all else should prefer the ILP plan.
@@ -783,8 +802,8 @@ introduced by CVSS-first and Dependabot orderings means that
 KEV-affected packages---with confirmed active exploitation---are
 systematically deprioritised relative to theoretically severe but
 unexploited CVEs.  \kevgraph's ILP planner eliminates this gap by
-treating KEV membership as a hard ordering constraint within a
-formally optimal remediation set.  The accompanying certificate
+treating KEV membership as the primary ordering priority within a
+cardinality-optimal remediation set.  The accompanying certificate
 provides the machine-readable coverage proof required for
 automated compliance audit pipelines.
 
@@ -815,6 +834,14 @@ independent.  In practice, upgrading package $A$ may force a version
 change in package $B$ (through shared transitive dependencies), which
 may resolve or introduce additional vulnerabilities.  We do not model
 these transitive effects.
+
+\textbf{Coverable vs.\ reachable.}  \kevgraph identifies
+\emph{coverable} vulnerabilities---those for which at least one
+candidate upgrade fix exists in the corpus.  This is not equivalent
+to graph-traversal or runtime reachability analysis: a vulnerability
+is counted even if the affected package code is never executed on a
+live execution path.  Integrating static or dynamic reachability
+analysis to further filter the coverable set is left to future work.
 
 \textbf{Fix feasibility.}  \kevgraph assumes that upgrading to the
 latest fixed version is always feasible (no breaking API changes).  In
@@ -866,7 +893,7 @@ certificates as output.
 \label{sec:conclusion}
 
 We presented \kevgraph, an end-to-end pipeline for
-exploitation-aware, formally optimal vulnerability remediation in npm
+exploitation-aware, cardinality-optimal vulnerability remediation in npm
 dependency ecosystems.  By framing remediation as a KEV-aware
 set-cover problem, \kevgraph minimises the number of required upgrade
 actions while ensuring that actively exploited (KEV-listed)
@@ -876,8 +903,8 @@ CISA BOD~22-01.
 
 Evaluated on 465 real-world repositories with 936 vulnerabilities
 (5 KEV-listed), our ILP planner achieves \aucc $= 0.997$ versus a
-random-baseline mean of $0.688$ (bootstrap 95\% CI
-$[0.541,\,0.902]$, $n=30$), ranks the first KEV vulnerability at
+random-baseline mean of $0.688$ (empirical 95th-percentile interval
+$[0.541,\,0.902]$, $n=30$ seeds), ranks the first KEV vulnerability at
 plan step~1, and requires only 435 upgrade actions (13.7\% fewer
 than the random mean of 504.1).  CVSS-first and Dependabot-style
 ordering---the current industry default---defer the first KEV fix
@@ -885,7 +912,7 @@ to steps~18 and~19, respectively, leaving actively exploited
 packages unaddressed through an avoidable remediation window.
 
 The accompanying remediation certificate enables sub-200\,ms
-independent verification that the plan covers all reachable
+independent verification that the plan covers all coverable
 vulnerabilities, supporting automated compliance workflows.
 
 Future work will scale the evaluation to thousands of repositories,
