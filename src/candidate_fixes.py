@@ -123,6 +123,7 @@ def _collect_installed_versions(graph_dir: Path) -> dict[str, set[str]]:
 def generate_fixes(
     vulns: dict[str, VulnRecord],
     graph_dir: Path | None = None,
+    production_only: bool = True,
 ) -> list[CandidateFix]:
     """Build CandidateFix list from vuln records.
 
@@ -144,6 +145,16 @@ def generate_fixes(
     if graph_dir is None:
         from . import config
         graph_dir = config.GRAPH_DIR
+
+    # Filter to production-relevant vulnerabilities only
+    if production_only:
+        n_before = len(vulns)
+        vulns = {vid: rec for vid, rec in vulns.items() if not rec.is_dev_only}
+        n_after = len(vulns)
+        log.info(
+            "production_only=True: excluded %d dev-only vulns, kept %d production vulns",
+            n_before - n_after, n_after,
+        )
 
     # Collect installed versions from corpus graphs
     installed: dict[str, set[str]] = _collect_installed_versions(graph_dir)
@@ -253,9 +264,9 @@ def load_fixes() -> list[CandidateFix]:
     return [CandidateFix(**d) for d in data]
 
 
-def run_candidate_fixes() -> list[CandidateFix]:
+def run_candidate_fixes(production_only: bool = True) -> list[CandidateFix]:
     vulns = load_vulns()
-    fixes = generate_fixes(vulns)
+    fixes = generate_fixes(vulns, production_only=production_only)
     save_fixes(fixes)
     return fixes
 

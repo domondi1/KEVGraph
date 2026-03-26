@@ -50,6 +50,7 @@ class VulnRecord:
     kev_date_added: str = ""
     kev_due_date: str = ""
     summary: str = ""
+    is_dev_only: bool = False           # True if ALL corpus occurrences are devDependencies
 
 
 # ── KEV catalogue ────────────────────────────────────────────────────────────
@@ -255,6 +256,7 @@ def _extract_fixed_version(vuln: dict, pkg_name: str) -> str | None:
 def build_vuln_records(
     osv_results: dict[tuple[str, str], list[dict]],
     kev_catalogue: dict[str, dict],
+    dev_only_pkgs: set[str] | None = None,
 ) -> dict[str, VulnRecord]:
     """Merge OSV results with KEV catalogue. Returns {vuln_id: VulnRecord}.
 
@@ -321,6 +323,7 @@ def build_vuln_records(
             kev_date_added=kev_entry.get("dateAdded", ""),
             kev_due_date=kev_entry.get("dueDate", ""),
             summary=v.get("summary", "")[:200],
+            is_dev_only=bool(dev_only_pkgs and pkg_name in dev_only_pkgs),
         )
 
     # ── Enrich with EPSS ─────────────────────────────────────────────────
@@ -344,6 +347,50 @@ def build_vuln_records(
         n_total, n_with_cve, n_kev,
     )
     return records
+
+
+# ── Dev-only package detection ───────────────────────────────────────────────
+
+def _compute_dev_only_packages(graph_dir: Path) -> set[str]:
+    """Return set of package names where ALL corpus occurrences have dev='true'.
+
+    Reads every GraphML in graph_dir and inspects the 'dev' node attribute set
+    by parse_lockfile.py.  A package is dev-only if every node for that package
+    across every graph has dev="true".  Packages appearing in even one
+    non-dev context are excluded from the dev-only set.
+
+    peerDependencies and optionalDependencies are NOT excluded: parse_lockfile
+    marks them with dev="false" by default, so they are naturally kept.
+    """
+    # pkg_name → set of dev values seen ("true" / "false")
+    pkg_dev_values: dict[str, set[str]] = {}
+
+    graph_files = sorted(graph_dir.glob("*.graphml"))
+    if not graph_files:
+        return set()
+
+    for gf in graph_files:
+        try:
+            G = nx.read_graphml(str(gf))
+        except Exception:
+            continue
+        for _, attrs in G.nodes(data=True):
+            name = attrs.get("name", "")
+            if not name:
+                continue
+            dev_val = str(attrs.get("dev", "false")).lower()
+            pkg_dev_values.setdefault(name, set()).add(dev_val)
+
+    # A package is dev-only if the only value seen is "true"
+    dev_only: set[str] = {
+        pkg for pkg, vals in pkg_dev_values.items()
+        if vals == {"true"}
+    }
+    log.info(
+        "Dev-only package detection: %d packages, %d are dev-only",
+        len(pkg_dev_values), len(dev_only),
+    )
+    return dev_only
 
 
 # ── Annotate graphs ──────────────────────────────────────────────────────────
@@ -385,8 +432,9 @@ def save_vulns(records: dict[str, VulnRecord]) -> None:
 
 def load_vulns() -> dict[str, VulnRecord]:
     data = json.loads(VULNS_PATH.read_text())
+    valid_fields = {f.name for f in VulnRecord.__dataclass_fields__.values()}
     return {
-        vid: VulnRecord(**{k: v for k, v in d.items()})
+        vid: VulnRecord(**{k: v for k, v in d.items() if k in valid_fields})
         for vid, d in data.items()
     }
 
@@ -501,9 +549,12 @@ def run_join() -> dict[str, VulnRecord]:
 
     log.info("Unique (package, version) pairs: %d", len(pkg_versions))
 
+    # Determine which packages are dev-only across the entire corpus
+    dev_only_pkgs = _compute_dev_only_packages(config.GRAPH_DIR)
+
     kev = fetch_kev_catalogue()
     osv_results = query_osv_for_packages(sorted(pkg_versions))
-    records = build_vuln_records(osv_results, kev)
+    records = build_vuln_records(osv_results, kev, dev_only_pkgs=dev_only_pkgs)
     save_vulns(records)
     annotate_graphs(records)
     write_kev_density(records)
