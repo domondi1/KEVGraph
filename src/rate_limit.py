@@ -51,6 +51,7 @@ _buckets: dict[str, _TokenBucket] = {
     "github": _TokenBucket(config.GITHUB_REQ_PER_SEC),
     "osv": _TokenBucket(50),          # OSV is generous
     "npm": _TokenBucket(config.NPM_REQ_PER_SEC),
+    "pypi": _TokenBucket(config.PYPI_REQ_PER_SEC),
     "deps_dev": _TokenBucket(config.DEPS_DEV_REQ_PER_SEC),
 }
 
@@ -62,6 +63,8 @@ def _bucket_for(url: str) -> _TokenBucket | None:
         return _buckets["osv"]
     if "registry.npmjs.org" in url:
         return _buckets["npm"]
+    if "pypi.org" in url:
+        return _buckets["pypi"]
     if "deps.dev" in url:
         return _buckets["deps_dev"]
     return None

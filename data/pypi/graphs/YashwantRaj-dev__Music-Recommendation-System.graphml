@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="alembic@1.13.1">
+      <data key="d2">alembic</data>
+      <data key="d3">1.13.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="blinker@1.7.0">
+      <data key="d2">blinker</data>
+      <data key="d3">1.7.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="click@8.1.7">
+      <data key="d2">click</data>
+      <data key="d3">8.1.7</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="colorama@0.4.6">
+      <data key="d2">colorama</data>
+      <data key="d3">0.4.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="flask@3.0.0">
+      <data key="d2">flask</data>
+      <data key="d3">3.0.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-68rp-wp8r-4726,GHSA-m2qf-hxjv-5gpq,PYSEC-2023-62,GHSA-4grg-w6v8-c28g</data>
+    </node>
+    <node id="flask-migrate@4.0.5">
+      <data key="d2">flask-migrate</data>
+      <data key="d3">4.0.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="flask-sqlalchemy@3.1.1">
+      <data key="d2">flask-sqlalchemy</data>
+      <data key="d3">3.1.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="greenlet@3.0.3">
+      <data key="d2">greenlet</data>
+      <data key="d3">3.0.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="itsdangerous@2.1.2">
+      <data key="d2">itsdangerous</data>
+      <data key="d3">2.1.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="jinja2@3.1.2">
+      <data key="d2">jinja2</data>
+      <data key="d3">3.1.2</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-cpwx-vrp4-4pq7,GHSA-g3rq-g295-4j3m,GHSA-h5c8-rqwp-cp95,GHSA-h75v-3vvj-5mfj,GHSA-q2x7-8rv6-6q7h,PYSEC-2021-66,GHSA-gmj6-6f8f-6699</data>
+    </node>
+    <node id="mako@1.3.0">
+      <data key="d2">mako</data>
+      <data key="d3">1.3.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-v973-fxgf-6xhp,PYSEC-2022-260</data>
+    </node>
+    <node id="markupsafe@2.1.3">
+      <data key="d2">markupsafe</data>
+      <data key="d3">2.1.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="sqlalchemy@2.0.25">
+      <data key="d2">sqlalchemy</data>
+      <data key="d3">2.0.25</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="typing-extensions@4.9.0">
+      <data key="d2">typing-extensions</data>
+      <data key="d3">4.9.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="werkzeug@3.0.1">
+      <data key="d2">werkzeug</data>
+      <data key="d3">3.0.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-29vq-49wr-vm6x,GHSA-2g68-c3qc-8985,GHSA-87hc-h4r5-73f7,GHSA-f9vj-2wh5-fj8j,GHSA-hgf8-39gv-g3f2,GHSA-hrfv-mqp8-q5rw,GHSA-px8h-6qxv-m22q,GHSA-q34m-jh98-gwm2,GHSA-xg9f-g7g7-2323,PYSEC-2022-203,PYSEC-2023-221,PYSEC-2023-57,PYSEC-2023-58</data>
+    </node>
+    <edge source="alembic@1.13.1" target="mako@1.3.0" />
+    <edge source="alembic@1.13.1" target="sqlalchemy@2.0.25" />
+    <edge source="alembic@1.13.1" target="typing-extensions@4.9.0" />
+    <edge source="click@8.1.7" target="colorama@0.4.6" />
+    <edge source="flask@3.0.0" target="blinker@1.7.0" />
+    <edge source="flask@3.0.0" target="click@8.1.7" />
+    <edge source="flask@3.0.0" target="itsdangerous@2.1.2" />
+    <edge source="flask@3.0.0" target="jinja2@3.1.2" />
+    <edge source="flask@3.0.0" target="werkzeug@3.0.1" />
+    <edge source="flask-migrate@4.0.5" target="alembic@1.13.1" />
+    <edge source="flask-migrate@4.0.5" target="flask@3.0.0" />
+    <edge source="flask-migrate@4.0.5" target="flask-sqlalchemy@3.1.1" />
+    <edge source="flask-sqlalchemy@3.1.1" target="flask@3.0.0" />
+    <edge source="flask-sqlalchemy@3.1.1" target="sqlalchemy@2.0.25" />
+    <edge source="jinja2@3.1.2" target="markupsafe@2.1.3" />
+    <edge source="mako@1.3.0" target="markupsafe@2.1.3" />
+    <edge source="sqlalchemy@2.0.25" target="greenlet@3.0.3" />
+    <edge source="sqlalchemy@2.0.25" target="typing-extensions@4.9.0" />
+    <edge source="werkzeug@3.0.1" target="markupsafe@2.1.3" />
+    <data key="d0">YashwantRaj-dev__Music-Recommendation-System</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

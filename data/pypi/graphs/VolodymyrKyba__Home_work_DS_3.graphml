@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="beautifulsoup4@4.12.3">
+      <data key="d2">beautifulsoup4</data>
+      <data key="d3">4.12.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="certifi@2024.7.4">
+      <data key="d2">certifi</data>
+      <data key="d3">2024.7.4</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-43fp-rhv2-5gv8,GHSA-xqr8-7jwr-rhp7,PYSEC-2022-42986,PYSEC-2023-135,GHSA-248v-346w-9cwc,PYSEC-2024-230</data>
+    </node>
+    <node id="charset-normalizer@3.3.2">
+      <data key="d2">charset-normalizer</data>
+      <data key="d3">3.3.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="greenlet@3.0.3">
+      <data key="d2">greenlet</data>
+      <data key="d3">3.0.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="idna@3.7">
+      <data key="d2">idna</data>
+      <data key="d3">3.7</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-jjg7-2v4v-x38h,PYSEC-2024-60</data>
+    </node>
+    <node id="requests@2.32.3">
+      <data key="d2">requests</data>
+      <data key="d3">2.32.3</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-9hjg-9r4m-mvj7,GHSA-9wx4-h78v-vm56,GHSA-gc5v-m9x4-r6x2,GHSA-j8r2-6x86-q33q,GHSA-x84v-xcm2-53pg,PYSEC-2018-28,PYSEC-2023-74</data>
+    </node>
+    <node id="soupsieve@2.5">
+      <data key="d2">soupsieve</data>
+      <data key="d3">2.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="sqlalchemy@2.0.31">
+      <data key="d2">sqlalchemy</data>
+      <data key="d3">2.0.31</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="typing-extensions@4.12.2">
+      <data key="d2">typing-extensions</data>
+      <data key="d3">4.12.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="urllib3@2.2.2">
+      <data key="d2">urllib3</data>
+      <data key="d3">2.2.2</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-2xpw-w6gg-jr37,GHSA-34jh-p97f-mpxf,GHSA-38jv-5279-wg99,GHSA-g4mx-q9vg-27p4,GHSA-gwvm-45gx-3cf8,GHSA-mh33-7rrq-662w,GHSA-pq67-6m6q-mj2v,GHSA-r64q-w8jr-g9qp,GHSA-v845-jxx5-vc9f,GHSA-wqvq-5m8c-6g24,GHSA-www2-v7xj-xrc6,PYSEC-2018-32,PYSEC-2019-132,PYSEC-2019-133,PYSEC-2020-148,PYSEC-2021-108,PYSEC-2023-192,PYSEC-2023-207,PYSEC-2023-212,GHSA-gm62-xv2j-4w53,GHSA-q2q7-5pp4-w6pg,GHSA-48p4-8xcf-vxj5</data>
+    </node>
+    <edge source="beautifulsoup4@4.12.3" target="soupsieve@2.5" />
+    <edge source="requests@2.32.3" target="certifi@2024.7.4" />
+    <edge source="requests@2.32.3" target="charset-normalizer@3.3.2" />
+    <edge source="requests@2.32.3" target="idna@3.7" />
+    <edge source="requests@2.32.3" target="urllib3@2.2.2" />
+    <edge source="sqlalchemy@2.0.31" target="greenlet@3.0.3" />
+    <edge source="sqlalchemy@2.0.31" target="typing-extensions@4.12.2" />
+    <data key="d0">VolodymyrKyba__Home_work_DS_3</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

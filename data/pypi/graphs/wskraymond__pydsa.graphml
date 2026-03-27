@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="appnope@0.1.4">
+      <data key="d2">appnope</data>
+      <data key="d3">0.1.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="asttokens@3.0.0">
+      <data key="d2">asttokens</data>
+      <data key="d3">3.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="cffi@1.17.1">
+      <data key="d2">cffi</data>
+      <data key="d3">1.17.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="colorama@0.4.6">
+      <data key="d2">colorama</data>
+      <data key="d3">0.4.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="comm@0.2.2">
+      <data key="d2">comm</data>
+      <data key="d3">0.2.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="debugpy@1.8.11">
+      <data key="d2">debugpy</data>
+      <data key="d3">1.8.11</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="decorator@5.1.1">
+      <data key="d2">decorator</data>
+      <data key="d3">5.1.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="exceptiongroup@1.2.2">
+      <data key="d2">exceptiongroup</data>
+      <data key="d3">1.2.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="executing@2.1.0">
+      <data key="d2">executing</data>
+      <data key="d3">2.1.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="ipykernel@6.29.5">
+      <data key="d2">ipykernel</data>
+      <data key="d3">6.29.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="ipython@8.31.0">
+      <data key="d2">ipython</data>
+      <data key="d3">8.31.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-29gw-9793-fvw7,GHSA-pq7m-3gw7-gq5x,PYSEC-2022-12,PYSEC-2023-17</data>
+    </node>
+    <node id="jedi@0.19.2">
+      <data key="d2">jedi</data>
+      <data key="d3">0.19.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="jupyter-client@8.6.3">
+      <data key="d2">jupyter-client</data>
+      <data key="d3">8.6.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="jupyter-core@5.7.2">
+      <data key="d2">jupyter-core</data>
+      <data key="d3">5.7.2</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-33p9-3p43-82vq,GHSA-m678-f26j-3hrp,PYSEC-2022-42974</data>
+    </node>
+    <node id="matplotlib-inline@0.1.7">
+      <data key="d2">matplotlib-inline</data>
+      <data key="d3">0.1.7</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="nest-asyncio@1.6.0">
+      <data key="d2">nest-asyncio</data>
+      <data key="d3">1.6.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="packaging@24.2">
+      <data key="d2">packaging</data>
+      <data key="d3">24.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="parso@0.8.4">
+      <data key="d2">parso</data>
+      <data key="d3">0.8.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pexpect@4.9.0">
+      <data key="d2">pexpect</data>
+      <data key="d3">4.9.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="platformdirs@4.3.6">
+      <data key="d2">platformdirs</data>
+      <data key="d3">4.3.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="prompt-toolkit@3.0.48">
+      <data key="d2">prompt-toolkit</data>
+      <data key="d3">3.0.48</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="psutil@6.1.1">
+      <data key="d2">psutil</data>
+      <data key="d3">6.1.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="ptyprocess@0.7.0">
+      <data key="d2">ptyprocess</data>
+      <data key="d3">0.7.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pure-eval@0.2.3">
+      <data key="d2">pure-eval</data>
+      <data key="d3">0.2.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pycparser@2.22">
+      <data key="d2">pycparser</data>
+      <data key="d3">2.22</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pygments@2.18.0">
+      <data key="d2">pygments</data>
+      <data key="d3">2.18.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-5239-wwwm-4pmq,GHSA-mrwq-x4v8-fh7p,PYSEC-2023-117,GHSA-9w8r-397f-prfh,GHSA-pq64-v7f5-gqh8,PYSEC-2021-140,PYSEC-2021-141</data>
+    </node>
+    <node id="python-dateutil@2.9.0.post0">
+      <data key="d2">python-dateutil</data>
+      <data key="d3">2.9.0.post0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pywin32@308">
+      <data key="d2">pywin32</data>
+      <data key="d3">308</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-hwfp-hg2m-9vr2,PYSEC-2021-112</data>
+    </node>
+    <node id="pyzmq@26.2.0">
+      <data key="d2">pyzmq</data>
+      <data key="d3">26.2.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="six@1.17.0">
+      <data key="d2">six</data>
+      <data key="d3">1.17.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="stack-data@0.6.3">
+      <data key="d2">stack-data</data>
+      <data key="d3">0.6.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="tornado@6.4.2">
+      <data key="d2">tornado</data>
+      <data key="d3">6.4.2</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-753j-mpmx-qq6g,GHSA-78cv-mqj4-43f7,GHSA-7cx3-6m66-7c5m,GHSA-8w49-h785-mj3c,GHSA-hj3f-6gcp-jg8j,GHSA-qjxf-f2mg-c6mc,GHSA-qppv-j76h-2rpx,GHSA-w235-7p84-xx57,PYSEC-2023-75</data>
+    </node>
+    <node id="traitlets@5.14.3">
+      <data key="d2">traitlets</data>
+      <data key="d3">5.14.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="typing-extensions@4.12.2">
+      <data key="d2">typing-extensions</data>
+      <data key="d3">4.12.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="wcwidth@0.2.13">
+      <data key="d2">wcwidth</data>
+      <data key="d3">0.2.13</data>
+      <data key="d4">false</data>
+    </node>
+    <edge source="cffi@1.17.1" target="pycparser@2.22" />
+    <edge source="comm@0.2.2" target="traitlets@5.14.3" />
+    <edge source="ipykernel@6.29.5" target="appnope@0.1.4" />
+    <edge source="ipykernel@6.29.5" target="comm@0.2.2" />
+    <edge source="ipykernel@6.29.5" target="debugpy@1.8.11" />
+    <edge source="ipykernel@6.29.5" target="ipython@8.31.0" />
+    <edge source="ipykernel@6.29.5" target="jupyter-client@8.6.3" />
+    <edge source="ipykernel@6.29.5" target="jupyter-core@5.7.2" />
+    <edge source="ipykernel@6.29.5" target="matplotlib-inline@0.1.7" />
+    <edge source="ipykernel@6.29.5" target="nest-asyncio@1.6.0" />
+    <edge source="ipykernel@6.29.5" target="packaging@24.2" />
+    <edge source="ipykernel@6.29.5" target="psutil@6.1.1" />
+    <edge source="ipykernel@6.29.5" target="pyzmq@26.2.0" />
+    <edge source="ipykernel@6.29.5" target="tornado@6.4.2" />
+    <edge source="ipykernel@6.29.5" target="traitlets@5.14.3" />
+    <edge source="ipython@8.31.0" target="colorama@0.4.6" />
+    <edge source="ipython@8.31.0" target="decorator@5.1.1" />
+    <edge source="ipython@8.31.0" target="exceptiongroup@1.2.2" />
+    <edge source="ipython@8.31.0" target="jedi@0.19.2" />
+    <edge source="ipython@8.31.0" target="matplotlib-inline@0.1.7" />
+    <edge source="ipython@8.31.0" target="pexpect@4.9.0" />
+    <edge source="ipython@8.31.0" target="prompt-toolkit@3.0.48" />
+    <edge source="ipython@8.31.0" target="pygments@2.18.0" />
+    <edge source="ipython@8.31.0" target="stack-data@0.6.3" />
+    <edge source="ipython@8.31.0" target="traitlets@5.14.3" />
+    <edge source="ipython@8.31.0" target="typing-extensions@4.12.2" />
+    <edge source="jedi@0.19.2" target="parso@0.8.4" />
+    <edge source="jupyter-client@8.6.3" target="jupyter-core@5.7.2" />
+    <edge source="jupyter-client@8.6.3" target="python-dateutil@2.9.0.post0" />
+    <edge source="jupyter-client@8.6.3" target="pyzmq@26.2.0" />
+    <edge source="jupyter-client@8.6.3" target="tornado@6.4.2" />
+    <edge source="jupyter-client@8.6.3" target="traitlets@5.14.3" />
+    <edge source="jupyter-core@5.7.2" target="platformdirs@4.3.6" />
+    <edge source="jupyter-core@5.7.2" target="pywin32@308" />
+    <edge source="jupyter-core@5.7.2" target="traitlets@5.14.3" />
+    <edge source="matplotlib-inline@0.1.7" target="traitlets@5.14.3" />
+    <edge source="pexpect@4.9.0" target="ptyprocess@0.7.0" />
+    <edge source="prompt-toolkit@3.0.48" target="wcwidth@0.2.13" />
+    <edge source="python-dateutil@2.9.0.post0" target="six@1.17.0" />
+    <edge source="pyzmq@26.2.0" target="cffi@1.17.1" />
+    <edge source="stack-data@0.6.3" target="asttokens@3.0.0" />
+    <edge source="stack-data@0.6.3" target="executing@2.1.0" />
+    <edge source="stack-data@0.6.3" target="pure-eval@0.2.3" />
+    <data key="d0">wskraymond__pydsa</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="astroid@2.7.3">
+      <data key="d2">astroid</data>
+      <data key="d3">2.7.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="atomicwrites@1.4.0">
+      <data key="d2">atomicwrites</data>
+      <data key="d3">1.4.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="attrs@21.2.0">
+      <data key="d2">attrs</data>
+      <data key="d3">21.2.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="black@21.8b0">
+      <data key="d2">black</data>
+      <data key="d3">21.8b0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-3936-cmfr-pm3m,GHSA-fj7x-q9j7-g6q6,PYSEC-2024-48</data>
+    </node>
+    <node id="click@7.1.2">
+      <data key="d2">click</data>
+      <data key="d3">7.1.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="colorama@0.4.4">
+      <data key="d2">colorama</data>
+      <data key="d3">0.4.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="commonmark@0.9.1">
+      <data key="d2">commonmark</data>
+      <data key="d3">0.9.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="flake8@3.9.2">
+      <data key="d2">flake8</data>
+      <data key="d3">3.9.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="isort@5.9.3">
+      <data key="d2">isort</data>
+      <data key="d3">5.9.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="lazy-object-proxy@1.6.0">
+      <data key="d2">lazy-object-proxy</data>
+      <data key="d3">1.6.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="mccabe@0.6.1">
+      <data key="d2">mccabe</data>
+      <data key="d3">0.6.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="more-itertools@8.9.0">
+      <data key="d2">more-itertools</data>
+      <data key="d3">8.9.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="mslex@0.3.0">
+      <data key="d2">mslex</data>
+      <data key="d3">0.3.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="mypy@0.910">
+      <data key="d2">mypy</data>
+      <data key="d3">0.910</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="mypy-extensions@0.4.3">
+      <data key="d2">mypy-extensions</data>
+      <data key="d3">0.4.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="packaging@21.0">
+      <data key="d2">packaging</data>
+      <data key="d3">21.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pathspec@0.9.0">
+      <data key="d2">pathspec</data>
+      <data key="d3">0.9.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="platformdirs@2.3.0">
+      <data key="d2">platformdirs</data>
+      <data key="d3">2.3.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pluggy@0.13.1">
+      <data key="d2">pluggy</data>
+      <data key="d3">0.13.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="psutil@5.8.0">
+      <data key="d2">psutil</data>
+      <data key="d3">5.8.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="py@1.10.0">
+      <data key="d2">py</data>
+      <data key="d3">1.10.0</data>
+      <data key="d4">false</data>
+      <data key="d5">PYSEC-2022-42969,GHSA-hj5v-574p-mj7c,PYSEC-2020-92</data>
+    </node>
+    <node id="pycodestyle@2.7.0">
+      <data key="d2">pycodestyle</data>
+      <data key="d3">2.7.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pydocstyle@6.1.1">
+      <data key="d2">pydocstyle</data>
+      <data key="d3">6.1.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyflakes@2.3.1">
+      <data key="d2">pyflakes</data>
+      <data key="d3">2.3.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pygments@2.10.0">
+      <data key="d2">pygments</data>
+      <data key="d3">2.10.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-5239-wwwm-4pmq,GHSA-mrwq-x4v8-fh7p,PYSEC-2023-117,GHSA-9w8r-397f-prfh,GHSA-pq64-v7f5-gqh8,PYSEC-2021-140,PYSEC-2021-141</data>
+    </node>
+    <node id="pylint@2.10.2">
+      <data key="d2">pylint</data>
+      <data key="d3">2.10.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyparsing@2.4.7">
+      <data key="d2">pyparsing</data>
+      <data key="d3">2.4.7</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pytest@5.4.3">
+      <data key="d2">pytest</data>
+      <data key="d3">5.4.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="regex@2021.8.28">
+      <data key="d2">regex</data>
+      <data key="d3">2021.8.28</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="rich@10.9.0">
+      <data key="d2">rich</data>
+      <data key="d3">10.9.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="shellingham@1.4.0">
+      <data key="d2">shellingham</data>
+      <data key="d3">1.4.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="snowballstemmer@2.1.0">
+      <data key="d2">snowballstemmer</data>
+      <data key="d3">2.1.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="taskipy@1.8.2">
+      <data key="d2">taskipy</data>
+      <data key="d3">1.8.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="toml@0.10.2">
+      <data key="d2">toml</data>
+      <data key="d3">0.10.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="tomli@1.2.1">
+      <data key="d2">tomli</data>
+      <data key="d3">1.2.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="typer@0.3.2">
+      <data key="d2">typer</data>
+      <data key="d3">0.3.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="typing-extensions@3.10.0.2">
+      <data key="d2">typing-extensions</data>
+      <data key="d3">3.10.0.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="wcwidth@0.2.5">
+      <data key="d2">wcwidth</data>
+      <data key="d3">0.2.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="wrapt@1.12.1">
+      <data key="d2">wrapt</data>
+      <data key="d3">1.12.1</data>
+      <data key="d4">false</data>
+    </node>
+    <edge source="astroid@2.7.3" target="lazy-object-proxy@1.6.0" />
+    <edge source="astroid@2.7.3" target="wrapt@1.12.1" />
+    <edge source="black@21.8b0" target="click@7.1.2" />
+    <edge source="black@21.8b0" target="mypy-extensions@0.4.3" />
+    <edge source="black@21.8b0" target="pathspec@0.9.0" />
+    <edge source="black@21.8b0" target="platformdirs@2.3.0" />
+    <edge source="black@21.8b0" target="regex@2021.8.28" />
+    <edge source="black@21.8b0" target="tomli@1.2.1" />
+    <edge source="black@21.8b0" target="typing-extensions@3.10.0.2" />
+    <edge source="flake8@3.9.2" target="mccabe@0.6.1" />
+    <edge source="flake8@3.9.2" target="pycodestyle@2.7.0" />
+    <edge source="flake8@3.9.2" target="pyflakes@2.3.1" />
+    <edge source="mypy@0.910" target="mypy-extensions@0.4.3" />
+    <edge source="mypy@0.910" target="toml@0.10.2" />
+    <edge source="mypy@0.910" target="typing-extensions@3.10.0.2" />
+    <edge source="packaging@21.0" target="pyparsing@2.4.7" />
+    <edge source="pydocstyle@6.1.1" target="snowballstemmer@2.1.0" />
+    <edge source="pylint@2.10.2" target="astroid@2.7.3" />
+    <edge source="pylint@2.10.2" target="colorama@0.4.4" />
+    <edge source="pylint@2.10.2" target="isort@5.9.3" />
+    <edge source="pylint@2.10.2" target="mccabe@0.6.1" />
+    <edge source="pylint@2.10.2" target="platformdirs@2.3.0" />
+    <edge source="pylint@2.10.2" target="toml@0.10.2" />
+    <edge source="pytest@5.4.3" target="atomicwrites@1.4.0" />
+    <edge source="pytest@5.4.3" target="attrs@21.2.0" />
+    <edge source="pytest@5.4.3" target="colorama@0.4.4" />
+    <edge source="pytest@5.4.3" target="more-itertools@8.9.0" />
+    <edge source="pytest@5.4.3" target="packaging@21.0" />
+    <edge source="pytest@5.4.3" target="pluggy@0.13.1" />
+    <edge source="pytest@5.4.3" target="py@1.10.0" />
+    <edge source="pytest@5.4.3" target="wcwidth@0.2.5" />
+    <edge source="rich@10.9.0" target="colorama@0.4.4" />
+    <edge source="rich@10.9.0" target="commonmark@0.9.1" />
+    <edge source="rich@10.9.0" target="pygments@2.10.0" />
+    <edge source="taskipy@1.8.2" target="colorama@0.4.4" />
+    <edge source="taskipy@1.8.2" target="mslex@0.3.0" />
+    <edge source="taskipy@1.8.2" target="psutil@5.8.0" />
+    <edge source="taskipy@1.8.2" target="toml@0.10.2" />
+    <edge source="typer@0.3.2" target="click@7.1.2" />
+    <edge source="typer@0.3.2" target="colorama@0.4.4" />
+    <edge source="typer@0.3.2" target="shellingham@1.4.0" />
+    <data key="d0">allegheny-college-cmpsc-102-Spring-2025__lab01</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

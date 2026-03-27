@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="cython@3.0.11">
+      <data key="d2">cython</data>
+      <data key="d3">3.0.11</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="evdev@1.7.1">
+      <data key="d2">evdev</data>
+      <data key="d3">1.7.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="ffmpeg@1.4">
+      <data key="d2">ffmpeg</data>
+      <data key="d3">1.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pynput@1.7.7">
+      <data key="d2">pynput</data>
+      <data key="d3">1.7.7</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyobjc-core@10.3.1">
+      <data key="d2">pyobjc-core</data>
+      <data key="d3">10.3.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyobjc-framework-applicationservices@10.3.1">
+      <data key="d2">pyobjc-framework-applicationservices</data>
+      <data key="d3">10.3.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyobjc-framework-cocoa@10.3.1">
+      <data key="d2">pyobjc-framework-cocoa</data>
+      <data key="d3">10.3.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyobjc-framework-coretext@10.3.1">
+      <data key="d2">pyobjc-framework-coretext</data>
+      <data key="d3">10.3.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyobjc-framework-quartz@10.3.1">
+      <data key="d2">pyobjc-framework-quartz</data>
+      <data key="d3">10.3.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyqt5@5.15.11">
+      <data key="d2">pyqt5</data>
+      <data key="d3">5.15.11</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyqt5-qt5@5.15.15">
+      <data key="d2">pyqt5-qt5</data>
+      <data key="d3">5.15.15</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyqt5-sip@12.15.0">
+      <data key="d2">pyqt5-sip</data>
+      <data key="d3">12.15.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="python-xlib@0.33">
+      <data key="d2">python-xlib</data>
+      <data key="d3">0.33</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="screeninfo@0.8.1">
+      <data key="d2">screeninfo</data>
+      <data key="d3">0.8.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="six@1.16.0">
+      <data key="d2">six</data>
+      <data key="d3">1.16.0</data>
+      <data key="d4">false</data>
+    </node>
+    <edge source="pynput@1.7.7" target="evdev@1.7.1" />
+    <edge source="pynput@1.7.7" target="pyobjc-framework-applicationservices@10.3.1" />
+    <edge source="pynput@1.7.7" target="pyobjc-framework-quartz@10.3.1" />
+    <edge source="pynput@1.7.7" target="python-xlib@0.33" />
+    <edge source="pynput@1.7.7" target="six@1.16.0" />
+    <edge source="pyobjc-framework-applicationservices@10.3.1" target="pyobjc-core@10.3.1" />
+    <edge source="pyobjc-framework-applicationservices@10.3.1" target="pyobjc-framework-cocoa@10.3.1" />
+    <edge source="pyobjc-framework-applicationservices@10.3.1" target="pyobjc-framework-coretext@10.3.1" />
+    <edge source="pyobjc-framework-applicationservices@10.3.1" target="pyobjc-framework-quartz@10.3.1" />
+    <edge source="pyobjc-framework-cocoa@10.3.1" target="pyobjc-core@10.3.1" />
+    <edge source="pyobjc-framework-coretext@10.3.1" target="pyobjc-core@10.3.1" />
+    <edge source="pyobjc-framework-coretext@10.3.1" target="pyobjc-framework-cocoa@10.3.1" />
+    <edge source="pyobjc-framework-coretext@10.3.1" target="pyobjc-framework-quartz@10.3.1" />
+    <edge source="pyobjc-framework-quartz@10.3.1" target="pyobjc-core@10.3.1" />
+    <edge source="pyobjc-framework-quartz@10.3.1" target="pyobjc-framework-cocoa@10.3.1" />
+    <edge source="pyqt5@5.15.11" target="pyqt5-qt5@5.15.15" />
+    <edge source="pyqt5@5.15.11" target="pyqt5-sip@12.15.0" />
+    <edge source="python-xlib@0.33" target="six@1.16.0" />
+    <edge source="screeninfo@0.8.1" target="cython@3.0.11" />
+    <edge source="screeninfo@0.8.1" target="pyobjc-framework-cocoa@10.3.1" />
+    <data key="d0">craftsangjae__macro-recorder</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

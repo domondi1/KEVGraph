@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="alabaster@1.0.0">
+      <data key="d2">alabaster</data>
+      <data key="d3">1.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="asgiref@3.8.1">
+      <data key="d2">asgiref</data>
+      <data key="d3">3.8.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="babel@2.17.0">
+      <data key="d2">babel</data>
+      <data key="d3">2.17.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="certifi@2025.6.15">
+      <data key="d2">certifi</data>
+      <data key="d3">2025.6.15</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-43fp-rhv2-5gv8,GHSA-xqr8-7jwr-rhp7,PYSEC-2022-42986,PYSEC-2023-135,GHSA-248v-346w-9cwc,PYSEC-2024-230</data>
+    </node>
+    <node id="charset-normalizer@3.4.2">
+      <data key="d2">charset-normalizer</data>
+      <data key="d3">3.4.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="colorama@0.4.6">
+      <data key="d2">colorama</data>
+      <data key="d3">0.4.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="django@5.2.3">
+      <data key="d2">django</data>
+      <data key="d3">5.2.3</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-2gwj-7jmv-h26r,GHSA-53qw-q765-4fww,GHSA-68w8-qjq3-2gfm,GHSA-6cw3-g6wv-c2xv,GHSA-6w2r-r2m5-xq5w,GHSA-7xr5-9hcq-chf9,GHSA-8c5j-9r9f-c6w8,GHSA-8x94-hmjh-97hq,GHSA-95rw-fx8r-36v6,GHSA-frmv-pr5f-9mcr,GHSA-jrh2-hc4r-7jwx,GHSA-p99v-5w3c-jqq9,GHSA-qm57-vhq3-3fwf,GHSA-qw25-v68c-qjf3,GHSA-rrqc-c2jx-6jgv,GHSA-rxjp-mfm9-w4wr,GHSA-v6rh-hp5x-86rv,GHSA-w24h-v9qh-8gxj,GHSA-xgxc-v2qg-chmh,PYSEC-2021-439,PYSEC-2021-6,PYSEC-2021-7,PYSEC-2021-8,PYSEC-2021-98,PYSEC-2021-99,PYSEC-2022-1,PYSEC-2022-19,PYSEC-2022-190,PYSEC-2022-191,PYSEC-2022-2,PYSEC-2022-20,PYSEC-2022-3,GHSA-fvgf-6h6h-3322,GHSA-xpfp-f569-q3p2,PYSEC-2021-109,PYSEC-2021-9,GHSA-2hrw-hx67-34x6,GHSA-7h4p-27mh-hmrw,GHSA-h8gc-pgj2-vjm3,GHSA-jh3w-4vvf-mjgr,GHSA-p64x-8rxx-wf6q,GHSA-q2jf-h9jm-m7p4,GHSA-qmf9-6jqf-j8fq,GHSA-qrw5-5h28-6cmg,GHSA-r3xc-prgr-mg9p,GHSA-vm8q-m57g-pff3,GHSA-xxj9-f6rv-m3x4,PYSEC-2022-213,PYSEC-2022-245,PYSEC-2022-304,PYSEC-2023-100,PYSEC-2023-12,PYSEC-2023-13,PYSEC-2023-222,PYSEC-2023-225,PYSEC-2023-226,PYSEC-2023-61,PYSEC-2024-28,PYSEC-2024-47,GHSA-2mcm-79hx-8fxw,GHSA-33mw-q7rj-mjwj,GHSA-4rrr-2h4v-f3j9,GHSA-5hgc-2vfp-mqvc,GHSA-6426-9fv3-65x8,GHSA-795c-9xpc-xw6g,GHSA-8498-2h75-472j,GHSA-8j24-cjrq-gr2m,GHSA-8p8v-wh79-9r56,GHSA-9jmf-237g-qf46,GHSA-f6f8-9mx6-9mx2,GHSA-gvg8-93h5-g6qq,GHSA-hpr9-3m2g-3j9p,GHSA-jh75-99hh-qvx9,GHSA-m9g8-fxxm-xg86,GHSA-mjgh-79qc-68w3,GHSA-mwm9-4648-f68q,GHSA-p3fp-8748-vqfq,GHSA-pv4p-cwwg-4rph,GHSA-q95w-c7qg-hrff,GHSA-qcgg-j2x8-h9g8,GHSA-qg2p-9jwr-mmqf,GHSA-r836-hh6v-rg5g,GHSA-rqw2-ghq9-44m7,GHSA-vrcr-9hj9-jcg6,GHSA-x7q2-wr7g-xqmf,PYSEC-2024-102,PYSEC-2024-156,PYSEC-2024-157,PYSEC-2024-56,PYSEC-2024-57,PYSEC-2024-58,PYSEC-2024-59,PYSEC-2024-67,PYSEC-2024-68,PYSEC-2024-69,PYSEC-2024-70,PYSEC-2025-1,PYSEC-2025-13,PYSEC-2025-37,PYSEC-2025-47,GHSA-wqfg-m96j-85vm,PYSEC-2025-14</data>
+    </node>
+    <node id="django-environ@0.12.0">
+      <data key="d2">django-environ</data>
+      <data key="d3">0.12.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="docutils@0.21.2">
+      <data key="d2">docutils</data>
+      <data key="d3">0.21.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="gunicorn@23.0.0">
+      <data key="d2">gunicorn</data>
+      <data key="d3">23.0.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-hc5x-x2vx-497g,GHSA-w3h3-4rj7-4ph4</data>
+    </node>
+    <node id="idna@3.10">
+      <data key="d2">idna</data>
+      <data key="d3">3.10</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-jjg7-2v4v-x38h,PYSEC-2024-60</data>
+    </node>
+    <node id="imagesize@1.4.1">
+      <data key="d2">imagesize</data>
+      <data key="d3">1.4.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="jinja2@3.1.6">
+      <data key="d2">jinja2</data>
+      <data key="d3">3.1.6</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-cpwx-vrp4-4pq7,GHSA-g3rq-g295-4j3m,GHSA-h5c8-rqwp-cp95,GHSA-h75v-3vvj-5mfj,GHSA-q2x7-8rv6-6q7h,PYSEC-2021-66,GHSA-gmj6-6f8f-6699</data>
+    </node>
+    <node id="markupsafe@3.0.2">
+      <data key="d2">markupsafe</data>
+      <data key="d3">3.0.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="packaging@25.0">
+      <data key="d2">packaging</data>
+      <data key="d3">25.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="psycopg2-binary@2.9.10">
+      <data key="d2">psycopg2-binary</data>
+      <data key="d3">2.9.10</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pygments@2.19.2">
+      <data key="d2">pygments</data>
+      <data key="d3">2.19.2</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-5239-wwwm-4pmq,GHSA-mrwq-x4v8-fh7p,PYSEC-2023-117,GHSA-9w8r-397f-prfh,GHSA-pq64-v7f5-gqh8,PYSEC-2021-140,PYSEC-2021-141</data>
+    </node>
+    <node id="requests@2.32.4">
+      <data key="d2">requests</data>
+      <data key="d3">2.32.4</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-9hjg-9r4m-mvj7,GHSA-9wx4-h78v-vm56,GHSA-gc5v-m9x4-r6x2,GHSA-j8r2-6x86-q33q,GHSA-x84v-xcm2-53pg,PYSEC-2018-28,PYSEC-2023-74</data>
+    </node>
+    <node id="roman-numerals-py@3.1.0">
+      <data key="d2">roman-numerals-py</data>
+      <data key="d3">3.1.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="snowballstemmer@3.0.1">
+      <data key="d2">snowballstemmer</data>
+      <data key="d3">3.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="sphinx@8.2.3">
+      <data key="d2">sphinx</data>
+      <data key="d3">8.2.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="sphinxcontrib-applehelp@2.0.0">
+      <data key="d2">sphinxcontrib-applehelp</data>
+      <data key="d3">2.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="sphinxcontrib-devhelp@2.0.0">
+      <data key="d2">sphinxcontrib-devhelp</data>
+      <data key="d3">2.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="sphinxcontrib-htmlhelp@2.1.0">
+      <data key="d2">sphinxcontrib-htmlhelp</data>
+      <data key="d3">2.1.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="sphinxcontrib-jsmath@1.0.1">
+      <data key="d2">sphinxcontrib-jsmath</data>
+      <data key="d3">1.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="sphinxcontrib-qthelp@2.0.0">
+      <data key="d2">sphinxcontrib-qthelp</data>
+      <data key="d3">2.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="sphinxcontrib-serializinghtml@2.0.0">
+      <data key="d2">sphinxcontrib-serializinghtml</data>
+      <data key="d3">2.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="sqlparse@0.5.3">
+      <data key="d2">sqlparse</data>
+      <data key="d3">0.5.3</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-27jp-wm6q-gp25,GHSA-2m57-hf25-phgg,GHSA-p5w8-wqhj-9hhf,GHSA-rrm6-wvj7-cwh2,PYSEC-2021-333,PYSEC-2023-87</data>
+    </node>
+    <node id="tzdata@2025.2">
+      <data key="d2">tzdata</data>
+      <data key="d3">2025.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="urllib3@2.5.0">
+      <data key="d2">urllib3</data>
+      <data key="d3">2.5.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-2xpw-w6gg-jr37,GHSA-34jh-p97f-mpxf,GHSA-38jv-5279-wg99,GHSA-g4mx-q9vg-27p4,GHSA-gwvm-45gx-3cf8,GHSA-mh33-7rrq-662w,GHSA-pq67-6m6q-mj2v,GHSA-r64q-w8jr-g9qp,GHSA-v845-jxx5-vc9f,GHSA-wqvq-5m8c-6g24,GHSA-www2-v7xj-xrc6,PYSEC-2018-32,PYSEC-2019-132,PYSEC-2019-133,PYSEC-2020-148,PYSEC-2021-108,PYSEC-2023-192,PYSEC-2023-207,PYSEC-2023-212,GHSA-gm62-xv2j-4w53,GHSA-q2q7-5pp4-w6pg,GHSA-48p4-8xcf-vxj5</data>
+    </node>
+    <node id="whitenoise@6.9.0">
+      <data key="d2">whitenoise</data>
+      <data key="d3">6.9.0</data>
+      <data key="d4">false</data>
+    </node>
+    <edge source="django@5.2.3" target="asgiref@3.8.1" />
+    <edge source="django@5.2.3" target="sqlparse@0.5.3" />
+    <edge source="django@5.2.3" target="tzdata@2025.2" />
+    <edge source="gunicorn@23.0.0" target="packaging@25.0" />
+    <edge source="jinja2@3.1.6" target="markupsafe@3.0.2" />
+    <edge source="requests@2.32.4" target="certifi@2025.6.15" />
+    <edge source="requests@2.32.4" target="charset-normalizer@3.4.2" />
+    <edge source="requests@2.32.4" target="idna@3.10" />
+    <edge source="requests@2.32.4" target="urllib3@2.5.0" />
+    <edge source="sphinx@8.2.3" target="alabaster@1.0.0" />
+    <edge source="sphinx@8.2.3" target="babel@2.17.0" />
+    <edge source="sphinx@8.2.3" target="colorama@0.4.6" />
+    <edge source="sphinx@8.2.3" target="docutils@0.21.2" />
+    <edge source="sphinx@8.2.3" target="imagesize@1.4.1" />
+    <edge source="sphinx@8.2.3" target="jinja2@3.1.6" />
+    <edge source="sphinx@8.2.3" target="packaging@25.0" />
+    <edge source="sphinx@8.2.3" target="pygments@2.19.2" />
+    <edge source="sphinx@8.2.3" target="requests@2.32.4" />
+    <edge source="sphinx@8.2.3" target="roman-numerals-py@3.1.0" />
+    <edge source="sphinx@8.2.3" target="snowballstemmer@3.0.1" />
+    <edge source="sphinx@8.2.3" target="sphinxcontrib-applehelp@2.0.0" />
+    <edge source="sphinx@8.2.3" target="sphinxcontrib-devhelp@2.0.0" />
+    <edge source="sphinx@8.2.3" target="sphinxcontrib-htmlhelp@2.1.0" />
+    <edge source="sphinx@8.2.3" target="sphinxcontrib-jsmath@1.0.1" />
+    <edge source="sphinx@8.2.3" target="sphinxcontrib-qthelp@2.0.0" />
+    <edge source="sphinx@8.2.3" target="sphinxcontrib-serializinghtml@2.0.0" />
+    <data key="d0">ViktorChayun__goit-final-project</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

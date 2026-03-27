@@ -1,0 +1,265 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="certifi@2024.8.30">
+      <data key="d2">certifi</data>
+      <data key="d3">2024.8.30</data>
+      <data key="d4">true</data>
+      <data key="d5">GHSA-43fp-rhv2-5gv8,GHSA-xqr8-7jwr-rhp7,PYSEC-2022-42986,PYSEC-2023-135,GHSA-248v-346w-9cwc,PYSEC-2024-230</data>
+    </node>
+    <node id="cffi@1.17.0">
+      <data key="d2">cffi</data>
+      <data key="d3">1.17.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="cfgv@3.4.0">
+      <data key="d2">cfgv</data>
+      <data key="d3">3.4.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="charset-normalizer@3.3.2">
+      <data key="d2">charset-normalizer</data>
+      <data key="d3">3.3.2</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="cryptography@43.0.0">
+      <data key="d2">cryptography</data>
+      <data key="d3">43.0.0</data>
+      <data key="d4">true</data>
+      <data key="d5">GHSA-3ww4-gg4f-jr7f,GHSA-5cpq-8wj7-hf2v,GHSA-9v9h-cgj8-h64p,GHSA-hggm-jpg3-v476,GHSA-jfhm-5ghh-2f97,GHSA-jm77-qphf-c4w8,GHSA-r6ph-v2qm-q3c2,GHSA-rhm9-p9w5-fwm7,GHSA-v8gr-m533-ghj9,GHSA-w7pp-m8wf-vj6r,GHSA-x4qr-2fvf-3mr5,PYSEC-2021-62,PYSEC-2021-63,PYSEC-2023-11,PYSEC-2023-254,GHSA-39hc-v87j-747x,GHSA-h4gh-qq45-vh27,GHSA-6vqw-3v5j-54x4,GHSA-cf7p-gm2m-833m,PYSEC-2023-112,PYSEC-2024-225,GHSA-79v4-65xg-pq4g</data>
+    </node>
+    <node id="distlib@0.3.8">
+      <data key="d2">distlib</data>
+      <data key="d3">0.3.8</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="docutils@0.21.2">
+      <data key="d2">docutils</data>
+      <data key="d3">0.21.2</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="filelock@3.15.4">
+      <data key="d2">filelock</data>
+      <data key="d3">3.15.4</data>
+      <data key="d4">true</data>
+      <data key="d5">GHSA-qmgc-5h2g-mvrw,GHSA-w853-jp5j-5j7f</data>
+    </node>
+    <node id="identify@2.6.0">
+      <data key="d2">identify</data>
+      <data key="d3">2.6.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="idna@3.8">
+      <data key="d2">idna</data>
+      <data key="d3">3.8</data>
+      <data key="d4">true</data>
+      <data key="d5">GHSA-jjg7-2v4v-x38h,PYSEC-2024-60</data>
+    </node>
+    <node id="importlib-metadata@8.4.0">
+      <data key="d2">importlib-metadata</data>
+      <data key="d3">8.4.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="jaraco-classes@3.4.0">
+      <data key="d2">jaraco-classes</data>
+      <data key="d3">3.4.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="jaraco-context@6.0.1">
+      <data key="d2">jaraco-context</data>
+      <data key="d3">6.0.1</data>
+      <data key="d4">true</data>
+      <data key="d5">GHSA-58pv-8j8x-9vj2</data>
+    </node>
+    <node id="jaraco-functools@4.0.2">
+      <data key="d2">jaraco-functools</data>
+      <data key="d3">4.0.2</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="jeepney@0.8.0">
+      <data key="d2">jeepney</data>
+      <data key="d3">0.8.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="keyring@25.3.0">
+      <data key="d2">keyring</data>
+      <data key="d3">25.3.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="markdown-it-py@3.0.0">
+      <data key="d2">markdown-it-py</data>
+      <data key="d3">3.0.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="mdurl@0.1.2">
+      <data key="d2">mdurl</data>
+      <data key="d3">0.1.2</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="more-itertools@10.4.0">
+      <data key="d2">more-itertools</data>
+      <data key="d3">10.4.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="nh3@0.2.18">
+      <data key="d2">nh3</data>
+      <data key="d3">0.2.18</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="nodeenv@1.9.1">
+      <data key="d2">nodeenv</data>
+      <data key="d3">1.9.1</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="pkginfo@1.10.0">
+      <data key="d2">pkginfo</data>
+      <data key="d3">1.10.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="platformdirs@4.2.2">
+      <data key="d2">platformdirs</data>
+      <data key="d3">4.2.2</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="pre-commit@3.8.0">
+      <data key="d2">pre-commit</data>
+      <data key="d3">3.8.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="pycparser@2.22">
+      <data key="d2">pycparser</data>
+      <data key="d3">2.22</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="pygments@2.18.0">
+      <data key="d2">pygments</data>
+      <data key="d3">2.18.0</data>
+      <data key="d4">true</data>
+      <data key="d5">GHSA-5239-wwwm-4pmq,GHSA-mrwq-x4v8-fh7p,PYSEC-2023-117,GHSA-9w8r-397f-prfh,GHSA-pq64-v7f5-gqh8,PYSEC-2021-140,PYSEC-2021-141</data>
+    </node>
+    <node id="pywin32-ctypes@0.2.3">
+      <data key="d2">pywin32-ctypes</data>
+      <data key="d3">0.2.3</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="pyyaml@6.0.2">
+      <data key="d2">pyyaml</data>
+      <data key="d3">6.0.2</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="readme-renderer@44.0">
+      <data key="d2">readme-renderer</data>
+      <data key="d3">44.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="requests@2.32.3">
+      <data key="d2">requests</data>
+      <data key="d3">2.32.3</data>
+      <data key="d4">true</data>
+      <data key="d5">GHSA-9hjg-9r4m-mvj7,GHSA-9wx4-h78v-vm56,GHSA-gc5v-m9x4-r6x2,GHSA-j8r2-6x86-q33q,GHSA-x84v-xcm2-53pg,PYSEC-2018-28,PYSEC-2023-74</data>
+    </node>
+    <node id="requests-toolbelt@1.0.0">
+      <data key="d2">requests-toolbelt</data>
+      <data key="d3">1.0.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="rfc3986@2.0.0">
+      <data key="d2">rfc3986</data>
+      <data key="d3">2.0.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="rich@13.8.0">
+      <data key="d2">rich</data>
+      <data key="d3">13.8.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="ruff@0.6.2">
+      <data key="d2">ruff</data>
+      <data key="d3">0.6.2</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="secretstorage@3.3.3">
+      <data key="d2">secretstorage</data>
+      <data key="d3">3.3.3</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="twine@5.1.1">
+      <data key="d2">twine</data>
+      <data key="d3">5.1.1</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="urllib3@2.2.2">
+      <data key="d2">urllib3</data>
+      <data key="d3">2.2.2</data>
+      <data key="d4">true</data>
+      <data key="d5">GHSA-2xpw-w6gg-jr37,GHSA-34jh-p97f-mpxf,GHSA-38jv-5279-wg99,GHSA-g4mx-q9vg-27p4,GHSA-gwvm-45gx-3cf8,GHSA-mh33-7rrq-662w,GHSA-pq67-6m6q-mj2v,GHSA-r64q-w8jr-g9qp,GHSA-v845-jxx5-vc9f,GHSA-wqvq-5m8c-6g24,GHSA-www2-v7xj-xrc6,PYSEC-2018-32,PYSEC-2019-132,PYSEC-2019-133,PYSEC-2020-148,PYSEC-2021-108,PYSEC-2023-192,PYSEC-2023-207,PYSEC-2023-212,GHSA-gm62-xv2j-4w53,GHSA-q2q7-5pp4-w6pg,GHSA-48p4-8xcf-vxj5</data>
+    </node>
+    <node id="virtualenv@20.26.3">
+      <data key="d2">virtualenv</data>
+      <data key="d3">20.26.3</data>
+      <data key="d4">true</data>
+      <data key="d5">GHSA-597g-3phw-6986,GHSA-rqc4-2hc7-8c8v,PYSEC-2024-187</data>
+    </node>
+    <node id="wheel@0.44.0">
+      <data key="d2">wheel</data>
+      <data key="d3">0.44.0</data>
+      <data key="d4">true</data>
+      <data key="d5">GHSA-8rrh-rw8j-w5fx</data>
+    </node>
+    <node id="zipp@3.20.1">
+      <data key="d2">zipp</data>
+      <data key="d3">3.20.1</data>
+      <data key="d4">true</data>
+      <data key="d5">GHSA-jfmj-5v4g-7637</data>
+    </node>
+    <edge source="cffi@1.17.0" target="pycparser@2.22" />
+    <edge source="cryptography@43.0.0" target="cffi@1.17.0" />
+    <edge source="importlib-metadata@8.4.0" target="zipp@3.20.1" />
+    <edge source="jaraco-classes@3.4.0" target="more-itertools@10.4.0" />
+    <edge source="jaraco-functools@4.0.2" target="more-itertools@10.4.0" />
+    <edge source="keyring@25.3.0" target="jaraco-classes@3.4.0" />
+    <edge source="keyring@25.3.0" target="jaraco-context@6.0.1" />
+    <edge source="keyring@25.3.0" target="jaraco-functools@4.0.2" />
+    <edge source="keyring@25.3.0" target="jeepney@0.8.0" />
+    <edge source="keyring@25.3.0" target="pywin32-ctypes@0.2.3" />
+    <edge source="keyring@25.3.0" target="secretstorage@3.3.3" />
+    <edge source="markdown-it-py@3.0.0" target="mdurl@0.1.2" />
+    <edge source="pre-commit@3.8.0" target="cfgv@3.4.0" />
+    <edge source="pre-commit@3.8.0" target="identify@2.6.0" />
+    <edge source="pre-commit@3.8.0" target="nodeenv@1.9.1" />
+    <edge source="pre-commit@3.8.0" target="pyyaml@6.0.2" />
+    <edge source="pre-commit@3.8.0" target="virtualenv@20.26.3" />
+    <edge source="readme-renderer@44.0" target="docutils@0.21.2" />
+    <edge source="readme-renderer@44.0" target="nh3@0.2.18" />
+    <edge source="readme-renderer@44.0" target="pygments@2.18.0" />
+    <edge source="requests@2.32.3" target="certifi@2024.8.30" />
+    <edge source="requests@2.32.3" target="charset-normalizer@3.3.2" />
+    <edge source="requests@2.32.3" target="idna@3.8" />
+    <edge source="requests@2.32.3" target="urllib3@2.2.2" />
+    <edge source="requests-toolbelt@1.0.0" target="requests@2.32.3" />
+    <edge source="rich@13.8.0" target="markdown-it-py@3.0.0" />
+    <edge source="rich@13.8.0" target="pygments@2.18.0" />
+    <edge source="secretstorage@3.3.3" target="cryptography@43.0.0" />
+    <edge source="secretstorage@3.3.3" target="jeepney@0.8.0" />
+    <edge source="twine@5.1.1" target="importlib-metadata@8.4.0" />
+    <edge source="twine@5.1.1" target="keyring@25.3.0" />
+    <edge source="twine@5.1.1" target="pkginfo@1.10.0" />
+    <edge source="twine@5.1.1" target="readme-renderer@44.0" />
+    <edge source="twine@5.1.1" target="requests@2.32.3" />
+    <edge source="twine@5.1.1" target="requests-toolbelt@1.0.0" />
+    <edge source="twine@5.1.1" target="rfc3986@2.0.0" />
+    <edge source="twine@5.1.1" target="rich@13.8.0" />
+    <edge source="twine@5.1.1" target="urllib3@2.2.2" />
+    <edge source="virtualenv@20.26.3" target="distlib@0.3.8" />
+    <edge source="virtualenv@20.26.3" target="filelock@3.15.4" />
+    <edge source="virtualenv@20.26.3" target="platformdirs@4.2.2" />
+    <data key="d0">ducdetronquito__pybun</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

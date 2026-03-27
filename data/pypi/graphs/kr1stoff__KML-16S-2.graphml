@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="click@8.1.7">
+      <data key="d2">click</data>
+      <data key="d3">8.1.7</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="colorama@0.4.6">
+      <data key="d2">colorama</data>
+      <data key="d3">0.4.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="et-xmlfile@1.1.0">
+      <data key="d2">et-xmlfile</data>
+      <data key="d3">1.1.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="exceptiongroup@1.2.2">
+      <data key="d2">exceptiongroup</data>
+      <data key="d3">1.2.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="iniconfig@2.0.0">
+      <data key="d2">iniconfig</data>
+      <data key="d3">2.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="numpy@2.1.1">
+      <data key="d2">numpy</data>
+      <data key="d3">2.1.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-6p56-wp2h-9hxr,GHSA-fpfv-jqm9-f5jm</data>
+    </node>
+    <node id="openpyxl@3.1.5">
+      <data key="d2">openpyxl</data>
+      <data key="d3">3.1.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="packaging@24.1">
+      <data key="d2">packaging</data>
+      <data key="d3">24.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pandas@2.2.2">
+      <data key="d2">pandas</data>
+      <data key="d3">2.2.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pluggy@1.5.0">
+      <data key="d2">pluggy</data>
+      <data key="d3">1.5.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pytest@8.3.3">
+      <data key="d2">pytest</data>
+      <data key="d3">8.3.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="python-dateutil@2.9.0.post0">
+      <data key="d2">python-dateutil</data>
+      <data key="d3">2.9.0.post0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pytz@2024.2">
+      <data key="d2">pytz</data>
+      <data key="d3">2024.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyyaml@6.0.2">
+      <data key="d2">pyyaml</data>
+      <data key="d3">6.0.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="six@1.16.0">
+      <data key="d2">six</data>
+      <data key="d3">1.16.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="tomli@2.0.1">
+      <data key="d2">tomli</data>
+      <data key="d3">2.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="tzdata@2024.1">
+      <data key="d2">tzdata</data>
+      <data key="d3">2024.1</data>
+      <data key="d4">false</data>
+    </node>
+    <edge source="click@8.1.7" target="colorama@0.4.6" />
+    <edge source="openpyxl@3.1.5" target="et-xmlfile@1.1.0" />
+    <edge source="pandas@2.2.2" target="numpy@2.1.1" />
+    <edge source="pandas@2.2.2" target="python-dateutil@2.9.0.post0" />
+    <edge source="pandas@2.2.2" target="pytz@2024.2" />
+    <edge source="pandas@2.2.2" target="tzdata@2024.1" />
+    <edge source="pytest@8.3.3" target="colorama@0.4.6" />
+    <edge source="pytest@8.3.3" target="exceptiongroup@1.2.2" />
+    <edge source="pytest@8.3.3" target="iniconfig@2.0.0" />
+    <edge source="pytest@8.3.3" target="packaging@24.1" />
+    <edge source="pytest@8.3.3" target="pluggy@1.5.0" />
+    <edge source="pytest@8.3.3" target="tomli@2.0.1" />
+    <edge source="python-dateutil@2.9.0.post0" target="six@1.16.0" />
+    <data key="d0">kr1stoff__KML-16S-2</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="anyio@4.12.1">
+      <data key="d2">anyio</data>
+      <data key="d3">4.12.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="certifi@2026.2.25">
+      <data key="d2">certifi</data>
+      <data key="d3">2026.2.25</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-43fp-rhv2-5gv8,GHSA-xqr8-7jwr-rhp7,PYSEC-2022-42986,PYSEC-2023-135,GHSA-248v-346w-9cwc,PYSEC-2024-230</data>
+    </node>
+    <node id="colorama@0.4.6">
+      <data key="d2">colorama</data>
+      <data key="d3">0.4.6</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="googleapis-common-protos@1.72.0">
+      <data key="d2">googleapis-common-protos</data>
+      <data key="d3">1.72.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="grpcio@1.78.1">
+      <data key="d2">grpcio</data>
+      <data key="d3">1.78.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-496j-2rq6-j6cc</data>
+    </node>
+    <node id="h11@0.16.0">
+      <data key="d2">h11</data>
+      <data key="d3">0.16.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-vqfr-h8mv-ghfj</data>
+    </node>
+    <node id="httpcore@1.0.9">
+      <data key="d2">httpcore</data>
+      <data key="d3">1.0.9</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="httpx@0.28.1">
+      <data key="d2">httpx</data>
+      <data key="d3">0.28.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="idna@3.11">
+      <data key="d2">idna</data>
+      <data key="d3">3.11</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-jjg7-2v4v-x38h,PYSEC-2024-60</data>
+    </node>
+    <node id="iniconfig@2.3.0">
+      <data key="d2">iniconfig</data>
+      <data key="d3">2.3.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="packaging@26.0">
+      <data key="d2">packaging</data>
+      <data key="d3">26.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="pillow@12.1.1">
+      <data key="d2">pillow</data>
+      <data key="d3">12.1.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-3f63-hfp8-52jq,GHSA-44wm-f244-xhp3,GHSA-j7hp-h8jx-5ppr,PYSEC-2023-175,GHSA-cfh3-3jmp-rvhc,GHSA-xg8h-j46f-w952,PYSEC-2025-61,GHSA-4fx9-vc88-q2xc,GHSA-7534-mm45-c74v,GHSA-8ghj-p4vj-mr35,GHSA-8vj2-vxx3-667w,GHSA-98vv-pw6r-q6q4,GHSA-9j59-75qj-795w,GHSA-m2vv-5vj5-2hm7,GHSA-pw3c-h7wp-cvhx,GHSA-xrcv-f9gm-v42c,PYSEC-2021-317,PYSEC-2021-331,PYSEC-2022-10,PYSEC-2022-168,PYSEC-2022-42979,PYSEC-2022-8,PYSEC-2022-9,PYSEC-2023-227</data>
+    </node>
+    <node id="pluggy@1.6.0">
+      <data key="d2">pluggy</data>
+      <data key="d3">1.6.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="protobuf@5.29.6">
+      <data key="d2">protobuf</data>
+      <data key="d3">5.29.6</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-7gcm-g887-7qv7,GHSA-8gq9-2x98-w8hf,GHSA-8qvm-5x2c-j2w7</data>
+    </node>
+    <node id="pygments@2.19.2">
+      <data key="d2">pygments</data>
+      <data key="d3">2.19.2</data>
+      <data key="d4">true</data>
+      <data key="d5">GHSA-5239-wwwm-4pmq,GHSA-mrwq-x4v8-fh7p,PYSEC-2023-117,GHSA-9w8r-397f-prfh,GHSA-pq64-v7f5-gqh8,PYSEC-2021-140,PYSEC-2021-141</data>
+    </node>
+    <node id="pytest@8.4.2">
+      <data key="d2">pytest</data>
+      <data key="d3">8.4.2</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="pytest-asyncio@0.25.3">
+      <data key="d2">pytest-asyncio</data>
+      <data key="d3">0.25.3</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="ruff@0.11.13">
+      <data key="d2">ruff</data>
+      <data key="d3">0.11.13</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="typing-extensions@4.15.0">
+      <data key="d2">typing-extensions</data>
+      <data key="d3">4.15.0</data>
+      <data key="d4">false</data>
+    </node>
+    <edge source="anyio@4.12.1" target="idna@3.11" />
+    <edge source="googleapis-common-protos@1.72.0" target="protobuf@5.29.6" />
+    <edge source="grpcio@1.78.1" target="typing-extensions@4.15.0" />
+    <edge source="httpcore@1.0.9" target="certifi@2026.2.25" />
+    <edge source="httpcore@1.0.9" target="h11@0.16.0" />
+    <edge source="httpx@0.28.1" target="anyio@4.12.1" />
+    <edge source="httpx@0.28.1" target="certifi@2026.2.25" />
+    <edge source="httpx@0.28.1" target="httpcore@1.0.9" />
+    <edge source="httpx@0.28.1" target="idna@3.11" />
+    <edge source="pytest@8.4.2" target="colorama@0.4.6" />
+    <edge source="pytest@8.4.2" target="iniconfig@2.3.0" />
+    <edge source="pytest@8.4.2" target="packaging@26.0" />
+    <edge source="pytest@8.4.2" target="pluggy@1.6.0" />
+    <edge source="pytest@8.4.2" target="pygments@2.19.2" />
+    <edge source="pytest-asyncio@0.25.3" target="pytest@8.4.2" />
+    <data key="d0">MTrab__pyddlvector</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

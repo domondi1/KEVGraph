@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="brotli@1.1.0">
+      <data key="d2">brotli</data>
+      <data key="d3">1.1.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-2qfp-q593-8484</data>
+    </node>
+    <node id="brotlicffi@1.1.0.0">
+      <data key="d2">brotlicffi</data>
+      <data key="d3">1.1.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="certifi@2023.11.17">
+      <data key="d2">certifi</data>
+      <data key="d3">2023.11.17</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-43fp-rhv2-5gv8,GHSA-xqr8-7jwr-rhp7,PYSEC-2022-42986,PYSEC-2023-135,GHSA-248v-346w-9cwc,PYSEC-2024-230</data>
+    </node>
+    <node id="cffi@1.16.0">
+      <data key="d2">cffi</data>
+      <data key="d3">1.16.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="charset-normalizer@3.3.2">
+      <data key="d2">charset-normalizer</data>
+      <data key="d3">3.3.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="clipboard@0.0.4">
+      <data key="d2">clipboard</data>
+      <data key="d3">0.0.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="idna@3.6">
+      <data key="d2">idna</data>
+      <data key="d3">3.6</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-jjg7-2v4v-x38h,PYSEC-2024-60</data>
+    </node>
+    <node id="mutagen@1.47.0">
+      <data key="d2">mutagen</data>
+      <data key="d3">1.47.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pycparser@2.21">
+      <data key="d2">pycparser</data>
+      <data key="d3">2.21</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pycryptodomex@3.19.0">
+      <data key="d2">pycryptodomex</data>
+      <data key="d3">3.19.0</data>
+      <data key="d4">false</data>
+      <data key="d5">PYSEC-2024-3</data>
+    </node>
+    <node id="pydub@0.25.1">
+      <data key="d2">pydub</data>
+      <data key="d3">0.25.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyperclip@1.8.2">
+      <data key="d2">pyperclip</data>
+      <data key="d3">1.8.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="python-dotenv@1.0.0">
+      <data key="d2">python-dotenv</data>
+      <data key="d3">1.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="requests@2.31.0">
+      <data key="d2">requests</data>
+      <data key="d3">2.31.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-9hjg-9r4m-mvj7,GHSA-9wx4-h78v-vm56,GHSA-gc5v-m9x4-r6x2,GHSA-j8r2-6x86-q33q,GHSA-x84v-xcm2-53pg,PYSEC-2018-28,PYSEC-2023-74</data>
+    </node>
+    <node id="urllib3@2.1.0">
+      <data key="d2">urllib3</data>
+      <data key="d3">2.1.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-2xpw-w6gg-jr37,GHSA-34jh-p97f-mpxf,GHSA-38jv-5279-wg99,GHSA-g4mx-q9vg-27p4,GHSA-gwvm-45gx-3cf8,GHSA-mh33-7rrq-662w,GHSA-pq67-6m6q-mj2v,GHSA-r64q-w8jr-g9qp,GHSA-v845-jxx5-vc9f,GHSA-wqvq-5m8c-6g24,GHSA-www2-v7xj-xrc6,PYSEC-2018-32,PYSEC-2019-132,PYSEC-2019-133,PYSEC-2020-148,PYSEC-2021-108,PYSEC-2023-192,PYSEC-2023-207,PYSEC-2023-212,GHSA-gm62-xv2j-4w53,GHSA-q2q7-5pp4-w6pg,GHSA-48p4-8xcf-vxj5</data>
+    </node>
+    <node id="websockets@12.0">
+      <data key="d2">websockets</data>
+      <data key="d3">12.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="yt-dlp@2023.11.16">
+      <data key="d2">yt-dlp</data>
+      <data key="d3">2023.11.16</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-3v33-3wmw-3785,GHSA-79w7-vh3h-8g4j,GHSA-g3gw-q23r-pgqm,GHSA-hjq6-52gw-2g7p</data>
+    </node>
+    <edge source="brotlicffi@1.1.0.0" target="cffi@1.16.0" />
+    <edge source="cffi@1.16.0" target="pycparser@2.21" />
+    <edge source="clipboard@0.0.4" target="pyperclip@1.8.2" />
+    <edge source="requests@2.31.0" target="certifi@2023.11.17" />
+    <edge source="requests@2.31.0" target="charset-normalizer@3.3.2" />
+    <edge source="requests@2.31.0" target="idna@3.6" />
+    <edge source="requests@2.31.0" target="urllib3@2.1.0" />
+    <edge source="yt-dlp@2023.11.16" target="brotli@1.1.0" />
+    <edge source="yt-dlp@2023.11.16" target="brotlicffi@1.1.0.0" />
+    <edge source="yt-dlp@2023.11.16" target="certifi@2023.11.17" />
+    <edge source="yt-dlp@2023.11.16" target="mutagen@1.47.0" />
+    <edge source="yt-dlp@2023.11.16" target="pycryptodomex@3.19.0" />
+    <edge source="yt-dlp@2023.11.16" target="requests@2.31.0" />
+    <edge source="yt-dlp@2023.11.16" target="urllib3@2.1.0" />
+    <edge source="yt-dlp@2023.11.16" target="websockets@12.0" />
+    <data key="d0">ErickMUOSD__YoutubeVideoToMp3</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

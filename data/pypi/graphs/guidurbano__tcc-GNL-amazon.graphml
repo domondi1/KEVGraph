@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="et-xmlfile@1.1.0">
+      <data key="d2">et-xmlfile</data>
+      <data key="d3">1.1.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="gurobipy@9.5.2">
+      <data key="d2">gurobipy</data>
+      <data key="d3">9.5.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="numpy@1.23.3">
+      <data key="d2">numpy</data>
+      <data key="d3">1.23.3</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-6p56-wp2h-9hxr,GHSA-fpfv-jqm9-f5jm</data>
+    </node>
+    <node id="openpyxl@3.0.10">
+      <data key="d2">openpyxl</data>
+      <data key="d3">3.0.10</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pandas@1.5.0">
+      <data key="d2">pandas</data>
+      <data key="d3">1.5.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyaml@21.10.1">
+      <data key="d2">pyaml</data>
+      <data key="d3">21.10.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyarrow@9.0.0">
+      <data key="d2">pyarrow</data>
+      <data key="d3">9.0.0</data>
+      <data key="d4">false</data>
+      <data key="d5">PYSEC-2024-161,GHSA-5wvp-7f3h-6wmm,PYSEC-2023-238</data>
+    </node>
+    <node id="python-dateutil@2.8.2">
+      <data key="d2">python-dateutil</data>
+      <data key="d3">2.8.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pytz@2022.4">
+      <data key="d2">pytz</data>
+      <data key="d3">2022.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyyaml@6.0">
+      <data key="d2">pyyaml</data>
+      <data key="d3">6.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="six@1.16.0">
+      <data key="d2">six</data>
+      <data key="d3">1.16.0</data>
+      <data key="d4">false</data>
+    </node>
+    <edge source="openpyxl@3.0.10" target="et-xmlfile@1.1.0" />
+    <edge source="pandas@1.5.0" target="numpy@1.23.3" />
+    <edge source="pandas@1.5.0" target="python-dateutil@2.8.2" />
+    <edge source="pandas@1.5.0" target="pytz@2022.4" />
+    <edge source="pyaml@21.10.1" target="pyyaml@6.0" />
+    <edge source="pyarrow@9.0.0" target="numpy@1.23.3" />
+    <edge source="python-dateutil@2.8.2" target="six@1.16.0" />
+    <data key="d0">guidurbano__tcc-GNL-amazon</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

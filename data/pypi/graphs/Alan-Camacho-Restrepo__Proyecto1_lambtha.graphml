@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="async-generator@1.10">
+      <data key="d2">async-generator</data>
+      <data key="d3">1.10</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="attrs@22.1.0">
+      <data key="d2">attrs</data>
+      <data key="d3">22.1.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="certifi@2022.6.15">
+      <data key="d2">certifi</data>
+      <data key="d3">2022.6.15</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-43fp-rhv2-5gv8,GHSA-xqr8-7jwr-rhp7,PYSEC-2022-42986,PYSEC-2023-135,GHSA-248v-346w-9cwc,PYSEC-2024-230</data>
+    </node>
+    <node id="cffi@1.15.1">
+      <data key="d2">cffi</data>
+      <data key="d3">1.15.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="cfgv@3.3.1">
+      <data key="d2">cfgv</data>
+      <data key="d3">3.3.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="distlib@0.3.6">
+      <data key="d2">distlib</data>
+      <data key="d3">0.3.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="filelock@3.8.0">
+      <data key="d2">filelock</data>
+      <data key="d3">3.8.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-qmgc-5h2g-mvrw,GHSA-w853-jp5j-5j7f</data>
+    </node>
+    <node id="h11@0.13.0">
+      <data key="d2">h11</data>
+      <data key="d3">0.13.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-vqfr-h8mv-ghfj</data>
+    </node>
+    <node id="identify@2.5.5">
+      <data key="d2">identify</data>
+      <data key="d3">2.5.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="idna@3.3">
+      <data key="d2">idna</data>
+      <data key="d3">3.3</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-jjg7-2v4v-x38h,PYSEC-2024-60</data>
+    </node>
+    <node id="nodeenv@1.7.0">
+      <data key="d2">nodeenv</data>
+      <data key="d3">1.7.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="outcome@1.2.0">
+      <data key="d2">outcome</data>
+      <data key="d3">1.2.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="platformdirs@2.5.2">
+      <data key="d2">platformdirs</data>
+      <data key="d3">2.5.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pre-commit@2.20.0">
+      <data key="d2">pre-commit</data>
+      <data key="d3">2.20.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pycparser@2.21">
+      <data key="d2">pycparser</data>
+      <data key="d3">2.21</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pydantic@1.10.2">
+      <data key="d2">pydantic</data>
+      <data key="d3">1.10.2</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-mr82-8j83-vxmv</data>
+    </node>
+    <node id="pysocks@1.7.1">
+      <data key="d2">pysocks</data>
+      <data key="d3">1.7.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyyaml@6.0">
+      <data key="d2">pyyaml</data>
+      <data key="d3">6.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="selenium@4.4.3">
+      <data key="d2">selenium</data>
+      <data key="d3">4.4.3</data>
+      <data key="d4">false</data>
+      <data key="d5">PYSEC-2023-206</data>
+    </node>
+    <node id="setuptools@65.3.0">
+      <data key="d2">setuptools</data>
+      <data key="d3">65.3.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-5rjg-fvgr-3xxf,GHSA-cx63-2mw6-8hw5,GHSA-r9hx-vwmv-q579,PYSEC-2022-43012,PYSEC-2025-49</data>
+    </node>
+    <node id="sniffio@1.3.0">
+      <data key="d2">sniffio</data>
+      <data key="d3">1.3.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="sortedcontainers@2.4.0">
+      <data key="d2">sortedcontainers</data>
+      <data key="d3">2.4.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="toml@0.10.2">
+      <data key="d2">toml</data>
+      <data key="d3">0.10.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="trio@0.21.0">
+      <data key="d2">trio</data>
+      <data key="d3">0.21.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="trio-websocket@0.9.2">
+      <data key="d2">trio-websocket</data>
+      <data key="d3">0.9.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="typing-extensions@4.3.0">
+      <data key="d2">typing-extensions</data>
+      <data key="d3">4.3.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="urllib3@1.26.12">
+      <data key="d2">urllib3</data>
+      <data key="d3">1.26.12</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-2xpw-w6gg-jr37,GHSA-34jh-p97f-mpxf,GHSA-38jv-5279-wg99,GHSA-g4mx-q9vg-27p4,GHSA-gwvm-45gx-3cf8,GHSA-mh33-7rrq-662w,GHSA-pq67-6m6q-mj2v,GHSA-r64q-w8jr-g9qp,GHSA-v845-jxx5-vc9f,GHSA-wqvq-5m8c-6g24,GHSA-www2-v7xj-xrc6,PYSEC-2018-32,PYSEC-2019-132,PYSEC-2019-133,PYSEC-2020-148,PYSEC-2021-108,PYSEC-2023-192,PYSEC-2023-207,PYSEC-2023-212,GHSA-gm62-xv2j-4w53,GHSA-q2q7-5pp4-w6pg,GHSA-48p4-8xcf-vxj5</data>
+    </node>
+    <node id="virtualenv@20.16.4">
+      <data key="d2">virtualenv</data>
+      <data key="d3">20.16.4</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-597g-3phw-6986,GHSA-rqc4-2hc7-8c8v,PYSEC-2024-187</data>
+    </node>
+    <node id="wsproto@1.2.0">
+      <data key="d2">wsproto</data>
+      <data key="d3">1.2.0</data>
+      <data key="d4">false</data>
+    </node>
+    <edge source="cffi@1.15.1" target="pycparser@2.21" />
+    <edge source="nodeenv@1.7.0" target="setuptools@65.3.0" />
+    <edge source="outcome@1.2.0" target="attrs@22.1.0" />
+    <edge source="pre-commit@2.20.0" target="cfgv@3.3.1" />
+    <edge source="pre-commit@2.20.0" target="identify@2.5.5" />
+    <edge source="pre-commit@2.20.0" target="nodeenv@1.7.0" />
+    <edge source="pre-commit@2.20.0" target="pyyaml@6.0" />
+    <edge source="pre-commit@2.20.0" target="toml@0.10.2" />
+    <edge source="pre-commit@2.20.0" target="virtualenv@20.16.4" />
+    <edge source="pydantic@1.10.2" target="typing-extensions@4.3.0" />
+    <edge source="selenium@4.4.3" target="certifi@2022.6.15" />
+    <edge source="selenium@4.4.3" target="trio@0.21.0" />
+    <edge source="selenium@4.4.3" target="trio-websocket@0.9.2" />
+    <edge source="selenium@4.4.3" target="urllib3@1.26.12" />
+    <edge source="trio@0.21.0" target="async-generator@1.10" />
+    <edge source="trio@0.21.0" target="attrs@22.1.0" />
+    <edge source="trio@0.21.0" target="cffi@1.15.1" />
+    <edge source="trio@0.21.0" target="idna@3.3" />
+    <edge source="trio@0.21.0" target="outcome@1.2.0" />
+    <edge source="trio@0.21.0" target="sniffio@1.3.0" />
+    <edge source="trio@0.21.0" target="sortedcontainers@2.4.0" />
+    <edge source="trio-websocket@0.9.2" target="async-generator@1.10" />
+    <edge source="trio-websocket@0.9.2" target="trio@0.21.0" />
+    <edge source="trio-websocket@0.9.2" target="wsproto@1.2.0" />
+    <edge source="urllib3@1.26.12" target="pysocks@1.7.1" />
+    <edge source="virtualenv@20.16.4" target="distlib@0.3.6" />
+    <edge source="virtualenv@20.16.4" target="filelock@3.8.0" />
+    <edge source="virtualenv@20.16.4" target="platformdirs@2.5.2" />
+    <edge source="wsproto@1.2.0" target="h11@0.13.0" />
+    <data key="d0">Alan-Camacho-Restrepo__Proyecto1_lambtha</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

@@ -1,0 +1,237 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="asttokens@2.0.5">
+      <data key="d2">asttokens</data>
+      <data key="d3">2.0.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="atomicwrites@1.4.0">
+      <data key="d2">atomicwrites</data>
+      <data key="d3">1.4.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="attrs@21.4.0">
+      <data key="d2">attrs</data>
+      <data key="d3">21.4.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="certifi@2021.10.8">
+      <data key="d2">certifi</data>
+      <data key="d3">2021.10.8</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-43fp-rhv2-5gv8,GHSA-xqr8-7jwr-rhp7,PYSEC-2022-42986,PYSEC-2023-135,GHSA-248v-346w-9cwc,PYSEC-2024-230</data>
+    </node>
+    <node id="charset-normalizer@2.0.11">
+      <data key="d2">charset-normalizer</data>
+      <data key="d3">2.0.11</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="click@8.0.3">
+      <data key="d2">click</data>
+      <data key="d3">8.0.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="colorama@0.4.4">
+      <data key="d2">colorama</data>
+      <data key="d3">0.4.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="executing@0.8.2">
+      <data key="d2">executing</data>
+      <data key="d3">0.8.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="filelock@3.4.2">
+      <data key="d2">filelock</data>
+      <data key="d3">3.4.2</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-qmgc-5h2g-mvrw,GHSA-w853-jp5j-5j7f</data>
+    </node>
+    <node id="huggingface-hub@0.4.0">
+      <data key="d2">huggingface-hub</data>
+      <data key="d3">0.4.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="icecream@2.1.1">
+      <data key="d2">icecream</data>
+      <data key="d3">2.1.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="idna@3.3">
+      <data key="d2">idna</data>
+      <data key="d3">3.3</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-jjg7-2v4v-x38h,PYSEC-2024-60</data>
+    </node>
+    <node id="iniconfig@1.1.1">
+      <data key="d2">iniconfig</data>
+      <data key="d3">1.1.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="joblib@1.1.0">
+      <data key="d2">joblib</data>
+      <data key="d3">1.1.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-6hrg-qmvc-2xh8,PYSEC-2022-288</data>
+    </node>
+    <node id="logzero@1.7.0">
+      <data key="d2">logzero</data>
+      <data key="d3">1.7.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="numpy@1.22.1">
+      <data key="d2">numpy</data>
+      <data key="d3">1.22.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-6p56-wp2h-9hxr,GHSA-fpfv-jqm9-f5jm</data>
+    </node>
+    <node id="packaging@21.3">
+      <data key="d2">packaging</data>
+      <data key="d3">21.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pluggy@1.0.0">
+      <data key="d2">pluggy</data>
+      <data key="d3">1.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="py@1.11.0">
+      <data key="d2">py</data>
+      <data key="d3">1.11.0</data>
+      <data key="d4">false</data>
+      <data key="d5">PYSEC-2022-42969,GHSA-hj5v-574p-mj7c,PYSEC-2020-92</data>
+    </node>
+    <node id="pygments@2.11.2">
+      <data key="d2">pygments</data>
+      <data key="d3">2.11.2</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-5239-wwwm-4pmq,GHSA-mrwq-x4v8-fh7p,PYSEC-2023-117,GHSA-9w8r-397f-prfh,GHSA-pq64-v7f5-gqh8,PYSEC-2021-140,PYSEC-2021-141</data>
+    </node>
+    <node id="pyparsing@3.0.7">
+      <data key="d2">pyparsing</data>
+      <data key="d3">3.0.7</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pytest@6.2.5">
+      <data key="d2">pytest</data>
+      <data key="d3">6.2.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyyaml@6.0">
+      <data key="d2">pyyaml</data>
+      <data key="d3">6.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="regex@2022.1.18">
+      <data key="d2">regex</data>
+      <data key="d3">2022.1.18</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="requests@2.27.1">
+      <data key="d2">requests</data>
+      <data key="d3">2.27.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-9hjg-9r4m-mvj7,GHSA-9wx4-h78v-vm56,GHSA-gc5v-m9x4-r6x2,GHSA-j8r2-6x86-q33q,GHSA-x84v-xcm2-53pg,PYSEC-2018-28,PYSEC-2023-74</data>
+    </node>
+    <node id="sacremoses@0.0.47">
+      <data key="d2">sacremoses</data>
+      <data key="d3">0.0.47</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="sentencepiece@0.1.96">
+      <data key="d2">sentencepiece</data>
+      <data key="d3">0.1.96</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-38vq-g6vr-w8wf</data>
+    </node>
+    <node id="six@1.16.0">
+      <data key="d2">six</data>
+      <data key="d3">1.16.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="tokenizers@0.11.4">
+      <data key="d2">tokenizers</data>
+      <data key="d3">0.11.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="toml@0.10.2">
+      <data key="d2">toml</data>
+      <data key="d3">0.10.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="tqdm@4.62.3">
+      <data key="d2">tqdm</data>
+      <data key="d3">4.62.3</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-g7vv-2v7x-gj9p</data>
+    </node>
+    <node id="transformers@4.16.2">
+      <data key="d2">transformers</data>
+      <data key="d3">4.16.2</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-282v-666c-3fvg,GHSA-37mw-44qp-f5jm,GHSA-37q5-v5qm-c9v8,GHSA-3863-2447-669p,GHSA-4w7r-h757-3r74,GHSA-59p9-h35m-wg4g,GHSA-6rvg-6v2m-4j46,GHSA-9356-575x-2w9m,GHSA-fpwr-67px-3qhx,GHSA-hxxf-235m-72v3,GHSA-jjph-296x-mrcr,GHSA-phhr-52qp-3mj4,GHSA-q2wp-rjmx-x6x9,GHSA-qq3j-4f4f-9583,GHSA-qxrp-vhvm-j765,GHSA-rcv9-qm8p-9p6j,GHSA-v68g-wm8c-6x7j,GHSA-wrfc-pvp9-mr9g,PYSEC-2023-299,PYSEC-2023-300,PYSEC-2023-301,PYSEC-2024-227,PYSEC-2024-228,PYSEC-2024-229,PYSEC-2025-40</data>
+    </node>
+    <node id="typing-extensions@4.0.1">
+      <data key="d2">typing-extensions</data>
+      <data key="d3">4.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="urllib3@1.26.8">
+      <data key="d2">urllib3</data>
+      <data key="d3">1.26.8</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-2xpw-w6gg-jr37,GHSA-34jh-p97f-mpxf,GHSA-38jv-5279-wg99,GHSA-g4mx-q9vg-27p4,GHSA-gwvm-45gx-3cf8,GHSA-mh33-7rrq-662w,GHSA-pq67-6m6q-mj2v,GHSA-r64q-w8jr-g9qp,GHSA-v845-jxx5-vc9f,GHSA-wqvq-5m8c-6g24,GHSA-www2-v7xj-xrc6,PYSEC-2018-32,PYSEC-2019-132,PYSEC-2019-133,PYSEC-2020-148,PYSEC-2021-108,PYSEC-2023-192,PYSEC-2023-207,PYSEC-2023-212,GHSA-gm62-xv2j-4w53,GHSA-q2q7-5pp4-w6pg,GHSA-48p4-8xcf-vxj5</data>
+    </node>
+    <edge source="asttokens@2.0.5" target="six@1.16.0" />
+    <edge source="click@8.0.3" target="colorama@0.4.4" />
+    <edge source="huggingface-hub@0.4.0" target="filelock@3.4.2" />
+    <edge source="huggingface-hub@0.4.0" target="packaging@21.3" />
+    <edge source="huggingface-hub@0.4.0" target="pyyaml@6.0" />
+    <edge source="huggingface-hub@0.4.0" target="requests@2.27.1" />
+    <edge source="huggingface-hub@0.4.0" target="tqdm@4.62.3" />
+    <edge source="huggingface-hub@0.4.0" target="typing-extensions@4.0.1" />
+    <edge source="icecream@2.1.1" target="asttokens@2.0.5" />
+    <edge source="icecream@2.1.1" target="colorama@0.4.4" />
+    <edge source="icecream@2.1.1" target="executing@0.8.2" />
+    <edge source="icecream@2.1.1" target="pygments@2.11.2" />
+    <edge source="logzero@1.7.0" target="colorama@0.4.4" />
+    <edge source="packaging@21.3" target="pyparsing@3.0.7" />
+    <edge source="pytest@6.2.5" target="atomicwrites@1.4.0" />
+    <edge source="pytest@6.2.5" target="attrs@21.4.0" />
+    <edge source="pytest@6.2.5" target="colorama@0.4.4" />
+    <edge source="pytest@6.2.5" target="iniconfig@1.1.1" />
+    <edge source="pytest@6.2.5" target="packaging@21.3" />
+    <edge source="pytest@6.2.5" target="pluggy@1.0.0" />
+    <edge source="pytest@6.2.5" target="py@1.11.0" />
+    <edge source="pytest@6.2.5" target="toml@0.10.2" />
+    <edge source="requests@2.27.1" target="certifi@2021.10.8" />
+    <edge source="requests@2.27.1" target="charset-normalizer@2.0.11" />
+    <edge source="requests@2.27.1" target="idna@3.3" />
+    <edge source="requests@2.27.1" target="urllib3@1.26.8" />
+    <edge source="sacremoses@0.0.47" target="click@8.0.3" />
+    <edge source="sacremoses@0.0.47" target="joblib@1.1.0" />
+    <edge source="sacremoses@0.0.47" target="regex@2022.1.18" />
+    <edge source="sacremoses@0.0.47" target="six@1.16.0" />
+    <edge source="sacremoses@0.0.47" target="tqdm@4.62.3" />
+    <edge source="tqdm@4.62.3" target="colorama@0.4.4" />
+    <edge source="transformers@4.16.2" target="filelock@3.4.2" />
+    <edge source="transformers@4.16.2" target="huggingface-hub@0.4.0" />
+    <edge source="transformers@4.16.2" target="numpy@1.22.1" />
+    <edge source="transformers@4.16.2" target="packaging@21.3" />
+    <edge source="transformers@4.16.2" target="pyyaml@6.0" />
+    <edge source="transformers@4.16.2" target="regex@2022.1.18" />
+    <edge source="transformers@4.16.2" target="requests@2.27.1" />
+    <edge source="transformers@4.16.2" target="sacremoses@0.0.47" />
+    <edge source="transformers@4.16.2" target="tokenizers@0.11.4" />
+    <edge source="transformers@4.16.2" target="tqdm@4.62.3" />
+    <data key="d0">ffreemt__ultimatumbee</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

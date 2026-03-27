@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="ansible@11.1.0">
+      <data key="d2">ansible</data>
+      <data key="d3">11.1.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-8ggh-xwr9-3373</data>
+    </node>
+    <node id="ansible-compat@24.10.0">
+      <data key="d2">ansible-compat</data>
+      <data key="d3">24.10.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="ansible-core@2.18.1">
+      <data key="d2">ansible-core</data>
+      <data key="d3">2.18.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="ansible-lint@24.12.2">
+      <data key="d2">ansible-lint</data>
+      <data key="d3">24.12.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="attrs@24.3.0">
+      <data key="d2">attrs</data>
+      <data key="d3">24.3.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="black@24.10.0">
+      <data key="d2">black</data>
+      <data key="d3">24.10.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-3936-cmfr-pm3m,GHSA-fj7x-q9j7-g6q6,PYSEC-2024-48</data>
+    </node>
+    <node id="bracex@2.5.post1">
+      <data key="d2">bracex</data>
+      <data key="d3">2.5.post1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="cffi@1.17.1">
+      <data key="d2">cffi</data>
+      <data key="d3">1.17.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="click@8.1.8">
+      <data key="d2">click</data>
+      <data key="d3">8.1.8</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="cryptography@44.0.0">
+      <data key="d2">cryptography</data>
+      <data key="d3">44.0.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-3ww4-gg4f-jr7f,GHSA-5cpq-8wj7-hf2v,GHSA-9v9h-cgj8-h64p,GHSA-hggm-jpg3-v476,GHSA-jfhm-5ghh-2f97,GHSA-jm77-qphf-c4w8,GHSA-r6ph-v2qm-q3c2,GHSA-rhm9-p9w5-fwm7,GHSA-v8gr-m533-ghj9,GHSA-w7pp-m8wf-vj6r,GHSA-x4qr-2fvf-3mr5,PYSEC-2021-62,PYSEC-2021-63,PYSEC-2023-11,PYSEC-2023-254,GHSA-39hc-v87j-747x,GHSA-h4gh-qq45-vh27,GHSA-6vqw-3v5j-54x4,GHSA-cf7p-gm2m-833m,PYSEC-2023-112,PYSEC-2024-225,GHSA-79v4-65xg-pq4g</data>
+    </node>
+    <node id="dnspython@2.7.0">
+      <data key="d2">dnspython</data>
+      <data key="d3">2.7.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-3rq5-2g8h-59hc</data>
+    </node>
+    <node id="filelock@3.17.0">
+      <data key="d2">filelock</data>
+      <data key="d3">3.17.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-qmgc-5h2g-mvrw,GHSA-w853-jp5j-5j7f</data>
+    </node>
+    <node id="importlib-metadata@8.6.1">
+      <data key="d2">importlib-metadata</data>
+      <data key="d3">8.6.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="jinja2@3.1.5">
+      <data key="d2">jinja2</data>
+      <data key="d3">3.1.5</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-cpwx-vrp4-4pq7,GHSA-g3rq-g295-4j3m,GHSA-h5c8-rqwp-cp95,GHSA-h75v-3vvj-5mfj,GHSA-q2x7-8rv6-6q7h,PYSEC-2021-66,GHSA-gmj6-6f8f-6699</data>
+    </node>
+    <node id="jsonschema@4.23.0">
+      <data key="d2">jsonschema</data>
+      <data key="d3">4.23.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="jsonschema-specifications@2024.10.1">
+      <data key="d2">jsonschema-specifications</data>
+      <data key="d3">2024.10.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="markupsafe@3.0.2">
+      <data key="d2">markupsafe</data>
+      <data key="d3">3.0.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="mypy-extensions@1.0.0">
+      <data key="d2">mypy-extensions</data>
+      <data key="d3">1.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="netaddr@1.3.0">
+      <data key="d2">netaddr</data>
+      <data key="d3">1.3.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="packaging@24.2">
+      <data key="d2">packaging</data>
+      <data key="d3">24.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pathspec@0.12.1">
+      <data key="d2">pathspec</data>
+      <data key="d3">0.12.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="platformdirs@4.3.6">
+      <data key="d2">platformdirs</data>
+      <data key="d3">4.3.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pycparser@2.22">
+      <data key="d2">pycparser</data>
+      <data key="d3">2.22</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyyaml@6.0.2">
+      <data key="d2">pyyaml</data>
+      <data key="d3">6.0.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="referencing@0.36.1">
+      <data key="d2">referencing</data>
+      <data key="d3">0.36.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="resolvelib@1.0.1">
+      <data key="d2">resolvelib</data>
+      <data key="d3">1.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="rpds-py@0.22.3">
+      <data key="d2">rpds-py</data>
+      <data key="d3">0.22.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="ruamel-yaml@0.18.10">
+      <data key="d2">ruamel-yaml</data>
+      <data key="d3">0.18.10</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="ruamel-yaml-clib@0.2.12">
+      <data key="d2">ruamel-yaml-clib</data>
+      <data key="d3">0.2.12</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="subprocess-tee@0.4.2">
+      <data key="d2">subprocess-tee</data>
+      <data key="d3">0.4.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="typing-extensions@4.12.2">
+      <data key="d2">typing-extensions</data>
+      <data key="d3">4.12.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="wcmatch@10.0">
+      <data key="d2">wcmatch</data>
+      <data key="d3">10.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="yamllint@1.35.1">
+      <data key="d2">yamllint</data>
+      <data key="d3">1.35.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="zipp@3.21.0">
+      <data key="d2">zipp</data>
+      <data key="d3">3.21.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-jfmj-5v4g-7637</data>
+    </node>
+    <edge source="ansible@11.1.0" target="ansible-core@2.18.1" />
+    <edge source="ansible-compat@24.10.0" target="ansible-core@2.18.1" />
+    <edge source="ansible-compat@24.10.0" target="jsonschema@4.23.0" />
+    <edge source="ansible-compat@24.10.0" target="packaging@24.2" />
+    <edge source="ansible-compat@24.10.0" target="pyyaml@6.0.2" />
+    <edge source="ansible-compat@24.10.0" target="subprocess-tee@0.4.2" />
+    <edge source="ansible-core@2.18.1" target="cryptography@44.0.0" />
+    <edge source="ansible-core@2.18.1" target="jinja2@3.1.5" />
+    <edge source="ansible-core@2.18.1" target="packaging@24.2" />
+    <edge source="ansible-core@2.18.1" target="pyyaml@6.0.2" />
+    <edge source="ansible-core@2.18.1" target="resolvelib@1.0.1" />
+    <edge source="ansible-lint@24.12.2" target="ansible-compat@24.10.0" />
+    <edge source="ansible-lint@24.12.2" target="ansible-core@2.18.1" />
+    <edge source="ansible-lint@24.12.2" target="black@24.10.0" />
+    <edge source="ansible-lint@24.12.2" target="filelock@3.17.0" />
+    <edge source="ansible-lint@24.12.2" target="importlib-metadata@8.6.1" />
+    <edge source="ansible-lint@24.12.2" target="jsonschema@4.23.0" />
+    <edge source="ansible-lint@24.12.2" target="packaging@24.2" />
+    <edge source="ansible-lint@24.12.2" target="pathspec@0.12.1" />
+    <edge source="ansible-lint@24.12.2" target="pyyaml@6.0.2" />
+    <edge source="ansible-lint@24.12.2" target="ruamel-yaml@0.18.10" />
+    <edge source="ansible-lint@24.12.2" target="subprocess-tee@0.4.2" />
+    <edge source="ansible-lint@24.12.2" target="wcmatch@10.0" />
+    <edge source="ansible-lint@24.12.2" target="yamllint@1.35.1" />
+    <edge source="black@24.10.0" target="click@8.1.8" />
+    <edge source="black@24.10.0" target="mypy-extensions@1.0.0" />
+    <edge source="black@24.10.0" target="packaging@24.2" />
+    <edge source="black@24.10.0" target="pathspec@0.12.1" />
+    <edge source="black@24.10.0" target="platformdirs@4.3.6" />
+    <edge source="cffi@1.17.1" target="pycparser@2.22" />
+    <edge source="cryptography@44.0.0" target="cffi@1.17.1" />
+    <edge source="importlib-metadata@8.6.1" target="zipp@3.21.0" />
+    <edge source="jinja2@3.1.5" target="markupsafe@3.0.2" />
+    <edge source="jsonschema@4.23.0" target="attrs@24.3.0" />
+    <edge source="jsonschema@4.23.0" target="jsonschema-specifications@2024.10.1" />
+    <edge source="jsonschema@4.23.0" target="referencing@0.36.1" />
+    <edge source="jsonschema@4.23.0" target="rpds-py@0.22.3" />
+    <edge source="jsonschema-specifications@2024.10.1" target="referencing@0.36.1" />
+    <edge source="referencing@0.36.1" target="attrs@24.3.0" />
+    <edge source="referencing@0.36.1" target="rpds-py@0.22.3" />
+    <edge source="referencing@0.36.1" target="typing-extensions@4.12.2" />
+    <edge source="ruamel-yaml@0.18.10" target="ruamel-yaml-clib@0.2.12" />
+    <edge source="wcmatch@10.0" target="bracex@2.5.post1" />
+    <edge source="yamllint@1.35.1" target="pathspec@0.12.1" />
+    <edge source="yamllint@1.35.1" target="pyyaml@6.0.2" />
+    <data key="d0">Freifunk-Potsdam__ansible-freifunk-gateways</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="aiohttp@3.9.5">
+      <data key="d2">aiohttp</data>
+      <data key="d3">3.9.5</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-54jq-c3m8-4m76,GHSA-69f9-5gxw-wvc2,GHSA-6jhg-hg63-jvvf,GHSA-6mq8-rvhq-8wgg,GHSA-9548-qrrj-x5pj,GHSA-fh55-r93g-j68g,GHSA-g84x-mcqj-x9qq,GHSA-jj3x-wxrx-4x23,GHSA-mqqc-3gqh-h2x8,GHSA-45c4-8wx5-qw6w,GHSA-5h86-8mv2-jq9f,GHSA-5m98-qgg9-wh84,GHSA-7gpw-8wmc-pm8g,GHSA-8495-4g3g-x7pr,GHSA-8qpw-xqxj-h4r2,GHSA-gfw2-4jvh-wgfg,GHSA-pjjw-qhg8-p2p9,GHSA-q3qx-c6g2-7pw2,GHSA-qvrw-v9rv-5rjx,GHSA-xx9p-xxvh-7g8j,PYSEC-2023-120,PYSEC-2023-246,PYSEC-2023-247,PYSEC-2023-250,PYSEC-2023-251,PYSEC-2024-24,PYSEC-2024-26</data>
+    </node>
+    <node id="aiosignal@1.3.1">
+      <data key="d2">aiosignal</data>
+      <data key="d3">1.3.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="async-timeout@4.0.3">
+      <data key="d2">async-timeout</data>
+      <data key="d3">4.0.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="attrs@23.2.0">
+      <data key="d2">attrs</data>
+      <data key="d3">23.2.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="discord-py@2.4.0">
+      <data key="d2">discord-py</data>
+      <data key="d3">2.4.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="frozenlist@1.4.1">
+      <data key="d2">frozenlist</data>
+      <data key="d3">1.4.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="idna@3.7">
+      <data key="d2">idna</data>
+      <data key="d3">3.7</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-jjg7-2v4v-x38h,PYSEC-2024-60</data>
+    </node>
+    <node id="invoke@2.2.0">
+      <data key="d2">invoke</data>
+      <data key="d3">2.2.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="multidict@6.0.5">
+      <data key="d2">multidict</data>
+      <data key="d3">6.0.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="mypy@1.10.1">
+      <data key="d2">mypy</data>
+      <data key="d3">1.10.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="mypy-extensions@1.0.0">
+      <data key="d2">mypy-extensions</data>
+      <data key="d3">1.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="psycopg2@2.9.9">
+      <data key="d2">psycopg2</data>
+      <data key="d3">2.9.9</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="python-dotenv@1.0.1">
+      <data key="d2">python-dotenv</data>
+      <data key="d3">1.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="ruff@0.5.2">
+      <data key="d2">ruff</data>
+      <data key="d3">0.5.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="tomli@2.0.1">
+      <data key="d2">tomli</data>
+      <data key="d3">2.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="typing-extensions@4.12.2">
+      <data key="d2">typing-extensions</data>
+      <data key="d3">4.12.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="yarl@1.9.4">
+      <data key="d2">yarl</data>
+      <data key="d3">1.9.4</data>
+      <data key="d4">false</data>
+    </node>
+    <edge source="aiohttp@3.9.5" target="aiosignal@1.3.1" />
+    <edge source="aiohttp@3.9.5" target="async-timeout@4.0.3" />
+    <edge source="aiohttp@3.9.5" target="attrs@23.2.0" />
+    <edge source="aiohttp@3.9.5" target="frozenlist@1.4.1" />
+    <edge source="aiohttp@3.9.5" target="multidict@6.0.5" />
+    <edge source="aiohttp@3.9.5" target="yarl@1.9.4" />
+    <edge source="aiosignal@1.3.1" target="frozenlist@1.4.1" />
+    <edge source="discord-py@2.4.0" target="aiohttp@3.9.5" />
+    <edge source="mypy@1.10.1" target="mypy-extensions@1.0.0" />
+    <edge source="mypy@1.10.1" target="tomli@2.0.1" />
+    <edge source="mypy@1.10.1" target="typing-extensions@4.12.2" />
+    <edge source="yarl@1.9.4" target="idna@3.7" />
+    <edge source="yarl@1.9.4" target="multidict@6.0.5" />
+    <data key="d0">HackXIt__fhtw-discord-bot-python</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

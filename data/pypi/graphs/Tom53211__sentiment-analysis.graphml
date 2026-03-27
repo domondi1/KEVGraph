@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="blinker@1.9.0">
+      <data key="d2">blinker</data>
+      <data key="d3">1.9.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="click@8.1.7">
+      <data key="d2">click</data>
+      <data key="d3">8.1.7</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="colorama@0.4.6">
+      <data key="d2">colorama</data>
+      <data key="d3">0.4.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="flask@3.1.0">
+      <data key="d2">flask</data>
+      <data key="d3">3.1.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-68rp-wp8r-4726,GHSA-m2qf-hxjv-5gpq,PYSEC-2023-62,GHSA-4grg-w6v8-c28g</data>
+    </node>
+    <node id="iniconfig@2.0.0">
+      <data key="d2">iniconfig</data>
+      <data key="d3">2.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="itsdangerous@2.2.0">
+      <data key="d2">itsdangerous</data>
+      <data key="d3">2.2.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="jinja2@3.1.4">
+      <data key="d2">jinja2</data>
+      <data key="d3">3.1.4</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-cpwx-vrp4-4pq7,GHSA-g3rq-g295-4j3m,GHSA-h5c8-rqwp-cp95,GHSA-h75v-3vvj-5mfj,GHSA-q2x7-8rv6-6q7h,PYSEC-2021-66,GHSA-gmj6-6f8f-6699</data>
+    </node>
+    <node id="joblib@1.4.2">
+      <data key="d2">joblib</data>
+      <data key="d3">1.4.2</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-6hrg-qmvc-2xh8,PYSEC-2022-288</data>
+    </node>
+    <node id="markupsafe@3.0.2">
+      <data key="d2">markupsafe</data>
+      <data key="d3">3.0.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="numpy@2.2.0">
+      <data key="d2">numpy</data>
+      <data key="d3">2.2.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-6p56-wp2h-9hxr,GHSA-fpfv-jqm9-f5jm</data>
+    </node>
+    <node id="packaging@24.2">
+      <data key="d2">packaging</data>
+      <data key="d3">24.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pandas@2.2.3">
+      <data key="d2">pandas</data>
+      <data key="d3">2.2.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pluggy@1.5.0">
+      <data key="d2">pluggy</data>
+      <data key="d3">1.5.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyaml@24.12.1">
+      <data key="d2">pyaml</data>
+      <data key="d3">24.12.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pytest@8.3.4">
+      <data key="d2">pytest</data>
+      <data key="d3">8.3.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="python-dateutil@2.9.0.post0">
+      <data key="d2">python-dateutil</data>
+      <data key="d3">2.9.0.post0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pytz@2024.2">
+      <data key="d2">pytz</data>
+      <data key="d3">2024.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyyaml@6.0.2">
+      <data key="d2">pyyaml</data>
+      <data key="d3">6.0.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="scikit-learn@1.6.0">
+      <data key="d2">scikit-learn</data>
+      <data key="d3">1.6.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-jw8x-6495-233v,GHSA-jxfp-4rvq-9h9m,PYSEC-2024-110</data>
+    </node>
+    <node id="scipy@1.14.1">
+      <data key="d2">scipy</data>
+      <data key="d3">1.14.1</data>
+      <data key="d4">false</data>
+      <data key="d5">PYSEC-2023-102,PYSEC-2023-114</data>
+    </node>
+    <node id="six@1.17.0">
+      <data key="d2">six</data>
+      <data key="d3">1.17.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="threadpoolctl@3.5.0">
+      <data key="d2">threadpoolctl</data>
+      <data key="d3">3.5.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="tzdata@2024.2">
+      <data key="d2">tzdata</data>
+      <data key="d3">2024.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="werkzeug@3.1.3">
+      <data key="d2">werkzeug</data>
+      <data key="d3">3.1.3</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-29vq-49wr-vm6x,GHSA-2g68-c3qc-8985,GHSA-87hc-h4r5-73f7,GHSA-f9vj-2wh5-fj8j,GHSA-hgf8-39gv-g3f2,GHSA-hrfv-mqp8-q5rw,GHSA-px8h-6qxv-m22q,GHSA-q34m-jh98-gwm2,GHSA-xg9f-g7g7-2323,PYSEC-2022-203,PYSEC-2023-221,PYSEC-2023-57,PYSEC-2023-58</data>
+    </node>
+    <node id="xgboost@1.7.5">
+      <data key="d2">xgboost</data>
+      <data key="d3">1.7.5</data>
+      <data key="d4">false</data>
+    </node>
+    <edge source="click@8.1.7" target="colorama@0.4.6" />
+    <edge source="flask@3.1.0" target="blinker@1.9.0" />
+    <edge source="flask@3.1.0" target="click@8.1.7" />
+    <edge source="flask@3.1.0" target="itsdangerous@2.2.0" />
+    <edge source="flask@3.1.0" target="jinja2@3.1.4" />
+    <edge source="flask@3.1.0" target="werkzeug@3.1.3" />
+    <edge source="jinja2@3.1.4" target="markupsafe@3.0.2" />
+    <edge source="pandas@2.2.3" target="numpy@2.2.0" />
+    <edge source="pandas@2.2.3" target="python-dateutil@2.9.0.post0" />
+    <edge source="pandas@2.2.3" target="pytz@2024.2" />
+    <edge source="pandas@2.2.3" target="tzdata@2024.2" />
+    <edge source="pyaml@24.12.1" target="pyyaml@6.0.2" />
+    <edge source="pytest@8.3.4" target="colorama@0.4.6" />
+    <edge source="pytest@8.3.4" target="iniconfig@2.0.0" />
+    <edge source="pytest@8.3.4" target="packaging@24.2" />
+    <edge source="pytest@8.3.4" target="pluggy@1.5.0" />
+    <edge source="python-dateutil@2.9.0.post0" target="six@1.17.0" />
+    <edge source="scikit-learn@1.6.0" target="joblib@1.4.2" />
+    <edge source="scikit-learn@1.6.0" target="numpy@2.2.0" />
+    <edge source="scikit-learn@1.6.0" target="scipy@1.14.1" />
+    <edge source="scikit-learn@1.6.0" target="threadpoolctl@3.5.0" />
+    <edge source="scipy@1.14.1" target="numpy@2.2.0" />
+    <edge source="werkzeug@3.1.3" target="markupsafe@3.0.2" />
+    <edge source="xgboost@1.7.5" target="numpy@2.2.0" />
+    <edge source="xgboost@1.7.5" target="scipy@1.14.1" />
+    <data key="d0">Tom53211__sentiment-analysis</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

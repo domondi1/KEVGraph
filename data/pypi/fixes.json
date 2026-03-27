@@ -1,0 +1,7329 @@
+[
+  {
+    "fix_id": "upgrade:aiohttp@3.11.18->@3.13.3",
+    "package": "aiohttp",
+    "from_version": "3.11.18",
+    "to_version": "3.13.3",
+    "covers": [
+      "GHSA-54jq-c3m8-4m76",
+      "GHSA-69f9-5gxw-wvc2",
+      "GHSA-6jhg-hg63-jvvf",
+      "GHSA-6mq8-rvhq-8wgg",
+      "GHSA-9548-qrrj-x5pj",
+      "GHSA-fh55-r93g-j68g",
+      "GHSA-g84x-mcqj-x9qq",
+      "GHSA-jj3x-wxrx-4x23",
+      "GHSA-mqqc-3gqh-h2x8",
+      "PYSEC-2023-246",
+      "PYSEC-2023-247",
+      "PYSEC-2023-250",
+      "PYSEC-2023-251",
+      "PYSEC-2024-24",
+      "PYSEC-2024-26"
+    ]
+  },
+  {
+    "fix_id": "upgrade:aiohttp@3.7.4.post0->@3.13.3",
+    "package": "aiohttp",
+    "from_version": "3.7.4.post0",
+    "to_version": "3.13.3",
+    "covers": [
+      "GHSA-54jq-c3m8-4m76",
+      "GHSA-69f9-5gxw-wvc2",
+      "GHSA-6jhg-hg63-jvvf",
+      "GHSA-6mq8-rvhq-8wgg",
+      "GHSA-9548-qrrj-x5pj",
+      "GHSA-fh55-r93g-j68g",
+      "GHSA-g84x-mcqj-x9qq",
+      "GHSA-jj3x-wxrx-4x23",
+      "GHSA-mqqc-3gqh-h2x8",
+      "GHSA-45c4-8wx5-qw6w",
+      "GHSA-5h86-8mv2-jq9f",
+      "GHSA-5m98-qgg9-wh84",
+      "GHSA-7gpw-8wmc-pm8g",
+      "GHSA-8495-4g3g-x7pr",
+      "GHSA-8qpw-xqxj-h4r2",
+      "GHSA-gfw2-4jvh-wgfg",
+      "GHSA-pjjw-qhg8-p2p9",
+      "GHSA-q3qx-c6g2-7pw2",
+      "GHSA-qvrw-v9rv-5rjx",
+      "GHSA-xx9p-xxvh-7g8j",
+      "PYSEC-2023-120",
+      "PYSEC-2023-246",
+      "PYSEC-2023-247",
+      "PYSEC-2023-250",
+      "PYSEC-2023-251",
+      "PYSEC-2024-24",
+      "PYSEC-2024-26"
+    ]
+  },
+  {
+    "fix_id": "upgrade:aiohttp@3.8.1->@3.13.3",
+    "package": "aiohttp",
+    "from_version": "3.8.1",
+    "to_version": "3.13.3",
+    "covers": [
+      "GHSA-54jq-c3m8-4m76",
+      "GHSA-69f9-5gxw-wvc2",
+      "GHSA-6jhg-hg63-jvvf",
+      "GHSA-6mq8-rvhq-8wgg",
+      "GHSA-9548-qrrj-x5pj",
+      "GHSA-fh55-r93g-j68g",
+      "GHSA-g84x-mcqj-x9qq",
+      "GHSA-jj3x-wxrx-4x23",
+      "GHSA-mqqc-3gqh-h2x8",
+      "GHSA-45c4-8wx5-qw6w",
+      "GHSA-5h86-8mv2-jq9f",
+      "GHSA-5m98-qgg9-wh84",
+      "GHSA-7gpw-8wmc-pm8g",
+      "GHSA-8495-4g3g-x7pr",
+      "GHSA-8qpw-xqxj-h4r2",
+      "GHSA-gfw2-4jvh-wgfg",
+      "GHSA-pjjw-qhg8-p2p9",
+      "GHSA-q3qx-c6g2-7pw2",
+      "GHSA-qvrw-v9rv-5rjx",
+      "PYSEC-2023-120",
+      "PYSEC-2023-246",
+      "PYSEC-2023-247",
+      "PYSEC-2023-250",
+      "PYSEC-2023-251",
+      "PYSEC-2024-24",
+      "PYSEC-2024-26"
+    ]
+  },
+  {
+    "fix_id": "upgrade:aiohttp@3.9.1->@3.13.3",
+    "package": "aiohttp",
+    "from_version": "3.9.1",
+    "to_version": "3.13.3",
+    "covers": [
+      "GHSA-54jq-c3m8-4m76",
+      "GHSA-69f9-5gxw-wvc2",
+      "GHSA-6jhg-hg63-jvvf",
+      "GHSA-6mq8-rvhq-8wgg",
+      "GHSA-9548-qrrj-x5pj",
+      "GHSA-fh55-r93g-j68g",
+      "GHSA-g84x-mcqj-x9qq",
+      "GHSA-jj3x-wxrx-4x23",
+      "GHSA-mqqc-3gqh-h2x8",
+      "GHSA-5h86-8mv2-jq9f",
+      "GHSA-5m98-qgg9-wh84",
+      "GHSA-7gpw-8wmc-pm8g",
+      "GHSA-8495-4g3g-x7pr",
+      "GHSA-8qpw-xqxj-h4r2",
+      "PYSEC-2023-246",
+      "PYSEC-2023-247",
+      "PYSEC-2023-250",
+      "PYSEC-2023-251",
+      "PYSEC-2024-24",
+      "PYSEC-2024-26"
+    ]
+  },
+  {
+    "fix_id": "upgrade:aiohttp@3.9.3->@3.13.3",
+    "package": "aiohttp",
+    "from_version": "3.9.3",
+    "to_version": "3.13.3",
+    "covers": [
+      "GHSA-54jq-c3m8-4m76",
+      "GHSA-69f9-5gxw-wvc2",
+      "GHSA-6jhg-hg63-jvvf",
+      "GHSA-6mq8-rvhq-8wgg",
+      "GHSA-9548-qrrj-x5pj",
+      "GHSA-fh55-r93g-j68g",
+      "GHSA-g84x-mcqj-x9qq",
+      "GHSA-jj3x-wxrx-4x23",
+      "GHSA-mqqc-3gqh-h2x8",
+      "GHSA-5m98-qgg9-wh84",
+      "GHSA-7gpw-8wmc-pm8g",
+      "GHSA-8495-4g3g-x7pr",
+      "PYSEC-2023-246",
+      "PYSEC-2023-247",
+      "PYSEC-2023-250",
+      "PYSEC-2023-251",
+      "PYSEC-2024-24",
+      "PYSEC-2024-26"
+    ]
+  },
+  {
+    "fix_id": "upgrade:aiohttp@3.9.5->@3.13.3",
+    "package": "aiohttp",
+    "from_version": "3.9.5",
+    "to_version": "3.13.3",
+    "covers": [
+      "GHSA-54jq-c3m8-4m76",
+      "GHSA-69f9-5gxw-wvc2",
+      "GHSA-6jhg-hg63-jvvf",
+      "GHSA-6mq8-rvhq-8wgg",
+      "GHSA-9548-qrrj-x5pj",
+      "GHSA-fh55-r93g-j68g",
+      "GHSA-g84x-mcqj-x9qq",
+      "GHSA-jj3x-wxrx-4x23",
+      "GHSA-mqqc-3gqh-h2x8",
+      "GHSA-8495-4g3g-x7pr",
+      "PYSEC-2023-246",
+      "PYSEC-2023-247",
+      "PYSEC-2023-250",
+      "PYSEC-2023-251",
+      "PYSEC-2024-24",
+      "PYSEC-2024-26"
+    ]
+  },
+  {
+    "fix_id": "upgrade:ansible@11.1.0->@12.2.0",
+    "package": "ansible",
+    "from_version": "11.1.0",
+    "to_version": "12.2.0",
+    "covers": [
+      "GHSA-8ggh-xwr9-3373"
+    ]
+  },
+  {
+    "fix_id": "upgrade:authlib@1.2.1->@1.6.9",
+    "package": "authlib",
+    "from_version": "1.2.1",
+    "to_version": "1.6.9",
+    "covers": [
+      "GHSA-5357-c2jx-v7qh",
+      "GHSA-7432-952r-cw78",
+      "GHSA-9ggr-2464-2j32",
+      "GHSA-fg6f-75jq-6523",
+      "GHSA-g7f3-828f-7h7m",
+      "GHSA-m344-f55w-2m6j",
+      "GHSA-pq5p-34cr-23v9",
+      "GHSA-wvwj-cvrp-7pv5",
+      "PYSEC-2024-52"
+    ]
+  },
+  {
+    "fix_id": "upgrade:autobahn@20.7.1->@20.12.3",
+    "package": "autobahn",
+    "from_version": "20.7.1",
+    "to_version": "20.12.3",
+    "covers": [
+      "GHSA-gwp7-vqr5-h33h",
+      "PYSEC-2020-25"
+    ]
+  },
+  {
+    "fix_id": "upgrade:azure-core@1.25.0->@1.38.0",
+    "package": "azure-core",
+    "from_version": "1.25.0",
+    "to_version": "1.38.0",
+    "covers": [
+      "GHSA-jm66-cg57-jjv5"
+    ]
+  },
+  {
+    "fix_id": "upgrade:azure-core@1.34.0->@1.38.0",
+    "package": "azure-core",
+    "from_version": "1.34.0",
+    "to_version": "1.38.0",
+    "covers": [
+      "GHSA-jm66-cg57-jjv5"
+    ]
+  },
+  {
+    "fix_id": "upgrade:black@19.10b0->@26.3.1",
+    "package": "black",
+    "from_version": "19.10b0",
+    "to_version": "26.3.1",
+    "covers": [
+      "GHSA-3936-cmfr-pm3m",
+      "GHSA-fj7x-q9j7-g6q6",
+      "PYSEC-2024-48"
+    ]
+  },
+  {
+    "fix_id": "upgrade:black@20.8b1->@26.3.1",
+    "package": "black",
+    "from_version": "20.8b1",
+    "to_version": "26.3.1",
+    "covers": [
+      "GHSA-3936-cmfr-pm3m",
+      "GHSA-fj7x-q9j7-g6q6",
+      "PYSEC-2024-48"
+    ]
+  },
+  {
+    "fix_id": "upgrade:black@21.10b0->@26.3.1",
+    "package": "black",
+    "from_version": "21.10b0",
+    "to_version": "26.3.1",
+    "covers": [
+      "GHSA-3936-cmfr-pm3m",
+      "GHSA-fj7x-q9j7-g6q6",
+      "PYSEC-2024-48"
+    ]
+  },
+  {
+    "fix_id": "upgrade:black@21.11b0->@26.3.1",
+    "package": "black",
+    "from_version": "21.11b0",
+    "to_version": "26.3.1",
+    "covers": [
+      "GHSA-3936-cmfr-pm3m",
+      "GHSA-fj7x-q9j7-g6q6",
+      "PYSEC-2024-48"
+    ]
+  },
+  {
+    "fix_id": "upgrade:black@21.12b0->@26.3.1",
+    "package": "black",
+    "from_version": "21.12b0",
+    "to_version": "26.3.1",
+    "covers": [
+      "GHSA-3936-cmfr-pm3m",
+      "GHSA-fj7x-q9j7-g6q6",
+      "PYSEC-2024-48"
+    ]
+  },
+  {
+    "fix_id": "upgrade:black@21.5b1->@26.3.1",
+    "package": "black",
+    "from_version": "21.5b1",
+    "to_version": "26.3.1",
+    "covers": [
+      "GHSA-3936-cmfr-pm3m",
+      "GHSA-fj7x-q9j7-g6q6",
+      "PYSEC-2024-48"
+    ]
+  },
+  {
+    "fix_id": "upgrade:black@21.6b0->@26.3.1",
+    "package": "black",
+    "from_version": "21.6b0",
+    "to_version": "26.3.1",
+    "covers": [
+      "GHSA-3936-cmfr-pm3m",
+      "GHSA-fj7x-q9j7-g6q6",
+      "PYSEC-2024-48"
+    ]
+  },
+  {
+    "fix_id": "upgrade:black@21.8b0->@26.3.1",
+    "package": "black",
+    "from_version": "21.8b0",
+    "to_version": "26.3.1",
+    "covers": [
+      "GHSA-3936-cmfr-pm3m",
+      "GHSA-fj7x-q9j7-g6q6",
+      "PYSEC-2024-48"
+    ]
+  },
+  {
+    "fix_id": "upgrade:black@21.9b0->@26.3.1",
+    "package": "black",
+    "from_version": "21.9b0",
+    "to_version": "26.3.1",
+    "covers": [
+      "GHSA-3936-cmfr-pm3m",
+      "GHSA-fj7x-q9j7-g6q6",
+      "PYSEC-2024-48"
+    ]
+  },
+  {
+    "fix_id": "upgrade:black@22.1.0->@26.3.1",
+    "package": "black",
+    "from_version": "22.1.0",
+    "to_version": "26.3.1",
+    "covers": [
+      "GHSA-3936-cmfr-pm3m",
+      "GHSA-fj7x-q9j7-g6q6",
+      "PYSEC-2024-48"
+    ]
+  },
+  {
+    "fix_id": "upgrade:black@22.10.0->@26.3.1",
+    "package": "black",
+    "from_version": "22.10.0",
+    "to_version": "26.3.1",
+    "covers": [
+      "GHSA-3936-cmfr-pm3m",
+      "GHSA-fj7x-q9j7-g6q6",
+      "PYSEC-2024-48"
+    ]
+  },
+  {
+    "fix_id": "upgrade:black@22.12.0->@26.3.1",
+    "package": "black",
+    "from_version": "22.12.0",
+    "to_version": "26.3.1",
+    "covers": [
+      "GHSA-3936-cmfr-pm3m",
+      "GHSA-fj7x-q9j7-g6q6",
+      "PYSEC-2024-48"
+    ]
+  },
+  {
+    "fix_id": "upgrade:black@22.3.0->@26.3.1",
+    "package": "black",
+    "from_version": "22.3.0",
+    "to_version": "26.3.1",
+    "covers": [
+      "GHSA-3936-cmfr-pm3m",
+      "GHSA-fj7x-q9j7-g6q6",
+      "PYSEC-2024-48"
+    ]
+  },
+  {
+    "fix_id": "upgrade:black@22.6.0->@26.3.1",
+    "package": "black",
+    "from_version": "22.6.0",
+    "to_version": "26.3.1",
+    "covers": [
+      "GHSA-3936-cmfr-pm3m",
+      "GHSA-fj7x-q9j7-g6q6",
+      "PYSEC-2024-48"
+    ]
+  },
+  {
+    "fix_id": "upgrade:black@22.8.0->@26.3.1",
+    "package": "black",
+    "from_version": "22.8.0",
+    "to_version": "26.3.1",
+    "covers": [
+      "GHSA-3936-cmfr-pm3m",
+      "GHSA-fj7x-q9j7-g6q6",
+      "PYSEC-2024-48"
+    ]
+  },
+  {
+    "fix_id": "upgrade:black@23.1.0->@26.3.1",
+    "package": "black",
+    "from_version": "23.1.0",
+    "to_version": "26.3.1",
+    "covers": [
+      "GHSA-3936-cmfr-pm3m",
+      "GHSA-fj7x-q9j7-g6q6",
+      "PYSEC-2024-48"
+    ]
+  },
+  {
+    "fix_id": "upgrade:black@23.11.0->@26.3.1",
+    "package": "black",
+    "from_version": "23.11.0",
+    "to_version": "26.3.1",
+    "covers": [
+      "GHSA-3936-cmfr-pm3m",
+      "GHSA-fj7x-q9j7-g6q6",
+      "PYSEC-2024-48"
+    ]
+  },
+  {
+    "fix_id": "upgrade:black@23.12.1->@26.3.1",
+    "package": "black",
+    "from_version": "23.12.1",
+    "to_version": "26.3.1",
+    "covers": [
+      "GHSA-3936-cmfr-pm3m",
+      "GHSA-fj7x-q9j7-g6q6",
+      "PYSEC-2024-48"
+    ]
+  },
+  {
+    "fix_id": "upgrade:black@23.3.0->@26.3.1",
+    "package": "black",
+    "from_version": "23.3.0",
+    "to_version": "26.3.1",
+    "covers": [
+      "GHSA-3936-cmfr-pm3m",
+      "GHSA-fj7x-q9j7-g6q6",
+      "PYSEC-2024-48"
+    ]
+  },
+  {
+    "fix_id": "upgrade:black@23.7.0->@26.3.1",
+    "package": "black",
+    "from_version": "23.7.0",
+    "to_version": "26.3.1",
+    "covers": [
+      "GHSA-3936-cmfr-pm3m",
+      "GHSA-fj7x-q9j7-g6q6",
+      "PYSEC-2024-48"
+    ]
+  },
+  {
+    "fix_id": "upgrade:black@23.9.1->@26.3.1",
+    "package": "black",
+    "from_version": "23.9.1",
+    "to_version": "26.3.1",
+    "covers": [
+      "GHSA-3936-cmfr-pm3m",
+      "GHSA-fj7x-q9j7-g6q6",
+      "PYSEC-2024-48"
+    ]
+  },
+  {
+    "fix_id": "upgrade:black@24.1.1->@26.3.1",
+    "package": "black",
+    "from_version": "24.1.1",
+    "to_version": "26.3.1",
+    "covers": [
+      "GHSA-3936-cmfr-pm3m",
+      "GHSA-fj7x-q9j7-g6q6",
+      "PYSEC-2024-48"
+    ]
+  },
+  {
+    "fix_id": "upgrade:black@24.10.0->@26.3.1",
+    "package": "black",
+    "from_version": "24.10.0",
+    "to_version": "26.3.1",
+    "covers": [
+      "GHSA-3936-cmfr-pm3m",
+      "PYSEC-2024-48"
+    ]
+  },
+  {
+    "fix_id": "upgrade:black@24.2.0->@26.3.1",
+    "package": "black",
+    "from_version": "24.2.0",
+    "to_version": "26.3.1",
+    "covers": [
+      "GHSA-3936-cmfr-pm3m",
+      "GHSA-fj7x-q9j7-g6q6",
+      "PYSEC-2024-48"
+    ]
+  },
+  {
+    "fix_id": "upgrade:black@24.3.0->@26.3.1",
+    "package": "black",
+    "from_version": "24.3.0",
+    "to_version": "26.3.1",
+    "covers": [
+      "GHSA-3936-cmfr-pm3m",
+      "PYSEC-2024-48"
+    ]
+  },
+  {
+    "fix_id": "upgrade:black@24.4.2->@26.3.1",
+    "package": "black",
+    "from_version": "24.4.2",
+    "to_version": "26.3.1",
+    "covers": [
+      "GHSA-3936-cmfr-pm3m",
+      "PYSEC-2024-48"
+    ]
+  },
+  {
+    "fix_id": "upgrade:black@24.8.0->@26.3.1",
+    "package": "black",
+    "from_version": "24.8.0",
+    "to_version": "26.3.1",
+    "covers": [
+      "GHSA-3936-cmfr-pm3m",
+      "PYSEC-2024-48"
+    ]
+  },
+  {
+    "fix_id": "upgrade:black@25.1.0->@26.3.1",
+    "package": "black",
+    "from_version": "25.1.0",
+    "to_version": "26.3.1",
+    "covers": [
+      "GHSA-3936-cmfr-pm3m",
+      "PYSEC-2024-48"
+    ]
+  },
+  {
+    "fix_id": "upgrade:black@25.11.0->@26.3.1",
+    "package": "black",
+    "from_version": "25.11.0",
+    "to_version": "26.3.1",
+    "covers": [
+      "GHSA-3936-cmfr-pm3m",
+      "PYSEC-2024-48"
+    ]
+  },
+  {
+    "fix_id": "upgrade:black@25.12.0->@26.3.1",
+    "package": "black",
+    "from_version": "25.12.0",
+    "to_version": "26.3.1",
+    "covers": [
+      "GHSA-3936-cmfr-pm3m",
+      "PYSEC-2024-48"
+    ]
+  },
+  {
+    "fix_id": "upgrade:bleach@3.1.4->@3.3.0",
+    "package": "bleach",
+    "from_version": "3.1.4",
+    "to_version": "3.3.0",
+    "covers": [
+      "GHSA-vv2x-vrpj-qqpq",
+      "PYSEC-2021-865"
+    ]
+  },
+  {
+    "fix_id": "upgrade:brotli@1.0.9->@1.2.0",
+    "package": "brotli",
+    "from_version": "1.0.9",
+    "to_version": "1.2.0",
+    "covers": [
+      "GHSA-2qfp-q593-8484"
+    ]
+  },
+  {
+    "fix_id": "upgrade:brotli@1.1.0->@1.2.0",
+    "package": "brotli",
+    "from_version": "1.1.0",
+    "to_version": "1.2.0",
+    "covers": [
+      "GHSA-2qfp-q593-8484"
+    ]
+  },
+  {
+    "fix_id": "upgrade:certifi@2020.12.5->@2024.7.4",
+    "package": "certifi",
+    "from_version": "2020.12.5",
+    "to_version": "2024.7.4",
+    "covers": [
+      "GHSA-43fp-rhv2-5gv8",
+      "GHSA-xqr8-7jwr-rhp7",
+      "PYSEC-2022-42986",
+      "PYSEC-2023-135",
+      "GHSA-248v-346w-9cwc",
+      "PYSEC-2024-230"
+    ]
+  },
+  {
+    "fix_id": "upgrade:certifi@2020.4.5.1->@2024.7.4",
+    "package": "certifi",
+    "from_version": "2020.4.5.1",
+    "to_version": "2024.7.4",
+    "covers": [
+      "GHSA-43fp-rhv2-5gv8",
+      "GHSA-xqr8-7jwr-rhp7",
+      "PYSEC-2022-42986",
+      "PYSEC-2023-135",
+      "GHSA-248v-346w-9cwc",
+      "PYSEC-2024-230"
+    ]
+  },
+  {
+    "fix_id": "upgrade:certifi@2021.10.8->@2024.7.4",
+    "package": "certifi",
+    "from_version": "2021.10.8",
+    "to_version": "2024.7.4",
+    "covers": [
+      "GHSA-43fp-rhv2-5gv8",
+      "GHSA-xqr8-7jwr-rhp7",
+      "PYSEC-2022-42986",
+      "PYSEC-2023-135",
+      "GHSA-248v-346w-9cwc",
+      "PYSEC-2024-230"
+    ]
+  },
+  {
+    "fix_id": "upgrade:certifi@2021.5.30->@2024.7.4",
+    "package": "certifi",
+    "from_version": "2021.5.30",
+    "to_version": "2024.7.4",
+    "covers": [
+      "GHSA-43fp-rhv2-5gv8",
+      "GHSA-xqr8-7jwr-rhp7",
+      "PYSEC-2022-42986",
+      "PYSEC-2023-135",
+      "GHSA-248v-346w-9cwc",
+      "PYSEC-2024-230"
+    ]
+  },
+  {
+    "fix_id": "upgrade:certifi@2022.12.7->@2024.7.4",
+    "package": "certifi",
+    "from_version": "2022.12.7",
+    "to_version": "2024.7.4",
+    "covers": [
+      "GHSA-xqr8-7jwr-rhp7",
+      "PYSEC-2023-135",
+      "GHSA-248v-346w-9cwc",
+      "PYSEC-2024-230"
+    ]
+  },
+  {
+    "fix_id": "upgrade:certifi@2022.5.18.1->@2024.7.4",
+    "package": "certifi",
+    "from_version": "2022.5.18.1",
+    "to_version": "2024.7.4",
+    "covers": [
+      "GHSA-43fp-rhv2-5gv8",
+      "GHSA-xqr8-7jwr-rhp7",
+      "PYSEC-2022-42986",
+      "PYSEC-2023-135",
+      "GHSA-248v-346w-9cwc",
+      "PYSEC-2024-230"
+    ]
+  },
+  {
+    "fix_id": "upgrade:certifi@2022.6.15->@2024.7.4",
+    "package": "certifi",
+    "from_version": "2022.6.15",
+    "to_version": "2024.7.4",
+    "covers": [
+      "GHSA-43fp-rhv2-5gv8",
+      "GHSA-xqr8-7jwr-rhp7",
+      "PYSEC-2022-42986",
+      "PYSEC-2023-135",
+      "GHSA-248v-346w-9cwc",
+      "PYSEC-2024-230"
+    ]
+  },
+  {
+    "fix_id": "upgrade:certifi@2022.9.24->@2024.7.4",
+    "package": "certifi",
+    "from_version": "2022.9.24",
+    "to_version": "2024.7.4",
+    "covers": [
+      "GHSA-43fp-rhv2-5gv8",
+      "GHSA-xqr8-7jwr-rhp7",
+      "PYSEC-2022-42986",
+      "PYSEC-2023-135",
+      "GHSA-248v-346w-9cwc",
+      "PYSEC-2024-230"
+    ]
+  },
+  {
+    "fix_id": "upgrade:certifi@2023.11.17->@2024.7.4",
+    "package": "certifi",
+    "from_version": "2023.11.17",
+    "to_version": "2024.7.4",
+    "covers": [
+      "GHSA-248v-346w-9cwc",
+      "PYSEC-2024-230"
+    ]
+  },
+  {
+    "fix_id": "upgrade:certifi@2023.5.7->@2024.7.4",
+    "package": "certifi",
+    "from_version": "2023.5.7",
+    "to_version": "2024.7.4",
+    "covers": [
+      "GHSA-xqr8-7jwr-rhp7",
+      "PYSEC-2023-135",
+      "GHSA-248v-346w-9cwc",
+      "PYSEC-2024-230"
+    ]
+  },
+  {
+    "fix_id": "upgrade:certifi@2023.7.22->@2024.7.4",
+    "package": "certifi",
+    "from_version": "2023.7.22",
+    "to_version": "2024.7.4",
+    "covers": [
+      "GHSA-248v-346w-9cwc",
+      "PYSEC-2024-230"
+    ]
+  },
+  {
+    "fix_id": "upgrade:certifi@2024.2.2->@2024.7.4",
+    "package": "certifi",
+    "from_version": "2024.2.2",
+    "to_version": "2024.7.4",
+    "covers": [
+      "GHSA-248v-346w-9cwc",
+      "PYSEC-2024-230"
+    ]
+  },
+  {
+    "fix_id": "upgrade:cleo@0.8.1->@2.0.0",
+    "package": "cleo",
+    "from_version": "0.8.1",
+    "to_version": "2.0.0",
+    "covers": [
+      "GHSA-2p9h-ccw7-33gf",
+      "PYSEC-2022-43178"
+    ]
+  },
+  {
+    "fix_id": "upgrade:copier@9.2.0->@9.11.2",
+    "package": "copier",
+    "from_version": "9.2.0",
+    "to_version": "9.11.2",
+    "covers": [
+      "GHSA-3xw7-v6cj-5q8h",
+      "GHSA-4fqp-r85r-hxqh",
+      "GHSA-p7q8-grrj-3m8w",
+      "GHSA-xjhm-gp88-8pfx"
+    ]
+  },
+  {
+    "fix_id": "upgrade:cryptography@3.1.1->@46.0.5",
+    "package": "cryptography",
+    "from_version": "3.1.1",
+    "to_version": "46.0.5",
+    "covers": [
+      "GHSA-3ww4-gg4f-jr7f",
+      "GHSA-5cpq-8wj7-hf2v",
+      "GHSA-9v9h-cgj8-h64p",
+      "GHSA-hggm-jpg3-v476",
+      "GHSA-jfhm-5ghh-2f97",
+      "GHSA-jm77-qphf-c4w8",
+      "GHSA-r6ph-v2qm-q3c2",
+      "GHSA-rhm9-p9w5-fwm7",
+      "GHSA-v8gr-m533-ghj9",
+      "GHSA-w7pp-m8wf-vj6r",
+      "GHSA-x4qr-2fvf-3mr5",
+      "PYSEC-2021-62",
+      "PYSEC-2021-63",
+      "PYSEC-2023-11",
+      "PYSEC-2023-254",
+      "GHSA-39hc-v87j-747x",
+      "GHSA-h4gh-qq45-vh27",
+      "GHSA-6vqw-3v5j-54x4",
+      "GHSA-cf7p-gm2m-833m",
+      "PYSEC-2023-112",
+      "PYSEC-2024-225",
+      "GHSA-79v4-65xg-pq4g"
+    ]
+  },
+  {
+    "fix_id": "upgrade:cryptography@3.3.2->@46.0.5",
+    "package": "cryptography",
+    "from_version": "3.3.2",
+    "to_version": "46.0.5",
+    "covers": [
+      "GHSA-3ww4-gg4f-jr7f",
+      "GHSA-5cpq-8wj7-hf2v",
+      "GHSA-9v9h-cgj8-h64p",
+      "GHSA-jfhm-5ghh-2f97",
+      "GHSA-jm77-qphf-c4w8",
+      "GHSA-r6ph-v2qm-q3c2",
+      "GHSA-v8gr-m533-ghj9",
+      "GHSA-w7pp-m8wf-vj6r",
+      "GHSA-x4qr-2fvf-3mr5",
+      "PYSEC-2023-11",
+      "PYSEC-2023-254",
+      "GHSA-39hc-v87j-747x",
+      "GHSA-h4gh-qq45-vh27",
+      "GHSA-6vqw-3v5j-54x4",
+      "GHSA-cf7p-gm2m-833m",
+      "PYSEC-2023-112",
+      "PYSEC-2024-225",
+      "GHSA-79v4-65xg-pq4g"
+    ]
+  },
+  {
+    "fix_id": "upgrade:cryptography@3.4.7->@46.0.5",
+    "package": "cryptography",
+    "from_version": "3.4.7",
+    "to_version": "46.0.5",
+    "covers": [
+      "GHSA-3ww4-gg4f-jr7f",
+      "GHSA-5cpq-8wj7-hf2v",
+      "GHSA-9v9h-cgj8-h64p",
+      "GHSA-jfhm-5ghh-2f97",
+      "GHSA-jm77-qphf-c4w8",
+      "GHSA-r6ph-v2qm-q3c2",
+      "GHSA-v8gr-m533-ghj9",
+      "GHSA-w7pp-m8wf-vj6r",
+      "GHSA-x4qr-2fvf-3mr5",
+      "PYSEC-2023-11",
+      "PYSEC-2023-254",
+      "GHSA-39hc-v87j-747x",
+      "GHSA-h4gh-qq45-vh27",
+      "GHSA-6vqw-3v5j-54x4",
+      "GHSA-cf7p-gm2m-833m",
+      "PYSEC-2023-112",
+      "PYSEC-2024-225",
+      "GHSA-79v4-65xg-pq4g"
+    ]
+  },
+  {
+    "fix_id": "upgrade:cryptography@37.0.4->@46.0.5",
+    "package": "cryptography",
+    "from_version": "37.0.4",
+    "to_version": "46.0.5",
+    "covers": [
+      "GHSA-3ww4-gg4f-jr7f",
+      "GHSA-5cpq-8wj7-hf2v",
+      "GHSA-9v9h-cgj8-h64p",
+      "GHSA-jfhm-5ghh-2f97",
+      "GHSA-jm77-qphf-c4w8",
+      "GHSA-r6ph-v2qm-q3c2",
+      "GHSA-v8gr-m533-ghj9",
+      "GHSA-w7pp-m8wf-vj6r",
+      "GHSA-x4qr-2fvf-3mr5",
+      "PYSEC-2023-11",
+      "PYSEC-2023-254",
+      "GHSA-39hc-v87j-747x",
+      "GHSA-h4gh-qq45-vh27",
+      "GHSA-6vqw-3v5j-54x4",
+      "GHSA-cf7p-gm2m-833m",
+      "PYSEC-2023-112",
+      "PYSEC-2024-225",
+      "GHSA-79v4-65xg-pq4g"
+    ]
+  },
+  {
+    "fix_id": "upgrade:cryptography@40.0.1->@46.0.5",
+    "package": "cryptography",
+    "from_version": "40.0.1",
+    "to_version": "46.0.5",
+    "covers": [
+      "GHSA-3ww4-gg4f-jr7f",
+      "GHSA-5cpq-8wj7-hf2v",
+      "GHSA-9v9h-cgj8-h64p",
+      "GHSA-jfhm-5ghh-2f97",
+      "GHSA-jm77-qphf-c4w8",
+      "GHSA-r6ph-v2qm-q3c2",
+      "GHSA-v8gr-m533-ghj9",
+      "PYSEC-2023-11",
+      "PYSEC-2023-254",
+      "GHSA-h4gh-qq45-vh27",
+      "GHSA-6vqw-3v5j-54x4",
+      "GHSA-cf7p-gm2m-833m",
+      "PYSEC-2023-112",
+      "PYSEC-2024-225",
+      "GHSA-79v4-65xg-pq4g"
+    ]
+  },
+  {
+    "fix_id": "upgrade:cryptography@41.0.4->@46.0.5",
+    "package": "cryptography",
+    "from_version": "41.0.4",
+    "to_version": "46.0.5",
+    "covers": [
+      "GHSA-3ww4-gg4f-jr7f",
+      "GHSA-9v9h-cgj8-h64p",
+      "GHSA-jfhm-5ghh-2f97",
+      "GHSA-r6ph-v2qm-q3c2",
+      "PYSEC-2023-11",
+      "PYSEC-2023-254",
+      "GHSA-h4gh-qq45-vh27",
+      "GHSA-6vqw-3v5j-54x4",
+      "PYSEC-2024-225",
+      "GHSA-79v4-65xg-pq4g"
+    ]
+  },
+  {
+    "fix_id": "upgrade:cryptography@41.0.5->@46.0.5",
+    "package": "cryptography",
+    "from_version": "41.0.5",
+    "to_version": "46.0.5",
+    "covers": [
+      "GHSA-3ww4-gg4f-jr7f",
+      "GHSA-9v9h-cgj8-h64p",
+      "GHSA-jfhm-5ghh-2f97",
+      "GHSA-r6ph-v2qm-q3c2",
+      "PYSEC-2023-11",
+      "PYSEC-2023-254",
+      "GHSA-h4gh-qq45-vh27",
+      "GHSA-6vqw-3v5j-54x4",
+      "PYSEC-2024-225",
+      "GHSA-79v4-65xg-pq4g"
+    ]
+  },
+  {
+    "fix_id": "upgrade:cryptography@41.0.7->@46.0.5",
+    "package": "cryptography",
+    "from_version": "41.0.7",
+    "to_version": "46.0.5",
+    "covers": [
+      "GHSA-3ww4-gg4f-jr7f",
+      "GHSA-9v9h-cgj8-h64p",
+      "GHSA-r6ph-v2qm-q3c2",
+      "PYSEC-2023-11",
+      "PYSEC-2023-254",
+      "GHSA-h4gh-qq45-vh27",
+      "GHSA-6vqw-3v5j-54x4",
+      "PYSEC-2024-225",
+      "GHSA-79v4-65xg-pq4g"
+    ]
+  },
+  {
+    "fix_id": "upgrade:cryptography@42.0.4->@46.0.5",
+    "package": "cryptography",
+    "from_version": "42.0.4",
+    "to_version": "46.0.5",
+    "covers": [
+      "GHSA-r6ph-v2qm-q3c2",
+      "PYSEC-2023-11",
+      "PYSEC-2023-254",
+      "GHSA-h4gh-qq45-vh27",
+      "PYSEC-2024-225",
+      "GHSA-79v4-65xg-pq4g"
+    ]
+  },
+  {
+    "fix_id": "upgrade:cryptography@43.0.0->@46.0.5",
+    "package": "cryptography",
+    "from_version": "43.0.0",
+    "to_version": "46.0.5",
+    "covers": [
+      "GHSA-r6ph-v2qm-q3c2",
+      "PYSEC-2023-11",
+      "PYSEC-2023-254",
+      "GHSA-h4gh-qq45-vh27",
+      "PYSEC-2024-225",
+      "GHSA-79v4-65xg-pq4g"
+    ]
+  },
+  {
+    "fix_id": "upgrade:cryptography@43.0.3->@46.0.5",
+    "package": "cryptography",
+    "from_version": "43.0.3",
+    "to_version": "46.0.5",
+    "covers": [
+      "GHSA-r6ph-v2qm-q3c2",
+      "PYSEC-2023-11",
+      "PYSEC-2023-254",
+      "PYSEC-2024-225",
+      "GHSA-79v4-65xg-pq4g"
+    ]
+  },
+  {
+    "fix_id": "upgrade:cryptography@44.0.0->@46.0.5",
+    "package": "cryptography",
+    "from_version": "44.0.0",
+    "to_version": "46.0.5",
+    "covers": [
+      "GHSA-r6ph-v2qm-q3c2",
+      "PYSEC-2023-11",
+      "PYSEC-2023-254",
+      "PYSEC-2024-225",
+      "GHSA-79v4-65xg-pq4g"
+    ]
+  },
+  {
+    "fix_id": "upgrade:cryptography@45.0.3->@46.0.5",
+    "package": "cryptography",
+    "from_version": "45.0.3",
+    "to_version": "46.0.5",
+    "covers": [
+      "GHSA-r6ph-v2qm-q3c2",
+      "PYSEC-2023-11",
+      "PYSEC-2023-254",
+      "PYSEC-2024-225"
+    ]
+  },
+  {
+    "fix_id": "upgrade:cryptography@46.0.3->@46.0.5",
+    "package": "cryptography",
+    "from_version": "46.0.3",
+    "to_version": "46.0.5",
+    "covers": [
+      "GHSA-r6ph-v2qm-q3c2",
+      "PYSEC-2023-11",
+      "PYSEC-2023-254",
+      "PYSEC-2024-225"
+    ]
+  },
+  {
+    "fix_id": "upgrade:dash@2.7.1->@2.15.0",
+    "package": "dash",
+    "from_version": "2.7.1",
+    "to_version": "2.15.0",
+    "covers": [
+      "GHSA-547x-748v-vp6p",
+      "PYSEC-2024-35"
+    ]
+  },
+  {
+    "fix_id": "upgrade:django@2.2.19->@6.0.3",
+    "package": "django",
+    "from_version": "2.2.19",
+    "to_version": "6.0.3",
+    "covers": [
+      "GHSA-2gwj-7jmv-h26r",
+      "GHSA-53qw-q765-4fww",
+      "GHSA-68w8-qjq3-2gfm",
+      "GHSA-6cw3-g6wv-c2xv",
+      "GHSA-6w2r-r2m5-xq5w",
+      "GHSA-7xr5-9hcq-chf9",
+      "GHSA-8c5j-9r9f-c6w8",
+      "GHSA-8x94-hmjh-97hq",
+      "GHSA-95rw-fx8r-36v6",
+      "GHSA-frmv-pr5f-9mcr",
+      "GHSA-jrh2-hc4r-7jwx",
+      "GHSA-p99v-5w3c-jqq9",
+      "GHSA-qm57-vhq3-3fwf",
+      "GHSA-qw25-v68c-qjf3",
+      "GHSA-rrqc-c2jx-6jgv",
+      "GHSA-rxjp-mfm9-w4wr",
+      "GHSA-v6rh-hp5x-86rv",
+      "GHSA-w24h-v9qh-8gxj",
+      "GHSA-xgxc-v2qg-chmh",
+      "PYSEC-2021-439",
+      "PYSEC-2021-6",
+      "PYSEC-2021-7",
+      "PYSEC-2021-8",
+      "PYSEC-2021-98",
+      "PYSEC-2021-99",
+      "PYSEC-2022-1",
+      "PYSEC-2022-19",
+      "PYSEC-2022-190",
+      "PYSEC-2022-191",
+      "PYSEC-2022-2",
+      "PYSEC-2022-20",
+      "PYSEC-2022-3",
+      "GHSA-xpfp-f569-q3p2",
+      "PYSEC-2021-109",
+      "GHSA-2hrw-hx67-34x6",
+      "GHSA-7h4p-27mh-hmrw",
+      "GHSA-h8gc-pgj2-vjm3",
+      "GHSA-jh3w-4vvf-mjgr",
+      "GHSA-p64x-8rxx-wf6q",
+      "GHSA-q2jf-h9jm-m7p4",
+      "GHSA-qmf9-6jqf-j8fq",
+      "GHSA-qrw5-5h28-6cmg",
+      "GHSA-r3xc-prgr-mg9p",
+      "GHSA-vm8q-m57g-pff3",
+      "GHSA-xxj9-f6rv-m3x4",
+      "PYSEC-2022-213",
+      "PYSEC-2022-245",
+      "PYSEC-2022-304",
+      "PYSEC-2023-100",
+      "PYSEC-2023-12",
+      "PYSEC-2023-13",
+      "PYSEC-2023-222",
+      "PYSEC-2023-225",
+      "PYSEC-2023-226",
+      "PYSEC-2023-61",
+      "PYSEC-2024-28",
+      "PYSEC-2024-47",
+      "GHSA-2mcm-79hx-8fxw",
+      "GHSA-33mw-q7rj-mjwj",
+      "GHSA-4rrr-2h4v-f3j9",
+      "GHSA-5hgc-2vfp-mqvc",
+      "GHSA-6426-9fv3-65x8",
+      "GHSA-795c-9xpc-xw6g",
+      "GHSA-8498-2h75-472j",
+      "GHSA-8j24-cjrq-gr2m",
+      "GHSA-8p8v-wh79-9r56",
+      "GHSA-9jmf-237g-qf46",
+      "GHSA-f6f8-9mx6-9mx2",
+      "GHSA-gvg8-93h5-g6qq",
+      "GHSA-hpr9-3m2g-3j9p",
+      "GHSA-jh75-99hh-qvx9",
+      "GHSA-m9g8-fxxm-xg86",
+      "GHSA-mjgh-79qc-68w3",
+      "GHSA-mwm9-4648-f68q",
+      "GHSA-p3fp-8748-vqfq",
+      "GHSA-pv4p-cwwg-4rph",
+      "GHSA-q95w-c7qg-hrff",
+      "GHSA-qcgg-j2x8-h9g8",
+      "GHSA-qg2p-9jwr-mmqf",
+      "GHSA-r836-hh6v-rg5g",
+      "GHSA-rqw2-ghq9-44m7",
+      "GHSA-vrcr-9hj9-jcg6",
+      "GHSA-x7q2-wr7g-xqmf",
+      "PYSEC-2024-102",
+      "PYSEC-2024-156",
+      "PYSEC-2024-157",
+      "PYSEC-2024-56",
+      "PYSEC-2024-57",
+      "PYSEC-2024-58",
+      "PYSEC-2024-59",
+      "PYSEC-2024-67",
+      "PYSEC-2024-68",
+      "PYSEC-2024-69",
+      "PYSEC-2024-70",
+      "PYSEC-2025-1",
+      "PYSEC-2025-13",
+      "PYSEC-2025-37",
+      "PYSEC-2025-47",
+      "GHSA-wqfg-m96j-85vm",
+      "PYSEC-2025-14"
+    ]
+  },
+  {
+    "fix_id": "upgrade:django@3.1.2->@6.0.3",
+    "package": "django",
+    "from_version": "3.1.2",
+    "to_version": "6.0.3",
+    "covers": [
+      "GHSA-6w2r-r2m5-xq5w",
+      "GHSA-7xr5-9hcq-chf9",
+      "GHSA-8x94-hmjh-97hq",
+      "GHSA-frmv-pr5f-9mcr",
+      "GHSA-qw25-v68c-qjf3",
+      "GHSA-rrqc-c2jx-6jgv",
+      "PYSEC-2022-190",
+      "PYSEC-2022-191",
+      "GHSA-xpfp-f569-q3p2",
+      "PYSEC-2021-109",
+      "GHSA-2hrw-hx67-34x6",
+      "GHSA-7h4p-27mh-hmrw",
+      "GHSA-h8gc-pgj2-vjm3",
+      "GHSA-jh3w-4vvf-mjgr",
+      "GHSA-p64x-8rxx-wf6q",
+      "GHSA-q2jf-h9jm-m7p4",
+      "GHSA-qmf9-6jqf-j8fq",
+      "GHSA-qrw5-5h28-6cmg",
+      "GHSA-r3xc-prgr-mg9p",
+      "GHSA-vm8q-m57g-pff3",
+      "GHSA-xxj9-f6rv-m3x4",
+      "PYSEC-2022-213",
+      "PYSEC-2022-245",
+      "PYSEC-2022-304",
+      "PYSEC-2023-100",
+      "PYSEC-2023-12",
+      "PYSEC-2023-13",
+      "PYSEC-2023-222",
+      "PYSEC-2023-225",
+      "PYSEC-2023-226",
+      "PYSEC-2023-61",
+      "PYSEC-2024-28",
+      "PYSEC-2024-47",
+      "GHSA-2mcm-79hx-8fxw",
+      "GHSA-33mw-q7rj-mjwj",
+      "GHSA-4rrr-2h4v-f3j9",
+      "GHSA-5hgc-2vfp-mqvc",
+      "GHSA-6426-9fv3-65x8",
+      "GHSA-795c-9xpc-xw6g",
+      "GHSA-8498-2h75-472j",
+      "GHSA-8j24-cjrq-gr2m",
+      "GHSA-8p8v-wh79-9r56",
+      "GHSA-9jmf-237g-qf46",
+      "GHSA-f6f8-9mx6-9mx2",
+      "GHSA-gvg8-93h5-g6qq",
+      "GHSA-hpr9-3m2g-3j9p",
+      "GHSA-jh75-99hh-qvx9",
+      "GHSA-m9g8-fxxm-xg86",
+      "GHSA-mjgh-79qc-68w3",
+      "GHSA-mwm9-4648-f68q",
+      "GHSA-p3fp-8748-vqfq",
+      "GHSA-pv4p-cwwg-4rph",
+      "GHSA-q95w-c7qg-hrff",
+      "GHSA-qcgg-j2x8-h9g8",
+      "GHSA-qg2p-9jwr-mmqf",
+      "GHSA-r836-hh6v-rg5g",
+      "GHSA-rqw2-ghq9-44m7",
+      "GHSA-vrcr-9hj9-jcg6",
+      "GHSA-x7q2-wr7g-xqmf",
+      "PYSEC-2024-102",
+      "PYSEC-2024-156",
+      "PYSEC-2024-157",
+      "PYSEC-2024-56",
+      "PYSEC-2024-57",
+      "PYSEC-2024-58",
+      "PYSEC-2024-59",
+      "PYSEC-2024-67",
+      "PYSEC-2024-68",
+      "PYSEC-2024-69",
+      "PYSEC-2024-70",
+      "PYSEC-2025-1",
+      "PYSEC-2025-13",
+      "PYSEC-2025-37",
+      "PYSEC-2025-47",
+      "GHSA-wqfg-m96j-85vm",
+      "PYSEC-2025-14"
+    ]
+  },
+  {
+    "fix_id": "upgrade:django@3.2->@6.0.3",
+    "package": "django",
+    "from_version": "3.2",
+    "to_version": "6.0.3",
+    "covers": [
+      "GHSA-6w2r-r2m5-xq5w",
+      "GHSA-7xr5-9hcq-chf9",
+      "GHSA-8x94-hmjh-97hq",
+      "GHSA-frmv-pr5f-9mcr",
+      "GHSA-qw25-v68c-qjf3",
+      "GHSA-rrqc-c2jx-6jgv",
+      "PYSEC-2022-190",
+      "PYSEC-2022-191",
+      "GHSA-xpfp-f569-q3p2",
+      "GHSA-2hrw-hx67-34x6",
+      "GHSA-7h4p-27mh-hmrw",
+      "GHSA-h8gc-pgj2-vjm3",
+      "GHSA-jh3w-4vvf-mjgr",
+      "GHSA-p64x-8rxx-wf6q",
+      "GHSA-q2jf-h9jm-m7p4",
+      "GHSA-qmf9-6jqf-j8fq",
+      "GHSA-qrw5-5h28-6cmg",
+      "GHSA-r3xc-prgr-mg9p",
+      "GHSA-vm8q-m57g-pff3",
+      "GHSA-xxj9-f6rv-m3x4",
+      "PYSEC-2022-213",
+      "PYSEC-2022-245",
+      "PYSEC-2022-304",
+      "PYSEC-2023-100",
+      "PYSEC-2023-12",
+      "PYSEC-2023-13",
+      "PYSEC-2023-222",
+      "PYSEC-2023-225",
+      "PYSEC-2023-226",
+      "PYSEC-2023-61",
+      "PYSEC-2024-28",
+      "PYSEC-2024-47",
+      "GHSA-2mcm-79hx-8fxw",
+      "GHSA-33mw-q7rj-mjwj",
+      "GHSA-4rrr-2h4v-f3j9",
+      "GHSA-5hgc-2vfp-mqvc",
+      "GHSA-6426-9fv3-65x8",
+      "GHSA-795c-9xpc-xw6g",
+      "GHSA-8498-2h75-472j",
+      "GHSA-8j24-cjrq-gr2m",
+      "GHSA-8p8v-wh79-9r56",
+      "GHSA-9jmf-237g-qf46",
+      "GHSA-f6f8-9mx6-9mx2",
+      "GHSA-gvg8-93h5-g6qq",
+      "GHSA-hpr9-3m2g-3j9p",
+      "GHSA-jh75-99hh-qvx9",
+      "GHSA-m9g8-fxxm-xg86",
+      "GHSA-mjgh-79qc-68w3",
+      "GHSA-mwm9-4648-f68q",
+      "GHSA-p3fp-8748-vqfq",
+      "GHSA-pv4p-cwwg-4rph",
+      "GHSA-q95w-c7qg-hrff",
+      "GHSA-qcgg-j2x8-h9g8",
+      "GHSA-qg2p-9jwr-mmqf",
+      "GHSA-r836-hh6v-rg5g",
+      "GHSA-rqw2-ghq9-44m7",
+      "GHSA-vrcr-9hj9-jcg6",
+      "GHSA-x7q2-wr7g-xqmf",
+      "PYSEC-2024-102",
+      "PYSEC-2024-156",
+      "PYSEC-2024-157",
+      "PYSEC-2024-56",
+      "PYSEC-2024-57",
+      "PYSEC-2024-58",
+      "PYSEC-2024-59",
+      "PYSEC-2024-67",
+      "PYSEC-2024-68",
+      "PYSEC-2024-69",
+      "PYSEC-2024-70",
+      "PYSEC-2025-1",
+      "PYSEC-2025-13",
+      "PYSEC-2025-37",
+      "PYSEC-2025-47",
+      "GHSA-wqfg-m96j-85vm",
+      "PYSEC-2025-14"
+    ]
+  },
+  {
+    "fix_id": "upgrade:django@3.2.9->@6.0.3",
+    "package": "django",
+    "from_version": "3.2.9",
+    "to_version": "6.0.3",
+    "covers": [
+      "GHSA-6w2r-r2m5-xq5w",
+      "GHSA-7xr5-9hcq-chf9",
+      "GHSA-8x94-hmjh-97hq",
+      "GHSA-frmv-pr5f-9mcr",
+      "GHSA-qw25-v68c-qjf3",
+      "GHSA-rrqc-c2jx-6jgv",
+      "PYSEC-2022-190",
+      "PYSEC-2022-191",
+      "GHSA-2hrw-hx67-34x6",
+      "GHSA-7h4p-27mh-hmrw",
+      "GHSA-h8gc-pgj2-vjm3",
+      "GHSA-jh3w-4vvf-mjgr",
+      "GHSA-p64x-8rxx-wf6q",
+      "GHSA-q2jf-h9jm-m7p4",
+      "GHSA-qmf9-6jqf-j8fq",
+      "GHSA-qrw5-5h28-6cmg",
+      "GHSA-r3xc-prgr-mg9p",
+      "GHSA-vm8q-m57g-pff3",
+      "GHSA-xxj9-f6rv-m3x4",
+      "PYSEC-2022-213",
+      "PYSEC-2022-245",
+      "PYSEC-2022-304",
+      "PYSEC-2023-100",
+      "PYSEC-2023-12",
+      "PYSEC-2023-13",
+      "PYSEC-2023-222",
+      "PYSEC-2023-225",
+      "PYSEC-2023-226",
+      "PYSEC-2023-61",
+      "PYSEC-2024-28",
+      "PYSEC-2024-47",
+      "GHSA-2mcm-79hx-8fxw",
+      "GHSA-33mw-q7rj-mjwj",
+      "GHSA-4rrr-2h4v-f3j9",
+      "GHSA-5hgc-2vfp-mqvc",
+      "GHSA-6426-9fv3-65x8",
+      "GHSA-795c-9xpc-xw6g",
+      "GHSA-8498-2h75-472j",
+      "GHSA-8j24-cjrq-gr2m",
+      "GHSA-8p8v-wh79-9r56",
+      "GHSA-9jmf-237g-qf46",
+      "GHSA-f6f8-9mx6-9mx2",
+      "GHSA-gvg8-93h5-g6qq",
+      "GHSA-hpr9-3m2g-3j9p",
+      "GHSA-jh75-99hh-qvx9",
+      "GHSA-m9g8-fxxm-xg86",
+      "GHSA-mjgh-79qc-68w3",
+      "GHSA-mwm9-4648-f68q",
+      "GHSA-p3fp-8748-vqfq",
+      "GHSA-pv4p-cwwg-4rph",
+      "GHSA-q95w-c7qg-hrff",
+      "GHSA-qcgg-j2x8-h9g8",
+      "GHSA-qg2p-9jwr-mmqf",
+      "GHSA-r836-hh6v-rg5g",
+      "GHSA-rqw2-ghq9-44m7",
+      "GHSA-vrcr-9hj9-jcg6",
+      "GHSA-x7q2-wr7g-xqmf",
+      "PYSEC-2024-102",
+      "PYSEC-2024-156",
+      "PYSEC-2024-157",
+      "PYSEC-2024-56",
+      "PYSEC-2024-57",
+      "PYSEC-2024-58",
+      "PYSEC-2024-59",
+      "PYSEC-2024-67",
+      "PYSEC-2024-68",
+      "PYSEC-2024-69",
+      "PYSEC-2024-70",
+      "PYSEC-2025-1",
+      "PYSEC-2025-13",
+      "PYSEC-2025-37",
+      "PYSEC-2025-47",
+      "GHSA-wqfg-m96j-85vm",
+      "PYSEC-2025-14"
+    ]
+  },
+  {
+    "fix_id": "upgrade:django@4.0.4->@6.0.3",
+    "package": "django",
+    "from_version": "4.0.4",
+    "to_version": "6.0.3",
+    "covers": [
+      "GHSA-6w2r-r2m5-xq5w",
+      "GHSA-7xr5-9hcq-chf9",
+      "GHSA-frmv-pr5f-9mcr",
+      "GHSA-qw25-v68c-qjf3",
+      "GHSA-rrqc-c2jx-6jgv",
+      "PYSEC-2022-304",
+      "PYSEC-2023-100",
+      "GHSA-2mcm-79hx-8fxw",
+      "GHSA-33mw-q7rj-mjwj",
+      "GHSA-4rrr-2h4v-f3j9",
+      "GHSA-5hgc-2vfp-mqvc",
+      "GHSA-6426-9fv3-65x8",
+      "GHSA-795c-9xpc-xw6g",
+      "GHSA-8498-2h75-472j",
+      "GHSA-8j24-cjrq-gr2m",
+      "GHSA-8p8v-wh79-9r56",
+      "GHSA-9jmf-237g-qf46",
+      "GHSA-f6f8-9mx6-9mx2",
+      "GHSA-gvg8-93h5-g6qq",
+      "GHSA-hpr9-3m2g-3j9p",
+      "GHSA-jh75-99hh-qvx9",
+      "GHSA-m9g8-fxxm-xg86",
+      "GHSA-mjgh-79qc-68w3",
+      "GHSA-mwm9-4648-f68q",
+      "GHSA-p3fp-8748-vqfq",
+      "GHSA-pv4p-cwwg-4rph",
+      "GHSA-q95w-c7qg-hrff",
+      "GHSA-qcgg-j2x8-h9g8",
+      "GHSA-qg2p-9jwr-mmqf",
+      "GHSA-r836-hh6v-rg5g",
+      "GHSA-rqw2-ghq9-44m7",
+      "GHSA-vrcr-9hj9-jcg6",
+      "GHSA-x7q2-wr7g-xqmf",
+      "PYSEC-2024-102",
+      "PYSEC-2024-156",
+      "PYSEC-2024-157",
+      "PYSEC-2024-56",
+      "PYSEC-2024-57",
+      "PYSEC-2024-58",
+      "PYSEC-2024-59",
+      "PYSEC-2024-67",
+      "PYSEC-2024-68",
+      "PYSEC-2024-69",
+      "PYSEC-2024-70",
+      "PYSEC-2025-1",
+      "PYSEC-2025-13",
+      "PYSEC-2025-37",
+      "PYSEC-2025-47",
+      "GHSA-wqfg-m96j-85vm",
+      "PYSEC-2025-14"
+    ]
+  },
+  {
+    "fix_id": "upgrade:django@4.1->@6.0.3",
+    "package": "django",
+    "from_version": "4.1",
+    "to_version": "6.0.3",
+    "covers": [
+      "GHSA-6w2r-r2m5-xq5w",
+      "GHSA-7xr5-9hcq-chf9",
+      "GHSA-frmv-pr5f-9mcr",
+      "GHSA-qw25-v68c-qjf3",
+      "GHSA-rrqc-c2jx-6jgv",
+      "PYSEC-2022-304",
+      "PYSEC-2023-100",
+      "GHSA-2mcm-79hx-8fxw",
+      "GHSA-33mw-q7rj-mjwj",
+      "GHSA-4rrr-2h4v-f3j9",
+      "GHSA-5hgc-2vfp-mqvc",
+      "GHSA-6426-9fv3-65x8",
+      "GHSA-795c-9xpc-xw6g",
+      "GHSA-8498-2h75-472j",
+      "GHSA-8j24-cjrq-gr2m",
+      "GHSA-8p8v-wh79-9r56",
+      "GHSA-9jmf-237g-qf46",
+      "GHSA-f6f8-9mx6-9mx2",
+      "GHSA-gvg8-93h5-g6qq",
+      "GHSA-hpr9-3m2g-3j9p",
+      "GHSA-jh75-99hh-qvx9",
+      "GHSA-m9g8-fxxm-xg86",
+      "GHSA-mjgh-79qc-68w3",
+      "GHSA-mwm9-4648-f68q",
+      "GHSA-p3fp-8748-vqfq",
+      "GHSA-pv4p-cwwg-4rph",
+      "GHSA-q95w-c7qg-hrff",
+      "GHSA-qcgg-j2x8-h9g8",
+      "GHSA-qg2p-9jwr-mmqf",
+      "GHSA-r836-hh6v-rg5g",
+      "GHSA-rqw2-ghq9-44m7",
+      "GHSA-vrcr-9hj9-jcg6",
+      "GHSA-x7q2-wr7g-xqmf",
+      "PYSEC-2024-102",
+      "PYSEC-2024-156",
+      "PYSEC-2024-157",
+      "PYSEC-2024-56",
+      "PYSEC-2024-57",
+      "PYSEC-2024-58",
+      "PYSEC-2024-59",
+      "PYSEC-2024-67",
+      "PYSEC-2024-68",
+      "PYSEC-2024-69",
+      "PYSEC-2024-70",
+      "PYSEC-2025-1",
+      "PYSEC-2025-13",
+      "PYSEC-2025-37",
+      "PYSEC-2025-47",
+      "GHSA-wqfg-m96j-85vm",
+      "PYSEC-2025-14"
+    ]
+  },
+  {
+    "fix_id": "upgrade:django@4.1.7->@6.0.3",
+    "package": "django",
+    "from_version": "4.1.7",
+    "to_version": "6.0.3",
+    "covers": [
+      "GHSA-6w2r-r2m5-xq5w",
+      "GHSA-7xr5-9hcq-chf9",
+      "GHSA-frmv-pr5f-9mcr",
+      "GHSA-qw25-v68c-qjf3",
+      "GHSA-rrqc-c2jx-6jgv",
+      "PYSEC-2022-304",
+      "PYSEC-2023-100",
+      "GHSA-2mcm-79hx-8fxw",
+      "GHSA-33mw-q7rj-mjwj",
+      "GHSA-4rrr-2h4v-f3j9",
+      "GHSA-5hgc-2vfp-mqvc",
+      "GHSA-6426-9fv3-65x8",
+      "GHSA-795c-9xpc-xw6g",
+      "GHSA-8498-2h75-472j",
+      "GHSA-8j24-cjrq-gr2m",
+      "GHSA-8p8v-wh79-9r56",
+      "GHSA-9jmf-237g-qf46",
+      "GHSA-f6f8-9mx6-9mx2",
+      "GHSA-gvg8-93h5-g6qq",
+      "GHSA-hpr9-3m2g-3j9p",
+      "GHSA-jh75-99hh-qvx9",
+      "GHSA-m9g8-fxxm-xg86",
+      "GHSA-mjgh-79qc-68w3",
+      "GHSA-mwm9-4648-f68q",
+      "GHSA-p3fp-8748-vqfq",
+      "GHSA-pv4p-cwwg-4rph",
+      "GHSA-q95w-c7qg-hrff",
+      "GHSA-qcgg-j2x8-h9g8",
+      "GHSA-qg2p-9jwr-mmqf",
+      "GHSA-r836-hh6v-rg5g",
+      "GHSA-rqw2-ghq9-44m7",
+      "GHSA-vrcr-9hj9-jcg6",
+      "GHSA-x7q2-wr7g-xqmf",
+      "PYSEC-2024-102",
+      "PYSEC-2024-156",
+      "PYSEC-2024-157",
+      "PYSEC-2024-56",
+      "PYSEC-2024-57",
+      "PYSEC-2024-58",
+      "PYSEC-2024-59",
+      "PYSEC-2024-67",
+      "PYSEC-2024-68",
+      "PYSEC-2024-69",
+      "PYSEC-2024-70",
+      "PYSEC-2025-1",
+      "PYSEC-2025-13",
+      "PYSEC-2025-37",
+      "PYSEC-2025-47",
+      "GHSA-wqfg-m96j-85vm",
+      "PYSEC-2025-14"
+    ]
+  },
+  {
+    "fix_id": "upgrade:django@4.2.1->@6.0.3",
+    "package": "django",
+    "from_version": "4.2.1",
+    "to_version": "6.0.3",
+    "covers": [
+      "GHSA-6w2r-r2m5-xq5w",
+      "GHSA-7xr5-9hcq-chf9",
+      "GHSA-frmv-pr5f-9mcr",
+      "GHSA-qw25-v68c-qjf3",
+      "GHSA-rrqc-c2jx-6jgv",
+      "PYSEC-2022-304",
+      "PYSEC-2023-100",
+      "GHSA-2mcm-79hx-8fxw",
+      "GHSA-33mw-q7rj-mjwj",
+      "GHSA-4rrr-2h4v-f3j9",
+      "GHSA-5hgc-2vfp-mqvc",
+      "GHSA-6426-9fv3-65x8",
+      "GHSA-795c-9xpc-xw6g",
+      "GHSA-8498-2h75-472j",
+      "GHSA-8j24-cjrq-gr2m",
+      "GHSA-8p8v-wh79-9r56",
+      "GHSA-9jmf-237g-qf46",
+      "GHSA-f6f8-9mx6-9mx2",
+      "GHSA-gvg8-93h5-g6qq",
+      "GHSA-hpr9-3m2g-3j9p",
+      "GHSA-jh75-99hh-qvx9",
+      "GHSA-m9g8-fxxm-xg86",
+      "GHSA-mjgh-79qc-68w3",
+      "GHSA-mwm9-4648-f68q",
+      "GHSA-p3fp-8748-vqfq",
+      "GHSA-pv4p-cwwg-4rph",
+      "GHSA-q95w-c7qg-hrff",
+      "GHSA-qcgg-j2x8-h9g8",
+      "GHSA-qg2p-9jwr-mmqf",
+      "GHSA-r836-hh6v-rg5g",
+      "GHSA-rqw2-ghq9-44m7",
+      "GHSA-vrcr-9hj9-jcg6",
+      "GHSA-x7q2-wr7g-xqmf",
+      "PYSEC-2024-102",
+      "PYSEC-2024-156",
+      "PYSEC-2024-157",
+      "PYSEC-2024-56",
+      "PYSEC-2024-57",
+      "PYSEC-2024-58",
+      "PYSEC-2024-59",
+      "PYSEC-2024-67",
+      "PYSEC-2024-68",
+      "PYSEC-2024-69",
+      "PYSEC-2024-70",
+      "PYSEC-2025-1",
+      "PYSEC-2025-13",
+      "PYSEC-2025-37",
+      "PYSEC-2025-47",
+      "GHSA-wqfg-m96j-85vm",
+      "PYSEC-2025-14"
+    ]
+  },
+  {
+    "fix_id": "upgrade:django@4.2.19->@6.0.3",
+    "package": "django",
+    "from_version": "4.2.19",
+    "to_version": "6.0.3",
+    "covers": [
+      "GHSA-6w2r-r2m5-xq5w",
+      "GHSA-7xr5-9hcq-chf9",
+      "GHSA-frmv-pr5f-9mcr",
+      "GHSA-qw25-v68c-qjf3",
+      "GHSA-rrqc-c2jx-6jgv",
+      "PYSEC-2022-304",
+      "GHSA-2mcm-79hx-8fxw",
+      "GHSA-33mw-q7rj-mjwj",
+      "GHSA-4rrr-2h4v-f3j9",
+      "GHSA-5hgc-2vfp-mqvc",
+      "GHSA-6426-9fv3-65x8",
+      "GHSA-795c-9xpc-xw6g",
+      "GHSA-8498-2h75-472j",
+      "GHSA-8j24-cjrq-gr2m",
+      "GHSA-8p8v-wh79-9r56",
+      "GHSA-9jmf-237g-qf46",
+      "GHSA-f6f8-9mx6-9mx2",
+      "GHSA-gvg8-93h5-g6qq",
+      "GHSA-hpr9-3m2g-3j9p",
+      "GHSA-jh75-99hh-qvx9",
+      "GHSA-m9g8-fxxm-xg86",
+      "GHSA-mjgh-79qc-68w3",
+      "GHSA-mwm9-4648-f68q",
+      "GHSA-p3fp-8748-vqfq",
+      "GHSA-pv4p-cwwg-4rph",
+      "GHSA-q95w-c7qg-hrff",
+      "GHSA-qcgg-j2x8-h9g8",
+      "GHSA-r836-hh6v-rg5g",
+      "GHSA-rqw2-ghq9-44m7",
+      "GHSA-vrcr-9hj9-jcg6",
+      "GHSA-x7q2-wr7g-xqmf",
+      "PYSEC-2024-102",
+      "PYSEC-2024-156",
+      "PYSEC-2024-157",
+      "PYSEC-2024-57",
+      "PYSEC-2024-58",
+      "PYSEC-2024-59",
+      "PYSEC-2024-67",
+      "PYSEC-2024-68",
+      "PYSEC-2024-69",
+      "PYSEC-2024-70",
+      "PYSEC-2025-1",
+      "PYSEC-2025-13",
+      "PYSEC-2025-37",
+      "PYSEC-2025-47",
+      "GHSA-wqfg-m96j-85vm",
+      "PYSEC-2025-14"
+    ]
+  },
+  {
+    "fix_id": "upgrade:django@4.2.2->@6.0.3",
+    "package": "django",
+    "from_version": "4.2.2",
+    "to_version": "6.0.3",
+    "covers": [
+      "GHSA-6w2r-r2m5-xq5w",
+      "GHSA-7xr5-9hcq-chf9",
+      "GHSA-frmv-pr5f-9mcr",
+      "GHSA-qw25-v68c-qjf3",
+      "GHSA-rrqc-c2jx-6jgv",
+      "PYSEC-2022-304",
+      "PYSEC-2023-100",
+      "GHSA-2mcm-79hx-8fxw",
+      "GHSA-33mw-q7rj-mjwj",
+      "GHSA-4rrr-2h4v-f3j9",
+      "GHSA-5hgc-2vfp-mqvc",
+      "GHSA-6426-9fv3-65x8",
+      "GHSA-795c-9xpc-xw6g",
+      "GHSA-8498-2h75-472j",
+      "GHSA-8j24-cjrq-gr2m",
+      "GHSA-8p8v-wh79-9r56",
+      "GHSA-9jmf-237g-qf46",
+      "GHSA-f6f8-9mx6-9mx2",
+      "GHSA-gvg8-93h5-g6qq",
+      "GHSA-hpr9-3m2g-3j9p",
+      "GHSA-jh75-99hh-qvx9",
+      "GHSA-m9g8-fxxm-xg86",
+      "GHSA-mjgh-79qc-68w3",
+      "GHSA-mwm9-4648-f68q",
+      "GHSA-p3fp-8748-vqfq",
+      "GHSA-pv4p-cwwg-4rph",
+      "GHSA-q95w-c7qg-hrff",
+      "GHSA-qcgg-j2x8-h9g8",
+      "GHSA-qg2p-9jwr-mmqf",
+      "GHSA-r836-hh6v-rg5g",
+      "GHSA-rqw2-ghq9-44m7",
+      "GHSA-vrcr-9hj9-jcg6",
+      "GHSA-x7q2-wr7g-xqmf",
+      "PYSEC-2024-102",
+      "PYSEC-2024-156",
+      "PYSEC-2024-157",
+      "PYSEC-2024-56",
+      "PYSEC-2024-57",
+      "PYSEC-2024-58",
+      "PYSEC-2024-59",
+      "PYSEC-2024-67",
+      "PYSEC-2024-68",
+      "PYSEC-2024-69",
+      "PYSEC-2024-70",
+      "PYSEC-2025-1",
+      "PYSEC-2025-13",
+      "PYSEC-2025-37",
+      "PYSEC-2025-47",
+      "GHSA-wqfg-m96j-85vm",
+      "PYSEC-2025-14"
+    ]
+  },
+  {
+    "fix_id": "upgrade:django@4.2.4->@6.0.3",
+    "package": "django",
+    "from_version": "4.2.4",
+    "to_version": "6.0.3",
+    "covers": [
+      "GHSA-6w2r-r2m5-xq5w",
+      "GHSA-7xr5-9hcq-chf9",
+      "GHSA-frmv-pr5f-9mcr",
+      "GHSA-qw25-v68c-qjf3",
+      "GHSA-rrqc-c2jx-6jgv",
+      "PYSEC-2022-304",
+      "GHSA-2mcm-79hx-8fxw",
+      "GHSA-33mw-q7rj-mjwj",
+      "GHSA-4rrr-2h4v-f3j9",
+      "GHSA-5hgc-2vfp-mqvc",
+      "GHSA-6426-9fv3-65x8",
+      "GHSA-795c-9xpc-xw6g",
+      "GHSA-8498-2h75-472j",
+      "GHSA-8j24-cjrq-gr2m",
+      "GHSA-8p8v-wh79-9r56",
+      "GHSA-9jmf-237g-qf46",
+      "GHSA-f6f8-9mx6-9mx2",
+      "GHSA-gvg8-93h5-g6qq",
+      "GHSA-hpr9-3m2g-3j9p",
+      "GHSA-jh75-99hh-qvx9",
+      "GHSA-m9g8-fxxm-xg86",
+      "GHSA-mjgh-79qc-68w3",
+      "GHSA-mwm9-4648-f68q",
+      "GHSA-p3fp-8748-vqfq",
+      "GHSA-pv4p-cwwg-4rph",
+      "GHSA-q95w-c7qg-hrff",
+      "GHSA-qcgg-j2x8-h9g8",
+      "GHSA-qg2p-9jwr-mmqf",
+      "GHSA-r836-hh6v-rg5g",
+      "GHSA-rqw2-ghq9-44m7",
+      "GHSA-vrcr-9hj9-jcg6",
+      "GHSA-x7q2-wr7g-xqmf",
+      "PYSEC-2024-102",
+      "PYSEC-2024-156",
+      "PYSEC-2024-157",
+      "PYSEC-2024-56",
+      "PYSEC-2024-57",
+      "PYSEC-2024-58",
+      "PYSEC-2024-59",
+      "PYSEC-2024-67",
+      "PYSEC-2024-68",
+      "PYSEC-2024-69",
+      "PYSEC-2024-70",
+      "PYSEC-2025-1",
+      "PYSEC-2025-13",
+      "PYSEC-2025-37",
+      "PYSEC-2025-47",
+      "GHSA-wqfg-m96j-85vm",
+      "PYSEC-2025-14"
+    ]
+  },
+  {
+    "fix_id": "upgrade:django@4.2.7->@6.0.3",
+    "package": "django",
+    "from_version": "4.2.7",
+    "to_version": "6.0.3",
+    "covers": [
+      "GHSA-6w2r-r2m5-xq5w",
+      "GHSA-7xr5-9hcq-chf9",
+      "GHSA-frmv-pr5f-9mcr",
+      "GHSA-qw25-v68c-qjf3",
+      "GHSA-rrqc-c2jx-6jgv",
+      "PYSEC-2022-304",
+      "GHSA-2mcm-79hx-8fxw",
+      "GHSA-33mw-q7rj-mjwj",
+      "GHSA-4rrr-2h4v-f3j9",
+      "GHSA-5hgc-2vfp-mqvc",
+      "GHSA-6426-9fv3-65x8",
+      "GHSA-795c-9xpc-xw6g",
+      "GHSA-8498-2h75-472j",
+      "GHSA-8j24-cjrq-gr2m",
+      "GHSA-8p8v-wh79-9r56",
+      "GHSA-9jmf-237g-qf46",
+      "GHSA-f6f8-9mx6-9mx2",
+      "GHSA-gvg8-93h5-g6qq",
+      "GHSA-hpr9-3m2g-3j9p",
+      "GHSA-jh75-99hh-qvx9",
+      "GHSA-m9g8-fxxm-xg86",
+      "GHSA-mjgh-79qc-68w3",
+      "GHSA-mwm9-4648-f68q",
+      "GHSA-p3fp-8748-vqfq",
+      "GHSA-pv4p-cwwg-4rph",
+      "GHSA-q95w-c7qg-hrff",
+      "GHSA-qcgg-j2x8-h9g8",
+      "GHSA-qg2p-9jwr-mmqf",
+      "GHSA-r836-hh6v-rg5g",
+      "GHSA-rqw2-ghq9-44m7",
+      "GHSA-vrcr-9hj9-jcg6",
+      "GHSA-x7q2-wr7g-xqmf",
+      "PYSEC-2024-102",
+      "PYSEC-2024-156",
+      "PYSEC-2024-157",
+      "PYSEC-2024-56",
+      "PYSEC-2024-57",
+      "PYSEC-2024-58",
+      "PYSEC-2024-59",
+      "PYSEC-2024-67",
+      "PYSEC-2024-68",
+      "PYSEC-2024-69",
+      "PYSEC-2024-70",
+      "PYSEC-2025-1",
+      "PYSEC-2025-13",
+      "PYSEC-2025-37",
+      "PYSEC-2025-47",
+      "GHSA-wqfg-m96j-85vm",
+      "PYSEC-2025-14"
+    ]
+  },
+  {
+    "fix_id": "upgrade:django@4.2.9->@6.0.3",
+    "package": "django",
+    "from_version": "4.2.9",
+    "to_version": "6.0.3",
+    "covers": [
+      "GHSA-6w2r-r2m5-xq5w",
+      "GHSA-7xr5-9hcq-chf9",
+      "GHSA-frmv-pr5f-9mcr",
+      "GHSA-qw25-v68c-qjf3",
+      "GHSA-rrqc-c2jx-6jgv",
+      "PYSEC-2022-304",
+      "GHSA-2mcm-79hx-8fxw",
+      "GHSA-33mw-q7rj-mjwj",
+      "GHSA-4rrr-2h4v-f3j9",
+      "GHSA-5hgc-2vfp-mqvc",
+      "GHSA-6426-9fv3-65x8",
+      "GHSA-795c-9xpc-xw6g",
+      "GHSA-8498-2h75-472j",
+      "GHSA-8j24-cjrq-gr2m",
+      "GHSA-8p8v-wh79-9r56",
+      "GHSA-9jmf-237g-qf46",
+      "GHSA-f6f8-9mx6-9mx2",
+      "GHSA-gvg8-93h5-g6qq",
+      "GHSA-hpr9-3m2g-3j9p",
+      "GHSA-jh75-99hh-qvx9",
+      "GHSA-m9g8-fxxm-xg86",
+      "GHSA-mjgh-79qc-68w3",
+      "GHSA-mwm9-4648-f68q",
+      "GHSA-p3fp-8748-vqfq",
+      "GHSA-pv4p-cwwg-4rph",
+      "GHSA-q95w-c7qg-hrff",
+      "GHSA-qcgg-j2x8-h9g8",
+      "GHSA-qg2p-9jwr-mmqf",
+      "GHSA-r836-hh6v-rg5g",
+      "GHSA-rqw2-ghq9-44m7",
+      "GHSA-vrcr-9hj9-jcg6",
+      "GHSA-x7q2-wr7g-xqmf",
+      "PYSEC-2024-102",
+      "PYSEC-2024-156",
+      "PYSEC-2024-157",
+      "PYSEC-2024-56",
+      "PYSEC-2024-57",
+      "PYSEC-2024-58",
+      "PYSEC-2024-59",
+      "PYSEC-2024-67",
+      "PYSEC-2024-68",
+      "PYSEC-2024-69",
+      "PYSEC-2024-70",
+      "PYSEC-2025-1",
+      "PYSEC-2025-13",
+      "PYSEC-2025-37",
+      "PYSEC-2025-47",
+      "GHSA-wqfg-m96j-85vm",
+      "PYSEC-2025-14"
+    ]
+  },
+  {
+    "fix_id": "upgrade:django@5.0->@6.0.3",
+    "package": "django",
+    "from_version": "5.0",
+    "to_version": "6.0.3",
+    "covers": [
+      "GHSA-7xr5-9hcq-chf9",
+      "GHSA-frmv-pr5f-9mcr",
+      "GHSA-qw25-v68c-qjf3",
+      "GHSA-rrqc-c2jx-6jgv",
+      "PYSEC-2022-304",
+      "GHSA-2mcm-79hx-8fxw",
+      "GHSA-33mw-q7rj-mjwj",
+      "GHSA-4rrr-2h4v-f3j9",
+      "GHSA-5hgc-2vfp-mqvc",
+      "GHSA-6426-9fv3-65x8",
+      "GHSA-795c-9xpc-xw6g",
+      "GHSA-8498-2h75-472j",
+      "GHSA-8p8v-wh79-9r56",
+      "GHSA-9jmf-237g-qf46",
+      "GHSA-f6f8-9mx6-9mx2",
+      "GHSA-gvg8-93h5-g6qq",
+      "GHSA-jh75-99hh-qvx9",
+      "GHSA-m9g8-fxxm-xg86",
+      "GHSA-mjgh-79qc-68w3",
+      "GHSA-mwm9-4648-f68q",
+      "GHSA-pv4p-cwwg-4rph",
+      "GHSA-qcgg-j2x8-h9g8",
+      "GHSA-r836-hh6v-rg5g",
+      "GHSA-rqw2-ghq9-44m7",
+      "GHSA-vrcr-9hj9-jcg6",
+      "GHSA-x7q2-wr7g-xqmf",
+      "PYSEC-2024-102",
+      "PYSEC-2024-156",
+      "PYSEC-2024-157",
+      "PYSEC-2024-57",
+      "PYSEC-2024-58",
+      "PYSEC-2024-59",
+      "PYSEC-2024-67",
+      "PYSEC-2024-68",
+      "PYSEC-2024-69",
+      "PYSEC-2024-70",
+      "PYSEC-2025-1",
+      "PYSEC-2025-13",
+      "PYSEC-2025-47",
+      "GHSA-wqfg-m96j-85vm",
+      "PYSEC-2025-14"
+    ]
+  },
+  {
+    "fix_id": "upgrade:django@5.0.2->@6.0.3",
+    "package": "django",
+    "from_version": "5.0.2",
+    "to_version": "6.0.3",
+    "covers": [
+      "GHSA-7xr5-9hcq-chf9",
+      "GHSA-frmv-pr5f-9mcr",
+      "GHSA-qw25-v68c-qjf3",
+      "GHSA-rrqc-c2jx-6jgv",
+      "PYSEC-2022-304",
+      "GHSA-2mcm-79hx-8fxw",
+      "GHSA-33mw-q7rj-mjwj",
+      "GHSA-4rrr-2h4v-f3j9",
+      "GHSA-5hgc-2vfp-mqvc",
+      "GHSA-6426-9fv3-65x8",
+      "GHSA-795c-9xpc-xw6g",
+      "GHSA-8498-2h75-472j",
+      "GHSA-8p8v-wh79-9r56",
+      "GHSA-9jmf-237g-qf46",
+      "GHSA-f6f8-9mx6-9mx2",
+      "GHSA-gvg8-93h5-g6qq",
+      "GHSA-jh75-99hh-qvx9",
+      "GHSA-m9g8-fxxm-xg86",
+      "GHSA-mjgh-79qc-68w3",
+      "GHSA-mwm9-4648-f68q",
+      "GHSA-pv4p-cwwg-4rph",
+      "GHSA-qcgg-j2x8-h9g8",
+      "GHSA-r836-hh6v-rg5g",
+      "GHSA-rqw2-ghq9-44m7",
+      "GHSA-vrcr-9hj9-jcg6",
+      "GHSA-x7q2-wr7g-xqmf",
+      "PYSEC-2024-102",
+      "PYSEC-2024-156",
+      "PYSEC-2024-157",
+      "PYSEC-2024-57",
+      "PYSEC-2024-58",
+      "PYSEC-2024-59",
+      "PYSEC-2024-67",
+      "PYSEC-2024-68",
+      "PYSEC-2024-69",
+      "PYSEC-2024-70",
+      "PYSEC-2025-1",
+      "PYSEC-2025-13",
+      "PYSEC-2025-47",
+      "GHSA-wqfg-m96j-85vm",
+      "PYSEC-2025-14"
+    ]
+  },
+  {
+    "fix_id": "upgrade:django@5.0.6->@6.0.3",
+    "package": "django",
+    "from_version": "5.0.6",
+    "to_version": "6.0.3",
+    "covers": [
+      "GHSA-7xr5-9hcq-chf9",
+      "GHSA-frmv-pr5f-9mcr",
+      "GHSA-qw25-v68c-qjf3",
+      "GHSA-rrqc-c2jx-6jgv",
+      "PYSEC-2022-304",
+      "GHSA-2mcm-79hx-8fxw",
+      "GHSA-33mw-q7rj-mjwj",
+      "GHSA-4rrr-2h4v-f3j9",
+      "GHSA-5hgc-2vfp-mqvc",
+      "GHSA-6426-9fv3-65x8",
+      "GHSA-795c-9xpc-xw6g",
+      "GHSA-8498-2h75-472j",
+      "GHSA-8p8v-wh79-9r56",
+      "GHSA-9jmf-237g-qf46",
+      "GHSA-f6f8-9mx6-9mx2",
+      "GHSA-gvg8-93h5-g6qq",
+      "GHSA-jh75-99hh-qvx9",
+      "GHSA-m9g8-fxxm-xg86",
+      "GHSA-mjgh-79qc-68w3",
+      "GHSA-mwm9-4648-f68q",
+      "GHSA-pv4p-cwwg-4rph",
+      "GHSA-qcgg-j2x8-h9g8",
+      "GHSA-r836-hh6v-rg5g",
+      "GHSA-rqw2-ghq9-44m7",
+      "GHSA-vrcr-9hj9-jcg6",
+      "GHSA-x7q2-wr7g-xqmf",
+      "PYSEC-2024-102",
+      "PYSEC-2024-156",
+      "PYSEC-2024-157",
+      "PYSEC-2024-57",
+      "PYSEC-2024-58",
+      "PYSEC-2024-59",
+      "PYSEC-2024-67",
+      "PYSEC-2024-68",
+      "PYSEC-2024-69",
+      "PYSEC-2024-70",
+      "PYSEC-2025-1",
+      "PYSEC-2025-13",
+      "PYSEC-2025-47",
+      "GHSA-wqfg-m96j-85vm",
+      "PYSEC-2025-14"
+    ]
+  },
+  {
+    "fix_id": "upgrade:django@5.0.8->@6.0.3",
+    "package": "django",
+    "from_version": "5.0.8",
+    "to_version": "6.0.3",
+    "covers": [
+      "GHSA-7xr5-9hcq-chf9",
+      "GHSA-frmv-pr5f-9mcr",
+      "GHSA-qw25-v68c-qjf3",
+      "GHSA-rrqc-c2jx-6jgv",
+      "PYSEC-2022-304",
+      "GHSA-2mcm-79hx-8fxw",
+      "GHSA-33mw-q7rj-mjwj",
+      "GHSA-4rrr-2h4v-f3j9",
+      "GHSA-5hgc-2vfp-mqvc",
+      "GHSA-6426-9fv3-65x8",
+      "GHSA-8498-2h75-472j",
+      "GHSA-8p8v-wh79-9r56",
+      "GHSA-gvg8-93h5-g6qq",
+      "GHSA-m9g8-fxxm-xg86",
+      "GHSA-mjgh-79qc-68w3",
+      "GHSA-mwm9-4648-f68q",
+      "GHSA-qcgg-j2x8-h9g8",
+      "GHSA-rqw2-ghq9-44m7",
+      "GHSA-vrcr-9hj9-jcg6",
+      "PYSEC-2024-102",
+      "PYSEC-2024-156",
+      "PYSEC-2024-157",
+      "PYSEC-2025-1",
+      "PYSEC-2025-13",
+      "PYSEC-2025-47",
+      "GHSA-wqfg-m96j-85vm",
+      "PYSEC-2025-14"
+    ]
+  },
+  {
+    "fix_id": "upgrade:django@5.1.3->@6.0.3",
+    "package": "django",
+    "from_version": "5.1.3",
+    "to_version": "6.0.3",
+    "covers": [
+      "GHSA-7xr5-9hcq-chf9",
+      "GHSA-frmv-pr5f-9mcr",
+      "GHSA-qw25-v68c-qjf3",
+      "PYSEC-2022-304",
+      "GHSA-2mcm-79hx-8fxw",
+      "GHSA-33mw-q7rj-mjwj",
+      "GHSA-4rrr-2h4v-f3j9",
+      "GHSA-6426-9fv3-65x8",
+      "GHSA-8498-2h75-472j",
+      "GHSA-8p8v-wh79-9r56",
+      "GHSA-gvg8-93h5-g6qq",
+      "GHSA-mjgh-79qc-68w3",
+      "GHSA-mwm9-4648-f68q",
+      "GHSA-qcgg-j2x8-h9g8",
+      "GHSA-rqw2-ghq9-44m7",
+      "GHSA-vrcr-9hj9-jcg6",
+      "PYSEC-2024-156",
+      "PYSEC-2024-157",
+      "PYSEC-2025-1",
+      "PYSEC-2025-13",
+      "PYSEC-2025-47",
+      "PYSEC-2025-14"
+    ]
+  },
+  {
+    "fix_id": "upgrade:django@5.2.1->@6.0.3",
+    "package": "django",
+    "from_version": "5.2.1",
+    "to_version": "6.0.3",
+    "covers": [
+      "GHSA-7xr5-9hcq-chf9",
+      "GHSA-frmv-pr5f-9mcr",
+      "GHSA-qw25-v68c-qjf3",
+      "PYSEC-2022-304",
+      "GHSA-2mcm-79hx-8fxw",
+      "GHSA-33mw-q7rj-mjwj",
+      "GHSA-4rrr-2h4v-f3j9",
+      "GHSA-6426-9fv3-65x8",
+      "GHSA-8p8v-wh79-9r56",
+      "GHSA-gvg8-93h5-g6qq",
+      "GHSA-mjgh-79qc-68w3",
+      "GHSA-mwm9-4648-f68q",
+      "GHSA-rqw2-ghq9-44m7",
+      "GHSA-vrcr-9hj9-jcg6",
+      "PYSEC-2025-47"
+    ]
+  },
+  {
+    "fix_id": "upgrade:django@5.2.10->@6.0.3",
+    "package": "django",
+    "from_version": "5.2.10",
+    "to_version": "6.0.3",
+    "covers": [
+      "PYSEC-2022-304",
+      "GHSA-2mcm-79hx-8fxw",
+      "GHSA-33mw-q7rj-mjwj",
+      "GHSA-4rrr-2h4v-f3j9",
+      "GHSA-6426-9fv3-65x8",
+      "GHSA-8p8v-wh79-9r56",
+      "GHSA-gvg8-93h5-g6qq",
+      "GHSA-mjgh-79qc-68w3",
+      "GHSA-mwm9-4648-f68q"
+    ]
+  },
+  {
+    "fix_id": "upgrade:django@5.2.3->@6.0.3",
+    "package": "django",
+    "from_version": "5.2.3",
+    "to_version": "6.0.3",
+    "covers": [
+      "GHSA-frmv-pr5f-9mcr",
+      "GHSA-qw25-v68c-qjf3",
+      "PYSEC-2022-304",
+      "GHSA-2mcm-79hx-8fxw",
+      "GHSA-33mw-q7rj-mjwj",
+      "GHSA-4rrr-2h4v-f3j9",
+      "GHSA-6426-9fv3-65x8",
+      "GHSA-8p8v-wh79-9r56",
+      "GHSA-gvg8-93h5-g6qq",
+      "GHSA-mjgh-79qc-68w3",
+      "GHSA-mwm9-4648-f68q",
+      "GHSA-rqw2-ghq9-44m7",
+      "GHSA-vrcr-9hj9-jcg6"
+    ]
+  },
+  {
+    "fix_id": "upgrade:django@5.2.6->@6.0.3",
+    "package": "django",
+    "from_version": "5.2.6",
+    "to_version": "6.0.3",
+    "covers": [
+      "GHSA-frmv-pr5f-9mcr",
+      "GHSA-qw25-v68c-qjf3",
+      "PYSEC-2022-304",
+      "GHSA-2mcm-79hx-8fxw",
+      "GHSA-33mw-q7rj-mjwj",
+      "GHSA-4rrr-2h4v-f3j9",
+      "GHSA-6426-9fv3-65x8",
+      "GHSA-8p8v-wh79-9r56",
+      "GHSA-gvg8-93h5-g6qq",
+      "GHSA-mjgh-79qc-68w3",
+      "GHSA-mwm9-4648-f68q",
+      "GHSA-rqw2-ghq9-44m7",
+      "GHSA-vrcr-9hj9-jcg6"
+    ]
+  },
+  {
+    "fix_id": "upgrade:django@6.0->@6.0.3",
+    "package": "django",
+    "from_version": "6.0",
+    "to_version": "6.0.3",
+    "covers": [
+      "PYSEC-2022-304",
+      "GHSA-2mcm-79hx-8fxw",
+      "GHSA-33mw-q7rj-mjwj",
+      "GHSA-4rrr-2h4v-f3j9",
+      "GHSA-6426-9fv3-65x8",
+      "GHSA-8p8v-wh79-9r56",
+      "GHSA-gvg8-93h5-g6qq",
+      "GHSA-mjgh-79qc-68w3",
+      "GHSA-mwm9-4648-f68q"
+    ]
+  },
+  {
+    "fix_id": "upgrade:django-rest-framework@0.1.0->@3.9.1",
+    "package": "django-rest-framework",
+    "from_version": "0.1.0",
+    "to_version": "3.9.1",
+    "covers": [
+      "GHSA-xqcf-hj92-967m"
+    ]
+  },
+  {
+    "fix_id": "upgrade:djangorestframework@3.12.4->@3.15.2",
+    "package": "djangorestframework",
+    "from_version": "3.12.4",
+    "to_version": "3.15.2",
+    "covers": [
+      "GHSA-gw84-84pc-xp82"
+    ]
+  },
+  {
+    "fix_id": "upgrade:djangorestframework@3.14.0->@3.15.2",
+    "package": "djangorestframework",
+    "from_version": "3.14.0",
+    "to_version": "3.15.2",
+    "covers": [
+      "GHSA-gw84-84pc-xp82"
+    ]
+  },
+  {
+    "fix_id": "upgrade:djangorestframework-simplejwt@4.6.0->@5.5.1",
+    "package": "djangorestframework-simplejwt",
+    "from_version": "4.6.0",
+    "to_version": "5.5.1",
+    "covers": [
+      "GHSA-5vcc-86wm-547q"
+    ]
+  },
+  {
+    "fix_id": "upgrade:djangorestframework-simplejwt@5.3.1->@5.5.1",
+    "package": "djangorestframework-simplejwt",
+    "from_version": "5.3.1",
+    "to_version": "5.5.1",
+    "covers": [
+      "GHSA-5vcc-86wm-547q"
+    ]
+  },
+  {
+    "fix_id": "upgrade:djangorestframework-simplejwt@5.5.0->@5.5.1",
+    "package": "djangorestframework-simplejwt",
+    "from_version": "5.5.0",
+    "to_version": "5.5.1",
+    "covers": [
+      "GHSA-5vcc-86wm-547q"
+    ]
+  },
+  {
+    "fix_id": "upgrade:djoser@2.1.0->@2.3.0",
+    "package": "djoser",
+    "from_version": "2.1.0",
+    "to_version": "2.3.0",
+    "covers": [
+      "GHSA-v49p-m6gh-747c",
+      "PYSEC-2024-158"
+    ]
+  },
+  {
+    "fix_id": "upgrade:dnspython@2.1.0->@2.6.1",
+    "package": "dnspython",
+    "from_version": "2.1.0",
+    "to_version": "2.6.1",
+    "covers": [
+      "GHSA-3rq5-2g8h-59hc"
+    ]
+  },
+  {
+    "fix_id": "upgrade:dnspython@2.3.0->@2.6.1",
+    "package": "dnspython",
+    "from_version": "2.3.0",
+    "to_version": "2.6.1",
+    "covers": [
+      "GHSA-3rq5-2g8h-59hc"
+    ]
+  },
+  {
+    "fix_id": "upgrade:dnspython@2.4.1->@2.6.1",
+    "package": "dnspython",
+    "from_version": "2.4.1",
+    "to_version": "2.6.1",
+    "covers": [
+      "GHSA-3rq5-2g8h-59hc"
+    ]
+  },
+  {
+    "fix_id": "upgrade:dnspython@2.4.2->@2.6.1",
+    "package": "dnspython",
+    "from_version": "2.4.2",
+    "to_version": "2.6.1",
+    "covers": [
+      "GHSA-3rq5-2g8h-59hc"
+    ]
+  },
+  {
+    "fix_id": "upgrade:dparse@0.5.1->@0.5.2",
+    "package": "dparse",
+    "from_version": "0.5.1",
+    "to_version": "0.5.2",
+    "covers": [
+      "GHSA-8fg9-p83m-x5pq",
+      "PYSEC-2022-301"
+    ]
+  },
+  {
+    "fix_id": "upgrade:dynaconf@3.1.9->@3.2.13",
+    "package": "dynaconf",
+    "from_version": "3.1.9",
+    "to_version": "3.2.13",
+    "covers": [
+      "GHSA-pxrr-hq57-q35p"
+    ]
+  },
+  {
+    "fix_id": "upgrade:dynaconf@3.2.6->@3.2.13",
+    "package": "dynaconf",
+    "from_version": "3.2.6",
+    "to_version": "3.2.13",
+    "covers": [
+      "GHSA-pxrr-hq57-q35p"
+    ]
+  },
+  {
+    "fix_id": "upgrade:ecdsa@0.18.0->@0.19.2",
+    "package": "ecdsa",
+    "from_version": "0.18.0",
+    "to_version": "0.19.2",
+    "covers": [
+      "GHSA-wj6h-64fc-37mp"
+    ]
+  },
+  {
+    "fix_id": "upgrade:eventlet@0.36.1->@0.40.3",
+    "package": "eventlet",
+    "from_version": "0.36.1",
+    "to_version": "0.40.3",
+    "covers": [
+      "GHSA-hw6f-rjfj-j7j7"
+    ]
+  },
+  {
+    "fix_id": "upgrade:fastapi@0.100.1->@9d34ad0ee8a0dfbbcce06f76c2d5d851085024fc",
+    "package": "fastapi",
+    "from_version": "0.100.1",
+    "to_version": "9d34ad0ee8a0dfbbcce06f76c2d5d851085024fc",
+    "covers": [
+      "PYSEC-2024-38",
+      "PYSEC-2021-100"
+    ]
+  },
+  {
+    "fix_id": "upgrade:fastapi@0.103.1->@9d34ad0ee8a0dfbbcce06f76c2d5d851085024fc",
+    "package": "fastapi",
+    "from_version": "0.103.1",
+    "to_version": "9d34ad0ee8a0dfbbcce06f76c2d5d851085024fc",
+    "covers": [
+      "PYSEC-2024-38",
+      "PYSEC-2021-100"
+    ]
+  },
+  {
+    "fix_id": "upgrade:fastapi@0.104.1->@9d34ad0ee8a0dfbbcce06f76c2d5d851085024fc",
+    "package": "fastapi",
+    "from_version": "0.104.1",
+    "to_version": "9d34ad0ee8a0dfbbcce06f76c2d5d851085024fc",
+    "covers": [
+      "PYSEC-2024-38",
+      "PYSEC-2021-100"
+    ]
+  },
+  {
+    "fix_id": "upgrade:fastapi@0.108.0->@9d34ad0ee8a0dfbbcce06f76c2d5d851085024fc",
+    "package": "fastapi",
+    "from_version": "0.108.0",
+    "to_version": "9d34ad0ee8a0dfbbcce06f76c2d5d851085024fc",
+    "covers": [
+      "PYSEC-2024-38",
+      "PYSEC-2021-100"
+    ]
+  },
+  {
+    "fix_id": "upgrade:fastapi@0.109.2->@9d34ad0ee8a0dfbbcce06f76c2d5d851085024fc",
+    "package": "fastapi",
+    "from_version": "0.109.2",
+    "to_version": "9d34ad0ee8a0dfbbcce06f76c2d5d851085024fc",
+    "covers": [
+      "PYSEC-2024-38",
+      "PYSEC-2021-100"
+    ]
+  },
+  {
+    "fix_id": "upgrade:fastapi@0.110.0->@9d34ad0ee8a0dfbbcce06f76c2d5d851085024fc",
+    "package": "fastapi",
+    "from_version": "0.110.0",
+    "to_version": "9d34ad0ee8a0dfbbcce06f76c2d5d851085024fc",
+    "covers": [
+      "PYSEC-2024-38",
+      "PYSEC-2021-100"
+    ]
+  },
+  {
+    "fix_id": "upgrade:fastapi@0.112.0->@9d34ad0ee8a0dfbbcce06f76c2d5d851085024fc",
+    "package": "fastapi",
+    "from_version": "0.112.0",
+    "to_version": "9d34ad0ee8a0dfbbcce06f76c2d5d851085024fc",
+    "covers": [
+      "PYSEC-2024-38",
+      "PYSEC-2021-100"
+    ]
+  },
+  {
+    "fix_id": "upgrade:fastapi@0.115.0->@9d34ad0ee8a0dfbbcce06f76c2d5d851085024fc",
+    "package": "fastapi",
+    "from_version": "0.115.0",
+    "to_version": "9d34ad0ee8a0dfbbcce06f76c2d5d851085024fc",
+    "covers": [
+      "PYSEC-2024-38",
+      "PYSEC-2021-100"
+    ]
+  },
+  {
+    "fix_id": "upgrade:fastapi@0.115.11->@9d34ad0ee8a0dfbbcce06f76c2d5d851085024fc",
+    "package": "fastapi",
+    "from_version": "0.115.11",
+    "to_version": "9d34ad0ee8a0dfbbcce06f76c2d5d851085024fc",
+    "covers": [
+      "PYSEC-2024-38",
+      "PYSEC-2021-100"
+    ]
+  },
+  {
+    "fix_id": "upgrade:fastapi@0.115.12->@9d34ad0ee8a0dfbbcce06f76c2d5d851085024fc",
+    "package": "fastapi",
+    "from_version": "0.115.12",
+    "to_version": "9d34ad0ee8a0dfbbcce06f76c2d5d851085024fc",
+    "covers": [
+      "PYSEC-2024-38",
+      "PYSEC-2021-100"
+    ]
+  },
+  {
+    "fix_id": "upgrade:fastapi@0.115.13->@9d34ad0ee8a0dfbbcce06f76c2d5d851085024fc",
+    "package": "fastapi",
+    "from_version": "0.115.13",
+    "to_version": "9d34ad0ee8a0dfbbcce06f76c2d5d851085024fc",
+    "covers": [
+      "PYSEC-2024-38",
+      "PYSEC-2021-100"
+    ]
+  },
+  {
+    "fix_id": "upgrade:fastapi@0.115.5->@9d34ad0ee8a0dfbbcce06f76c2d5d851085024fc",
+    "package": "fastapi",
+    "from_version": "0.115.5",
+    "to_version": "9d34ad0ee8a0dfbbcce06f76c2d5d851085024fc",
+    "covers": [
+      "PYSEC-2024-38",
+      "PYSEC-2021-100"
+    ]
+  },
+  {
+    "fix_id": "upgrade:fastapi@0.116.1->@9d34ad0ee8a0dfbbcce06f76c2d5d851085024fc",
+    "package": "fastapi",
+    "from_version": "0.116.1",
+    "to_version": "9d34ad0ee8a0dfbbcce06f76c2d5d851085024fc",
+    "covers": [
+      "PYSEC-2024-38",
+      "PYSEC-2021-100"
+    ]
+  },
+  {
+    "fix_id": "upgrade:fastapi@0.63.0->@9d34ad0ee8a0dfbbcce06f76c2d5d851085024fc",
+    "package": "fastapi",
+    "from_version": "0.63.0",
+    "to_version": "9d34ad0ee8a0dfbbcce06f76c2d5d851085024fc",
+    "covers": [
+      "PYSEC-2024-38",
+      "GHSA-8h2j-cgx8-6xv7",
+      "PYSEC-2021-100"
+    ]
+  },
+  {
+    "fix_id": "upgrade:fastapi@0.68.1->@9d34ad0ee8a0dfbbcce06f76c2d5d851085024fc",
+    "package": "fastapi",
+    "from_version": "0.68.1",
+    "to_version": "9d34ad0ee8a0dfbbcce06f76c2d5d851085024fc",
+    "covers": [
+      "PYSEC-2024-38",
+      "PYSEC-2021-100"
+    ]
+  },
+  {
+    "fix_id": "upgrade:fastapi@0.73.0->@9d34ad0ee8a0dfbbcce06f76c2d5d851085024fc",
+    "package": "fastapi",
+    "from_version": "0.73.0",
+    "to_version": "9d34ad0ee8a0dfbbcce06f76c2d5d851085024fc",
+    "covers": [
+      "PYSEC-2024-38",
+      "PYSEC-2021-100"
+    ]
+  },
+  {
+    "fix_id": "upgrade:fastapi@0.85.2->@9d34ad0ee8a0dfbbcce06f76c2d5d851085024fc",
+    "package": "fastapi",
+    "from_version": "0.85.2",
+    "to_version": "9d34ad0ee8a0dfbbcce06f76c2d5d851085024fc",
+    "covers": [
+      "PYSEC-2024-38",
+      "PYSEC-2021-100"
+    ]
+  },
+  {
+    "fix_id": "upgrade:fastapi@0.95.2->@9d34ad0ee8a0dfbbcce06f76c2d5d851085024fc",
+    "package": "fastapi",
+    "from_version": "0.95.2",
+    "to_version": "9d34ad0ee8a0dfbbcce06f76c2d5d851085024fc",
+    "covers": [
+      "PYSEC-2024-38",
+      "PYSEC-2021-100"
+    ]
+  },
+  {
+    "fix_id": "upgrade:fastapi@0.99.0->@9d34ad0ee8a0dfbbcce06f76c2d5d851085024fc",
+    "package": "fastapi",
+    "from_version": "0.99.0",
+    "to_version": "9d34ad0ee8a0dfbbcce06f76c2d5d851085024fc",
+    "covers": [
+      "PYSEC-2024-38",
+      "PYSEC-2021-100"
+    ]
+  },
+  {
+    "fix_id": "upgrade:filelock@3.0.12->@3.20.3",
+    "package": "filelock",
+    "from_version": "3.0.12",
+    "to_version": "3.20.3",
+    "covers": [
+      "GHSA-qmgc-5h2g-mvrw",
+      "GHSA-w853-jp5j-5j7f"
+    ]
+  },
+  {
+    "fix_id": "upgrade:filelock@3.10.7->@3.20.3",
+    "package": "filelock",
+    "from_version": "3.10.7",
+    "to_version": "3.20.3",
+    "covers": [
+      "GHSA-qmgc-5h2g-mvrw",
+      "GHSA-w853-jp5j-5j7f"
+    ]
+  },
+  {
+    "fix_id": "upgrade:filelock@3.12.0->@3.20.3",
+    "package": "filelock",
+    "from_version": "3.12.0",
+    "to_version": "3.20.3",
+    "covers": [
+      "GHSA-qmgc-5h2g-mvrw",
+      "GHSA-w853-jp5j-5j7f"
+    ]
+  },
+  {
+    "fix_id": "upgrade:filelock@3.12.2->@3.20.3",
+    "package": "filelock",
+    "from_version": "3.12.2",
+    "to_version": "3.20.3",
+    "covers": [
+      "GHSA-qmgc-5h2g-mvrw",
+      "GHSA-w853-jp5j-5j7f"
+    ]
+  },
+  {
+    "fix_id": "upgrade:filelock@3.13.0->@3.20.3",
+    "package": "filelock",
+    "from_version": "3.13.0",
+    "to_version": "3.20.3",
+    "covers": [
+      "GHSA-qmgc-5h2g-mvrw",
+      "GHSA-w853-jp5j-5j7f"
+    ]
+  },
+  {
+    "fix_id": "upgrade:filelock@3.13.1->@3.20.3",
+    "package": "filelock",
+    "from_version": "3.13.1",
+    "to_version": "3.20.3",
+    "covers": [
+      "GHSA-qmgc-5h2g-mvrw",
+      "GHSA-w853-jp5j-5j7f"
+    ]
+  },
+  {
+    "fix_id": "upgrade:filelock@3.14.0->@3.20.3",
+    "package": "filelock",
+    "from_version": "3.14.0",
+    "to_version": "3.20.3",
+    "covers": [
+      "GHSA-qmgc-5h2g-mvrw",
+      "GHSA-w853-jp5j-5j7f"
+    ]
+  },
+  {
+    "fix_id": "upgrade:filelock@3.15.4->@3.20.3",
+    "package": "filelock",
+    "from_version": "3.15.4",
+    "to_version": "3.20.3",
+    "covers": [
+      "GHSA-qmgc-5h2g-mvrw",
+      "GHSA-w853-jp5j-5j7f"
+    ]
+  },
+  {
+    "fix_id": "upgrade:filelock@3.16.1->@3.20.3",
+    "package": "filelock",
+    "from_version": "3.16.1",
+    "to_version": "3.20.3",
+    "covers": [
+      "GHSA-qmgc-5h2g-mvrw",
+      "GHSA-w853-jp5j-5j7f"
+    ]
+  },
+  {
+    "fix_id": "upgrade:filelock@3.17.0->@3.20.3",
+    "package": "filelock",
+    "from_version": "3.17.0",
+    "to_version": "3.20.3",
+    "covers": [
+      "GHSA-qmgc-5h2g-mvrw",
+      "GHSA-w853-jp5j-5j7f"
+    ]
+  },
+  {
+    "fix_id": "upgrade:filelock@3.18.0->@3.20.3",
+    "package": "filelock",
+    "from_version": "3.18.0",
+    "to_version": "3.20.3",
+    "covers": [
+      "GHSA-qmgc-5h2g-mvrw",
+      "GHSA-w853-jp5j-5j7f"
+    ]
+  },
+  {
+    "fix_id": "upgrade:filelock@3.19.1->@3.20.3",
+    "package": "filelock",
+    "from_version": "3.19.1",
+    "to_version": "3.20.3",
+    "covers": [
+      "GHSA-qmgc-5h2g-mvrw",
+      "GHSA-w853-jp5j-5j7f"
+    ]
+  },
+  {
+    "fix_id": "upgrade:filelock@3.3.0->@3.20.3",
+    "package": "filelock",
+    "from_version": "3.3.0",
+    "to_version": "3.20.3",
+    "covers": [
+      "GHSA-qmgc-5h2g-mvrw",
+      "GHSA-w853-jp5j-5j7f"
+    ]
+  },
+  {
+    "fix_id": "upgrade:filelock@3.3.2->@3.20.3",
+    "package": "filelock",
+    "from_version": "3.3.2",
+    "to_version": "3.20.3",
+    "covers": [
+      "GHSA-qmgc-5h2g-mvrw",
+      "GHSA-w853-jp5j-5j7f"
+    ]
+  },
+  {
+    "fix_id": "upgrade:filelock@3.4.2->@3.20.3",
+    "package": "filelock",
+    "from_version": "3.4.2",
+    "to_version": "3.20.3",
+    "covers": [
+      "GHSA-qmgc-5h2g-mvrw",
+      "GHSA-w853-jp5j-5j7f"
+    ]
+  },
+  {
+    "fix_id": "upgrade:filelock@3.6.0->@3.20.3",
+    "package": "filelock",
+    "from_version": "3.6.0",
+    "to_version": "3.20.3",
+    "covers": [
+      "GHSA-qmgc-5h2g-mvrw",
+      "GHSA-w853-jp5j-5j7f"
+    ]
+  },
+  {
+    "fix_id": "upgrade:filelock@3.7.0->@3.20.3",
+    "package": "filelock",
+    "from_version": "3.7.0",
+    "to_version": "3.20.3",
+    "covers": [
+      "GHSA-qmgc-5h2g-mvrw",
+      "GHSA-w853-jp5j-5j7f"
+    ]
+  },
+  {
+    "fix_id": "upgrade:filelock@3.7.1->@3.20.3",
+    "package": "filelock",
+    "from_version": "3.7.1",
+    "to_version": "3.20.3",
+    "covers": [
+      "GHSA-qmgc-5h2g-mvrw",
+      "GHSA-w853-jp5j-5j7f"
+    ]
+  },
+  {
+    "fix_id": "upgrade:filelock@3.8.0->@3.20.3",
+    "package": "filelock",
+    "from_version": "3.8.0",
+    "to_version": "3.20.3",
+    "covers": [
+      "GHSA-qmgc-5h2g-mvrw",
+      "GHSA-w853-jp5j-5j7f"
+    ]
+  },
+  {
+    "fix_id": "upgrade:filelock@3.9.0->@3.20.3",
+    "package": "filelock",
+    "from_version": "3.9.0",
+    "to_version": "3.20.3",
+    "covers": [
+      "GHSA-qmgc-5h2g-mvrw",
+      "GHSA-w853-jp5j-5j7f"
+    ]
+  },
+  {
+    "fix_id": "upgrade:flask@2.0.1->@3.1.3",
+    "package": "flask",
+    "from_version": "2.0.1",
+    "to_version": "3.1.3",
+    "covers": [
+      "GHSA-68rp-wp8r-4726",
+      "GHSA-m2qf-hxjv-5gpq",
+      "PYSEC-2023-62",
+      "GHSA-4grg-w6v8-c28g"
+    ]
+  },
+  {
+    "fix_id": "upgrade:flask@2.0.3->@3.1.3",
+    "package": "flask",
+    "from_version": "2.0.3",
+    "to_version": "3.1.3",
+    "covers": [
+      "GHSA-68rp-wp8r-4726",
+      "GHSA-m2qf-hxjv-5gpq",
+      "PYSEC-2023-62",
+      "GHSA-4grg-w6v8-c28g"
+    ]
+  },
+  {
+    "fix_id": "upgrade:flask@2.1.2->@3.1.3",
+    "package": "flask",
+    "from_version": "2.1.2",
+    "to_version": "3.1.3",
+    "covers": [
+      "GHSA-68rp-wp8r-4726",
+      "GHSA-m2qf-hxjv-5gpq",
+      "PYSEC-2023-62",
+      "GHSA-4grg-w6v8-c28g"
+    ]
+  },
+  {
+    "fix_id": "upgrade:flask@2.1.3->@3.1.3",
+    "package": "flask",
+    "from_version": "2.1.3",
+    "to_version": "3.1.3",
+    "covers": [
+      "GHSA-68rp-wp8r-4726",
+      "GHSA-m2qf-hxjv-5gpq",
+      "PYSEC-2023-62",
+      "GHSA-4grg-w6v8-c28g"
+    ]
+  },
+  {
+    "fix_id": "upgrade:flask@2.2.2->@3.1.3",
+    "package": "flask",
+    "from_version": "2.2.2",
+    "to_version": "3.1.3",
+    "covers": [
+      "GHSA-68rp-wp8r-4726",
+      "GHSA-m2qf-hxjv-5gpq",
+      "PYSEC-2023-62",
+      "GHSA-4grg-w6v8-c28g"
+    ]
+  },
+  {
+    "fix_id": "upgrade:flask@2.2.5->@3.1.3",
+    "package": "flask",
+    "from_version": "2.2.5",
+    "to_version": "3.1.3",
+    "covers": [
+      "GHSA-68rp-wp8r-4726",
+      "GHSA-m2qf-hxjv-5gpq",
+      "PYSEC-2023-62",
+      "GHSA-4grg-w6v8-c28g"
+    ]
+  },
+  {
+    "fix_id": "upgrade:flask@2.3.2->@3.1.3",
+    "package": "flask",
+    "from_version": "2.3.2",
+    "to_version": "3.1.3",
+    "covers": [
+      "GHSA-68rp-wp8r-4726",
+      "PYSEC-2023-62",
+      "GHSA-4grg-w6v8-c28g"
+    ]
+  },
+  {
+    "fix_id": "upgrade:flask@2.3.3->@3.1.3",
+    "package": "flask",
+    "from_version": "2.3.3",
+    "to_version": "3.1.3",
+    "covers": [
+      "GHSA-68rp-wp8r-4726",
+      "PYSEC-2023-62",
+      "GHSA-4grg-w6v8-c28g"
+    ]
+  },
+  {
+    "fix_id": "upgrade:flask@3.0.0->@3.1.3",
+    "package": "flask",
+    "from_version": "3.0.0",
+    "to_version": "3.1.3",
+    "covers": [
+      "GHSA-68rp-wp8r-4726",
+      "PYSEC-2023-62",
+      "GHSA-4grg-w6v8-c28g"
+    ]
+  },
+  {
+    "fix_id": "upgrade:flask@3.0.2->@3.1.3",
+    "package": "flask",
+    "from_version": "3.0.2",
+    "to_version": "3.1.3",
+    "covers": [
+      "GHSA-68rp-wp8r-4726",
+      "PYSEC-2023-62",
+      "GHSA-4grg-w6v8-c28g"
+    ]
+  },
+  {
+    "fix_id": "upgrade:flask@3.0.3->@3.1.3",
+    "package": "flask",
+    "from_version": "3.0.3",
+    "to_version": "3.1.3",
+    "covers": [
+      "GHSA-68rp-wp8r-4726",
+      "PYSEC-2023-62",
+      "GHSA-4grg-w6v8-c28g"
+    ]
+  },
+  {
+    "fix_id": "upgrade:flask@3.1.0->@3.1.3",
+    "package": "flask",
+    "from_version": "3.1.0",
+    "to_version": "3.1.3",
+    "covers": [
+      "GHSA-68rp-wp8r-4726",
+      "PYSEC-2023-62",
+      "GHSA-4grg-w6v8-c28g"
+    ]
+  },
+  {
+    "fix_id": "upgrade:flask@3.1.1->@3.1.3",
+    "package": "flask",
+    "from_version": "3.1.1",
+    "to_version": "3.1.3",
+    "covers": [
+      "GHSA-68rp-wp8r-4726",
+      "PYSEC-2023-62"
+    ]
+  },
+  {
+    "fix_id": "upgrade:flask@3.1.2->@3.1.3",
+    "package": "flask",
+    "from_version": "3.1.2",
+    "to_version": "3.1.3",
+    "covers": [
+      "GHSA-68rp-wp8r-4726",
+      "PYSEC-2023-62"
+    ]
+  },
+  {
+    "fix_id": "upgrade:flask-cors@3.0.10->@6.0.0",
+    "package": "flask-cors",
+    "from_version": "3.0.10",
+    "to_version": "6.0.0",
+    "covers": [
+      "GHSA-43qf-4rqw-9q2g",
+      "GHSA-7rxf-gvfg-47g4",
+      "GHSA-84pr-m4jr-85g5",
+      "GHSA-8vgw-p6qm-5gr7",
+      "GHSA-hxwh-jpp2-84pm",
+      "PYSEC-2024-71"
+    ]
+  },
+  {
+    "fix_id": "upgrade:flask-cors@4.0.1->@6.0.0",
+    "package": "flask-cors",
+    "from_version": "4.0.1",
+    "to_version": "6.0.0",
+    "covers": [
+      "GHSA-43qf-4rqw-9q2g",
+      "GHSA-7rxf-gvfg-47g4",
+      "GHSA-8vgw-p6qm-5gr7",
+      "GHSA-hxwh-jpp2-84pm",
+      "PYSEC-2024-71"
+    ]
+  },
+  {
+    "fix_id": "upgrade:fonttools@4.38.0->@4.60.2",
+    "package": "fonttools",
+    "from_version": "4.38.0",
+    "to_version": "4.60.2",
+    "covers": [
+      "GHSA-6673-4983-2vx5",
+      "GHSA-768j-98cg-p3fv"
+    ]
+  },
+  {
+    "fix_id": "upgrade:fonttools@4.42.0->@4.60.2",
+    "package": "fonttools",
+    "from_version": "4.42.0",
+    "to_version": "4.60.2",
+    "covers": [
+      "GHSA-6673-4983-2vx5",
+      "GHSA-768j-98cg-p3fv"
+    ]
+  },
+  {
+    "fix_id": "upgrade:fonttools@4.45.1->@4.60.2",
+    "package": "fonttools",
+    "from_version": "4.45.1",
+    "to_version": "4.60.2",
+    "covers": [
+      "GHSA-768j-98cg-p3fv"
+    ]
+  },
+  {
+    "fix_id": "upgrade:fonttools@4.46.0->@4.60.2",
+    "package": "fonttools",
+    "from_version": "4.46.0",
+    "to_version": "4.60.2",
+    "covers": [
+      "GHSA-768j-98cg-p3fv"
+    ]
+  },
+  {
+    "fix_id": "upgrade:fonttools@4.53.1->@4.60.2",
+    "package": "fonttools",
+    "from_version": "4.53.1",
+    "to_version": "4.60.2",
+    "covers": [
+      "GHSA-768j-98cg-p3fv"
+    ]
+  },
+  {
+    "fix_id": "upgrade:fonttools@4.56.0->@4.60.2",
+    "package": "fonttools",
+    "from_version": "4.56.0",
+    "to_version": "4.60.2",
+    "covers": [
+      "GHSA-768j-98cg-p3fv"
+    ]
+  },
+  {
+    "fix_id": "upgrade:future@0.18.2->@0.18.3",
+    "package": "future",
+    "from_version": "0.18.2",
+    "to_version": "0.18.3",
+    "covers": [
+      "GHSA-v3c5-jqr6-7qm8",
+      "PYSEC-2022-42991"
+    ]
+  },
+  {
+    "fix_id": "upgrade:gitpython@3.1.27->@3.1.41",
+    "package": "gitpython",
+    "from_version": "3.1.27",
+    "to_version": "3.1.41",
+    "covers": [
+      "GHSA-2mqj-m65w-jghx",
+      "GHSA-cwvm-v4w8-q58c",
+      "GHSA-hcpj-qp55-gfph",
+      "GHSA-pr76-5cm5-w9cj",
+      "GHSA-wfm5-v35h-vwf4",
+      "PYSEC-2022-42992",
+      "PYSEC-2023-137",
+      "PYSEC-2023-161",
+      "PYSEC-2023-165",
+      "PYSEC-2024-4"
+    ]
+  },
+  {
+    "fix_id": "upgrade:grpcio@1.34.1->@1.53.2",
+    "package": "grpcio",
+    "from_version": "1.34.1",
+    "to_version": "1.53.2",
+    "covers": [
+      "GHSA-496j-2rq6-j6cc"
+    ]
+  },
+  {
+    "fix_id": "upgrade:grpcio@1.41.1->@1.53.2",
+    "package": "grpcio",
+    "from_version": "1.41.1",
+    "to_version": "1.53.2",
+    "covers": [
+      "GHSA-496j-2rq6-j6cc"
+    ]
+  },
+  {
+    "fix_id": "upgrade:grpcio@1.46.3->@1.53.2",
+    "package": "grpcio",
+    "from_version": "1.46.3",
+    "to_version": "1.53.2",
+    "covers": [
+      "GHSA-496j-2rq6-j6cc"
+    ]
+  },
+  {
+    "fix_id": "upgrade:grpcio@1.48.1->@1.53.2",
+    "package": "grpcio",
+    "from_version": "1.48.1",
+    "to_version": "1.53.2",
+    "covers": [
+      "GHSA-496j-2rq6-j6cc"
+    ]
+  },
+  {
+    "fix_id": "upgrade:gunicorn@20.1.0->@22.0.0",
+    "package": "gunicorn",
+    "from_version": "20.1.0",
+    "to_version": "22.0.0",
+    "covers": [
+      "GHSA-hc5x-x2vx-497g",
+      "GHSA-w3h3-4rj7-4ph4"
+    ]
+  },
+  {
+    "fix_id": "upgrade:gunicorn@21.2.0->@22.0.0",
+    "package": "gunicorn",
+    "from_version": "21.2.0",
+    "to_version": "22.0.0",
+    "covers": [
+      "GHSA-hc5x-x2vx-497g",
+      "GHSA-w3h3-4rj7-4ph4"
+    ]
+  },
+  {
+    "fix_id": "upgrade:h11@0.12.0->@0.16.0",
+    "package": "h11",
+    "from_version": "0.12.0",
+    "to_version": "0.16.0",
+    "covers": [
+      "GHSA-vqfr-h8mv-ghfj"
+    ]
+  },
+  {
+    "fix_id": "upgrade:h11@0.13.0->@0.16.0",
+    "package": "h11",
+    "from_version": "0.13.0",
+    "to_version": "0.16.0",
+    "covers": [
+      "GHSA-vqfr-h8mv-ghfj"
+    ]
+  },
+  {
+    "fix_id": "upgrade:h11@0.14.0->@0.16.0",
+    "package": "h11",
+    "from_version": "0.14.0",
+    "to_version": "0.16.0",
+    "covers": [
+      "GHSA-vqfr-h8mv-ghfj"
+    ]
+  },
+  {
+    "fix_id": "upgrade:idna@2.10->@3.7",
+    "package": "idna",
+    "from_version": "2.10",
+    "to_version": "3.7",
+    "covers": [
+      "GHSA-jjg7-2v4v-x38h",
+      "PYSEC-2024-60"
+    ]
+  },
+  {
+    "fix_id": "upgrade:idna@2.6->@3.7",
+    "package": "idna",
+    "from_version": "2.6",
+    "to_version": "3.7",
+    "covers": [
+      "GHSA-jjg7-2v4v-x38h",
+      "PYSEC-2024-60"
+    ]
+  },
+  {
+    "fix_id": "upgrade:idna@2.9->@3.7",
+    "package": "idna",
+    "from_version": "2.9",
+    "to_version": "3.7",
+    "covers": [
+      "GHSA-jjg7-2v4v-x38h",
+      "PYSEC-2024-60"
+    ]
+  },
+  {
+    "fix_id": "upgrade:idna@3.2->@3.7",
+    "package": "idna",
+    "from_version": "3.2",
+    "to_version": "3.7",
+    "covers": [
+      "GHSA-jjg7-2v4v-x38h",
+      "PYSEC-2024-60"
+    ]
+  },
+  {
+    "fix_id": "upgrade:idna@3.3->@3.7",
+    "package": "idna",
+    "from_version": "3.3",
+    "to_version": "3.7",
+    "covers": [
+      "GHSA-jjg7-2v4v-x38h",
+      "PYSEC-2024-60"
+    ]
+  },
+  {
+    "fix_id": "upgrade:idna@3.4->@3.7",
+    "package": "idna",
+    "from_version": "3.4",
+    "to_version": "3.7",
+    "covers": [
+      "GHSA-jjg7-2v4v-x38h",
+      "PYSEC-2024-60"
+    ]
+  },
+  {
+    "fix_id": "upgrade:idna@3.6->@3.7",
+    "package": "idna",
+    "from_version": "3.6",
+    "to_version": "3.7",
+    "covers": [
+      "GHSA-jjg7-2v4v-x38h",
+      "PYSEC-2024-60"
+    ]
+  },
+  {
+    "fix_id": "upgrade:ipython@7.13.0->@8.10.0",
+    "package": "ipython",
+    "from_version": "7.13.0",
+    "to_version": "8.10.0",
+    "covers": [
+      "GHSA-29gw-9793-fvw7",
+      "PYSEC-2022-12",
+      "PYSEC-2023-17"
+    ]
+  },
+  {
+    "fix_id": "upgrade:ipython@7.18.1->@8.10.0",
+    "package": "ipython",
+    "from_version": "7.18.1",
+    "to_version": "8.10.0",
+    "covers": [
+      "GHSA-29gw-9793-fvw7",
+      "PYSEC-2022-12",
+      "PYSEC-2023-17"
+    ]
+  },
+  {
+    "fix_id": "upgrade:ipython@7.24.1->@8.10.0",
+    "package": "ipython",
+    "from_version": "7.24.1",
+    "to_version": "8.10.0",
+    "covers": [
+      "GHSA-29gw-9793-fvw7",
+      "PYSEC-2022-12",
+      "PYSEC-2023-17"
+    ]
+  },
+  {
+    "fix_id": "upgrade:ipython@7.29.0->@8.10.0",
+    "package": "ipython",
+    "from_version": "7.29.0",
+    "to_version": "8.10.0",
+    "covers": [
+      "GHSA-29gw-9793-fvw7",
+      "PYSEC-2022-12",
+      "PYSEC-2023-17"
+    ]
+  },
+  {
+    "fix_id": "upgrade:ipython@8.0.1->@8.10.0",
+    "package": "ipython",
+    "from_version": "8.0.1",
+    "to_version": "8.10.0",
+    "covers": [
+      "GHSA-29gw-9793-fvw7",
+      "PYSEC-2022-12",
+      "PYSEC-2023-17"
+    ]
+  },
+  {
+    "fix_id": "upgrade:ipython@8.6.0->@8.10.0",
+    "package": "ipython",
+    "from_version": "8.6.0",
+    "to_version": "8.10.0",
+    "covers": [
+      "GHSA-29gw-9793-fvw7",
+      "PYSEC-2022-12",
+      "PYSEC-2023-17"
+    ]
+  },
+  {
+    "fix_id": "upgrade:jinja2@2.11.2->@3.1.6",
+    "package": "jinja2",
+    "from_version": "2.11.2",
+    "to_version": "3.1.6",
+    "covers": [
+      "GHSA-cpwx-vrp4-4pq7",
+      "GHSA-g3rq-g295-4j3m",
+      "GHSA-h5c8-rqwp-cp95",
+      "GHSA-h75v-3vvj-5mfj",
+      "GHSA-q2x7-8rv6-6q7h",
+      "PYSEC-2021-66",
+      "GHSA-gmj6-6f8f-6699"
+    ]
+  },
+  {
+    "fix_id": "upgrade:jinja2@2.11.3->@3.1.6",
+    "package": "jinja2",
+    "from_version": "2.11.3",
+    "to_version": "3.1.6",
+    "covers": [
+      "GHSA-cpwx-vrp4-4pq7",
+      "GHSA-h5c8-rqwp-cp95",
+      "GHSA-h75v-3vvj-5mfj",
+      "GHSA-q2x7-8rv6-6q7h",
+      "GHSA-gmj6-6f8f-6699"
+    ]
+  },
+  {
+    "fix_id": "upgrade:jinja2@3.0.1->@3.1.6",
+    "package": "jinja2",
+    "from_version": "3.0.1",
+    "to_version": "3.1.6",
+    "covers": [
+      "GHSA-cpwx-vrp4-4pq7",
+      "GHSA-h5c8-rqwp-cp95",
+      "GHSA-h75v-3vvj-5mfj",
+      "GHSA-q2x7-8rv6-6q7h",
+      "GHSA-gmj6-6f8f-6699"
+    ]
+  },
+  {
+    "fix_id": "upgrade:jinja2@3.0.3->@3.1.6",
+    "package": "jinja2",
+    "from_version": "3.0.3",
+    "to_version": "3.1.6",
+    "covers": [
+      "GHSA-cpwx-vrp4-4pq7",
+      "GHSA-h5c8-rqwp-cp95",
+      "GHSA-h75v-3vvj-5mfj",
+      "GHSA-q2x7-8rv6-6q7h",
+      "GHSA-gmj6-6f8f-6699"
+    ]
+  },
+  {
+    "fix_id": "upgrade:jinja2@3.1.2->@3.1.6",
+    "package": "jinja2",
+    "from_version": "3.1.2",
+    "to_version": "3.1.6",
+    "covers": [
+      "GHSA-cpwx-vrp4-4pq7",
+      "GHSA-h5c8-rqwp-cp95",
+      "GHSA-h75v-3vvj-5mfj",
+      "GHSA-q2x7-8rv6-6q7h",
+      "GHSA-gmj6-6f8f-6699"
+    ]
+  },
+  {
+    "fix_id": "upgrade:jinja2@3.1.3->@3.1.6",
+    "package": "jinja2",
+    "from_version": "3.1.3",
+    "to_version": "3.1.6",
+    "covers": [
+      "GHSA-cpwx-vrp4-4pq7",
+      "GHSA-h75v-3vvj-5mfj",
+      "GHSA-q2x7-8rv6-6q7h",
+      "GHSA-gmj6-6f8f-6699"
+    ]
+  },
+  {
+    "fix_id": "upgrade:jinja2@3.1.4->@3.1.6",
+    "package": "jinja2",
+    "from_version": "3.1.4",
+    "to_version": "3.1.6",
+    "covers": [
+      "GHSA-cpwx-vrp4-4pq7",
+      "GHSA-q2x7-8rv6-6q7h",
+      "GHSA-gmj6-6f8f-6699"
+    ]
+  },
+  {
+    "fix_id": "upgrade:jinja2@3.1.5->@3.1.6",
+    "package": "jinja2",
+    "from_version": "3.1.5",
+    "to_version": "3.1.6",
+    "covers": [
+      "GHSA-cpwx-vrp4-4pq7"
+    ]
+  },
+  {
+    "fix_id": "upgrade:joblib@1.0.1->@1.2.0",
+    "package": "joblib",
+    "from_version": "1.0.1",
+    "to_version": "1.2.0",
+    "covers": [
+      "GHSA-6hrg-qmvc-2xh8",
+      "PYSEC-2022-288"
+    ]
+  },
+  {
+    "fix_id": "upgrade:joblib@1.1.0->@1.2.0",
+    "package": "joblib",
+    "from_version": "1.1.0",
+    "to_version": "1.2.0",
+    "covers": [
+      "GHSA-6hrg-qmvc-2xh8",
+      "PYSEC-2022-288"
+    ]
+  },
+  {
+    "fix_id": "upgrade:jupyter-core@4.6.3->@5.8.1",
+    "package": "jupyter-core",
+    "from_version": "4.6.3",
+    "to_version": "5.8.1",
+    "covers": [
+      "GHSA-33p9-3p43-82vq",
+      "GHSA-m678-f26j-3hrp",
+      "PYSEC-2022-42974"
+    ]
+  },
+  {
+    "fix_id": "upgrade:jupyter-core@5.0.0->@5.8.1",
+    "package": "jupyter-core",
+    "from_version": "5.0.0",
+    "to_version": "5.8.1",
+    "covers": [
+      "GHSA-33p9-3p43-82vq",
+      "PYSEC-2022-42974"
+    ]
+  },
+  {
+    "fix_id": "upgrade:jupyter-core@5.7.2->@5.8.1",
+    "package": "jupyter-core",
+    "from_version": "5.7.2",
+    "to_version": "5.8.1",
+    "covers": [
+      "GHSA-33p9-3p43-82vq",
+      "PYSEC-2022-42974"
+    ]
+  },
+  {
+    "fix_id": "upgrade:jupyterlab@1.2.10->@4.4.8",
+    "package": "jupyterlab",
+    "from_version": "1.2.10",
+    "to_version": "4.4.8",
+    "covers": [
+      "GHSA-44cc-43rp-5947",
+      "GHSA-4952-p58q-6crx",
+      "GHSA-9q39-rmj3-p4r2",
+      "GHSA-vvfj-2jqx-52jm",
+      "PYSEC-2021-130"
+    ]
+  },
+  {
+    "fix_id": "upgrade:keras@2.9.0->@3.13.2",
+    "package": "keras",
+    "from_version": "2.9.0",
+    "to_version": "3.13.2",
+    "covers": [
+      "GHSA-36fq-jgmw-4r9c",
+      "GHSA-cjgq-5qmw-rcj6",
+      "GHSA-hjqc-jx6g-rwp9",
+      "GHSA-mq84-hjqx-cwf2",
+      "GHSA-x4wf-678h-2pmq"
+    ]
+  },
+  {
+    "fix_id": "upgrade:mako@1.1.4->@1.2.2",
+    "package": "mako",
+    "from_version": "1.1.4",
+    "to_version": "1.2.2",
+    "covers": [
+      "GHSA-v973-fxgf-6xhp",
+      "PYSEC-2022-260"
+    ]
+  },
+  {
+    "fix_id": "upgrade:mako@1.2.1->@1.2.2",
+    "package": "mako",
+    "from_version": "1.2.1",
+    "to_version": "1.2.2",
+    "covers": [
+      "GHSA-v973-fxgf-6xhp",
+      "PYSEC-2022-260"
+    ]
+  },
+  {
+    "fix_id": "upgrade:markdown@3.2.1->@3.8.1",
+    "package": "markdown",
+    "from_version": "3.2.1",
+    "to_version": "3.8.1",
+    "covers": [
+      "GHSA-5wmx-573v-2qwq"
+    ]
+  },
+  {
+    "fix_id": "upgrade:markdown@3.3.4->@3.8.1",
+    "package": "markdown",
+    "from_version": "3.3.4",
+    "to_version": "3.8.1",
+    "covers": [
+      "GHSA-5wmx-573v-2qwq"
+    ]
+  },
+  {
+    "fix_id": "upgrade:markdown@3.3.7->@3.8.1",
+    "package": "markdown",
+    "from_version": "3.3.7",
+    "to_version": "3.8.1",
+    "covers": [
+      "GHSA-5wmx-573v-2qwq"
+    ]
+  },
+  {
+    "fix_id": "upgrade:markdown@3.4.1->@3.8.1",
+    "package": "markdown",
+    "from_version": "3.4.1",
+    "to_version": "3.8.1",
+    "covers": [
+      "GHSA-5wmx-573v-2qwq"
+    ]
+  },
+  {
+    "fix_id": "upgrade:markdown@3.5.1->@3.8.1",
+    "package": "markdown",
+    "from_version": "3.5.1",
+    "to_version": "3.8.1",
+    "covers": [
+      "GHSA-5wmx-573v-2qwq"
+    ]
+  },
+  {
+    "fix_id": "upgrade:markdownify@0.11.6->@0.14.1",
+    "package": "markdownify",
+    "from_version": "0.11.6",
+    "to_version": "0.14.1",
+    "covers": [
+      "GHSA-7mpr-5m44-h73r"
+    ]
+  },
+  {
+    "fix_id": "upgrade:marshmallow@3.12.1->@3.26.2",
+    "package": "marshmallow",
+    "from_version": "3.12.1",
+    "to_version": "3.26.2",
+    "covers": [
+      "GHSA-428g-f7cq-pgp5"
+    ]
+  },
+  {
+    "fix_id": "upgrade:marshmallow@3.17.0->@3.26.2",
+    "package": "marshmallow",
+    "from_version": "3.17.0",
+    "to_version": "3.26.2",
+    "covers": [
+      "GHSA-428g-f7cq-pgp5"
+    ]
+  },
+  {
+    "fix_id": "upgrade:marshmallow@3.23.1->@3.26.2",
+    "package": "marshmallow",
+    "from_version": "3.23.1",
+    "to_version": "3.26.2",
+    "covers": [
+      "GHSA-428g-f7cq-pgp5"
+    ]
+  },
+  {
+    "fix_id": "upgrade:mkdocs@1.2.2->@1.2.3",
+    "package": "mkdocs",
+    "from_version": "1.2.2",
+    "to_version": "1.2.3",
+    "covers": [
+      "GHSA-qh9q-34h6-hcv9",
+      "PYSEC-2021-878"
+    ]
+  },
+  {
+    "fix_id": "upgrade:nbconvert@5.6.1->@7.17.0",
+    "package": "nbconvert",
+    "from_version": "5.6.1",
+    "to_version": "7.17.0",
+    "covers": [
+      "GHSA-9jmq-rx5f-8jwq",
+      "GHSA-xm59-rqc7-hhvf",
+      "PYSEC-2022-249"
+    ]
+  },
+  {
+    "fix_id": "upgrade:notebook@6.0.3->@6.4.12",
+    "package": "notebook",
+    "from_version": "6.0.3",
+    "to_version": "6.4.12",
+    "covers": [
+      "GHSA-c7vm-f5p4-8fqh",
+      "GHSA-m87f-39q9-6f55",
+      "GHSA-v7vq-3x77-87vg",
+      "PYSEC-2020-215",
+      "PYSEC-2022-180",
+      "PYSEC-2022-212"
+    ]
+  },
+  {
+    "fix_id": "upgrade:numpy@1.19.4->@1.22",
+    "package": "numpy",
+    "from_version": "1.19.4",
+    "to_version": "1.22",
+    "covers": [
+      "GHSA-6p56-wp2h-9hxr",
+      "GHSA-fpfv-jqm9-f5jm"
+    ]
+  },
+  {
+    "fix_id": "upgrade:numpy@1.19.5->@1.22",
+    "package": "numpy",
+    "from_version": "1.19.5",
+    "to_version": "1.22",
+    "covers": [
+      "GHSA-6p56-wp2h-9hxr",
+      "GHSA-fpfv-jqm9-f5jm"
+    ]
+  },
+  {
+    "fix_id": "upgrade:numpy@1.20.1->@1.22",
+    "package": "numpy",
+    "from_version": "1.20.1",
+    "to_version": "1.22",
+    "covers": [
+      "GHSA-6p56-wp2h-9hxr",
+      "GHSA-fpfv-jqm9-f5jm"
+    ]
+  },
+  {
+    "fix_id": "upgrade:numpy@1.20.3->@1.22",
+    "package": "numpy",
+    "from_version": "1.20.3",
+    "to_version": "1.22",
+    "covers": [
+      "GHSA-6p56-wp2h-9hxr",
+      "GHSA-fpfv-jqm9-f5jm"
+    ]
+  },
+  {
+    "fix_id": "upgrade:numpy@1.21.4->@1.22",
+    "package": "numpy",
+    "from_version": "1.21.4",
+    "to_version": "1.22",
+    "covers": [
+      "GHSA-fpfv-jqm9-f5jm"
+    ]
+  },
+  {
+    "fix_id": "upgrade:numpy@1.21.6->@1.22",
+    "package": "numpy",
+    "from_version": "1.21.6",
+    "to_version": "1.22",
+    "covers": [
+      "GHSA-fpfv-jqm9-f5jm"
+    ]
+  },
+  {
+    "fix_id": "upgrade:oauthlib@3.1.0->@3.2.2",
+    "package": "oauthlib",
+    "from_version": "3.1.0",
+    "to_version": "3.2.2",
+    "covers": [
+      "GHSA-3pgj-pg6c-r5p7",
+      "PYSEC-2022-269"
+    ]
+  },
+  {
+    "fix_id": "upgrade:oauthlib@3.2.0->@3.2.2",
+    "package": "oauthlib",
+    "from_version": "3.2.0",
+    "to_version": "3.2.2",
+    "covers": [
+      "GHSA-3pgj-pg6c-r5p7",
+      "PYSEC-2022-269"
+    ]
+  },
+  {
+    "fix_id": "upgrade:opencv-python@4.5.5.64->@4.8.1.78",
+    "package": "opencv-python",
+    "from_version": "4.5.5.64",
+    "to_version": "4.8.1.78",
+    "covers": [
+      "GHSA-qr4w-53vh-m672",
+      "PYSEC-2023-183"
+    ]
+  },
+  {
+    "fix_id": "upgrade:opencv-python-headless@4.5.2.52->@4.8.1.78",
+    "package": "opencv-python-headless",
+    "from_version": "4.5.2.52",
+    "to_version": "4.8.1.78",
+    "covers": [
+      "GHSA-jh2j-j4j9-crg3",
+      "PYSEC-2023-184"
+    ]
+  },
+  {
+    "fix_id": "upgrade:paramiko@2.10.1->@3.4.0",
+    "package": "paramiko",
+    "from_version": "2.10.1",
+    "to_version": "3.4.0",
+    "covers": [
+      "GHSA-45x7-px36-x8w8"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pdoc@13.1.0->@14.5.1",
+    "package": "pdoc",
+    "from_version": "13.1.0",
+    "to_version": "14.5.1",
+    "covers": [
+      "GHSA-5vgj-ggm4-fg62"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pillow@10.0.0->@12.1.1",
+    "package": "pillow",
+    "from_version": "10.0.0",
+    "to_version": "12.1.1",
+    "covers": [
+      "GHSA-3f63-hfp8-52jq",
+      "GHSA-44wm-f244-xhp3",
+      "GHSA-j7hp-h8jx-5ppr",
+      "PYSEC-2023-175",
+      "GHSA-cfh3-3jmp-rvhc",
+      "GHSA-xg8h-j46f-w952",
+      "PYSEC-2025-61",
+      "PYSEC-2021-317",
+      "PYSEC-2022-42979",
+      "PYSEC-2023-227"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pillow@10.1.0->@12.1.1",
+    "package": "pillow",
+    "from_version": "10.1.0",
+    "to_version": "12.1.1",
+    "covers": [
+      "GHSA-3f63-hfp8-52jq",
+      "GHSA-44wm-f244-xhp3",
+      "GHSA-cfh3-3jmp-rvhc",
+      "GHSA-xg8h-j46f-w952",
+      "PYSEC-2025-61",
+      "PYSEC-2021-317",
+      "PYSEC-2022-42979",
+      "PYSEC-2023-227"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pillow@10.2.0->@12.1.1",
+    "package": "pillow",
+    "from_version": "10.2.0",
+    "to_version": "12.1.1",
+    "covers": [
+      "GHSA-44wm-f244-xhp3",
+      "GHSA-cfh3-3jmp-rvhc",
+      "GHSA-xg8h-j46f-w952",
+      "PYSEC-2025-61",
+      "PYSEC-2021-317",
+      "PYSEC-2022-42979",
+      "PYSEC-2023-227"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pillow@10.3.0->@12.1.1",
+    "package": "pillow",
+    "from_version": "10.3.0",
+    "to_version": "12.1.1",
+    "covers": [
+      "GHSA-cfh3-3jmp-rvhc",
+      "GHSA-xg8h-j46f-w952",
+      "PYSEC-2025-61",
+      "PYSEC-2021-317",
+      "PYSEC-2022-42979",
+      "PYSEC-2023-227"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pillow@10.4.0->@12.1.1",
+    "package": "pillow",
+    "from_version": "10.4.0",
+    "to_version": "12.1.1",
+    "covers": [
+      "GHSA-cfh3-3jmp-rvhc",
+      "GHSA-xg8h-j46f-w952",
+      "PYSEC-2025-61",
+      "PYSEC-2021-317",
+      "PYSEC-2022-42979",
+      "PYSEC-2023-227"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pillow@11.0.0->@12.1.1",
+    "package": "pillow",
+    "from_version": "11.0.0",
+    "to_version": "12.1.1",
+    "covers": [
+      "GHSA-cfh3-3jmp-rvhc",
+      "GHSA-xg8h-j46f-w952",
+      "PYSEC-2025-61",
+      "PYSEC-2021-317",
+      "PYSEC-2022-42979",
+      "PYSEC-2023-227"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pillow@11.1.0->@12.1.1",
+    "package": "pillow",
+    "from_version": "11.1.0",
+    "to_version": "12.1.1",
+    "covers": [
+      "GHSA-cfh3-3jmp-rvhc",
+      "GHSA-xg8h-j46f-w952",
+      "PYSEC-2025-61",
+      "PYSEC-2021-317",
+      "PYSEC-2022-42979",
+      "PYSEC-2023-227"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pillow@11.2.1->@12.1.1",
+    "package": "pillow",
+    "from_version": "11.2.1",
+    "to_version": "12.1.1",
+    "covers": [
+      "GHSA-cfh3-3jmp-rvhc",
+      "GHSA-xg8h-j46f-w952",
+      "PYSEC-2025-61",
+      "PYSEC-2021-317",
+      "PYSEC-2022-42979",
+      "PYSEC-2023-227"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pillow@8.2.0->@12.1.1",
+    "package": "pillow",
+    "from_version": "8.2.0",
+    "to_version": "12.1.1",
+    "covers": [
+      "GHSA-3f63-hfp8-52jq",
+      "GHSA-44wm-f244-xhp3",
+      "GHSA-j7hp-h8jx-5ppr",
+      "PYSEC-2023-175",
+      "GHSA-cfh3-3jmp-rvhc",
+      "GHSA-xg8h-j46f-w952",
+      "PYSEC-2025-61",
+      "GHSA-4fx9-vc88-q2xc",
+      "GHSA-7534-mm45-c74v",
+      "GHSA-8ghj-p4vj-mr35",
+      "GHSA-8vj2-vxx3-667w",
+      "GHSA-98vv-pw6r-q6q4",
+      "GHSA-9j59-75qj-795w",
+      "GHSA-m2vv-5vj5-2hm7",
+      "GHSA-pw3c-h7wp-cvhx",
+      "GHSA-xrcv-f9gm-v42c",
+      "PYSEC-2021-317",
+      "PYSEC-2021-331",
+      "PYSEC-2022-10",
+      "PYSEC-2022-168",
+      "PYSEC-2022-42979",
+      "PYSEC-2022-8",
+      "PYSEC-2022-9",
+      "PYSEC-2023-227"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pillow@9.3.0->@12.1.1",
+    "package": "pillow",
+    "from_version": "9.3.0",
+    "to_version": "12.1.1",
+    "covers": [
+      "GHSA-3f63-hfp8-52jq",
+      "GHSA-44wm-f244-xhp3",
+      "GHSA-j7hp-h8jx-5ppr",
+      "PYSEC-2023-175",
+      "GHSA-cfh3-3jmp-rvhc",
+      "GHSA-xg8h-j46f-w952",
+      "PYSEC-2025-61",
+      "GHSA-8ghj-p4vj-mr35",
+      "PYSEC-2021-317",
+      "PYSEC-2022-42979",
+      "PYSEC-2023-227"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pillow@9.4.0->@12.1.1",
+    "package": "pillow",
+    "from_version": "9.4.0",
+    "to_version": "12.1.1",
+    "covers": [
+      "GHSA-3f63-hfp8-52jq",
+      "GHSA-44wm-f244-xhp3",
+      "GHSA-j7hp-h8jx-5ppr",
+      "PYSEC-2023-175",
+      "GHSA-cfh3-3jmp-rvhc",
+      "GHSA-xg8h-j46f-w952",
+      "PYSEC-2025-61",
+      "GHSA-8ghj-p4vj-mr35",
+      "PYSEC-2021-317",
+      "PYSEC-2022-42979",
+      "PYSEC-2023-227"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pillow@9.5.0->@12.1.1",
+    "package": "pillow",
+    "from_version": "9.5.0",
+    "to_version": "12.1.1",
+    "covers": [
+      "GHSA-3f63-hfp8-52jq",
+      "GHSA-44wm-f244-xhp3",
+      "GHSA-j7hp-h8jx-5ppr",
+      "PYSEC-2023-175",
+      "GHSA-cfh3-3jmp-rvhc",
+      "GHSA-xg8h-j46f-w952",
+      "PYSEC-2025-61",
+      "GHSA-8ghj-p4vj-mr35",
+      "PYSEC-2021-317",
+      "PYSEC-2022-42979",
+      "PYSEC-2023-227"
+    ]
+  },
+  {
+    "fix_id": "upgrade:protobuf@3.17.1->@6.33.5",
+    "package": "protobuf",
+    "from_version": "3.17.1",
+    "to_version": "6.33.5",
+    "covers": [
+      "GHSA-7gcm-g887-7qv7",
+      "GHSA-8gq9-2x98-w8hf",
+      "GHSA-8qvm-5x2c-j2w7"
+    ]
+  },
+  {
+    "fix_id": "upgrade:protobuf@3.19.1->@6.33.5",
+    "package": "protobuf",
+    "from_version": "3.19.1",
+    "to_version": "6.33.5",
+    "covers": [
+      "GHSA-7gcm-g887-7qv7",
+      "GHSA-8qvm-5x2c-j2w7"
+    ]
+  },
+  {
+    "fix_id": "upgrade:protobuf@3.19.4->@6.33.5",
+    "package": "protobuf",
+    "from_version": "3.19.4",
+    "to_version": "6.33.5",
+    "covers": [
+      "GHSA-7gcm-g887-7qv7",
+      "GHSA-8qvm-5x2c-j2w7"
+    ]
+  },
+  {
+    "fix_id": "upgrade:protobuf@3.20.1->@6.33.5",
+    "package": "protobuf",
+    "from_version": "3.20.1",
+    "to_version": "6.33.5",
+    "covers": [
+      "GHSA-7gcm-g887-7qv7",
+      "GHSA-8qvm-5x2c-j2w7"
+    ]
+  },
+  {
+    "fix_id": "upgrade:protobuf@4.24.3->@6.33.5",
+    "package": "protobuf",
+    "from_version": "4.24.3",
+    "to_version": "6.33.5",
+    "covers": [
+      "GHSA-7gcm-g887-7qv7",
+      "GHSA-8qvm-5x2c-j2w7"
+    ]
+  },
+  {
+    "fix_id": "upgrade:protobuf@4.25.3->@6.33.5",
+    "package": "protobuf",
+    "from_version": "4.25.3",
+    "to_version": "6.33.5",
+    "covers": [
+      "GHSA-7gcm-g887-7qv7",
+      "GHSA-8qvm-5x2c-j2w7"
+    ]
+  },
+  {
+    "fix_id": "upgrade:protobuf@5.29.5->@6.33.5",
+    "package": "protobuf",
+    "from_version": "5.29.5",
+    "to_version": "6.33.5",
+    "covers": [
+      "GHSA-7gcm-g887-7qv7"
+    ]
+  },
+  {
+    "fix_id": "upgrade:protobuf@5.29.6->@6.33.5",
+    "package": "protobuf",
+    "from_version": "5.29.6",
+    "to_version": "6.33.5",
+    "covers": [
+      "GHSA-7gcm-g887-7qv7"
+    ]
+  },
+  {
+    "fix_id": "upgrade:protobuf@6.31.1->@6.33.5",
+    "package": "protobuf",
+    "from_version": "6.31.1",
+    "to_version": "6.33.5",
+    "covers": [
+      "GHSA-7gcm-g887-7qv7"
+    ]
+  },
+  {
+    "fix_id": "upgrade:py@1.10.0->@1.11.0",
+    "package": "py",
+    "from_version": "1.10.0",
+    "to_version": "1.11.0",
+    "covers": [
+      "PYSEC-2022-42969"
+    ]
+  },
+  {
+    "fix_id": "upgrade:py@1.8.1->@1.11.0",
+    "package": "py",
+    "from_version": "1.8.1",
+    "to_version": "1.11.0",
+    "covers": [
+      "PYSEC-2022-42969",
+      "GHSA-hj5v-574p-mj7c",
+      "PYSEC-2020-92"
+    ]
+  },
+  {
+    "fix_id": "upgrade:py@1.9.0->@1.11.0",
+    "package": "py",
+    "from_version": "1.9.0",
+    "to_version": "1.11.0",
+    "covers": [
+      "PYSEC-2022-42969",
+      "GHSA-hj5v-574p-mj7c",
+      "PYSEC-2020-92"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pyarrow@14.0.1->@801de2fbcf5bcbce0c019ed4b35ff3fc863b141b",
+    "package": "pyarrow",
+    "from_version": "14.0.1",
+    "to_version": "801de2fbcf5bcbce0c019ed4b35ff3fc863b141b",
+    "covers": [
+      "PYSEC-2024-161"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pyarrow@3.0.0->@801de2fbcf5bcbce0c019ed4b35ff3fc863b141b",
+    "package": "pyarrow",
+    "from_version": "3.0.0",
+    "to_version": "801de2fbcf5bcbce0c019ed4b35ff3fc863b141b",
+    "covers": [
+      "PYSEC-2024-161",
+      "GHSA-5wvp-7f3h-6wmm",
+      "PYSEC-2023-238"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pyarrow@9.0.0->@801de2fbcf5bcbce0c019ed4b35ff3fc863b141b",
+    "package": "pyarrow",
+    "from_version": "9.0.0",
+    "to_version": "801de2fbcf5bcbce0c019ed4b35ff3fc863b141b",
+    "covers": [
+      "PYSEC-2024-161",
+      "GHSA-5wvp-7f3h-6wmm",
+      "PYSEC-2023-238"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pyasn1@0.4.8->@0.6.3",
+    "package": "pyasn1",
+    "from_version": "0.4.8",
+    "to_version": "0.6.3",
+    "covers": [
+      "GHSA-jr27-m4p2-rc6r",
+      "GHSA-63vm-454h-vhhq"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pyasn1@0.5.0->@0.6.3",
+    "package": "pyasn1",
+    "from_version": "0.5.0",
+    "to_version": "0.6.3",
+    "covers": [
+      "GHSA-jr27-m4p2-rc6r",
+      "GHSA-63vm-454h-vhhq"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pyasn1@0.6.0->@0.6.3",
+    "package": "pyasn1",
+    "from_version": "0.6.0",
+    "to_version": "0.6.3",
+    "covers": [
+      "GHSA-jr27-m4p2-rc6r",
+      "GHSA-63vm-454h-vhhq"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pyasn1@0.6.1->@0.6.3",
+    "package": "pyasn1",
+    "from_version": "0.6.1",
+    "to_version": "0.6.3",
+    "covers": [
+      "GHSA-jr27-m4p2-rc6r",
+      "GHSA-63vm-454h-vhhq"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pycryptodome@3.10.4->@3.19.1",
+    "package": "pycryptodome",
+    "from_version": "3.10.4",
+    "to_version": "3.19.1",
+    "covers": [
+      "GHSA-j225-cvw7-qrx7"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pycryptodomex@3.19.0->@3.19.1",
+    "package": "pycryptodomex",
+    "from_version": "3.19.0",
+    "to_version": "3.19.1",
+    "covers": [
+      "PYSEC-2024-3"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pydantic@1.10.10->@2.4.0",
+    "package": "pydantic",
+    "from_version": "1.10.10",
+    "to_version": "2.4.0",
+    "covers": [
+      "GHSA-mr82-8j83-vxmv"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pydantic@1.10.11->@2.4.0",
+    "package": "pydantic",
+    "from_version": "1.10.11",
+    "to_version": "2.4.0",
+    "covers": [
+      "GHSA-mr82-8j83-vxmv"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pydantic@1.10.13->@2.4.0",
+    "package": "pydantic",
+    "from_version": "1.10.13",
+    "to_version": "2.4.0",
+    "covers": [
+      "GHSA-mr82-8j83-vxmv"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pydantic@1.10.14->@2.4.0",
+    "package": "pydantic",
+    "from_version": "1.10.14",
+    "to_version": "2.4.0",
+    "covers": [
+      "GHSA-mr82-8j83-vxmv"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pydantic@1.10.2->@2.4.0",
+    "package": "pydantic",
+    "from_version": "1.10.2",
+    "to_version": "2.4.0",
+    "covers": [
+      "GHSA-mr82-8j83-vxmv"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pydantic@1.10.4->@2.4.0",
+    "package": "pydantic",
+    "from_version": "1.10.4",
+    "to_version": "2.4.0",
+    "covers": [
+      "GHSA-mr82-8j83-vxmv"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pydantic@1.10.6->@2.4.0",
+    "package": "pydantic",
+    "from_version": "1.10.6",
+    "to_version": "2.4.0",
+    "covers": [
+      "GHSA-mr82-8j83-vxmv"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pydantic@1.8.2->@2.4.0",
+    "package": "pydantic",
+    "from_version": "1.8.2",
+    "to_version": "2.4.0",
+    "covers": [
+      "GHSA-mr82-8j83-vxmv"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pydantic@1.9.0->@2.4.0",
+    "package": "pydantic",
+    "from_version": "1.9.0",
+    "to_version": "2.4.0",
+    "covers": [
+      "GHSA-mr82-8j83-vxmv"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pydantic@1.9.1->@2.4.0",
+    "package": "pydantic",
+    "from_version": "1.9.1",
+    "to_version": "2.4.0",
+    "covers": [
+      "GHSA-mr82-8j83-vxmv"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pydantic@2.3.0->@2.4.0",
+    "package": "pydantic",
+    "from_version": "2.3.0",
+    "to_version": "2.4.0",
+    "covers": [
+      "GHSA-mr82-8j83-vxmv"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pygments@2.10.0->@2.19.2",
+    "package": "pygments",
+    "from_version": "2.10.0",
+    "to_version": "2.19.2",
+    "covers": [
+      "GHSA-5239-wwwm-4pmq",
+      "GHSA-mrwq-x4v8-fh7p",
+      "PYSEC-2023-117",
+      "PYSEC-2021-141"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pygments@2.11.2->@2.19.2",
+    "package": "pygments",
+    "from_version": "2.11.2",
+    "to_version": "2.19.2",
+    "covers": [
+      "GHSA-5239-wwwm-4pmq",
+      "GHSA-mrwq-x4v8-fh7p",
+      "PYSEC-2023-117",
+      "PYSEC-2021-141"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pygments@2.12.0->@2.19.2",
+    "package": "pygments",
+    "from_version": "2.12.0",
+    "to_version": "2.19.2",
+    "covers": [
+      "GHSA-5239-wwwm-4pmq",
+      "GHSA-mrwq-x4v8-fh7p",
+      "PYSEC-2023-117",
+      "PYSEC-2021-141"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pygments@2.13.0->@2.19.2",
+    "package": "pygments",
+    "from_version": "2.13.0",
+    "to_version": "2.19.2",
+    "covers": [
+      "GHSA-5239-wwwm-4pmq",
+      "GHSA-mrwq-x4v8-fh7p",
+      "PYSEC-2023-117",
+      "PYSEC-2021-141"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pygments@2.14.0->@2.19.2",
+    "package": "pygments",
+    "from_version": "2.14.0",
+    "to_version": "2.19.2",
+    "covers": [
+      "GHSA-5239-wwwm-4pmq",
+      "GHSA-mrwq-x4v8-fh7p",
+      "PYSEC-2023-117",
+      "PYSEC-2021-141"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pygments@2.15.0->@2.19.2",
+    "package": "pygments",
+    "from_version": "2.15.0",
+    "to_version": "2.19.2",
+    "covers": [
+      "GHSA-5239-wwwm-4pmq",
+      "PYSEC-2023-117",
+      "PYSEC-2021-141"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pygments@2.15.1->@2.19.2",
+    "package": "pygments",
+    "from_version": "2.15.1",
+    "to_version": "2.19.2",
+    "covers": [
+      "GHSA-5239-wwwm-4pmq",
+      "PYSEC-2021-141"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pygments@2.16.1->@2.19.2",
+    "package": "pygments",
+    "from_version": "2.16.1",
+    "to_version": "2.19.2",
+    "covers": [
+      "GHSA-5239-wwwm-4pmq",
+      "PYSEC-2021-141"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pygments@2.17.2->@2.19.2",
+    "package": "pygments",
+    "from_version": "2.17.2",
+    "to_version": "2.19.2",
+    "covers": [
+      "GHSA-5239-wwwm-4pmq",
+      "PYSEC-2021-141"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pygments@2.18.0->@2.19.2",
+    "package": "pygments",
+    "from_version": "2.18.0",
+    "to_version": "2.19.2",
+    "covers": [
+      "GHSA-5239-wwwm-4pmq",
+      "PYSEC-2021-141"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pygments@2.19.1->@2.19.2",
+    "package": "pygments",
+    "from_version": "2.19.1",
+    "to_version": "2.19.2",
+    "covers": [
+      "GHSA-5239-wwwm-4pmq",
+      "PYSEC-2021-141"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pygments@2.6.1->@2.19.2",
+    "package": "pygments",
+    "from_version": "2.6.1",
+    "to_version": "2.19.2",
+    "covers": [
+      "GHSA-5239-wwwm-4pmq",
+      "GHSA-mrwq-x4v8-fh7p",
+      "PYSEC-2023-117",
+      "GHSA-9w8r-397f-prfh",
+      "GHSA-pq64-v7f5-gqh8",
+      "PYSEC-2021-140",
+      "PYSEC-2021-141"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pygments@2.7.1->@2.19.2",
+    "package": "pygments",
+    "from_version": "2.7.1",
+    "to_version": "2.19.2",
+    "covers": [
+      "GHSA-5239-wwwm-4pmq",
+      "GHSA-mrwq-x4v8-fh7p",
+      "PYSEC-2023-117",
+      "GHSA-9w8r-397f-prfh",
+      "GHSA-pq64-v7f5-gqh8",
+      "PYSEC-2021-140",
+      "PYSEC-2021-141"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pygments@2.9.0->@2.19.2",
+    "package": "pygments",
+    "from_version": "2.9.0",
+    "to_version": "2.19.2",
+    "covers": [
+      "GHSA-5239-wwwm-4pmq",
+      "GHSA-mrwq-x4v8-fh7p",
+      "PYSEC-2023-117",
+      "PYSEC-2021-141"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pyjwt@2.1.0->@2.12.0",
+    "package": "pyjwt",
+    "from_version": "2.1.0",
+    "to_version": "2.12.0",
+    "covers": [
+      "GHSA-752w-5fwx-jx9f",
+      "GHSA-ffqj-6fqr-9h24",
+      "PYSEC-2022-202"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pyjwt@2.10.1->@2.12.0",
+    "package": "pyjwt",
+    "from_version": "2.10.1",
+    "to_version": "2.12.0",
+    "covers": [
+      "GHSA-752w-5fwx-jx9f",
+      "PYSEC-2022-202"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pyjwt@2.11.0->@2.12.0",
+    "package": "pyjwt",
+    "from_version": "2.11.0",
+    "to_version": "2.12.0",
+    "covers": [
+      "GHSA-752w-5fwx-jx9f",
+      "PYSEC-2022-202"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pyjwt@2.3.0->@2.12.0",
+    "package": "pyjwt",
+    "from_version": "2.3.0",
+    "to_version": "2.12.0",
+    "covers": [
+      "GHSA-752w-5fwx-jx9f",
+      "GHSA-ffqj-6fqr-9h24",
+      "PYSEC-2022-202"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pyjwt@2.4.0->@2.12.0",
+    "package": "pyjwt",
+    "from_version": "2.4.0",
+    "to_version": "2.12.0",
+    "covers": [
+      "GHSA-752w-5fwx-jx9f",
+      "PYSEC-2022-202"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pyjwt@2.8.0->@2.12.0",
+    "package": "pyjwt",
+    "from_version": "2.8.0",
+    "to_version": "2.12.0",
+    "covers": [
+      "GHSA-752w-5fwx-jx9f",
+      "PYSEC-2022-202"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pyjwt@2.9.0->@2.12.0",
+    "package": "pyjwt",
+    "from_version": "2.9.0",
+    "to_version": "2.12.0",
+    "covers": [
+      "GHSA-752w-5fwx-jx9f",
+      "PYSEC-2022-202"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pymdown-extensions@10.1->@10.16.1",
+    "package": "pymdown-extensions",
+    "from_version": "10.1",
+    "to_version": "10.16.1",
+    "covers": [
+      "GHSA-r6h4-mm7h-8pmq"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pymdown-extensions@8.2->@10.16.1",
+    "package": "pymdown-extensions",
+    "from_version": "8.2",
+    "to_version": "10.16.1",
+    "covers": [
+      "GHSA-r6h4-mm7h-8pmq",
+      "GHSA-jh85-wwv9-24hv"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pymongo@3.11.4->@4.6.3",
+    "package": "pymongo",
+    "from_version": "3.11.4",
+    "to_version": "4.6.3",
+    "covers": [
+      "GHSA-m87m-mmvp-v9qm"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pymongo@4.4.0->@4.6.3",
+    "package": "pymongo",
+    "from_version": "4.4.0",
+    "to_version": "4.6.3",
+    "covers": [
+      "GHSA-m87m-mmvp-v9qm"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pymongo@4.4.1->@4.6.3",
+    "package": "pymongo",
+    "from_version": "4.4.1",
+    "to_version": "4.6.3",
+    "covers": [
+      "GHSA-m87m-mmvp-v9qm"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pymongo@4.6.1->@4.6.3",
+    "package": "pymongo",
+    "from_version": "4.6.1",
+    "to_version": "4.6.3",
+    "covers": [
+      "GHSA-m87m-mmvp-v9qm"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pymysql@1.0.2->@1.1.1",
+    "package": "pymysql",
+    "from_version": "1.0.2",
+    "to_version": "1.1.1",
+    "covers": [
+      "GHSA-v9hf-5j83-6xpp"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pynacl@1.4.0->@1.6.2",
+    "package": "pynacl",
+    "from_version": "1.4.0",
+    "to_version": "1.6.2",
+    "covers": [
+      "GHSA-mrfv-m5wm-5w6w"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pynacl@1.5.0->@1.6.2",
+    "package": "pynacl",
+    "from_version": "1.5.0",
+    "to_version": "1.6.2",
+    "covers": [
+      "GHSA-mrfv-m5wm-5w6w"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pyopenssl@19.1.0->@26.0.0",
+    "package": "pyopenssl",
+    "from_version": "19.1.0",
+    "to_version": "26.0.0",
+    "covers": [
+      "GHSA-vp96-hxj8-p424",
+      "GHSA-5pwr-322w-8jr4"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pyopenssl@24.0.0->@26.0.0",
+    "package": "pyopenssl",
+    "from_version": "24.0.0",
+    "to_version": "26.0.0",
+    "covers": [
+      "GHSA-vp96-hxj8-p424",
+      "GHSA-5pwr-322w-8jr4"
+    ]
+  },
+  {
+    "fix_id": "upgrade:python-jose@3.3.0->@3.4.0",
+    "package": "python-jose",
+    "from_version": "3.3.0",
+    "to_version": "3.4.0",
+    "covers": [
+      "GHSA-6c5p-j8vq-pqhj",
+      "GHSA-cjwg-qfpm-7377",
+      "PYSEC-2024-232",
+      "PYSEC-2024-233"
+    ]
+  },
+  {
+    "fix_id": "upgrade:python-multipart@0.0.5->@0.0.22",
+    "package": "python-multipart",
+    "from_version": "0.0.5",
+    "to_version": "0.0.22",
+    "covers": [
+      "GHSA-2jv5-9r88-3w3p",
+      "GHSA-59g5-xgcq-4qw3",
+      "GHSA-wp53-j4wj-2cfg"
+    ]
+  },
+  {
+    "fix_id": "upgrade:python-multipart@0.0.6->@0.0.22",
+    "package": "python-multipart",
+    "from_version": "0.0.6",
+    "to_version": "0.0.22",
+    "covers": [
+      "GHSA-2jv5-9r88-3w3p",
+      "GHSA-59g5-xgcq-4qw3",
+      "GHSA-wp53-j4wj-2cfg"
+    ]
+  },
+  {
+    "fix_id": "upgrade:python-socketio@5.8.0->@5.14.0",
+    "package": "python-socketio",
+    "from_version": "5.8.0",
+    "to_version": "5.14.0",
+    "covers": [
+      "GHSA-g8c6-8fjj-2r4m"
+    ]
+  },
+  {
+    "fix_id": "upgrade:pywin32@227->@301",
+    "package": "pywin32",
+    "from_version": "227",
+    "to_version": "301",
+    "covers": [
+      "GHSA-hwfp-hg2m-9vr2",
+      "PYSEC-2021-112"
+    ]
+  },
+  {
+    "fix_id": "upgrade:requests@2.18.4->@2.33.0",
+    "package": "requests",
+    "from_version": "2.18.4",
+    "to_version": "2.33.0",
+    "covers": [
+      "GHSA-9hjg-9r4m-mvj7",
+      "GHSA-9wx4-h78v-vm56",
+      "GHSA-gc5v-m9x4-r6x2",
+      "GHSA-j8r2-6x86-q33q",
+      "GHSA-x84v-xcm2-53pg",
+      "PYSEC-2018-28",
+      "PYSEC-2023-74"
+    ]
+  },
+  {
+    "fix_id": "upgrade:requests@2.23.0->@2.33.0",
+    "package": "requests",
+    "from_version": "2.23.0",
+    "to_version": "2.33.0",
+    "covers": [
+      "GHSA-9hjg-9r4m-mvj7",
+      "GHSA-9wx4-h78v-vm56",
+      "GHSA-gc5v-m9x4-r6x2",
+      "GHSA-j8r2-6x86-q33q",
+      "PYSEC-2018-28",
+      "PYSEC-2023-74"
+    ]
+  },
+  {
+    "fix_id": "upgrade:requests@2.25.1->@2.33.0",
+    "package": "requests",
+    "from_version": "2.25.1",
+    "to_version": "2.33.0",
+    "covers": [
+      "GHSA-9hjg-9r4m-mvj7",
+      "GHSA-9wx4-h78v-vm56",
+      "GHSA-gc5v-m9x4-r6x2",
+      "GHSA-j8r2-6x86-q33q",
+      "PYSEC-2018-28",
+      "PYSEC-2023-74"
+    ]
+  },
+  {
+    "fix_id": "upgrade:requests@2.26.0->@2.33.0",
+    "package": "requests",
+    "from_version": "2.26.0",
+    "to_version": "2.33.0",
+    "covers": [
+      "GHSA-9hjg-9r4m-mvj7",
+      "GHSA-9wx4-h78v-vm56",
+      "GHSA-gc5v-m9x4-r6x2",
+      "GHSA-j8r2-6x86-q33q",
+      "PYSEC-2018-28",
+      "PYSEC-2023-74"
+    ]
+  },
+  {
+    "fix_id": "upgrade:requests@2.27.1->@2.33.0",
+    "package": "requests",
+    "from_version": "2.27.1",
+    "to_version": "2.33.0",
+    "covers": [
+      "GHSA-9hjg-9r4m-mvj7",
+      "GHSA-9wx4-h78v-vm56",
+      "GHSA-gc5v-m9x4-r6x2",
+      "GHSA-j8r2-6x86-q33q",
+      "PYSEC-2018-28",
+      "PYSEC-2023-74"
+    ]
+  },
+  {
+    "fix_id": "upgrade:requests@2.28.0->@2.33.0",
+    "package": "requests",
+    "from_version": "2.28.0",
+    "to_version": "2.33.0",
+    "covers": [
+      "GHSA-9hjg-9r4m-mvj7",
+      "GHSA-9wx4-h78v-vm56",
+      "GHSA-gc5v-m9x4-r6x2",
+      "GHSA-j8r2-6x86-q33q",
+      "PYSEC-2018-28",
+      "PYSEC-2023-74"
+    ]
+  },
+  {
+    "fix_id": "upgrade:requests@2.28.1->@2.33.0",
+    "package": "requests",
+    "from_version": "2.28.1",
+    "to_version": "2.33.0",
+    "covers": [
+      "GHSA-9hjg-9r4m-mvj7",
+      "GHSA-9wx4-h78v-vm56",
+      "GHSA-gc5v-m9x4-r6x2",
+      "GHSA-j8r2-6x86-q33q",
+      "PYSEC-2018-28",
+      "PYSEC-2023-74"
+    ]
+  },
+  {
+    "fix_id": "upgrade:requests@2.28.2->@2.33.0",
+    "package": "requests",
+    "from_version": "2.28.2",
+    "to_version": "2.33.0",
+    "covers": [
+      "GHSA-9hjg-9r4m-mvj7",
+      "GHSA-9wx4-h78v-vm56",
+      "GHSA-gc5v-m9x4-r6x2",
+      "GHSA-j8r2-6x86-q33q",
+      "PYSEC-2018-28",
+      "PYSEC-2023-74"
+    ]
+  },
+  {
+    "fix_id": "upgrade:requests@2.31.0->@2.33.0",
+    "package": "requests",
+    "from_version": "2.31.0",
+    "to_version": "2.33.0",
+    "covers": [
+      "GHSA-9hjg-9r4m-mvj7",
+      "GHSA-9wx4-h78v-vm56",
+      "GHSA-gc5v-m9x4-r6x2",
+      "PYSEC-2018-28",
+      "PYSEC-2023-74"
+    ]
+  },
+  {
+    "fix_id": "upgrade:requests@2.32.2->@2.33.0",
+    "package": "requests",
+    "from_version": "2.32.2",
+    "to_version": "2.33.0",
+    "covers": [
+      "GHSA-9hjg-9r4m-mvj7",
+      "GHSA-gc5v-m9x4-r6x2",
+      "PYSEC-2018-28",
+      "PYSEC-2023-74"
+    ]
+  },
+  {
+    "fix_id": "upgrade:requests@2.32.3->@2.33.0",
+    "package": "requests",
+    "from_version": "2.32.3",
+    "to_version": "2.33.0",
+    "covers": [
+      "GHSA-9hjg-9r4m-mvj7",
+      "GHSA-gc5v-m9x4-r6x2",
+      "PYSEC-2018-28",
+      "PYSEC-2023-74"
+    ]
+  },
+  {
+    "fix_id": "upgrade:requests@2.32.4->@2.33.0",
+    "package": "requests",
+    "from_version": "2.32.4",
+    "to_version": "2.33.0",
+    "covers": [
+      "GHSA-gc5v-m9x4-r6x2",
+      "PYSEC-2018-28",
+      "PYSEC-2023-74"
+    ]
+  },
+  {
+    "fix_id": "upgrade:requests@2.32.5->@2.33.0",
+    "package": "requests",
+    "from_version": "2.32.5",
+    "to_version": "2.33.0",
+    "covers": [
+      "GHSA-gc5v-m9x4-r6x2",
+      "PYSEC-2018-28",
+      "PYSEC-2023-74"
+    ]
+  },
+  {
+    "fix_id": "upgrade:rsa@4.2->@4.7",
+    "package": "rsa",
+    "from_version": "4.2",
+    "to_version": "4.7",
+    "covers": [
+      "GHSA-xrx6-fmxq-rjj2",
+      "PYSEC-2020-100"
+    ]
+  },
+  {
+    "fix_id": "upgrade:scikit-learn@0.24.1->@1.5.0",
+    "package": "scikit-learn",
+    "from_version": "0.24.1",
+    "to_version": "1.5.0",
+    "covers": [
+      "GHSA-jw8x-6495-233v",
+      "GHSA-jxfp-4rvq-9h9m",
+      "PYSEC-2024-110"
+    ]
+  },
+  {
+    "fix_id": "upgrade:scikit-learn@1.1.1->@1.5.0",
+    "package": "scikit-learn",
+    "from_version": "1.1.1",
+    "to_version": "1.5.0",
+    "covers": [
+      "GHSA-jw8x-6495-233v",
+      "PYSEC-2024-110"
+    ]
+  },
+  {
+    "fix_id": "upgrade:scikit-learn@1.1.2->@1.5.0",
+    "package": "scikit-learn",
+    "from_version": "1.1.2",
+    "to_version": "1.5.0",
+    "covers": [
+      "GHSA-jw8x-6495-233v",
+      "PYSEC-2024-110"
+    ]
+  },
+  {
+    "fix_id": "upgrade:scikit-learn@1.1.3->@1.5.0",
+    "package": "scikit-learn",
+    "from_version": "1.1.3",
+    "to_version": "1.5.0",
+    "covers": [
+      "GHSA-jw8x-6495-233v",
+      "PYSEC-2024-110"
+    ]
+  },
+  {
+    "fix_id": "upgrade:scikit-learn@1.2.0->@1.5.0",
+    "package": "scikit-learn",
+    "from_version": "1.2.0",
+    "to_version": "1.5.0",
+    "covers": [
+      "GHSA-jw8x-6495-233v",
+      "PYSEC-2024-110"
+    ]
+  },
+  {
+    "fix_id": "upgrade:scipy@1.6.1->@1.10.0",
+    "package": "scipy",
+    "from_version": "1.6.1",
+    "to_version": "1.10.0",
+    "covers": [
+      "PYSEC-2023-102",
+      "PYSEC-2023-114"
+    ]
+  },
+  {
+    "fix_id": "upgrade:scipy@1.8.1->@1.10.0",
+    "package": "scipy",
+    "from_version": "1.8.1",
+    "to_version": "1.10.0",
+    "covers": [
+      "PYSEC-2023-102"
+    ]
+  },
+  {
+    "fix_id": "upgrade:scipy@1.9.1->@1.10.0",
+    "package": "scipy",
+    "from_version": "1.9.1",
+    "to_version": "1.10.0",
+    "covers": [
+      "PYSEC-2023-102"
+    ]
+  },
+  {
+    "fix_id": "upgrade:scipy@1.9.3->@1.10.0",
+    "package": "scipy",
+    "from_version": "1.9.3",
+    "to_version": "1.10.0",
+    "covers": [
+      "PYSEC-2023-102"
+    ]
+  },
+  {
+    "fix_id": "upgrade:selenium@4.20.0->@023a0d52f106321838ab1c0997e76693f4dcbdf6",
+    "package": "selenium",
+    "from_version": "4.20.0",
+    "to_version": "023a0d52f106321838ab1c0997e76693f4dcbdf6",
+    "covers": [
+      "PYSEC-2023-206"
+    ]
+  },
+  {
+    "fix_id": "upgrade:selenium@4.23.1->@023a0d52f106321838ab1c0997e76693f4dcbdf6",
+    "package": "selenium",
+    "from_version": "4.23.1",
+    "to_version": "023a0d52f106321838ab1c0997e76693f4dcbdf6",
+    "covers": [
+      "PYSEC-2023-206"
+    ]
+  },
+  {
+    "fix_id": "upgrade:selenium@4.25.0->@023a0d52f106321838ab1c0997e76693f4dcbdf6",
+    "package": "selenium",
+    "from_version": "4.25.0",
+    "to_version": "023a0d52f106321838ab1c0997e76693f4dcbdf6",
+    "covers": [
+      "PYSEC-2023-206"
+    ]
+  },
+  {
+    "fix_id": "upgrade:selenium@4.3.0->@023a0d52f106321838ab1c0997e76693f4dcbdf6",
+    "package": "selenium",
+    "from_version": "4.3.0",
+    "to_version": "023a0d52f106321838ab1c0997e76693f4dcbdf6",
+    "covers": [
+      "PYSEC-2023-206"
+    ]
+  },
+  {
+    "fix_id": "upgrade:selenium@4.4.3->@023a0d52f106321838ab1c0997e76693f4dcbdf6",
+    "package": "selenium",
+    "from_version": "4.4.3",
+    "to_version": "023a0d52f106321838ab1c0997e76693f4dcbdf6",
+    "covers": [
+      "PYSEC-2023-206"
+    ]
+  },
+  {
+    "fix_id": "upgrade:sentencepiece@0.1.96->@0.2.1",
+    "package": "sentencepiece",
+    "from_version": "0.1.96",
+    "to_version": "0.2.1",
+    "covers": [
+      "GHSA-38vq-g6vr-w8wf"
+    ]
+  },
+  {
+    "fix_id": "upgrade:sentry-sdk@1.1.0->@2.8.0",
+    "package": "sentry-sdk",
+    "from_version": "1.1.0",
+    "to_version": "2.8.0",
+    "covers": [
+      "GHSA-29pr-6jr8-q5jm",
+      "GHSA-g92j-qhmh-64v2"
+    ]
+  },
+  {
+    "fix_id": "upgrade:sentry-sdk@1.5.12->@2.8.0",
+    "package": "sentry-sdk",
+    "from_version": "1.5.12",
+    "to_version": "2.8.0",
+    "covers": [
+      "GHSA-29pr-6jr8-q5jm",
+      "GHSA-g92j-qhmh-64v2"
+    ]
+  },
+  {
+    "fix_id": "upgrade:setuptools@65.3.0->@78.1.1",
+    "package": "setuptools",
+    "from_version": "65.3.0",
+    "to_version": "78.1.1",
+    "covers": [
+      "GHSA-5rjg-fvgr-3xxf",
+      "GHSA-cx63-2mw6-8hw5",
+      "GHSA-r9hx-vwmv-q579",
+      "PYSEC-2022-43012",
+      "PYSEC-2025-49"
+    ]
+  },
+  {
+    "fix_id": "upgrade:setuptools@65.6.3->@78.1.1",
+    "package": "setuptools",
+    "from_version": "65.6.3",
+    "to_version": "78.1.1",
+    "covers": [
+      "GHSA-5rjg-fvgr-3xxf",
+      "GHSA-cx63-2mw6-8hw5",
+      "PYSEC-2022-43012",
+      "PYSEC-2025-49"
+    ]
+  },
+  {
+    "fix_id": "upgrade:setuptools@67.6.1->@78.1.1",
+    "package": "setuptools",
+    "from_version": "67.6.1",
+    "to_version": "78.1.1",
+    "covers": [
+      "GHSA-5rjg-fvgr-3xxf",
+      "GHSA-cx63-2mw6-8hw5",
+      "PYSEC-2022-43012",
+      "PYSEC-2025-49"
+    ]
+  },
+  {
+    "fix_id": "upgrade:setuptools@67.7.2->@78.1.1",
+    "package": "setuptools",
+    "from_version": "67.7.2",
+    "to_version": "78.1.1",
+    "covers": [
+      "GHSA-5rjg-fvgr-3xxf",
+      "GHSA-cx63-2mw6-8hw5",
+      "PYSEC-2022-43012",
+      "PYSEC-2025-49"
+    ]
+  },
+  {
+    "fix_id": "upgrade:setuptools@67.8.0->@78.1.1",
+    "package": "setuptools",
+    "from_version": "67.8.0",
+    "to_version": "78.1.1",
+    "covers": [
+      "GHSA-5rjg-fvgr-3xxf",
+      "GHSA-cx63-2mw6-8hw5",
+      "PYSEC-2022-43012",
+      "PYSEC-2025-49"
+    ]
+  },
+  {
+    "fix_id": "upgrade:setuptools@68.1.2->@78.1.1",
+    "package": "setuptools",
+    "from_version": "68.1.2",
+    "to_version": "78.1.1",
+    "covers": [
+      "GHSA-5rjg-fvgr-3xxf",
+      "GHSA-cx63-2mw6-8hw5",
+      "PYSEC-2022-43012",
+      "PYSEC-2025-49"
+    ]
+  },
+  {
+    "fix_id": "upgrade:setuptools@68.2.2->@78.1.1",
+    "package": "setuptools",
+    "from_version": "68.2.2",
+    "to_version": "78.1.1",
+    "covers": [
+      "GHSA-5rjg-fvgr-3xxf",
+      "GHSA-cx63-2mw6-8hw5",
+      "PYSEC-2022-43012",
+      "PYSEC-2025-49"
+    ]
+  },
+  {
+    "fix_id": "upgrade:setuptools@69.0.2->@78.1.1",
+    "package": "setuptools",
+    "from_version": "69.0.2",
+    "to_version": "78.1.1",
+    "covers": [
+      "GHSA-5rjg-fvgr-3xxf",
+      "GHSA-cx63-2mw6-8hw5",
+      "PYSEC-2022-43012",
+      "PYSEC-2025-49"
+    ]
+  },
+  {
+    "fix_id": "upgrade:setuptools@69.1.0->@78.1.1",
+    "package": "setuptools",
+    "from_version": "69.1.0",
+    "to_version": "78.1.1",
+    "covers": [
+      "GHSA-5rjg-fvgr-3xxf",
+      "GHSA-cx63-2mw6-8hw5",
+      "PYSEC-2022-43012",
+      "PYSEC-2025-49"
+    ]
+  },
+  {
+    "fix_id": "upgrade:setuptools@69.2.0->@78.1.1",
+    "package": "setuptools",
+    "from_version": "69.2.0",
+    "to_version": "78.1.1",
+    "covers": [
+      "GHSA-5rjg-fvgr-3xxf",
+      "GHSA-cx63-2mw6-8hw5",
+      "PYSEC-2022-43012",
+      "PYSEC-2025-49"
+    ]
+  },
+  {
+    "fix_id": "upgrade:setuptools@69.5.1->@78.1.1",
+    "package": "setuptools",
+    "from_version": "69.5.1",
+    "to_version": "78.1.1",
+    "covers": [
+      "GHSA-5rjg-fvgr-3xxf",
+      "GHSA-cx63-2mw6-8hw5",
+      "PYSEC-2022-43012",
+      "PYSEC-2025-49"
+    ]
+  },
+  {
+    "fix_id": "upgrade:setuptools@70.2.0->@78.1.1",
+    "package": "setuptools",
+    "from_version": "70.2.0",
+    "to_version": "78.1.1",
+    "covers": [
+      "GHSA-5rjg-fvgr-3xxf",
+      "PYSEC-2022-43012",
+      "PYSEC-2025-49"
+    ]
+  },
+  {
+    "fix_id": "upgrade:setuptools@72.1.0->@78.1.1",
+    "package": "setuptools",
+    "from_version": "72.1.0",
+    "to_version": "78.1.1",
+    "covers": [
+      "GHSA-5rjg-fvgr-3xxf",
+      "PYSEC-2022-43012",
+      "PYSEC-2025-49"
+    ]
+  },
+  {
+    "fix_id": "upgrade:setuptools@74.1.2->@78.1.1",
+    "package": "setuptools",
+    "from_version": "74.1.2",
+    "to_version": "78.1.1",
+    "covers": [
+      "GHSA-5rjg-fvgr-3xxf",
+      "PYSEC-2022-43012",
+      "PYSEC-2025-49"
+    ]
+  },
+  {
+    "fix_id": "upgrade:setuptools@75.3.0->@78.1.1",
+    "package": "setuptools",
+    "from_version": "75.3.0",
+    "to_version": "78.1.1",
+    "covers": [
+      "GHSA-5rjg-fvgr-3xxf",
+      "PYSEC-2022-43012",
+      "PYSEC-2025-49"
+    ]
+  },
+  {
+    "fix_id": "upgrade:setuptools@75.3.2->@78.1.1",
+    "package": "setuptools",
+    "from_version": "75.3.2",
+    "to_version": "78.1.1",
+    "covers": [
+      "GHSA-5rjg-fvgr-3xxf",
+      "PYSEC-2022-43012",
+      "PYSEC-2025-49"
+    ]
+  },
+  {
+    "fix_id": "upgrade:social-auth-app-django@4.0.0->@5.6.0",
+    "package": "social-auth-app-django",
+    "from_version": "4.0.0",
+    "to_version": "5.6.0",
+    "covers": [
+      "GHSA-2gr8-3wc7-xhj3",
+      "GHSA-wv4w-6qv2-qqfg"
+    ]
+  },
+  {
+    "fix_id": "upgrade:sqlparse@0.4.1->@0.5.4",
+    "package": "sqlparse",
+    "from_version": "0.4.1",
+    "to_version": "0.5.4",
+    "covers": [
+      "GHSA-27jp-wm6q-gp25",
+      "GHSA-2m57-hf25-phgg",
+      "GHSA-p5w8-wqhj-9hhf",
+      "GHSA-rrm6-wvj7-cwh2",
+      "PYSEC-2021-333",
+      "PYSEC-2023-87"
+    ]
+  },
+  {
+    "fix_id": "upgrade:sqlparse@0.4.2->@0.5.4",
+    "package": "sqlparse",
+    "from_version": "0.4.2",
+    "to_version": "0.5.4",
+    "covers": [
+      "GHSA-27jp-wm6q-gp25",
+      "GHSA-2m57-hf25-phgg",
+      "GHSA-rrm6-wvj7-cwh2",
+      "PYSEC-2021-333",
+      "PYSEC-2023-87"
+    ]
+  },
+  {
+    "fix_id": "upgrade:sqlparse@0.4.3->@0.5.4",
+    "package": "sqlparse",
+    "from_version": "0.4.3",
+    "to_version": "0.5.4",
+    "covers": [
+      "GHSA-27jp-wm6q-gp25",
+      "GHSA-2m57-hf25-phgg",
+      "GHSA-rrm6-wvj7-cwh2",
+      "PYSEC-2021-333",
+      "PYSEC-2023-87"
+    ]
+  },
+  {
+    "fix_id": "upgrade:sqlparse@0.4.4->@0.5.4",
+    "package": "sqlparse",
+    "from_version": "0.4.4",
+    "to_version": "0.5.4",
+    "covers": [
+      "GHSA-27jp-wm6q-gp25",
+      "GHSA-2m57-hf25-phgg",
+      "PYSEC-2021-333",
+      "PYSEC-2023-87"
+    ]
+  },
+  {
+    "fix_id": "upgrade:sqlparse@0.5.0->@0.5.4",
+    "package": "sqlparse",
+    "from_version": "0.5.0",
+    "to_version": "0.5.4",
+    "covers": [
+      "GHSA-27jp-wm6q-gp25",
+      "PYSEC-2021-333",
+      "PYSEC-2023-87"
+    ]
+  },
+  {
+    "fix_id": "upgrade:sqlparse@0.5.1->@0.5.4",
+    "package": "sqlparse",
+    "from_version": "0.5.1",
+    "to_version": "0.5.4",
+    "covers": [
+      "GHSA-27jp-wm6q-gp25",
+      "PYSEC-2021-333",
+      "PYSEC-2023-87"
+    ]
+  },
+  {
+    "fix_id": "upgrade:sqlparse@0.5.2->@0.5.4",
+    "package": "sqlparse",
+    "from_version": "0.5.2",
+    "to_version": "0.5.4",
+    "covers": [
+      "GHSA-27jp-wm6q-gp25",
+      "PYSEC-2021-333",
+      "PYSEC-2023-87"
+    ]
+  },
+  {
+    "fix_id": "upgrade:sqlparse@0.5.3->@0.5.4",
+    "package": "sqlparse",
+    "from_version": "0.5.3",
+    "to_version": "0.5.4",
+    "covers": [
+      "GHSA-27jp-wm6q-gp25",
+      "PYSEC-2021-333",
+      "PYSEC-2023-87"
+    ]
+  },
+  {
+    "fix_id": "upgrade:starlette@0.13.6->@0.49.1",
+    "package": "starlette",
+    "from_version": "0.13.6",
+    "to_version": "0.49.1",
+    "covers": [
+      "GHSA-2c2j-9gv5-cj73",
+      "GHSA-74m5-2c7w-9w3x",
+      "GHSA-f96h-pmfr-66vw",
+      "GHSA-v5gw-mw7f-84px",
+      "PYSEC-2023-48",
+      "PYSEC-2023-83",
+      "GHSA-7f5h-v6xp-fcq8"
+    ]
+  },
+  {
+    "fix_id": "upgrade:starlette@0.14.2->@0.49.1",
+    "package": "starlette",
+    "from_version": "0.14.2",
+    "to_version": "0.49.1",
+    "covers": [
+      "GHSA-2c2j-9gv5-cj73",
+      "GHSA-74m5-2c7w-9w3x",
+      "GHSA-f96h-pmfr-66vw",
+      "GHSA-v5gw-mw7f-84px",
+      "PYSEC-2023-48",
+      "PYSEC-2023-83",
+      "GHSA-7f5h-v6xp-fcq8"
+    ]
+  },
+  {
+    "fix_id": "upgrade:starlette@0.17.1->@0.49.1",
+    "package": "starlette",
+    "from_version": "0.17.1",
+    "to_version": "0.49.1",
+    "covers": [
+      "GHSA-2c2j-9gv5-cj73",
+      "GHSA-74m5-2c7w-9w3x",
+      "GHSA-f96h-pmfr-66vw",
+      "GHSA-v5gw-mw7f-84px",
+      "PYSEC-2023-48",
+      "PYSEC-2023-83",
+      "GHSA-7f5h-v6xp-fcq8"
+    ]
+  },
+  {
+    "fix_id": "upgrade:starlette@0.20.4->@0.49.1",
+    "package": "starlette",
+    "from_version": "0.20.4",
+    "to_version": "0.49.1",
+    "covers": [
+      "GHSA-2c2j-9gv5-cj73",
+      "GHSA-74m5-2c7w-9w3x",
+      "GHSA-f96h-pmfr-66vw",
+      "GHSA-v5gw-mw7f-84px",
+      "PYSEC-2023-48",
+      "PYSEC-2023-83",
+      "GHSA-7f5h-v6xp-fcq8"
+    ]
+  },
+  {
+    "fix_id": "upgrade:starlette@0.26.0.post1->@0.49.1",
+    "package": "starlette",
+    "from_version": "0.26.0.post1",
+    "to_version": "0.49.1",
+    "covers": [
+      "GHSA-2c2j-9gv5-cj73",
+      "GHSA-f96h-pmfr-66vw",
+      "GHSA-v5gw-mw7f-84px",
+      "PYSEC-2023-48",
+      "PYSEC-2023-83",
+      "GHSA-7f5h-v6xp-fcq8"
+    ]
+  },
+  {
+    "fix_id": "upgrade:starlette@0.27.0->@0.49.1",
+    "package": "starlette",
+    "from_version": "0.27.0",
+    "to_version": "0.49.1",
+    "covers": [
+      "GHSA-2c2j-9gv5-cj73",
+      "GHSA-f96h-pmfr-66vw",
+      "PYSEC-2023-48",
+      "GHSA-7f5h-v6xp-fcq8"
+    ]
+  },
+  {
+    "fix_id": "upgrade:starlette@0.32.0.post1->@0.49.1",
+    "package": "starlette",
+    "from_version": "0.32.0.post1",
+    "to_version": "0.49.1",
+    "covers": [
+      "GHSA-2c2j-9gv5-cj73",
+      "GHSA-f96h-pmfr-66vw",
+      "PYSEC-2023-48",
+      "GHSA-7f5h-v6xp-fcq8"
+    ]
+  },
+  {
+    "fix_id": "upgrade:starlette@0.36.3->@0.49.1",
+    "package": "starlette",
+    "from_version": "0.36.3",
+    "to_version": "0.49.1",
+    "covers": [
+      "GHSA-2c2j-9gv5-cj73",
+      "GHSA-f96h-pmfr-66vw",
+      "PYSEC-2023-48",
+      "GHSA-7f5h-v6xp-fcq8"
+    ]
+  },
+  {
+    "fix_id": "upgrade:starlette@0.37.2->@0.49.1",
+    "package": "starlette",
+    "from_version": "0.37.2",
+    "to_version": "0.49.1",
+    "covers": [
+      "GHSA-2c2j-9gv5-cj73",
+      "GHSA-f96h-pmfr-66vw",
+      "PYSEC-2023-48",
+      "GHSA-7f5h-v6xp-fcq8"
+    ]
+  },
+  {
+    "fix_id": "upgrade:starlette@0.38.6->@0.49.1",
+    "package": "starlette",
+    "from_version": "0.38.6",
+    "to_version": "0.49.1",
+    "covers": [
+      "GHSA-2c2j-9gv5-cj73",
+      "GHSA-f96h-pmfr-66vw",
+      "PYSEC-2023-48",
+      "GHSA-7f5h-v6xp-fcq8"
+    ]
+  },
+  {
+    "fix_id": "upgrade:starlette@0.41.3->@0.49.1",
+    "package": "starlette",
+    "from_version": "0.41.3",
+    "to_version": "0.49.1",
+    "covers": [
+      "GHSA-2c2j-9gv5-cj73",
+      "PYSEC-2023-48",
+      "GHSA-7f5h-v6xp-fcq8"
+    ]
+  },
+  {
+    "fix_id": "upgrade:starlette@0.46.1->@0.49.1",
+    "package": "starlette",
+    "from_version": "0.46.1",
+    "to_version": "0.49.1",
+    "covers": [
+      "GHSA-2c2j-9gv5-cj73",
+      "PYSEC-2023-48",
+      "GHSA-7f5h-v6xp-fcq8"
+    ]
+  },
+  {
+    "fix_id": "upgrade:starlette@0.46.2->@0.49.1",
+    "package": "starlette",
+    "from_version": "0.46.2",
+    "to_version": "0.49.1",
+    "covers": [
+      "GHSA-2c2j-9gv5-cj73",
+      "PYSEC-2023-48",
+      "GHSA-7f5h-v6xp-fcq8"
+    ]
+  },
+  {
+    "fix_id": "upgrade:starlette@0.47.2->@0.49.1",
+    "package": "starlette",
+    "from_version": "0.47.2",
+    "to_version": "0.49.1",
+    "covers": [
+      "PYSEC-2023-48",
+      "GHSA-7f5h-v6xp-fcq8"
+    ]
+  },
+  {
+    "fix_id": "upgrade:starlette@0.47.3->@0.49.1",
+    "package": "starlette",
+    "from_version": "0.47.3",
+    "to_version": "0.49.1",
+    "covers": [
+      "PYSEC-2023-48",
+      "GHSA-7f5h-v6xp-fcq8"
+    ]
+  },
+  {
+    "fix_id": "upgrade:tensorflow@2.5.0->@2.12.1",
+    "package": "tensorflow",
+    "from_version": "2.5.0",
+    "to_version": "2.12.1",
+    "covers": [
+      "GHSA-23hm-7w47-xw72",
+      "GHSA-2475-53vw-vp25",
+      "GHSA-247x-2f9f-5wp7",
+      "GHSA-24x4-6qmh-88qg",
+      "GHSA-27rc-728f-x5w2",
+      "GHSA-2p25-55c9-h58q",
+      "GHSA-2p9q-h29j-3f5v",
+      "GHSA-2r2f-g8mw-9gvr",
+      "GHSA-2vv3-56qg-g2cf",
+      "GHSA-34f9-hjfq-rr8j",
+      "GHSA-368v-7v32-52fx",
+      "GHSA-374m-jm66-3vj8",
+      "GHSA-37jf-mjv6-xfqw",
+      "GHSA-397c-5g2j-qxpv",
+      "GHSA-3ff2-r28g-w7h9",
+      "GHSA-3mw4-6rj6-74g5",
+      "GHSA-3rcw-9p9x-582v",
+      "GHSA-428x-9xc2-m8mj",
+      "GHSA-43jf-985q-588j",
+      "GHSA-43q8-3fv7-pr5x",
+      "GHSA-44qp-9wwf-734r",
+      "GHSA-49rq-hwc3-x77w",
+      "GHSA-49rx-x2rw-pc6f",
+      "GHSA-4f99-p9c2-3j8x",
+      "GHSA-4hvf-hxvg-f67v",
+      "GHSA-4j82-5ccr-4r8v",
+      "GHSA-4pc4-m9mj-v2r9",
+      "GHSA-4v5p-v5h9-6xjx",
+      "GHSA-4w68-4x85-mjj9",
+      "GHSA-54ch-gjq5-4976",
+      "GHSA-54pp-c6pp-7fpx",
+      "GHSA-558h-mq8x-7q9g",
+      "GHSA-57wx-m983-2f88",
+      "GHSA-5889-7v45-q28m",
+      "GHSA-5crj-c72x-m7gq",
+      "GHSA-5f2r-qp73-37mr",
+      "GHSA-5hx2-qx8j-qjqm",
+      "GHSA-5qw5-89mw-wcg2",
+      "GHSA-5v77-j66x-4c4g",
+      "GHSA-5w96-866f-6rm8",
+      "GHSA-5wpj-c6f7-24x8",
+      "GHSA-627q-g293-49q7",
+      "GHSA-6445-fm66-fvq2",
+      "GHSA-647v-r7qq-24fh",
+      "GHSA-64jg-wjww-7c5w",
+      "GHSA-66vq-54fq-6jvv",
+      "GHSA-67pf-62xr-q35m",
+      "GHSA-689c-r7h2-fv9v",
+      "GHSA-68v3-g9cm-rmm6",
+      "GHSA-6gmv-pjp9-p8w8",
+      "GHSA-6hg6-5c2q-7rcr",
+      "GHSA-6hpv-v2rx-c5g6",
+      "GHSA-6wfh-89q8-44jq",
+      "GHSA-6x99-gv2v-q76v",
+      "GHSA-75c9-jrh4-79mc",
+      "GHSA-762h-vpvw-3rcx",
+      "GHSA-77gp-3h4r-6428",
+      "GHSA-786j-5qwq-r36x",
+      "GHSA-79h2-q768-fpxr",
+      "GHSA-7j3m-8g3c-9qqq",
+      "GHSA-7jvm-xxmr-v5cw",
+      "GHSA-7pxj-m4jf-r6h2",
+      "GHSA-7r94-xv9v-63jw",
+      "GHSA-7v94-64hj-m82h",
+      "GHSA-7x4v-9gxg-9hwj",
+      "GHSA-828c-5j5q-vrjq",
+      "GHSA-84jm-4cf3-9jfm",
+      "GHSA-87v6-crgm-2gfj",
+      "GHSA-8cxv-76p7-jxwr",
+      "GHSA-8fvv-46hw-vpg3",
+      "GHSA-8jj7-5vxc-pg2q",
+      "GHSA-8r7c-3cm2-3h8f",
+      "GHSA-8rcj-c8pj-v3m3",
+      "GHSA-8w5g-3wcv-9g2j",
+      "GHSA-8wwm-6264-x792",
+      "GHSA-93vr-9q9m-pj8p",
+      "GHSA-94mm-g2mv-8p7r",
+      "GHSA-97p7-w86h-vcf9",
+      "GHSA-98j8-c9q4-r38g",
+      "GHSA-98p5-x8x4-c9m5",
+      "GHSA-9942-r22v-78cp",
+      "GHSA-9c78-vcq7-7vxq",
+      "GHSA-9cr2-8pwr-fhfq",
+      "GHSA-9crf-c6qr-r273",
+      "GHSA-9fpg-838v-wpv7",
+      "GHSA-9gwq-6cwj-47h3",
+      "GHSA-9j4v-pp28-mxv7",
+      "GHSA-9p77-mmrw-69c7",
+      "GHSA-9px9-73fg-3fqp",
+      "GHSA-9v8w-xmr4-wgxp",
+      "GHSA-9vqj-64pv-w55c",
+      "GHSA-c582-c96p-r5cq",
+      "GHSA-c6fh-56w7-fvjw",
+      "GHSA-c94w-c95p-phf8",
+      "GHSA-cg88-rpvp-cjv5",
+      "GHSA-cmgw-8vpc-rc59",
+      "GHSA-cpf4-wx82-gxp6",
+      "GHSA-cq76-mxrc-vchh",
+      "GHSA-cqv6-3phm-hcwx",
+      "GHSA-cqvq-fvhr-v6hc",
+      "GHSA-cv2p-32v3-vhwq",
+      "GHSA-cwpm-f78v-7m5c",
+      "GHSA-f2vv-v9cg-qhh7",
+      "GHSA-f2w8-jw48-fr7j",
+      "GHSA-f49c-87jh-g47q",
+      "GHSA-f4rr-5m7v-wxcw",
+      "GHSA-f4w6-h4f5-wx45",
+      "GHSA-f54p-f6jp-4rhr",
+      "GHSA-f637-vh3r-vfh2",
+      "GHSA-f7r5-q7cx-h668",
+      "GHSA-ffjm-4qwc-7cmf",
+      "GHSA-fhfc-2q7x-929f",
+      "GHSA-fpcp-9h7m-ffpx",
+      "GHSA-fq6p-6334-8gr4",
+      "GHSA-fq86-3f29-px2c",
+      "GHSA-fqm2-gh8w-gr68",
+      "GHSA-fqxc-pvf8-2w9v",
+      "GHSA-fr77-rrx3-cp7g",
+      "GHSA-frqp-wp83-qggv",
+      "GHSA-fv25-wrff-wf86",
+      "GHSA-fv43-93gv-vm8f",
+      "GHSA-fx5c-h9f6-rv7c",
+      "GHSA-fxgc-95xx-grvq",
+      "GHSA-g35r-369w-3fqp",
+      "GHSA-g468-qj8g-vcjc",
+      "GHSA-g9fm-r5mm-rf9f",
+      "GHSA-g9h5-vr8m-x2h4",
+      "GHSA-gcvh-66ff-4mwm",
+      "GHSA-gf2j-f278-xh4v",
+      "GHSA-gf97-q72m-7579",
+      "GHSA-gh8h-7j2j-qv4f",
+      "GHSA-gjh7-xx4r-x345",
+      "GHSA-gjqc-q9g6-q2j3",
+      "GHSA-gq2j-cr96-gvqx",
+      "GHSA-gw97-ff7c-9v96",
+      "GHSA-h246-cgh4-7475",
+      "GHSA-h2wq-prv9-2f56",
+      "GHSA-h48f-q7rw-hvr7",
+      "GHSA-h5g4-ppwx-48q2",
+      "GHSA-h5vq-gw2c-pq47",
+      "GHSA-h67m-xg8f-fxcf",
+      "GHSA-h6gw-r52c-724r",
+      "GHSA-h6q3-vv32-2cq5",
+      "GHSA-h7ff-cfc9-wmmh",
+      "GHSA-hq7g-wwwp-q46h",
+      "GHSA-hrg5-737c-2p56",
+      "GHSA-hx9q-2mx4-m4pg",
+      "GHSA-j3mj-fhpq-qqjj",
+      "GHSA-j43h-pgmg-5hjq",
+      "GHSA-j5w9-hmfh-4cr6",
+      "GHSA-j86v-p27c-73fm",
+      "GHSA-j8c8-67vp-6mx7",
+      "GHSA-jjm6-4vf7-cjh4",
+      "GHSA-jq6x-99hj-q636",
+      "GHSA-jqm7-m5q7-3hm5",
+      "GHSA-jvhc-5hhr-w3v5",
+      "GHSA-m342-ff57-4jcc",
+      "GHSA-m4hf-j54p-p353",
+      "GHSA-m539-j985-hcr8",
+      "GHSA-m6cv-4fmf-66xf",
+      "GHSA-m6vp-8q9j-whx4",
+      "GHSA-mg66-qvc5-rm93",
+      "GHSA-mgmh-g2v6-mqw5",
+      "GHSA-mh3m-62v7-68xg",
+      "GHSA-mv77-9g28-cwg3",
+      "GHSA-mv8m-8x97-937q",
+      "GHSA-mw6j-hh29-h379",
+      "GHSA-p2xf-8hgm-hpw5",
+      "GHSA-p7hr-f446-x6qf",
+      "GHSA-p9rc-rmr5-529j",
+      "GHSA-pf36-r9c6-h97j",
+      "GHSA-pfjj-m3jj-9jc9",
+      "GHSA-pgcq-h79j-2f69",
+      "GHSA-pqhm-4wvf-2jg8",
+      "GHSA-pqrv-8r2f-7278",
+      "GHSA-prcg-wp5q-rv7p",
+      "GHSA-pxrw-j2fv-hx3h",
+      "GHSA-q2c3-jpmc-gfjx",
+      "GHSA-q5jv-m6qw-5g37",
+      "GHSA-q85f-69q7-55h2",
+      "GHSA-qhw4-wwr7-gjc5",
+      "GHSA-qj5r-f9mv-rffh",
+      "GHSA-qjqc-vqcf-5qvj",
+      "GHSA-qx3f-p745-w4hr",
+      "GHSA-qxpx-j395-pw36",
+      "GHSA-r26c-679w-mrjm",
+      "GHSA-rc9w-5c64-9vqq",
+      "GHSA-rcf8-g8jv-vg6p",
+      "GHSA-rg3m-hqc5-344v",
+      "GHSA-rh87-q4vg-m45j",
+      "GHSA-rjx6-v474-2ch9",
+      "GHSA-rmg2-f698-wq35",
+      "GHSA-rrx2-r989-2c43",
+      "GHSA-rww7-2gpw-fv6j",
+      "GHSA-v3f7-j968-4h5f",
+      "GHSA-v5xg-3q2c-c2r4",
+      "GHSA-v6h3-348g-6h5x",
+      "GHSA-v7vw-577f-vp8x",
+      "GHSA-vgvh-2pf4-jr2x",
+      "GHSA-vjg4-v33c-ggc4",
+      "GHSA-vm7x-4qhj-rrcq",
+      "GHSA-vwhq-49r4-gj9v",
+      "GHSA-vxv8-r8q2-63xw",
+      "GHSA-w62h-8xjm-fv49",
+      "GHSA-wc4g-r73w-x8mm",
+      "GHSA-wcv5-vrvr-3rx2",
+      "GHSA-wm93-f238-7v37",
+      "GHSA-wq6q-6m32-9rv9",
+      "GHSA-wqmc-pm8c-2jhc",
+      "GHSA-wr9v-g9vf-c74v",
+      "GHSA-wxjj-cgcx-r3vq",
+      "GHSA-x3v8-c8qx-3j3r",
+      "GHSA-x4qx-4fjv-hmw6",
+      "GHSA-x989-q2pq-4q5x",
+      "GHSA-xf83-q765-xm6m",
+      "GHSA-xrp2-fhq4-4q3w",
+      "GHSA-xrqm-fpgr-6hhx",
+      "GHSA-xvwp-h6jv-7472",
+      "GHSA-xxcj-rhqg-m46g",
+      "PYSEC-2021-389",
+      "PYSEC-2021-390",
+      "PYSEC-2021-391",
+      "PYSEC-2021-392",
+      "PYSEC-2021-393",
+      "PYSEC-2021-394",
+      "PYSEC-2021-395",
+      "PYSEC-2021-396",
+      "PYSEC-2021-397",
+      "PYSEC-2021-398",
+      "PYSEC-2021-399",
+      "PYSEC-2021-400",
+      "PYSEC-2021-401",
+      "PYSEC-2021-402",
+      "PYSEC-2021-404",
+      "PYSEC-2021-405",
+      "PYSEC-2021-406",
+      "PYSEC-2021-407",
+      "PYSEC-2021-408",
+      "PYSEC-2021-409",
+      "PYSEC-2021-410",
+      "PYSEC-2021-411",
+      "PYSEC-2021-413",
+      "PYSEC-2021-414",
+      "PYSEC-2021-415",
+      "PYSEC-2021-416",
+      "PYSEC-2021-417",
+      "PYSEC-2021-418",
+      "PYSEC-2021-419",
+      "PYSEC-2021-420",
+      "PYSEC-2021-842",
+      "PYSEC-2021-843"
+    ]
+  },
+  {
+    "fix_id": "upgrade:tensorflow@2.9.1->@2.12.1",
+    "package": "tensorflow",
+    "from_version": "2.9.1",
+    "to_version": "2.12.1",
+    "covers": [
+      "GHSA-49rq-hwc3-x77w",
+      "GHSA-558h-mq8x-7q9g",
+      "GHSA-5w96-866f-6rm8",
+      "GHSA-647v-r7qq-24fh",
+      "GHSA-64jg-wjww-7c5w",
+      "GHSA-68v3-g9cm-rmm6",
+      "GHSA-6hg6-5c2q-7rcr",
+      "GHSA-6wfh-89q8-44jq",
+      "GHSA-7jvm-xxmr-v5cw",
+      "GHSA-7x4v-9gxg-9hwj",
+      "GHSA-8fvv-46hw-vpg3",
+      "GHSA-8w5g-3wcv-9g2j",
+      "GHSA-93vr-9q9m-pj8p",
+      "GHSA-94mm-g2mv-8p7r",
+      "GHSA-f49c-87jh-g47q",
+      "GHSA-f637-vh3r-vfh2",
+      "GHSA-fqm2-gh8w-gr68",
+      "GHSA-fxgc-95xx-grvq",
+      "GHSA-gf97-q72m-7579",
+      "GHSA-gjh7-xx4r-x345",
+      "GHSA-gw97-ff7c-9v96",
+      "GHSA-j5w9-hmfh-4cr6",
+      "GHSA-qjqc-vqcf-5qvj",
+      "GHSA-rcf8-g8jv-vg6p",
+      "PYSEC-2021-389",
+      "PYSEC-2021-390",
+      "PYSEC-2021-391",
+      "PYSEC-2021-392",
+      "PYSEC-2021-393",
+      "PYSEC-2021-394",
+      "PYSEC-2021-395",
+      "PYSEC-2021-396",
+      "PYSEC-2021-397",
+      "PYSEC-2021-398",
+      "PYSEC-2021-399",
+      "PYSEC-2021-400",
+      "PYSEC-2021-401",
+      "PYSEC-2021-402",
+      "PYSEC-2021-404",
+      "PYSEC-2021-405",
+      "PYSEC-2021-406",
+      "PYSEC-2021-407",
+      "PYSEC-2021-408",
+      "PYSEC-2021-409",
+      "PYSEC-2021-410",
+      "PYSEC-2021-411",
+      "PYSEC-2021-413",
+      "PYSEC-2021-414",
+      "PYSEC-2021-415",
+      "PYSEC-2021-416",
+      "PYSEC-2021-417",
+      "PYSEC-2021-418",
+      "PYSEC-2021-419",
+      "PYSEC-2021-420",
+      "PYSEC-2021-842",
+      "PYSEC-2021-843"
+    ]
+  },
+  {
+    "fix_id": "upgrade:torch@1.11.0->@2.8.0",
+    "package": "torch",
+    "from_version": "1.11.0",
+    "to_version": "2.8.0",
+    "covers": [
+      "GHSA-3749-ghw9-m3mg",
+      "GHSA-47fc-vmwq-366v",
+      "GHSA-53q9-r3pm-6pq6",
+      "GHSA-5pcm-hx3q-hm94",
+      "GHSA-887c-mr87-cxwp",
+      "GHSA-pg7h-5qx3-wjr3",
+      "PYSEC-2022-43015",
+      "PYSEC-2024-250",
+      "PYSEC-2024-251",
+      "PYSEC-2024-252",
+      "PYSEC-2024-259",
+      "PYSEC-2025-41"
+    ]
+  },
+  {
+    "fix_id": "upgrade:torch@1.8.0->@2.8.0",
+    "package": "torch",
+    "from_version": "1.8.0",
+    "to_version": "2.8.0",
+    "covers": [
+      "GHSA-3749-ghw9-m3mg",
+      "GHSA-47fc-vmwq-366v",
+      "GHSA-53q9-r3pm-6pq6",
+      "GHSA-5pcm-hx3q-hm94",
+      "GHSA-887c-mr87-cxwp",
+      "GHSA-pg7h-5qx3-wjr3",
+      "PYSEC-2022-43015",
+      "PYSEC-2024-250",
+      "PYSEC-2024-251",
+      "PYSEC-2024-252",
+      "PYSEC-2024-259",
+      "PYSEC-2025-41"
+    ]
+  },
+  {
+    "fix_id": "upgrade:torch@2.0.0->@2.8.0",
+    "package": "torch",
+    "from_version": "2.0.0",
+    "to_version": "2.8.0",
+    "covers": [
+      "GHSA-3749-ghw9-m3mg",
+      "GHSA-53q9-r3pm-6pq6",
+      "GHSA-5pcm-hx3q-hm94",
+      "GHSA-887c-mr87-cxwp",
+      "GHSA-pg7h-5qx3-wjr3",
+      "PYSEC-2022-43015",
+      "PYSEC-2024-250",
+      "PYSEC-2024-251",
+      "PYSEC-2024-252",
+      "PYSEC-2024-259",
+      "PYSEC-2025-41"
+    ]
+  },
+  {
+    "fix_id": "upgrade:torch@2.7.0->@2.8.0",
+    "package": "torch",
+    "from_version": "2.7.0",
+    "to_version": "2.8.0",
+    "covers": [
+      "GHSA-3749-ghw9-m3mg",
+      "GHSA-887c-mr87-cxwp",
+      "PYSEC-2022-43015",
+      "PYSEC-2024-250",
+      "PYSEC-2024-251",
+      "PYSEC-2024-252"
+    ]
+  },
+  {
+    "fix_id": "upgrade:tornado@6.0.4->@6.5.5",
+    "package": "tornado",
+    "from_version": "6.0.4",
+    "to_version": "6.5.5",
+    "covers": [
+      "GHSA-753j-mpmx-qq6g",
+      "GHSA-78cv-mqj4-43f7",
+      "GHSA-7cx3-6m66-7c5m",
+      "GHSA-8w49-h785-mj3c",
+      "GHSA-hj3f-6gcp-jg8j",
+      "GHSA-qjxf-f2mg-c6mc",
+      "GHSA-qppv-j76h-2rpx",
+      "GHSA-w235-7p84-xx57",
+      "PYSEC-2023-75"
+    ]
+  },
+  {
+    "fix_id": "upgrade:tornado@6.2->@6.5.5",
+    "package": "tornado",
+    "from_version": "6.2",
+    "to_version": "6.5.5",
+    "covers": [
+      "GHSA-753j-mpmx-qq6g",
+      "GHSA-78cv-mqj4-43f7",
+      "GHSA-7cx3-6m66-7c5m",
+      "GHSA-8w49-h785-mj3c",
+      "GHSA-hj3f-6gcp-jg8j",
+      "GHSA-qjxf-f2mg-c6mc",
+      "GHSA-qppv-j76h-2rpx",
+      "GHSA-w235-7p84-xx57",
+      "PYSEC-2023-75"
+    ]
+  },
+  {
+    "fix_id": "upgrade:tornado@6.4.1->@6.5.5",
+    "package": "tornado",
+    "from_version": "6.4.1",
+    "to_version": "6.5.5",
+    "covers": [
+      "GHSA-78cv-mqj4-43f7",
+      "GHSA-7cx3-6m66-7c5m",
+      "GHSA-8w49-h785-mj3c",
+      "GHSA-qjxf-f2mg-c6mc"
+    ]
+  },
+  {
+    "fix_id": "upgrade:tornado@6.4.2->@6.5.5",
+    "package": "tornado",
+    "from_version": "6.4.2",
+    "to_version": "6.5.5",
+    "covers": [
+      "GHSA-78cv-mqj4-43f7",
+      "GHSA-7cx3-6m66-7c5m",
+      "GHSA-qjxf-f2mg-c6mc"
+    ]
+  },
+  {
+    "fix_id": "upgrade:tornado@6.5->@6.5.5",
+    "package": "tornado",
+    "from_version": "6.5",
+    "to_version": "6.5.5",
+    "covers": [
+      "GHSA-78cv-mqj4-43f7",
+      "GHSA-qjxf-f2mg-c6mc"
+    ]
+  },
+  {
+    "fix_id": "upgrade:tqdm@4.49.0->@4.66.3",
+    "package": "tqdm",
+    "from_version": "4.49.0",
+    "to_version": "4.66.3",
+    "covers": [
+      "GHSA-g7vv-2v7x-gj9p"
+    ]
+  },
+  {
+    "fix_id": "upgrade:tqdm@4.62.3->@4.66.3",
+    "package": "tqdm",
+    "from_version": "4.62.3",
+    "to_version": "4.66.3",
+    "covers": [
+      "GHSA-g7vv-2v7x-gj9p"
+    ]
+  },
+  {
+    "fix_id": "upgrade:tqdm@4.64.0->@4.66.3",
+    "package": "tqdm",
+    "from_version": "4.64.0",
+    "to_version": "4.66.3",
+    "covers": [
+      "GHSA-g7vv-2v7x-gj9p"
+    ]
+  },
+  {
+    "fix_id": "upgrade:tqdm@4.64.1->@4.66.3",
+    "package": "tqdm",
+    "from_version": "4.64.1",
+    "to_version": "4.66.3",
+    "covers": [
+      "GHSA-g7vv-2v7x-gj9p"
+    ]
+  },
+  {
+    "fix_id": "upgrade:tqdm@4.65.0->@4.66.3",
+    "package": "tqdm",
+    "from_version": "4.65.0",
+    "to_version": "4.66.3",
+    "covers": [
+      "GHSA-g7vv-2v7x-gj9p"
+    ]
+  },
+  {
+    "fix_id": "upgrade:tqdm@4.66.1->@4.66.3",
+    "package": "tqdm",
+    "from_version": "4.66.1",
+    "to_version": "4.66.3",
+    "covers": [
+      "GHSA-g7vv-2v7x-gj9p"
+    ]
+  },
+  {
+    "fix_id": "upgrade:tqdm@4.66.2->@4.66.3",
+    "package": "tqdm",
+    "from_version": "4.66.2",
+    "to_version": "4.66.3",
+    "covers": [
+      "GHSA-g7vv-2v7x-gj9p"
+    ]
+  },
+  {
+    "fix_id": "upgrade:transformers@4.16.2->@4.53.0",
+    "package": "transformers",
+    "from_version": "4.16.2",
+    "to_version": "4.53.0",
+    "covers": [
+      "GHSA-282v-666c-3fvg",
+      "GHSA-37mw-44qp-f5jm",
+      "GHSA-37q5-v5qm-c9v8",
+      "GHSA-3863-2447-669p",
+      "GHSA-4w7r-h757-3r74",
+      "GHSA-59p9-h35m-wg4g",
+      "GHSA-6rvg-6v2m-4j46",
+      "GHSA-9356-575x-2w9m",
+      "GHSA-fpwr-67px-3qhx",
+      "GHSA-hxxf-235m-72v3",
+      "GHSA-jjph-296x-mrcr",
+      "GHSA-phhr-52qp-3mj4",
+      "GHSA-q2wp-rjmx-x6x9",
+      "GHSA-qq3j-4f4f-9583",
+      "GHSA-qxrp-vhvm-j765",
+      "GHSA-rcv9-qm8p-9p6j",
+      "GHSA-v68g-wm8c-6x7j",
+      "GHSA-wrfc-pvp9-mr9g",
+      "PYSEC-2023-299",
+      "PYSEC-2023-300",
+      "PYSEC-2023-301",
+      "PYSEC-2024-227",
+      "PYSEC-2024-228",
+      "PYSEC-2024-229",
+      "PYSEC-2025-40"
+    ]
+  },
+  {
+    "fix_id": "upgrade:transformers@4.4.2->@4.53.0",
+    "package": "transformers",
+    "from_version": "4.4.2",
+    "to_version": "4.53.0",
+    "covers": [
+      "GHSA-282v-666c-3fvg",
+      "GHSA-37mw-44qp-f5jm",
+      "GHSA-37q5-v5qm-c9v8",
+      "GHSA-3863-2447-669p",
+      "GHSA-4w7r-h757-3r74",
+      "GHSA-59p9-h35m-wg4g",
+      "GHSA-6rvg-6v2m-4j46",
+      "GHSA-9356-575x-2w9m",
+      "GHSA-fpwr-67px-3qhx",
+      "GHSA-hxxf-235m-72v3",
+      "GHSA-jjph-296x-mrcr",
+      "GHSA-phhr-52qp-3mj4",
+      "GHSA-q2wp-rjmx-x6x9",
+      "GHSA-qq3j-4f4f-9583",
+      "GHSA-qxrp-vhvm-j765",
+      "GHSA-rcv9-qm8p-9p6j",
+      "GHSA-v68g-wm8c-6x7j",
+      "GHSA-wrfc-pvp9-mr9g",
+      "PYSEC-2023-299",
+      "PYSEC-2023-300",
+      "PYSEC-2023-301",
+      "PYSEC-2024-227",
+      "PYSEC-2024-228",
+      "PYSEC-2024-229",
+      "PYSEC-2025-40"
+    ]
+  },
+  {
+    "fix_id": "upgrade:transformers@4.51.3->@4.53.0",
+    "package": "transformers",
+    "from_version": "4.51.3",
+    "to_version": "4.53.0",
+    "covers": [
+      "GHSA-37mw-44qp-f5jm",
+      "GHSA-4w7r-h757-3r74",
+      "GHSA-59p9-h35m-wg4g",
+      "GHSA-9356-575x-2w9m",
+      "GHSA-phhr-52qp-3mj4",
+      "GHSA-rcv9-qm8p-9p6j",
+      "PYSEC-2023-299",
+      "PYSEC-2023-300",
+      "PYSEC-2023-301",
+      "PYSEC-2025-40"
+    ]
+  },
+  {
+    "fix_id": "upgrade:twisted@20.3.0->@24.7.0rc1",
+    "package": "twisted",
+    "from_version": "20.3.0",
+    "to_version": "24.7.0rc1",
+    "covers": [
+      "GHSA-92x2-jw7w-xvvx",
+      "GHSA-c2jg-hw38-jrqq",
+      "GHSA-c8m8-j448-xjx7",
+      "GHSA-cf56-g6w6-pqq2",
+      "GHSA-vg46-2rrj-3647",
+      "GHSA-xc8x-vp79-p3wm",
+      "PYSEC-2022-195",
+      "PYSEC-2022-27",
+      "PYSEC-2023-224",
+      "PYSEC-2024-75"
+    ]
+  },
+  {
+    "fix_id": "upgrade:urllib3@1.22->@2.6.3",
+    "package": "urllib3",
+    "from_version": "1.22",
+    "to_version": "2.6.3",
+    "covers": [
+      "GHSA-2xpw-w6gg-jr37",
+      "GHSA-34jh-p97f-mpxf",
+      "GHSA-38jv-5279-wg99",
+      "GHSA-g4mx-q9vg-27p4",
+      "GHSA-gwvm-45gx-3cf8",
+      "GHSA-mh33-7rrq-662w",
+      "GHSA-pq67-6m6q-mj2v",
+      "GHSA-r64q-w8jr-g9qp",
+      "GHSA-v845-jxx5-vc9f",
+      "GHSA-wqvq-5m8c-6g24",
+      "GHSA-www2-v7xj-xrc6",
+      "PYSEC-2018-32",
+      "PYSEC-2019-132",
+      "PYSEC-2019-133",
+      "PYSEC-2020-148",
+      "PYSEC-2021-108",
+      "PYSEC-2023-192",
+      "PYSEC-2023-207",
+      "PYSEC-2023-212",
+      "GHSA-gm62-xv2j-4w53",
+      "GHSA-q2q7-5pp4-w6pg",
+      "GHSA-48p4-8xcf-vxj5"
+    ]
+  },
+  {
+    "fix_id": "upgrade:urllib3@1.25.8->@2.6.3",
+    "package": "urllib3",
+    "from_version": "1.25.8",
+    "to_version": "2.6.3",
+    "covers": [
+      "GHSA-2xpw-w6gg-jr37",
+      "GHSA-34jh-p97f-mpxf",
+      "GHSA-38jv-5279-wg99",
+      "GHSA-g4mx-q9vg-27p4",
+      "GHSA-pq67-6m6q-mj2v",
+      "GHSA-v845-jxx5-vc9f",
+      "GHSA-wqvq-5m8c-6g24",
+      "PYSEC-2020-148",
+      "PYSEC-2021-108",
+      "PYSEC-2023-192",
+      "PYSEC-2023-207",
+      "PYSEC-2023-212",
+      "GHSA-gm62-xv2j-4w53",
+      "GHSA-q2q7-5pp4-w6pg",
+      "GHSA-48p4-8xcf-vxj5"
+    ]
+  },
+  {
+    "fix_id": "upgrade:urllib3@1.26.10->@2.6.3",
+    "package": "urllib3",
+    "from_version": "1.26.10",
+    "to_version": "2.6.3",
+    "covers": [
+      "GHSA-2xpw-w6gg-jr37",
+      "GHSA-34jh-p97f-mpxf",
+      "GHSA-38jv-5279-wg99",
+      "GHSA-g4mx-q9vg-27p4",
+      "GHSA-pq67-6m6q-mj2v",
+      "GHSA-v845-jxx5-vc9f",
+      "PYSEC-2020-148",
+      "PYSEC-2021-108",
+      "PYSEC-2023-192",
+      "PYSEC-2023-207",
+      "PYSEC-2023-212",
+      "GHSA-gm62-xv2j-4w53",
+      "GHSA-48p4-8xcf-vxj5"
+    ]
+  },
+  {
+    "fix_id": "upgrade:urllib3@1.26.11->@2.6.3",
+    "package": "urllib3",
+    "from_version": "1.26.11",
+    "to_version": "2.6.3",
+    "covers": [
+      "GHSA-2xpw-w6gg-jr37",
+      "GHSA-34jh-p97f-mpxf",
+      "GHSA-38jv-5279-wg99",
+      "GHSA-g4mx-q9vg-27p4",
+      "GHSA-pq67-6m6q-mj2v",
+      "GHSA-v845-jxx5-vc9f",
+      "PYSEC-2020-148",
+      "PYSEC-2021-108",
+      "PYSEC-2023-192",
+      "PYSEC-2023-207",
+      "PYSEC-2023-212",
+      "GHSA-gm62-xv2j-4w53",
+      "GHSA-48p4-8xcf-vxj5"
+    ]
+  },
+  {
+    "fix_id": "upgrade:urllib3@1.26.12->@2.6.3",
+    "package": "urllib3",
+    "from_version": "1.26.12",
+    "to_version": "2.6.3",
+    "covers": [
+      "GHSA-2xpw-w6gg-jr37",
+      "GHSA-34jh-p97f-mpxf",
+      "GHSA-38jv-5279-wg99",
+      "GHSA-g4mx-q9vg-27p4",
+      "GHSA-pq67-6m6q-mj2v",
+      "GHSA-v845-jxx5-vc9f",
+      "PYSEC-2020-148",
+      "PYSEC-2021-108",
+      "PYSEC-2023-192",
+      "PYSEC-2023-207",
+      "PYSEC-2023-212",
+      "GHSA-gm62-xv2j-4w53",
+      "GHSA-48p4-8xcf-vxj5"
+    ]
+  },
+  {
+    "fix_id": "upgrade:urllib3@1.26.13->@2.6.3",
+    "package": "urllib3",
+    "from_version": "1.26.13",
+    "to_version": "2.6.3",
+    "covers": [
+      "GHSA-2xpw-w6gg-jr37",
+      "GHSA-34jh-p97f-mpxf",
+      "GHSA-38jv-5279-wg99",
+      "GHSA-g4mx-q9vg-27p4",
+      "GHSA-pq67-6m6q-mj2v",
+      "GHSA-v845-jxx5-vc9f",
+      "PYSEC-2020-148",
+      "PYSEC-2021-108",
+      "PYSEC-2023-192",
+      "PYSEC-2023-207",
+      "PYSEC-2023-212",
+      "GHSA-gm62-xv2j-4w53",
+      "GHSA-48p4-8xcf-vxj5"
+    ]
+  },
+  {
+    "fix_id": "upgrade:urllib3@1.26.14->@2.6.3",
+    "package": "urllib3",
+    "from_version": "1.26.14",
+    "to_version": "2.6.3",
+    "covers": [
+      "GHSA-2xpw-w6gg-jr37",
+      "GHSA-34jh-p97f-mpxf",
+      "GHSA-38jv-5279-wg99",
+      "GHSA-g4mx-q9vg-27p4",
+      "GHSA-pq67-6m6q-mj2v",
+      "GHSA-v845-jxx5-vc9f",
+      "PYSEC-2020-148",
+      "PYSEC-2021-108",
+      "PYSEC-2023-192",
+      "PYSEC-2023-207",
+      "PYSEC-2023-212",
+      "GHSA-gm62-xv2j-4w53",
+      "GHSA-48p4-8xcf-vxj5"
+    ]
+  },
+  {
+    "fix_id": "upgrade:urllib3@1.26.15->@2.6.3",
+    "package": "urllib3",
+    "from_version": "1.26.15",
+    "to_version": "2.6.3",
+    "covers": [
+      "GHSA-2xpw-w6gg-jr37",
+      "GHSA-34jh-p97f-mpxf",
+      "GHSA-38jv-5279-wg99",
+      "GHSA-g4mx-q9vg-27p4",
+      "GHSA-pq67-6m6q-mj2v",
+      "GHSA-v845-jxx5-vc9f",
+      "PYSEC-2020-148",
+      "PYSEC-2021-108",
+      "PYSEC-2023-192",
+      "PYSEC-2023-207",
+      "PYSEC-2023-212",
+      "GHSA-gm62-xv2j-4w53",
+      "GHSA-48p4-8xcf-vxj5"
+    ]
+  },
+  {
+    "fix_id": "upgrade:urllib3@1.26.18->@2.6.3",
+    "package": "urllib3",
+    "from_version": "1.26.18",
+    "to_version": "2.6.3",
+    "covers": [
+      "GHSA-2xpw-w6gg-jr37",
+      "GHSA-34jh-p97f-mpxf",
+      "GHSA-38jv-5279-wg99",
+      "GHSA-g4mx-q9vg-27p4",
+      "GHSA-pq67-6m6q-mj2v",
+      "GHSA-v845-jxx5-vc9f",
+      "PYSEC-2020-148",
+      "PYSEC-2021-108",
+      "PYSEC-2023-192",
+      "PYSEC-2023-207",
+      "PYSEC-2023-212",
+      "GHSA-gm62-xv2j-4w53",
+      "GHSA-48p4-8xcf-vxj5"
+    ]
+  },
+  {
+    "fix_id": "upgrade:urllib3@1.26.19->@2.6.3",
+    "package": "urllib3",
+    "from_version": "1.26.19",
+    "to_version": "2.6.3",
+    "covers": [
+      "GHSA-2xpw-w6gg-jr37",
+      "GHSA-38jv-5279-wg99",
+      "GHSA-g4mx-q9vg-27p4",
+      "GHSA-pq67-6m6q-mj2v",
+      "GHSA-v845-jxx5-vc9f",
+      "PYSEC-2020-148",
+      "PYSEC-2021-108",
+      "PYSEC-2023-192",
+      "PYSEC-2023-207",
+      "PYSEC-2023-212",
+      "GHSA-gm62-xv2j-4w53",
+      "GHSA-48p4-8xcf-vxj5"
+    ]
+  },
+  {
+    "fix_id": "upgrade:urllib3@1.26.4->@2.6.3",
+    "package": "urllib3",
+    "from_version": "1.26.4",
+    "to_version": "2.6.3",
+    "covers": [
+      "GHSA-2xpw-w6gg-jr37",
+      "GHSA-34jh-p97f-mpxf",
+      "GHSA-38jv-5279-wg99",
+      "GHSA-g4mx-q9vg-27p4",
+      "GHSA-pq67-6m6q-mj2v",
+      "GHSA-v845-jxx5-vc9f",
+      "PYSEC-2020-148",
+      "PYSEC-2021-108",
+      "PYSEC-2023-192",
+      "PYSEC-2023-207",
+      "PYSEC-2023-212",
+      "GHSA-gm62-xv2j-4w53",
+      "GHSA-q2q7-5pp4-w6pg",
+      "GHSA-48p4-8xcf-vxj5"
+    ]
+  },
+  {
+    "fix_id": "upgrade:urllib3@1.26.5->@2.6.3",
+    "package": "urllib3",
+    "from_version": "1.26.5",
+    "to_version": "2.6.3",
+    "covers": [
+      "GHSA-2xpw-w6gg-jr37",
+      "GHSA-34jh-p97f-mpxf",
+      "GHSA-38jv-5279-wg99",
+      "GHSA-g4mx-q9vg-27p4",
+      "GHSA-pq67-6m6q-mj2v",
+      "GHSA-v845-jxx5-vc9f",
+      "PYSEC-2020-148",
+      "PYSEC-2021-108",
+      "PYSEC-2023-192",
+      "PYSEC-2023-207",
+      "PYSEC-2023-212",
+      "GHSA-gm62-xv2j-4w53",
+      "GHSA-48p4-8xcf-vxj5"
+    ]
+  },
+  {
+    "fix_id": "upgrade:urllib3@1.26.6->@2.6.3",
+    "package": "urllib3",
+    "from_version": "1.26.6",
+    "to_version": "2.6.3",
+    "covers": [
+      "GHSA-2xpw-w6gg-jr37",
+      "GHSA-34jh-p97f-mpxf",
+      "GHSA-38jv-5279-wg99",
+      "GHSA-g4mx-q9vg-27p4",
+      "GHSA-pq67-6m6q-mj2v",
+      "GHSA-v845-jxx5-vc9f",
+      "PYSEC-2020-148",
+      "PYSEC-2021-108",
+      "PYSEC-2023-192",
+      "PYSEC-2023-207",
+      "PYSEC-2023-212",
+      "GHSA-gm62-xv2j-4w53",
+      "GHSA-48p4-8xcf-vxj5"
+    ]
+  },
+  {
+    "fix_id": "upgrade:urllib3@1.26.7->@2.6.3",
+    "package": "urllib3",
+    "from_version": "1.26.7",
+    "to_version": "2.6.3",
+    "covers": [
+      "GHSA-2xpw-w6gg-jr37",
+      "GHSA-34jh-p97f-mpxf",
+      "GHSA-38jv-5279-wg99",
+      "GHSA-g4mx-q9vg-27p4",
+      "GHSA-pq67-6m6q-mj2v",
+      "GHSA-v845-jxx5-vc9f",
+      "PYSEC-2020-148",
+      "PYSEC-2021-108",
+      "PYSEC-2023-192",
+      "PYSEC-2023-207",
+      "PYSEC-2023-212",
+      "GHSA-gm62-xv2j-4w53",
+      "GHSA-48p4-8xcf-vxj5"
+    ]
+  },
+  {
+    "fix_id": "upgrade:urllib3@1.26.8->@2.6.3",
+    "package": "urllib3",
+    "from_version": "1.26.8",
+    "to_version": "2.6.3",
+    "covers": [
+      "GHSA-2xpw-w6gg-jr37",
+      "GHSA-34jh-p97f-mpxf",
+      "GHSA-38jv-5279-wg99",
+      "GHSA-g4mx-q9vg-27p4",
+      "GHSA-pq67-6m6q-mj2v",
+      "GHSA-v845-jxx5-vc9f",
+      "PYSEC-2020-148",
+      "PYSEC-2021-108",
+      "PYSEC-2023-192",
+      "PYSEC-2023-207",
+      "PYSEC-2023-212",
+      "GHSA-gm62-xv2j-4w53",
+      "GHSA-48p4-8xcf-vxj5"
+    ]
+  },
+  {
+    "fix_id": "upgrade:urllib3@1.26.9->@2.6.3",
+    "package": "urllib3",
+    "from_version": "1.26.9",
+    "to_version": "2.6.3",
+    "covers": [
+      "GHSA-2xpw-w6gg-jr37",
+      "GHSA-34jh-p97f-mpxf",
+      "GHSA-38jv-5279-wg99",
+      "GHSA-g4mx-q9vg-27p4",
+      "GHSA-pq67-6m6q-mj2v",
+      "GHSA-v845-jxx5-vc9f",
+      "PYSEC-2020-148",
+      "PYSEC-2021-108",
+      "PYSEC-2023-192",
+      "PYSEC-2023-207",
+      "PYSEC-2023-212",
+      "GHSA-gm62-xv2j-4w53",
+      "GHSA-48p4-8xcf-vxj5"
+    ]
+  },
+  {
+    "fix_id": "upgrade:urllib3@2.0.2->@2.6.3",
+    "package": "urllib3",
+    "from_version": "2.0.2",
+    "to_version": "2.6.3",
+    "covers": [
+      "GHSA-2xpw-w6gg-jr37",
+      "GHSA-38jv-5279-wg99",
+      "GHSA-g4mx-q9vg-27p4",
+      "GHSA-pq67-6m6q-mj2v",
+      "GHSA-v845-jxx5-vc9f",
+      "PYSEC-2020-148",
+      "PYSEC-2021-108",
+      "PYSEC-2023-192",
+      "PYSEC-2023-207",
+      "PYSEC-2023-212",
+      "GHSA-gm62-xv2j-4w53",
+      "GHSA-48p4-8xcf-vxj5"
+    ]
+  },
+  {
+    "fix_id": "upgrade:urllib3@2.0.3->@2.6.3",
+    "package": "urllib3",
+    "from_version": "2.0.3",
+    "to_version": "2.6.3",
+    "covers": [
+      "GHSA-2xpw-w6gg-jr37",
+      "GHSA-38jv-5279-wg99",
+      "GHSA-g4mx-q9vg-27p4",
+      "GHSA-pq67-6m6q-mj2v",
+      "GHSA-v845-jxx5-vc9f",
+      "PYSEC-2020-148",
+      "PYSEC-2021-108",
+      "PYSEC-2023-192",
+      "PYSEC-2023-207",
+      "PYSEC-2023-212",
+      "GHSA-gm62-xv2j-4w53",
+      "GHSA-48p4-8xcf-vxj5"
+    ]
+  },
+  {
+    "fix_id": "upgrade:urllib3@2.0.4->@2.6.3",
+    "package": "urllib3",
+    "from_version": "2.0.4",
+    "to_version": "2.6.3",
+    "covers": [
+      "GHSA-2xpw-w6gg-jr37",
+      "GHSA-38jv-5279-wg99",
+      "GHSA-g4mx-q9vg-27p4",
+      "GHSA-pq67-6m6q-mj2v",
+      "GHSA-v845-jxx5-vc9f",
+      "PYSEC-2020-148",
+      "PYSEC-2021-108",
+      "PYSEC-2023-192",
+      "PYSEC-2023-207",
+      "PYSEC-2023-212",
+      "GHSA-gm62-xv2j-4w53",
+      "GHSA-48p4-8xcf-vxj5"
+    ]
+  },
+  {
+    "fix_id": "upgrade:urllib3@2.0.5->@2.6.3",
+    "package": "urllib3",
+    "from_version": "2.0.5",
+    "to_version": "2.6.3",
+    "covers": [
+      "GHSA-2xpw-w6gg-jr37",
+      "GHSA-38jv-5279-wg99",
+      "GHSA-g4mx-q9vg-27p4",
+      "GHSA-pq67-6m6q-mj2v",
+      "GHSA-v845-jxx5-vc9f",
+      "PYSEC-2020-148",
+      "PYSEC-2021-108",
+      "PYSEC-2023-192",
+      "PYSEC-2023-207",
+      "PYSEC-2023-212",
+      "GHSA-gm62-xv2j-4w53",
+      "GHSA-48p4-8xcf-vxj5"
+    ]
+  },
+  {
+    "fix_id": "upgrade:urllib3@2.0.6->@2.6.3",
+    "package": "urllib3",
+    "from_version": "2.0.6",
+    "to_version": "2.6.3",
+    "covers": [
+      "GHSA-2xpw-w6gg-jr37",
+      "GHSA-38jv-5279-wg99",
+      "GHSA-g4mx-q9vg-27p4",
+      "GHSA-pq67-6m6q-mj2v",
+      "PYSEC-2020-148",
+      "PYSEC-2021-108",
+      "PYSEC-2023-192",
+      "PYSEC-2023-207",
+      "PYSEC-2023-212",
+      "GHSA-gm62-xv2j-4w53",
+      "GHSA-48p4-8xcf-vxj5"
+    ]
+  },
+  {
+    "fix_id": "upgrade:urllib3@2.0.7->@2.6.3",
+    "package": "urllib3",
+    "from_version": "2.0.7",
+    "to_version": "2.6.3",
+    "covers": [
+      "GHSA-2xpw-w6gg-jr37",
+      "GHSA-38jv-5279-wg99",
+      "GHSA-pq67-6m6q-mj2v",
+      "PYSEC-2020-148",
+      "PYSEC-2021-108",
+      "PYSEC-2023-192",
+      "PYSEC-2023-207",
+      "PYSEC-2023-212",
+      "GHSA-gm62-xv2j-4w53",
+      "GHSA-48p4-8xcf-vxj5"
+    ]
+  },
+  {
+    "fix_id": "upgrade:urllib3@2.1.0->@2.6.3",
+    "package": "urllib3",
+    "from_version": "2.1.0",
+    "to_version": "2.6.3",
+    "covers": [
+      "GHSA-2xpw-w6gg-jr37",
+      "GHSA-38jv-5279-wg99",
+      "GHSA-pq67-6m6q-mj2v",
+      "PYSEC-2020-148",
+      "PYSEC-2021-108",
+      "PYSEC-2023-192",
+      "PYSEC-2023-207",
+      "PYSEC-2023-212",
+      "GHSA-gm62-xv2j-4w53",
+      "GHSA-48p4-8xcf-vxj5"
+    ]
+  },
+  {
+    "fix_id": "upgrade:urllib3@2.2.0->@2.6.3",
+    "package": "urllib3",
+    "from_version": "2.2.0",
+    "to_version": "2.6.3",
+    "covers": [
+      "GHSA-2xpw-w6gg-jr37",
+      "GHSA-38jv-5279-wg99",
+      "GHSA-pq67-6m6q-mj2v",
+      "PYSEC-2020-148",
+      "PYSEC-2021-108",
+      "PYSEC-2023-192",
+      "PYSEC-2023-207",
+      "PYSEC-2023-212",
+      "GHSA-gm62-xv2j-4w53",
+      "GHSA-48p4-8xcf-vxj5"
+    ]
+  },
+  {
+    "fix_id": "upgrade:urllib3@2.2.1->@2.6.3",
+    "package": "urllib3",
+    "from_version": "2.2.1",
+    "to_version": "2.6.3",
+    "covers": [
+      "GHSA-2xpw-w6gg-jr37",
+      "GHSA-38jv-5279-wg99",
+      "GHSA-pq67-6m6q-mj2v",
+      "PYSEC-2020-148",
+      "PYSEC-2021-108",
+      "PYSEC-2023-192",
+      "PYSEC-2023-207",
+      "PYSEC-2023-212",
+      "GHSA-gm62-xv2j-4w53",
+      "GHSA-48p4-8xcf-vxj5"
+    ]
+  },
+  {
+    "fix_id": "upgrade:urllib3@2.2.2->@2.6.3",
+    "package": "urllib3",
+    "from_version": "2.2.2",
+    "to_version": "2.6.3",
+    "covers": [
+      "GHSA-2xpw-w6gg-jr37",
+      "GHSA-38jv-5279-wg99",
+      "GHSA-pq67-6m6q-mj2v",
+      "PYSEC-2020-148",
+      "PYSEC-2021-108",
+      "PYSEC-2023-192",
+      "PYSEC-2023-207",
+      "PYSEC-2023-212",
+      "GHSA-gm62-xv2j-4w53",
+      "GHSA-48p4-8xcf-vxj5"
+    ]
+  },
+  {
+    "fix_id": "upgrade:urllib3@2.2.3->@2.6.3",
+    "package": "urllib3",
+    "from_version": "2.2.3",
+    "to_version": "2.6.3",
+    "covers": [
+      "GHSA-2xpw-w6gg-jr37",
+      "GHSA-38jv-5279-wg99",
+      "GHSA-pq67-6m6q-mj2v",
+      "PYSEC-2020-148",
+      "PYSEC-2021-108",
+      "PYSEC-2023-192",
+      "PYSEC-2023-207",
+      "PYSEC-2023-212",
+      "GHSA-gm62-xv2j-4w53",
+      "GHSA-48p4-8xcf-vxj5"
+    ]
+  },
+  {
+    "fix_id": "upgrade:urllib3@2.3.0->@2.6.3",
+    "package": "urllib3",
+    "from_version": "2.3.0",
+    "to_version": "2.6.3",
+    "covers": [
+      "GHSA-2xpw-w6gg-jr37",
+      "GHSA-38jv-5279-wg99",
+      "GHSA-pq67-6m6q-mj2v",
+      "PYSEC-2020-148",
+      "PYSEC-2021-108",
+      "PYSEC-2023-192",
+      "PYSEC-2023-207",
+      "PYSEC-2023-212",
+      "GHSA-gm62-xv2j-4w53",
+      "GHSA-48p4-8xcf-vxj5"
+    ]
+  },
+  {
+    "fix_id": "upgrade:urllib3@2.4.0->@2.6.3",
+    "package": "urllib3",
+    "from_version": "2.4.0",
+    "to_version": "2.6.3",
+    "covers": [
+      "GHSA-2xpw-w6gg-jr37",
+      "GHSA-38jv-5279-wg99",
+      "GHSA-pq67-6m6q-mj2v",
+      "PYSEC-2020-148",
+      "PYSEC-2021-108",
+      "PYSEC-2023-192",
+      "PYSEC-2023-207",
+      "PYSEC-2023-212",
+      "GHSA-gm62-xv2j-4w53",
+      "GHSA-48p4-8xcf-vxj5"
+    ]
+  },
+  {
+    "fix_id": "upgrade:urllib3@2.5.0->@2.6.3",
+    "package": "urllib3",
+    "from_version": "2.5.0",
+    "to_version": "2.6.3",
+    "covers": [
+      "GHSA-2xpw-w6gg-jr37",
+      "GHSA-38jv-5279-wg99",
+      "PYSEC-2020-148",
+      "PYSEC-2021-108",
+      "PYSEC-2023-192",
+      "PYSEC-2023-207",
+      "PYSEC-2023-212",
+      "GHSA-gm62-xv2j-4w53"
+    ]
+  },
+  {
+    "fix_id": "upgrade:uwsgi@2.0.20->@2.0.22",
+    "package": "uwsgi",
+    "from_version": "2.0.20",
+    "to_version": "2.0.22",
+    "covers": [
+      "GHSA-vcph-37mh-fqrh"
+    ]
+  },
+  {
+    "fix_id": "upgrade:virtualenv@20.10.0->@20.36.1",
+    "package": "virtualenv",
+    "from_version": "20.10.0",
+    "to_version": "20.36.1",
+    "covers": [
+      "GHSA-597g-3phw-6986",
+      "GHSA-rqc4-2hc7-8c8v",
+      "PYSEC-2024-187"
+    ]
+  },
+  {
+    "fix_id": "upgrade:virtualenv@20.13.1->@20.36.1",
+    "package": "virtualenv",
+    "from_version": "20.13.1",
+    "to_version": "20.36.1",
+    "covers": [
+      "GHSA-597g-3phw-6986",
+      "GHSA-rqc4-2hc7-8c8v",
+      "PYSEC-2024-187"
+    ]
+  },
+  {
+    "fix_id": "upgrade:virtualenv@20.13.4->@20.36.1",
+    "package": "virtualenv",
+    "from_version": "20.13.4",
+    "to_version": "20.36.1",
+    "covers": [
+      "GHSA-597g-3phw-6986",
+      "GHSA-rqc4-2hc7-8c8v",
+      "PYSEC-2024-187"
+    ]
+  },
+  {
+    "fix_id": "upgrade:virtualenv@20.14.1->@20.36.1",
+    "package": "virtualenv",
+    "from_version": "20.14.1",
+    "to_version": "20.36.1",
+    "covers": [
+      "GHSA-597g-3phw-6986",
+      "GHSA-rqc4-2hc7-8c8v",
+      "PYSEC-2024-187"
+    ]
+  },
+  {
+    "fix_id": "upgrade:virtualenv@20.15.1->@20.36.1",
+    "package": "virtualenv",
+    "from_version": "20.15.1",
+    "to_version": "20.36.1",
+    "covers": [
+      "GHSA-597g-3phw-6986",
+      "GHSA-rqc4-2hc7-8c8v",
+      "PYSEC-2024-187"
+    ]
+  },
+  {
+    "fix_id": "upgrade:virtualenv@20.16.4->@20.36.1",
+    "package": "virtualenv",
+    "from_version": "20.16.4",
+    "to_version": "20.36.1",
+    "covers": [
+      "GHSA-597g-3phw-6986",
+      "GHSA-rqc4-2hc7-8c8v",
+      "PYSEC-2024-187"
+    ]
+  },
+  {
+    "fix_id": "upgrade:virtualenv@20.17.1->@20.36.1",
+    "package": "virtualenv",
+    "from_version": "20.17.1",
+    "to_version": "20.36.1",
+    "covers": [
+      "GHSA-597g-3phw-6986",
+      "GHSA-rqc4-2hc7-8c8v",
+      "PYSEC-2024-187"
+    ]
+  },
+  {
+    "fix_id": "upgrade:virtualenv@20.21.0->@20.36.1",
+    "package": "virtualenv",
+    "from_version": "20.21.0",
+    "to_version": "20.36.1",
+    "covers": [
+      "GHSA-597g-3phw-6986",
+      "GHSA-rqc4-2hc7-8c8v",
+      "PYSEC-2024-187"
+    ]
+  },
+  {
+    "fix_id": "upgrade:virtualenv@20.23.0->@20.36.1",
+    "package": "virtualenv",
+    "from_version": "20.23.0",
+    "to_version": "20.36.1",
+    "covers": [
+      "GHSA-597g-3phw-6986",
+      "GHSA-rqc4-2hc7-8c8v",
+      "PYSEC-2024-187"
+    ]
+  },
+  {
+    "fix_id": "upgrade:virtualenv@20.24.2->@20.36.1",
+    "package": "virtualenv",
+    "from_version": "20.24.2",
+    "to_version": "20.36.1",
+    "covers": [
+      "GHSA-597g-3phw-6986",
+      "GHSA-rqc4-2hc7-8c8v",
+      "PYSEC-2024-187"
+    ]
+  },
+  {
+    "fix_id": "upgrade:virtualenv@20.24.3->@20.36.1",
+    "package": "virtualenv",
+    "from_version": "20.24.3",
+    "to_version": "20.36.1",
+    "covers": [
+      "GHSA-597g-3phw-6986",
+      "GHSA-rqc4-2hc7-8c8v",
+      "PYSEC-2024-187"
+    ]
+  },
+  {
+    "fix_id": "upgrade:virtualenv@20.24.6->@20.36.1",
+    "package": "virtualenv",
+    "from_version": "20.24.6",
+    "to_version": "20.36.1",
+    "covers": [
+      "GHSA-597g-3phw-6986",
+      "GHSA-rqc4-2hc7-8c8v",
+      "PYSEC-2024-187"
+    ]
+  },
+  {
+    "fix_id": "upgrade:virtualenv@20.25.0->@20.36.1",
+    "package": "virtualenv",
+    "from_version": "20.25.0",
+    "to_version": "20.36.1",
+    "covers": [
+      "GHSA-597g-3phw-6986",
+      "GHSA-rqc4-2hc7-8c8v",
+      "PYSEC-2024-187"
+    ]
+  },
+  {
+    "fix_id": "upgrade:virtualenv@20.25.1->@20.36.1",
+    "package": "virtualenv",
+    "from_version": "20.25.1",
+    "to_version": "20.36.1",
+    "covers": [
+      "GHSA-597g-3phw-6986",
+      "GHSA-rqc4-2hc7-8c8v",
+      "PYSEC-2024-187"
+    ]
+  },
+  {
+    "fix_id": "upgrade:virtualenv@20.26.1->@20.36.1",
+    "package": "virtualenv",
+    "from_version": "20.26.1",
+    "to_version": "20.36.1",
+    "covers": [
+      "GHSA-597g-3phw-6986",
+      "GHSA-rqc4-2hc7-8c8v",
+      "PYSEC-2024-187"
+    ]
+  },
+  {
+    "fix_id": "upgrade:virtualenv@20.26.3->@20.36.1",
+    "package": "virtualenv",
+    "from_version": "20.26.3",
+    "to_version": "20.36.1",
+    "covers": [
+      "GHSA-597g-3phw-6986",
+      "GHSA-rqc4-2hc7-8c8v",
+      "PYSEC-2024-187"
+    ]
+  },
+  {
+    "fix_id": "upgrade:virtualenv@20.28.0->@20.36.1",
+    "package": "virtualenv",
+    "from_version": "20.28.0",
+    "to_version": "20.36.1",
+    "covers": [
+      "GHSA-597g-3phw-6986"
+    ]
+  },
+  {
+    "fix_id": "upgrade:virtualenv@20.29.3->@20.36.1",
+    "package": "virtualenv",
+    "from_version": "20.29.3",
+    "to_version": "20.36.1",
+    "covers": [
+      "GHSA-597g-3phw-6986"
+    ]
+  },
+  {
+    "fix_id": "upgrade:virtualenv@20.31.2->@20.36.1",
+    "package": "virtualenv",
+    "from_version": "20.31.2",
+    "to_version": "20.36.1",
+    "covers": [
+      "GHSA-597g-3phw-6986"
+    ]
+  },
+  {
+    "fix_id": "upgrade:virtualenv@20.34.0->@20.36.1",
+    "package": "virtualenv",
+    "from_version": "20.34.0",
+    "to_version": "20.36.1",
+    "covers": [
+      "GHSA-597g-3phw-6986"
+    ]
+  },
+  {
+    "fix_id": "upgrade:virtualenv@20.8.1->@20.36.1",
+    "package": "virtualenv",
+    "from_version": "20.8.1",
+    "to_version": "20.36.1",
+    "covers": [
+      "GHSA-597g-3phw-6986",
+      "GHSA-rqc4-2hc7-8c8v",
+      "PYSEC-2024-187"
+    ]
+  },
+  {
+    "fix_id": "upgrade:vyper@0.2.16->@0.4.3",
+    "package": "vyper",
+    "from_version": "0.2.16",
+    "to_version": "0.4.3",
+    "covers": [
+      "GHSA-2p94-8669-xg86",
+      "GHSA-3hg2-r75x-g69m",
+      "GHSA-3p37-3636-q8wv",
+      "GHSA-3vcg-j39x-cwfm",
+      "GHSA-3whq-64q2-qfj6",
+      "GHSA-4hg4-9mf5-wxxq",
+      "GHSA-4hwq-4cpm-8vmx",
+      "GHSA-4mrx-6fxm-8jpg",
+      "GHSA-4v9q-cgpw-cf38",
+      "GHSA-4w26-8p97-f4jp",
+      "GHSA-52xq-j7v9-v4v2",
+      "GHSA-5824-cm3x-3c38",
+      "GHSA-5jrj-52x8-m64h",
+      "GHSA-6845-xw22-ffxv",
+      "GHSA-6m97-7527-mh74",
+      "GHSA-6r8q-pfpv-7cgj",
+      "GHSA-7vrm-3jc8-5wwm",
+      "GHSA-9p8r-4xp4-gw5w",
+      "GHSA-9x7f-gwxq-6f2c",
+      "GHSA-c7pr-343r-5c46",
+      "GHSA-f5x6-7qgp-jhf3",
+      "GHSA-g2xh-c426-v8mf",
+      "GHSA-gp3w-2v2m-p686",
+      "GHSA-h33q-mhmp-8p67",
+      "GHSA-j2x6-9323-fp7h",
+      "GHSA-m2v9-w374-5hj9",
+      "GHSA-mgv8-gggw-mrg6",
+      "GHSA-ph9x-4vc9-m39g",
+      "GHSA-qhr6-mgqr-mchm",
+      "GHSA-r56x-j438-vw5m",
+      "GHSA-vgf2-gvx8-xwc3",
+      "GHSA-vxmm-cwh2-q762",
+      "GHSA-x2c2-q32w-4w6m",
+      "GHSA-xchq-w5r3-4wg3",
+      "GHSA-xv8x-pr4h-73jv",
+      "PYSEC-2021-365",
+      "PYSEC-2021-366",
+      "PYSEC-2022-196",
+      "PYSEC-2022-197",
+      "PYSEC-2022-198",
+      "PYSEC-2022-43053",
+      "PYSEC-2023-133",
+      "PYSEC-2023-142",
+      "PYSEC-2023-167",
+      "PYSEC-2023-168",
+      "PYSEC-2023-305",
+      "PYSEC-2023-306",
+      "PYSEC-2023-307",
+      "PYSEC-2023-76",
+      "PYSEC-2023-77",
+      "PYSEC-2023-78",
+      "PYSEC-2023-79",
+      "PYSEC-2023-80",
+      "PYSEC-2024-103",
+      "PYSEC-2024-147",
+      "PYSEC-2024-148",
+      "PYSEC-2024-149",
+      "PYSEC-2024-150",
+      "PYSEC-2024-151",
+      "PYSEC-2024-163",
+      "PYSEC-2024-164",
+      "PYSEC-2024-205",
+      "PYSEC-2024-206",
+      "PYSEC-2024-207",
+      "PYSEC-2024-208",
+      "PYSEC-2024-209",
+      "PYSEC-2025-29",
+      "PYSEC-2025-30",
+      "PYSEC-2025-31",
+      "PYSEC-2025-33"
+    ]
+  },
+  {
+    "fix_id": "upgrade:wagtail@4.2->@6.3.8",
+    "package": "wagtail",
+    "from_version": "4.2",
+    "to_version": "6.3.8",
+    "covers": [
+      "GHSA-33pv-vcgh-jfg9",
+      "GHSA-4qvv-g3vr-m348",
+      "GHSA-jmp3-39vp-fwg8",
+      "GHSA-p4v8-rw59-93cq",
+      "GHSA-p5cm-246w-84jm",
+      "PYSEC-2023-219",
+      "PYSEC-2023-55",
+      "PYSEC-2023-56",
+      "PYSEC-2024-86"
+    ]
+  },
+  {
+    "fix_id": "upgrade:wagtail@5.0->@6.3.8",
+    "package": "wagtail",
+    "from_version": "5.0",
+    "to_version": "6.3.8",
+    "covers": [
+      "GHSA-4qvv-g3vr-m348",
+      "GHSA-jmp3-39vp-fwg8",
+      "GHSA-p4v8-rw59-93cq",
+      "GHSA-p5cm-246w-84jm",
+      "PYSEC-2023-219",
+      "PYSEC-2023-55",
+      "PYSEC-2023-56",
+      "PYSEC-2024-86"
+    ]
+  },
+  {
+    "fix_id": "upgrade:waitress@2.1.2->@3.0.1",
+    "package": "waitress",
+    "from_version": "2.1.2",
+    "to_version": "3.0.1",
+    "covers": [
+      "GHSA-3f84-rpwh-47g6",
+      "GHSA-9298-4cf8-g4wj",
+      "PYSEC-2024-210",
+      "PYSEC-2024-211"
+    ]
+  },
+  {
+    "fix_id": "upgrade:werkzeug@0.15.6->@3.1.6",
+    "package": "werkzeug",
+    "from_version": "0.15.6",
+    "to_version": "3.1.6",
+    "covers": [
+      "GHSA-29vq-49wr-vm6x",
+      "GHSA-2g68-c3qc-8985",
+      "GHSA-87hc-h4r5-73f7",
+      "GHSA-f9vj-2wh5-fj8j",
+      "GHSA-hgf8-39gv-g3f2",
+      "GHSA-hrfv-mqp8-q5rw",
+      "GHSA-px8h-6qxv-m22q",
+      "GHSA-q34m-jh98-gwm2",
+      "GHSA-xg9f-g7g7-2323",
+      "PYSEC-2022-203",
+      "PYSEC-2023-221",
+      "PYSEC-2023-57",
+      "PYSEC-2023-58"
+    ]
+  },
+  {
+    "fix_id": "upgrade:werkzeug@2.0.1->@3.1.6",
+    "package": "werkzeug",
+    "from_version": "2.0.1",
+    "to_version": "3.1.6",
+    "covers": [
+      "GHSA-29vq-49wr-vm6x",
+      "GHSA-2g68-c3qc-8985",
+      "GHSA-87hc-h4r5-73f7",
+      "GHSA-f9vj-2wh5-fj8j",
+      "GHSA-hgf8-39gv-g3f2",
+      "GHSA-hrfv-mqp8-q5rw",
+      "GHSA-px8h-6qxv-m22q",
+      "GHSA-q34m-jh98-gwm2",
+      "GHSA-xg9f-g7g7-2323",
+      "PYSEC-2022-203",
+      "PYSEC-2023-221",
+      "PYSEC-2023-57",
+      "PYSEC-2023-58"
+    ]
+  },
+  {
+    "fix_id": "upgrade:werkzeug@2.0.3->@3.1.6",
+    "package": "werkzeug",
+    "from_version": "2.0.3",
+    "to_version": "3.1.6",
+    "covers": [
+      "GHSA-29vq-49wr-vm6x",
+      "GHSA-2g68-c3qc-8985",
+      "GHSA-87hc-h4r5-73f7",
+      "GHSA-f9vj-2wh5-fj8j",
+      "GHSA-hgf8-39gv-g3f2",
+      "GHSA-hrfv-mqp8-q5rw",
+      "GHSA-px8h-6qxv-m22q",
+      "GHSA-q34m-jh98-gwm2",
+      "GHSA-xg9f-g7g7-2323",
+      "PYSEC-2022-203",
+      "PYSEC-2023-221",
+      "PYSEC-2023-57",
+      "PYSEC-2023-58"
+    ]
+  },
+  {
+    "fix_id": "upgrade:werkzeug@2.1.2->@3.1.6",
+    "package": "werkzeug",
+    "from_version": "2.1.2",
+    "to_version": "3.1.6",
+    "covers": [
+      "GHSA-29vq-49wr-vm6x",
+      "GHSA-2g68-c3qc-8985",
+      "GHSA-87hc-h4r5-73f7",
+      "GHSA-f9vj-2wh5-fj8j",
+      "GHSA-hgf8-39gv-g3f2",
+      "GHSA-hrfv-mqp8-q5rw",
+      "GHSA-px8h-6qxv-m22q",
+      "GHSA-q34m-jh98-gwm2",
+      "GHSA-xg9f-g7g7-2323",
+      "PYSEC-2022-203",
+      "PYSEC-2023-221",
+      "PYSEC-2023-57",
+      "PYSEC-2023-58"
+    ]
+  },
+  {
+    "fix_id": "upgrade:werkzeug@2.2.2->@3.1.6",
+    "package": "werkzeug",
+    "from_version": "2.2.2",
+    "to_version": "3.1.6",
+    "covers": [
+      "GHSA-29vq-49wr-vm6x",
+      "GHSA-2g68-c3qc-8985",
+      "GHSA-87hc-h4r5-73f7",
+      "GHSA-f9vj-2wh5-fj8j",
+      "GHSA-hgf8-39gv-g3f2",
+      "GHSA-hrfv-mqp8-q5rw",
+      "GHSA-px8h-6qxv-m22q",
+      "GHSA-q34m-jh98-gwm2",
+      "GHSA-xg9f-g7g7-2323",
+      "PYSEC-2022-203",
+      "PYSEC-2023-221",
+      "PYSEC-2023-57",
+      "PYSEC-2023-58"
+    ]
+  },
+  {
+    "fix_id": "upgrade:werkzeug@2.2.3->@3.1.6",
+    "package": "werkzeug",
+    "from_version": "2.2.3",
+    "to_version": "3.1.6",
+    "covers": [
+      "GHSA-29vq-49wr-vm6x",
+      "GHSA-2g68-c3qc-8985",
+      "GHSA-87hc-h4r5-73f7",
+      "GHSA-f9vj-2wh5-fj8j",
+      "GHSA-hgf8-39gv-g3f2",
+      "GHSA-hrfv-mqp8-q5rw",
+      "GHSA-q34m-jh98-gwm2",
+      "PYSEC-2022-203",
+      "PYSEC-2023-221",
+      "PYSEC-2023-57",
+      "PYSEC-2023-58"
+    ]
+  },
+  {
+    "fix_id": "upgrade:werkzeug@2.3.6->@3.1.6",
+    "package": "werkzeug",
+    "from_version": "2.3.6",
+    "to_version": "3.1.6",
+    "covers": [
+      "GHSA-29vq-49wr-vm6x",
+      "GHSA-2g68-c3qc-8985",
+      "GHSA-87hc-h4r5-73f7",
+      "GHSA-f9vj-2wh5-fj8j",
+      "GHSA-hgf8-39gv-g3f2",
+      "GHSA-hrfv-mqp8-q5rw",
+      "GHSA-q34m-jh98-gwm2",
+      "PYSEC-2022-203",
+      "PYSEC-2023-221",
+      "PYSEC-2023-57",
+      "PYSEC-2023-58"
+    ]
+  },
+  {
+    "fix_id": "upgrade:werkzeug@3.0.0->@3.1.6",
+    "package": "werkzeug",
+    "from_version": "3.0.0",
+    "to_version": "3.1.6",
+    "covers": [
+      "GHSA-29vq-49wr-vm6x",
+      "GHSA-2g68-c3qc-8985",
+      "GHSA-87hc-h4r5-73f7",
+      "GHSA-f9vj-2wh5-fj8j",
+      "GHSA-hgf8-39gv-g3f2",
+      "GHSA-hrfv-mqp8-q5rw",
+      "GHSA-q34m-jh98-gwm2",
+      "PYSEC-2022-203",
+      "PYSEC-2023-221",
+      "PYSEC-2023-57",
+      "PYSEC-2023-58"
+    ]
+  },
+  {
+    "fix_id": "upgrade:werkzeug@3.0.1->@3.1.6",
+    "package": "werkzeug",
+    "from_version": "3.0.1",
+    "to_version": "3.1.6",
+    "covers": [
+      "GHSA-29vq-49wr-vm6x",
+      "GHSA-2g68-c3qc-8985",
+      "GHSA-87hc-h4r5-73f7",
+      "GHSA-f9vj-2wh5-fj8j",
+      "GHSA-hgf8-39gv-g3f2",
+      "GHSA-q34m-jh98-gwm2",
+      "PYSEC-2022-203",
+      "PYSEC-2023-221",
+      "PYSEC-2023-57",
+      "PYSEC-2023-58"
+    ]
+  },
+  {
+    "fix_id": "upgrade:werkzeug@3.0.3->@3.1.6",
+    "package": "werkzeug",
+    "from_version": "3.0.3",
+    "to_version": "3.1.6",
+    "covers": [
+      "GHSA-29vq-49wr-vm6x",
+      "GHSA-87hc-h4r5-73f7",
+      "GHSA-f9vj-2wh5-fj8j",
+      "GHSA-hgf8-39gv-g3f2",
+      "GHSA-q34m-jh98-gwm2",
+      "PYSEC-2022-203",
+      "PYSEC-2023-221",
+      "PYSEC-2023-57",
+      "PYSEC-2023-58"
+    ]
+  },
+  {
+    "fix_id": "upgrade:werkzeug@3.1.3->@3.1.6",
+    "package": "werkzeug",
+    "from_version": "3.1.3",
+    "to_version": "3.1.6",
+    "covers": [
+      "GHSA-29vq-49wr-vm6x",
+      "GHSA-87hc-h4r5-73f7",
+      "GHSA-hgf8-39gv-g3f2",
+      "PYSEC-2022-203",
+      "PYSEC-2023-221",
+      "PYSEC-2023-57",
+      "PYSEC-2023-58"
+    ]
+  },
+  {
+    "fix_id": "upgrade:wheel@0.40.0->@0.46.2",
+    "package": "wheel",
+    "from_version": "0.40.0",
+    "to_version": "0.46.2",
+    "covers": [
+      "GHSA-8rrh-rw8j-w5fx"
+    ]
+  },
+  {
+    "fix_id": "upgrade:wheel@0.44.0->@0.46.2",
+    "package": "wheel",
+    "from_version": "0.44.0",
+    "to_version": "0.46.2",
+    "covers": [
+      "GHSA-8rrh-rw8j-w5fx"
+    ]
+  },
+  {
+    "fix_id": "upgrade:wheel@0.45.1->@0.46.2",
+    "package": "wheel",
+    "from_version": "0.45.1",
+    "to_version": "0.46.2",
+    "covers": [
+      "GHSA-8rrh-rw8j-w5fx"
+    ]
+  },
+  {
+    "fix_id": "upgrade:yt-dlp@2023.11.16->@2026.02.21",
+    "package": "yt-dlp",
+    "from_version": "2023.11.16",
+    "to_version": "2026.02.21",
+    "covers": [
+      "GHSA-3v33-3wmw-3785",
+      "GHSA-79w7-vh3h-8g4j",
+      "GHSA-g3gw-q23r-pgqm",
+      "GHSA-hjq6-52gw-2g7p"
+    ]
+  },
+  {
+    "fix_id": "upgrade:zipp@3.1.0->@3.19.1",
+    "package": "zipp",
+    "from_version": "3.1.0",
+    "to_version": "3.19.1",
+    "covers": [
+      "GHSA-jfmj-5v4g-7637"
+    ]
+  },
+  {
+    "fix_id": "upgrade:zipp@3.11.0->@3.19.1",
+    "package": "zipp",
+    "from_version": "3.11.0",
+    "to_version": "3.19.1",
+    "covers": [
+      "GHSA-jfmj-5v4g-7637"
+    ]
+  },
+  {
+    "fix_id": "upgrade:zipp@3.15.0->@3.19.1",
+    "package": "zipp",
+    "from_version": "3.15.0",
+    "to_version": "3.19.1",
+    "covers": [
+      "GHSA-jfmj-5v4g-7637"
+    ]
+  },
+  {
+    "fix_id": "upgrade:zipp@3.16.2->@3.19.1",
+    "package": "zipp",
+    "from_version": "3.16.2",
+    "to_version": "3.19.1",
+    "covers": [
+      "GHSA-jfmj-5v4g-7637"
+    ]
+  },
+  {
+    "fix_id": "upgrade:zipp@3.17.0->@3.19.1",
+    "package": "zipp",
+    "from_version": "3.17.0",
+    "to_version": "3.19.1",
+    "covers": [
+      "GHSA-jfmj-5v4g-7637"
+    ]
+  },
+  {
+    "fix_id": "upgrade:zipp@3.4.1->@3.19.1",
+    "package": "zipp",
+    "from_version": "3.4.1",
+    "to_version": "3.19.1",
+    "covers": [
+      "GHSA-jfmj-5v4g-7637"
+    ]
+  },
+  {
+    "fix_id": "upgrade:zipp@3.5.0->@3.19.1",
+    "package": "zipp",
+    "from_version": "3.5.0",
+    "to_version": "3.19.1",
+    "covers": [
+      "GHSA-jfmj-5v4g-7637"
+    ]
+  },
+  {
+    "fix_id": "upgrade:zipp@3.6.0->@3.19.1",
+    "package": "zipp",
+    "from_version": "3.6.0",
+    "to_version": "3.19.1",
+    "covers": [
+      "GHSA-jfmj-5v4g-7637"
+    ]
+  },
+  {
+    "fix_id": "upgrade:zipp@3.8.0->@3.19.1",
+    "package": "zipp",
+    "from_version": "3.8.0",
+    "to_version": "3.19.1",
+    "covers": [
+      "GHSA-jfmj-5v4g-7637"
+    ]
+  },
+  {
+    "fix_id": "upgrade:zipp@3.8.1->@3.19.1",
+    "package": "zipp",
+    "from_version": "3.8.1",
+    "to_version": "3.19.1",
+    "covers": [
+      "GHSA-jfmj-5v4g-7637"
+    ]
+  },
+  {
+    "fix_id": "upgrade:zipp@3.9.0->@3.19.1",
+    "package": "zipp",
+    "from_version": "3.9.0",
+    "to_version": "3.19.1",
+    "covers": [
+      "GHSA-jfmj-5v4g-7637"
+    ]
+  }
+]

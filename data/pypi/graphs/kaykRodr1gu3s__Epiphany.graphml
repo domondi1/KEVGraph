@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="bcrypt@4.3.0">
+      <data key="d2">bcrypt</data>
+      <data key="d3">4.3.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="certifi@2025.4.26">
+      <data key="d2">certifi</data>
+      <data key="d3">2025.4.26</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-43fp-rhv2-5gv8,GHSA-xqr8-7jwr-rhp7,PYSEC-2022-42986,PYSEC-2023-135,GHSA-248v-346w-9cwc,PYSEC-2024-230</data>
+    </node>
+    <node id="cffi@1.17.1">
+      <data key="d2">cffi</data>
+      <data key="d3">1.17.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="charset-normalizer@3.4.2">
+      <data key="d2">charset-normalizer</data>
+      <data key="d3">3.4.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="cryptography@45.0.3">
+      <data key="d2">cryptography</data>
+      <data key="d3">45.0.3</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-3ww4-gg4f-jr7f,GHSA-5cpq-8wj7-hf2v,GHSA-9v9h-cgj8-h64p,GHSA-hggm-jpg3-v476,GHSA-jfhm-5ghh-2f97,GHSA-jm77-qphf-c4w8,GHSA-r6ph-v2qm-q3c2,GHSA-rhm9-p9w5-fwm7,GHSA-v8gr-m533-ghj9,GHSA-w7pp-m8wf-vj6r,GHSA-x4qr-2fvf-3mr5,PYSEC-2021-62,PYSEC-2021-63,PYSEC-2023-11,PYSEC-2023-254,GHSA-39hc-v87j-747x,GHSA-h4gh-qq45-vh27,GHSA-6vqw-3v5j-54x4,GHSA-cf7p-gm2m-833m,PYSEC-2023-112,PYSEC-2024-225,GHSA-79v4-65xg-pq4g</data>
+    </node>
+    <node id="deprecation@2.1.0">
+      <data key="d2">deprecation</data>
+      <data key="d3">2.1.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="elastic-transport@8.17.1">
+      <data key="d2">elastic-transport</data>
+      <data key="d3">8.17.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="elasticsearch@8.11.1">
+      <data key="d2">elasticsearch</data>
+      <data key="d3">8.11.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="future@1.0.0">
+      <data key="d2">future</data>
+      <data key="d3">1.0.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-v3c5-jqr6-7qm8,PYSEC-2022-42991</data>
+    </node>
+    <node id="idna@3.10">
+      <data key="d2">idna</data>
+      <data key="d3">3.10</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-jjg7-2v4v-x38h,PYSEC-2024-60</data>
+    </node>
+    <node id="numpy@2.2.6">
+      <data key="d2">numpy</data>
+      <data key="d3">2.2.6</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-6p56-wp2h-9hxr,GHSA-fpfv-jqm9-f5jm</data>
+    </node>
+    <node id="packaging@25.0">
+      <data key="d2">packaging</data>
+      <data key="d3">25.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pandas@2.2.3">
+      <data key="d2">pandas</data>
+      <data key="d3">2.2.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="paramiko@3.5.1">
+      <data key="d2">paramiko</data>
+      <data key="d3">3.5.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-45x7-px36-x8w8</data>
+    </node>
+    <node id="pycparser@2.22">
+      <data key="d2">pycparser</data>
+      <data key="d3">2.22</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pynacl@1.5.0">
+      <data key="d2">pynacl</data>
+      <data key="d3">1.5.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-mrfv-m5wm-5w6w</data>
+    </node>
+    <node id="python-dateutil@2.9.0.post0">
+      <data key="d2">python-dateutil</data>
+      <data key="d3">2.9.0.post0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="python-dotenv@1.1.0">
+      <data key="d2">python-dotenv</data>
+      <data key="d3">1.1.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="python-magic@0.4.27">
+      <data key="d2">python-magic</data>
+      <data key="d3">0.4.27</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="python-magic-bin@0.4.14">
+      <data key="d2">python-magic-bin</data>
+      <data key="d3">0.4.14</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pytz@2025.2">
+      <data key="d2">pytz</data>
+      <data key="d3">2025.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="requests@2.32.3">
+      <data key="d2">requests</data>
+      <data key="d3">2.32.3</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-9hjg-9r4m-mvj7,GHSA-9wx4-h78v-vm56,GHSA-gc5v-m9x4-r6x2,GHSA-j8r2-6x86-q33q,GHSA-x84v-xcm2-53pg,PYSEC-2018-28,PYSEC-2023-74</data>
+    </node>
+    <node id="six@1.17.0">
+      <data key="d2">six</data>
+      <data key="d3">1.17.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="splunk-sdk@2.0.2">
+      <data key="d2">splunk-sdk</data>
+      <data key="d3">2.0.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="thehive4py@1.8.2">
+      <data key="d2">thehive4py</data>
+      <data key="d3">1.8.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="tzdata@2025.2">
+      <data key="d2">tzdata</data>
+      <data key="d3">2025.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="urllib3@2.4.0">
+      <data key="d2">urllib3</data>
+      <data key="d3">2.4.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-2xpw-w6gg-jr37,GHSA-34jh-p97f-mpxf,GHSA-38jv-5279-wg99,GHSA-g4mx-q9vg-27p4,GHSA-gwvm-45gx-3cf8,GHSA-mh33-7rrq-662w,GHSA-pq67-6m6q-mj2v,GHSA-r64q-w8jr-g9qp,GHSA-v845-jxx5-vc9f,GHSA-wqvq-5m8c-6g24,GHSA-www2-v7xj-xrc6,PYSEC-2018-32,PYSEC-2019-132,PYSEC-2019-133,PYSEC-2020-148,PYSEC-2021-108,PYSEC-2023-192,PYSEC-2023-207,PYSEC-2023-212,GHSA-gm62-xv2j-4w53,GHSA-q2q7-5pp4-w6pg,GHSA-48p4-8xcf-vxj5</data>
+    </node>
+    <node id="wheel@0.45.1">
+      <data key="d2">wheel</data>
+      <data key="d3">0.45.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-8rrh-rw8j-w5fx</data>
+    </node>
+    <edge source="cffi@1.17.1" target="pycparser@2.22" />
+    <edge source="cryptography@45.0.3" target="cffi@1.17.1" />
+    <edge source="deprecation@2.1.0" target="packaging@25.0" />
+    <edge source="elastic-transport@8.17.1" target="certifi@2025.4.26" />
+    <edge source="elastic-transport@8.17.1" target="urllib3@2.4.0" />
+    <edge source="elasticsearch@8.11.1" target="elastic-transport@8.17.1" />
+    <edge source="pandas@2.2.3" target="numpy@2.2.6" />
+    <edge source="pandas@2.2.3" target="python-dateutil@2.9.0.post0" />
+    <edge source="pandas@2.2.3" target="pytz@2025.2" />
+    <edge source="pandas@2.2.3" target="tzdata@2025.2" />
+    <edge source="paramiko@3.5.1" target="bcrypt@4.3.0" />
+    <edge source="paramiko@3.5.1" target="cryptography@45.0.3" />
+    <edge source="paramiko@3.5.1" target="pynacl@1.5.0" />
+    <edge source="pynacl@1.5.0" target="cffi@1.17.1" />
+    <edge source="python-dateutil@2.9.0.post0" target="six@1.17.0" />
+    <edge source="requests@2.32.3" target="certifi@2025.4.26" />
+    <edge source="requests@2.32.3" target="charset-normalizer@3.4.2" />
+    <edge source="requests@2.32.3" target="idna@3.10" />
+    <edge source="requests@2.32.3" target="urllib3@2.4.0" />
+    <edge source="splunk-sdk@2.0.2" target="deprecation@2.1.0" />
+    <edge source="thehive4py@1.8.2" target="future@1.0.0" />
+    <edge source="thehive4py@1.8.2" target="python-magic@0.4.27" />
+    <edge source="thehive4py@1.8.2" target="requests@2.32.3" />
+    <data key="d0">kaykRodr1gu3s__Epiphany</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="certifi@2024.8.30">
+      <data key="d2">certifi</data>
+      <data key="d3">2024.8.30</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-43fp-rhv2-5gv8,GHSA-xqr8-7jwr-rhp7,PYSEC-2022-42986,PYSEC-2023-135,GHSA-248v-346w-9cwc,PYSEC-2024-230</data>
+    </node>
+    <node id="charset-normalizer@3.4.0">
+      <data key="d2">charset-normalizer</data>
+      <data key="d3">3.4.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="click@8.1.7">
+      <data key="d2">click</data>
+      <data key="d3">8.1.7</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="colorama@0.4.6">
+      <data key="d2">colorama</data>
+      <data key="d3">0.4.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="idna@3.10">
+      <data key="d2">idna</data>
+      <data key="d3">3.10</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-jjg7-2v4v-x38h,PYSEC-2024-60</data>
+    </node>
+    <node id="markdown-it-py@3.0.0">
+      <data key="d2">markdown-it-py</data>
+      <data key="d3">3.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="mdurl@0.1.2">
+      <data key="d2">mdurl</data>
+      <data key="d3">0.1.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="nodeenv@1.9.1">
+      <data key="d2">nodeenv</data>
+      <data key="d3">1.9.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pygments@2.18.0">
+      <data key="d2">pygments</data>
+      <data key="d3">2.18.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-5239-wwwm-4pmq,GHSA-mrwq-x4v8-fh7p,PYSEC-2023-117,GHSA-9w8r-397f-prfh,GHSA-pq64-v7f5-gqh8,PYSEC-2021-140,PYSEC-2021-141</data>
+    </node>
+    <node id="pyright@1.1.390">
+      <data key="d2">pyright</data>
+      <data key="d3">1.1.390</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="python-dotenv@1.0.1">
+      <data key="d2">python-dotenv</data>
+      <data key="d3">1.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="requests@2.32.3">
+      <data key="d2">requests</data>
+      <data key="d3">2.32.3</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-9hjg-9r4m-mvj7,GHSA-9wx4-h78v-vm56,GHSA-gc5v-m9x4-r6x2,GHSA-j8r2-6x86-q33q,GHSA-x84v-xcm2-53pg,PYSEC-2018-28,PYSEC-2023-74</data>
+    </node>
+    <node id="rich@13.9.4">
+      <data key="d2">rich</data>
+      <data key="d3">13.9.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="shellingham@1.5.4">
+      <data key="d2">shellingham</data>
+      <data key="d3">1.5.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="tqdm@4.67.1">
+      <data key="d2">tqdm</data>
+      <data key="d3">4.67.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-g7vv-2v7x-gj9p</data>
+    </node>
+    <node id="typer@0.13.1">
+      <data key="d2">typer</data>
+      <data key="d3">0.13.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="typing-extensions@4.12.2">
+      <data key="d2">typing-extensions</data>
+      <data key="d3">4.12.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="urllib3@2.2.3">
+      <data key="d2">urllib3</data>
+      <data key="d3">2.2.3</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-2xpw-w6gg-jr37,GHSA-34jh-p97f-mpxf,GHSA-38jv-5279-wg99,GHSA-g4mx-q9vg-27p4,GHSA-gwvm-45gx-3cf8,GHSA-mh33-7rrq-662w,GHSA-pq67-6m6q-mj2v,GHSA-r64q-w8jr-g9qp,GHSA-v845-jxx5-vc9f,GHSA-wqvq-5m8c-6g24,GHSA-www2-v7xj-xrc6,PYSEC-2018-32,PYSEC-2019-132,PYSEC-2019-133,PYSEC-2020-148,PYSEC-2021-108,PYSEC-2023-192,PYSEC-2023-207,PYSEC-2023-212,GHSA-gm62-xv2j-4w53,GHSA-q2q7-5pp4-w6pg,GHSA-48p4-8xcf-vxj5</data>
+    </node>
+    <edge source="click@8.1.7" target="colorama@0.4.6" />
+    <edge source="markdown-it-py@3.0.0" target="mdurl@0.1.2" />
+    <edge source="pyright@1.1.390" target="nodeenv@1.9.1" />
+    <edge source="pyright@1.1.390" target="typing-extensions@4.12.2" />
+    <edge source="requests@2.32.3" target="certifi@2024.8.30" />
+    <edge source="requests@2.32.3" target="charset-normalizer@3.4.0" />
+    <edge source="requests@2.32.3" target="idna@3.10" />
+    <edge source="requests@2.32.3" target="urllib3@2.2.3" />
+    <edge source="rich@13.9.4" target="markdown-it-py@3.0.0" />
+    <edge source="rich@13.9.4" target="pygments@2.18.0" />
+    <edge source="tqdm@4.67.1" target="colorama@0.4.6" />
+    <edge source="typer@0.13.1" target="click@8.1.7" />
+    <edge source="typer@0.13.1" target="rich@13.9.4" />
+    <edge source="typer@0.13.1" target="shellingham@1.5.4" />
+    <edge source="typer@0.13.1" target="typing-extensions@4.12.2" />
+    <data key="d0">desonglll__google-fonts</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

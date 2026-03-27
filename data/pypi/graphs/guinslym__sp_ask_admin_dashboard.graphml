@@ -1,0 +1,502 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="alabaster@0.7.12">
+      <data key="d2">alabaster</data>
+      <data key="d3">0.7.12</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="appdirs@1.4.4">
+      <data key="d2">appdirs</data>
+      <data key="d3">1.4.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="appnope@0.1.2">
+      <data key="d2">appnope</data>
+      <data key="d3">0.1.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="atomicwrites@1.4.0">
+      <data key="d2">atomicwrites</data>
+      <data key="d3">1.4.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="attrs@21.2.0">
+      <data key="d2">attrs</data>
+      <data key="d3">21.2.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="babel@2.9.1">
+      <data key="d2">babel</data>
+      <data key="d3">2.9.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="backcall@0.2.0">
+      <data key="d2">backcall</data>
+      <data key="d3">0.2.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="beautifulsoup4@4.9.3">
+      <data key="d2">beautifulsoup4</data>
+      <data key="d3">4.9.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="black@21.6b0">
+      <data key="d2">black</data>
+      <data key="d3">21.6b0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-3936-cmfr-pm3m,GHSA-fj7x-q9j7-g6q6,PYSEC-2024-48</data>
+    </node>
+    <node id="certifi@2021.5.30">
+      <data key="d2">certifi</data>
+      <data key="d3">2021.5.30</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-43fp-rhv2-5gv8,GHSA-xqr8-7jwr-rhp7,PYSEC-2022-42986,PYSEC-2023-135,GHSA-248v-346w-9cwc,PYSEC-2024-230</data>
+    </node>
+    <node id="chardet@4.0.0">
+      <data key="d2">chardet</data>
+      <data key="d3">4.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="click@8.0.1">
+      <data key="d2">click</data>
+      <data key="d3">8.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="colorama@0.4.4">
+      <data key="d2">colorama</data>
+      <data key="d3">0.4.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="coverage@5.5">
+      <data key="d2">coverage</data>
+      <data key="d3">5.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="decorator@5.0.9">
+      <data key="d2">decorator</data>
+      <data key="d3">5.0.9</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="django@2.2.19">
+      <data key="d2">django</data>
+      <data key="d3">2.2.19</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-2gwj-7jmv-h26r,GHSA-53qw-q765-4fww,GHSA-68w8-qjq3-2gfm,GHSA-6cw3-g6wv-c2xv,GHSA-6w2r-r2m5-xq5w,GHSA-7xr5-9hcq-chf9,GHSA-8c5j-9r9f-c6w8,GHSA-8x94-hmjh-97hq,GHSA-95rw-fx8r-36v6,GHSA-frmv-pr5f-9mcr,GHSA-jrh2-hc4r-7jwx,GHSA-p99v-5w3c-jqq9,GHSA-qm57-vhq3-3fwf,GHSA-qw25-v68c-qjf3,GHSA-rrqc-c2jx-6jgv,GHSA-rxjp-mfm9-w4wr,GHSA-v6rh-hp5x-86rv,GHSA-w24h-v9qh-8gxj,GHSA-xgxc-v2qg-chmh,PYSEC-2021-439,PYSEC-2021-6,PYSEC-2021-7,PYSEC-2021-8,PYSEC-2021-98,PYSEC-2021-99,PYSEC-2022-1,PYSEC-2022-19,PYSEC-2022-190,PYSEC-2022-191,PYSEC-2022-2,PYSEC-2022-20,PYSEC-2022-3,GHSA-fvgf-6h6h-3322,GHSA-xpfp-f569-q3p2,PYSEC-2021-109,PYSEC-2021-9,GHSA-2hrw-hx67-34x6,GHSA-7h4p-27mh-hmrw,GHSA-h8gc-pgj2-vjm3,GHSA-jh3w-4vvf-mjgr,GHSA-p64x-8rxx-wf6q,GHSA-q2jf-h9jm-m7p4,GHSA-qmf9-6jqf-j8fq,GHSA-qrw5-5h28-6cmg,GHSA-r3xc-prgr-mg9p,GHSA-vm8q-m57g-pff3,GHSA-xxj9-f6rv-m3x4,PYSEC-2022-213,PYSEC-2022-245,PYSEC-2022-304,PYSEC-2023-100,PYSEC-2023-12,PYSEC-2023-13,PYSEC-2023-222,PYSEC-2023-225,PYSEC-2023-226,PYSEC-2023-61,PYSEC-2024-28,PYSEC-2024-47,GHSA-2mcm-79hx-8fxw,GHSA-33mw-q7rj-mjwj,GHSA-4rrr-2h4v-f3j9,GHSA-5hgc-2vfp-mqvc,GHSA-6426-9fv3-65x8,GHSA-795c-9xpc-xw6g,GHSA-8498-2h75-472j,GHSA-8j24-cjrq-gr2m,GHSA-8p8v-wh79-9r56,GHSA-9jmf-237g-qf46,GHSA-f6f8-9mx6-9mx2,GHSA-gvg8-93h5-g6qq,GHSA-hpr9-3m2g-3j9p,GHSA-jh75-99hh-qvx9,GHSA-m9g8-fxxm-xg86,GHSA-mjgh-79qc-68w3,GHSA-mwm9-4648-f68q,GHSA-p3fp-8748-vqfq,GHSA-pv4p-cwwg-4rph,GHSA-q95w-c7qg-hrff,GHSA-qcgg-j2x8-h9g8,GHSA-qg2p-9jwr-mmqf,GHSA-r836-hh6v-rg5g,GHSA-rqw2-ghq9-44m7,GHSA-vrcr-9hj9-jcg6,GHSA-x7q2-wr7g-xqmf,PYSEC-2024-102,PYSEC-2024-156,PYSEC-2024-157,PYSEC-2024-56,PYSEC-2024-57,PYSEC-2024-58,PYSEC-2024-59,PYSEC-2024-67,PYSEC-2024-68,PYSEC-2024-69,PYSEC-2024-70,PYSEC-2025-1,PYSEC-2025-13,PYSEC-2025-37,PYSEC-2025-47,GHSA-wqfg-m96j-85vm,PYSEC-2025-14</data>
+    </node>
+    <node id="django-extensions@3.1.3">
+      <data key="d2">django-extensions</data>
+      <data key="d3">3.1.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="django-haystack@3.0">
+      <data key="d2">django-haystack</data>
+      <data key="d3">3.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="django-sphinxdoc@2.0.0">
+      <data key="d2">django-sphinxdoc</data>
+      <data key="d3">2.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="docopt@0.6.2">
+      <data key="d2">docopt</data>
+      <data key="d3">0.6.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="docutils@0.17.1">
+      <data key="d2">docutils</data>
+      <data key="d3">0.17.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="future@0.18.2">
+      <data key="d2">future</data>
+      <data key="d3">0.18.2</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-v3c5-jqr6-7qm8,PYSEC-2022-42991</data>
+    </node>
+    <node id="idna@2.10">
+      <data key="d2">idna</data>
+      <data key="d3">2.10</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-jjg7-2v4v-x38h,PYSEC-2024-60</data>
+    </node>
+    <node id="imagesize@1.2.0">
+      <data key="d2">imagesize</data>
+      <data key="d3">1.2.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="importlib-metadata@4.5.0">
+      <data key="d2">importlib-metadata</data>
+      <data key="d3">4.5.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="ipython@7.24.1">
+      <data key="d2">ipython</data>
+      <data key="d3">7.24.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-29gw-9793-fvw7,GHSA-pq7m-3gw7-gq5x,PYSEC-2022-12,PYSEC-2023-17</data>
+    </node>
+    <node id="ipython-genutils@0.2.0">
+      <data key="d2">ipython-genutils</data>
+      <data key="d3">0.2.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="jedi@0.18.0">
+      <data key="d2">jedi</data>
+      <data key="d3">0.18.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="jinja2@3.0.1">
+      <data key="d2">jinja2</data>
+      <data key="d3">3.0.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-cpwx-vrp4-4pq7,GHSA-g3rq-g295-4j3m,GHSA-h5c8-rqwp-cp95,GHSA-h75v-3vvj-5mfj,GHSA-q2x7-8rv6-6q7h,PYSEC-2021-66,GHSA-gmj6-6f8f-6699</data>
+    </node>
+    <node id="lh3api@0.2.0">
+      <data key="d2">lh3api</data>
+      <data key="d3">0.2.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="markupsafe@2.0.1">
+      <data key="d2">markupsafe</data>
+      <data key="d3">2.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="matplotlib-inline@0.1.2">
+      <data key="d2">matplotlib-inline</data>
+      <data key="d3">0.1.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="more-itertools@8.8.0">
+      <data key="d2">more-itertools</data>
+      <data key="d3">8.8.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="mypy-extensions@0.4.3">
+      <data key="d2">mypy-extensions</data>
+      <data key="d3">0.4.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="numpy@1.20.3">
+      <data key="d2">numpy</data>
+      <data key="d3">1.20.3</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-6p56-wp2h-9hxr,GHSA-fpfv-jqm9-f5jm</data>
+    </node>
+    <node id="packaging@20.9">
+      <data key="d2">packaging</data>
+      <data key="d3">20.9</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pandas@1.1.5">
+      <data key="d2">pandas</data>
+      <data key="d3">1.1.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="parso@0.8.2">
+      <data key="d2">parso</data>
+      <data key="d3">0.8.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pathspec@0.8.1">
+      <data key="d2">pathspec</data>
+      <data key="d3">0.8.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pexpect@4.8.0">
+      <data key="d2">pexpect</data>
+      <data key="d3">4.8.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pickleshare@0.7.5">
+      <data key="d2">pickleshare</data>
+      <data key="d3">0.7.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pluggy@0.13.1">
+      <data key="d2">pluggy</data>
+      <data key="d3">0.13.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="prompt-toolkit@3.0.18">
+      <data key="d2">prompt-toolkit</data>
+      <data key="d3">3.0.18</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="ptyprocess@0.7.0">
+      <data key="d2">ptyprocess</data>
+      <data key="d3">0.7.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="py@1.10.0">
+      <data key="d2">py</data>
+      <data key="d3">1.10.0</data>
+      <data key="d4">false</data>
+      <data key="d5">PYSEC-2022-42969,GHSA-hj5v-574p-mj7c,PYSEC-2020-92</data>
+    </node>
+    <node id="pygments@2.9.0">
+      <data key="d2">pygments</data>
+      <data key="d3">2.9.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-5239-wwwm-4pmq,GHSA-mrwq-x4v8-fh7p,PYSEC-2023-117,GHSA-9w8r-397f-prfh,GHSA-pq64-v7f5-gqh8,PYSEC-2021-140,PYSEC-2021-141</data>
+    </node>
+    <node id="pyparsing@2.4.7">
+      <data key="d2">pyparsing</data>
+      <data key="d3">2.4.7</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pytest@5.4.3">
+      <data key="d2">pytest</data>
+      <data key="d3">5.4.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pytest-cov@2.12.1">
+      <data key="d2">pytest-cov</data>
+      <data key="d3">2.12.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pytest-django@4.4.0">
+      <data key="d2">pytest-django</data>
+      <data key="d3">4.4.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pytest-sugar@0.9.4">
+      <data key="d2">pytest-sugar</data>
+      <data key="d3">0.9.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pytest-watch@4.2.0">
+      <data key="d2">pytest-watch</data>
+      <data key="d3">4.2.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="python-dateutil@2.8.1">
+      <data key="d2">python-dateutil</data>
+      <data key="d3">2.8.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="python-dotenv@0.17.1">
+      <data key="d2">python-dotenv</data>
+      <data key="d3">0.17.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pytz@2021.1">
+      <data key="d2">pytz</data>
+      <data key="d3">2021.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="regex@2021.4.4">
+      <data key="d2">regex</data>
+      <data key="d3">2021.4.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="requests@2.25.1">
+      <data key="d2">requests</data>
+      <data key="d3">2.25.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-9hjg-9r4m-mvj7,GHSA-9wx4-h78v-vm56,GHSA-gc5v-m9x4-r6x2,GHSA-j8r2-6x86-q33q,GHSA-x84v-xcm2-53pg,PYSEC-2018-28,PYSEC-2023-74</data>
+    </node>
+    <node id="six@1.16.0">
+      <data key="d2">six</data>
+      <data key="d3">1.16.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="snowballstemmer@2.1.0">
+      <data key="d2">snowballstemmer</data>
+      <data key="d3">2.1.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="soupsieve@2.2.1">
+      <data key="d2">soupsieve</data>
+      <data key="d3">2.2.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="sphinx@4.0.2">
+      <data key="d2">sphinx</data>
+      <data key="d3">4.0.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="sphinxcontrib-applehelp@1.0.2">
+      <data key="d2">sphinxcontrib-applehelp</data>
+      <data key="d3">1.0.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="sphinxcontrib-devhelp@1.0.2">
+      <data key="d2">sphinxcontrib-devhelp</data>
+      <data key="d3">1.0.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="sphinxcontrib-htmlhelp@2.0.0">
+      <data key="d2">sphinxcontrib-htmlhelp</data>
+      <data key="d3">2.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="sphinxcontrib-jsmath@1.0.1">
+      <data key="d2">sphinxcontrib-jsmath</data>
+      <data key="d3">1.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="sphinxcontrib-qthelp@1.0.3">
+      <data key="d2">sphinxcontrib-qthelp</data>
+      <data key="d3">1.0.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="sphinxcontrib-serializinghtml@1.1.5">
+      <data key="d2">sphinxcontrib-serializinghtml</data>
+      <data key="d3">1.1.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="sqlparse@0.4.1">
+      <data key="d2">sqlparse</data>
+      <data key="d3">0.4.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-27jp-wm6q-gp25,GHSA-2m57-hf25-phgg,GHSA-p5w8-wqhj-9hhf,GHSA-rrm6-wvj7-cwh2,PYSEC-2021-333,PYSEC-2023-87</data>
+    </node>
+    <node id="termcolor@1.1.0">
+      <data key="d2">termcolor</data>
+      <data key="d3">1.1.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="toml@0.10.2">
+      <data key="d2">toml</data>
+      <data key="d3">0.10.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="traitlets@5.0.5">
+      <data key="d2">traitlets</data>
+      <data key="d3">5.0.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="typed-ast@1.4.3">
+      <data key="d2">typed-ast</data>
+      <data key="d3">1.4.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="typing-extensions@3.10.0.0">
+      <data key="d2">typing-extensions</data>
+      <data key="d3">3.10.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="urllib3@1.26.5">
+      <data key="d2">urllib3</data>
+      <data key="d3">1.26.5</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-2xpw-w6gg-jr37,GHSA-34jh-p97f-mpxf,GHSA-38jv-5279-wg99,GHSA-g4mx-q9vg-27p4,GHSA-gwvm-45gx-3cf8,GHSA-mh33-7rrq-662w,GHSA-pq67-6m6q-mj2v,GHSA-r64q-w8jr-g9qp,GHSA-v845-jxx5-vc9f,GHSA-wqvq-5m8c-6g24,GHSA-www2-v7xj-xrc6,PYSEC-2018-32,PYSEC-2019-132,PYSEC-2019-133,PYSEC-2020-148,PYSEC-2021-108,PYSEC-2023-192,PYSEC-2023-207,PYSEC-2023-212,GHSA-gm62-xv2j-4w53,GHSA-q2q7-5pp4-w6pg,GHSA-48p4-8xcf-vxj5</data>
+    </node>
+    <node id="watchdog@2.1.2">
+      <data key="d2">watchdog</data>
+      <data key="d3">2.1.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="wcwidth@0.2.5">
+      <data key="d2">wcwidth</data>
+      <data key="d3">0.2.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="xlsxwriter@1.4.3">
+      <data key="d2">xlsxwriter</data>
+      <data key="d3">1.4.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="zipp@3.4.1">
+      <data key="d2">zipp</data>
+      <data key="d3">3.4.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-jfmj-5v4g-7637</data>
+    </node>
+    <edge source="babel@2.9.1" target="pytz@2021.1" />
+    <edge source="beautifulsoup4@4.9.3" target="soupsieve@2.2.1" />
+    <edge source="black@21.6b0" target="appdirs@1.4.4" />
+    <edge source="black@21.6b0" target="click@8.0.1" />
+    <edge source="black@21.6b0" target="mypy-extensions@0.4.3" />
+    <edge source="black@21.6b0" target="pathspec@0.8.1" />
+    <edge source="black@21.6b0" target="regex@2021.4.4" />
+    <edge source="black@21.6b0" target="toml@0.10.2" />
+    <edge source="black@21.6b0" target="typed-ast@1.4.3" />
+    <edge source="black@21.6b0" target="typing-extensions@3.10.0.0" />
+    <edge source="click@8.0.1" target="colorama@0.4.4" />
+    <edge source="click@8.0.1" target="importlib-metadata@4.5.0" />
+    <edge source="django@2.2.19" target="pytz@2021.1" />
+    <edge source="django@2.2.19" target="sqlparse@0.4.1" />
+    <edge source="django-extensions@3.1.3" target="django@2.2.19" />
+    <edge source="django-haystack@3.0" target="django@2.2.19" />
+    <edge source="django-sphinxdoc@2.0.0" target="django@2.2.19" />
+    <edge source="django-sphinxdoc@2.0.0" target="django-haystack@3.0" />
+    <edge source="importlib-metadata@4.5.0" target="zipp@3.4.1" />
+    <edge source="importlib-metadata@4.5.0" target="typing-extensions@3.10.0.0" />
+    <edge source="ipython@7.24.1" target="appnope@0.1.2" />
+    <edge source="ipython@7.24.1" target="backcall@0.2.0" />
+    <edge source="ipython@7.24.1" target="colorama@0.4.4" />
+    <edge source="ipython@7.24.1" target="decorator@5.0.9" />
+    <edge source="ipython@7.24.1" target="jedi@0.18.0" />
+    <edge source="ipython@7.24.1" target="matplotlib-inline@0.1.2" />
+    <edge source="ipython@7.24.1" target="pexpect@4.8.0" />
+    <edge source="ipython@7.24.1" target="pickleshare@0.7.5" />
+    <edge source="ipython@7.24.1" target="prompt-toolkit@3.0.18" />
+    <edge source="ipython@7.24.1" target="pygments@2.9.0" />
+    <edge source="ipython@7.24.1" target="traitlets@5.0.5" />
+    <edge source="jedi@0.18.0" target="parso@0.8.2" />
+    <edge source="jinja2@3.0.1" target="markupsafe@2.0.1" />
+    <edge source="lh3api@0.2.0" target="future@0.18.2" />
+    <edge source="lh3api@0.2.0" target="requests@2.25.1" />
+    <edge source="matplotlib-inline@0.1.2" target="traitlets@5.0.5" />
+    <edge source="packaging@20.9" target="pyparsing@2.4.7" />
+    <edge source="pandas@1.1.5" target="numpy@1.20.3" />
+    <edge source="pandas@1.1.5" target="python-dateutil@2.8.1" />
+    <edge source="pandas@1.1.5" target="pytz@2021.1" />
+    <edge source="pexpect@4.8.0" target="ptyprocess@0.7.0" />
+    <edge source="pluggy@0.13.1" target="importlib-metadata@4.5.0" />
+    <edge source="prompt-toolkit@3.0.18" target="wcwidth@0.2.5" />
+    <edge source="pytest@5.4.3" target="atomicwrites@1.4.0" />
+    <edge source="pytest@5.4.3" target="attrs@21.2.0" />
+    <edge source="pytest@5.4.3" target="colorama@0.4.4" />
+    <edge source="pytest@5.4.3" target="more-itertools@8.8.0" />
+    <edge source="pytest@5.4.3" target="packaging@20.9" />
+    <edge source="pytest@5.4.3" target="pluggy@0.13.1" />
+    <edge source="pytest@5.4.3" target="py@1.10.0" />
+    <edge source="pytest@5.4.3" target="wcwidth@0.2.5" />
+    <edge source="pytest@5.4.3" target="importlib-metadata@4.5.0" />
+    <edge source="pytest-cov@2.12.1" target="coverage@5.5" />
+    <edge source="pytest-cov@2.12.1" target="pytest@5.4.3" />
+    <edge source="pytest-cov@2.12.1" target="toml@0.10.2" />
+    <edge source="pytest-django@4.4.0" target="pytest@5.4.3" />
+    <edge source="pytest-sugar@0.9.4" target="packaging@20.9" />
+    <edge source="pytest-sugar@0.9.4" target="pytest@5.4.3" />
+    <edge source="pytest-sugar@0.9.4" target="termcolor@1.1.0" />
+    <edge source="pytest-watch@4.2.0" target="colorama@0.4.4" />
+    <edge source="pytest-watch@4.2.0" target="docopt@0.6.2" />
+    <edge source="pytest-watch@4.2.0" target="pytest@5.4.3" />
+    <edge source="pytest-watch@4.2.0" target="watchdog@2.1.2" />
+    <edge source="python-dateutil@2.8.1" target="six@1.16.0" />
+    <edge source="requests@2.25.1" target="certifi@2021.5.30" />
+    <edge source="requests@2.25.1" target="chardet@4.0.0" />
+    <edge source="requests@2.25.1" target="idna@2.10" />
+    <edge source="requests@2.25.1" target="urllib3@1.26.5" />
+    <edge source="sphinx@4.0.2" target="jinja2@3.0.1" />
+    <edge source="sphinx@4.0.2" target="pygments@2.9.0" />
+    <edge source="sphinx@4.0.2" target="alabaster@0.7.12" />
+    <edge source="sphinx@4.0.2" target="babel@2.9.1" />
+    <edge source="sphinx@4.0.2" target="colorama@0.4.4" />
+    <edge source="sphinx@4.0.2" target="docutils@0.17.1" />
+    <edge source="sphinx@4.0.2" target="imagesize@1.2.0" />
+    <edge source="sphinx@4.0.2" target="packaging@20.9" />
+    <edge source="sphinx@4.0.2" target="requests@2.25.1" />
+    <edge source="sphinx@4.0.2" target="snowballstemmer@2.1.0" />
+    <edge source="sphinx@4.0.2" target="sphinxcontrib-applehelp@1.0.2" />
+    <edge source="sphinx@4.0.2" target="sphinxcontrib-devhelp@1.0.2" />
+    <edge source="sphinx@4.0.2" target="sphinxcontrib-htmlhelp@2.0.0" />
+    <edge source="sphinx@4.0.2" target="sphinxcontrib-jsmath@1.0.1" />
+    <edge source="sphinx@4.0.2" target="sphinxcontrib-qthelp@1.0.3" />
+    <edge source="sphinx@4.0.2" target="sphinxcontrib-serializinghtml@1.1.5" />
+    <edge source="traitlets@5.0.5" target="ipython-genutils@0.2.0" />
+    <data key="d0">guinslym__sp_ask_admin_dashboard</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

@@ -1,0 +1,234 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="aiofiles@23.2.1">
+      <data key="d2">aiofiles</data>
+      <data key="d3">23.2.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="annotated-types@0.6.0">
+      <data key="d2">annotated-types</data>
+      <data key="d3">0.6.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="black@24.3.0">
+      <data key="d2">black</data>
+      <data key="d3">24.3.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-3936-cmfr-pm3m,GHSA-fj7x-q9j7-g6q6,PYSEC-2024-48</data>
+    </node>
+    <node id="click@8.1.7">
+      <data key="d2">click</data>
+      <data key="d3">8.1.7</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="colorama@0.4.6">
+      <data key="d2">colorama</data>
+      <data key="d3">0.4.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="colorlog@6.8.2">
+      <data key="d2">colorlog</data>
+      <data key="d3">6.8.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="exceptiongroup@1.2.0">
+      <data key="d2">exceptiongroup</data>
+      <data key="d3">1.2.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="geoalchemy2@0.14.6">
+      <data key="d2">geoalchemy2</data>
+      <data key="d3">0.14.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="greenlet@3.0.3">
+      <data key="d2">greenlet</data>
+      <data key="d3">3.0.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="iniconfig@2.0.0">
+      <data key="d2">iniconfig</data>
+      <data key="d3">2.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="isort@5.13.2">
+      <data key="d2">isort</data>
+      <data key="d3">5.13.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="macrostrat-database@3.3.0">
+      <data key="d2">macrostrat-database</data>
+      <data key="d3">3.3.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="macrostrat-utils@1.2.1">
+      <data key="d2">macrostrat-utils</data>
+      <data key="d3">1.2.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="markdown-it-py@3.0.0">
+      <data key="d2">markdown-it-py</data>
+      <data key="d3">3.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="mdurl@0.1.2">
+      <data key="d2">mdurl</data>
+      <data key="d3">0.1.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="mypy-extensions@1.0.0">
+      <data key="d2">mypy-extensions</data>
+      <data key="d3">1.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="numpy@1.26.4">
+      <data key="d2">numpy</data>
+      <data key="d3">1.26.4</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-6p56-wp2h-9hxr,GHSA-fpfv-jqm9-f5jm</data>
+    </node>
+    <node id="packaging@24.0">
+      <data key="d2">packaging</data>
+      <data key="d3">24.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pathspec@0.12.1">
+      <data key="d2">pathspec</data>
+      <data key="d3">0.12.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="platformdirs@4.2.0">
+      <data key="d2">platformdirs</data>
+      <data key="d3">4.2.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pluggy@1.4.0">
+      <data key="d2">pluggy</data>
+      <data key="d3">1.4.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="psycopg2-binary@2.9.9">
+      <data key="d2">psycopg2-binary</data>
+      <data key="d3">2.9.9</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pydantic@2.6.4">
+      <data key="d2">pydantic</data>
+      <data key="d3">2.6.4</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-mr82-8j83-vxmv</data>
+    </node>
+    <node id="pydantic-core@2.16.3">
+      <data key="d2">pydantic-core</data>
+      <data key="d3">2.16.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pygments@2.17.2">
+      <data key="d2">pygments</data>
+      <data key="d3">2.17.2</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-5239-wwwm-4pmq,GHSA-mrwq-x4v8-fh7p,PYSEC-2023-117,GHSA-9w8r-397f-prfh,GHSA-pq64-v7f5-gqh8,PYSEC-2021-140,PYSEC-2021-141</data>
+    </node>
+    <node id="pytest@8.1.1">
+      <data key="d2">pytest</data>
+      <data key="d3">8.1.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="python-dotenv@1.0.1">
+      <data key="d2">python-dotenv</data>
+      <data key="d3">1.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="rich@13.7.1">
+      <data key="d2">rich</data>
+      <data key="d3">13.7.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="shapely@2.0.3">
+      <data key="d2">shapely</data>
+      <data key="d3">2.0.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="sqlalchemy@2.0.28">
+      <data key="d2">sqlalchemy</data>
+      <data key="d3">2.0.28</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="sqlalchemy-utils@0.41.1">
+      <data key="d2">sqlalchemy-utils</data>
+      <data key="d3">0.41.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="sqlparse@0.4.4">
+      <data key="d2">sqlparse</data>
+      <data key="d3">0.4.4</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-27jp-wm6q-gp25,GHSA-2m57-hf25-phgg,GHSA-p5w8-wqhj-9hhf,GHSA-rrm6-wvj7-cwh2,PYSEC-2021-333,PYSEC-2023-87</data>
+    </node>
+    <node id="tomli@2.0.1">
+      <data key="d2">tomli</data>
+      <data key="d3">2.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="typer@0.9.0">
+      <data key="d2">typer</data>
+      <data key="d3">0.9.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="typing-extensions@4.10.0">
+      <data key="d2">typing-extensions</data>
+      <data key="d3">4.10.0</data>
+      <data key="d4">false</data>
+    </node>
+    <edge source="black@24.3.0" target="click@8.1.7" />
+    <edge source="black@24.3.0" target="mypy-extensions@1.0.0" />
+    <edge source="black@24.3.0" target="packaging@24.0" />
+    <edge source="black@24.3.0" target="pathspec@0.12.1" />
+    <edge source="black@24.3.0" target="platformdirs@4.2.0" />
+    <edge source="black@24.3.0" target="tomli@2.0.1" />
+    <edge source="black@24.3.0" target="typing-extensions@4.10.0" />
+    <edge source="click@8.1.7" target="colorama@0.4.6" />
+    <edge source="colorlog@6.8.2" target="colorama@0.4.6" />
+    <edge source="geoalchemy2@0.14.6" target="packaging@24.0" />
+    <edge source="geoalchemy2@0.14.6" target="sqlalchemy@2.0.28" />
+    <edge source="macrostrat-database@3.3.0" target="aiofiles@23.2.1" />
+    <edge source="macrostrat-database@3.3.0" target="click@8.1.7" />
+    <edge source="macrostrat-database@3.3.0" target="geoalchemy2@0.14.6" />
+    <edge source="macrostrat-database@3.3.0" target="macrostrat-utils@1.2.1" />
+    <edge source="macrostrat-database@3.3.0" target="psycopg2-binary@2.9.9" />
+    <edge source="macrostrat-database@3.3.0" target="rich@13.7.1" />
+    <edge source="macrostrat-database@3.3.0" target="sqlalchemy@2.0.28" />
+    <edge source="macrostrat-database@3.3.0" target="sqlalchemy-utils@0.41.1" />
+    <edge source="macrostrat-database@3.3.0" target="sqlparse@0.4.4" />
+    <edge source="macrostrat-utils@1.2.1" target="colorlog@6.8.2" />
+    <edge source="macrostrat-utils@1.2.1" target="pydantic@2.6.4" />
+    <edge source="markdown-it-py@3.0.0" target="mdurl@0.1.2" />
+    <edge source="pydantic@2.6.4" target="annotated-types@0.6.0" />
+    <edge source="pydantic@2.6.4" target="pydantic-core@2.16.3" />
+    <edge source="pydantic@2.6.4" target="typing-extensions@4.10.0" />
+    <edge source="pydantic-core@2.16.3" target="typing-extensions@4.10.0" />
+    <edge source="pytest@8.1.1" target="colorama@0.4.6" />
+    <edge source="pytest@8.1.1" target="exceptiongroup@1.2.0" />
+    <edge source="pytest@8.1.1" target="iniconfig@2.0.0" />
+    <edge source="pytest@8.1.1" target="packaging@24.0" />
+    <edge source="pytest@8.1.1" target="pluggy@1.4.0" />
+    <edge source="pytest@8.1.1" target="tomli@2.0.1" />
+    <edge source="rich@13.7.1" target="markdown-it-py@3.0.0" />
+    <edge source="rich@13.7.1" target="pygments@2.17.2" />
+    <edge source="shapely@2.0.3" target="numpy@1.26.4" />
+    <edge source="sqlalchemy@2.0.28" target="greenlet@3.0.3" />
+    <edge source="sqlalchemy@2.0.28" target="typing-extensions@4.10.0" />
+    <edge source="sqlalchemy-utils@0.41.1" target="sqlalchemy@2.0.28" />
+    <edge source="typer@0.9.0" target="click@8.1.7" />
+    <edge source="typer@0.9.0" target="typing-extensions@4.10.0" />
+    <data key="d0">Mapboard__topology-manager</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

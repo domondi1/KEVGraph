@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="algokit-utils@1.4.0">
+      <data key="d2">algokit-utils</data>
+      <data key="d3">1.4.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="beaker-pyteal@1.0.1">
+      <data key="d2">beaker-pyteal</data>
+      <data key="d3">1.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="cffi@1.16.0">
+      <data key="d2">cffi</data>
+      <data key="d3">1.16.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="deprecated@1.2.14">
+      <data key="d2">deprecated</data>
+      <data key="d3">1.2.14</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="docstring-parser@0.14.1">
+      <data key="d2">docstring-parser</data>
+      <data key="d3">0.14.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="executing@1.2.0">
+      <data key="d2">executing</data>
+      <data key="d3">1.2.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="msgpack@1.0.7">
+      <data key="d2">msgpack</data>
+      <data key="d3">1.0.7</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="py-algorand-sdk@2.5.0">
+      <data key="d2">py-algorand-sdk</data>
+      <data key="d3">2.5.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pycparser@2.21">
+      <data key="d2">pycparser</data>
+      <data key="d3">2.21</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pycryptodomex@3.19.0">
+      <data key="d2">pycryptodomex</data>
+      <data key="d3">3.19.0</data>
+      <data key="d4">false</data>
+      <data key="d5">PYSEC-2024-3</data>
+    </node>
+    <node id="pynacl@1.5.0">
+      <data key="d2">pynacl</data>
+      <data key="d3">1.5.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-mrfv-m5wm-5w6w</data>
+    </node>
+    <node id="pyteal@0.24.1">
+      <data key="d2">pyteal</data>
+      <data key="d3">0.24.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="semantic-version@2.10.0">
+      <data key="d2">semantic-version</data>
+      <data key="d3">2.10.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="tabulate@0.9.0">
+      <data key="d2">tabulate</data>
+      <data key="d3">0.9.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="wrapt@1.16.0">
+      <data key="d2">wrapt</data>
+      <data key="d3">1.16.0</data>
+      <data key="d4">false</data>
+    </node>
+    <edge source="algokit-utils@1.4.0" target="deprecated@1.2.14" />
+    <edge source="algokit-utils@1.4.0" target="py-algorand-sdk@2.5.0" />
+    <edge source="beaker-pyteal@1.0.1" target="algokit-utils@1.4.0" />
+    <edge source="beaker-pyteal@1.0.1" target="py-algorand-sdk@2.5.0" />
+    <edge source="beaker-pyteal@1.0.1" target="pyteal@0.24.1" />
+    <edge source="cffi@1.16.0" target="pycparser@2.21" />
+    <edge source="deprecated@1.2.14" target="wrapt@1.16.0" />
+    <edge source="py-algorand-sdk@2.5.0" target="msgpack@1.0.7" />
+    <edge source="py-algorand-sdk@2.5.0" target="pycryptodomex@3.19.0" />
+    <edge source="py-algorand-sdk@2.5.0" target="pynacl@1.5.0" />
+    <edge source="pynacl@1.5.0" target="cffi@1.16.0" />
+    <edge source="pyteal@0.24.1" target="docstring-parser@0.14.1" />
+    <edge source="pyteal@0.24.1" target="executing@1.2.0" />
+    <edge source="pyteal@0.24.1" target="py-algorand-sdk@2.5.0" />
+    <edge source="pyteal@0.24.1" target="semantic-version@2.10.0" />
+    <edge source="pyteal@0.24.1" target="tabulate@0.9.0" />
+    <data key="d0">nathanaxel__FYP</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

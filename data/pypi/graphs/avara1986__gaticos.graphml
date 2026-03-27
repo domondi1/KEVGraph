@@ -1,0 +1,293 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="appnope@0.1.2">
+      <data key="d2">appnope</data>
+      <data key="d3">0.1.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="astroid@2.8.4">
+      <data key="d2">astroid</data>
+      <data key="d3">2.8.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="atomicwrites@1.4.0">
+      <data key="d2">atomicwrites</data>
+      <data key="d3">1.4.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="attrs@21.2.0">
+      <data key="d2">attrs</data>
+      <data key="d3">21.2.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="backcall@0.2.0">
+      <data key="d2">backcall</data>
+      <data key="d3">0.2.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="black@21.10b0">
+      <data key="d2">black</data>
+      <data key="d3">21.10b0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-3936-cmfr-pm3m,GHSA-fj7x-q9j7-g6q6,PYSEC-2024-48</data>
+    </node>
+    <node id="build@0.7.0">
+      <data key="d2">build</data>
+      <data key="d3">0.7.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="click@8.0.3">
+      <data key="d2">click</data>
+      <data key="d3">8.0.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="colorama@0.4.4">
+      <data key="d2">colorama</data>
+      <data key="d3">0.4.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="coverage@6.1.1">
+      <data key="d2">coverage</data>
+      <data key="d3">6.1.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="decorator@5.1.0">
+      <data key="d2">decorator</data>
+      <data key="d3">5.1.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="iniconfig@1.1.1">
+      <data key="d2">iniconfig</data>
+      <data key="d3">1.1.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="ipdb@0.13.9">
+      <data key="d2">ipdb</data>
+      <data key="d3">0.13.9</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="ipython@7.29.0">
+      <data key="d2">ipython</data>
+      <data key="d3">7.29.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-29gw-9793-fvw7,GHSA-pq7m-3gw7-gq5x,PYSEC-2022-12,PYSEC-2023-17</data>
+    </node>
+    <node id="isort@5.10.0">
+      <data key="d2">isort</data>
+      <data key="d3">5.10.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="jedi@0.18.0">
+      <data key="d2">jedi</data>
+      <data key="d3">0.18.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="lazy-object-proxy@1.6.0">
+      <data key="d2">lazy-object-proxy</data>
+      <data key="d3">1.6.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="matplotlib-inline@0.1.3">
+      <data key="d2">matplotlib-inline</data>
+      <data key="d3">0.1.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="mccabe@0.6.1">
+      <data key="d2">mccabe</data>
+      <data key="d3">0.6.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="mypy@0.910">
+      <data key="d2">mypy</data>
+      <data key="d3">0.910</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="mypy-extensions@0.4.3">
+      <data key="d2">mypy-extensions</data>
+      <data key="d3">0.4.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="packaging@21.2">
+      <data key="d2">packaging</data>
+      <data key="d3">21.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="parso@0.8.2">
+      <data key="d2">parso</data>
+      <data key="d3">0.8.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pathspec@0.9.0">
+      <data key="d2">pathspec</data>
+      <data key="d3">0.9.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pep517@0.12.0">
+      <data key="d2">pep517</data>
+      <data key="d3">0.12.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pexpect@4.8.0">
+      <data key="d2">pexpect</data>
+      <data key="d3">4.8.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pickleshare@0.7.5">
+      <data key="d2">pickleshare</data>
+      <data key="d3">0.7.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="platformdirs@2.4.0">
+      <data key="d2">platformdirs</data>
+      <data key="d3">2.4.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pluggy@1.0.0">
+      <data key="d2">pluggy</data>
+      <data key="d3">1.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="prompt-toolkit@3.0.22">
+      <data key="d2">prompt-toolkit</data>
+      <data key="d3">3.0.22</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="ptyprocess@0.7.0">
+      <data key="d2">ptyprocess</data>
+      <data key="d3">0.7.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="py@1.11.0">
+      <data key="d2">py</data>
+      <data key="d3">1.11.0</data>
+      <data key="d4">false</data>
+      <data key="d5">PYSEC-2022-42969,GHSA-hj5v-574p-mj7c,PYSEC-2020-92</data>
+    </node>
+    <node id="pygments@2.10.0">
+      <data key="d2">pygments</data>
+      <data key="d3">2.10.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-5239-wwwm-4pmq,GHSA-mrwq-x4v8-fh7p,PYSEC-2023-117,GHSA-9w8r-397f-prfh,GHSA-pq64-v7f5-gqh8,PYSEC-2021-140,PYSEC-2021-141</data>
+    </node>
+    <node id="pylint@2.11.1">
+      <data key="d2">pylint</data>
+      <data key="d3">2.11.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyparsing@2.4.7">
+      <data key="d2">pyparsing</data>
+      <data key="d3">2.4.7</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pytest@6.2.5">
+      <data key="d2">pytest</data>
+      <data key="d3">6.2.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pytest-cov@3.0.0">
+      <data key="d2">pytest-cov</data>
+      <data key="d3">3.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="regex@2021.11.2">
+      <data key="d2">regex</data>
+      <data key="d3">2021.11.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="toml@0.10.2">
+      <data key="d2">toml</data>
+      <data key="d3">0.10.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="tomli@1.2.2">
+      <data key="d2">tomli</data>
+      <data key="d3">1.2.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="traitlets@5.1.1">
+      <data key="d2">traitlets</data>
+      <data key="d3">5.1.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="typing-extensions@3.10.0.2">
+      <data key="d2">typing-extensions</data>
+      <data key="d3">3.10.0.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="wcwidth@0.2.5">
+      <data key="d2">wcwidth</data>
+      <data key="d3">0.2.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="wrapt@1.13.3">
+      <data key="d2">wrapt</data>
+      <data key="d3">1.13.3</data>
+      <data key="d4">false</data>
+    </node>
+    <edge source="astroid@2.8.4" target="lazy-object-proxy@1.6.0" />
+    <edge source="astroid@2.8.4" target="typing-extensions@3.10.0.2" />
+    <edge source="astroid@2.8.4" target="wrapt@1.13.3" />
+    <edge source="black@21.10b0" target="click@8.0.3" />
+    <edge source="black@21.10b0" target="mypy-extensions@0.4.3" />
+    <edge source="black@21.10b0" target="pathspec@0.9.0" />
+    <edge source="black@21.10b0" target="platformdirs@2.4.0" />
+    <edge source="black@21.10b0" target="regex@2021.11.2" />
+    <edge source="black@21.10b0" target="tomli@1.2.2" />
+    <edge source="black@21.10b0" target="typing-extensions@3.10.0.2" />
+    <edge source="build@0.7.0" target="colorama@0.4.4" />
+    <edge source="build@0.7.0" target="packaging@21.2" />
+    <edge source="build@0.7.0" target="pep517@0.12.0" />
+    <edge source="build@0.7.0" target="tomli@1.2.2" />
+    <edge source="click@8.0.3" target="colorama@0.4.4" />
+    <edge source="coverage@6.1.1" target="tomli@1.2.2" />
+    <edge source="ipdb@0.13.9" target="decorator@5.1.0" />
+    <edge source="ipdb@0.13.9" target="ipython@7.29.0" />
+    <edge source="ipdb@0.13.9" target="toml@0.10.2" />
+    <edge source="ipython@7.29.0" target="appnope@0.1.2" />
+    <edge source="ipython@7.29.0" target="backcall@0.2.0" />
+    <edge source="ipython@7.29.0" target="colorama@0.4.4" />
+    <edge source="ipython@7.29.0" target="decorator@5.1.0" />
+    <edge source="ipython@7.29.0" target="jedi@0.18.0" />
+    <edge source="ipython@7.29.0" target="matplotlib-inline@0.1.3" />
+    <edge source="ipython@7.29.0" target="pexpect@4.8.0" />
+    <edge source="ipython@7.29.0" target="pickleshare@0.7.5" />
+    <edge source="ipython@7.29.0" target="prompt-toolkit@3.0.22" />
+    <edge source="ipython@7.29.0" target="pygments@2.10.0" />
+    <edge source="ipython@7.29.0" target="traitlets@5.1.1" />
+    <edge source="jedi@0.18.0" target="parso@0.8.2" />
+    <edge source="matplotlib-inline@0.1.3" target="traitlets@5.1.1" />
+    <edge source="mypy@0.910" target="mypy-extensions@0.4.3" />
+    <edge source="mypy@0.910" target="toml@0.10.2" />
+    <edge source="mypy@0.910" target="typing-extensions@3.10.0.2" />
+    <edge source="packaging@21.2" target="pyparsing@2.4.7" />
+    <edge source="pep517@0.12.0" target="tomli@1.2.2" />
+    <edge source="pexpect@4.8.0" target="ptyprocess@0.7.0" />
+    <edge source="prompt-toolkit@3.0.22" target="wcwidth@0.2.5" />
+    <edge source="pylint@2.11.1" target="astroid@2.8.4" />
+    <edge source="pylint@2.11.1" target="colorama@0.4.4" />
+    <edge source="pylint@2.11.1" target="isort@5.10.0" />
+    <edge source="pylint@2.11.1" target="mccabe@0.6.1" />
+    <edge source="pylint@2.11.1" target="platformdirs@2.4.0" />
+    <edge source="pylint@2.11.1" target="toml@0.10.2" />
+    <edge source="pylint@2.11.1" target="typing-extensions@3.10.0.2" />
+    <edge source="pytest@6.2.5" target="atomicwrites@1.4.0" />
+    <edge source="pytest@6.2.5" target="attrs@21.2.0" />
+    <edge source="pytest@6.2.5" target="colorama@0.4.4" />
+    <edge source="pytest@6.2.5" target="iniconfig@1.1.1" />
+    <edge source="pytest@6.2.5" target="packaging@21.2" />
+    <edge source="pytest@6.2.5" target="pluggy@1.0.0" />
+    <edge source="pytest@6.2.5" target="py@1.11.0" />
+    <edge source="pytest@6.2.5" target="toml@0.10.2" />
+    <edge source="pytest-cov@3.0.0" target="coverage@6.1.1" />
+    <edge source="pytest-cov@3.0.0" target="pytest@6.2.5" />
+    <data key="d0">avara1986__gaticos</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

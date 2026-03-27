@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="annotated-types@0.7.0">
+      <data key="d2">annotated-types</data>
+      <data key="d3">0.7.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="anyio@4.9.0">
+      <data key="d2">anyio</data>
+      <data key="d3">4.9.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="beautifulsoup4@4.13.4">
+      <data key="d2">beautifulsoup4</data>
+      <data key="d3">4.13.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="blinker@1.9.0">
+      <data key="d2">blinker</data>
+      <data key="d3">1.9.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="certifi@2022.9.24">
+      <data key="d2">certifi</data>
+      <data key="d3">2022.9.24</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-43fp-rhv2-5gv8,GHSA-xqr8-7jwr-rhp7,PYSEC-2022-42986,PYSEC-2023-135,GHSA-248v-346w-9cwc,PYSEC-2024-230</data>
+    </node>
+    <node id="charset-normalizer@2.1.1">
+      <data key="d2">charset-normalizer</data>
+      <data key="d3">2.1.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="click@8.1.8">
+      <data key="d2">click</data>
+      <data key="d3">8.1.8</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="colorama@0.4.6">
+      <data key="d2">colorama</data>
+      <data key="d3">0.4.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="distro@1.9.0">
+      <data key="d2">distro</data>
+      <data key="d3">1.9.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="exceptiongroup@1.2.2">
+      <data key="d2">exceptiongroup</data>
+      <data key="d3">1.2.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="flask@2.3.3">
+      <data key="d2">flask</data>
+      <data key="d3">2.3.3</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-68rp-wp8r-4726,GHSA-m2qf-hxjv-5gpq,PYSEC-2023-62,GHSA-4grg-w6v8-c28g</data>
+    </node>
+    <node id="h11@0.16.0">
+      <data key="d2">h11</data>
+      <data key="d3">0.16.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-vqfr-h8mv-ghfj</data>
+    </node>
+    <node id="httpcore@1.0.9">
+      <data key="d2">httpcore</data>
+      <data key="d3">1.0.9</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="httpx@0.28.1">
+      <data key="d2">httpx</data>
+      <data key="d3">0.28.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="idna@3.4">
+      <data key="d2">idna</data>
+      <data key="d3">3.4</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-jjg7-2v4v-x38h,PYSEC-2024-60</data>
+    </node>
+    <node id="itsdangerous@2.2.0">
+      <data key="d2">itsdangerous</data>
+      <data key="d3">2.2.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="jinja2@3.1.6">
+      <data key="d2">jinja2</data>
+      <data key="d3">3.1.6</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-cpwx-vrp4-4pq7,GHSA-g3rq-g295-4j3m,GHSA-h5c8-rqwp-cp95,GHSA-h75v-3vvj-5mfj,GHSA-q2x7-8rv6-6q7h,PYSEC-2021-66,GHSA-gmj6-6f8f-6699</data>
+    </node>
+    <node id="jiter@0.9.0">
+      <data key="d2">jiter</data>
+      <data key="d3">0.9.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="markupsafe@3.0.2">
+      <data key="d2">markupsafe</data>
+      <data key="d3">3.0.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="openai@1.76.0">
+      <data key="d2">openai</data>
+      <data key="d3">1.76.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pydantic@2.11.3">
+      <data key="d2">pydantic</data>
+      <data key="d3">2.11.3</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-mr82-8j83-vxmv</data>
+    </node>
+    <node id="pydantic-core@2.33.1">
+      <data key="d2">pydantic-core</data>
+      <data key="d3">2.33.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="requests@2.32.3">
+      <data key="d2">requests</data>
+      <data key="d3">2.32.3</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-9hjg-9r4m-mvj7,GHSA-9wx4-h78v-vm56,GHSA-gc5v-m9x4-r6x2,GHSA-j8r2-6x86-q33q,GHSA-x84v-xcm2-53pg,PYSEC-2018-28,PYSEC-2023-74</data>
+    </node>
+    <node id="sniffio@1.3.1">
+      <data key="d2">sniffio</data>
+      <data key="d3">1.3.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="soupsieve@2.7">
+      <data key="d2">soupsieve</data>
+      <data key="d3">2.7</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="tqdm@4.67.1">
+      <data key="d2">tqdm</data>
+      <data key="d3">4.67.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-g7vv-2v7x-gj9p</data>
+    </node>
+    <node id="typing-extensions@4.13.2">
+      <data key="d2">typing-extensions</data>
+      <data key="d3">4.13.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="typing-inspection@0.4.0">
+      <data key="d2">typing-inspection</data>
+      <data key="d3">0.4.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="urllib3@1.26.12">
+      <data key="d2">urllib3</data>
+      <data key="d3">1.26.12</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-2xpw-w6gg-jr37,GHSA-34jh-p97f-mpxf,GHSA-38jv-5279-wg99,GHSA-g4mx-q9vg-27p4,GHSA-gwvm-45gx-3cf8,GHSA-mh33-7rrq-662w,GHSA-pq67-6m6q-mj2v,GHSA-r64q-w8jr-g9qp,GHSA-v845-jxx5-vc9f,GHSA-wqvq-5m8c-6g24,GHSA-www2-v7xj-xrc6,PYSEC-2018-32,PYSEC-2019-132,PYSEC-2019-133,PYSEC-2020-148,PYSEC-2021-108,PYSEC-2023-192,PYSEC-2023-207,PYSEC-2023-212,GHSA-gm62-xv2j-4w53,GHSA-q2q7-5pp4-w6pg,GHSA-48p4-8xcf-vxj5</data>
+    </node>
+    <node id="werkzeug@3.1.3">
+      <data key="d2">werkzeug</data>
+      <data key="d3">3.1.3</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-29vq-49wr-vm6x,GHSA-2g68-c3qc-8985,GHSA-87hc-h4r5-73f7,GHSA-f9vj-2wh5-fj8j,GHSA-hgf8-39gv-g3f2,GHSA-hrfv-mqp8-q5rw,GHSA-px8h-6qxv-m22q,GHSA-q34m-jh98-gwm2,GHSA-xg9f-g7g7-2323,PYSEC-2022-203,PYSEC-2023-221,PYSEC-2023-57,PYSEC-2023-58</data>
+    </node>
+    <edge source="anyio@4.9.0" target="exceptiongroup@1.2.2" />
+    <edge source="anyio@4.9.0" target="idna@3.4" />
+    <edge source="anyio@4.9.0" target="sniffio@1.3.1" />
+    <edge source="anyio@4.9.0" target="typing-extensions@4.13.2" />
+    <edge source="beautifulsoup4@4.13.4" target="soupsieve@2.7" />
+    <edge source="beautifulsoup4@4.13.4" target="typing-extensions@4.13.2" />
+    <edge source="click@8.1.8" target="colorama@0.4.6" />
+    <edge source="flask@2.3.3" target="blinker@1.9.0" />
+    <edge source="flask@2.3.3" target="click@8.1.8" />
+    <edge source="flask@2.3.3" target="itsdangerous@2.2.0" />
+    <edge source="flask@2.3.3" target="jinja2@3.1.6" />
+    <edge source="flask@2.3.3" target="werkzeug@3.1.3" />
+    <edge source="httpcore@1.0.9" target="certifi@2022.9.24" />
+    <edge source="httpcore@1.0.9" target="h11@0.16.0" />
+    <edge source="httpx@0.28.1" target="anyio@4.9.0" />
+    <edge source="httpx@0.28.1" target="certifi@2022.9.24" />
+    <edge source="httpx@0.28.1" target="httpcore@1.0.9" />
+    <edge source="httpx@0.28.1" target="idna@3.4" />
+    <edge source="jinja2@3.1.6" target="markupsafe@3.0.2" />
+    <edge source="openai@1.76.0" target="anyio@4.9.0" />
+    <edge source="openai@1.76.0" target="distro@1.9.0" />
+    <edge source="openai@1.76.0" target="httpx@0.28.1" />
+    <edge source="openai@1.76.0" target="jiter@0.9.0" />
+    <edge source="openai@1.76.0" target="pydantic@2.11.3" />
+    <edge source="openai@1.76.0" target="sniffio@1.3.1" />
+    <edge source="openai@1.76.0" target="tqdm@4.67.1" />
+    <edge source="openai@1.76.0" target="typing-extensions@4.13.2" />
+    <edge source="pydantic@2.11.3" target="annotated-types@0.7.0" />
+    <edge source="pydantic@2.11.3" target="pydantic-core@2.33.1" />
+    <edge source="pydantic@2.11.3" target="typing-extensions@4.13.2" />
+    <edge source="pydantic@2.11.3" target="typing-inspection@0.4.0" />
+    <edge source="pydantic-core@2.33.1" target="typing-extensions@4.13.2" />
+    <edge source="requests@2.32.3" target="certifi@2022.9.24" />
+    <edge source="requests@2.32.3" target="charset-normalizer@2.1.1" />
+    <edge source="requests@2.32.3" target="idna@3.4" />
+    <edge source="requests@2.32.3" target="urllib3@1.26.12" />
+    <edge source="tqdm@4.67.1" target="colorama@0.4.6" />
+    <edge source="typing-inspection@0.4.0" target="typing-extensions@4.13.2" />
+    <edge source="werkzeug@3.1.3" target="markupsafe@3.0.2" />
+    <data key="d0">aoi86625__line-gpt-bot</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

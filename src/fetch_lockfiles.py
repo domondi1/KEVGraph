@@ -25,18 +25,23 @@ from .rate_limit import _raw_request, github_headers
 log = logging.getLogger(__name__)
 
 
-def _lockfile_dest(repo_full_name: str) -> Path:
+def _lockfile_dest(repo_full_name: str, ext: str = ".json") -> Path:
     safe = repo_full_name.replace("/", "__")
-    return config.LOCKFILE_DIR / f"{safe}.json"
+    return config.LOCKFILE_DIR / f"{safe}{ext}"
 
 
-def download_one(repo_full_name: str, branch: str, lockfile_path: str) -> Path | None:
+def download_one(
+    repo_full_name: str,
+    branch: str,
+    lockfile_path: str,
+    ext: str = ".json",
+) -> Path | None:
     """Download a single lockfile; return dest Path on success, None on skip.
 
     Reuses the on-disk cache (dest file) so repeated calls are free.
     Safe to call from any stage that needs an ad-hoc lockfile fetch.
     """
-    dest = _lockfile_dest(repo_full_name)
+    dest = _lockfile_dest(repo_full_name, ext=ext)
     if dest.exists() and dest.stat().st_size > 0:
         return dest
 
@@ -63,6 +68,10 @@ def download_one(repo_full_name: str, branch: str, lockfile_path: str) -> Path |
 
 def fetch_lockfiles(adapter: EcosystemAdapter | None = None) -> int:
     """Download lockfiles listed in manifest.csv. Returns count fetched."""
+    if adapter is None:
+        from .ecosystems.npm import NpmAdapter
+        adapter = NpmAdapter()
+
     if not config.MANIFEST_CSV.exists():
         raise FileNotFoundError(
             f"{config.MANIFEST_CSV} not found – run collect_repos first."
@@ -71,14 +80,17 @@ def fetch_lockfiles(adapter: EcosystemAdapter | None = None) -> int:
     with open(config.MANIFEST_CSV) as fh:
         rows = list(csv.DictReader(fh))
 
+    ext = adapter.lockfile_ext
+    fallback_lockfile = adapter.lockfile_filename
+
     fetched = 0
     skipped = 0
     pbar = tqdm(rows, desc="Fetching lockfiles", unit="file")
     for row in pbar:
         repo = row["repo_full_name"]
         branch = row.get("default_branch", "main")
-        lockpath = row.get("lockfile_path", "package-lock.json")
-        result = download_one(repo, branch, lockpath)
+        lockpath = row.get("lockfile_path", fallback_lockfile)
+        result = download_one(repo, branch, lockpath, ext=ext)
         if result is not None:
             fetched += 1
         else:

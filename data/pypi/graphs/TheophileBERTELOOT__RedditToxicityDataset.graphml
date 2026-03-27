@@ -1,0 +1,696 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="aiohappyeyeballs@2.6.1">
+      <data key="d2">aiohappyeyeballs</data>
+      <data key="d3">2.6.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="aiohttp@3.11.18">
+      <data key="d2">aiohttp</data>
+      <data key="d3">3.11.18</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-54jq-c3m8-4m76,GHSA-69f9-5gxw-wvc2,GHSA-6jhg-hg63-jvvf,GHSA-6mq8-rvhq-8wgg,GHSA-9548-qrrj-x5pj,GHSA-fh55-r93g-j68g,GHSA-g84x-mcqj-x9qq,GHSA-jj3x-wxrx-4x23,GHSA-mqqc-3gqh-h2x8,GHSA-45c4-8wx5-qw6w,GHSA-5h86-8mv2-jq9f,GHSA-5m98-qgg9-wh84,GHSA-7gpw-8wmc-pm8g,GHSA-8495-4g3g-x7pr,GHSA-8qpw-xqxj-h4r2,GHSA-gfw2-4jvh-wgfg,GHSA-pjjw-qhg8-p2p9,GHSA-q3qx-c6g2-7pw2,GHSA-qvrw-v9rv-5rjx,GHSA-xx9p-xxvh-7g8j,PYSEC-2023-120,PYSEC-2023-246,PYSEC-2023-247,PYSEC-2023-250,PYSEC-2023-251,PYSEC-2024-24,PYSEC-2024-26</data>
+    </node>
+    <node id="aiosignal@1.3.2">
+      <data key="d2">aiosignal</data>
+      <data key="d3">1.3.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="appnope@0.1.4">
+      <data key="d2">appnope</data>
+      <data key="d3">0.1.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="asttokens@3.0.0">
+      <data key="d2">asttokens</data>
+      <data key="d3">3.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="async-timeout@5.0.1">
+      <data key="d2">async-timeout</data>
+      <data key="d3">5.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="attrs@25.3.0">
+      <data key="d2">attrs</data>
+      <data key="d3">25.3.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="certifi@2024.12.14">
+      <data key="d2">certifi</data>
+      <data key="d3">2024.12.14</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-43fp-rhv2-5gv8,GHSA-xqr8-7jwr-rhp7,PYSEC-2022-42986,PYSEC-2023-135,GHSA-248v-346w-9cwc,PYSEC-2024-230</data>
+    </node>
+    <node id="cffi@1.17.1">
+      <data key="d2">cffi</data>
+      <data key="d3">1.17.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="charset-normalizer@3.4.1">
+      <data key="d2">charset-normalizer</data>
+      <data key="d3">3.4.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="click@8.2.0">
+      <data key="d2">click</data>
+      <data key="d3">8.2.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="colorama@0.4.6">
+      <data key="d2">colorama</data>
+      <data key="d3">0.4.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="comm@0.2.2">
+      <data key="d2">comm</data>
+      <data key="d3">0.2.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="debugpy@1.8.14">
+      <data key="d2">debugpy</data>
+      <data key="d3">1.8.14</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="decorator@5.2.1">
+      <data key="d2">decorator</data>
+      <data key="d3">5.2.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="dnspython@2.7.0">
+      <data key="d2">dnspython</data>
+      <data key="d3">2.7.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-3rq5-2g8h-59hc</data>
+    </node>
+    <node id="exceptiongroup@1.3.0">
+      <data key="d2">exceptiongroup</data>
+      <data key="d3">1.3.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="executing@2.2.0">
+      <data key="d2">executing</data>
+      <data key="d3">2.2.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="filelock@3.18.0">
+      <data key="d2">filelock</data>
+      <data key="d3">3.18.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-qmgc-5h2g-mvrw,GHSA-w853-jp5j-5j7f</data>
+    </node>
+    <node id="frozenlist@1.6.0">
+      <data key="d2">frozenlist</data>
+      <data key="d3">1.6.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="fsspec@2025.3.2">
+      <data key="d2">fsspec</data>
+      <data key="d3">2025.3.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="huggingface-hub@0.31.4">
+      <data key="d2">huggingface-hub</data>
+      <data key="d3">0.31.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="idna@3.10">
+      <data key="d2">idna</data>
+      <data key="d3">3.10</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-jjg7-2v4v-x38h,PYSEC-2024-60</data>
+    </node>
+    <node id="ipykernel@6.29.5">
+      <data key="d2">ipykernel</data>
+      <data key="d3">6.29.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="ipython@8.36.0">
+      <data key="d2">ipython</data>
+      <data key="d3">8.36.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-29gw-9793-fvw7,GHSA-pq7m-3gw7-gq5x,PYSEC-2022-12,PYSEC-2023-17</data>
+    </node>
+    <node id="jedi@0.19.2">
+      <data key="d2">jedi</data>
+      <data key="d3">0.19.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="jinja2@3.1.6">
+      <data key="d2">jinja2</data>
+      <data key="d3">3.1.6</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-cpwx-vrp4-4pq7,GHSA-g3rq-g295-4j3m,GHSA-h5c8-rqwp-cp95,GHSA-h75v-3vvj-5mfj,GHSA-q2x7-8rv6-6q7h,PYSEC-2021-66,GHSA-gmj6-6f8f-6699</data>
+    </node>
+    <node id="joblib@1.5.0">
+      <data key="d2">joblib</data>
+      <data key="d3">1.5.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-6hrg-qmvc-2xh8,PYSEC-2022-288</data>
+    </node>
+    <node id="jupyter-client@8.6.3">
+      <data key="d2">jupyter-client</data>
+      <data key="d3">8.6.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="jupyter-core@5.7.2">
+      <data key="d2">jupyter-core</data>
+      <data key="d3">5.7.2</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-33p9-3p43-82vq,GHSA-m678-f26j-3hrp,PYSEC-2022-42974</data>
+    </node>
+    <node id="lightning-utilities@0.14.3">
+      <data key="d2">lightning-utilities</data>
+      <data key="d3">0.14.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="markupsafe@3.0.2">
+      <data key="d2">markupsafe</data>
+      <data key="d3">3.0.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="matplotlib-inline@0.1.7">
+      <data key="d2">matplotlib-inline</data>
+      <data key="d3">0.1.7</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="mpmath@1.3.0">
+      <data key="d2">mpmath</data>
+      <data key="d3">1.3.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="multidict@6.4.4">
+      <data key="d2">multidict</data>
+      <data key="d3">6.4.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="nest-asyncio@1.6.0">
+      <data key="d2">nest-asyncio</data>
+      <data key="d3">1.6.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="networkx@3.4.2">
+      <data key="d2">networkx</data>
+      <data key="d3">3.4.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="numpy@2.2.6">
+      <data key="d2">numpy</data>
+      <data key="d3">2.2.6</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-6p56-wp2h-9hxr,GHSA-fpfv-jqm9-f5jm</data>
+    </node>
+    <node id="nvidia-cublas-cu12@12.6.4.1">
+      <data key="d2">nvidia-cublas-cu12</data>
+      <data key="d3">12.6.4.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="nvidia-cuda-cupti-cu12@12.6.80">
+      <data key="d2">nvidia-cuda-cupti-cu12</data>
+      <data key="d3">12.6.80</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="nvidia-cuda-nvrtc-cu12@12.6.77">
+      <data key="d2">nvidia-cuda-nvrtc-cu12</data>
+      <data key="d3">12.6.77</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="nvidia-cuda-runtime-cu12@12.6.77">
+      <data key="d2">nvidia-cuda-runtime-cu12</data>
+      <data key="d3">12.6.77</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="nvidia-cudnn-cu12@9.5.1.17">
+      <data key="d2">nvidia-cudnn-cu12</data>
+      <data key="d3">9.5.1.17</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="nvidia-cufft-cu12@11.3.0.4">
+      <data key="d2">nvidia-cufft-cu12</data>
+      <data key="d3">11.3.0.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="nvidia-cufile-cu12@1.11.1.6">
+      <data key="d2">nvidia-cufile-cu12</data>
+      <data key="d3">1.11.1.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="nvidia-curand-cu12@10.3.7.77">
+      <data key="d2">nvidia-curand-cu12</data>
+      <data key="d3">10.3.7.77</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="nvidia-cusolver-cu12@11.7.1.2">
+      <data key="d2">nvidia-cusolver-cu12</data>
+      <data key="d3">11.7.1.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="nvidia-cusparse-cu12@12.5.4.2">
+      <data key="d2">nvidia-cusparse-cu12</data>
+      <data key="d3">12.5.4.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="nvidia-cusparselt-cu12@0.6.3">
+      <data key="d2">nvidia-cusparselt-cu12</data>
+      <data key="d3">0.6.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="nvidia-nccl-cu12@2.26.2">
+      <data key="d2">nvidia-nccl-cu12</data>
+      <data key="d3">2.26.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="nvidia-nvjitlink-cu12@12.6.85">
+      <data key="d2">nvidia-nvjitlink-cu12</data>
+      <data key="d3">12.6.85</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="nvidia-nvtx-cu12@12.6.77">
+      <data key="d2">nvidia-nvtx-cu12</data>
+      <data key="d3">12.6.77</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="packaging@25.0">
+      <data key="d2">packaging</data>
+      <data key="d3">25.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pandas@2.2.3">
+      <data key="d2">pandas</data>
+      <data key="d3">2.2.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="parso@0.8.4">
+      <data key="d2">parso</data>
+      <data key="d3">0.8.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pexpect@4.9.0">
+      <data key="d2">pexpect</data>
+      <data key="d3">4.9.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pillow@11.2.1">
+      <data key="d2">pillow</data>
+      <data key="d3">11.2.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-3f63-hfp8-52jq,GHSA-44wm-f244-xhp3,GHSA-j7hp-h8jx-5ppr,PYSEC-2023-175,GHSA-cfh3-3jmp-rvhc,GHSA-xg8h-j46f-w952,PYSEC-2025-61,GHSA-4fx9-vc88-q2xc,GHSA-7534-mm45-c74v,GHSA-8ghj-p4vj-mr35,GHSA-8vj2-vxx3-667w,GHSA-98vv-pw6r-q6q4,GHSA-9j59-75qj-795w,GHSA-m2vv-5vj5-2hm7,GHSA-pw3c-h7wp-cvhx,GHSA-xrcv-f9gm-v42c,PYSEC-2021-317,PYSEC-2021-331,PYSEC-2022-10,PYSEC-2022-168,PYSEC-2022-42979,PYSEC-2022-8,PYSEC-2022-9,PYSEC-2023-227</data>
+    </node>
+    <node id="platformdirs@4.3.8">
+      <data key="d2">platformdirs</data>
+      <data key="d3">4.3.8</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="praw@7.8.1">
+      <data key="d2">praw</data>
+      <data key="d3">7.8.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="prawcore@2.4.0">
+      <data key="d2">prawcore</data>
+      <data key="d3">2.4.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="prompt-toolkit@3.0.51">
+      <data key="d2">prompt-toolkit</data>
+      <data key="d3">3.0.51</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="propcache@0.3.1">
+      <data key="d2">propcache</data>
+      <data key="d3">0.3.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="psutil@7.0.0">
+      <data key="d2">psutil</data>
+      <data key="d3">7.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="ptyprocess@0.7.0">
+      <data key="d2">ptyprocess</data>
+      <data key="d3">0.7.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pure-eval@0.2.3">
+      <data key="d2">pure-eval</data>
+      <data key="d3">0.2.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pycparser@2.22">
+      <data key="d2">pycparser</data>
+      <data key="d3">2.22</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pygments@2.19.1">
+      <data key="d2">pygments</data>
+      <data key="d3">2.19.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-5239-wwwm-4pmq,GHSA-mrwq-x4v8-fh7p,PYSEC-2023-117,GHSA-9w8r-397f-prfh,GHSA-pq64-v7f5-gqh8,PYSEC-2021-140,PYSEC-2021-141</data>
+    </node>
+    <node id="pymongo@4.10.1">
+      <data key="d2">pymongo</data>
+      <data key="d3">4.10.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-m87m-mmvp-v9qm</data>
+    </node>
+    <node id="pyparsing@3.2.3">
+      <data key="d2">pyparsing</data>
+      <data key="d3">3.2.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="python-dateutil@2.9.0.post0">
+      <data key="d2">python-dateutil</data>
+      <data key="d3">2.9.0.post0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pytorch-lightning@2.5.1.post0">
+      <data key="d2">pytorch-lightning</data>
+      <data key="d3">2.5.1.post0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pytz@2025.2">
+      <data key="d2">pytz</data>
+      <data key="d3">2025.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pywin32@310">
+      <data key="d2">pywin32</data>
+      <data key="d3">310</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-hwfp-hg2m-9vr2,PYSEC-2021-112</data>
+    </node>
+    <node id="pyyaml@6.0.2">
+      <data key="d2">pyyaml</data>
+      <data key="d3">6.0.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyzmq@26.4.0">
+      <data key="d2">pyzmq</data>
+      <data key="d3">26.4.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="regex@2024.11.6">
+      <data key="d2">regex</data>
+      <data key="d3">2024.11.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="requests@2.32.3">
+      <data key="d2">requests</data>
+      <data key="d3">2.32.3</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-9hjg-9r4m-mvj7,GHSA-9wx4-h78v-vm56,GHSA-gc5v-m9x4-r6x2,GHSA-j8r2-6x86-q33q,GHSA-x84v-xcm2-53pg,PYSEC-2018-28,PYSEC-2023-74</data>
+    </node>
+    <node id="safetensors@0.5.3">
+      <data key="d2">safetensors</data>
+      <data key="d3">0.5.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="scikit-learn@1.6.1">
+      <data key="d2">scikit-learn</data>
+      <data key="d3">1.6.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-jw8x-6495-233v,GHSA-jxfp-4rvq-9h9m,PYSEC-2024-110</data>
+    </node>
+    <node id="scipy@1.15.3">
+      <data key="d2">scipy</data>
+      <data key="d3">1.15.3</data>
+      <data key="d4">false</data>
+      <data key="d5">PYSEC-2023-102,PYSEC-2023-114</data>
+    </node>
+    <node id="sentence-transformers@4.1.0">
+      <data key="d2">sentence-transformers</data>
+      <data key="d3">4.1.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="six@1.17.0">
+      <data key="d2">six</data>
+      <data key="d3">1.17.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="stack-data@0.6.3">
+      <data key="d2">stack-data</data>
+      <data key="d3">0.6.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="sympy@1.14.0">
+      <data key="d2">sympy</data>
+      <data key="d3">1.14.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="threadpoolctl@3.6.0">
+      <data key="d2">threadpoolctl</data>
+      <data key="d3">3.6.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="tokenizers@0.21.1">
+      <data key="d2">tokenizers</data>
+      <data key="d3">0.21.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="torch@2.7.0">
+      <data key="d2">torch</data>
+      <data key="d3">2.7.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-3749-ghw9-m3mg,GHSA-47fc-vmwq-366v,GHSA-53q9-r3pm-6pq6,GHSA-5pcm-hx3q-hm94,GHSA-887c-mr87-cxwp,GHSA-pg7h-5qx3-wjr3,PYSEC-2022-43015,PYSEC-2024-250,PYSEC-2024-251,PYSEC-2024-252,PYSEC-2024-259,PYSEC-2025-41</data>
+    </node>
+    <node id="torch-geometric@2.6.1">
+      <data key="d2">torch-geometric</data>
+      <data key="d3">2.6.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="torchmetrics@1.7.2">
+      <data key="d2">torchmetrics</data>
+      <data key="d3">1.7.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="tornado@6.5">
+      <data key="d2">tornado</data>
+      <data key="d3">6.5</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-753j-mpmx-qq6g,GHSA-78cv-mqj4-43f7,GHSA-7cx3-6m66-7c5m,GHSA-8w49-h785-mj3c,GHSA-hj3f-6gcp-jg8j,GHSA-qjxf-f2mg-c6mc,GHSA-qppv-j76h-2rpx,GHSA-w235-7p84-xx57,PYSEC-2023-75</data>
+    </node>
+    <node id="tqdm@4.67.1">
+      <data key="d2">tqdm</data>
+      <data key="d3">4.67.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-g7vv-2v7x-gj9p</data>
+    </node>
+    <node id="traitlets@5.14.3">
+      <data key="d2">traitlets</data>
+      <data key="d3">5.14.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="transformers@4.51.3">
+      <data key="d2">transformers</data>
+      <data key="d3">4.51.3</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-282v-666c-3fvg,GHSA-37mw-44qp-f5jm,GHSA-37q5-v5qm-c9v8,GHSA-3863-2447-669p,GHSA-4w7r-h757-3r74,GHSA-59p9-h35m-wg4g,GHSA-6rvg-6v2m-4j46,GHSA-9356-575x-2w9m,GHSA-fpwr-67px-3qhx,GHSA-hxxf-235m-72v3,GHSA-jjph-296x-mrcr,GHSA-phhr-52qp-3mj4,GHSA-q2wp-rjmx-x6x9,GHSA-qq3j-4f4f-9583,GHSA-qxrp-vhvm-j765,GHSA-rcv9-qm8p-9p6j,GHSA-v68g-wm8c-6x7j,GHSA-wrfc-pvp9-mr9g,PYSEC-2023-299,PYSEC-2023-300,PYSEC-2023-301,PYSEC-2024-227,PYSEC-2024-228,PYSEC-2024-229,PYSEC-2025-40</data>
+    </node>
+    <node id="triton@3.3.0">
+      <data key="d2">triton</data>
+      <data key="d3">3.3.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="typing-extensions@4.13.2">
+      <data key="d2">typing-extensions</data>
+      <data key="d3">4.13.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="tzdata@2025.2">
+      <data key="d2">tzdata</data>
+      <data key="d3">2025.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="update-checker@0.18.0">
+      <data key="d2">update-checker</data>
+      <data key="d3">0.18.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="urllib3@2.3.0">
+      <data key="d2">urllib3</data>
+      <data key="d3">2.3.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-2xpw-w6gg-jr37,GHSA-34jh-p97f-mpxf,GHSA-38jv-5279-wg99,GHSA-g4mx-q9vg-27p4,GHSA-gwvm-45gx-3cf8,GHSA-mh33-7rrq-662w,GHSA-pq67-6m6q-mj2v,GHSA-r64q-w8jr-g9qp,GHSA-v845-jxx5-vc9f,GHSA-wqvq-5m8c-6g24,GHSA-www2-v7xj-xrc6,PYSEC-2018-32,PYSEC-2019-132,PYSEC-2019-133,PYSEC-2020-148,PYSEC-2021-108,PYSEC-2023-192,PYSEC-2023-207,PYSEC-2023-212,GHSA-gm62-xv2j-4w53,GHSA-q2q7-5pp4-w6pg,GHSA-48p4-8xcf-vxj5</data>
+    </node>
+    <node id="wcwidth@0.2.13">
+      <data key="d2">wcwidth</data>
+      <data key="d3">0.2.13</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="websocket-client@1.8.0">
+      <data key="d2">websocket-client</data>
+      <data key="d3">1.8.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="yarl@1.20.0">
+      <data key="d2">yarl</data>
+      <data key="d3">1.20.0</data>
+      <data key="d4">false</data>
+    </node>
+    <edge source="aiohttp@3.11.18" target="aiohappyeyeballs@2.6.1" />
+    <edge source="aiohttp@3.11.18" target="aiosignal@1.3.2" />
+    <edge source="aiohttp@3.11.18" target="async-timeout@5.0.1" />
+    <edge source="aiohttp@3.11.18" target="attrs@25.3.0" />
+    <edge source="aiohttp@3.11.18" target="frozenlist@1.6.0" />
+    <edge source="aiohttp@3.11.18" target="multidict@6.4.4" />
+    <edge source="aiohttp@3.11.18" target="propcache@0.3.1" />
+    <edge source="aiohttp@3.11.18" target="yarl@1.20.0" />
+    <edge source="aiosignal@1.3.2" target="frozenlist@1.6.0" />
+    <edge source="cffi@1.17.1" target="pycparser@2.22" />
+    <edge source="click@8.2.0" target="colorama@0.4.6" />
+    <edge source="comm@0.2.2" target="traitlets@5.14.3" />
+    <edge source="exceptiongroup@1.3.0" target="typing-extensions@4.13.2" />
+    <edge source="fsspec@2025.3.2" target="aiohttp@3.11.18" />
+    <edge source="huggingface-hub@0.31.4" target="filelock@3.18.0" />
+    <edge source="huggingface-hub@0.31.4" target="fsspec@2025.3.2" />
+    <edge source="huggingface-hub@0.31.4" target="packaging@25.0" />
+    <edge source="huggingface-hub@0.31.4" target="pyyaml@6.0.2" />
+    <edge source="huggingface-hub@0.31.4" target="requests@2.32.3" />
+    <edge source="huggingface-hub@0.31.4" target="tqdm@4.67.1" />
+    <edge source="huggingface-hub@0.31.4" target="typing-extensions@4.13.2" />
+    <edge source="ipykernel@6.29.5" target="appnope@0.1.4" />
+    <edge source="ipykernel@6.29.5" target="comm@0.2.2" />
+    <edge source="ipykernel@6.29.5" target="debugpy@1.8.14" />
+    <edge source="ipykernel@6.29.5" target="ipython@8.36.0" />
+    <edge source="ipykernel@6.29.5" target="jupyter-client@8.6.3" />
+    <edge source="ipykernel@6.29.5" target="jupyter-core@5.7.2" />
+    <edge source="ipykernel@6.29.5" target="matplotlib-inline@0.1.7" />
+    <edge source="ipykernel@6.29.5" target="nest-asyncio@1.6.0" />
+    <edge source="ipykernel@6.29.5" target="packaging@25.0" />
+    <edge source="ipykernel@6.29.5" target="psutil@7.0.0" />
+    <edge source="ipykernel@6.29.5" target="pyzmq@26.4.0" />
+    <edge source="ipykernel@6.29.5" target="tornado@6.5" />
+    <edge source="ipykernel@6.29.5" target="traitlets@5.14.3" />
+    <edge source="ipython@8.36.0" target="colorama@0.4.6" />
+    <edge source="ipython@8.36.0" target="decorator@5.2.1" />
+    <edge source="ipython@8.36.0" target="exceptiongroup@1.3.0" />
+    <edge source="ipython@8.36.0" target="jedi@0.19.2" />
+    <edge source="ipython@8.36.0" target="matplotlib-inline@0.1.7" />
+    <edge source="ipython@8.36.0" target="pexpect@4.9.0" />
+    <edge source="ipython@8.36.0" target="prompt-toolkit@3.0.51" />
+    <edge source="ipython@8.36.0" target="pygments@2.19.1" />
+    <edge source="ipython@8.36.0" target="stack-data@0.6.3" />
+    <edge source="ipython@8.36.0" target="traitlets@5.14.3" />
+    <edge source="ipython@8.36.0" target="typing-extensions@4.13.2" />
+    <edge source="jedi@0.19.2" target="parso@0.8.4" />
+    <edge source="jinja2@3.1.6" target="markupsafe@3.0.2" />
+    <edge source="jupyter-client@8.6.3" target="jupyter-core@5.7.2" />
+    <edge source="jupyter-client@8.6.3" target="python-dateutil@2.9.0.post0" />
+    <edge source="jupyter-client@8.6.3" target="pyzmq@26.4.0" />
+    <edge source="jupyter-client@8.6.3" target="tornado@6.5" />
+    <edge source="jupyter-client@8.6.3" target="traitlets@5.14.3" />
+    <edge source="jupyter-core@5.7.2" target="platformdirs@4.3.8" />
+    <edge source="jupyter-core@5.7.2" target="pywin32@310" />
+    <edge source="jupyter-core@5.7.2" target="traitlets@5.14.3" />
+    <edge source="lightning-utilities@0.14.3" target="packaging@25.0" />
+    <edge source="lightning-utilities@0.14.3" target="typing-extensions@4.13.2" />
+    <edge source="matplotlib-inline@0.1.7" target="traitlets@5.14.3" />
+    <edge source="multidict@6.4.4" target="typing-extensions@4.13.2" />
+    <edge source="nvidia-cudnn-cu12@9.5.1.17" target="nvidia-cublas-cu12@12.6.4.1" />
+    <edge source="nvidia-cufft-cu12@11.3.0.4" target="nvidia-nvjitlink-cu12@12.6.85" />
+    <edge source="nvidia-cusolver-cu12@11.7.1.2" target="nvidia-cublas-cu12@12.6.4.1" />
+    <edge source="nvidia-cusolver-cu12@11.7.1.2" target="nvidia-cusparse-cu12@12.5.4.2" />
+    <edge source="nvidia-cusolver-cu12@11.7.1.2" target="nvidia-nvjitlink-cu12@12.6.85" />
+    <edge source="nvidia-cusparse-cu12@12.5.4.2" target="nvidia-nvjitlink-cu12@12.6.85" />
+    <edge source="pandas@2.2.3" target="numpy@2.2.6" />
+    <edge source="pandas@2.2.3" target="python-dateutil@2.9.0.post0" />
+    <edge source="pandas@2.2.3" target="pytz@2025.2" />
+    <edge source="pandas@2.2.3" target="tzdata@2025.2" />
+    <edge source="pexpect@4.9.0" target="ptyprocess@0.7.0" />
+    <edge source="praw@7.8.1" target="prawcore@2.4.0" />
+    <edge source="praw@7.8.1" target="update-checker@0.18.0" />
+    <edge source="praw@7.8.1" target="websocket-client@1.8.0" />
+    <edge source="prawcore@2.4.0" target="requests@2.32.3" />
+    <edge source="prompt-toolkit@3.0.51" target="wcwidth@0.2.13" />
+    <edge source="pymongo@4.10.1" target="dnspython@2.7.0" />
+    <edge source="python-dateutil@2.9.0.post0" target="six@1.17.0" />
+    <edge source="pytorch-lightning@2.5.1.post0" target="fsspec@2025.3.2" />
+    <edge source="pytorch-lightning@2.5.1.post0" target="lightning-utilities@0.14.3" />
+    <edge source="pytorch-lightning@2.5.1.post0" target="packaging@25.0" />
+    <edge source="pytorch-lightning@2.5.1.post0" target="pyyaml@6.0.2" />
+    <edge source="pytorch-lightning@2.5.1.post0" target="torch@2.7.0" />
+    <edge source="pytorch-lightning@2.5.1.post0" target="torchmetrics@1.7.2" />
+    <edge source="pytorch-lightning@2.5.1.post0" target="tqdm@4.67.1" />
+    <edge source="pytorch-lightning@2.5.1.post0" target="typing-extensions@4.13.2" />
+    <edge source="pyzmq@26.4.0" target="cffi@1.17.1" />
+    <edge source="requests@2.32.3" target="certifi@2024.12.14" />
+    <edge source="requests@2.32.3" target="charset-normalizer@3.4.1" />
+    <edge source="requests@2.32.3" target="idna@3.10" />
+    <edge source="requests@2.32.3" target="urllib3@2.3.0" />
+    <edge source="scikit-learn@1.6.1" target="joblib@1.5.0" />
+    <edge source="scikit-learn@1.6.1" target="numpy@2.2.6" />
+    <edge source="scikit-learn@1.6.1" target="scipy@1.15.3" />
+    <edge source="scikit-learn@1.6.1" target="threadpoolctl@3.6.0" />
+    <edge source="scipy@1.15.3" target="numpy@2.2.6" />
+    <edge source="sentence-transformers@4.1.0" target="huggingface-hub@0.31.4" />
+    <edge source="sentence-transformers@4.1.0" target="pillow@11.2.1" />
+    <edge source="sentence-transformers@4.1.0" target="scikit-learn@1.6.1" />
+    <edge source="sentence-transformers@4.1.0" target="scipy@1.15.3" />
+    <edge source="sentence-transformers@4.1.0" target="torch@2.7.0" />
+    <edge source="sentence-transformers@4.1.0" target="tqdm@4.67.1" />
+    <edge source="sentence-transformers@4.1.0" target="transformers@4.51.3" />
+    <edge source="sentence-transformers@4.1.0" target="typing-extensions@4.13.2" />
+    <edge source="stack-data@0.6.3" target="asttokens@3.0.0" />
+    <edge source="stack-data@0.6.3" target="executing@2.2.0" />
+    <edge source="stack-data@0.6.3" target="pure-eval@0.2.3" />
+    <edge source="sympy@1.14.0" target="mpmath@1.3.0" />
+    <edge source="tokenizers@0.21.1" target="huggingface-hub@0.31.4" />
+    <edge source="torch@2.7.0" target="filelock@3.18.0" />
+    <edge source="torch@2.7.0" target="fsspec@2025.3.2" />
+    <edge source="torch@2.7.0" target="jinja2@3.1.6" />
+    <edge source="torch@2.7.0" target="networkx@3.4.2" />
+    <edge source="torch@2.7.0" target="nvidia-cublas-cu12@12.6.4.1" />
+    <edge source="torch@2.7.0" target="nvidia-cuda-cupti-cu12@12.6.80" />
+    <edge source="torch@2.7.0" target="nvidia-cuda-nvrtc-cu12@12.6.77" />
+    <edge source="torch@2.7.0" target="nvidia-cuda-runtime-cu12@12.6.77" />
+    <edge source="torch@2.7.0" target="nvidia-cudnn-cu12@9.5.1.17" />
+    <edge source="torch@2.7.0" target="nvidia-cufft-cu12@11.3.0.4" />
+    <edge source="torch@2.7.0" target="nvidia-cufile-cu12@1.11.1.6" />
+    <edge source="torch@2.7.0" target="nvidia-curand-cu12@10.3.7.77" />
+    <edge source="torch@2.7.0" target="nvidia-cusolver-cu12@11.7.1.2" />
+    <edge source="torch@2.7.0" target="nvidia-cusparse-cu12@12.5.4.2" />
+    <edge source="torch@2.7.0" target="nvidia-cusparselt-cu12@0.6.3" />
+    <edge source="torch@2.7.0" target="nvidia-nccl-cu12@2.26.2" />
+    <edge source="torch@2.7.0" target="nvidia-nvjitlink-cu12@12.6.85" />
+    <edge source="torch@2.7.0" target="nvidia-nvtx-cu12@12.6.77" />
+    <edge source="torch@2.7.0" target="sympy@1.14.0" />
+    <edge source="torch@2.7.0" target="triton@3.3.0" />
+    <edge source="torch@2.7.0" target="typing-extensions@4.13.2" />
+    <edge source="torch-geometric@2.6.1" target="aiohttp@3.11.18" />
+    <edge source="torch-geometric@2.6.1" target="fsspec@2025.3.2" />
+    <edge source="torch-geometric@2.6.1" target="jinja2@3.1.6" />
+    <edge source="torch-geometric@2.6.1" target="numpy@2.2.6" />
+    <edge source="torch-geometric@2.6.1" target="psutil@7.0.0" />
+    <edge source="torch-geometric@2.6.1" target="pyparsing@3.2.3" />
+    <edge source="torch-geometric@2.6.1" target="requests@2.32.3" />
+    <edge source="torch-geometric@2.6.1" target="tqdm@4.67.1" />
+    <edge source="torchmetrics@1.7.2" target="lightning-utilities@0.14.3" />
+    <edge source="torchmetrics@1.7.2" target="numpy@2.2.6" />
+    <edge source="torchmetrics@1.7.2" target="packaging@25.0" />
+    <edge source="torchmetrics@1.7.2" target="torch@2.7.0" />
+    <edge source="tqdm@4.67.1" target="colorama@0.4.6" />
+    <edge source="transformers@4.51.3" target="filelock@3.18.0" />
+    <edge source="transformers@4.51.3" target="huggingface-hub@0.31.4" />
+    <edge source="transformers@4.51.3" target="numpy@2.2.6" />
+    <edge source="transformers@4.51.3" target="packaging@25.0" />
+    <edge source="transformers@4.51.3" target="pyyaml@6.0.2" />
+    <edge source="transformers@4.51.3" target="regex@2024.11.6" />
+    <edge source="transformers@4.51.3" target="requests@2.32.3" />
+    <edge source="transformers@4.51.3" target="safetensors@0.5.3" />
+    <edge source="transformers@4.51.3" target="tokenizers@0.21.1" />
+    <edge source="transformers@4.51.3" target="tqdm@4.67.1" />
+    <edge source="update-checker@0.18.0" target="requests@2.32.3" />
+    <edge source="yarl@1.20.0" target="idna@3.10" />
+    <edge source="yarl@1.20.0" target="multidict@6.4.4" />
+    <edge source="yarl@1.20.0" target="propcache@0.3.1" />
+    <data key="d0">TheophileBERTELOOT__RedditToxicityDataset</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

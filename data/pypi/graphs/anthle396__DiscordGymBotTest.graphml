@@ -1,0 +1,460 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="aiohttp@3.7.4.post0">
+      <data key="d2">aiohttp</data>
+      <data key="d3">3.7.4.post0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-54jq-c3m8-4m76,GHSA-69f9-5gxw-wvc2,GHSA-6jhg-hg63-jvvf,GHSA-6mq8-rvhq-8wgg,GHSA-9548-qrrj-x5pj,GHSA-fh55-r93g-j68g,GHSA-g84x-mcqj-x9qq,GHSA-jj3x-wxrx-4x23,GHSA-mqqc-3gqh-h2x8,GHSA-45c4-8wx5-qw6w,GHSA-5h86-8mv2-jq9f,GHSA-5m98-qgg9-wh84,GHSA-7gpw-8wmc-pm8g,GHSA-8495-4g3g-x7pr,GHSA-8qpw-xqxj-h4r2,GHSA-gfw2-4jvh-wgfg,GHSA-pjjw-qhg8-p2p9,GHSA-q3qx-c6g2-7pw2,GHSA-qvrw-v9rv-5rjx,GHSA-xx9p-xxvh-7g8j,PYSEC-2023-120,PYSEC-2023-246,PYSEC-2023-247,PYSEC-2023-250,PYSEC-2023-251,PYSEC-2024-24,PYSEC-2024-26</data>
+    </node>
+    <node id="async-timeout@3.0.1">
+      <data key="d2">async-timeout</data>
+      <data key="d3">3.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="attrs@23.1.0">
+      <data key="d2">attrs</data>
+      <data key="d3">23.1.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="blinker@1.6.2">
+      <data key="d2">blinker</data>
+      <data key="d3">1.6.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="cachecontrol@0.12.14">
+      <data key="d2">cachecontrol</data>
+      <data key="d3">0.12.14</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="cachy@0.3.0">
+      <data key="d2">cachy</data>
+      <data key="d3">0.3.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="certifi@2023.7.22">
+      <data key="d2">certifi</data>
+      <data key="d3">2023.7.22</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-43fp-rhv2-5gv8,GHSA-xqr8-7jwr-rhp7,PYSEC-2022-42986,PYSEC-2023-135,GHSA-248v-346w-9cwc,PYSEC-2024-230</data>
+    </node>
+    <node id="cffi@1.15.1">
+      <data key="d2">cffi</data>
+      <data key="d3">1.15.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="chardet@4.0.0">
+      <data key="d2">chardet</data>
+      <data key="d3">4.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="charset-normalizer@3.2.0">
+      <data key="d2">charset-normalizer</data>
+      <data key="d3">3.2.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="cleo@0.8.1">
+      <data key="d2">cleo</data>
+      <data key="d3">0.8.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-2p9h-ccw7-33gf,PYSEC-2022-43178</data>
+    </node>
+    <node id="click@8.1.6">
+      <data key="d2">click</data>
+      <data key="d3">8.1.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="clikit@0.6.2">
+      <data key="d2">clikit</data>
+      <data key="d3">0.6.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="colorama@0.4.6">
+      <data key="d2">colorama</data>
+      <data key="d3">0.4.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="contourpy@1.1.0">
+      <data key="d2">contourpy</data>
+      <data key="d3">1.1.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="crashtest@0.3.1">
+      <data key="d2">crashtest</data>
+      <data key="d3">0.3.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="cryptography@41.0.4">
+      <data key="d2">cryptography</data>
+      <data key="d3">41.0.4</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-3ww4-gg4f-jr7f,GHSA-5cpq-8wj7-hf2v,GHSA-9v9h-cgj8-h64p,GHSA-hggm-jpg3-v476,GHSA-jfhm-5ghh-2f97,GHSA-jm77-qphf-c4w8,GHSA-r6ph-v2qm-q3c2,GHSA-rhm9-p9w5-fwm7,GHSA-v8gr-m533-ghj9,GHSA-w7pp-m8wf-vj6r,GHSA-x4qr-2fvf-3mr5,PYSEC-2021-62,PYSEC-2021-63,PYSEC-2023-11,PYSEC-2023-254,GHSA-39hc-v87j-747x,GHSA-h4gh-qq45-vh27,GHSA-6vqw-3v5j-54x4,GHSA-cf7p-gm2m-833m,PYSEC-2023-112,PYSEC-2024-225,GHSA-79v4-65xg-pq4g</data>
+    </node>
+    <node id="cycler@0.11.0">
+      <data key="d2">cycler</data>
+      <data key="d3">0.11.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="discord-py@1.7.3">
+      <data key="d2">discord-py</data>
+      <data key="d3">1.7.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="distlib@0.3.7">
+      <data key="d2">distlib</data>
+      <data key="d3">0.3.7</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="filelock@3.12.2">
+      <data key="d2">filelock</data>
+      <data key="d3">3.12.2</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-qmgc-5h2g-mvrw,GHSA-w853-jp5j-5j7f</data>
+    </node>
+    <node id="flask@2.3.2">
+      <data key="d2">flask</data>
+      <data key="d3">2.3.2</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-68rp-wp8r-4726,GHSA-m2qf-hxjv-5gpq,PYSEC-2023-62,GHSA-4grg-w6v8-c28g</data>
+    </node>
+    <node id="fonttools@4.42.0">
+      <data key="d2">fonttools</data>
+      <data key="d3">4.42.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-6673-4983-2vx5,GHSA-768j-98cg-p3fv</data>
+    </node>
+    <node id="html5lib@1.1">
+      <data key="d2">html5lib</data>
+      <data key="d3">1.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="idna@3.4">
+      <data key="d2">idna</data>
+      <data key="d3">3.4</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-jjg7-2v4v-x38h,PYSEC-2024-60</data>
+    </node>
+    <node id="importlib-metadata@6.8.0">
+      <data key="d2">importlib-metadata</data>
+      <data key="d3">6.8.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="importlib-resources@6.0.0">
+      <data key="d2">importlib-resources</data>
+      <data key="d3">6.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="itsdangerous@2.1.2">
+      <data key="d2">itsdangerous</data>
+      <data key="d3">2.1.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="jaraco-classes@3.3.0">
+      <data key="d2">jaraco-classes</data>
+      <data key="d3">3.3.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="jeepney@0.8.0">
+      <data key="d2">jeepney</data>
+      <data key="d3">0.8.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="jinja2@3.1.2">
+      <data key="d2">jinja2</data>
+      <data key="d3">3.1.2</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-cpwx-vrp4-4pq7,GHSA-g3rq-g295-4j3m,GHSA-h5c8-rqwp-cp95,GHSA-h75v-3vvj-5mfj,GHSA-q2x7-8rv6-6q7h,PYSEC-2021-66,GHSA-gmj6-6f8f-6699</data>
+    </node>
+    <node id="keyring@24.2.0">
+      <data key="d2">keyring</data>
+      <data key="d3">24.2.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="kiwisolver@1.4.4">
+      <data key="d2">kiwisolver</data>
+      <data key="d3">1.4.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="lockfile@0.12.2">
+      <data key="d2">lockfile</data>
+      <data key="d3">0.12.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="markupsafe@2.1.3">
+      <data key="d2">markupsafe</data>
+      <data key="d3">2.1.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="matplotlib@3.7.2">
+      <data key="d2">matplotlib</data>
+      <data key="d3">3.7.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="more-itertools@10.0.0">
+      <data key="d2">more-itertools</data>
+      <data key="d3">10.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="msgpack@1.0.5">
+      <data key="d2">msgpack</data>
+      <data key="d3">1.0.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="multidict@6.0.4">
+      <data key="d2">multidict</data>
+      <data key="d3">6.0.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="numpy@1.24.4">
+      <data key="d2">numpy</data>
+      <data key="d3">1.24.4</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-6p56-wp2h-9hxr,GHSA-fpfv-jqm9-f5jm</data>
+    </node>
+    <node id="packaging@23.1">
+      <data key="d2">packaging</data>
+      <data key="d3">23.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pandas@2.0.3">
+      <data key="d2">pandas</data>
+      <data key="d3">2.0.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pastel@0.2.1">
+      <data key="d2">pastel</data>
+      <data key="d3">0.2.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pexpect@4.8.0">
+      <data key="d2">pexpect</data>
+      <data key="d3">4.8.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pillow@10.0.0">
+      <data key="d2">pillow</data>
+      <data key="d3">10.0.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-3f63-hfp8-52jq,GHSA-44wm-f244-xhp3,GHSA-j7hp-h8jx-5ppr,PYSEC-2023-175,GHSA-cfh3-3jmp-rvhc,GHSA-xg8h-j46f-w952,PYSEC-2025-61,GHSA-4fx9-vc88-q2xc,GHSA-7534-mm45-c74v,GHSA-8ghj-p4vj-mr35,GHSA-8vj2-vxx3-667w,GHSA-98vv-pw6r-q6q4,GHSA-9j59-75qj-795w,GHSA-m2vv-5vj5-2hm7,GHSA-pw3c-h7wp-cvhx,GHSA-xrcv-f9gm-v42c,PYSEC-2021-317,PYSEC-2021-331,PYSEC-2022-10,PYSEC-2022-168,PYSEC-2022-42979,PYSEC-2022-8,PYSEC-2022-9,PYSEC-2023-227</data>
+    </node>
+    <node id="pkginfo@1.9.6">
+      <data key="d2">pkginfo</data>
+      <data key="d3">1.9.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="platformdirs@3.9.1">
+      <data key="d2">platformdirs</data>
+      <data key="d3">3.9.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="poetry@1.1.15">
+      <data key="d2">poetry</data>
+      <data key="d3">1.1.15</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="poetry-core@1.0.8">
+      <data key="d2">poetry-core</data>
+      <data key="d3">1.0.8</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="ptyprocess@0.7.0">
+      <data key="d2">ptyprocess</data>
+      <data key="d3">0.7.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pycparser@2.21">
+      <data key="d2">pycparser</data>
+      <data key="d3">2.21</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pylev@1.4.0">
+      <data key="d2">pylev</data>
+      <data key="d3">1.4.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyparsing@3.0.9">
+      <data key="d2">pyparsing</data>
+      <data key="d3">3.0.9</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="python-dateutil@2.8.2">
+      <data key="d2">python-dateutil</data>
+      <data key="d3">2.8.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pytz@2023.3">
+      <data key="d2">pytz</data>
+      <data key="d3">2023.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pywin32-ctypes@0.2.2">
+      <data key="d2">pywin32-ctypes</data>
+      <data key="d3">0.2.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="requests@2.31.0">
+      <data key="d2">requests</data>
+      <data key="d3">2.31.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-9hjg-9r4m-mvj7,GHSA-9wx4-h78v-vm56,GHSA-gc5v-m9x4-r6x2,GHSA-j8r2-6x86-q33q,GHSA-x84v-xcm2-53pg,PYSEC-2018-28,PYSEC-2023-74</data>
+    </node>
+    <node id="requests-toolbelt@0.9.1">
+      <data key="d2">requests-toolbelt</data>
+      <data key="d3">0.9.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="secretstorage@3.3.3">
+      <data key="d2">secretstorage</data>
+      <data key="d3">3.3.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="shellingham@1.5.1">
+      <data key="d2">shellingham</data>
+      <data key="d3">1.5.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="six@1.16.0">
+      <data key="d2">six</data>
+      <data key="d3">1.16.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="tomlkit@0.12.0">
+      <data key="d2">tomlkit</data>
+      <data key="d3">0.12.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="typing-extensions@4.7.1">
+      <data key="d2">typing-extensions</data>
+      <data key="d3">4.7.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="tzdata@2023.3">
+      <data key="d2">tzdata</data>
+      <data key="d3">2023.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="urllib3@1.26.15">
+      <data key="d2">urllib3</data>
+      <data key="d3">1.26.15</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-2xpw-w6gg-jr37,GHSA-34jh-p97f-mpxf,GHSA-38jv-5279-wg99,GHSA-g4mx-q9vg-27p4,GHSA-gwvm-45gx-3cf8,GHSA-mh33-7rrq-662w,GHSA-pq67-6m6q-mj2v,GHSA-r64q-w8jr-g9qp,GHSA-v845-jxx5-vc9f,GHSA-wqvq-5m8c-6g24,GHSA-www2-v7xj-xrc6,PYSEC-2018-32,PYSEC-2019-132,PYSEC-2019-133,PYSEC-2020-148,PYSEC-2021-108,PYSEC-2023-192,PYSEC-2023-207,PYSEC-2023-212,GHSA-gm62-xv2j-4w53,GHSA-q2q7-5pp4-w6pg,GHSA-48p4-8xcf-vxj5</data>
+    </node>
+    <node id="virtualenv@20.24.2">
+      <data key="d2">virtualenv</data>
+      <data key="d3">20.24.2</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-597g-3phw-6986,GHSA-rqc4-2hc7-8c8v,PYSEC-2024-187</data>
+    </node>
+    <node id="webencodings@0.5.1">
+      <data key="d2">webencodings</data>
+      <data key="d3">0.5.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="werkzeug@2.3.6">
+      <data key="d2">werkzeug</data>
+      <data key="d3">2.3.6</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-29vq-49wr-vm6x,GHSA-2g68-c3qc-8985,GHSA-87hc-h4r5-73f7,GHSA-f9vj-2wh5-fj8j,GHSA-hgf8-39gv-g3f2,GHSA-hrfv-mqp8-q5rw,GHSA-px8h-6qxv-m22q,GHSA-q34m-jh98-gwm2,GHSA-xg9f-g7g7-2323,PYSEC-2022-203,PYSEC-2023-221,PYSEC-2023-57,PYSEC-2023-58</data>
+    </node>
+    <node id="yarl@1.9.2">
+      <data key="d2">yarl</data>
+      <data key="d3">1.9.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="zipp@3.16.2">
+      <data key="d2">zipp</data>
+      <data key="d3">3.16.2</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-jfmj-5v4g-7637</data>
+    </node>
+    <edge source="aiohttp@3.7.4.post0" target="async-timeout@3.0.1" />
+    <edge source="aiohttp@3.7.4.post0" target="attrs@23.1.0" />
+    <edge source="aiohttp@3.7.4.post0" target="chardet@4.0.0" />
+    <edge source="aiohttp@3.7.4.post0" target="multidict@6.0.4" />
+    <edge source="aiohttp@3.7.4.post0" target="typing-extensions@4.7.1" />
+    <edge source="aiohttp@3.7.4.post0" target="yarl@1.9.2" />
+    <edge source="cachecontrol@0.12.14" target="lockfile@0.12.2" />
+    <edge source="cachecontrol@0.12.14" target="msgpack@1.0.5" />
+    <edge source="cachecontrol@0.12.14" target="requests@2.31.0" />
+    <edge source="cffi@1.15.1" target="pycparser@2.21" />
+    <edge source="cleo@0.8.1" target="clikit@0.6.2" />
+    <edge source="click@8.1.6" target="colorama@0.4.6" />
+    <edge source="clikit@0.6.2" target="crashtest@0.3.1" />
+    <edge source="clikit@0.6.2" target="pastel@0.2.1" />
+    <edge source="clikit@0.6.2" target="pylev@1.4.0" />
+    <edge source="contourpy@1.1.0" target="numpy@1.24.4" />
+    <edge source="cryptography@41.0.4" target="cffi@1.15.1" />
+    <edge source="discord-py@1.7.3" target="aiohttp@3.7.4.post0" />
+    <edge source="flask@2.3.2" target="blinker@1.6.2" />
+    <edge source="flask@2.3.2" target="click@8.1.6" />
+    <edge source="flask@2.3.2" target="importlib-metadata@6.8.0" />
+    <edge source="flask@2.3.2" target="itsdangerous@2.1.2" />
+    <edge source="flask@2.3.2" target="jinja2@3.1.2" />
+    <edge source="flask@2.3.2" target="werkzeug@2.3.6" />
+    <edge source="html5lib@1.1" target="six@1.16.0" />
+    <edge source="html5lib@1.1" target="webencodings@0.5.1" />
+    <edge source="importlib-metadata@6.8.0" target="zipp@3.16.2" />
+    <edge source="importlib-resources@6.0.0" target="zipp@3.16.2" />
+    <edge source="jaraco-classes@3.3.0" target="more-itertools@10.0.0" />
+    <edge source="jinja2@3.1.2" target="markupsafe@2.1.3" />
+    <edge source="keyring@24.2.0" target="importlib-metadata@6.8.0" />
+    <edge source="keyring@24.2.0" target="importlib-resources@6.0.0" />
+    <edge source="keyring@24.2.0" target="jaraco-classes@3.3.0" />
+    <edge source="keyring@24.2.0" target="jeepney@0.8.0" />
+    <edge source="keyring@24.2.0" target="pywin32-ctypes@0.2.2" />
+    <edge source="keyring@24.2.0" target="secretstorage@3.3.3" />
+    <edge source="matplotlib@3.7.2" target="contourpy@1.1.0" />
+    <edge source="matplotlib@3.7.2" target="cycler@0.11.0" />
+    <edge source="matplotlib@3.7.2" target="fonttools@4.42.0" />
+    <edge source="matplotlib@3.7.2" target="importlib-resources@6.0.0" />
+    <edge source="matplotlib@3.7.2" target="kiwisolver@1.4.4" />
+    <edge source="matplotlib@3.7.2" target="numpy@1.24.4" />
+    <edge source="matplotlib@3.7.2" target="packaging@23.1" />
+    <edge source="matplotlib@3.7.2" target="pillow@10.0.0" />
+    <edge source="matplotlib@3.7.2" target="pyparsing@3.0.9" />
+    <edge source="matplotlib@3.7.2" target="python-dateutil@2.8.2" />
+    <edge source="pandas@2.0.3" target="numpy@1.24.4" />
+    <edge source="pandas@2.0.3" target="python-dateutil@2.8.2" />
+    <edge source="pandas@2.0.3" target="pytz@2023.3" />
+    <edge source="pandas@2.0.3" target="tzdata@2023.3" />
+    <edge source="pexpect@4.8.0" target="ptyprocess@0.7.0" />
+    <edge source="poetry@1.1.15" target="cachecontrol@0.12.14" />
+    <edge source="poetry@1.1.15" target="cachy@0.3.0" />
+    <edge source="poetry@1.1.15" target="cleo@0.8.1" />
+    <edge source="poetry@1.1.15" target="clikit@0.6.2" />
+    <edge source="poetry@1.1.15" target="crashtest@0.3.1" />
+    <edge source="poetry@1.1.15" target="html5lib@1.1" />
+    <edge source="poetry@1.1.15" target="keyring@24.2.0" />
+    <edge source="poetry@1.1.15" target="packaging@23.1" />
+    <edge source="poetry@1.1.15" target="pexpect@4.8.0" />
+    <edge source="poetry@1.1.15" target="pkginfo@1.9.6" />
+    <edge source="poetry@1.1.15" target="poetry-core@1.0.8" />
+    <edge source="poetry@1.1.15" target="requests@2.31.0" />
+    <edge source="poetry@1.1.15" target="requests-toolbelt@0.9.1" />
+    <edge source="poetry@1.1.15" target="shellingham@1.5.1" />
+    <edge source="poetry@1.1.15" target="tomlkit@0.12.0" />
+    <edge source="poetry@1.1.15" target="virtualenv@20.24.2" />
+    <edge source="python-dateutil@2.8.2" target="six@1.16.0" />
+    <edge source="requests@2.31.0" target="certifi@2023.7.22" />
+    <edge source="requests@2.31.0" target="charset-normalizer@3.2.0" />
+    <edge source="requests@2.31.0" target="idna@3.4" />
+    <edge source="requests@2.31.0" target="urllib3@1.26.15" />
+    <edge source="requests-toolbelt@0.9.1" target="requests@2.31.0" />
+    <edge source="secretstorage@3.3.3" target="cryptography@41.0.4" />
+    <edge source="secretstorage@3.3.3" target="jeepney@0.8.0" />
+    <edge source="virtualenv@20.24.2" target="distlib@0.3.7" />
+    <edge source="virtualenv@20.24.2" target="filelock@3.12.2" />
+    <edge source="virtualenv@20.24.2" target="platformdirs@3.9.1" />
+    <edge source="werkzeug@2.3.6" target="markupsafe@2.1.3" />
+    <edge source="yarl@1.9.2" target="idna@3.4" />
+    <edge source="yarl@1.9.2" target="multidict@6.0.4" />
+    <data key="d0">anthle396__DiscordGymBotTest</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="aiohttp@3.7.4.post0">
+      <data key="d2">aiohttp</data>
+      <data key="d3">3.7.4.post0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-54jq-c3m8-4m76,GHSA-69f9-5gxw-wvc2,GHSA-6jhg-hg63-jvvf,GHSA-6mq8-rvhq-8wgg,GHSA-9548-qrrj-x5pj,GHSA-fh55-r93g-j68g,GHSA-g84x-mcqj-x9qq,GHSA-jj3x-wxrx-4x23,GHSA-mqqc-3gqh-h2x8,GHSA-45c4-8wx5-qw6w,GHSA-5h86-8mv2-jq9f,GHSA-5m98-qgg9-wh84,GHSA-7gpw-8wmc-pm8g,GHSA-8495-4g3g-x7pr,GHSA-8qpw-xqxj-h4r2,GHSA-gfw2-4jvh-wgfg,GHSA-pjjw-qhg8-p2p9,GHSA-q3qx-c6g2-7pw2,GHSA-qvrw-v9rv-5rjx,GHSA-xx9p-xxvh-7g8j,PYSEC-2023-120,PYSEC-2023-246,PYSEC-2023-247,PYSEC-2023-250,PYSEC-2023-251,PYSEC-2024-24,PYSEC-2024-26</data>
+    </node>
+    <node id="async-timeout@3.0.1">
+      <data key="d2">async-timeout</data>
+      <data key="d3">3.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="attrs@21.4.0">
+      <data key="d2">attrs</data>
+      <data key="d3">21.4.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="chardet@4.0.0">
+      <data key="d2">chardet</data>
+      <data key="d3">4.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="discord@1.7.3">
+      <data key="d2">discord</data>
+      <data key="d3">1.7.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="discord-py@1.7.3">
+      <data key="d2">discord-py</data>
+      <data key="d3">1.7.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="idna@3.3">
+      <data key="d2">idna</data>
+      <data key="d3">3.3</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-jjg7-2v4v-x38h,PYSEC-2024-60</data>
+    </node>
+    <node id="multidict@5.2.0">
+      <data key="d2">multidict</data>
+      <data key="d3">5.2.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="typing-extensions@4.0.1">
+      <data key="d2">typing-extensions</data>
+      <data key="d3">4.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="yarl@1.7.2">
+      <data key="d2">yarl</data>
+      <data key="d3">1.7.2</data>
+      <data key="d4">false</data>
+    </node>
+    <edge source="aiohttp@3.7.4.post0" target="async-timeout@3.0.1" />
+    <edge source="aiohttp@3.7.4.post0" target="attrs@21.4.0" />
+    <edge source="aiohttp@3.7.4.post0" target="chardet@4.0.0" />
+    <edge source="aiohttp@3.7.4.post0" target="multidict@5.2.0" />
+    <edge source="aiohttp@3.7.4.post0" target="typing-extensions@4.0.1" />
+    <edge source="aiohttp@3.7.4.post0" target="yarl@1.7.2" />
+    <edge source="discord@1.7.3" target="discord-py@1.7.3" />
+    <edge source="discord-py@1.7.3" target="aiohttp@3.7.4.post0" />
+    <edge source="yarl@1.7.2" target="idna@3.3" />
+    <edge source="yarl@1.7.2" target="multidict@5.2.0" />
+    <data key="d0">dfgHiatus__BadJokeBot</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

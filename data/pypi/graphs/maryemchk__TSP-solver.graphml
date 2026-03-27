@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="absl-py@2.3.1">
+      <data key="d2">absl-py</data>
+      <data key="d3">2.3.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="immutabledict@4.2.1">
+      <data key="d2">immutabledict</data>
+      <data key="d3">4.2.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="numpy@2.3.5">
+      <data key="d2">numpy</data>
+      <data key="d3">2.3.5</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-6p56-wp2h-9hxr,GHSA-fpfv-jqm9-f5jm</data>
+    </node>
+    <node id="ortools@9.14.6206">
+      <data key="d2">ortools</data>
+      <data key="d3">9.14.6206</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pandas@2.3.3">
+      <data key="d2">pandas</data>
+      <data key="d3">2.3.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="protobuf@6.31.1">
+      <data key="d2">protobuf</data>
+      <data key="d3">6.31.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-7gcm-g887-7qv7,GHSA-8gq9-2x98-w8hf,GHSA-8qvm-5x2c-j2w7</data>
+    </node>
+    <node id="python-dateutil@2.9.0.post0">
+      <data key="d2">python-dateutil</data>
+      <data key="d3">2.9.0.post0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pytz@2025.2">
+      <data key="d2">pytz</data>
+      <data key="d3">2025.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="scipy@1.16.3">
+      <data key="d2">scipy</data>
+      <data key="d3">1.16.3</data>
+      <data key="d4">false</data>
+      <data key="d5">PYSEC-2023-102,PYSEC-2023-114</data>
+    </node>
+    <node id="six@1.17.0">
+      <data key="d2">six</data>
+      <data key="d3">1.17.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="typing-extensions@4.15.0">
+      <data key="d2">typing-extensions</data>
+      <data key="d3">4.15.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="tzdata@2025.3">
+      <data key="d2">tzdata</data>
+      <data key="d3">2025.3</data>
+      <data key="d4">false</data>
+    </node>
+    <edge source="ortools@9.14.6206" target="absl-py@2.3.1" />
+    <edge source="ortools@9.14.6206" target="immutabledict@4.2.1" />
+    <edge source="ortools@9.14.6206" target="numpy@2.3.5" />
+    <edge source="ortools@9.14.6206" target="pandas@2.3.3" />
+    <edge source="ortools@9.14.6206" target="protobuf@6.31.1" />
+    <edge source="ortools@9.14.6206" target="typing-extensions@4.15.0" />
+    <edge source="pandas@2.3.3" target="numpy@2.3.5" />
+    <edge source="pandas@2.3.3" target="python-dateutil@2.9.0.post0" />
+    <edge source="pandas@2.3.3" target="pytz@2025.2" />
+    <edge source="pandas@2.3.3" target="tzdata@2025.3" />
+    <edge source="python-dateutil@2.9.0.post0" target="six@1.17.0" />
+    <edge source="scipy@1.16.3" target="numpy@2.3.5" />
+    <data key="d0">maryemchk__TSP-solver</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

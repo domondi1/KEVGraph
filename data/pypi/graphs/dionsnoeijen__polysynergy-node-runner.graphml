@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="boto3@1.39.6">
+      <data key="d2">boto3</data>
+      <data key="d3">1.39.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="botocore@1.39.6">
+      <data key="d2">botocore</data>
+      <data key="d3">1.39.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="cffi@2.0.0">
+      <data key="d2">cffi</data>
+      <data key="d3">2.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="colorama@0.4.6">
+      <data key="d2">colorama</data>
+      <data key="d3">0.4.6</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="coverage@7.10.1">
+      <data key="d2">coverage</data>
+      <data key="d3">7.10.1</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="cryptography@43.0.3">
+      <data key="d2">cryptography</data>
+      <data key="d3">43.0.3</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-3ww4-gg4f-jr7f,GHSA-5cpq-8wj7-hf2v,GHSA-9v9h-cgj8-h64p,GHSA-hggm-jpg3-v476,GHSA-jfhm-5ghh-2f97,GHSA-jm77-qphf-c4w8,GHSA-r6ph-v2qm-q3c2,GHSA-rhm9-p9w5-fwm7,GHSA-v8gr-m533-ghj9,GHSA-w7pp-m8wf-vj6r,GHSA-x4qr-2fvf-3mr5,PYSEC-2021-62,PYSEC-2021-63,PYSEC-2023-11,PYSEC-2023-254,GHSA-39hc-v87j-747x,GHSA-h4gh-qq45-vh27,GHSA-6vqw-3v5j-54x4,GHSA-cf7p-gm2m-833m,PYSEC-2023-112,PYSEC-2024-225,GHSA-79v4-65xg-pq4g</data>
+    </node>
+    <node id="iniconfig@2.1.0">
+      <data key="d2">iniconfig</data>
+      <data key="d3">2.1.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="jinja2@3.1.6">
+      <data key="d2">jinja2</data>
+      <data key="d3">3.1.6</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-cpwx-vrp4-4pq7,GHSA-g3rq-g295-4j3m,GHSA-h5c8-rqwp-cp95,GHSA-h75v-3vvj-5mfj,GHSA-q2x7-8rv6-6q7h,PYSEC-2021-66,GHSA-gmj6-6f8f-6699</data>
+    </node>
+    <node id="jmespath@1.0.1">
+      <data key="d2">jmespath</data>
+      <data key="d3">1.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="markupsafe@3.0.2">
+      <data key="d2">markupsafe</data>
+      <data key="d3">3.0.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="packaging@25.0">
+      <data key="d2">packaging</data>
+      <data key="d3">25.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="pluggy@1.6.0">
+      <data key="d2">pluggy</data>
+      <data key="d3">1.6.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="pycparser@2.23">
+      <data key="d2">pycparser</data>
+      <data key="d3">2.23</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pygments@2.19.2">
+      <data key="d2">pygments</data>
+      <data key="d3">2.19.2</data>
+      <data key="d4">true</data>
+      <data key="d5">GHSA-5239-wwwm-4pmq,GHSA-mrwq-x4v8-fh7p,PYSEC-2023-117,GHSA-9w8r-397f-prfh,GHSA-pq64-v7f5-gqh8,PYSEC-2021-140,PYSEC-2021-141</data>
+    </node>
+    <node id="pytest@8.4.1">
+      <data key="d2">pytest</data>
+      <data key="d3">8.4.1</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="pytest-asyncio@1.1.0">
+      <data key="d2">pytest-asyncio</data>
+      <data key="d3">1.1.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="pytest-cov@6.2.1">
+      <data key="d2">pytest-cov</data>
+      <data key="d3">6.2.1</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="pytest-mock@3.14.1">
+      <data key="d2">pytest-mock</data>
+      <data key="d3">3.14.1</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="python-dateutil@2.9.0.post0">
+      <data key="d2">python-dateutil</data>
+      <data key="d3">2.9.0.post0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="redis@6.2.0">
+      <data key="d2">redis</data>
+      <data key="d3">6.2.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="s3transfer@0.13.0">
+      <data key="d2">s3transfer</data>
+      <data key="d3">0.13.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="six@1.17.0">
+      <data key="d2">six</data>
+      <data key="d3">1.17.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="urllib3@2.5.0">
+      <data key="d2">urllib3</data>
+      <data key="d3">2.5.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-2xpw-w6gg-jr37,GHSA-34jh-p97f-mpxf,GHSA-38jv-5279-wg99,GHSA-g4mx-q9vg-27p4,GHSA-gwvm-45gx-3cf8,GHSA-mh33-7rrq-662w,GHSA-pq67-6m6q-mj2v,GHSA-r64q-w8jr-g9qp,GHSA-v845-jxx5-vc9f,GHSA-wqvq-5m8c-6g24,GHSA-www2-v7xj-xrc6,PYSEC-2018-32,PYSEC-2019-132,PYSEC-2019-133,PYSEC-2020-148,PYSEC-2021-108,PYSEC-2023-192,PYSEC-2023-207,PYSEC-2023-212,GHSA-gm62-xv2j-4w53,GHSA-q2q7-5pp4-w6pg,GHSA-48p4-8xcf-vxj5</data>
+    </node>
+    <edge source="boto3@1.39.6" target="botocore@1.39.6" />
+    <edge source="boto3@1.39.6" target="jmespath@1.0.1" />
+    <edge source="boto3@1.39.6" target="s3transfer@0.13.0" />
+    <edge source="botocore@1.39.6" target="jmespath@1.0.1" />
+    <edge source="botocore@1.39.6" target="python-dateutil@2.9.0.post0" />
+    <edge source="botocore@1.39.6" target="urllib3@2.5.0" />
+    <edge source="cffi@2.0.0" target="pycparser@2.23" />
+    <edge source="cryptography@43.0.3" target="cffi@2.0.0" />
+    <edge source="jinja2@3.1.6" target="markupsafe@3.0.2" />
+    <edge source="pytest@8.4.1" target="colorama@0.4.6" />
+    <edge source="pytest@8.4.1" target="iniconfig@2.1.0" />
+    <edge source="pytest@8.4.1" target="packaging@25.0" />
+    <edge source="pytest@8.4.1" target="pluggy@1.6.0" />
+    <edge source="pytest@8.4.1" target="pygments@2.19.2" />
+    <edge source="pytest-asyncio@1.1.0" target="pytest@8.4.1" />
+    <edge source="pytest-cov@6.2.1" target="coverage@7.10.1" />
+    <edge source="pytest-cov@6.2.1" target="pluggy@1.6.0" />
+    <edge source="pytest-cov@6.2.1" target="pytest@8.4.1" />
+    <edge source="pytest-mock@3.14.1" target="pytest@8.4.1" />
+    <edge source="python-dateutil@2.9.0.post0" target="six@1.17.0" />
+    <edge source="s3transfer@0.13.0" target="botocore@1.39.6" />
+    <data key="d0">dionsnoeijen__polysynergy-node-runner</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

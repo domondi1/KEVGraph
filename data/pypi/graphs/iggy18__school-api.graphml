@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="asgiref@3.3.4">
+      <data key="d2">asgiref</data>
+      <data key="d3">3.3.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="certifi@2020.12.5">
+      <data key="d2">certifi</data>
+      <data key="d3">2020.12.5</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-43fp-rhv2-5gv8,GHSA-xqr8-7jwr-rhp7,PYSEC-2022-42986,PYSEC-2023-135,GHSA-248v-346w-9cwc,PYSEC-2024-230</data>
+    </node>
+    <node id="cffi@1.14.5">
+      <data key="d2">cffi</data>
+      <data key="d3">1.14.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="chardet@4.0.0">
+      <data key="d2">chardet</data>
+      <data key="d3">4.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="coreapi@2.3.3">
+      <data key="d2">coreapi</data>
+      <data key="d3">2.3.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="coreschema@0.0.4">
+      <data key="d2">coreschema</data>
+      <data key="d3">0.0.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="cryptography@3.4.7">
+      <data key="d2">cryptography</data>
+      <data key="d3">3.4.7</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-3ww4-gg4f-jr7f,GHSA-5cpq-8wj7-hf2v,GHSA-9v9h-cgj8-h64p,GHSA-hggm-jpg3-v476,GHSA-jfhm-5ghh-2f97,GHSA-jm77-qphf-c4w8,GHSA-r6ph-v2qm-q3c2,GHSA-rhm9-p9w5-fwm7,GHSA-v8gr-m533-ghj9,GHSA-w7pp-m8wf-vj6r,GHSA-x4qr-2fvf-3mr5,PYSEC-2021-62,PYSEC-2021-63,PYSEC-2023-11,PYSEC-2023-254,GHSA-39hc-v87j-747x,GHSA-h4gh-qq45-vh27,GHSA-6vqw-3v5j-54x4,GHSA-cf7p-gm2m-833m,PYSEC-2023-112,PYSEC-2024-225,GHSA-79v4-65xg-pq4g</data>
+    </node>
+    <node id="defusedxml@0.7.1">
+      <data key="d2">defusedxml</data>
+      <data key="d3">0.7.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="django@3.2">
+      <data key="d2">django</data>
+      <data key="d3">3.2</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-2gwj-7jmv-h26r,GHSA-53qw-q765-4fww,GHSA-68w8-qjq3-2gfm,GHSA-6cw3-g6wv-c2xv,GHSA-6w2r-r2m5-xq5w,GHSA-7xr5-9hcq-chf9,GHSA-8c5j-9r9f-c6w8,GHSA-8x94-hmjh-97hq,GHSA-95rw-fx8r-36v6,GHSA-frmv-pr5f-9mcr,GHSA-jrh2-hc4r-7jwx,GHSA-p99v-5w3c-jqq9,GHSA-qm57-vhq3-3fwf,GHSA-qw25-v68c-qjf3,GHSA-rrqc-c2jx-6jgv,GHSA-rxjp-mfm9-w4wr,GHSA-v6rh-hp5x-86rv,GHSA-w24h-v9qh-8gxj,GHSA-xgxc-v2qg-chmh,PYSEC-2021-439,PYSEC-2021-6,PYSEC-2021-7,PYSEC-2021-8,PYSEC-2021-98,PYSEC-2021-99,PYSEC-2022-1,PYSEC-2022-19,PYSEC-2022-190,PYSEC-2022-191,PYSEC-2022-2,PYSEC-2022-20,PYSEC-2022-3,GHSA-fvgf-6h6h-3322,GHSA-xpfp-f569-q3p2,PYSEC-2021-109,PYSEC-2021-9,GHSA-2hrw-hx67-34x6,GHSA-7h4p-27mh-hmrw,GHSA-h8gc-pgj2-vjm3,GHSA-jh3w-4vvf-mjgr,GHSA-p64x-8rxx-wf6q,GHSA-q2jf-h9jm-m7p4,GHSA-qmf9-6jqf-j8fq,GHSA-qrw5-5h28-6cmg,GHSA-r3xc-prgr-mg9p,GHSA-vm8q-m57g-pff3,GHSA-xxj9-f6rv-m3x4,PYSEC-2022-213,PYSEC-2022-245,PYSEC-2022-304,PYSEC-2023-100,PYSEC-2023-12,PYSEC-2023-13,PYSEC-2023-222,PYSEC-2023-225,PYSEC-2023-226,PYSEC-2023-61,PYSEC-2024-28,PYSEC-2024-47,GHSA-2mcm-79hx-8fxw,GHSA-33mw-q7rj-mjwj,GHSA-4rrr-2h4v-f3j9,GHSA-5hgc-2vfp-mqvc,GHSA-6426-9fv3-65x8,GHSA-795c-9xpc-xw6g,GHSA-8498-2h75-472j,GHSA-8j24-cjrq-gr2m,GHSA-8p8v-wh79-9r56,GHSA-9jmf-237g-qf46,GHSA-f6f8-9mx6-9mx2,GHSA-gvg8-93h5-g6qq,GHSA-hpr9-3m2g-3j9p,GHSA-jh75-99hh-qvx9,GHSA-m9g8-fxxm-xg86,GHSA-mjgh-79qc-68w3,GHSA-mwm9-4648-f68q,GHSA-p3fp-8748-vqfq,GHSA-pv4p-cwwg-4rph,GHSA-q95w-c7qg-hrff,GHSA-qcgg-j2x8-h9g8,GHSA-qg2p-9jwr-mmqf,GHSA-r836-hh6v-rg5g,GHSA-rqw2-ghq9-44m7,GHSA-vrcr-9hj9-jcg6,GHSA-x7q2-wr7g-xqmf,PYSEC-2024-102,PYSEC-2024-156,PYSEC-2024-157,PYSEC-2024-56,PYSEC-2024-57,PYSEC-2024-58,PYSEC-2024-59,PYSEC-2024-67,PYSEC-2024-68,PYSEC-2024-69,PYSEC-2024-70,PYSEC-2025-1,PYSEC-2025-13,PYSEC-2025-37,PYSEC-2025-47,GHSA-wqfg-m96j-85vm,PYSEC-2025-14</data>
+    </node>
+    <node id="django-environ@0.4.5">
+      <data key="d2">django-environ</data>
+      <data key="d3">0.4.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="django-filter@2.4.0">
+      <data key="d2">django-filter</data>
+      <data key="d3">2.4.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="django-templated-mail@1.1.1">
+      <data key="d2">django-templated-mail</data>
+      <data key="d3">1.1.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="djangorestframework@3.12.4">
+      <data key="d2">djangorestframework</data>
+      <data key="d3">3.12.4</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-gw84-84pc-xp82</data>
+    </node>
+    <node id="djangorestframework-simplejwt@4.6.0">
+      <data key="d2">djangorestframework-simplejwt</data>
+      <data key="d3">4.6.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-5vcc-86wm-547q</data>
+    </node>
+    <node id="djoser@2.1.0">
+      <data key="d2">djoser</data>
+      <data key="d3">2.1.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-v49p-m6gh-747c,PYSEC-2024-158</data>
+    </node>
+    <node id="faker@8.1.1">
+      <data key="d2">faker</data>
+      <data key="d3">8.1.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="gunicorn@20.1.0">
+      <data key="d2">gunicorn</data>
+      <data key="d3">20.1.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-hc5x-x2vx-497g,GHSA-w3h3-4rj7-4ph4</data>
+    </node>
+    <node id="idna@2.10">
+      <data key="d2">idna</data>
+      <data key="d3">2.10</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-jjg7-2v4v-x38h,PYSEC-2024-60</data>
+    </node>
+    <node id="itypes@1.2.0">
+      <data key="d2">itypes</data>
+      <data key="d3">1.2.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="jinja2@2.11.3">
+      <data key="d2">jinja2</data>
+      <data key="d3">2.11.3</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-cpwx-vrp4-4pq7,GHSA-g3rq-g295-4j3m,GHSA-h5c8-rqwp-cp95,GHSA-h75v-3vvj-5mfj,GHSA-q2x7-8rv6-6q7h,PYSEC-2021-66,GHSA-gmj6-6f8f-6699</data>
+    </node>
+    <node id="markupsafe@1.1.1">
+      <data key="d2">markupsafe</data>
+      <data key="d3">1.1.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="oauthlib@3.1.0">
+      <data key="d2">oauthlib</data>
+      <data key="d3">3.1.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-3pgj-pg6c-r5p7,PYSEC-2022-269</data>
+    </node>
+    <node id="pycparser@2.20">
+      <data key="d2">pycparser</data>
+      <data key="d3">2.20</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyjwt@2.1.0">
+      <data key="d2">pyjwt</data>
+      <data key="d3">2.1.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-752w-5fwx-jx9f,GHSA-ffqj-6fqr-9h24,PYSEC-2022-202</data>
+    </node>
+    <node id="pymysql@1.0.2">
+      <data key="d2">pymysql</data>
+      <data key="d3">1.0.2</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-v9hf-5j83-6xpp</data>
+    </node>
+    <node id="python-dateutil@2.8.1">
+      <data key="d2">python-dateutil</data>
+      <data key="d3">2.8.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="python3-openid@3.2.0">
+      <data key="d2">python3-openid</data>
+      <data key="d3">3.2.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pytz@2021.1">
+      <data key="d2">pytz</data>
+      <data key="d3">2021.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="requests@2.25.1">
+      <data key="d2">requests</data>
+      <data key="d3">2.25.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-9hjg-9r4m-mvj7,GHSA-9wx4-h78v-vm56,GHSA-gc5v-m9x4-r6x2,GHSA-j8r2-6x86-q33q,GHSA-x84v-xcm2-53pg,PYSEC-2018-28,PYSEC-2023-74</data>
+    </node>
+    <node id="requests-oauthlib@1.3.0">
+      <data key="d2">requests-oauthlib</data>
+      <data key="d3">1.3.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="six@1.15.0">
+      <data key="d2">six</data>
+      <data key="d3">1.15.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="social-auth-app-django@4.0.0">
+      <data key="d2">social-auth-app-django</data>
+      <data key="d3">4.0.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-2gr8-3wc7-xhj3,GHSA-wv4w-6qv2-qqfg</data>
+    </node>
+    <node id="social-auth-core@4.1.0">
+      <data key="d2">social-auth-core</data>
+      <data key="d3">4.1.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="sqlparse@0.4.1">
+      <data key="d2">sqlparse</data>
+      <data key="d3">0.4.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-27jp-wm6q-gp25,GHSA-2m57-hf25-phgg,GHSA-p5w8-wqhj-9hhf,GHSA-rrm6-wvj7-cwh2,PYSEC-2021-333,PYSEC-2023-87</data>
+    </node>
+    <node id="text-unidecode@1.3">
+      <data key="d2">text-unidecode</data>
+      <data key="d3">1.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="uritemplate@3.0.1">
+      <data key="d2">uritemplate</data>
+      <data key="d3">3.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="urllib3@1.26.4">
+      <data key="d2">urllib3</data>
+      <data key="d3">1.26.4</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-2xpw-w6gg-jr37,GHSA-34jh-p97f-mpxf,GHSA-38jv-5279-wg99,GHSA-g4mx-q9vg-27p4,GHSA-gwvm-45gx-3cf8,GHSA-mh33-7rrq-662w,GHSA-pq67-6m6q-mj2v,GHSA-r64q-w8jr-g9qp,GHSA-v845-jxx5-vc9f,GHSA-wqvq-5m8c-6g24,GHSA-www2-v7xj-xrc6,PYSEC-2018-32,PYSEC-2019-132,PYSEC-2019-133,PYSEC-2020-148,PYSEC-2021-108,PYSEC-2023-192,PYSEC-2023-207,PYSEC-2023-212,GHSA-gm62-xv2j-4w53,GHSA-q2q7-5pp4-w6pg,GHSA-48p4-8xcf-vxj5</data>
+    </node>
+    <edge source="cffi@1.14.5" target="pycparser@2.20" />
+    <edge source="coreapi@2.3.3" target="coreschema@0.0.4" />
+    <edge source="coreapi@2.3.3" target="itypes@1.2.0" />
+    <edge source="coreapi@2.3.3" target="requests@2.25.1" />
+    <edge source="coreapi@2.3.3" target="uritemplate@3.0.1" />
+    <edge source="coreschema@0.0.4" target="jinja2@2.11.3" />
+    <edge source="cryptography@3.4.7" target="cffi@1.14.5" />
+    <edge source="django@3.2" target="asgiref@3.3.4" />
+    <edge source="django@3.2" target="pytz@2021.1" />
+    <edge source="django@3.2" target="sqlparse@0.4.1" />
+    <edge source="django-filter@2.4.0" target="django@3.2" />
+    <edge source="djangorestframework@3.12.4" target="django@3.2" />
+    <edge source="djangorestframework-simplejwt@4.6.0" target="django@3.2" />
+    <edge source="djangorestframework-simplejwt@4.6.0" target="djangorestframework@3.12.4" />
+    <edge source="djangorestframework-simplejwt@4.6.0" target="pyjwt@2.1.0" />
+    <edge source="djoser@2.1.0" target="asgiref@3.3.4" />
+    <edge source="djoser@2.1.0" target="coreapi@2.3.3" />
+    <edge source="djoser@2.1.0" target="django-templated-mail@1.1.1" />
+    <edge source="djoser@2.1.0" target="djangorestframework-simplejwt@4.6.0" />
+    <edge source="djoser@2.1.0" target="social-auth-app-django@4.0.0" />
+    <edge source="faker@8.1.1" target="python-dateutil@2.8.1" />
+    <edge source="faker@8.1.1" target="text-unidecode@1.3" />
+    <edge source="jinja2@2.11.3" target="markupsafe@1.1.1" />
+    <edge source="python-dateutil@2.8.1" target="six@1.15.0" />
+    <edge source="python3-openid@3.2.0" target="defusedxml@0.7.1" />
+    <edge source="requests@2.25.1" target="certifi@2020.12.5" />
+    <edge source="requests@2.25.1" target="chardet@4.0.0" />
+    <edge source="requests@2.25.1" target="idna@2.10" />
+    <edge source="requests@2.25.1" target="urllib3@1.26.4" />
+    <edge source="requests-oauthlib@1.3.0" target="oauthlib@3.1.0" />
+    <edge source="requests-oauthlib@1.3.0" target="requests@2.25.1" />
+    <edge source="social-auth-app-django@4.0.0" target="six@1.15.0" />
+    <edge source="social-auth-app-django@4.0.0" target="social-auth-core@4.1.0" />
+    <edge source="social-auth-core@4.1.0" target="cryptography@3.4.7" />
+    <edge source="social-auth-core@4.1.0" target="defusedxml@0.7.1" />
+    <edge source="social-auth-core@4.1.0" target="oauthlib@3.1.0" />
+    <edge source="social-auth-core@4.1.0" target="pyjwt@2.1.0" />
+    <edge source="social-auth-core@4.1.0" target="python3-openid@3.2.0" />
+    <edge source="social-auth-core@4.1.0" target="requests@2.25.1" />
+    <edge source="social-auth-core@4.1.0" target="requests-oauthlib@1.3.0" />
+    <data key="d0">iggy18__school-api</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

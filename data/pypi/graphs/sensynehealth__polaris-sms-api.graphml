@@ -1,0 +1,664 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="alembic@1.8.1">
+      <data key="d2">alembic</data>
+      <data key="d3">1.8.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="apispec@5.2.2">
+      <data key="d2">apispec</data>
+      <data key="d3">5.2.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="apispec-webframeworks@0.5.2">
+      <data key="d2">apispec-webframeworks</data>
+      <data key="d3">0.5.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="atomicwrites@1.4.1">
+      <data key="d2">atomicwrites</data>
+      <data key="d3">1.4.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="attrs@21.4.0">
+      <data key="d2">attrs</data>
+      <data key="d3">21.4.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="bandit@1.7.4">
+      <data key="d2">bandit</data>
+      <data key="d3">1.7.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="black@22.6.0">
+      <data key="d2">black</data>
+      <data key="d3">22.6.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-3936-cmfr-pm3m,GHSA-fj7x-q9j7-g6q6,PYSEC-2024-48</data>
+    </node>
+    <node id="certifi@2022.6.15">
+      <data key="d2">certifi</data>
+      <data key="d3">2022.6.15</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-43fp-rhv2-5gv8,GHSA-xqr8-7jwr-rhp7,PYSEC-2022-42986,PYSEC-2023-135,GHSA-248v-346w-9cwc,PYSEC-2024-230</data>
+    </node>
+    <node id="charset-normalizer@2.1.0">
+      <data key="d2">charset-normalizer</data>
+      <data key="d3">2.1.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="click@8.1.3">
+      <data key="d2">click</data>
+      <data key="d3">8.1.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="clickclick@20.10.2">
+      <data key="d2">clickclick</data>
+      <data key="d3">20.10.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="colorama@0.4.5">
+      <data key="d2">colorama</data>
+      <data key="d3">0.4.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="coloredlogs@15.0.1">
+      <data key="d2">coloredlogs</data>
+      <data key="d3">15.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="connexion@2.14.0">
+      <data key="d2">connexion</data>
+      <data key="d3">2.14.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="coverage@6.4.2">
+      <data key="d2">coverage</data>
+      <data key="d3">6.4.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="dhos-redis@1.0.0">
+      <data key="d2">dhos-redis</data>
+      <data key="d3">1.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="distlib@0.3.5">
+      <data key="d2">distlib</data>
+      <data key="d3">0.3.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="dparse@0.5.1">
+      <data key="d2">dparse</data>
+      <data key="d3">0.5.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-8fg9-p83m-x5pq,PYSEC-2022-301</data>
+    </node>
+    <node id="ecdsa@0.18.0">
+      <data key="d2">ecdsa</data>
+      <data key="d3">0.18.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-wj6h-64fc-37mp</data>
+    </node>
+    <node id="environs@9.5.0">
+      <data key="d2">environs</data>
+      <data key="d3">9.5.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="filelock@3.7.1">
+      <data key="d2">filelock</data>
+      <data key="d3">3.7.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-qmgc-5h2g-mvrw,GHSA-w853-jp5j-5j7f</data>
+    </node>
+    <node id="flask@2.1.3">
+      <data key="d2">flask</data>
+      <data key="d3">2.1.3</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-68rp-wp8r-4726,GHSA-m2qf-hxjv-5gpq,PYSEC-2023-62,GHSA-4grg-w6v8-c28g</data>
+    </node>
+    <node id="flask-batteries-included@3.1.1">
+      <data key="d2">flask-batteries-included</data>
+      <data key="d3">3.1.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="flask-log-request-id@0.10.1">
+      <data key="d2">flask-log-request-id</data>
+      <data key="d3">0.10.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="flask-migrate@3.1.0">
+      <data key="d2">flask-migrate</data>
+      <data key="d3">3.1.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="flask-sqlalchemy@2.5.1">
+      <data key="d2">flask-sqlalchemy</data>
+      <data key="d3">2.5.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="freezegun@1.2.1">
+      <data key="d2">freezegun</data>
+      <data key="d3">1.2.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="gitdb@4.0.9">
+      <data key="d2">gitdb</data>
+      <data key="d3">4.0.9</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="gitpython@3.1.27">
+      <data key="d2">gitpython</data>
+      <data key="d3">3.1.27</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-2mqj-m65w-jghx,GHSA-cwvm-v4w8-q58c,GHSA-hcpj-qp55-gfph,GHSA-pr76-5cm5-w9cj,GHSA-wfm5-v35h-vwf4,PYSEC-2022-42992,PYSEC-2023-137,PYSEC-2023-161,PYSEC-2023-165,PYSEC-2024-4</data>
+    </node>
+    <node id="greenlet@1.1.2">
+      <data key="d2">greenlet</data>
+      <data key="d3">1.1.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="healthcheck@1.3.3">
+      <data key="d2">healthcheck</data>
+      <data key="d3">1.3.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="humanfriendly@10.0">
+      <data key="d2">humanfriendly</data>
+      <data key="d3">10.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="idna@3.3">
+      <data key="d2">idna</data>
+      <data key="d3">3.3</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-jjg7-2v4v-x38h,PYSEC-2024-60</data>
+    </node>
+    <node id="importlib-metadata@4.12.0">
+      <data key="d2">importlib-metadata</data>
+      <data key="d3">4.12.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="inflection@0.5.1">
+      <data key="d2">inflection</data>
+      <data key="d3">0.5.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="iniconfig@1.1.1">
+      <data key="d2">iniconfig</data>
+      <data key="d3">1.1.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="isort@5.10.1">
+      <data key="d2">isort</data>
+      <data key="d3">5.10.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="itsdangerous@2.1.2">
+      <data key="d2">itsdangerous</data>
+      <data key="d3">2.1.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="jinja2@3.1.2">
+      <data key="d2">jinja2</data>
+      <data key="d3">3.1.2</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-cpwx-vrp4-4pq7,GHSA-g3rq-g295-4j3m,GHSA-h5c8-rqwp-cp95,GHSA-h75v-3vvj-5mfj,GHSA-q2x7-8rv6-6q7h,PYSEC-2021-66,GHSA-gmj6-6f8f-6699</data>
+    </node>
+    <node id="json-log-formatter@0.5.1">
+      <data key="d2">json-log-formatter</data>
+      <data key="d3">0.5.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="jsonschema@4.7.2">
+      <data key="d2">jsonschema</data>
+      <data key="d3">4.7.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="mako@1.2.1">
+      <data key="d2">mako</data>
+      <data key="d3">1.2.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-v973-fxgf-6xhp,PYSEC-2022-260</data>
+    </node>
+    <node id="markupsafe@2.1.1">
+      <data key="d2">markupsafe</data>
+      <data key="d3">2.1.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="marshmallow@3.17.0">
+      <data key="d2">marshmallow</data>
+      <data key="d3">3.17.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-428g-f7cq-pgp5</data>
+    </node>
+    <node id="mock@4.0.3">
+      <data key="d2">mock</data>
+      <data key="d3">4.0.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="mypy@0.961">
+      <data key="d2">mypy</data>
+      <data key="d3">0.961</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="mypy-extensions@0.4.3">
+      <data key="d2">mypy-extensions</data>
+      <data key="d3">0.4.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="packaging@21.3">
+      <data key="d2">packaging</data>
+      <data key="d3">21.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pathspec@0.9.0">
+      <data key="d2">pathspec</data>
+      <data key="d3">0.9.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pbr@5.9.0">
+      <data key="d2">pbr</data>
+      <data key="d3">5.9.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="phonenumbers@8.12.51">
+      <data key="d2">phonenumbers</data>
+      <data key="d3">8.12.51</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="platformdirs@2.5.2">
+      <data key="d2">platformdirs</data>
+      <data key="d3">2.5.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pluggy@1.0.0">
+      <data key="d2">pluggy</data>
+      <data key="d3">1.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="prometheus-client@0.14.1">
+      <data key="d2">prometheus-client</data>
+      <data key="d3">0.14.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="psycopg2-binary@2.9.3">
+      <data key="d2">psycopg2-binary</data>
+      <data key="d3">2.9.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="py@1.11.0">
+      <data key="d2">py</data>
+      <data key="d3">1.11.0</data>
+      <data key="d4">false</data>
+      <data key="d5">PYSEC-2022-42969,GHSA-hj5v-574p-mj7c,PYSEC-2020-92</data>
+    </node>
+    <node id="pyasn1@0.4.8">
+      <data key="d2">pyasn1</data>
+      <data key="d3">0.4.8</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-jr27-m4p2-rc6r,GHSA-63vm-454h-vhhq</data>
+    </node>
+    <node id="pyjwt@2.4.0">
+      <data key="d2">pyjwt</data>
+      <data key="d3">2.4.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-752w-5fwx-jx9f,GHSA-ffqj-6fqr-9h24,PYSEC-2022-202</data>
+    </node>
+    <node id="pyparsing@3.0.9">
+      <data key="d2">pyparsing</data>
+      <data key="d3">3.0.9</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyreadline3@3.4.1">
+      <data key="d2">pyreadline3</data>
+      <data key="d3">3.4.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyrsistent@0.18.1">
+      <data key="d2">pyrsistent</data>
+      <data key="d3">0.18.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pytest@7.1.2">
+      <data key="d2">pytest</data>
+      <data key="d3">7.1.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pytest-dhos@1.0.3">
+      <data key="d2">pytest-dhos</data>
+      <data key="d3">1.0.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pytest-flask@1.2.0">
+      <data key="d2">pytest-flask</data>
+      <data key="d3">1.2.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pytest-freezegun@0.4.2">
+      <data key="d2">pytest-freezegun</data>
+      <data key="d3">0.4.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pytest-mock@3.8.2">
+      <data key="d2">pytest-mock</data>
+      <data key="d3">3.8.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="python-dateutil@2.8.2">
+      <data key="d2">python-dateutil</data>
+      <data key="d3">2.8.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="python-dotenv@0.20.0">
+      <data key="d2">python-dotenv</data>
+      <data key="d3">0.20.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="python-jose@3.3.0">
+      <data key="d2">python-jose</data>
+      <data key="d3">3.3.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-6c5p-j8vq-pqhj,GHSA-cjwg-qfpm-7377,PYSEC-2024-232,PYSEC-2024-233</data>
+    </node>
+    <node id="pytz@2022.1">
+      <data key="d2">pytz</data>
+      <data key="d3">2022.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyyaml@5.4.1">
+      <data key="d2">pyyaml</data>
+      <data key="d3">5.4.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="redis@3.5.3">
+      <data key="d2">redis</data>
+      <data key="d3">3.5.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="requests@2.28.1">
+      <data key="d2">requests</data>
+      <data key="d3">2.28.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-9hjg-9r4m-mvj7,GHSA-9wx4-h78v-vm56,GHSA-gc5v-m9x4-r6x2,GHSA-j8r2-6x86-q33q,GHSA-x84v-xcm2-53pg,PYSEC-2018-28,PYSEC-2023-74</data>
+    </node>
+    <node id="requests-mock@1.9.3">
+      <data key="d2">requests-mock</data>
+      <data key="d3">1.9.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="rsa@4.8">
+      <data key="d2">rsa</data>
+      <data key="d3">4.8</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-xrx6-fmxq-rjj2,PYSEC-2020-100</data>
+    </node>
+    <node id="ruamel-yaml@0.17.21">
+      <data key="d2">ruamel-yaml</data>
+      <data key="d3">0.17.21</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="ruamel-yaml-clib@0.2.6">
+      <data key="d2">ruamel-yaml-clib</data>
+      <data key="d3">0.2.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="sadisplay@0.4.9">
+      <data key="d2">sadisplay</data>
+      <data key="d3">0.4.9</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="safety@2.1.1">
+      <data key="d2">safety</data>
+      <data key="d3">2.1.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="she-logging@1.4.0">
+      <data key="d2">she-logging</data>
+      <data key="d3">1.4.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="six@1.16.0">
+      <data key="d2">six</data>
+      <data key="d3">1.16.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="smmap@5.0.0">
+      <data key="d2">smmap</data>
+      <data key="d3">5.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="sqlalchemy@1.4.39">
+      <data key="d2">sqlalchemy</data>
+      <data key="d3">1.4.39</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="stevedore@4.0.0">
+      <data key="d2">stevedore</data>
+      <data key="d3">4.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="swagger-ui-bundle@0.0.9">
+      <data key="d2">swagger-ui-bundle</data>
+      <data key="d3">0.0.9</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="toml@0.10.2">
+      <data key="d2">toml</data>
+      <data key="d3">0.10.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="tomli@2.0.1">
+      <data key="d2">tomli</data>
+      <data key="d3">2.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="tox@3.25.1">
+      <data key="d2">tox</data>
+      <data key="d3">3.25.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="twilio@7.11.0">
+      <data key="d2">twilio</data>
+      <data key="d3">7.11.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="types-mock@4.0.15">
+      <data key="d2">types-mock</data>
+      <data key="d3">4.0.15</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="types-pyyaml@6.0.10">
+      <data key="d2">types-pyyaml</data>
+      <data key="d3">6.0.10</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="types-requests@2.28.2">
+      <data key="d2">types-requests</data>
+      <data key="d3">2.28.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="types-urllib3@1.26.16">
+      <data key="d2">types-urllib3</data>
+      <data key="d3">1.26.16</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="typing-extensions@4.3.0">
+      <data key="d2">typing-extensions</data>
+      <data key="d3">4.3.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="urllib3@1.26.10">
+      <data key="d2">urllib3</data>
+      <data key="d3">1.26.10</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-2xpw-w6gg-jr37,GHSA-34jh-p97f-mpxf,GHSA-38jv-5279-wg99,GHSA-g4mx-q9vg-27p4,GHSA-gwvm-45gx-3cf8,GHSA-mh33-7rrq-662w,GHSA-pq67-6m6q-mj2v,GHSA-r64q-w8jr-g9qp,GHSA-v845-jxx5-vc9f,GHSA-wqvq-5m8c-6g24,GHSA-www2-v7xj-xrc6,PYSEC-2018-32,PYSEC-2019-132,PYSEC-2019-133,PYSEC-2020-148,PYSEC-2021-108,PYSEC-2023-192,PYSEC-2023-207,PYSEC-2023-212,GHSA-gm62-xv2j-4w53,GHSA-q2q7-5pp4-w6pg,GHSA-48p4-8xcf-vxj5</data>
+    </node>
+    <node id="virtualenv@20.15.1">
+      <data key="d2">virtualenv</data>
+      <data key="d3">20.15.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-597g-3phw-6986,GHSA-rqc4-2hc7-8c8v,PYSEC-2024-187</data>
+    </node>
+    <node id="waitress@2.1.2">
+      <data key="d2">waitress</data>
+      <data key="d3">2.1.2</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-3f84-rpwh-47g6,GHSA-9298-4cf8-g4wj,PYSEC-2024-210,PYSEC-2024-211</data>
+    </node>
+    <node id="werkzeug@2.1.2">
+      <data key="d2">werkzeug</data>
+      <data key="d3">2.1.2</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-29vq-49wr-vm6x,GHSA-2g68-c3qc-8985,GHSA-87hc-h4r5-73f7,GHSA-f9vj-2wh5-fj8j,GHSA-hgf8-39gv-g3f2,GHSA-hrfv-mqp8-q5rw,GHSA-px8h-6qxv-m22q,GHSA-q34m-jh98-gwm2,GHSA-xg9f-g7g7-2323,PYSEC-2022-203,PYSEC-2023-221,PYSEC-2023-57,PYSEC-2023-58</data>
+    </node>
+    <node id="zipp@3.8.1">
+      <data key="d2">zipp</data>
+      <data key="d3">3.8.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-jfmj-5v4g-7637</data>
+    </node>
+    <edge source="alembic@1.8.1" target="mako@1.2.1" />
+    <edge source="alembic@1.8.1" target="sqlalchemy@1.4.39" />
+    <edge source="apispec@5.2.2" target="pyyaml@5.4.1" />
+    <edge source="apispec-webframeworks@0.5.2" target="apispec@5.2.2" />
+    <edge source="bandit@1.7.4" target="colorama@0.4.5" />
+    <edge source="bandit@1.7.4" target="gitpython@3.1.27" />
+    <edge source="bandit@1.7.4" target="pyyaml@5.4.1" />
+    <edge source="bandit@1.7.4" target="stevedore@4.0.0" />
+    <edge source="black@22.6.0" target="click@8.1.3" />
+    <edge source="black@22.6.0" target="mypy-extensions@0.4.3" />
+    <edge source="black@22.6.0" target="pathspec@0.9.0" />
+    <edge source="black@22.6.0" target="platformdirs@2.5.2" />
+    <edge source="black@22.6.0" target="tomli@2.0.1" />
+    <edge source="black@22.6.0" target="typing-extensions@4.3.0" />
+    <edge source="click@8.1.3" target="colorama@0.4.5" />
+    <edge source="clickclick@20.10.2" target="click@8.1.3" />
+    <edge source="clickclick@20.10.2" target="pyyaml@5.4.1" />
+    <edge source="coloredlogs@15.0.1" target="humanfriendly@10.0" />
+    <edge source="connexion@2.14.0" target="clickclick@20.10.2" />
+    <edge source="connexion@2.14.0" target="flask@2.1.3" />
+    <edge source="connexion@2.14.0" target="inflection@0.5.1" />
+    <edge source="connexion@2.14.0" target="itsdangerous@2.1.2" />
+    <edge source="connexion@2.14.0" target="jsonschema@4.7.2" />
+    <edge source="connexion@2.14.0" target="packaging@21.3" />
+    <edge source="connexion@2.14.0" target="pyyaml@5.4.1" />
+    <edge source="connexion@2.14.0" target="requests@2.28.1" />
+    <edge source="connexion@2.14.0" target="swagger-ui-bundle@0.0.9" />
+    <edge source="connexion@2.14.0" target="werkzeug@2.1.2" />
+    <edge source="dhos-redis@1.0.0" target="environs@9.5.0" />
+    <edge source="dhos-redis@1.0.0" target="redis@3.5.3" />
+    <edge source="dhos-redis@1.0.0" target="she-logging@1.4.0" />
+    <edge source="dparse@0.5.1" target="packaging@21.3" />
+    <edge source="dparse@0.5.1" target="pyyaml@5.4.1" />
+    <edge source="dparse@0.5.1" target="toml@0.10.2" />
+    <edge source="ecdsa@0.18.0" target="six@1.16.0" />
+    <edge source="environs@9.5.0" target="marshmallow@3.17.0" />
+    <edge source="environs@9.5.0" target="python-dotenv@0.20.0" />
+    <edge source="flask@2.1.3" target="click@8.1.3" />
+    <edge source="flask@2.1.3" target="importlib-metadata@4.12.0" />
+    <edge source="flask@2.1.3" target="itsdangerous@2.1.2" />
+    <edge source="flask@2.1.3" target="jinja2@3.1.2" />
+    <edge source="flask@2.1.3" target="werkzeug@2.1.2" />
+    <edge source="flask-batteries-included@3.1.1" target="apispec@5.2.2" />
+    <edge source="flask-batteries-included@3.1.1" target="apispec-webframeworks@0.5.2" />
+    <edge source="flask-batteries-included@3.1.1" target="connexion@2.14.0" />
+    <edge source="flask-batteries-included@3.1.1" target="dhos-redis@1.0.0" />
+    <edge source="flask-batteries-included@3.1.1" target="environs@9.5.0" />
+    <edge source="flask-batteries-included@3.1.1" target="flask@2.1.3" />
+    <edge source="flask-batteries-included@3.1.1" target="flask-log-request-id@0.10.1" />
+    <edge source="flask-batteries-included@3.1.1" target="flask-migrate@3.1.0" />
+    <edge source="flask-batteries-included@3.1.1" target="flask-sqlalchemy@2.5.1" />
+    <edge source="flask-batteries-included@3.1.1" target="healthcheck@1.3.3" />
+    <edge source="flask-batteries-included@3.1.1" target="marshmallow@3.17.0" />
+    <edge source="flask-batteries-included@3.1.1" target="prometheus-client@0.14.1" />
+    <edge source="flask-batteries-included@3.1.1" target="psycopg2-binary@2.9.3" />
+    <edge source="flask-batteries-included@3.1.1" target="python-jose@3.3.0" />
+    <edge source="flask-batteries-included@3.1.1" target="requests@2.28.1" />
+    <edge source="flask-batteries-included@3.1.1" target="she-logging@1.4.0" />
+    <edge source="flask-batteries-included@3.1.1" target="waitress@2.1.2" />
+    <edge source="flask-log-request-id@0.10.1" target="flask@2.1.3" />
+    <edge source="flask-migrate@3.1.0" target="alembic@1.8.1" />
+    <edge source="flask-migrate@3.1.0" target="flask@2.1.3" />
+    <edge source="flask-migrate@3.1.0" target="flask-sqlalchemy@2.5.1" />
+    <edge source="flask-sqlalchemy@2.5.1" target="flask@2.1.3" />
+    <edge source="flask-sqlalchemy@2.5.1" target="sqlalchemy@1.4.39" />
+    <edge source="freezegun@1.2.1" target="python-dateutil@2.8.2" />
+    <edge source="gitdb@4.0.9" target="smmap@5.0.0" />
+    <edge source="gitpython@3.1.27" target="gitdb@4.0.9" />
+    <edge source="humanfriendly@10.0" target="pyreadline3@3.4.1" />
+    <edge source="importlib-metadata@4.12.0" target="zipp@3.8.1" />
+    <edge source="jinja2@3.1.2" target="markupsafe@2.1.1" />
+    <edge source="jsonschema@4.7.2" target="attrs@21.4.0" />
+    <edge source="jsonschema@4.7.2" target="pyrsistent@0.18.1" />
+    <edge source="mako@1.2.1" target="markupsafe@2.1.1" />
+    <edge source="marshmallow@3.17.0" target="packaging@21.3" />
+    <edge source="mypy@0.961" target="mypy-extensions@0.4.3" />
+    <edge source="mypy@0.961" target="tomli@2.0.1" />
+    <edge source="mypy@0.961" target="typing-extensions@4.3.0" />
+    <edge source="packaging@21.3" target="pyparsing@3.0.9" />
+    <edge source="pytest@7.1.2" target="atomicwrites@1.4.1" />
+    <edge source="pytest@7.1.2" target="attrs@21.4.0" />
+    <edge source="pytest@7.1.2" target="colorama@0.4.5" />
+    <edge source="pytest@7.1.2" target="iniconfig@1.1.1" />
+    <edge source="pytest@7.1.2" target="packaging@21.3" />
+    <edge source="pytest@7.1.2" target="pluggy@1.0.0" />
+    <edge source="pytest@7.1.2" target="py@1.11.0" />
+    <edge source="pytest@7.1.2" target="tomli@2.0.1" />
+    <edge source="pytest-dhos@1.0.3" target="flask-batteries-included@3.1.1" />
+    <edge source="pytest-flask@1.2.0" target="flask@2.1.3" />
+    <edge source="pytest-flask@1.2.0" target="pytest@7.1.2" />
+    <edge source="pytest-flask@1.2.0" target="werkzeug@2.1.2" />
+    <edge source="pytest-freezegun@0.4.2" target="freezegun@1.2.1" />
+    <edge source="pytest-freezegun@0.4.2" target="pytest@7.1.2" />
+    <edge source="pytest-mock@3.8.2" target="pytest@7.1.2" />
+    <edge source="python-dateutil@2.8.2" target="six@1.16.0" />
+    <edge source="python-jose@3.3.0" target="ecdsa@0.18.0" />
+    <edge source="python-jose@3.3.0" target="pyasn1@0.4.8" />
+    <edge source="python-jose@3.3.0" target="rsa@4.8" />
+    <edge source="requests@2.28.1" target="certifi@2022.6.15" />
+    <edge source="requests@2.28.1" target="charset-normalizer@2.1.0" />
+    <edge source="requests@2.28.1" target="idna@3.3" />
+    <edge source="requests@2.28.1" target="urllib3@1.26.10" />
+    <edge source="requests-mock@1.9.3" target="requests@2.28.1" />
+    <edge source="requests-mock@1.9.3" target="six@1.16.0" />
+    <edge source="rsa@4.8" target="pyasn1@0.4.8" />
+    <edge source="ruamel-yaml@0.17.21" target="ruamel-yaml-clib@0.2.6" />
+    <edge source="sadisplay@0.4.9" target="sqlalchemy@1.4.39" />
+    <edge source="safety@2.1.1" target="click@8.1.3" />
+    <edge source="safety@2.1.1" target="dparse@0.5.1" />
+    <edge source="safety@2.1.1" target="packaging@21.3" />
+    <edge source="safety@2.1.1" target="requests@2.28.1" />
+    <edge source="safety@2.1.1" target="ruamel-yaml@0.17.21" />
+    <edge source="she-logging@1.4.0" target="environs@9.5.0" />
+    <edge source="she-logging@1.4.0" target="json-log-formatter@0.5.1" />
+    <edge source="she-logging@1.4.0" target="pyyaml@5.4.1" />
+    <edge source="sqlalchemy@1.4.39" target="greenlet@1.1.2" />
+    <edge source="stevedore@4.0.0" target="pbr@5.9.0" />
+    <edge source="swagger-ui-bundle@0.0.9" target="jinja2@3.1.2" />
+    <edge source="tox@3.25.1" target="colorama@0.4.5" />
+    <edge source="tox@3.25.1" target="filelock@3.7.1" />
+    <edge source="tox@3.25.1" target="packaging@21.3" />
+    <edge source="tox@3.25.1" target="pluggy@1.0.0" />
+    <edge source="tox@3.25.1" target="py@1.11.0" />
+    <edge source="tox@3.25.1" target="six@1.16.0" />
+    <edge source="tox@3.25.1" target="toml@0.10.2" />
+    <edge source="tox@3.25.1" target="virtualenv@20.15.1" />
+    <edge source="twilio@7.11.0" target="pyjwt@2.4.0" />
+    <edge source="twilio@7.11.0" target="pytz@2022.1" />
+    <edge source="twilio@7.11.0" target="requests@2.28.1" />
+    <edge source="types-requests@2.28.2" target="types-urllib3@1.26.16" />
+    <edge source="virtualenv@20.15.1" target="distlib@0.3.5" />
+    <edge source="virtualenv@20.15.1" target="filelock@3.7.1" />
+    <edge source="virtualenv@20.15.1" target="platformdirs@2.5.2" />
+    <edge source="virtualenv@20.15.1" target="six@1.16.0" />
+    <data key="d0">sensynehealth__polaris-sms-api</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

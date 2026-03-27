@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="alabaster@1.0.0">
+      <data key="d2">alabaster</data>
+      <data key="d3">1.0.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="babel@2.17.0">
+      <data key="d2">babel</data>
+      <data key="d3">2.17.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="beautifulsoup4@4.14.2">
+      <data key="d2">beautifulsoup4</data>
+      <data key="d3">4.14.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="certifi@2025.8.3">
+      <data key="d2">certifi</data>
+      <data key="d3">2025.8.3</data>
+      <data key="d4">true</data>
+      <data key="d5">GHSA-43fp-rhv2-5gv8,GHSA-xqr8-7jwr-rhp7,PYSEC-2022-42986,PYSEC-2023-135,GHSA-248v-346w-9cwc,PYSEC-2024-230</data>
+    </node>
+    <node id="charset-normalizer@3.4.3">
+      <data key="d2">charset-normalizer</data>
+      <data key="d3">3.4.3</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="colorama@0.4.6">
+      <data key="d2">colorama</data>
+      <data key="d3">0.4.6</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="coverage@7.10.7">
+      <data key="d2">coverage</data>
+      <data key="d3">7.10.7</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="docutils@0.21.2">
+      <data key="d2">docutils</data>
+      <data key="d3">0.21.2</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="idna@3.10">
+      <data key="d2">idna</data>
+      <data key="d3">3.10</data>
+      <data key="d4">true</data>
+      <data key="d5">GHSA-jjg7-2v4v-x38h,PYSEC-2024-60</data>
+    </node>
+    <node id="imagesize@1.4.1">
+      <data key="d2">imagesize</data>
+      <data key="d3">1.4.1</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="iniconfig@2.1.0">
+      <data key="d2">iniconfig</data>
+      <data key="d3">2.1.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="jinja2@3.1.6">
+      <data key="d2">jinja2</data>
+      <data key="d3">3.1.6</data>
+      <data key="d4">true</data>
+      <data key="d5">GHSA-cpwx-vrp4-4pq7,GHSA-g3rq-g295-4j3m,GHSA-h5c8-rqwp-cp95,GHSA-h75v-3vvj-5mfj,GHSA-q2x7-8rv6-6q7h,PYSEC-2021-66,GHSA-gmj6-6f8f-6699</data>
+    </node>
+    <node id="markupsafe@3.0.3">
+      <data key="d2">markupsafe</data>
+      <data key="d3">3.0.3</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="packaging@25.0">
+      <data key="d2">packaging</data>
+      <data key="d3">25.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="pluggy@1.6.0">
+      <data key="d2">pluggy</data>
+      <data key="d3">1.6.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="pygments@2.19.2">
+      <data key="d2">pygments</data>
+      <data key="d3">2.19.2</data>
+      <data key="d4">true</data>
+      <data key="d5">GHSA-5239-wwwm-4pmq,GHSA-mrwq-x4v8-fh7p,PYSEC-2023-117,GHSA-9w8r-397f-prfh,GHSA-pq64-v7f5-gqh8,PYSEC-2021-140,PYSEC-2021-141</data>
+    </node>
+    <node id="pytest@8.4.2">
+      <data key="d2">pytest</data>
+      <data key="d3">8.4.2</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="pytest-cov@7.0.0">
+      <data key="d2">pytest-cov</data>
+      <data key="d3">7.0.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="requests@2.32.5">
+      <data key="d2">requests</data>
+      <data key="d3">2.32.5</data>
+      <data key="d4">true</data>
+      <data key="d5">GHSA-9hjg-9r4m-mvj7,GHSA-9wx4-h78v-vm56,GHSA-gc5v-m9x4-r6x2,GHSA-j8r2-6x86-q33q,GHSA-x84v-xcm2-53pg,PYSEC-2018-28,PYSEC-2023-74</data>
+    </node>
+    <node id="roman-numerals-py@3.1.0">
+      <data key="d2">roman-numerals-py</data>
+      <data key="d3">3.1.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="snowballstemmer@3.0.1">
+      <data key="d2">snowballstemmer</data>
+      <data key="d3">3.0.1</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="soupsieve@2.8">
+      <data key="d2">soupsieve</data>
+      <data key="d3">2.8</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="sphinx@8.2.3">
+      <data key="d2">sphinx</data>
+      <data key="d3">8.2.3</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="sphinx-rtd-theme@3.0.2">
+      <data key="d2">sphinx-rtd-theme</data>
+      <data key="d3">3.0.2</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="sphinxcontrib-applehelp@2.0.0">
+      <data key="d2">sphinxcontrib-applehelp</data>
+      <data key="d3">2.0.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="sphinxcontrib-devhelp@2.0.0">
+      <data key="d2">sphinxcontrib-devhelp</data>
+      <data key="d3">2.0.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="sphinxcontrib-htmlhelp@2.1.0">
+      <data key="d2">sphinxcontrib-htmlhelp</data>
+      <data key="d3">2.1.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="sphinxcontrib-jquery@4.1">
+      <data key="d2">sphinxcontrib-jquery</data>
+      <data key="d3">4.1</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="sphinxcontrib-jsmath@1.0.1">
+      <data key="d2">sphinxcontrib-jsmath</data>
+      <data key="d3">1.0.1</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="sphinxcontrib-qthelp@2.0.0">
+      <data key="d2">sphinxcontrib-qthelp</data>
+      <data key="d3">2.0.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="sphinxcontrib-serializinghtml@2.0.0">
+      <data key="d2">sphinxcontrib-serializinghtml</data>
+      <data key="d3">2.0.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="typing-extensions@4.15.0">
+      <data key="d2">typing-extensions</data>
+      <data key="d3">4.15.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="urllib3@2.5.0">
+      <data key="d2">urllib3</data>
+      <data key="d3">2.5.0</data>
+      <data key="d4">true</data>
+      <data key="d5">GHSA-2xpw-w6gg-jr37,GHSA-34jh-p97f-mpxf,GHSA-38jv-5279-wg99,GHSA-g4mx-q9vg-27p4,GHSA-gwvm-45gx-3cf8,GHSA-mh33-7rrq-662w,GHSA-pq67-6m6q-mj2v,GHSA-r64q-w8jr-g9qp,GHSA-v845-jxx5-vc9f,GHSA-wqvq-5m8c-6g24,GHSA-www2-v7xj-xrc6,PYSEC-2018-32,PYSEC-2019-132,PYSEC-2019-133,PYSEC-2020-148,PYSEC-2021-108,PYSEC-2023-192,PYSEC-2023-207,PYSEC-2023-212,GHSA-gm62-xv2j-4w53,GHSA-q2q7-5pp4-w6pg,GHSA-48p4-8xcf-vxj5</data>
+    </node>
+    <edge source="beautifulsoup4@4.14.2" target="soupsieve@2.8" />
+    <edge source="beautifulsoup4@4.14.2" target="typing-extensions@4.15.0" />
+    <edge source="jinja2@3.1.6" target="markupsafe@3.0.3" />
+    <edge source="pytest@8.4.2" target="colorama@0.4.6" />
+    <edge source="pytest@8.4.2" target="iniconfig@2.1.0" />
+    <edge source="pytest@8.4.2" target="packaging@25.0" />
+    <edge source="pytest@8.4.2" target="pluggy@1.6.0" />
+    <edge source="pytest@8.4.2" target="pygments@2.19.2" />
+    <edge source="pytest-cov@7.0.0" target="coverage@7.10.7" />
+    <edge source="pytest-cov@7.0.0" target="pluggy@1.6.0" />
+    <edge source="pytest-cov@7.0.0" target="pytest@8.4.2" />
+    <edge source="requests@2.32.5" target="certifi@2025.8.3" />
+    <edge source="requests@2.32.5" target="charset-normalizer@3.4.3" />
+    <edge source="requests@2.32.5" target="idna@3.10" />
+    <edge source="requests@2.32.5" target="urllib3@2.5.0" />
+    <edge source="sphinx@8.2.3" target="alabaster@1.0.0" />
+    <edge source="sphinx@8.2.3" target="babel@2.17.0" />
+    <edge source="sphinx@8.2.3" target="colorama@0.4.6" />
+    <edge source="sphinx@8.2.3" target="docutils@0.21.2" />
+    <edge source="sphinx@8.2.3" target="imagesize@1.4.1" />
+    <edge source="sphinx@8.2.3" target="jinja2@3.1.6" />
+    <edge source="sphinx@8.2.3" target="packaging@25.0" />
+    <edge source="sphinx@8.2.3" target="pygments@2.19.2" />
+    <edge source="sphinx@8.2.3" target="requests@2.32.5" />
+    <edge source="sphinx@8.2.3" target="roman-numerals-py@3.1.0" />
+    <edge source="sphinx@8.2.3" target="snowballstemmer@3.0.1" />
+    <edge source="sphinx@8.2.3" target="sphinxcontrib-applehelp@2.0.0" />
+    <edge source="sphinx@8.2.3" target="sphinxcontrib-devhelp@2.0.0" />
+    <edge source="sphinx@8.2.3" target="sphinxcontrib-htmlhelp@2.1.0" />
+    <edge source="sphinx@8.2.3" target="sphinxcontrib-jsmath@1.0.1" />
+    <edge source="sphinx@8.2.3" target="sphinxcontrib-qthelp@2.0.0" />
+    <edge source="sphinx@8.2.3" target="sphinxcontrib-serializinghtml@2.0.0" />
+    <edge source="sphinx-rtd-theme@3.0.2" target="docutils@0.21.2" />
+    <edge source="sphinx-rtd-theme@3.0.2" target="sphinx@8.2.3" />
+    <edge source="sphinx-rtd-theme@3.0.2" target="sphinxcontrib-jquery@4.1" />
+    <edge source="sphinxcontrib-jquery@4.1" target="sphinx@8.2.3" />
+    <data key="d0">Hadi-Mohseni__playstation-store-scraper</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

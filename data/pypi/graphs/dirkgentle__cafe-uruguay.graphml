@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="asttokens@2.4.1">
+      <data key="d2">asttokens</data>
+      <data key="d3">2.4.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="black@24.1.1">
+      <data key="d2">black</data>
+      <data key="d3">24.1.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-3936-cmfr-pm3m,GHSA-fj7x-q9j7-g6q6,PYSEC-2024-48</data>
+    </node>
+    <node id="certifi@2024.7.4">
+      <data key="d2">certifi</data>
+      <data key="d3">2024.7.4</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-43fp-rhv2-5gv8,GHSA-xqr8-7jwr-rhp7,PYSEC-2022-42986,PYSEC-2023-135,GHSA-248v-346w-9cwc,PYSEC-2024-230</data>
+    </node>
+    <node id="charset-normalizer@3.3.2">
+      <data key="d2">charset-normalizer</data>
+      <data key="d3">3.3.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="click@8.1.7">
+      <data key="d2">click</data>
+      <data key="d3">8.1.7</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="colorama@0.4.6">
+      <data key="d2">colorama</data>
+      <data key="d3">0.4.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="decorator@5.1.1">
+      <data key="d2">decorator</data>
+      <data key="d3">5.1.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="executing@2.0.1">
+      <data key="d2">executing</data>
+      <data key="d3">2.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="flake8@7.0.0">
+      <data key="d2">flake8</data>
+      <data key="d3">7.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="idna@3.6">
+      <data key="d2">idna</data>
+      <data key="d3">3.6</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-jjg7-2v4v-x38h,PYSEC-2024-60</data>
+    </node>
+    <node id="ipdb@0.13.13">
+      <data key="d2">ipdb</data>
+      <data key="d3">0.13.13</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="ipython@8.21.0">
+      <data key="d2">ipython</data>
+      <data key="d3">8.21.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-29gw-9793-fvw7,GHSA-pq7m-3gw7-gq5x,PYSEC-2022-12,PYSEC-2023-17</data>
+    </node>
+    <node id="isort@5.13.2">
+      <data key="d2">isort</data>
+      <data key="d3">5.13.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="jedi@0.19.1">
+      <data key="d2">jedi</data>
+      <data key="d3">0.19.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="matplotlib-inline@0.1.6">
+      <data key="d2">matplotlib-inline</data>
+      <data key="d3">0.1.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="mccabe@0.7.0">
+      <data key="d2">mccabe</data>
+      <data key="d3">0.7.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="mypy-extensions@1.0.0">
+      <data key="d2">mypy-extensions</data>
+      <data key="d3">1.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="packaging@23.2">
+      <data key="d2">packaging</data>
+      <data key="d3">23.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="parso@0.8.3">
+      <data key="d2">parso</data>
+      <data key="d3">0.8.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pathspec@0.12.1">
+      <data key="d2">pathspec</data>
+      <data key="d3">0.12.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pexpect@4.9.0">
+      <data key="d2">pexpect</data>
+      <data key="d3">4.9.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="platformdirs@4.2.0">
+      <data key="d2">platformdirs</data>
+      <data key="d3">4.2.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="praw@7.7.1">
+      <data key="d2">praw</data>
+      <data key="d3">7.7.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="prawcore@2.4.0">
+      <data key="d2">prawcore</data>
+      <data key="d3">2.4.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="prompt-toolkit@3.0.43">
+      <data key="d2">prompt-toolkit</data>
+      <data key="d3">3.0.43</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="ptyprocess@0.7.0">
+      <data key="d2">ptyprocess</data>
+      <data key="d3">0.7.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pure-eval@0.2.2">
+      <data key="d2">pure-eval</data>
+      <data key="d3">0.2.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pycodestyle@2.11.1">
+      <data key="d2">pycodestyle</data>
+      <data key="d3">2.11.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyflakes@3.2.0">
+      <data key="d2">pyflakes</data>
+      <data key="d3">3.2.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pygments@2.17.2">
+      <data key="d2">pygments</data>
+      <data key="d3">2.17.2</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-5239-wwwm-4pmq,GHSA-mrwq-x4v8-fh7p,PYSEC-2023-117,GHSA-9w8r-397f-prfh,GHSA-pq64-v7f5-gqh8,PYSEC-2021-140,PYSEC-2021-141</data>
+    </node>
+    <node id="python-dotenv@1.0.1">
+      <data key="d2">python-dotenv</data>
+      <data key="d3">1.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="requests@2.31.0">
+      <data key="d2">requests</data>
+      <data key="d3">2.31.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-9hjg-9r4m-mvj7,GHSA-9wx4-h78v-vm56,GHSA-gc5v-m9x4-r6x2,GHSA-j8r2-6x86-q33q,GHSA-x84v-xcm2-53pg,PYSEC-2018-28,PYSEC-2023-74</data>
+    </node>
+    <node id="six@1.16.0">
+      <data key="d2">six</data>
+      <data key="d3">1.16.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="stack-data@0.6.3">
+      <data key="d2">stack-data</data>
+      <data key="d3">0.6.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="traitlets@5.14.1">
+      <data key="d2">traitlets</data>
+      <data key="d3">5.14.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="update-checker@0.18.0">
+      <data key="d2">update-checker</data>
+      <data key="d3">0.18.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="urllib3@2.2.0">
+      <data key="d2">urllib3</data>
+      <data key="d3">2.2.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-2xpw-w6gg-jr37,GHSA-34jh-p97f-mpxf,GHSA-38jv-5279-wg99,GHSA-g4mx-q9vg-27p4,GHSA-gwvm-45gx-3cf8,GHSA-mh33-7rrq-662w,GHSA-pq67-6m6q-mj2v,GHSA-r64q-w8jr-g9qp,GHSA-v845-jxx5-vc9f,GHSA-wqvq-5m8c-6g24,GHSA-www2-v7xj-xrc6,PYSEC-2018-32,PYSEC-2019-132,PYSEC-2019-133,PYSEC-2020-148,PYSEC-2021-108,PYSEC-2023-192,PYSEC-2023-207,PYSEC-2023-212,GHSA-gm62-xv2j-4w53,GHSA-q2q7-5pp4-w6pg,GHSA-48p4-8xcf-vxj5</data>
+    </node>
+    <node id="wcwidth@0.2.13">
+      <data key="d2">wcwidth</data>
+      <data key="d3">0.2.13</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="websocket-client@1.7.0">
+      <data key="d2">websocket-client</data>
+      <data key="d3">1.7.0</data>
+      <data key="d4">false</data>
+    </node>
+    <edge source="asttokens@2.4.1" target="six@1.16.0" />
+    <edge source="black@24.1.1" target="click@8.1.7" />
+    <edge source="black@24.1.1" target="mypy-extensions@1.0.0" />
+    <edge source="black@24.1.1" target="packaging@23.2" />
+    <edge source="black@24.1.1" target="pathspec@0.12.1" />
+    <edge source="black@24.1.1" target="platformdirs@4.2.0" />
+    <edge source="click@8.1.7" target="colorama@0.4.6" />
+    <edge source="flake8@7.0.0" target="mccabe@0.7.0" />
+    <edge source="flake8@7.0.0" target="pycodestyle@2.11.1" />
+    <edge source="flake8@7.0.0" target="pyflakes@3.2.0" />
+    <edge source="ipdb@0.13.13" target="decorator@5.1.1" />
+    <edge source="ipdb@0.13.13" target="ipython@8.21.0" />
+    <edge source="ipython@8.21.0" target="colorama@0.4.6" />
+    <edge source="ipython@8.21.0" target="decorator@5.1.1" />
+    <edge source="ipython@8.21.0" target="jedi@0.19.1" />
+    <edge source="ipython@8.21.0" target="matplotlib-inline@0.1.6" />
+    <edge source="ipython@8.21.0" target="pexpect@4.9.0" />
+    <edge source="ipython@8.21.0" target="prompt-toolkit@3.0.43" />
+    <edge source="ipython@8.21.0" target="pygments@2.17.2" />
+    <edge source="ipython@8.21.0" target="stack-data@0.6.3" />
+    <edge source="ipython@8.21.0" target="traitlets@5.14.1" />
+    <edge source="jedi@0.19.1" target="parso@0.8.3" />
+    <edge source="matplotlib-inline@0.1.6" target="traitlets@5.14.1" />
+    <edge source="pexpect@4.9.0" target="ptyprocess@0.7.0" />
+    <edge source="praw@7.7.1" target="prawcore@2.4.0" />
+    <edge source="praw@7.7.1" target="update-checker@0.18.0" />
+    <edge source="praw@7.7.1" target="websocket-client@1.7.0" />
+    <edge source="prawcore@2.4.0" target="requests@2.31.0" />
+    <edge source="prompt-toolkit@3.0.43" target="wcwidth@0.2.13" />
+    <edge source="requests@2.31.0" target="certifi@2024.7.4" />
+    <edge source="requests@2.31.0" target="charset-normalizer@3.3.2" />
+    <edge source="requests@2.31.0" target="idna@3.6" />
+    <edge source="requests@2.31.0" target="urllib3@2.2.0" />
+    <edge source="stack-data@0.6.3" target="asttokens@2.4.1" />
+    <edge source="stack-data@0.6.3" target="executing@2.0.1" />
+    <edge source="stack-data@0.6.3" target="pure-eval@0.2.2" />
+    <edge source="update-checker@0.18.0" target="requests@2.31.0" />
+    <data key="d0">dirkgentle__cafe-uruguay</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

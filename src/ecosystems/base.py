@@ -18,6 +18,30 @@ class EcosystemAdapter(ABC):
 
     @property
     @abstractmethod
+    def lockfile_filename(self) -> str:
+        """The canonical lockfile filename searched inside repositories.
+
+        Examples:
+            npm: "package-lock.json"
+            PyPI: "poetry.lock"
+        """
+        ...
+
+    @property
+    @abstractmethod
+    def lockfile_ext(self) -> str:
+        """File extension used when storing lockfiles on disk.
+
+        The stored filename is  ``{owner}__{repo}{lockfile_ext}``.
+
+        Examples:
+            npm: ".json"
+            PyPI: ".toml"
+        """
+        ...
+
+    @property
+    @abstractmethod
     def osv_ecosystem(self) -> str:
         """OSV ecosystem identifier (e.g., 'npm', 'PyPI').
 

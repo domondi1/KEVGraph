@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="atomicwrites@1.4.1">
+      <data key="d2">atomicwrites</data>
+      <data key="d3">1.4.1</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="attrs@24.2.0">
+      <data key="d2">attrs</data>
+      <data key="d3">24.2.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="black@21.12b0">
+      <data key="d2">black</data>
+      <data key="d3">21.12b0</data>
+      <data key="d4">true</data>
+      <data key="d5">GHSA-3936-cmfr-pm3m,GHSA-fj7x-q9j7-g6q6,PYSEC-2024-48</data>
+    </node>
+    <node id="cffi@1.15.1">
+      <data key="d2">cffi</data>
+      <data key="d3">1.15.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="click@8.1.7">
+      <data key="d2">click</data>
+      <data key="d3">8.1.7</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="colorama@0.4.6">
+      <data key="d2">colorama</data>
+      <data key="d3">0.4.6</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="importlib-metadata@6.7.0">
+      <data key="d2">importlib-metadata</data>
+      <data key="d3">6.7.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="iniconfig@2.0.0">
+      <data key="d2">iniconfig</data>
+      <data key="d3">2.0.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="mypy-extensions@1.0.0">
+      <data key="d2">mypy-extensions</data>
+      <data key="d3">1.0.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="nkeys@0.2.1">
+      <data key="d2">nkeys</data>
+      <data key="d3">0.2.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="packaging@24.0">
+      <data key="d2">packaging</data>
+      <data key="d3">24.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="pathspec@0.11.2">
+      <data key="d2">pathspec</data>
+      <data key="d3">0.11.2</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="platformdirs@4.0.0">
+      <data key="d2">platformdirs</data>
+      <data key="d3">4.0.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="pluggy@1.2.0">
+      <data key="d2">pluggy</data>
+      <data key="d3">1.2.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="py@1.11.0">
+      <data key="d2">py</data>
+      <data key="d3">1.11.0</data>
+      <data key="d4">true</data>
+      <data key="d5">PYSEC-2022-42969,GHSA-hj5v-574p-mj7c,PYSEC-2020-92</data>
+    </node>
+    <node id="pycparser@2.21">
+      <data key="d2">pycparser</data>
+      <data key="d3">2.21</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pynacl@1.5.0">
+      <data key="d2">pynacl</data>
+      <data key="d3">1.5.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-mrfv-m5wm-5w6w</data>
+    </node>
+    <node id="pytest@6.2.5">
+      <data key="d2">pytest</data>
+      <data key="d3">6.2.5</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="pytest-mock@3.11.1">
+      <data key="d2">pytest-mock</data>
+      <data key="d3">3.11.1</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="toml@0.10.2">
+      <data key="d2">toml</data>
+      <data key="d3">0.10.2</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="tomli@1.2.3">
+      <data key="d2">tomli</data>
+      <data key="d3">1.2.3</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="typed-ast@1.5.5">
+      <data key="d2">typed-ast</data>
+      <data key="d3">1.5.5</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="typing-extensions@4.7.1">
+      <data key="d2">typing-extensions</data>
+      <data key="d3">4.7.1</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="typing-extensions@4.12.2">
+      <data key="d2">typing-extensions</data>
+      <data key="d3">4.12.2</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="zipp@3.15.0">
+      <data key="d2">zipp</data>
+      <data key="d3">3.15.0</data>
+      <data key="d4">true</data>
+      <data key="d5">GHSA-jfmj-5v4g-7637</data>
+    </node>
+    <edge source="attrs@24.2.0" target="importlib-metadata@6.7.0" />
+    <edge source="black@21.12b0" target="click@8.1.7" />
+    <edge source="black@21.12b0" target="mypy-extensions@1.0.0" />
+    <edge source="black@21.12b0" target="pathspec@0.11.2" />
+    <edge source="black@21.12b0" target="platformdirs@4.0.0" />
+    <edge source="black@21.12b0" target="tomli@1.2.3" />
+    <edge source="black@21.12b0" target="typed-ast@1.5.5" />
+    <edge source="black@21.12b0" target="typing-extensions@4.12.2" />
+    <edge source="cffi@1.15.1" target="pycparser@2.21" />
+    <edge source="click@8.1.7" target="colorama@0.4.6" />
+    <edge source="click@8.1.7" target="importlib-metadata@6.7.0" />
+    <edge source="importlib-metadata@6.7.0" target="typing-extensions@4.12.2" />
+    <edge source="importlib-metadata@6.7.0" target="zipp@3.15.0" />
+    <edge source="nkeys@0.2.1" target="pynacl@1.5.0" />
+    <edge source="platformdirs@4.0.0" target="typing-extensions@4.12.2" />
+    <edge source="pluggy@1.2.0" target="importlib-metadata@6.7.0" />
+    <edge source="pynacl@1.5.0" target="cffi@1.15.1" />
+    <edge source="pytest@6.2.5" target="atomicwrites@1.4.1" />
+    <edge source="pytest@6.2.5" target="attrs@24.2.0" />
+    <edge source="pytest@6.2.5" target="colorama@0.4.6" />
+    <edge source="pytest@6.2.5" target="importlib-metadata@6.7.0" />
+    <edge source="pytest@6.2.5" target="iniconfig@2.0.0" />
+    <edge source="pytest@6.2.5" target="packaging@24.0" />
+    <edge source="pytest@6.2.5" target="pluggy@1.2.0" />
+    <edge source="pytest@6.2.5" target="py@1.11.0" />
+    <edge source="pytest@6.2.5" target="toml@0.10.2" />
+    <edge source="pytest-mock@3.11.1" target="pytest@6.2.5" />
+    <data key="d0">rentouch__natsjwt</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

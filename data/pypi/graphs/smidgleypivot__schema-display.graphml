@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="annotated-types@0.7.0">
+      <data key="d2">annotated-types</data>
+      <data key="d3">0.7.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="argcomplete@3.5.0">
+      <data key="d2">argcomplete</data>
+      <data key="d3">3.5.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="black@24.8.0">
+      <data key="d2">black</data>
+      <data key="d3">24.8.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-3936-cmfr-pm3m,GHSA-fj7x-q9j7-g6q6,PYSEC-2024-48</data>
+    </node>
+    <node id="click@8.1.7">
+      <data key="d2">click</data>
+      <data key="d3">8.1.7</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="colorama@0.4.6">
+      <data key="d2">colorama</data>
+      <data key="d3">0.4.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="datamodel-code-generator@0.26.1">
+      <data key="d2">datamodel-code-generator</data>
+      <data key="d3">0.26.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="dnspython@2.6.1">
+      <data key="d2">dnspython</data>
+      <data key="d3">2.6.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-3rq5-2g8h-59hc</data>
+    </node>
+    <node id="email-validator@2.2.0">
+      <data key="d2">email-validator</data>
+      <data key="d3">2.2.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="erdantic@1.0.5">
+      <data key="d2">erdantic</data>
+      <data key="d3">1.0.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="genson@1.3.0">
+      <data key="d2">genson</data>
+      <data key="d3">1.3.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="idna@3.10">
+      <data key="d2">idna</data>
+      <data key="d3">3.10</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-jjg7-2v4v-x38h,PYSEC-2024-60</data>
+    </node>
+    <node id="inflect@5.6.2">
+      <data key="d2">inflect</data>
+      <data key="d3">5.6.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="isort@5.13.2">
+      <data key="d2">isort</data>
+      <data key="d3">5.13.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="jinja2@3.1.4">
+      <data key="d2">jinja2</data>
+      <data key="d3">3.1.4</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-cpwx-vrp4-4pq7,GHSA-g3rq-g295-4j3m,GHSA-h5c8-rqwp-cp95,GHSA-h75v-3vvj-5mfj,GHSA-q2x7-8rv6-6q7h,PYSEC-2021-66,GHSA-gmj6-6f8f-6699</data>
+    </node>
+    <node id="markdown-it-py@3.0.0">
+      <data key="d2">markdown-it-py</data>
+      <data key="d3">3.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="markupsafe@2.1.5">
+      <data key="d2">markupsafe</data>
+      <data key="d3">2.1.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="mdurl@0.1.2">
+      <data key="d2">mdurl</data>
+      <data key="d3">0.1.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="mypy-extensions@1.0.0">
+      <data key="d2">mypy-extensions</data>
+      <data key="d3">1.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="packaging@24.1">
+      <data key="d2">packaging</data>
+      <data key="d3">24.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pathspec@0.12.1">
+      <data key="d2">pathspec</data>
+      <data key="d3">0.12.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="platformdirs@4.3.6">
+      <data key="d2">platformdirs</data>
+      <data key="d3">4.3.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pydantic@2.9.2">
+      <data key="d2">pydantic</data>
+      <data key="d3">2.9.2</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-mr82-8j83-vxmv</data>
+    </node>
+    <node id="pydantic-core@2.23.4">
+      <data key="d2">pydantic-core</data>
+      <data key="d3">2.23.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pygments@2.18.0">
+      <data key="d2">pygments</data>
+      <data key="d3">2.18.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-5239-wwwm-4pmq,GHSA-mrwq-x4v8-fh7p,PYSEC-2023-117,GHSA-9w8r-397f-prfh,GHSA-pq64-v7f5-gqh8,PYSEC-2021-140,PYSEC-2021-141</data>
+    </node>
+    <node id="pygraphviz@1.14">
+      <data key="d2">pygraphviz</data>
+      <data key="d3">1.14</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyyaml@6.0.2">
+      <data key="d2">pyyaml</data>
+      <data key="d3">6.0.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="rich@13.9.1">
+      <data key="d2">rich</data>
+      <data key="d3">13.9.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="shellingham@1.5.4">
+      <data key="d2">shellingham</data>
+      <data key="d3">1.5.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="sortedcontainers@2.4.0">
+      <data key="d2">sortedcontainers</data>
+      <data key="d3">2.4.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="sortedcontainers-pydantic@1.0.0">
+      <data key="d2">sortedcontainers-pydantic</data>
+      <data key="d3">1.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="typenames@1.3.0">
+      <data key="d2">typenames</data>
+      <data key="d3">1.3.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="typer@0.12.5">
+      <data key="d2">typer</data>
+      <data key="d3">0.12.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="typing-extensions@4.12.2">
+      <data key="d2">typing-extensions</data>
+      <data key="d3">4.12.2</data>
+      <data key="d4">false</data>
+    </node>
+    <edge source="black@24.8.0" target="click@8.1.7" />
+    <edge source="black@24.8.0" target="mypy-extensions@1.0.0" />
+    <edge source="black@24.8.0" target="packaging@24.1" />
+    <edge source="black@24.8.0" target="pathspec@0.12.1" />
+    <edge source="black@24.8.0" target="platformdirs@4.3.6" />
+    <edge source="click@8.1.7" target="colorama@0.4.6" />
+    <edge source="datamodel-code-generator@0.26.1" target="argcomplete@3.5.0" />
+    <edge source="datamodel-code-generator@0.26.1" target="black@24.8.0" />
+    <edge source="datamodel-code-generator@0.26.1" target="genson@1.3.0" />
+    <edge source="datamodel-code-generator@0.26.1" target="inflect@5.6.2" />
+    <edge source="datamodel-code-generator@0.26.1" target="isort@5.13.2" />
+    <edge source="datamodel-code-generator@0.26.1" target="jinja2@3.1.4" />
+    <edge source="datamodel-code-generator@0.26.1" target="packaging@24.1" />
+    <edge source="datamodel-code-generator@0.26.1" target="pydantic@2.9.2" />
+    <edge source="datamodel-code-generator@0.26.1" target="pyyaml@6.0.2" />
+    <edge source="email-validator@2.2.0" target="dnspython@2.6.1" />
+    <edge source="email-validator@2.2.0" target="idna@3.10" />
+    <edge source="erdantic@1.0.5" target="pydantic@2.9.2" />
+    <edge source="erdantic@1.0.5" target="pydantic-core@2.23.4" />
+    <edge source="erdantic@1.0.5" target="pygraphviz@1.14" />
+    <edge source="erdantic@1.0.5" target="sortedcontainers-pydantic@1.0.0" />
+    <edge source="erdantic@1.0.5" target="typenames@1.3.0" />
+    <edge source="erdantic@1.0.5" target="typer@0.12.5" />
+    <edge source="erdantic@1.0.5" target="typing-extensions@4.12.2" />
+    <edge source="jinja2@3.1.4" target="markupsafe@2.1.5" />
+    <edge source="markdown-it-py@3.0.0" target="mdurl@0.1.2" />
+    <edge source="pydantic@2.9.2" target="annotated-types@0.7.0" />
+    <edge source="pydantic@2.9.2" target="email-validator@2.2.0" />
+    <edge source="pydantic@2.9.2" target="pydantic-core@2.23.4" />
+    <edge source="pydantic@2.9.2" target="typing-extensions@4.12.2" />
+    <edge source="pydantic-core@2.23.4" target="typing-extensions@4.12.2" />
+    <edge source="rich@13.9.1" target="markdown-it-py@3.0.0" />
+    <edge source="rich@13.9.1" target="pygments@2.18.0" />
+    <edge source="sortedcontainers-pydantic@1.0.0" target="pydantic@2.9.2" />
+    <edge source="sortedcontainers-pydantic@1.0.0" target="pydantic-core@2.23.4" />
+    <edge source="sortedcontainers-pydantic@1.0.0" target="sortedcontainers@2.4.0" />
+    <edge source="typer@0.12.5" target="click@8.1.7" />
+    <edge source="typer@0.12.5" target="rich@13.9.1" />
+    <edge source="typer@0.12.5" target="shellingham@1.5.4" />
+    <edge source="typer@0.12.5" target="typing-extensions@4.12.2" />
+    <data key="d0">smidgleypivot__schema-display</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

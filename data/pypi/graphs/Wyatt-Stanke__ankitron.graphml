@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="cached-property@2.0.1">
+      <data key="d2">cached-property</data>
+      <data key="d3">2.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="certifi@2026.2.25">
+      <data key="d2">certifi</data>
+      <data key="d3">2026.2.25</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-43fp-rhv2-5gv8,GHSA-xqr8-7jwr-rhp7,PYSEC-2022-42986,PYSEC-2023-135,GHSA-248v-346w-9cwc,PYSEC-2024-230</data>
+    </node>
+    <node id="charset-normalizer@3.4.6">
+      <data key="d2">charset-normalizer</data>
+      <data key="d3">3.4.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="chevron@0.14.0">
+      <data key="d2">chevron</data>
+      <data key="d3">0.14.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="colorama@0.4.6">
+      <data key="d2">colorama</data>
+      <data key="d3">0.4.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="frozendict@2.4.7">
+      <data key="d2">frozendict</data>
+      <data key="d3">2.4.7</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="genanki@0.13.1">
+      <data key="d2">genanki</data>
+      <data key="d3">0.13.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="idna@3.11">
+      <data key="d2">idna</data>
+      <data key="d3">3.11</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-jjg7-2v4v-x38h,PYSEC-2024-60</data>
+    </node>
+    <node id="iniconfig@2.3.0">
+      <data key="d2">iniconfig</data>
+      <data key="d3">2.3.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="markdown-it-py@4.0.0">
+      <data key="d2">markdown-it-py</data>
+      <data key="d3">4.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="mdurl@0.1.2">
+      <data key="d2">mdurl</data>
+      <data key="d3">0.1.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="packaging@26.0">
+      <data key="d2">packaging</data>
+      <data key="d3">26.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pluggy@1.6.0">
+      <data key="d2">pluggy</data>
+      <data key="d3">1.6.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pygments@2.19.2">
+      <data key="d2">pygments</data>
+      <data key="d3">2.19.2</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-5239-wwwm-4pmq,GHSA-mrwq-x4v8-fh7p,PYSEC-2023-117,GHSA-9w8r-397f-prfh,GHSA-pq64-v7f5-gqh8,PYSEC-2021-140,PYSEC-2021-141</data>
+    </node>
+    <node id="pytest@9.0.2">
+      <data key="d2">pytest</data>
+      <data key="d3">9.0.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pytest-mock@3.15.1">
+      <data key="d2">pytest-mock</data>
+      <data key="d3">3.15.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyyaml@6.0.3">
+      <data key="d2">pyyaml</data>
+      <data key="d3">6.0.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="requests@2.33.0">
+      <data key="d2">requests</data>
+      <data key="d3">2.33.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-9hjg-9r4m-mvj7,GHSA-9wx4-h78v-vm56,GHSA-gc5v-m9x4-r6x2,GHSA-j8r2-6x86-q33q,GHSA-x84v-xcm2-53pg,PYSEC-2018-28,PYSEC-2023-74</data>
+    </node>
+    <node id="rich@14.3.3">
+      <data key="d2">rich</data>
+      <data key="d3">14.3.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="types-requests@2.32.4.20260324">
+      <data key="d2">types-requests</data>
+      <data key="d3">2.32.4.20260324</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="urllib3@2.6.3">
+      <data key="d2">urllib3</data>
+      <data key="d3">2.6.3</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-2xpw-w6gg-jr37,GHSA-34jh-p97f-mpxf,GHSA-38jv-5279-wg99,GHSA-g4mx-q9vg-27p4,GHSA-gwvm-45gx-3cf8,GHSA-mh33-7rrq-662w,GHSA-pq67-6m6q-mj2v,GHSA-r64q-w8jr-g9qp,GHSA-v845-jxx5-vc9f,GHSA-wqvq-5m8c-6g24,GHSA-www2-v7xj-xrc6,PYSEC-2018-32,PYSEC-2019-132,PYSEC-2019-133,PYSEC-2020-148,PYSEC-2021-108,PYSEC-2023-192,PYSEC-2023-207,PYSEC-2023-212,GHSA-gm62-xv2j-4w53,GHSA-q2q7-5pp4-w6pg,GHSA-48p4-8xcf-vxj5</data>
+    </node>
+    <edge source="genanki@0.13.1" target="cached-property@2.0.1" />
+    <edge source="genanki@0.13.1" target="chevron@0.14.0" />
+    <edge source="genanki@0.13.1" target="frozendict@2.4.7" />
+    <edge source="genanki@0.13.1" target="pyyaml@6.0.3" />
+    <edge source="markdown-it-py@4.0.0" target="mdurl@0.1.2" />
+    <edge source="pytest@9.0.2" target="colorama@0.4.6" />
+    <edge source="pytest@9.0.2" target="iniconfig@2.3.0" />
+    <edge source="pytest@9.0.2" target="packaging@26.0" />
+    <edge source="pytest@9.0.2" target="pluggy@1.6.0" />
+    <edge source="pytest@9.0.2" target="pygments@2.19.2" />
+    <edge source="pytest-mock@3.15.1" target="pytest@9.0.2" />
+    <edge source="requests@2.33.0" target="certifi@2026.2.25" />
+    <edge source="requests@2.33.0" target="charset-normalizer@3.4.6" />
+    <edge source="requests@2.33.0" target="idna@3.11" />
+    <edge source="requests@2.33.0" target="urllib3@2.6.3" />
+    <edge source="rich@14.3.3" target="markdown-it-py@4.0.0" />
+    <edge source="rich@14.3.3" target="pygments@2.19.2" />
+    <edge source="types-requests@2.32.4.20260324" target="urllib3@2.6.3" />
+    <data key="d0">Wyatt-Stanke__ankitron</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="about-time@4.2.1">
+      <data key="d2">about-time</data>
+      <data key="d3">4.2.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="alive-progress@3.1.5">
+      <data key="d2">alive-progress</data>
+      <data key="d3">3.1.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="autograd@1.6.2">
+      <data key="d2">autograd</data>
+      <data key="d3">1.6.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="cma@3.2.2">
+      <data key="d2">cma</data>
+      <data key="d3">3.2.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="contourpy@1.2.0">
+      <data key="d2">contourpy</data>
+      <data key="d3">1.2.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="cycler@0.12.1">
+      <data key="d2">cycler</data>
+      <data key="d3">0.12.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="deprecated@1.2.14">
+      <data key="d2">deprecated</data>
+      <data key="d3">1.2.14</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="dill@0.3.7">
+      <data key="d2">dill</data>
+      <data key="d3">0.3.7</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="fonttools@4.45.1">
+      <data key="d2">fonttools</data>
+      <data key="d3">4.45.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-6673-4983-2vx5,GHSA-768j-98cg-p3fv</data>
+    </node>
+    <node id="future@0.18.3">
+      <data key="d2">future</data>
+      <data key="d3">0.18.3</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-v3c5-jqr6-7qm8,PYSEC-2022-42991</data>
+    </node>
+    <node id="grapheme@0.6.0">
+      <data key="d2">grapheme</data>
+      <data key="d3">0.6.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="kiwisolver@1.4.5">
+      <data key="d2">kiwisolver</data>
+      <data key="d3">1.4.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="matplotlib@3.8.2">
+      <data key="d2">matplotlib</data>
+      <data key="d3">3.8.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="mpmath@1.3.0">
+      <data key="d2">mpmath</data>
+      <data key="d3">1.3.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="numpy@1.26.2">
+      <data key="d2">numpy</data>
+      <data key="d3">1.26.2</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-6p56-wp2h-9hxr,GHSA-fpfv-jqm9-f5jm</data>
+    </node>
+    <node id="packaging@23.2">
+      <data key="d2">packaging</data>
+      <data key="d3">23.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pillow@10.1.0">
+      <data key="d2">pillow</data>
+      <data key="d3">10.1.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-3f63-hfp8-52jq,GHSA-44wm-f244-xhp3,GHSA-j7hp-h8jx-5ppr,PYSEC-2023-175,GHSA-cfh3-3jmp-rvhc,GHSA-xg8h-j46f-w952,PYSEC-2025-61,GHSA-4fx9-vc88-q2xc,GHSA-7534-mm45-c74v,GHSA-8ghj-p4vj-mr35,GHSA-8vj2-vxx3-667w,GHSA-98vv-pw6r-q6q4,GHSA-9j59-75qj-795w,GHSA-m2vv-5vj5-2hm7,GHSA-pw3c-h7wp-cvhx,GHSA-xrcv-f9gm-v42c,PYSEC-2021-317,PYSEC-2021-331,PYSEC-2022-10,PYSEC-2022-168,PYSEC-2022-42979,PYSEC-2022-8,PYSEC-2022-9,PYSEC-2023-227</data>
+    </node>
+    <node id="pymoo@0.6.1.1">
+      <data key="d2">pymoo</data>
+      <data key="d3">0.6.1.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyparsing@3.1.1">
+      <data key="d2">pyparsing</data>
+      <data key="d3">3.1.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="python-dateutil@2.8.2">
+      <data key="d2">python-dateutil</data>
+      <data key="d3">2.8.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="scipy@1.11.4">
+      <data key="d2">scipy</data>
+      <data key="d3">1.11.4</data>
+      <data key="d4">false</data>
+      <data key="d5">PYSEC-2023-102,PYSEC-2023-114</data>
+    </node>
+    <node id="six@1.16.0">
+      <data key="d2">six</data>
+      <data key="d3">1.16.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="sympy@1.12">
+      <data key="d2">sympy</data>
+      <data key="d3">1.12</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="wrapt@1.16.0">
+      <data key="d2">wrapt</data>
+      <data key="d3">1.16.0</data>
+      <data key="d4">false</data>
+    </node>
+    <edge source="alive-progress@3.1.5" target="about-time@4.2.1" />
+    <edge source="alive-progress@3.1.5" target="grapheme@0.6.0" />
+    <edge source="autograd@1.6.2" target="future@0.18.3" />
+    <edge source="autograd@1.6.2" target="numpy@1.26.2" />
+    <edge source="cma@3.2.2" target="numpy@1.26.2" />
+    <edge source="contourpy@1.2.0" target="numpy@1.26.2" />
+    <edge source="deprecated@1.2.14" target="wrapt@1.16.0" />
+    <edge source="matplotlib@3.8.2" target="contourpy@1.2.0" />
+    <edge source="matplotlib@3.8.2" target="cycler@0.12.1" />
+    <edge source="matplotlib@3.8.2" target="fonttools@4.45.1" />
+    <edge source="matplotlib@3.8.2" target="kiwisolver@1.4.5" />
+    <edge source="matplotlib@3.8.2" target="numpy@1.26.2" />
+    <edge source="matplotlib@3.8.2" target="packaging@23.2" />
+    <edge source="matplotlib@3.8.2" target="pillow@10.1.0" />
+    <edge source="matplotlib@3.8.2" target="pyparsing@3.1.1" />
+    <edge source="matplotlib@3.8.2" target="python-dateutil@2.8.2" />
+    <edge source="pymoo@0.6.1.1" target="alive-progress@3.1.5" />
+    <edge source="pymoo@0.6.1.1" target="autograd@1.6.2" />
+    <edge source="pymoo@0.6.1.1" target="cma@3.2.2" />
+    <edge source="pymoo@0.6.1.1" target="deprecated@1.2.14" />
+    <edge source="pymoo@0.6.1.1" target="dill@0.3.7" />
+    <edge source="pymoo@0.6.1.1" target="matplotlib@3.8.2" />
+    <edge source="pymoo@0.6.1.1" target="numpy@1.26.2" />
+    <edge source="pymoo@0.6.1.1" target="scipy@1.11.4" />
+    <edge source="python-dateutil@2.8.2" target="six@1.16.0" />
+    <edge source="scipy@1.11.4" target="numpy@1.26.2" />
+    <edge source="sympy@1.12" target="mpmath@1.3.0" />
+    <data key="d0">miguellrodrigues__rtb_toolbox</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

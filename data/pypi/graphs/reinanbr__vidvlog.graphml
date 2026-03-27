@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="astroid@3.3.5">
+      <data key="d2">astroid</data>
+      <data key="d3">3.3.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="beautifulsoup4@4.12.3">
+      <data key="d2">beautifulsoup4</data>
+      <data key="d3">4.12.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="bing-image-downloader@1.1.2">
+      <data key="d2">bing-image-downloader</data>
+      <data key="d3">1.1.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="certifi@2024.8.30">
+      <data key="d2">certifi</data>
+      <data key="d3">2024.8.30</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-43fp-rhv2-5gv8,GHSA-xqr8-7jwr-rhp7,PYSEC-2022-42986,PYSEC-2023-135,GHSA-248v-346w-9cwc,PYSEC-2024-230</data>
+    </node>
+    <node id="charset-normalizer@3.4.0">
+      <data key="d2">charset-normalizer</data>
+      <data key="d3">3.4.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="colorama@0.4.6">
+      <data key="d2">colorama</data>
+      <data key="d3">0.4.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="decorator@4.4.2">
+      <data key="d2">decorator</data>
+      <data key="d3">4.4.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="dill@0.3.9">
+      <data key="d2">dill</data>
+      <data key="d3">0.3.9</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="idna@3.10">
+      <data key="d2">idna</data>
+      <data key="d3">3.10</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-jjg7-2v4v-x38h,PYSEC-2024-60</data>
+    </node>
+    <node id="imageio@2.36.0">
+      <data key="d2">imageio</data>
+      <data key="d3">2.36.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="imageio-ffmpeg@0.5.1">
+      <data key="d2">imageio-ffmpeg</data>
+      <data key="d3">0.5.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="isort@5.13.2">
+      <data key="d2">isort</data>
+      <data key="d3">5.13.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="jedi@0.19.2">
+      <data key="d2">jedi</data>
+      <data key="d3">0.19.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="kitano@0.0.8.5">
+      <data key="d2">kitano</data>
+      <data key="d3">0.0.8.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="mccabe@0.7.0">
+      <data key="d2">mccabe</data>
+      <data key="d3">0.7.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="moviepy@1.0.3">
+      <data key="d2">moviepy</data>
+      <data key="d3">1.0.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="numpy@2.1.3">
+      <data key="d2">numpy</data>
+      <data key="d3">2.1.3</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-6p56-wp2h-9hxr,GHSA-fpfv-jqm9-f5jm</data>
+    </node>
+    <node id="opencv-python@4.10.0.84">
+      <data key="d2">opencv-python</data>
+      <data key="d3">4.10.0.84</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-qr4w-53vh-m672,PYSEC-2023-183</data>
+    </node>
+    <node id="parso@0.8.4">
+      <data key="d2">parso</data>
+      <data key="d3">0.8.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pillow@11.0.0">
+      <data key="d2">pillow</data>
+      <data key="d3">11.0.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-3f63-hfp8-52jq,GHSA-44wm-f244-xhp3,GHSA-j7hp-h8jx-5ppr,PYSEC-2023-175,GHSA-cfh3-3jmp-rvhc,GHSA-xg8h-j46f-w952,PYSEC-2025-61,GHSA-4fx9-vc88-q2xc,GHSA-7534-mm45-c74v,GHSA-8ghj-p4vj-mr35,GHSA-8vj2-vxx3-667w,GHSA-98vv-pw6r-q6q4,GHSA-9j59-75qj-795w,GHSA-m2vv-5vj5-2hm7,GHSA-pw3c-h7wp-cvhx,GHSA-xrcv-f9gm-v42c,PYSEC-2021-317,PYSEC-2021-331,PYSEC-2022-10,PYSEC-2022-168,PYSEC-2022-42979,PYSEC-2022-8,PYSEC-2022-9,PYSEC-2023-227</data>
+    </node>
+    <node id="platformdirs@4.3.6">
+      <data key="d2">platformdirs</data>
+      <data key="d3">4.3.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="proglog@0.1.10">
+      <data key="d2">proglog</data>
+      <data key="d3">0.1.10</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pylint@3.3.1">
+      <data key="d2">pylint</data>
+      <data key="d3">3.3.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="python-dotenv@1.0.1">
+      <data key="d2">python-dotenv</data>
+      <data key="d3">1.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="requests@2.32.3">
+      <data key="d2">requests</data>
+      <data key="d3">2.32.3</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-9hjg-9r4m-mvj7,GHSA-9wx4-h78v-vm56,GHSA-gc5v-m9x4-r6x2,GHSA-j8r2-6x86-q33q,GHSA-x84v-xcm2-53pg,PYSEC-2018-28,PYSEC-2023-74</data>
+    </node>
+    <node id="setuptools@75.3.0">
+      <data key="d2">setuptools</data>
+      <data key="d3">75.3.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-5rjg-fvgr-3xxf,GHSA-cx63-2mw6-8hw5,GHSA-r9hx-vwmv-q579,PYSEC-2022-43012,PYSEC-2025-49</data>
+    </node>
+    <node id="soupsieve@2.6">
+      <data key="d2">soupsieve</data>
+      <data key="d3">2.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="tomlkit@0.13.2">
+      <data key="d2">tomlkit</data>
+      <data key="d3">0.13.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="tqdm@4.67.0">
+      <data key="d2">tqdm</data>
+      <data key="d3">4.67.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-g7vv-2v7x-gj9p</data>
+    </node>
+    <node id="urllib3@2.2.3">
+      <data key="d2">urllib3</data>
+      <data key="d3">2.2.3</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-2xpw-w6gg-jr37,GHSA-34jh-p97f-mpxf,GHSA-38jv-5279-wg99,GHSA-g4mx-q9vg-27p4,GHSA-gwvm-45gx-3cf8,GHSA-mh33-7rrq-662w,GHSA-pq67-6m6q-mj2v,GHSA-r64q-w8jr-g9qp,GHSA-v845-jxx5-vc9f,GHSA-wqvq-5m8c-6g24,GHSA-www2-v7xj-xrc6,PYSEC-2018-32,PYSEC-2019-132,PYSEC-2019-133,PYSEC-2020-148,PYSEC-2021-108,PYSEC-2023-192,PYSEC-2023-207,PYSEC-2023-212,GHSA-gm62-xv2j-4w53,GHSA-q2q7-5pp4-w6pg,GHSA-48p4-8xcf-vxj5</data>
+    </node>
+    <edge source="beautifulsoup4@4.12.3" target="soupsieve@2.6" />
+    <edge source="imageio@2.36.0" target="numpy@2.1.3" />
+    <edge source="imageio@2.36.0" target="pillow@11.0.0" />
+    <edge source="imageio-ffmpeg@0.5.1" target="setuptools@75.3.0" />
+    <edge source="jedi@0.19.2" target="parso@0.8.4" />
+    <edge source="kitano@0.0.8.5" target="colorama@0.4.6" />
+    <edge source="moviepy@1.0.3" target="decorator@4.4.2" />
+    <edge source="moviepy@1.0.3" target="imageio@2.36.0" />
+    <edge source="moviepy@1.0.3" target="imageio-ffmpeg@0.5.1" />
+    <edge source="moviepy@1.0.3" target="numpy@2.1.3" />
+    <edge source="moviepy@1.0.3" target="proglog@0.1.10" />
+    <edge source="moviepy@1.0.3" target="requests@2.32.3" />
+    <edge source="moviepy@1.0.3" target="tqdm@4.67.0" />
+    <edge source="opencv-python@4.10.0.84" target="numpy@2.1.3" />
+    <edge source="proglog@0.1.10" target="tqdm@4.67.0" />
+    <edge source="pylint@3.3.1" target="astroid@3.3.5" />
+    <edge source="pylint@3.3.1" target="colorama@0.4.6" />
+    <edge source="pylint@3.3.1" target="dill@0.3.9" />
+    <edge source="pylint@3.3.1" target="isort@5.13.2" />
+    <edge source="pylint@3.3.1" target="mccabe@0.7.0" />
+    <edge source="pylint@3.3.1" target="platformdirs@4.3.6" />
+    <edge source="pylint@3.3.1" target="tomlkit@0.13.2" />
+    <edge source="requests@2.32.3" target="certifi@2024.8.30" />
+    <edge source="requests@2.32.3" target="charset-normalizer@3.4.0" />
+    <edge source="requests@2.32.3" target="idna@3.10" />
+    <edge source="requests@2.32.3" target="urllib3@2.2.3" />
+    <edge source="tqdm@4.67.0" target="colorama@0.4.6" />
+    <data key="d0">reinanbr__vidvlog</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

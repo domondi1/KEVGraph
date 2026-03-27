@@ -36,6 +36,7 @@ NPM_REGISTRY = "https://registry.npmjs.org"
 GITHUB_REQ_PER_SEC = 8          # stay well under 5000/hr authenticated
 OSV_BATCH_SIZE = 1000           # OSV querybatch endpoint max
 NPM_REQ_PER_SEC = 15
+PYPI_REQ_PER_SEC = 10
 DEPS_DEV_REQ_PER_SEC = 10
 HTTP_TIMEOUT = 30               # seconds
 MAX_RETRIES = 5

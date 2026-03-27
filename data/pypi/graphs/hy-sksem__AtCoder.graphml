@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="appdirs@1.4.4">
+      <data key="d2">appdirs</data>
+      <data key="d3">1.4.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="atcoder-tools@2.12.0">
+      <data key="d2">atcoder-tools</data>
+      <data key="d3">2.12.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="attrs@22.2.0">
+      <data key="d2">attrs</data>
+      <data key="d3">22.2.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="beautifulsoup4@4.11.1">
+      <data key="d2">beautifulsoup4</data>
+      <data key="d3">4.11.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="black@22.12.0">
+      <data key="d2">black</data>
+      <data key="d3">22.12.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-3936-cmfr-pm3m,GHSA-fj7x-q9j7-g6q6,PYSEC-2024-48</data>
+    </node>
+    <node id="certifi@2022.12.7">
+      <data key="d2">certifi</data>
+      <data key="d3">2022.12.7</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-43fp-rhv2-5gv8,GHSA-xqr8-7jwr-rhp7,PYSEC-2022-42986,PYSEC-2023-135,GHSA-248v-346w-9cwc,PYSEC-2024-230</data>
+    </node>
+    <node id="charset-normalizer@3.0.1">
+      <data key="d2">charset-normalizer</data>
+      <data key="d3">3.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="click@8.1.3">
+      <data key="d2">click</data>
+      <data key="d3">8.1.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="colorama@0.4.6">
+      <data key="d2">colorama</data>
+      <data key="d3">0.4.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="colorlog@6.7.0">
+      <data key="d2">colorlog</data>
+      <data key="d3">6.7.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="flake8@4.0.1">
+      <data key="d2">flake8</data>
+      <data key="d3">4.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="idna@3.4">
+      <data key="d2">idna</data>
+      <data key="d3">3.4</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-jjg7-2v4v-x38h,PYSEC-2024-60</data>
+    </node>
+    <node id="invoke@2.0.0">
+      <data key="d2">invoke</data>
+      <data key="d3">2.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="jinja2@2.11.3">
+      <data key="d2">jinja2</data>
+      <data key="d3">2.11.3</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-cpwx-vrp4-4pq7,GHSA-g3rq-g295-4j3m,GHSA-h5c8-rqwp-cp95,GHSA-h75v-3vvj-5mfj,GHSA-q2x7-8rv6-6q7h,PYSEC-2021-66,GHSA-gmj6-6f8f-6699</data>
+    </node>
+    <node id="joblib@1.2.0">
+      <data key="d2">joblib</data>
+      <data key="d3">1.2.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-6hrg-qmvc-2xh8,PYSEC-2022-288</data>
+    </node>
+    <node id="jsonschema@4.17.3">
+      <data key="d2">jsonschema</data>
+      <data key="d3">4.17.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="llvmlite@0.40.1">
+      <data key="d2">llvmlite</data>
+      <data key="d3">0.40.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="lxml@4.9.2">
+      <data key="d2">lxml</data>
+      <data key="d3">4.9.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="markupsafe@2.1.2">
+      <data key="d2">markupsafe</data>
+      <data key="d3">2.1.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="mccabe@0.6.1">
+      <data key="d2">mccabe</data>
+      <data key="d3">0.6.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="mypy-extensions@0.4.3">
+      <data key="d2">mypy-extensions</data>
+      <data key="d3">0.4.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="networkx@3.0">
+      <data key="d2">networkx</data>
+      <data key="d3">3.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="numba@0.57.0">
+      <data key="d2">numba</data>
+      <data key="d3">0.57.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="numpy@1.24.1">
+      <data key="d2">numpy</data>
+      <data key="d3">1.24.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-6p56-wp2h-9hxr,GHSA-fpfv-jqm9-f5jm</data>
+    </node>
+    <node id="online-judge-api-client@10.10.1">
+      <data key="d2">online-judge-api-client</data>
+      <data key="d3">10.10.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="online-judge-tools@11.5.1">
+      <data key="d2">online-judge-tools</data>
+      <data key="d3">11.5.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pathspec@0.11.0">
+      <data key="d2">pathspec</data>
+      <data key="d3">0.11.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="platformdirs@2.6.2">
+      <data key="d2">platformdirs</data>
+      <data key="d3">2.6.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pycodestyle@2.8.0">
+      <data key="d2">pycodestyle</data>
+      <data key="d3">2.8.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyflakes@2.4.0">
+      <data key="d2">pyflakes</data>
+      <data key="d3">2.4.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyrsistent@0.19.3">
+      <data key="d2">pyrsistent</data>
+      <data key="d3">0.19.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="requests@2.28.2">
+      <data key="d2">requests</data>
+      <data key="d3">2.28.2</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-9hjg-9r4m-mvj7,GHSA-9wx4-h78v-vm56,GHSA-gc5v-m9x4-r6x2,GHSA-j8r2-6x86-q33q,GHSA-x84v-xcm2-53pg,PYSEC-2018-28,PYSEC-2023-74</data>
+    </node>
+    <node id="scikit-learn@1.2.0">
+      <data key="d2">scikit-learn</data>
+      <data key="d3">1.2.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-jw8x-6495-233v,GHSA-jxfp-4rvq-9h9m,PYSEC-2024-110</data>
+    </node>
+    <node id="scipy@1.10.1">
+      <data key="d2">scipy</data>
+      <data key="d3">1.10.1</data>
+      <data key="d4">false</data>
+      <data key="d5">PYSEC-2023-102,PYSEC-2023-114</data>
+    </node>
+    <node id="soupsieve@2.3.2.post1">
+      <data key="d2">soupsieve</data>
+      <data key="d3">2.3.2.post1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="threadpoolctl@3.2.0">
+      <data key="d2">threadpoolctl</data>
+      <data key="d3">3.2.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="toml@0.10.2">
+      <data key="d2">toml</data>
+      <data key="d3">0.10.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="urllib3@1.26.14">
+      <data key="d2">urllib3</data>
+      <data key="d3">1.26.14</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-2xpw-w6gg-jr37,GHSA-34jh-p97f-mpxf,GHSA-38jv-5279-wg99,GHSA-g4mx-q9vg-27p4,GHSA-gwvm-45gx-3cf8,GHSA-mh33-7rrq-662w,GHSA-pq67-6m6q-mj2v,GHSA-r64q-w8jr-g9qp,GHSA-v845-jxx5-vc9f,GHSA-wqvq-5m8c-6g24,GHSA-www2-v7xj-xrc6,PYSEC-2018-32,PYSEC-2019-132,PYSEC-2019-133,PYSEC-2020-148,PYSEC-2021-108,PYSEC-2023-192,PYSEC-2023-207,PYSEC-2023-212,GHSA-gm62-xv2j-4w53,GHSA-q2q7-5pp4-w6pg,GHSA-48p4-8xcf-vxj5</data>
+    </node>
+    <edge source="atcoder-tools@2.12.0" target="beautifulsoup4@4.11.1" />
+    <edge source="atcoder-tools@2.12.0" target="colorama@0.4.6" />
+    <edge source="atcoder-tools@2.12.0" target="jinja2@2.11.3" />
+    <edge source="atcoder-tools@2.12.0" target="requests@2.28.2" />
+    <edge source="atcoder-tools@2.12.0" target="toml@0.10.2" />
+    <edge source="beautifulsoup4@4.11.1" target="soupsieve@2.3.2.post1" />
+    <edge source="black@22.12.0" target="click@8.1.3" />
+    <edge source="black@22.12.0" target="mypy-extensions@0.4.3" />
+    <edge source="black@22.12.0" target="pathspec@0.11.0" />
+    <edge source="black@22.12.0" target="platformdirs@2.6.2" />
+    <edge source="click@8.1.3" target="colorama@0.4.6" />
+    <edge source="colorlog@6.7.0" target="colorama@0.4.6" />
+    <edge source="flake8@4.0.1" target="mccabe@0.6.1" />
+    <edge source="flake8@4.0.1" target="pycodestyle@2.8.0" />
+    <edge source="flake8@4.0.1" target="pyflakes@2.4.0" />
+    <edge source="jinja2@2.11.3" target="markupsafe@2.1.2" />
+    <edge source="jsonschema@4.17.3" target="attrs@22.2.0" />
+    <edge source="jsonschema@4.17.3" target="pyrsistent@0.19.3" />
+    <edge source="numba@0.57.0" target="llvmlite@0.40.1" />
+    <edge source="numba@0.57.0" target="numpy@1.24.1" />
+    <edge source="online-judge-api-client@10.10.1" target="appdirs@1.4.4" />
+    <edge source="online-judge-api-client@10.10.1" target="beautifulsoup4@4.11.1" />
+    <edge source="online-judge-api-client@10.10.1" target="colorlog@6.7.0" />
+    <edge source="online-judge-api-client@10.10.1" target="jsonschema@4.17.3" />
+    <edge source="online-judge-api-client@10.10.1" target="lxml@4.9.2" />
+    <edge source="online-judge-api-client@10.10.1" target="requests@2.28.2" />
+    <edge source="online-judge-api-client@10.10.1" target="toml@0.10.2" />
+    <edge source="online-judge-tools@11.5.1" target="colorama@0.4.6" />
+    <edge source="online-judge-tools@11.5.1" target="online-judge-api-client@10.10.1" />
+    <edge source="online-judge-tools@11.5.1" target="requests@2.28.2" />
+    <edge source="requests@2.28.2" target="certifi@2022.12.7" />
+    <edge source="requests@2.28.2" target="charset-normalizer@3.0.1" />
+    <edge source="requests@2.28.2" target="idna@3.4" />
+    <edge source="requests@2.28.2" target="urllib3@1.26.14" />
+    <edge source="scikit-learn@1.2.0" target="joblib@1.2.0" />
+    <edge source="scikit-learn@1.2.0" target="numpy@1.24.1" />
+    <edge source="scikit-learn@1.2.0" target="scipy@1.10.1" />
+    <edge source="scikit-learn@1.2.0" target="threadpoolctl@3.2.0" />
+    <edge source="scipy@1.10.1" target="numpy@1.24.1" />
+    <data key="d0">hy-sksem__AtCoder</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

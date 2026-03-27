@@ -1,0 +1,382 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="absl-py@1.0.0">
+      <data key="d2">absl-py</data>
+      <data key="d3">1.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="astunparse@1.6.3">
+      <data key="d2">astunparse</data>
+      <data key="d3">1.6.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="black@22.3.0">
+      <data key="d2">black</data>
+      <data key="d3">22.3.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-3936-cmfr-pm3m,GHSA-fj7x-q9j7-g6q6,PYSEC-2024-48</data>
+    </node>
+    <node id="cachetools@5.2.0">
+      <data key="d2">cachetools</data>
+      <data key="d3">5.2.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="certifi@2022.5.18.1">
+      <data key="d2">certifi</data>
+      <data key="d3">2022.5.18.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-43fp-rhv2-5gv8,GHSA-xqr8-7jwr-rhp7,PYSEC-2022-42986,PYSEC-2023-135,GHSA-248v-346w-9cwc,PYSEC-2024-230</data>
+    </node>
+    <node id="charset-normalizer@2.0.12">
+      <data key="d2">charset-normalizer</data>
+      <data key="d3">2.0.12</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="click@8.1.3">
+      <data key="d2">click</data>
+      <data key="d3">8.1.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="colorama@0.4.4">
+      <data key="d2">colorama</data>
+      <data key="d3">0.4.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="flake8@4.0.1">
+      <data key="d2">flake8</data>
+      <data key="d3">4.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="flatbuffers@1.12">
+      <data key="d2">flatbuffers</data>
+      <data key="d3">1.12</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="gast@0.4.0">
+      <data key="d2">gast</data>
+      <data key="d3">0.4.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="google-auth@2.6.6">
+      <data key="d2">google-auth</data>
+      <data key="d3">2.6.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="google-auth-oauthlib@0.4.6">
+      <data key="d2">google-auth-oauthlib</data>
+      <data key="d3">0.4.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="google-pasta@0.2.0">
+      <data key="d2">google-pasta</data>
+      <data key="d3">0.2.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="grpcio@1.46.3">
+      <data key="d2">grpcio</data>
+      <data key="d3">1.46.3</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-496j-2rq6-j6cc</data>
+    </node>
+    <node id="h5py@3.7.0">
+      <data key="d2">h5py</data>
+      <data key="d3">3.7.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="idna@3.3">
+      <data key="d2">idna</data>
+      <data key="d3">3.3</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-jjg7-2v4v-x38h,PYSEC-2024-60</data>
+    </node>
+    <node id="importlib-metadata@4.11.4">
+      <data key="d2">importlib-metadata</data>
+      <data key="d3">4.11.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="keras@2.9.0">
+      <data key="d2">keras</data>
+      <data key="d3">2.9.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-36fq-jgmw-4r9c,GHSA-cjgq-5qmw-rcj6,GHSA-hjqc-jx6g-rwp9,GHSA-mq84-hjqx-cwf2,GHSA-x4wf-678h-2pmq</data>
+    </node>
+    <node id="keras-preprocessing@1.1.2">
+      <data key="d2">keras-preprocessing</data>
+      <data key="d3">1.1.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="libclang@14.0.1">
+      <data key="d2">libclang</data>
+      <data key="d3">14.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="markdown@3.3.7">
+      <data key="d2">markdown</data>
+      <data key="d3">3.3.7</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-5wmx-573v-2qwq</data>
+    </node>
+    <node id="mccabe@0.6.1">
+      <data key="d2">mccabe</data>
+      <data key="d3">0.6.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="mypy-extensions@0.4.3">
+      <data key="d2">mypy-extensions</data>
+      <data key="d3">0.4.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="numpy@1.22.4">
+      <data key="d2">numpy</data>
+      <data key="d3">1.22.4</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-6p56-wp2h-9hxr,GHSA-fpfv-jqm9-f5jm</data>
+    </node>
+    <node id="oauthlib@3.2.0">
+      <data key="d2">oauthlib</data>
+      <data key="d3">3.2.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-3pgj-pg6c-r5p7,PYSEC-2022-269</data>
+    </node>
+    <node id="opencv-python@4.5.5.64">
+      <data key="d2">opencv-python</data>
+      <data key="d3">4.5.5.64</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-qr4w-53vh-m672,PYSEC-2023-183</data>
+    </node>
+    <node id="opt-einsum@3.3.0">
+      <data key="d2">opt-einsum</data>
+      <data key="d3">3.3.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="packaging@21.3">
+      <data key="d2">packaging</data>
+      <data key="d3">21.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pathspec@0.9.0">
+      <data key="d2">pathspec</data>
+      <data key="d3">0.9.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="platformdirs@2.5.2">
+      <data key="d2">platformdirs</data>
+      <data key="d3">2.5.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="protobuf@3.19.4">
+      <data key="d2">protobuf</data>
+      <data key="d3">3.19.4</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-7gcm-g887-7qv7,GHSA-8gq9-2x98-w8hf,GHSA-8qvm-5x2c-j2w7</data>
+    </node>
+    <node id="pyasn1@0.4.8">
+      <data key="d2">pyasn1</data>
+      <data key="d3">0.4.8</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-jr27-m4p2-rc6r,GHSA-63vm-454h-vhhq</data>
+    </node>
+    <node id="pyasn1-modules@0.2.8">
+      <data key="d2">pyasn1-modules</data>
+      <data key="d3">0.2.8</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pycodestyle@2.8.0">
+      <data key="d2">pycodestyle</data>
+      <data key="d3">2.8.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyflakes@2.4.0">
+      <data key="d2">pyflakes</data>
+      <data key="d3">2.4.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyparsing@3.0.9">
+      <data key="d2">pyparsing</data>
+      <data key="d3">3.0.9</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyproject-flake8@0.0.1a4">
+      <data key="d2">pyproject-flake8</data>
+      <data key="d3">0.0.1a4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="requests@2.27.1">
+      <data key="d2">requests</data>
+      <data key="d3">2.27.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-9hjg-9r4m-mvj7,GHSA-9wx4-h78v-vm56,GHSA-gc5v-m9x4-r6x2,GHSA-j8r2-6x86-q33q,GHSA-x84v-xcm2-53pg,PYSEC-2018-28,PYSEC-2023-74</data>
+    </node>
+    <node id="requests-oauthlib@1.3.1">
+      <data key="d2">requests-oauthlib</data>
+      <data key="d3">1.3.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="rsa@4.8">
+      <data key="d2">rsa</data>
+      <data key="d3">4.8</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-xrx6-fmxq-rjj2,PYSEC-2020-100</data>
+    </node>
+    <node id="six@1.16.0">
+      <data key="d2">six</data>
+      <data key="d3">1.16.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="tensorboard@2.9.0">
+      <data key="d2">tensorboard</data>
+      <data key="d3">2.9.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="tensorboard-data-server@0.6.1">
+      <data key="d2">tensorboard-data-server</data>
+      <data key="d3">0.6.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="tensorboard-plugin-wit@1.8.1">
+      <data key="d2">tensorboard-plugin-wit</data>
+      <data key="d3">1.8.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="tensorflow@2.9.1">
+      <data key="d2">tensorflow</data>
+      <data key="d3">2.9.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-23hm-7w47-xw72,GHSA-2475-53vw-vp25,GHSA-247x-2f9f-5wp7,GHSA-24x4-6qmh-88qg,GHSA-278g-rq84-9hmg,GHSA-27j5-4p9v-pp67,GHSA-27qf-jwm8-g7f3,GHSA-27rc-728f-x5w2,GHSA-2p25-55c9-h58q,GHSA-2p9q-h29j-3f5v,GHSA-2r2f-g8mw-9gvr,GHSA-2r8p-fg3c-wcj4,GHSA-2vv3-56qg-g2cf,GHSA-2wmv-37vq-52g5,GHSA-34f9-hjfq-rr8j,GHSA-368v-7v32-52fx,GHSA-374m-jm66-3vj8,GHSA-37jf-mjv6-xfqw,GHSA-397c-5g2j-qxpv,GHSA-3ff2-r28g-w7h9,GHSA-3hxh-8cp2-g4hg,GHSA-3mw4-6rj6-74g5,GHSA-3rcw-9p9x-582v,GHSA-428x-9xc2-m8mj,GHSA-43jf-985q-588j,GHSA-43q8-3fv7-pr5x,GHSA-44qp-9wwf-734r,GHSA-49rq-hwc3-x77w,GHSA-49rx-x2rw-pc6f,GHSA-4c4g-crqm-xrxw,GHSA-4f99-p9c2-3j8x,GHSA-4hvf-hxvg-f67v,GHSA-4j82-5ccr-4r8v,GHSA-4pc4-m9mj-v2r9,GHSA-4v5p-v5h9-6xjx,GHSA-4w68-4x85-mjj9,GHSA-4xfp-4pfp-89wg,GHSA-54ch-gjq5-4976,GHSA-54pp-c6pp-7fpx,GHSA-558h-mq8x-7q9g,GHSA-57wx-m983-2f88,GHSA-5889-7v45-q28m,GHSA-5crj-c72x-m7gq,GHSA-5f2r-qp73-37mr,GHSA-5hj3-vjjf-f5m7,GHSA-5hx2-qx8j-qjqm,GHSA-5qw5-89mw-wcg2,GHSA-5v77-j66x-4c4g,GHSA-5w96-866f-6rm8,GHSA-5wpj-c6f7-24x8,GHSA-5xwc-mrhx-5g3m,GHSA-627q-g293-49q7,GHSA-6445-fm66-fvq2,GHSA-647v-r7qq-24fh,GHSA-64jg-wjww-7c5w,GHSA-66vq-54fq-6jvv,GHSA-67pf-62xr-q35m,GHSA-689c-r7h2-fv9v,GHSA-68v3-g9cm-rmm6,GHSA-6gmv-pjp9-p8w8,GHSA-6gv8-p3vj-pxvr,GHSA-6hg6-5c2q-7rcr,GHSA-6hpv-v2rx-c5g6,GHSA-6p5r-g9mq-ggh2,GHSA-6wfh-89q8-44jq,GHSA-6x99-gv2v-q76v,GHSA-75c9-jrh4-79mc,GHSA-762h-vpvw-3rcx,GHSA-77gp-3h4r-6428,GHSA-786j-5qwq-r36x,GHSA-79h2-q768-fpxr,GHSA-7fvx-3jfc-2cpc,GHSA-7ghq-fvr3-pj2x,GHSA-7j3m-8g3c-9qqq,GHSA-7jvm-xxmr-v5cw,GHSA-7pxj-m4jf-r6h2,GHSA-7r94-xv9v-63jw,GHSA-7v94-64hj-m82h,GHSA-7x4v-9gxg-9hwj,GHSA-7xwj-5r4v-429p,GHSA-828c-5j5q-vrjq,GHSA-84jm-4cf3-9jfm,GHSA-87v6-crgm-2gfj,GHSA-8cxv-76p7-jxwr,GHSA-8fvv-46hw-vpg3,GHSA-8jj7-5vxc-pg2q,GHSA-8r7c-3cm2-3h8f,GHSA-8rcj-c8pj-v3m3,GHSA-8w5g-3wcv-9g2j,GHSA-8wwm-6264-x792,GHSA-93vr-9q9m-pj8p,GHSA-94mm-g2mv-8p7r,GHSA-95xm-g58g-3p88,GHSA-9697-98pf-4rw7,GHSA-97p7-w86h-vcf9,GHSA-98j8-c9q4-r38g,GHSA-98p5-x8x4-c9m5,GHSA-9942-r22v-78cp,GHSA-9c78-vcq7-7vxq,GHSA-9c8h-2mv3-49ww,GHSA-9c8h-vvrj-w2p8,GHSA-9cr2-8pwr-fhfq,GHSA-9crf-c6qr-r273,GHSA-9fpg-838v-wpv7,GHSA-9gwq-6cwj-47h3,GHSA-9j4v-pp28-mxv7,GHSA-9p77-mmrw-69c7,GHSA-9px9-73fg-3fqp,GHSA-9v8w-xmr4-wgxp,GHSA-9vqj-64pv-w55c,GHSA-9w2p-5mgw-p94c,GHSA-c545-c4f9-rf6v,GHSA-c582-c96p-r5cq,GHSA-c5x2-p679-95wc,GHSA-c6fh-56w7-fvjw,GHSA-c94w-c95p-phf8,GHSA-c9qf-r67m-p7cg,GHSA-cfpj-3q4c-jhvr,GHSA-cg88-rpvp-cjv5,GHSA-cgfm-62j4-v4rf,GHSA-ch4f-829c-v5pw,GHSA-cm5x-837x-jf3c,GHSA-cmgw-8vpc-rc59,GHSA-cpf4-wx82-gxp6,GHSA-cq76-mxrc-vchh,GHSA-cqv6-3phm-hcwx,GHSA-cqvq-fvhr-v6hc,GHSA-cv2p-32v3-vhwq,GHSA-cwpm-f78v-7m5c,GHSA-f2vv-v9cg-qhh7,GHSA-f2w8-jw48-fr7j,GHSA-f49c-87jh-g47q,GHSA-f4rr-5m7v-wxcw,GHSA-f4w6-h4f5-wx45,GHSA-f54p-f6jp-4rhr,GHSA-f5cx-5wr3-5qrc,GHSA-f637-vh3r-vfh2,GHSA-f7r5-q7cx-h668,GHSA-f8h4-7rgh-q2gm,GHSA-fcwc-p4fc-c5cc,GHSA-ffjm-4qwc-7cmf,GHSA-fhfc-2q7x-929f,GHSA-fpcp-9h7m-ffpx,GHSA-fq6p-6334-8gr4,GHSA-fq86-3f29-px2c,GHSA-fqm2-gh8w-gr68,GHSA-fqxc-pvf8-2w9v,GHSA-fr77-rrx3-cp7g,GHSA-frqp-wp83-qggv,GHSA-fv25-wrff-wf86,GHSA-fv43-93gv-vm8f,GHSA-fx5c-h9f6-rv7c,GHSA-fxgc-95xx-grvq,GHSA-g25h-jr74-qp5j,GHSA-g35r-369w-3fqp,GHSA-g468-qj8g-vcjc,GHSA-g8wg-cjwc-xhhp,GHSA-g9fm-r5mm-rf9f,GHSA-g9h5-vr8m-x2h4,GHSA-gcvh-66ff-4mwm,GHSA-gf2j-f278-xh4v,GHSA-gf88-j2mg-cc82,GHSA-gf97-q72m-7579,GHSA-gh6x-4whr-2qv4,GHSA-gh8h-7j2j-qv4f,GHSA-gjh7-xx4r-x345,GHSA-gjqc-q9g6-q2j3,GHSA-gq2j-cr96-gvqx,GHSA-gw97-ff7c-9v96,GHSA-h246-cgh4-7475,GHSA-h2wq-prv9-2f56,GHSA-h48f-q7rw-hvr7,GHSA-h5g4-ppwx-48q2,GHSA-h5vq-gw2c-pq47,GHSA-h67m-xg8f-fxcf,GHSA-h6gw-r52c-724r,GHSA-h6jh-7gv5-28vg,GHSA-h6q3-vv32-2cq5,GHSA-h7ff-cfc9-wmmh,GHSA-hp4c-x6r7-6555,GHSA-hpv4-7p9c-mvfr,GHSA-hq7g-wwwp-q46h,GHSA-hrg5-737c-2p56,GHSA-hwr7-8gxx-fj5p,GHSA-hx9q-2mx4-m4pg,GHSA-j3mj-fhpq-qqjj,GHSA-j43h-pgmg-5hjq,GHSA-j5w9-hmfh-4cr6,GHSA-j86v-p27c-73fm,GHSA-j8c8-67vp-6mx7,GHSA-jjm6-4vf7-cjh4,GHSA-jq6x-99hj-q636,GHSA-jqm7-m5q7-3hm5,GHSA-jvhc-5hhr-w3v5,GHSA-jwf9-w5xm-f437,GHSA-m342-ff57-4jcc,GHSA-m4hf-j54p-p353,GHSA-m539-j985-hcr8,GHSA-m6cv-4fmf-66xf,GHSA-m6vp-8q9j-whx4,GHSA-m7fm-4jfh-jrg6,GHSA-mg66-qvc5-rm93,GHSA-mgmh-g2v6-mqw5,GHSA-mh3m-62v7-68xg,GHSA-mv77-9g28-cwg3,GHSA-mv8m-8x97-937q,GHSA-mw6j-hh29-h379,GHSA-p2xf-8hgm-hpw5,GHSA-p7hr-f446-x6qf,GHSA-p9rc-rmr5-529j,GHSA-pf36-r9c6-h97j,GHSA-pfjj-m3jj-9jc9,GHSA-pgcq-h79j-2f69,GHSA-pqhm-4wvf-2jg8,GHSA-pqrv-8r2f-7278,GHSA-prcg-wp5q-rv7p,GHSA-pxrw-j2fv-hx3h,GHSA-q2c3-jpmc-gfjx,GHSA-q3g3-h9r4-prrc,GHSA-q5jv-m6qw-5g37,GHSA-q7f7-544h-67h9,GHSA-q85f-69q7-55h2,GHSA-qfpc-5pjr-mh26,GHSA-qhw4-wwr7-gjc5,GHSA-qj5r-f9mv-rffh,GHSA-qjj8-32p7-h289,GHSA-qjqc-vqcf-5qvj,GHSA-qr82-2c78-4m8h,GHSA-qx3f-p745-w4hr,GHSA-qxpx-j395-pw36,GHSA-r26c-679w-mrjm,GHSA-r4c4-5fpq-56wg,GHSA-r6jx-9g48-2r5r,GHSA-rc9w-5c64-9vqq,GHSA-rcf8-g8jv-vg6p,GHSA-rg3m-hqc5-344v,GHSA-rh87-q4vg-m45j,GHSA-rhrq-64mq-hf9h,GHSA-rjx6-v474-2ch9,GHSA-rmg2-f698-wq35,GHSA-rrx2-r989-2c43,GHSA-rww7-2gpw-fv6j,GHSA-v3f7-j968-4h5f,GHSA-v5xg-3q2c-c2r4,GHSA-v6h3-348g-6h5x,GHSA-v768-w7m9-2vmm,GHSA-v7vw-577f-vp8x,GHSA-v82p-hv3v-p6qp,GHSA-vcjj-9vg7-vf68,GHSA-vgvh-2pf4-jr2x,GHSA-vjg4-v33c-ggc4,GHSA-vm7x-4qhj-rrcq,GHSA-vmjw-c2vp-p33c,GHSA-vwhq-49r4-gj9v,GHSA-vxv8-r8q2-63xw,GHSA-w4xf-2pqw-5mq7,GHSA-w62h-8xjm-fv49,GHSA-w74j-v8xh-3w5h,GHSA-wc4g-r73w-x8mm,GHSA-wcv5-vrvr-3rx2,GHSA-wf5p-c75w-w3wh,GHSA-wm93-f238-7v37,GHSA-wp77-4gmm-7cq8,GHSA-wq6q-6m32-9rv9,GHSA-wqmc-pm8c-2jhc,GHSA-wr9v-g9vf-c74v,GHSA-wxjj-cgcx-r3vq,GHSA-x3v8-c8qx-3j3r,GHSA-x4qx-4fjv-hmw6,GHSA-x989-q2pq-4q5x,GHSA-xf83-q765-xm6m,GHSA-xrp2-fhq4-4q3w,GHSA-xrqm-fpgr-6hhx,GHSA-xvwp-h6jv-7472,GHSA-xxcj-rhqg-m46g,PYSEC-2021-389,PYSEC-2021-390,PYSEC-2021-391,PYSEC-2021-392,PYSEC-2021-393,PYSEC-2021-394,PYSEC-2021-395,PYSEC-2021-396,PYSEC-2021-397,PYSEC-2021-398,PYSEC-2021-399,PYSEC-2021-400,PYSEC-2021-401,PYSEC-2021-402,PYSEC-2021-404,PYSEC-2021-405,PYSEC-2021-406,PYSEC-2021-407,PYSEC-2021-408,PYSEC-2021-409,PYSEC-2021-410,PYSEC-2021-411,PYSEC-2021-413,PYSEC-2021-414,PYSEC-2021-415,PYSEC-2021-416,PYSEC-2021-417,PYSEC-2021-418,PYSEC-2021-419,PYSEC-2021-420,PYSEC-2021-842,PYSEC-2021-843</data>
+    </node>
+    <node id="tensorflow-estimator@2.9.0">
+      <data key="d2">tensorflow-estimator</data>
+      <data key="d3">2.9.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="tensorflow-io-gcs-filesystem@0.26.0">
+      <data key="d2">tensorflow-io-gcs-filesystem</data>
+      <data key="d3">0.26.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="termcolor@1.1.0">
+      <data key="d2">termcolor</data>
+      <data key="d3">1.1.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="tomli@2.0.1">
+      <data key="d2">tomli</data>
+      <data key="d3">2.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="tqdm@4.64.0">
+      <data key="d2">tqdm</data>
+      <data key="d3">4.64.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-g7vv-2v7x-gj9p</data>
+    </node>
+    <node id="typing-extensions@4.2.0">
+      <data key="d2">typing-extensions</data>
+      <data key="d3">4.2.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="urllib3@1.26.9">
+      <data key="d2">urllib3</data>
+      <data key="d3">1.26.9</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-2xpw-w6gg-jr37,GHSA-34jh-p97f-mpxf,GHSA-38jv-5279-wg99,GHSA-g4mx-q9vg-27p4,GHSA-gwvm-45gx-3cf8,GHSA-mh33-7rrq-662w,GHSA-pq67-6m6q-mj2v,GHSA-r64q-w8jr-g9qp,GHSA-v845-jxx5-vc9f,GHSA-wqvq-5m8c-6g24,GHSA-www2-v7xj-xrc6,PYSEC-2018-32,PYSEC-2019-132,PYSEC-2019-133,PYSEC-2020-148,PYSEC-2021-108,PYSEC-2023-192,PYSEC-2023-207,PYSEC-2023-212,GHSA-gm62-xv2j-4w53,GHSA-q2q7-5pp4-w6pg,GHSA-48p4-8xcf-vxj5</data>
+    </node>
+    <node id="werkzeug@2.1.2">
+      <data key="d2">werkzeug</data>
+      <data key="d3">2.1.2</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-29vq-49wr-vm6x,GHSA-2g68-c3qc-8985,GHSA-87hc-h4r5-73f7,GHSA-f9vj-2wh5-fj8j,GHSA-hgf8-39gv-g3f2,GHSA-hrfv-mqp8-q5rw,GHSA-px8h-6qxv-m22q,GHSA-q34m-jh98-gwm2,GHSA-xg9f-g7g7-2323,PYSEC-2022-203,PYSEC-2023-221,PYSEC-2023-57,PYSEC-2023-58</data>
+    </node>
+    <node id="wrapt@1.14.1">
+      <data key="d2">wrapt</data>
+      <data key="d3">1.14.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="zipp@3.8.0">
+      <data key="d2">zipp</data>
+      <data key="d3">3.8.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-jfmj-5v4g-7637</data>
+    </node>
+    <edge source="absl-py@1.0.0" target="six@1.16.0" />
+    <edge source="astunparse@1.6.3" target="six@1.16.0" />
+    <edge source="black@22.3.0" target="click@8.1.3" />
+    <edge source="black@22.3.0" target="mypy-extensions@0.4.3" />
+    <edge source="black@22.3.0" target="pathspec@0.9.0" />
+    <edge source="black@22.3.0" target="platformdirs@2.5.2" />
+    <edge source="black@22.3.0" target="tomli@2.0.1" />
+    <edge source="black@22.3.0" target="typing-extensions@4.2.0" />
+    <edge source="click@8.1.3" target="colorama@0.4.4" />
+    <edge source="flake8@4.0.1" target="mccabe@0.6.1" />
+    <edge source="flake8@4.0.1" target="pycodestyle@2.8.0" />
+    <edge source="flake8@4.0.1" target="pyflakes@2.4.0" />
+    <edge source="google-auth@2.6.6" target="cachetools@5.2.0" />
+    <edge source="google-auth@2.6.6" target="pyasn1-modules@0.2.8" />
+    <edge source="google-auth@2.6.6" target="rsa@4.8" />
+    <edge source="google-auth@2.6.6" target="six@1.16.0" />
+    <edge source="google-auth-oauthlib@0.4.6" target="google-auth@2.6.6" />
+    <edge source="google-auth-oauthlib@0.4.6" target="requests-oauthlib@1.3.1" />
+    <edge source="google-pasta@0.2.0" target="six@1.16.0" />
+    <edge source="grpcio@1.46.3" target="six@1.16.0" />
+    <edge source="h5py@3.7.0" target="numpy@1.22.4" />
+    <edge source="importlib-metadata@4.11.4" target="zipp@3.8.0" />
+    <edge source="keras-preprocessing@1.1.2" target="numpy@1.22.4" />
+    <edge source="keras-preprocessing@1.1.2" target="six@1.16.0" />
+    <edge source="markdown@3.3.7" target="importlib-metadata@4.11.4" />
+    <edge source="opencv-python@4.5.5.64" target="numpy@1.22.4" />
+    <edge source="opt-einsum@3.3.0" target="numpy@1.22.4" />
+    <edge source="packaging@21.3" target="pyparsing@3.0.9" />
+    <edge source="pyasn1-modules@0.2.8" target="pyasn1@0.4.8" />
+    <edge source="pyproject-flake8@0.0.1a4" target="flake8@4.0.1" />
+    <edge source="pyproject-flake8@0.0.1a4" target="tomli@2.0.1" />
+    <edge source="requests@2.27.1" target="certifi@2022.5.18.1" />
+    <edge source="requests@2.27.1" target="charset-normalizer@2.0.12" />
+    <edge source="requests@2.27.1" target="idna@3.3" />
+    <edge source="requests@2.27.1" target="urllib3@1.26.9" />
+    <edge source="requests-oauthlib@1.3.1" target="oauthlib@3.2.0" />
+    <edge source="requests-oauthlib@1.3.1" target="requests@2.27.1" />
+    <edge source="rsa@4.8" target="pyasn1@0.4.8" />
+    <edge source="tensorboard@2.9.0" target="absl-py@1.0.0" />
+    <edge source="tensorboard@2.9.0" target="google-auth@2.6.6" />
+    <edge source="tensorboard@2.9.0" target="google-auth-oauthlib@0.4.6" />
+    <edge source="tensorboard@2.9.0" target="grpcio@1.46.3" />
+    <edge source="tensorboard@2.9.0" target="markdown@3.3.7" />
+    <edge source="tensorboard@2.9.0" target="numpy@1.22.4" />
+    <edge source="tensorboard@2.9.0" target="protobuf@3.19.4" />
+    <edge source="tensorboard@2.9.0" target="requests@2.27.1" />
+    <edge source="tensorboard@2.9.0" target="tensorboard-data-server@0.6.1" />
+    <edge source="tensorboard@2.9.0" target="tensorboard-plugin-wit@1.8.1" />
+    <edge source="tensorboard@2.9.0" target="werkzeug@2.1.2" />
+    <edge source="tensorflow@2.9.1" target="absl-py@1.0.0" />
+    <edge source="tensorflow@2.9.1" target="astunparse@1.6.3" />
+    <edge source="tensorflow@2.9.1" target="flatbuffers@1.12" />
+    <edge source="tensorflow@2.9.1" target="gast@0.4.0" />
+    <edge source="tensorflow@2.9.1" target="google-pasta@0.2.0" />
+    <edge source="tensorflow@2.9.1" target="grpcio@1.46.3" />
+    <edge source="tensorflow@2.9.1" target="h5py@3.7.0" />
+    <edge source="tensorflow@2.9.1" target="keras@2.9.0" />
+    <edge source="tensorflow@2.9.1" target="keras-preprocessing@1.1.2" />
+    <edge source="tensorflow@2.9.1" target="libclang@14.0.1" />
+    <edge source="tensorflow@2.9.1" target="numpy@1.22.4" />
+    <edge source="tensorflow@2.9.1" target="opt-einsum@3.3.0" />
+    <edge source="tensorflow@2.9.1" target="packaging@21.3" />
+    <edge source="tensorflow@2.9.1" target="protobuf@3.19.4" />
+    <edge source="tensorflow@2.9.1" target="six@1.16.0" />
+    <edge source="tensorflow@2.9.1" target="tensorboard@2.9.0" />
+    <edge source="tensorflow@2.9.1" target="tensorflow-estimator@2.9.0" />
+    <edge source="tensorflow@2.9.1" target="tensorflow-io-gcs-filesystem@0.26.0" />
+    <edge source="tensorflow@2.9.1" target="termcolor@1.1.0" />
+    <edge source="tensorflow@2.9.1" target="typing-extensions@4.2.0" />
+    <edge source="tensorflow@2.9.1" target="wrapt@1.14.1" />
+    <edge source="tqdm@4.64.0" target="colorama@0.4.4" />
+    <data key="d0">tfandkusu__splatoon2_death_docker</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="black@25.1.0">
+      <data key="d2">black</data>
+      <data key="d3">25.1.0</data>
+      <data key="d4">true</data>
+      <data key="d5">GHSA-3936-cmfr-pm3m,GHSA-fj7x-q9j7-g6q6,PYSEC-2024-48</data>
+    </node>
+    <node id="click@8.1.8">
+      <data key="d2">click</data>
+      <data key="d3">8.1.8</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="colorama@0.4.6">
+      <data key="d2">colorama</data>
+      <data key="d3">0.4.6</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="coverage@7.8.0">
+      <data key="d2">coverage</data>
+      <data key="d3">7.8.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="iniconfig@2.1.0">
+      <data key="d2">iniconfig</data>
+      <data key="d3">2.1.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="isort@6.0.1">
+      <data key="d2">isort</data>
+      <data key="d3">6.0.1</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="mypy@1.15.0">
+      <data key="d2">mypy</data>
+      <data key="d3">1.15.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="mypy-extensions@1.1.0">
+      <data key="d2">mypy-extensions</data>
+      <data key="d3">1.1.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="packaging@25.0">
+      <data key="d2">packaging</data>
+      <data key="d3">25.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="pathspec@0.12.1">
+      <data key="d2">pathspec</data>
+      <data key="d3">0.12.1</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="platformdirs@4.3.7">
+      <data key="d2">platformdirs</data>
+      <data key="d3">4.3.7</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="pluggy@1.5.0">
+      <data key="d2">pluggy</data>
+      <data key="d3">1.5.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="pytest@8.3.5">
+      <data key="d2">pytest</data>
+      <data key="d3">8.3.5</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="typing-extensions@4.13.2">
+      <data key="d2">typing-extensions</data>
+      <data key="d3">4.13.2</data>
+      <data key="d4">true</data>
+    </node>
+    <edge source="black@25.1.0" target="click@8.1.8" />
+    <edge source="black@25.1.0" target="mypy-extensions@1.1.0" />
+    <edge source="black@25.1.0" target="packaging@25.0" />
+    <edge source="black@25.1.0" target="pathspec@0.12.1" />
+    <edge source="black@25.1.0" target="platformdirs@4.3.7" />
+    <edge source="click@8.1.8" target="colorama@0.4.6" />
+    <edge source="mypy@1.15.0" target="mypy-extensions@1.1.0" />
+    <edge source="mypy@1.15.0" target="typing-extensions@4.13.2" />
+    <edge source="pytest@8.3.5" target="colorama@0.4.6" />
+    <edge source="pytest@8.3.5" target="iniconfig@2.1.0" />
+    <edge source="pytest@8.3.5" target="packaging@25.0" />
+    <edge source="pytest@8.3.5" target="pluggy@1.5.0" />
+    <data key="d0">Vikgur__product-basket-tests-english-vers</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

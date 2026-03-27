@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="black@24.10.0">
+      <data key="d2">black</data>
+      <data key="d3">24.10.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-3936-cmfr-pm3m,GHSA-fj7x-q9j7-g6q6,PYSEC-2024-48</data>
+    </node>
+    <node id="click@8.1.7">
+      <data key="d2">click</data>
+      <data key="d3">8.1.7</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="colorama@0.4.6">
+      <data key="d2">colorama</data>
+      <data key="d3">0.4.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="isort@5.13.2">
+      <data key="d2">isort</data>
+      <data key="d3">5.13.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="mypy-extensions@1.0.0">
+      <data key="d2">mypy-extensions</data>
+      <data key="d3">1.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="mysql-connector-python@9.1.0">
+      <data key="d2">mysql-connector-python</data>
+      <data key="d3">9.1.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="packaging@24.2">
+      <data key="d2">packaging</data>
+      <data key="d3">24.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pathspec@0.12.1">
+      <data key="d2">pathspec</data>
+      <data key="d3">0.12.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="platformdirs@4.3.6">
+      <data key="d2">platformdirs</data>
+      <data key="d3">4.3.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="psycopg@3.2.3">
+      <data key="d2">psycopg</data>
+      <data key="d3">3.2.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="psycopg-binary@3.2.3">
+      <data key="d2">psycopg-binary</data>
+      <data key="d3">3.2.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="tabulate@0.9.0">
+      <data key="d2">tabulate</data>
+      <data key="d3">0.9.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="typing-extensions@4.12.2">
+      <data key="d2">typing-extensions</data>
+      <data key="d3">4.12.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="tzdata@2024.2">
+      <data key="d2">tzdata</data>
+      <data key="d3">2024.2</data>
+      <data key="d4">false</data>
+    </node>
+    <edge source="black@24.10.0" target="click@8.1.7" />
+    <edge source="black@24.10.0" target="mypy-extensions@1.0.0" />
+    <edge source="black@24.10.0" target="packaging@24.2" />
+    <edge source="black@24.10.0" target="pathspec@0.12.1" />
+    <edge source="black@24.10.0" target="platformdirs@4.3.6" />
+    <edge source="click@8.1.7" target="colorama@0.4.6" />
+    <edge source="psycopg@3.2.3" target="psycopg-binary@3.2.3" />
+    <edge source="psycopg@3.2.3" target="typing-extensions@4.12.2" />
+    <edge source="psycopg@3.2.3" target="tzdata@2024.2" />
+    <data key="d0">yktakaha4__rdb-lock-newbie</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

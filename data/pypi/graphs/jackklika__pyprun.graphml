@@ -1,0 +1,229 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="anyio@3.7.1">
+      <data key="d2">anyio</data>
+      <data key="d3">3.7.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="black@23.7.0">
+      <data key="d2">black</data>
+      <data key="d3">23.7.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-3936-cmfr-pm3m,GHSA-fj7x-q9j7-g6q6,PYSEC-2024-48</data>
+    </node>
+    <node id="certifi@2023.5.7">
+      <data key="d2">certifi</data>
+      <data key="d3">2023.5.7</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-43fp-rhv2-5gv8,GHSA-xqr8-7jwr-rhp7,PYSEC-2022-42986,PYSEC-2023-135,GHSA-248v-346w-9cwc,PYSEC-2024-230</data>
+    </node>
+    <node id="click@8.1.5">
+      <data key="d2">click</data>
+      <data key="d3">8.1.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="colorama@0.4.6">
+      <data key="d2">colorama</data>
+      <data key="d3">0.4.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="exceptiongroup@1.1.2">
+      <data key="d2">exceptiongroup</data>
+      <data key="d3">1.1.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="h11@0.14.0">
+      <data key="d2">h11</data>
+      <data key="d3">0.14.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-vqfr-h8mv-ghfj</data>
+    </node>
+    <node id="httpcore@0.17.3">
+      <data key="d2">httpcore</data>
+      <data key="d3">0.17.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="httpx@0.24.1">
+      <data key="d2">httpx</data>
+      <data key="d3">0.24.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="idna@3.4">
+      <data key="d2">idna</data>
+      <data key="d3">3.4</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-jjg7-2v4v-x38h,PYSEC-2024-60</data>
+    </node>
+    <node id="importlib-metadata@6.8.0">
+      <data key="d2">importlib-metadata</data>
+      <data key="d3">6.8.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="multimethod@1.9.1">
+      <data key="d2">multimethod</data>
+      <data key="d3">1.9.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="mypy-extensions@1.0.0">
+      <data key="d2">mypy-extensions</data>
+      <data key="d3">1.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="numpy@1.25.1">
+      <data key="d2">numpy</data>
+      <data key="d3">1.25.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-6p56-wp2h-9hxr,GHSA-fpfv-jqm9-f5jm</data>
+    </node>
+    <node id="packaging@23.1">
+      <data key="d2">packaging</data>
+      <data key="d3">23.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pandas@2.0.3">
+      <data key="d2">pandas</data>
+      <data key="d3">2.0.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pandera@0.16.0">
+      <data key="d2">pandera</data>
+      <data key="d3">0.16.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pathspec@0.11.1">
+      <data key="d2">pathspec</data>
+      <data key="d3">0.11.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="platformdirs@3.9.1">
+      <data key="d2">platformdirs</data>
+      <data key="d3">3.9.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="py4j@0.10.9.7">
+      <data key="d2">py4j</data>
+      <data key="d3">0.10.9.7</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pydantic@1.10.11">
+      <data key="d2">pydantic</data>
+      <data key="d3">1.10.11</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-mr82-8j83-vxmv</data>
+    </node>
+    <node id="pyspark@3.4.1">
+      <data key="d2">pyspark</data>
+      <data key="d3">3.4.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="python-dateutil@2.8.2">
+      <data key="d2">python-dateutil</data>
+      <data key="d3">2.8.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pytz@2023.3">
+      <data key="d2">pytz</data>
+      <data key="d3">2023.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="ruff@0.0.278">
+      <data key="d2">ruff</data>
+      <data key="d3">0.0.278</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="six@1.16.0">
+      <data key="d2">six</data>
+      <data key="d3">1.16.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="sniffio@1.3.0">
+      <data key="d2">sniffio</data>
+      <data key="d3">1.3.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="tomli@2.0.1">
+      <data key="d2">tomli</data>
+      <data key="d3">2.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="typeguard@4.0.0">
+      <data key="d2">typeguard</data>
+      <data key="d3">4.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="typing-extensions@4.7.1">
+      <data key="d2">typing-extensions</data>
+      <data key="d3">4.7.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="typing-inspect@0.9.0">
+      <data key="d2">typing-inspect</data>
+      <data key="d3">0.9.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="tzdata@2023.3">
+      <data key="d2">tzdata</data>
+      <data key="d3">2023.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="wrapt@1.15.0">
+      <data key="d2">wrapt</data>
+      <data key="d3">1.15.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="zipp@3.16.2">
+      <data key="d2">zipp</data>
+      <data key="d3">3.16.2</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-jfmj-5v4g-7637</data>
+    </node>
+    <edge source="anyio@3.7.1" target="exceptiongroup@1.1.2" />
+    <edge source="anyio@3.7.1" target="idna@3.4" />
+    <edge source="anyio@3.7.1" target="sniffio@1.3.0" />
+    <edge source="black@23.7.0" target="click@8.1.5" />
+    <edge source="black@23.7.0" target="mypy-extensions@1.0.0" />
+    <edge source="black@23.7.0" target="packaging@23.1" />
+    <edge source="black@23.7.0" target="pathspec@0.11.1" />
+    <edge source="black@23.7.0" target="platformdirs@3.9.1" />
+    <edge source="black@23.7.0" target="tomli@2.0.1" />
+    <edge source="black@23.7.0" target="typing-extensions@4.7.1" />
+    <edge source="click@8.1.5" target="colorama@0.4.6" />
+    <edge source="httpcore@0.17.3" target="anyio@3.7.1" />
+    <edge source="httpcore@0.17.3" target="certifi@2023.5.7" />
+    <edge source="httpcore@0.17.3" target="h11@0.14.0" />
+    <edge source="httpcore@0.17.3" target="sniffio@1.3.0" />
+    <edge source="httpx@0.24.1" target="certifi@2023.5.7" />
+    <edge source="httpx@0.24.1" target="httpcore@0.17.3" />
+    <edge source="httpx@0.24.1" target="idna@3.4" />
+    <edge source="httpx@0.24.1" target="sniffio@1.3.0" />
+    <edge source="importlib-metadata@6.8.0" target="zipp@3.16.2" />
+    <edge source="pandas@2.0.3" target="numpy@1.25.1" />
+    <edge source="pandas@2.0.3" target="python-dateutil@2.8.2" />
+    <edge source="pandas@2.0.3" target="pytz@2023.3" />
+    <edge source="pandas@2.0.3" target="tzdata@2023.3" />
+    <edge source="pandera@0.16.0" target="multimethod@1.9.1" />
+    <edge source="pandera@0.16.0" target="numpy@1.25.1" />
+    <edge source="pandera@0.16.0" target="packaging@23.1" />
+    <edge source="pandera@0.16.0" target="pandas@2.0.3" />
+    <edge source="pandera@0.16.0" target="pydantic@1.10.11" />
+    <edge source="pandera@0.16.0" target="typeguard@4.0.0" />
+    <edge source="pandera@0.16.0" target="typing-inspect@0.9.0" />
+    <edge source="pandera@0.16.0" target="wrapt@1.15.0" />
+    <edge source="pydantic@1.10.11" target="typing-extensions@4.7.1" />
+    <edge source="pyspark@3.4.1" target="py4j@0.10.9.7" />
+    <edge source="python-dateutil@2.8.2" target="six@1.16.0" />
+    <edge source="typeguard@4.0.0" target="importlib-metadata@6.8.0" />
+    <edge source="typeguard@4.0.0" target="typing-extensions@4.7.1" />
+    <edge source="typing-inspect@0.9.0" target="mypy-extensions@1.0.0" />
+    <edge source="typing-inspect@0.9.0" target="typing-extensions@4.7.1" />
+    <data key="d0">jackklika__pyprun</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

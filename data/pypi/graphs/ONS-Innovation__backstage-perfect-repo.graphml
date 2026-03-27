@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="bandit@1.8.5">
+      <data key="d2">bandit</data>
+      <data key="d3">1.8.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="colorama@0.4.6">
+      <data key="d2">colorama</data>
+      <data key="d3">0.4.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="coverage@7.9.1">
+      <data key="d2">coverage</data>
+      <data key="d3">7.9.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="exceptiongroup@1.3.0">
+      <data key="d2">exceptiongroup</data>
+      <data key="d3">1.3.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="execnet@2.1.1">
+      <data key="d2">execnet</data>
+      <data key="d3">2.1.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="iniconfig@2.1.0">
+      <data key="d2">iniconfig</data>
+      <data key="d3">2.1.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="markdown-it-py@3.0.0">
+      <data key="d2">markdown-it-py</data>
+      <data key="d3">3.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="mdurl@0.1.2">
+      <data key="d2">mdurl</data>
+      <data key="d3">0.1.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="numpy@2.2.6">
+      <data key="d2">numpy</data>
+      <data key="d3">2.2.6</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-6p56-wp2h-9hxr,GHSA-fpfv-jqm9-f5jm</data>
+    </node>
+    <node id="numpy@2.3.1">
+      <data key="d2">numpy</data>
+      <data key="d3">2.3.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-6p56-wp2h-9hxr,GHSA-fpfv-jqm9-f5jm</data>
+    </node>
+    <node id="packaging@25.0">
+      <data key="d2">packaging</data>
+      <data key="d3">25.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pandas@2.3.0">
+      <data key="d2">pandas</data>
+      <data key="d3">2.3.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pbr@6.1.1">
+      <data key="d2">pbr</data>
+      <data key="d3">6.1.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pluggy@1.6.0">
+      <data key="d2">pluggy</data>
+      <data key="d3">1.6.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pygments@2.19.2">
+      <data key="d2">pygments</data>
+      <data key="d3">2.19.2</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-5239-wwwm-4pmq,GHSA-mrwq-x4v8-fh7p,PYSEC-2023-117,GHSA-9w8r-397f-prfh,GHSA-pq64-v7f5-gqh8,PYSEC-2021-140,PYSEC-2021-141</data>
+    </node>
+    <node id="pytest@8.4.1">
+      <data key="d2">pytest</data>
+      <data key="d3">8.4.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pytest-cov@6.2.1">
+      <data key="d2">pytest-cov</data>
+      <data key="d3">6.2.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pytest-xdist@3.7.0">
+      <data key="d2">pytest-xdist</data>
+      <data key="d3">3.7.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="python-dateutil@2.9.0.post0">
+      <data key="d2">python-dateutil</data>
+      <data key="d3">2.9.0.post0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pytz@2025.2">
+      <data key="d2">pytz</data>
+      <data key="d3">2025.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyyaml@6.0.2">
+      <data key="d2">pyyaml</data>
+      <data key="d3">6.0.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="rich@14.0.0">
+      <data key="d2">rich</data>
+      <data key="d3">14.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="ruff@0.12.1">
+      <data key="d2">ruff</data>
+      <data key="d3">0.12.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="setuptools@80.9.0">
+      <data key="d2">setuptools</data>
+      <data key="d3">80.9.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-5rjg-fvgr-3xxf,GHSA-cx63-2mw6-8hw5,GHSA-r9hx-vwmv-q579,PYSEC-2022-43012,PYSEC-2025-49</data>
+    </node>
+    <node id="six@1.17.0">
+      <data key="d2">six</data>
+      <data key="d3">1.17.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="stevedore@5.4.1">
+      <data key="d2">stevedore</data>
+      <data key="d3">5.4.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="tomli@2.2.1">
+      <data key="d2">tomli</data>
+      <data key="d3">2.2.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="typing-extensions@4.14.0">
+      <data key="d2">typing-extensions</data>
+      <data key="d3">4.14.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="tzdata@2025.2">
+      <data key="d2">tzdata</data>
+      <data key="d3">2025.2</data>
+      <data key="d4">false</data>
+    </node>
+    <edge source="bandit@1.8.5" target="colorama@0.4.6" />
+    <edge source="bandit@1.8.5" target="pyyaml@6.0.2" />
+    <edge source="bandit@1.8.5" target="rich@14.0.0" />
+    <edge source="bandit@1.8.5" target="stevedore@5.4.1" />
+    <edge source="coverage@7.9.1" target="tomli@2.2.1" />
+    <edge source="exceptiongroup@1.3.0" target="typing-extensions@4.14.0" />
+    <edge source="markdown-it-py@3.0.0" target="mdurl@0.1.2" />
+    <edge source="pandas@2.3.0" target="numpy@2.3.1" />
+    <edge source="pandas@2.3.0" target="python-dateutil@2.9.0.post0" />
+    <edge source="pandas@2.3.0" target="pytz@2025.2" />
+    <edge source="pandas@2.3.0" target="tzdata@2025.2" />
+    <edge source="pbr@6.1.1" target="setuptools@80.9.0" />
+    <edge source="pytest@8.4.1" target="colorama@0.4.6" />
+    <edge source="pytest@8.4.1" target="exceptiongroup@1.3.0" />
+    <edge source="pytest@8.4.1" target="iniconfig@2.1.0" />
+    <edge source="pytest@8.4.1" target="packaging@25.0" />
+    <edge source="pytest@8.4.1" target="pluggy@1.6.0" />
+    <edge source="pytest@8.4.1" target="pygments@2.19.2" />
+    <edge source="pytest@8.4.1" target="tomli@2.2.1" />
+    <edge source="pytest-cov@6.2.1" target="coverage@7.9.1" />
+    <edge source="pytest-cov@6.2.1" target="pluggy@1.6.0" />
+    <edge source="pytest-cov@6.2.1" target="pytest@8.4.1" />
+    <edge source="pytest-xdist@3.7.0" target="execnet@2.1.1" />
+    <edge source="pytest-xdist@3.7.0" target="pytest@8.4.1" />
+    <edge source="python-dateutil@2.9.0.post0" target="six@1.17.0" />
+    <edge source="rich@14.0.0" target="markdown-it-py@3.0.0" />
+    <edge source="rich@14.0.0" target="pygments@2.19.2" />
+    <edge source="rich@14.0.0" target="typing-extensions@4.14.0" />
+    <edge source="stevedore@5.4.1" target="pbr@6.1.1" />
+    <data key="d0">ONS-Innovation__backstage-perfect-repo</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

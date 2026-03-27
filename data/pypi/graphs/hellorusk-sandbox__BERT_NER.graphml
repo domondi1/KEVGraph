@@ -1,0 +1,237 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="certifi@2020.12.5">
+      <data key="d2">certifi</data>
+      <data key="d3">2020.12.5</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-43fp-rhv2-5gv8,GHSA-xqr8-7jwr-rhp7,PYSEC-2022-42986,PYSEC-2023-135,GHSA-248v-346w-9cwc,PYSEC-2024-230</data>
+    </node>
+    <node id="chardet@4.0.0">
+      <data key="d2">chardet</data>
+      <data key="d3">4.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="click@7.1.2">
+      <data key="d2">click</data>
+      <data key="d3">7.1.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="datasets@1.5.0">
+      <data key="d2">datasets</data>
+      <data key="d3">1.5.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="dill@0.3.3">
+      <data key="d2">dill</data>
+      <data key="d3">0.3.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="filelock@3.0.12">
+      <data key="d2">filelock</data>
+      <data key="d3">3.0.12</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-qmgc-5h2g-mvrw,GHSA-w853-jp5j-5j7f</data>
+    </node>
+    <node id="fsspec@0.8.7">
+      <data key="d2">fsspec</data>
+      <data key="d3">0.8.7</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="huggingface-hub@0.0.7">
+      <data key="d2">huggingface-hub</data>
+      <data key="d3">0.0.7</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="idna@2.10">
+      <data key="d2">idna</data>
+      <data key="d3">2.10</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-jjg7-2v4v-x38h,PYSEC-2024-60</data>
+    </node>
+    <node id="joblib@1.0.1">
+      <data key="d2">joblib</data>
+      <data key="d3">1.0.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-6hrg-qmvc-2xh8,PYSEC-2022-288</data>
+    </node>
+    <node id="multiprocess@0.70.11.1">
+      <data key="d2">multiprocess</data>
+      <data key="d3">0.70.11.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="numpy@1.20.1">
+      <data key="d2">numpy</data>
+      <data key="d3">1.20.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-6p56-wp2h-9hxr,GHSA-fpfv-jqm9-f5jm</data>
+    </node>
+    <node id="packaging@20.9">
+      <data key="d2">packaging</data>
+      <data key="d3">20.9</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pandas@1.2.3">
+      <data key="d2">pandas</data>
+      <data key="d3">1.2.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyarrow@3.0.0">
+      <data key="d2">pyarrow</data>
+      <data key="d3">3.0.0</data>
+      <data key="d4">false</data>
+      <data key="d5">PYSEC-2024-161,GHSA-5wvp-7f3h-6wmm,PYSEC-2023-238</data>
+    </node>
+    <node id="pyparsing@2.4.7">
+      <data key="d2">pyparsing</data>
+      <data key="d3">2.4.7</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="python-dateutil@2.8.1">
+      <data key="d2">python-dateutil</data>
+      <data key="d3">2.8.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pytz@2021.1">
+      <data key="d2">pytz</data>
+      <data key="d3">2021.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="regex@2021.3.17">
+      <data key="d2">regex</data>
+      <data key="d3">2021.3.17</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="requests@2.25.1">
+      <data key="d2">requests</data>
+      <data key="d3">2.25.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-9hjg-9r4m-mvj7,GHSA-9wx4-h78v-vm56,GHSA-gc5v-m9x4-r6x2,GHSA-j8r2-6x86-q33q,GHSA-x84v-xcm2-53pg,PYSEC-2018-28,PYSEC-2023-74</data>
+    </node>
+    <node id="sacremoses@0.0.43">
+      <data key="d2">sacremoses</data>
+      <data key="d3">0.0.43</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="scikit-learn@0.24.1">
+      <data key="d2">scikit-learn</data>
+      <data key="d3">0.24.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-jw8x-6495-233v,GHSA-jxfp-4rvq-9h9m,PYSEC-2024-110</data>
+    </node>
+    <node id="scipy@1.6.1">
+      <data key="d2">scipy</data>
+      <data key="d3">1.6.1</data>
+      <data key="d4">false</data>
+      <data key="d5">PYSEC-2023-102,PYSEC-2023-114</data>
+    </node>
+    <node id="seqeval@1.2.2">
+      <data key="d2">seqeval</data>
+      <data key="d3">1.2.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="six@1.15.0">
+      <data key="d2">six</data>
+      <data key="d3">1.15.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="threadpoolctl@2.1.0">
+      <data key="d2">threadpoolctl</data>
+      <data key="d3">2.1.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="tokenizers@0.10.1">
+      <data key="d2">tokenizers</data>
+      <data key="d3">0.10.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="torch@1.8.0">
+      <data key="d2">torch</data>
+      <data key="d3">1.8.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-3749-ghw9-m3mg,GHSA-47fc-vmwq-366v,GHSA-53q9-r3pm-6pq6,GHSA-5pcm-hx3q-hm94,GHSA-887c-mr87-cxwp,GHSA-pg7h-5qx3-wjr3,PYSEC-2022-43015,PYSEC-2024-250,PYSEC-2024-251,PYSEC-2024-252,PYSEC-2024-259,PYSEC-2025-41</data>
+    </node>
+    <node id="tqdm@4.49.0">
+      <data key="d2">tqdm</data>
+      <data key="d3">4.49.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-g7vv-2v7x-gj9p</data>
+    </node>
+    <node id="transformers@4.4.2">
+      <data key="d2">transformers</data>
+      <data key="d3">4.4.2</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-282v-666c-3fvg,GHSA-37mw-44qp-f5jm,GHSA-37q5-v5qm-c9v8,GHSA-3863-2447-669p,GHSA-4w7r-h757-3r74,GHSA-59p9-h35m-wg4g,GHSA-6rvg-6v2m-4j46,GHSA-9356-575x-2w9m,GHSA-fpwr-67px-3qhx,GHSA-hxxf-235m-72v3,GHSA-jjph-296x-mrcr,GHSA-phhr-52qp-3mj4,GHSA-q2wp-rjmx-x6x9,GHSA-qq3j-4f4f-9583,GHSA-qxrp-vhvm-j765,GHSA-rcv9-qm8p-9p6j,GHSA-v68g-wm8c-6x7j,GHSA-wrfc-pvp9-mr9g,PYSEC-2023-299,PYSEC-2023-300,PYSEC-2023-301,PYSEC-2024-227,PYSEC-2024-228,PYSEC-2024-229,PYSEC-2025-40</data>
+    </node>
+    <node id="typing-extensions@3.7.4.3">
+      <data key="d2">typing-extensions</data>
+      <data key="d3">3.7.4.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="urllib3@1.26.4">
+      <data key="d2">urllib3</data>
+      <data key="d3">1.26.4</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-2xpw-w6gg-jr37,GHSA-34jh-p97f-mpxf,GHSA-38jv-5279-wg99,GHSA-g4mx-q9vg-27p4,GHSA-gwvm-45gx-3cf8,GHSA-mh33-7rrq-662w,GHSA-pq67-6m6q-mj2v,GHSA-r64q-w8jr-g9qp,GHSA-v845-jxx5-vc9f,GHSA-wqvq-5m8c-6g24,GHSA-www2-v7xj-xrc6,PYSEC-2018-32,PYSEC-2019-132,PYSEC-2019-133,PYSEC-2020-148,PYSEC-2021-108,PYSEC-2023-192,PYSEC-2023-207,PYSEC-2023-212,GHSA-gm62-xv2j-4w53,GHSA-q2q7-5pp4-w6pg,GHSA-48p4-8xcf-vxj5</data>
+    </node>
+    <node id="xxhash@2.0.0">
+      <data key="d2">xxhash</data>
+      <data key="d3">2.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <edge source="datasets@1.5.0" target="dill@0.3.3" />
+    <edge source="datasets@1.5.0" target="fsspec@0.8.7" />
+    <edge source="datasets@1.5.0" target="huggingface-hub@0.0.7" />
+    <edge source="datasets@1.5.0" target="multiprocess@0.70.11.1" />
+    <edge source="datasets@1.5.0" target="numpy@1.20.1" />
+    <edge source="datasets@1.5.0" target="pandas@1.2.3" />
+    <edge source="datasets@1.5.0" target="pyarrow@3.0.0" />
+    <edge source="datasets@1.5.0" target="requests@2.25.1" />
+    <edge source="datasets@1.5.0" target="tqdm@4.49.0" />
+    <edge source="datasets@1.5.0" target="xxhash@2.0.0" />
+    <edge source="huggingface-hub@0.0.7" target="filelock@3.0.12" />
+    <edge source="huggingface-hub@0.0.7" target="requests@2.25.1" />
+    <edge source="huggingface-hub@0.0.7" target="tqdm@4.49.0" />
+    <edge source="multiprocess@0.70.11.1" target="dill@0.3.3" />
+    <edge source="packaging@20.9" target="pyparsing@2.4.7" />
+    <edge source="pandas@1.2.3" target="numpy@1.20.1" />
+    <edge source="pandas@1.2.3" target="python-dateutil@2.8.1" />
+    <edge source="pandas@1.2.3" target="pytz@2021.1" />
+    <edge source="pyarrow@3.0.0" target="numpy@1.20.1" />
+    <edge source="python-dateutil@2.8.1" target="six@1.15.0" />
+    <edge source="requests@2.25.1" target="certifi@2020.12.5" />
+    <edge source="requests@2.25.1" target="chardet@4.0.0" />
+    <edge source="requests@2.25.1" target="idna@2.10" />
+    <edge source="requests@2.25.1" target="urllib3@1.26.4" />
+    <edge source="sacremoses@0.0.43" target="click@7.1.2" />
+    <edge source="sacremoses@0.0.43" target="joblib@1.0.1" />
+    <edge source="sacremoses@0.0.43" target="regex@2021.3.17" />
+    <edge source="sacremoses@0.0.43" target="six@1.15.0" />
+    <edge source="sacremoses@0.0.43" target="tqdm@4.49.0" />
+    <edge source="scikit-learn@0.24.1" target="joblib@1.0.1" />
+    <edge source="scikit-learn@0.24.1" target="numpy@1.20.1" />
+    <edge source="scikit-learn@0.24.1" target="scipy@1.6.1" />
+    <edge source="scikit-learn@0.24.1" target="threadpoolctl@2.1.0" />
+    <edge source="scipy@1.6.1" target="numpy@1.20.1" />
+    <edge source="seqeval@1.2.2" target="numpy@1.20.1" />
+    <edge source="seqeval@1.2.2" target="scikit-learn@0.24.1" />
+    <edge source="torch@1.8.0" target="numpy@1.20.1" />
+    <edge source="torch@1.8.0" target="typing-extensions@3.7.4.3" />
+    <edge source="transformers@4.4.2" target="filelock@3.0.12" />
+    <edge source="transformers@4.4.2" target="numpy@1.20.1" />
+    <edge source="transformers@4.4.2" target="packaging@20.9" />
+    <edge source="transformers@4.4.2" target="regex@2021.3.17" />
+    <edge source="transformers@4.4.2" target="requests@2.25.1" />
+    <edge source="transformers@4.4.2" target="sacremoses@0.0.43" />
+    <edge source="transformers@4.4.2" target="tokenizers@0.10.1" />
+    <edge source="transformers@4.4.2" target="tqdm@4.49.0" />
+    <data key="d0">hellorusk-sandbox__BERT_NER</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

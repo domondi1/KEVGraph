@@ -1,0 +1,474 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="aiofiles@23.2.1">
+      <data key="d2">aiofiles</data>
+      <data key="d3">23.2.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="aiosmtplib@2.0.2">
+      <data key="d2">aiosmtplib</data>
+      <data key="d3">2.0.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="alembic@1.12.0">
+      <data key="d2">alembic</data>
+      <data key="d3">1.12.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="anyio@4.0.0">
+      <data key="d2">anyio</data>
+      <data key="d3">4.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="babel@2.12.1">
+      <data key="d2">babel</data>
+      <data key="d3">2.12.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="bcrypt@4.0.1">
+      <data key="d2">bcrypt</data>
+      <data key="d3">4.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="black@23.9.1">
+      <data key="d2">black</data>
+      <data key="d3">23.9.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-3936-cmfr-pm3m,GHSA-fj7x-q9j7-g6q6,PYSEC-2024-48</data>
+    </node>
+    <node id="blinker@1.6.2">
+      <data key="d2">blinker</data>
+      <data key="d3">1.6.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="cachetools@5.3.1">
+      <data key="d2">cachetools</data>
+      <data key="d3">5.3.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="certifi@2023.7.22">
+      <data key="d2">certifi</data>
+      <data key="d3">2023.7.22</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-43fp-rhv2-5gv8,GHSA-xqr8-7jwr-rhp7,PYSEC-2022-42986,PYSEC-2023-135,GHSA-248v-346w-9cwc,PYSEC-2024-230</data>
+    </node>
+    <node id="charset-normalizer@3.3.0">
+      <data key="d2">charset-normalizer</data>
+      <data key="d3">3.3.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="click@8.1.7">
+      <data key="d2">click</data>
+      <data key="d3">8.1.7</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="colorama@0.4.6">
+      <data key="d2">colorama</data>
+      <data key="d3">0.4.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="dnspython@2.4.2">
+      <data key="d2">dnspython</data>
+      <data key="d3">2.4.2</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-3rq5-2g8h-59hc</data>
+    </node>
+    <node id="email-validator@1.3.1">
+      <data key="d2">email-validator</data>
+      <data key="d3">1.3.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="exceptiongroup@1.1.3">
+      <data key="d2">exceptiongroup</data>
+      <data key="d3">1.1.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="fastapi@0.95.2">
+      <data key="d2">fastapi</data>
+      <data key="d3">0.95.2</data>
+      <data key="d4">false</data>
+      <data key="d5">PYSEC-2024-38,GHSA-8h2j-cgx8-6xv7,PYSEC-2021-100</data>
+    </node>
+    <node id="fastapi-mail@1.3.1">
+      <data key="d2">fastapi-mail</data>
+      <data key="d3">1.3.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="fastapi-pagination@0.12.10">
+      <data key="d2">fastapi-pagination</data>
+      <data key="d3">0.12.10</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="flake8@6.1.0">
+      <data key="d2">flake8</data>
+      <data key="d3">6.1.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="google-api-core@2.12.0">
+      <data key="d2">google-api-core</data>
+      <data key="d3">2.12.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="google-auth@2.23.2">
+      <data key="d2">google-auth</data>
+      <data key="d3">2.23.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="google-cloud-core@2.3.3">
+      <data key="d2">google-cloud-core</data>
+      <data key="d3">2.3.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="google-cloud-storage@2.11.0">
+      <data key="d2">google-cloud-storage</data>
+      <data key="d3">2.11.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="google-crc32c@1.5.0">
+      <data key="d2">google-crc32c</data>
+      <data key="d3">1.5.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="google-resumable-media@2.6.0">
+      <data key="d2">google-resumable-media</data>
+      <data key="d3">2.6.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="googleapis-common-protos@1.60.0">
+      <data key="d2">googleapis-common-protos</data>
+      <data key="d3">1.60.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="greenlet@3.0.0">
+      <data key="d2">greenlet</data>
+      <data key="d3">3.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="h11@0.14.0">
+      <data key="d2">h11</data>
+      <data key="d3">0.14.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-vqfr-h8mv-ghfj</data>
+    </node>
+    <node id="httptools@0.6.0">
+      <data key="d2">httptools</data>
+      <data key="d3">0.6.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="idna@3.4">
+      <data key="d2">idna</data>
+      <data key="d3">3.4</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-jjg7-2v4v-x38h,PYSEC-2024-60</data>
+    </node>
+    <node id="isort@5.12.0">
+      <data key="d2">isort</data>
+      <data key="d3">5.12.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="jinja2@3.1.2">
+      <data key="d2">jinja2</data>
+      <data key="d3">3.1.2</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-cpwx-vrp4-4pq7,GHSA-g3rq-g295-4j3m,GHSA-h5c8-rqwp-cp95,GHSA-h75v-3vvj-5mfj,GHSA-q2x7-8rv6-6q7h,PYSEC-2021-66,GHSA-gmj6-6f8f-6699</data>
+    </node>
+    <node id="mako@1.2.4">
+      <data key="d2">mako</data>
+      <data key="d3">1.2.4</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-v973-fxgf-6xhp,PYSEC-2022-260</data>
+    </node>
+    <node id="markupsafe@2.1.3">
+      <data key="d2">markupsafe</data>
+      <data key="d3">2.1.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="mccabe@0.7.0">
+      <data key="d2">mccabe</data>
+      <data key="d3">0.7.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="mypy@1.5.1">
+      <data key="d2">mypy</data>
+      <data key="d3">1.5.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="mypy-extensions@1.0.0">
+      <data key="d2">mypy-extensions</data>
+      <data key="d3">1.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="packaging@23.2">
+      <data key="d2">packaging</data>
+      <data key="d3">23.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="passlib@1.7.4">
+      <data key="d2">passlib</data>
+      <data key="d3">1.7.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pathspec@0.11.2">
+      <data key="d2">pathspec</data>
+      <data key="d3">0.11.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="platformdirs@3.11.0">
+      <data key="d2">platformdirs</data>
+      <data key="d3">3.11.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="protobuf@4.24.3">
+      <data key="d2">protobuf</data>
+      <data key="d3">4.24.3</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-7gcm-g887-7qv7,GHSA-8gq9-2x98-w8hf,GHSA-8qvm-5x2c-j2w7</data>
+    </node>
+    <node id="psycopg@3.1.12">
+      <data key="d2">psycopg</data>
+      <data key="d3">3.1.12</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="psycopg-binary@3.1.12">
+      <data key="d2">psycopg-binary</data>
+      <data key="d3">3.1.12</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyasn1@0.5.0">
+      <data key="d2">pyasn1</data>
+      <data key="d3">0.5.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-jr27-m4p2-rc6r,GHSA-63vm-454h-vhhq</data>
+    </node>
+    <node id="pyasn1-modules@0.3.0">
+      <data key="d2">pyasn1-modules</data>
+      <data key="d3">0.3.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pycodestyle@2.11.0">
+      <data key="d2">pycodestyle</data>
+      <data key="d3">2.11.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pydantic@1.10.13">
+      <data key="d2">pydantic</data>
+      <data key="d3">1.10.13</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-mr82-8j83-vxmv</data>
+    </node>
+    <node id="pyflakes@3.1.0">
+      <data key="d2">pyflakes</data>
+      <data key="d3">3.1.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="python-dateutil@2.8.2">
+      <data key="d2">python-dateutil</data>
+      <data key="d3">2.8.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="python-dotenv@1.0.0">
+      <data key="d2">python-dotenv</data>
+      <data key="d3">1.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="python-multipart@0.0.6">
+      <data key="d2">python-multipart</data>
+      <data key="d3">0.0.6</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-2jv5-9r88-3w3p,GHSA-59g5-xgcq-4qw3,GHSA-wp53-j4wj-2cfg</data>
+    </node>
+    <node id="pyyaml@6.0.1">
+      <data key="d2">pyyaml</data>
+      <data key="d3">6.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="requests@2.31.0">
+      <data key="d2">requests</data>
+      <data key="d3">2.31.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-9hjg-9r4m-mvj7,GHSA-9wx4-h78v-vm56,GHSA-gc5v-m9x4-r6x2,GHSA-j8r2-6x86-q33q,GHSA-x84v-xcm2-53pg,PYSEC-2018-28,PYSEC-2023-74</data>
+    </node>
+    <node id="rsa@4.9">
+      <data key="d2">rsa</data>
+      <data key="d3">4.9</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-xrx6-fmxq-rjj2,PYSEC-2020-100</data>
+    </node>
+    <node id="six@1.16.0">
+      <data key="d2">six</data>
+      <data key="d3">1.16.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="sniffio@1.3.0">
+      <data key="d2">sniffio</data>
+      <data key="d3">1.3.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="sqlakeyset@2.0.1695177552">
+      <data key="d2">sqlakeyset</data>
+      <data key="d3">2.0.1695177552</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="sqlalchemy@2.0.21">
+      <data key="d2">sqlalchemy</data>
+      <data key="d3">2.0.21</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="sqlalchemy-easy-softdelete@0.8.3">
+      <data key="d2">sqlalchemy-easy-softdelete</data>
+      <data key="d3">0.8.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="sqlalchemy-utils@0.41.1">
+      <data key="d2">sqlalchemy-utils</data>
+      <data key="d3">0.41.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="starlette@0.27.0">
+      <data key="d2">starlette</data>
+      <data key="d3">0.27.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-2c2j-9gv5-cj73,GHSA-74m5-2c7w-9w3x,GHSA-f96h-pmfr-66vw,GHSA-v5gw-mw7f-84px,PYSEC-2023-48,PYSEC-2023-83,GHSA-7f5h-v6xp-fcq8</data>
+    </node>
+    <node id="starlette-context@0.3.6">
+      <data key="d2">starlette-context</data>
+      <data key="d3">0.3.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="tomli@2.0.1">
+      <data key="d2">tomli</data>
+      <data key="d3">2.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="typing-extensions@4.8.0">
+      <data key="d2">typing-extensions</data>
+      <data key="d3">4.8.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="tzdata@2023.3">
+      <data key="d2">tzdata</data>
+      <data key="d3">2023.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="urllib3@2.0.6">
+      <data key="d2">urllib3</data>
+      <data key="d3">2.0.6</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-2xpw-w6gg-jr37,GHSA-34jh-p97f-mpxf,GHSA-38jv-5279-wg99,GHSA-g4mx-q9vg-27p4,GHSA-gwvm-45gx-3cf8,GHSA-mh33-7rrq-662w,GHSA-pq67-6m6q-mj2v,GHSA-r64q-w8jr-g9qp,GHSA-v845-jxx5-vc9f,GHSA-wqvq-5m8c-6g24,GHSA-www2-v7xj-xrc6,PYSEC-2018-32,PYSEC-2019-132,PYSEC-2019-133,PYSEC-2020-148,PYSEC-2021-108,PYSEC-2023-192,PYSEC-2023-207,PYSEC-2023-212,GHSA-gm62-xv2j-4w53,GHSA-q2q7-5pp4-w6pg,GHSA-48p4-8xcf-vxj5</data>
+    </node>
+    <node id="uvicorn@0.21.1">
+      <data key="d2">uvicorn</data>
+      <data key="d3">0.21.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="uvloop@0.17.0">
+      <data key="d2">uvloop</data>
+      <data key="d3">0.17.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="watchfiles@0.20.0">
+      <data key="d2">watchfiles</data>
+      <data key="d3">0.20.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="websockets@11.0.3">
+      <data key="d2">websockets</data>
+      <data key="d3">11.0.3</data>
+      <data key="d4">false</data>
+    </node>
+    <edge source="alembic@1.12.0" target="mako@1.2.4" />
+    <edge source="alembic@1.12.0" target="sqlalchemy@2.0.21" />
+    <edge source="alembic@1.12.0" target="typing-extensions@4.8.0" />
+    <edge source="anyio@4.0.0" target="exceptiongroup@1.1.3" />
+    <edge source="anyio@4.0.0" target="idna@3.4" />
+    <edge source="anyio@4.0.0" target="sniffio@1.3.0" />
+    <edge source="black@23.9.1" target="click@8.1.7" />
+    <edge source="black@23.9.1" target="mypy-extensions@1.0.0" />
+    <edge source="black@23.9.1" target="packaging@23.2" />
+    <edge source="black@23.9.1" target="pathspec@0.11.2" />
+    <edge source="black@23.9.1" target="platformdirs@3.11.0" />
+    <edge source="black@23.9.1" target="tomli@2.0.1" />
+    <edge source="black@23.9.1" target="typing-extensions@4.8.0" />
+    <edge source="click@8.1.7" target="colorama@0.4.6" />
+    <edge source="email-validator@1.3.1" target="dnspython@2.4.2" />
+    <edge source="email-validator@1.3.1" target="idna@3.4" />
+    <edge source="fastapi@0.95.2" target="pydantic@1.10.13" />
+    <edge source="fastapi@0.95.2" target="starlette@0.27.0" />
+    <edge source="fastapi-mail@1.3.1" target="aiosmtplib@2.0.2" />
+    <edge source="fastapi-mail@1.3.1" target="blinker@1.6.2" />
+    <edge source="fastapi-mail@1.3.1" target="email-validator@1.3.1" />
+    <edge source="fastapi-mail@1.3.1" target="jinja2@3.1.2" />
+    <edge source="fastapi-mail@1.3.1" target="pydantic@1.10.13" />
+    <edge source="fastapi-mail@1.3.1" target="starlette@0.27.0" />
+    <edge source="fastapi-pagination@0.12.10" target="fastapi@0.95.2" />
+    <edge source="fastapi-pagination@0.12.10" target="pydantic@1.10.13" />
+    <edge source="fastapi-pagination@0.12.10" target="sqlakeyset@2.0.1695177552" />
+    <edge source="fastapi-pagination@0.12.10" target="sqlalchemy@2.0.21" />
+    <edge source="flake8@6.1.0" target="mccabe@0.7.0" />
+    <edge source="flake8@6.1.0" target="pycodestyle@2.11.0" />
+    <edge source="flake8@6.1.0" target="pyflakes@3.1.0" />
+    <edge source="google-api-core@2.12.0" target="google-auth@2.23.2" />
+    <edge source="google-api-core@2.12.0" target="googleapis-common-protos@1.60.0" />
+    <edge source="google-api-core@2.12.0" target="protobuf@4.24.3" />
+    <edge source="google-api-core@2.12.0" target="requests@2.31.0" />
+    <edge source="google-auth@2.23.2" target="cachetools@5.3.1" />
+    <edge source="google-auth@2.23.2" target="pyasn1-modules@0.3.0" />
+    <edge source="google-auth@2.23.2" target="rsa@4.9" />
+    <edge source="google-cloud-core@2.3.3" target="google-api-core@2.12.0" />
+    <edge source="google-cloud-core@2.3.3" target="google-auth@2.23.2" />
+    <edge source="google-cloud-storage@2.11.0" target="google-api-core@2.12.0" />
+    <edge source="google-cloud-storage@2.11.0" target="google-auth@2.23.2" />
+    <edge source="google-cloud-storage@2.11.0" target="google-cloud-core@2.3.3" />
+    <edge source="google-cloud-storage@2.11.0" target="google-resumable-media@2.6.0" />
+    <edge source="google-cloud-storage@2.11.0" target="requests@2.31.0" />
+    <edge source="google-resumable-media@2.6.0" target="google-crc32c@1.5.0" />
+    <edge source="googleapis-common-protos@1.60.0" target="protobuf@4.24.3" />
+    <edge source="jinja2@3.1.2" target="markupsafe@2.1.3" />
+    <edge source="mako@1.2.4" target="markupsafe@2.1.3" />
+    <edge source="mypy@1.5.1" target="mypy-extensions@1.0.0" />
+    <edge source="mypy@1.5.1" target="tomli@2.0.1" />
+    <edge source="mypy@1.5.1" target="typing-extensions@4.8.0" />
+    <edge source="passlib@1.7.4" target="bcrypt@4.0.1" />
+    <edge source="psycopg@3.1.12" target="psycopg-binary@3.1.12" />
+    <edge source="psycopg@3.1.12" target="typing-extensions@4.8.0" />
+    <edge source="psycopg@3.1.12" target="tzdata@2023.3" />
+    <edge source="pyasn1-modules@0.3.0" target="pyasn1@0.5.0" />
+    <edge source="pydantic@1.10.13" target="python-dotenv@1.0.0" />
+    <edge source="pydantic@1.10.13" target="typing-extensions@4.8.0" />
+    <edge source="python-dateutil@2.8.2" target="six@1.16.0" />
+    <edge source="requests@2.31.0" target="certifi@2023.7.22" />
+    <edge source="requests@2.31.0" target="charset-normalizer@3.3.0" />
+    <edge source="requests@2.31.0" target="idna@3.4" />
+    <edge source="requests@2.31.0" target="urllib3@2.0.6" />
+    <edge source="rsa@4.9" target="pyasn1@0.5.0" />
+    <edge source="sqlakeyset@2.0.1695177552" target="packaging@23.2" />
+    <edge source="sqlakeyset@2.0.1695177552" target="python-dateutil@2.8.2" />
+    <edge source="sqlakeyset@2.0.1695177552" target="sqlalchemy@2.0.21" />
+    <edge source="sqlakeyset@2.0.1695177552" target="typing-extensions@4.8.0" />
+    <edge source="sqlalchemy@2.0.21" target="greenlet@3.0.0" />
+    <edge source="sqlalchemy@2.0.21" target="typing-extensions@4.8.0" />
+    <edge source="sqlalchemy-easy-softdelete@0.8.3" target="sqlalchemy@2.0.21" />
+    <edge source="sqlalchemy-utils@0.41.1" target="sqlalchemy@2.0.21" />
+    <edge source="starlette@0.27.0" target="anyio@4.0.0" />
+    <edge source="starlette-context@0.3.6" target="starlette@0.27.0" />
+    <edge source="uvicorn@0.21.1" target="click@8.1.7" />
+    <edge source="uvicorn@0.21.1" target="colorama@0.4.6" />
+    <edge source="uvicorn@0.21.1" target="h11@0.14.0" />
+    <edge source="uvicorn@0.21.1" target="httptools@0.6.0" />
+    <edge source="uvicorn@0.21.1" target="python-dotenv@1.0.0" />
+    <edge source="uvicorn@0.21.1" target="pyyaml@6.0.1" />
+    <edge source="uvicorn@0.21.1" target="uvloop@0.17.0" />
+    <edge source="uvicorn@0.21.1" target="watchfiles@0.20.0" />
+    <edge source="uvicorn@0.21.1" target="websockets@11.0.3" />
+    <edge source="watchfiles@0.20.0" target="anyio@4.0.0" />
+    <data key="d0">davainci-code__fitness-solutions-server</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

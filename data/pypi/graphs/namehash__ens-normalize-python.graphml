@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="cfgv@3.4.0">
+      <data key="d2">cfgv</data>
+      <data key="d3">3.4.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="colorama@0.4.6">
+      <data key="d2">colorama</data>
+      <data key="d3">0.4.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="coverage@7.6.1">
+      <data key="d2">coverage</data>
+      <data key="d3">7.6.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="coverage-badge@1.1.2">
+      <data key="d2">coverage-badge</data>
+      <data key="d3">1.1.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="distlib@0.4.0">
+      <data key="d2">distlib</data>
+      <data key="d3">0.4.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="exceptiongroup@1.3.0">
+      <data key="d2">exceptiongroup</data>
+      <data key="d3">1.3.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="filelock@3.16.1">
+      <data key="d2">filelock</data>
+      <data key="d3">3.16.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-qmgc-5h2g-mvrw,GHSA-w853-jp5j-5j7f</data>
+    </node>
+    <node id="identify@2.6.1">
+      <data key="d2">identify</data>
+      <data key="d3">2.6.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="iniconfig@2.1.0">
+      <data key="d2">iniconfig</data>
+      <data key="d3">2.1.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="nodeenv@1.9.1">
+      <data key="d2">nodeenv</data>
+      <data key="d3">1.9.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="packaging@25.0">
+      <data key="d2">packaging</data>
+      <data key="d3">25.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="platformdirs@4.3.6">
+      <data key="d2">platformdirs</data>
+      <data key="d3">4.3.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pluggy@1.5.0">
+      <data key="d2">pluggy</data>
+      <data key="d3">1.5.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pre-commit@3.5.0">
+      <data key="d2">pre-commit</data>
+      <data key="d3">3.5.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pytest@7.4.4">
+      <data key="d2">pytest</data>
+      <data key="d3">7.4.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pytest-cov@4.1.0">
+      <data key="d2">pytest-cov</data>
+      <data key="d3">4.1.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pytest-mock@3.14.1">
+      <data key="d2">pytest-mock</data>
+      <data key="d3">3.14.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyunormalize@17.0.0">
+      <data key="d2">pyunormalize</data>
+      <data key="d3">17.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyyaml@6.0.3">
+      <data key="d2">pyyaml</data>
+      <data key="d3">6.0.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="ruff@0.6.9">
+      <data key="d2">ruff</data>
+      <data key="d3">0.6.9</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="setuptools@75.3.2">
+      <data key="d2">setuptools</data>
+      <data key="d3">75.3.2</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-5rjg-fvgr-3xxf,GHSA-cx63-2mw6-8hw5,GHSA-r9hx-vwmv-q579,PYSEC-2022-43012,PYSEC-2025-49</data>
+    </node>
+    <node id="tomli@2.2.1">
+      <data key="d2">tomli</data>
+      <data key="d3">2.2.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="typing-extensions@4.13.2">
+      <data key="d2">typing-extensions</data>
+      <data key="d3">4.13.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="virtualenv@20.34.0">
+      <data key="d2">virtualenv</data>
+      <data key="d3">20.34.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-597g-3phw-6986,GHSA-rqc4-2hc7-8c8v,PYSEC-2024-187</data>
+    </node>
+    <edge source="coverage@7.6.1" target="tomli@2.2.1" />
+    <edge source="coverage-badge@1.1.2" target="coverage@7.6.1" />
+    <edge source="coverage-badge@1.1.2" target="setuptools@75.3.2" />
+    <edge source="exceptiongroup@1.3.0" target="typing-extensions@4.13.2" />
+    <edge source="pre-commit@3.5.0" target="cfgv@3.4.0" />
+    <edge source="pre-commit@3.5.0" target="identify@2.6.1" />
+    <edge source="pre-commit@3.5.0" target="nodeenv@1.9.1" />
+    <edge source="pre-commit@3.5.0" target="pyyaml@6.0.3" />
+    <edge source="pre-commit@3.5.0" target="virtualenv@20.34.0" />
+    <edge source="pytest@7.4.4" target="colorama@0.4.6" />
+    <edge source="pytest@7.4.4" target="exceptiongroup@1.3.0" />
+    <edge source="pytest@7.4.4" target="iniconfig@2.1.0" />
+    <edge source="pytest@7.4.4" target="packaging@25.0" />
+    <edge source="pytest@7.4.4" target="pluggy@1.5.0" />
+    <edge source="pytest@7.4.4" target="tomli@2.2.1" />
+    <edge source="pytest-cov@4.1.0" target="coverage@7.6.1" />
+    <edge source="pytest-cov@4.1.0" target="pytest@7.4.4" />
+    <edge source="pytest-mock@3.14.1" target="pytest@7.4.4" />
+    <edge source="virtualenv@20.34.0" target="distlib@0.4.0" />
+    <edge source="virtualenv@20.34.0" target="filelock@3.16.1" />
+    <edge source="virtualenv@20.34.0" target="platformdirs@4.3.6" />
+    <edge source="virtualenv@20.34.0" target="typing-extensions@4.13.2" />
+    <data key="d0">namehash__ens-normalize-python</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

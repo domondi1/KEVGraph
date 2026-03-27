@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="annotated-types@0.7.0">
+      <data key="d2">annotated-types</data>
+      <data key="d3">0.7.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="anyio@4.9.0">
+      <data key="d2">anyio</data>
+      <data key="d3">4.9.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="click@8.2.1">
+      <data key="d2">click</data>
+      <data key="d3">8.2.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="colorama@0.4.6">
+      <data key="d2">colorama</data>
+      <data key="d3">0.4.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="duckdb@1.3.0">
+      <data key="d2">duckdb</data>
+      <data key="d3">1.3.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="exceptiongroup@1.3.0">
+      <data key="d2">exceptiongroup</data>
+      <data key="d3">1.3.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="fastapi@0.115.12">
+      <data key="d2">fastapi</data>
+      <data key="d3">0.115.12</data>
+      <data key="d4">false</data>
+      <data key="d5">PYSEC-2024-38,GHSA-8h2j-cgx8-6xv7,PYSEC-2021-100</data>
+    </node>
+    <node id="h11@0.16.0">
+      <data key="d2">h11</data>
+      <data key="d3">0.16.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-vqfr-h8mv-ghfj</data>
+    </node>
+    <node id="idna@3.10">
+      <data key="d2">idna</data>
+      <data key="d3">3.10</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-jjg7-2v4v-x38h,PYSEC-2024-60</data>
+    </node>
+    <node id="numpy@2.2.6">
+      <data key="d2">numpy</data>
+      <data key="d3">2.2.6</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-6p56-wp2h-9hxr,GHSA-fpfv-jqm9-f5jm</data>
+    </node>
+    <node id="pandas@2.3.0">
+      <data key="d2">pandas</data>
+      <data key="d3">2.3.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pydantic@2.11.5">
+      <data key="d2">pydantic</data>
+      <data key="d3">2.11.5</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-mr82-8j83-vxmv</data>
+    </node>
+    <node id="pydantic-core@2.33.2">
+      <data key="d2">pydantic-core</data>
+      <data key="d3">2.33.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="python-dateutil@2.9.0.post0">
+      <data key="d2">python-dateutil</data>
+      <data key="d3">2.9.0.post0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pytz@2025.2">
+      <data key="d2">pytz</data>
+      <data key="d3">2025.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="six@1.17.0">
+      <data key="d2">six</data>
+      <data key="d3">1.17.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="sniffio@1.3.1">
+      <data key="d2">sniffio</data>
+      <data key="d3">1.3.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="starlette@0.46.2">
+      <data key="d2">starlette</data>
+      <data key="d3">0.46.2</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-2c2j-9gv5-cj73,GHSA-74m5-2c7w-9w3x,GHSA-f96h-pmfr-66vw,GHSA-v5gw-mw7f-84px,PYSEC-2023-48,PYSEC-2023-83,GHSA-7f5h-v6xp-fcq8</data>
+    </node>
+    <node id="typing-extensions@4.14.0">
+      <data key="d2">typing-extensions</data>
+      <data key="d3">4.14.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="typing-inspection@0.4.1">
+      <data key="d2">typing-inspection</data>
+      <data key="d3">0.4.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="tzdata@2025.2">
+      <data key="d2">tzdata</data>
+      <data key="d3">2025.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="uvicorn@0.34.3">
+      <data key="d2">uvicorn</data>
+      <data key="d3">0.34.3</data>
+      <data key="d4">false</data>
+    </node>
+    <edge source="anyio@4.9.0" target="exceptiongroup@1.3.0" />
+    <edge source="anyio@4.9.0" target="idna@3.10" />
+    <edge source="anyio@4.9.0" target="sniffio@1.3.1" />
+    <edge source="anyio@4.9.0" target="typing-extensions@4.14.0" />
+    <edge source="click@8.2.1" target="colorama@0.4.6" />
+    <edge source="exceptiongroup@1.3.0" target="typing-extensions@4.14.0" />
+    <edge source="fastapi@0.115.12" target="pydantic@2.11.5" />
+    <edge source="fastapi@0.115.12" target="starlette@0.46.2" />
+    <edge source="fastapi@0.115.12" target="typing-extensions@4.14.0" />
+    <edge source="pandas@2.3.0" target="numpy@2.2.6" />
+    <edge source="pandas@2.3.0" target="python-dateutil@2.9.0.post0" />
+    <edge source="pandas@2.3.0" target="pytz@2025.2" />
+    <edge source="pandas@2.3.0" target="tzdata@2025.2" />
+    <edge source="pydantic@2.11.5" target="annotated-types@0.7.0" />
+    <edge source="pydantic@2.11.5" target="pydantic-core@2.33.2" />
+    <edge source="pydantic@2.11.5" target="typing-extensions@4.14.0" />
+    <edge source="pydantic@2.11.5" target="typing-inspection@0.4.1" />
+    <edge source="pydantic-core@2.33.2" target="typing-extensions@4.14.0" />
+    <edge source="python-dateutil@2.9.0.post0" target="six@1.17.0" />
+    <edge source="starlette@0.46.2" target="anyio@4.9.0" />
+    <edge source="typing-inspection@0.4.1" target="typing-extensions@4.14.0" />
+    <edge source="uvicorn@0.34.3" target="click@8.2.1" />
+    <edge source="uvicorn@0.34.3" target="h11@0.16.0" />
+    <edge source="uvicorn@0.34.3" target="typing-extensions@4.14.0" />
+    <data key="d0">magicAyyub__pokemon-reporting-project</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

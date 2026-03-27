@@ -95,6 +95,14 @@ class NpmAdapter(EcosystemAdapter):
     # ── EcosystemAdapter interface ─────────────────────────────────────────
 
     @property
+    def lockfile_filename(self) -> str:
+        return "package-lock.json"
+
+    @property
+    def lockfile_ext(self) -> str:
+        return ".json"
+
+    @property
     def osv_ecosystem(self) -> str:
         return "npm"
 

@@ -1,0 +1,262 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="astroid@3.3.11">
+      <data key="d2">astroid</data>
+      <data key="d3">3.3.11</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="bandit@1.8.6">
+      <data key="d2">bandit</data>
+      <data key="d3">1.8.6</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="black@25.11.0">
+      <data key="d2">black</data>
+      <data key="d3">25.11.0</data>
+      <data key="d4">true</data>
+      <data key="d5">GHSA-3936-cmfr-pm3m,GHSA-fj7x-q9j7-g6q6,PYSEC-2024-48</data>
+    </node>
+    <node id="click@8.1.8">
+      <data key="d2">click</data>
+      <data key="d3">8.1.8</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="click@8.2.1">
+      <data key="d2">click</data>
+      <data key="d3">8.2.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="cmudict@1.1.2">
+      <data key="d2">cmudict</data>
+      <data key="d3">1.1.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="colorama@0.4.6">
+      <data key="d2">colorama</data>
+      <data key="d3">0.4.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="dill@0.4.0">
+      <data key="d2">dill</data>
+      <data key="d3">0.4.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="exceptiongroup@1.3.0">
+      <data key="d2">exceptiongroup</data>
+      <data key="d3">1.3.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="importlib-metadata@6.11.0">
+      <data key="d2">importlib-metadata</data>
+      <data key="d3">6.11.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="importlib-resources@6.5.2">
+      <data key="d2">importlib-resources</data>
+      <data key="d3">6.5.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="iniconfig@2.1.0">
+      <data key="d2">iniconfig</data>
+      <data key="d3">2.1.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="isort@6.0.1">
+      <data key="d2">isort</data>
+      <data key="d3">6.0.1</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="librt@0.6.2">
+      <data key="d2">librt</data>
+      <data key="d3">0.6.2</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="markdown-it-py@3.0.0">
+      <data key="d2">markdown-it-py</data>
+      <data key="d3">3.0.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="mccabe@0.7.0">
+      <data key="d2">mccabe</data>
+      <data key="d3">0.7.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="mdurl@0.1.2">
+      <data key="d2">mdurl</data>
+      <data key="d3">0.1.2</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="mypy@1.19.1">
+      <data key="d2">mypy</data>
+      <data key="d3">1.19.1</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="mypy-extensions@1.1.0">
+      <data key="d2">mypy-extensions</data>
+      <data key="d3">1.1.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="narrative@1.2.1">
+      <data key="d2">narrative</data>
+      <data key="d3">1.2.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="packaging@25.0">
+      <data key="d2">packaging</data>
+      <data key="d3">25.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="pathspec@0.12.1">
+      <data key="d2">pathspec</data>
+      <data key="d3">0.12.1</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="pbr@6.1.1">
+      <data key="d2">pbr</data>
+      <data key="d3">6.1.1</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="platformdirs@4.3.8">
+      <data key="d2">platformdirs</data>
+      <data key="d3">4.3.8</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="pluggy@1.6.0">
+      <data key="d2">pluggy</data>
+      <data key="d3">1.6.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="pointofview@1.1.3">
+      <data key="d2">pointofview</data>
+      <data key="d3">1.1.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pygments@2.19.2">
+      <data key="d2">pygments</data>
+      <data key="d3">2.19.2</data>
+      <data key="d4">true</data>
+      <data key="d5">GHSA-5239-wwwm-4pmq,GHSA-mrwq-x4v8-fh7p,PYSEC-2023-117,GHSA-9w8r-397f-prfh,GHSA-pq64-v7f5-gqh8,PYSEC-2021-140,PYSEC-2021-141</data>
+    </node>
+    <node id="pylint@3.3.9">
+      <data key="d2">pylint</data>
+      <data key="d3">3.3.9</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="pytest@8.4.2">
+      <data key="d2">pytest</data>
+      <data key="d3">8.4.2</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="pytokens@0.3.0">
+      <data key="d2">pytokens</data>
+      <data key="d3">0.3.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="pyyaml@6.0.2">
+      <data key="d2">pyyaml</data>
+      <data key="d3">6.0.2</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="rich@14.0.0">
+      <data key="d2">rich</data>
+      <data key="d3">14.0.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="setuptools@80.9.0">
+      <data key="d2">setuptools</data>
+      <data key="d3">80.9.0</data>
+      <data key="d4">true</data>
+      <data key="d5">GHSA-5rjg-fvgr-3xxf,GHSA-cx63-2mw6-8hw5,GHSA-r9hx-vwmv-q579,PYSEC-2022-43012,PYSEC-2025-49</data>
+    </node>
+    <node id="stevedore@5.4.1">
+      <data key="d2">stevedore</data>
+      <data key="d3">5.4.1</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="syllables@1.1.5">
+      <data key="d2">syllables</data>
+      <data key="d3">1.1.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="tomli@2.2.1">
+      <data key="d2">tomli</data>
+      <data key="d3">2.2.1</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="tomlkit@0.13.3">
+      <data key="d2">tomlkit</data>
+      <data key="d3">0.13.3</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="typing-extensions@4.14.1">
+      <data key="d2">typing-extensions</data>
+      <data key="d3">4.14.1</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="zipp@3.23.0">
+      <data key="d2">zipp</data>
+      <data key="d3">3.23.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-jfmj-5v4g-7637</data>
+    </node>
+    <edge source="astroid@3.3.11" target="typing-extensions@4.14.1" />
+    <edge source="bandit@1.8.6" target="colorama@0.4.6" />
+    <edge source="bandit@1.8.6" target="pyyaml@6.0.2" />
+    <edge source="bandit@1.8.6" target="rich@14.0.0" />
+    <edge source="bandit@1.8.6" target="stevedore@5.4.1" />
+    <edge source="black@25.11.0" target="click@8.2.1" />
+    <edge source="black@25.11.0" target="mypy-extensions@1.1.0" />
+    <edge source="black@25.11.0" target="packaging@25.0" />
+    <edge source="black@25.11.0" target="pathspec@0.12.1" />
+    <edge source="black@25.11.0" target="platformdirs@4.3.8" />
+    <edge source="black@25.11.0" target="pytokens@0.3.0" />
+    <edge source="black@25.11.0" target="tomli@2.2.1" />
+    <edge source="black@25.11.0" target="typing-extensions@4.14.1" />
+    <edge source="click@8.2.1" target="colorama@0.4.6" />
+    <edge source="cmudict@1.1.2" target="importlib-metadata@6.11.0" />
+    <edge source="cmudict@1.1.2" target="importlib-resources@6.5.2" />
+    <edge source="exceptiongroup@1.3.0" target="typing-extensions@4.14.1" />
+    <edge source="importlib-metadata@6.11.0" target="zipp@3.23.0" />
+    <edge source="importlib-resources@6.5.2" target="zipp@3.23.0" />
+    <edge source="markdown-it-py@3.0.0" target="mdurl@0.1.2" />
+    <edge source="mypy@1.19.1" target="librt@0.6.2" />
+    <edge source="mypy@1.19.1" target="mypy-extensions@1.1.0" />
+    <edge source="mypy@1.19.1" target="pathspec@0.12.1" />
+    <edge source="mypy@1.19.1" target="tomli@2.2.1" />
+    <edge source="mypy@1.19.1" target="typing-extensions@4.14.1" />
+    <edge source="narrative@1.2.1" target="importlib-metadata@6.11.0" />
+    <edge source="pbr@6.1.1" target="setuptools@80.9.0" />
+    <edge source="pointofview@1.1.3" target="importlib-metadata@6.11.0" />
+    <edge source="pylint@3.3.9" target="astroid@3.3.11" />
+    <edge source="pylint@3.3.9" target="colorama@0.4.6" />
+    <edge source="pylint@3.3.9" target="dill@0.4.0" />
+    <edge source="pylint@3.3.9" target="isort@6.0.1" />
+    <edge source="pylint@3.3.9" target="mccabe@0.7.0" />
+    <edge source="pylint@3.3.9" target="platformdirs@4.3.8" />
+    <edge source="pylint@3.3.9" target="tomli@2.2.1" />
+    <edge source="pylint@3.3.9" target="tomlkit@0.13.3" />
+    <edge source="pylint@3.3.9" target="typing-extensions@4.14.1" />
+    <edge source="pytest@8.4.2" target="colorama@0.4.6" />
+    <edge source="pytest@8.4.2" target="exceptiongroup@1.3.0" />
+    <edge source="pytest@8.4.2" target="iniconfig@2.1.0" />
+    <edge source="pytest@8.4.2" target="packaging@25.0" />
+    <edge source="pytest@8.4.2" target="pluggy@1.6.0" />
+    <edge source="pytest@8.4.2" target="pygments@2.19.2" />
+    <edge source="pytest@8.4.2" target="tomli@2.2.1" />
+    <edge source="rich@14.0.0" target="markdown-it-py@3.0.0" />
+    <edge source="rich@14.0.0" target="pygments@2.19.2" />
+    <edge source="rich@14.0.0" target="typing-extensions@4.14.1" />
+    <edge source="stevedore@5.4.1" target="pbr@6.1.1" />
+    <edge source="syllables@1.1.5" target="cmudict@1.1.2" />
+    <edge source="syllables@1.1.5" target="importlib-metadata@6.11.0" />
+    <data key="d0">prosegrinder__python-prosegrinder</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

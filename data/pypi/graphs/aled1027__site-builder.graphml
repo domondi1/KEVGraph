@@ -1,0 +1,248 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="attrs@22.2.0">
+      <data key="d2">attrs</data>
+      <data key="d3">22.2.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="beautifulsoup4@4.11.2">
+      <data key="d2">beautifulsoup4</data>
+      <data key="d3">4.11.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="black@23.1.0">
+      <data key="d2">black</data>
+      <data key="d3">23.1.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-3936-cmfr-pm3m,GHSA-fj7x-q9j7-g6q6,PYSEC-2024-48</data>
+    </node>
+    <node id="click@8.1.3">
+      <data key="d2">click</data>
+      <data key="d3">8.1.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="click-default-group-wheel@1.2.2">
+      <data key="d2">click-default-group-wheel</data>
+      <data key="d3">1.2.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="colorama@0.4.6">
+      <data key="d2">colorama</data>
+      <data key="d3">0.4.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="dateparser@1.1.7">
+      <data key="d2">dateparser</data>
+      <data key="d3">1.1.7</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="exceptiongroup@1.1.0">
+      <data key="d2">exceptiongroup</data>
+      <data key="d3">1.1.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="iniconfig@2.0.0">
+      <data key="d2">iniconfig</data>
+      <data key="d3">2.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="isort@5.12.0">
+      <data key="d2">isort</data>
+      <data key="d3">5.12.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="mypy@1.1.1">
+      <data key="d2">mypy</data>
+      <data key="d3">1.1.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="mypy-extensions@1.0.0">
+      <data key="d2">mypy-extensions</data>
+      <data key="d3">1.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="packaging@23.0">
+      <data key="d2">packaging</data>
+      <data key="d3">23.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pandoc@2.3">
+      <data key="d2">pandoc</data>
+      <data key="d3">2.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pathspec@0.11.0">
+      <data key="d2">pathspec</data>
+      <data key="d3">0.11.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="platformdirs@3.1.1">
+      <data key="d2">platformdirs</data>
+      <data key="d3">3.1.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pluggy@1.0.0">
+      <data key="d2">pluggy</data>
+      <data key="d3">1.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="plumbum@1.8.1">
+      <data key="d2">plumbum</data>
+      <data key="d3">1.8.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="ply@3.11">
+      <data key="d2">ply</data>
+      <data key="d3">3.11</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pydantic@1.10.6">
+      <data key="d2">pydantic</data>
+      <data key="d3">1.10.6</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-mr82-8j83-vxmv</data>
+    </node>
+    <node id="pytest@7.2.2">
+      <data key="d2">pytest</data>
+      <data key="d3">7.2.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="python-dateutil@2.8.2">
+      <data key="d2">python-dateutil</data>
+      <data key="d3">2.8.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="python-slugify@8.0.1">
+      <data key="d2">python-slugify</data>
+      <data key="d3">8.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pytz@2022.7.1">
+      <data key="d2">pytz</data>
+      <data key="d3">2022.7.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pytz-deprecation-shim@0.1.0.post0">
+      <data key="d2">pytz-deprecation-shim</data>
+      <data key="d3">0.1.0.post0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pywin32@305">
+      <data key="d2">pywin32</data>
+      <data key="d3">305</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-hwfp-hg2m-9vr2,PYSEC-2021-112</data>
+    </node>
+    <node id="pyyaml@6.0">
+      <data key="d2">pyyaml</data>
+      <data key="d3">6.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="regex@2022.10.31">
+      <data key="d2">regex</data>
+      <data key="d3">2022.10.31</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="ruff@0.0.254">
+      <data key="d2">ruff</data>
+      <data key="d3">0.0.254</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="six@1.16.0">
+      <data key="d2">six</data>
+      <data key="d3">1.16.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="soupsieve@2.4">
+      <data key="d2">soupsieve</data>
+      <data key="d3">2.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="sqlite-fts4@1.0.3">
+      <data key="d2">sqlite-fts4</data>
+      <data key="d3">1.0.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="sqlite-utils@3.30">
+      <data key="d2">sqlite-utils</data>
+      <data key="d3">3.30</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="tabulate@0.9.0">
+      <data key="d2">tabulate</data>
+      <data key="d3">0.9.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="text-unidecode@1.3">
+      <data key="d2">text-unidecode</data>
+      <data key="d3">1.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="tomli@2.0.1">
+      <data key="d2">tomli</data>
+      <data key="d3">2.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="typing-extensions@4.5.0">
+      <data key="d2">typing-extensions</data>
+      <data key="d3">4.5.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="tzdata@2022.7">
+      <data key="d2">tzdata</data>
+      <data key="d3">2022.7</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="tzlocal@4.2">
+      <data key="d2">tzlocal</data>
+      <data key="d3">4.2</data>
+      <data key="d4">false</data>
+    </node>
+    <edge source="beautifulsoup4@4.11.2" target="soupsieve@2.4" />
+    <edge source="black@23.1.0" target="click@8.1.3" />
+    <edge source="black@23.1.0" target="mypy-extensions@1.0.0" />
+    <edge source="black@23.1.0" target="packaging@23.0" />
+    <edge source="black@23.1.0" target="pathspec@0.11.0" />
+    <edge source="black@23.1.0" target="platformdirs@3.1.1" />
+    <edge source="black@23.1.0" target="tomli@2.0.1" />
+    <edge source="click@8.1.3" target="colorama@0.4.6" />
+    <edge source="click-default-group-wheel@1.2.2" target="click@8.1.3" />
+    <edge source="dateparser@1.1.7" target="python-dateutil@2.8.2" />
+    <edge source="dateparser@1.1.7" target="pytz@2022.7.1" />
+    <edge source="dateparser@1.1.7" target="regex@2022.10.31" />
+    <edge source="dateparser@1.1.7" target="tzlocal@4.2" />
+    <edge source="mypy@1.1.1" target="mypy-extensions@1.0.0" />
+    <edge source="mypy@1.1.1" target="tomli@2.0.1" />
+    <edge source="mypy@1.1.1" target="typing-extensions@4.5.0" />
+    <edge source="pandoc@2.3" target="plumbum@1.8.1" />
+    <edge source="pandoc@2.3" target="ply@3.11" />
+    <edge source="plumbum@1.8.1" target="pywin32@305" />
+    <edge source="pydantic@1.10.6" target="typing-extensions@4.5.0" />
+    <edge source="pytest@7.2.2" target="attrs@22.2.0" />
+    <edge source="pytest@7.2.2" target="colorama@0.4.6" />
+    <edge source="pytest@7.2.2" target="exceptiongroup@1.1.0" />
+    <edge source="pytest@7.2.2" target="iniconfig@2.0.0" />
+    <edge source="pytest@7.2.2" target="packaging@23.0" />
+    <edge source="pytest@7.2.2" target="pluggy@1.0.0" />
+    <edge source="pytest@7.2.2" target="tomli@2.0.1" />
+    <edge source="python-dateutil@2.8.2" target="six@1.16.0" />
+    <edge source="python-slugify@8.0.1" target="text-unidecode@1.3" />
+    <edge source="pytz-deprecation-shim@0.1.0.post0" target="tzdata@2022.7" />
+    <edge source="sqlite-utils@3.30" target="click@8.1.3" />
+    <edge source="sqlite-utils@3.30" target="click-default-group-wheel@1.2.2" />
+    <edge source="sqlite-utils@3.30" target="python-dateutil@2.8.2" />
+    <edge source="sqlite-utils@3.30" target="sqlite-fts4@1.0.3" />
+    <edge source="sqlite-utils@3.30" target="tabulate@0.9.0" />
+    <edge source="tzlocal@4.2" target="pytz-deprecation-shim@0.1.0.post0" />
+    <edge source="tzlocal@4.2" target="tzdata@2022.7" />
+    <data key="d0">aled1027__site-builder</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

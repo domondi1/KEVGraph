@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="astroid@2.15.8">
+      <data key="d2">astroid</data>
+      <data key="d3">2.15.8</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="autopep8@2.0.4">
+      <data key="d2">autopep8</data>
+      <data key="d3">2.0.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="colorama@0.4.6">
+      <data key="d2">colorama</data>
+      <data key="d3">0.4.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="coverage@7.3.1">
+      <data key="d2">coverage</data>
+      <data key="d3">7.3.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="dill@0.3.7">
+      <data key="d2">dill</data>
+      <data key="d3">0.3.7</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="exceptiongroup@1.1.3">
+      <data key="d2">exceptiongroup</data>
+      <data key="d3">1.1.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="iniconfig@2.0.0">
+      <data key="d2">iniconfig</data>
+      <data key="d3">2.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="isort@5.12.0">
+      <data key="d2">isort</data>
+      <data key="d3">5.12.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="lazy-object-proxy@1.9.0">
+      <data key="d2">lazy-object-proxy</data>
+      <data key="d3">1.9.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="mccabe@0.7.0">
+      <data key="d2">mccabe</data>
+      <data key="d3">0.7.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="packaging@23.1">
+      <data key="d2">packaging</data>
+      <data key="d3">23.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="platformdirs@3.10.0">
+      <data key="d2">platformdirs</data>
+      <data key="d3">3.10.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pluggy@1.3.0">
+      <data key="d2">pluggy</data>
+      <data key="d3">1.3.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pycodestyle@2.11.0">
+      <data key="d2">pycodestyle</data>
+      <data key="d3">2.11.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pylint@2.17.6">
+      <data key="d2">pylint</data>
+      <data key="d3">2.17.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pytest@7.4.2">
+      <data key="d2">pytest</data>
+      <data key="d3">7.4.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="tomli@2.0.1">
+      <data key="d2">tomli</data>
+      <data key="d3">2.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="tomlkit@0.12.1">
+      <data key="d2">tomlkit</data>
+      <data key="d3">0.12.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="typing-extensions@4.8.0">
+      <data key="d2">typing-extensions</data>
+      <data key="d3">4.8.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="wrapt@1.15.0">
+      <data key="d2">wrapt</data>
+      <data key="d3">1.15.0</data>
+      <data key="d4">false</data>
+    </node>
+    <edge source="astroid@2.15.8" target="lazy-object-proxy@1.9.0" />
+    <edge source="astroid@2.15.8" target="typing-extensions@4.8.0" />
+    <edge source="astroid@2.15.8" target="wrapt@1.15.0" />
+    <edge source="autopep8@2.0.4" target="pycodestyle@2.11.0" />
+    <edge source="autopep8@2.0.4" target="tomli@2.0.1" />
+    <edge source="pylint@2.17.6" target="astroid@2.15.8" />
+    <edge source="pylint@2.17.6" target="colorama@0.4.6" />
+    <edge source="pylint@2.17.6" target="dill@0.3.7" />
+    <edge source="pylint@2.17.6" target="isort@5.12.0" />
+    <edge source="pylint@2.17.6" target="mccabe@0.7.0" />
+    <edge source="pylint@2.17.6" target="platformdirs@3.10.0" />
+    <edge source="pylint@2.17.6" target="tomli@2.0.1" />
+    <edge source="pylint@2.17.6" target="tomlkit@0.12.1" />
+    <edge source="pytest@7.4.2" target="colorama@0.4.6" />
+    <edge source="pytest@7.4.2" target="exceptiongroup@1.1.3" />
+    <edge source="pytest@7.4.2" target="iniconfig@2.0.0" />
+    <edge source="pytest@7.4.2" target="packaging@23.1" />
+    <edge source="pytest@7.4.2" target="pluggy@1.3.0" />
+    <edge source="pytest@7.4.2" target="tomli@2.0.1" />
+    <data key="d0">AleksiSaxlund__TiraLabra</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

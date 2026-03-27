@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="astroid@2.15.2">
+      <data key="d2">astroid</data>
+      <data key="d3">2.15.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="attrs@22.2.0">
+      <data key="d2">attrs</data>
+      <data key="d3">22.2.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="autopep8@2.0.2">
+      <data key="d2">autopep8</data>
+      <data key="d3">2.0.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="cfgv@3.3.1">
+      <data key="d2">cfgv</data>
+      <data key="d3">3.3.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="colorama@0.4.6">
+      <data key="d2">colorama</data>
+      <data key="d3">0.4.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="dill@0.3.6">
+      <data key="d2">dill</data>
+      <data key="d3">0.3.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="distlib@0.3.6">
+      <data key="d2">distlib</data>
+      <data key="d3">0.3.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="exceptiongroup@1.1.1">
+      <data key="d2">exceptiongroup</data>
+      <data key="d3">1.1.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="filelock@3.10.7">
+      <data key="d2">filelock</data>
+      <data key="d3">3.10.7</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-qmgc-5h2g-mvrw,GHSA-w853-jp5j-5j7f</data>
+    </node>
+    <node id="identify@2.5.22">
+      <data key="d2">identify</data>
+      <data key="d3">2.5.22</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="iniconfig@2.0.0">
+      <data key="d2">iniconfig</data>
+      <data key="d3">2.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="isort@5.12.0">
+      <data key="d2">isort</data>
+      <data key="d3">5.12.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="lazy-object-proxy@1.9.0">
+      <data key="d2">lazy-object-proxy</data>
+      <data key="d3">1.9.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="mccabe@0.7.0">
+      <data key="d2">mccabe</data>
+      <data key="d3">0.7.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="nodeenv@1.7.0">
+      <data key="d2">nodeenv</data>
+      <data key="d3">1.7.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="packaging@23.0">
+      <data key="d2">packaging</data>
+      <data key="d3">23.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pastel@0.2.1">
+      <data key="d2">pastel</data>
+      <data key="d3">0.2.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="platformdirs@3.2.0">
+      <data key="d2">platformdirs</data>
+      <data key="d3">3.2.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pluggy@1.0.0">
+      <data key="d2">pluggy</data>
+      <data key="d3">1.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="poethepoet@0.18.1">
+      <data key="d2">poethepoet</data>
+      <data key="d3">0.18.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pre-commit@3.2.2">
+      <data key="d2">pre-commit</data>
+      <data key="d3">3.2.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pycodestyle@2.10.0">
+      <data key="d2">pycodestyle</data>
+      <data key="d3">2.10.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pylint@2.17.2">
+      <data key="d2">pylint</data>
+      <data key="d3">2.17.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyside6@6.5.0">
+      <data key="d2">pyside6</data>
+      <data key="d3">6.5.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyside6-addons@6.5.0">
+      <data key="d2">pyside6-addons</data>
+      <data key="d3">6.5.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyside6-essentials@6.5.0">
+      <data key="d2">pyside6-essentials</data>
+      <data key="d3">6.5.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pytest@7.2.2">
+      <data key="d2">pytest</data>
+      <data key="d3">7.2.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyyaml@6.0">
+      <data key="d2">pyyaml</data>
+      <data key="d3">6.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="setuptools@67.6.1">
+      <data key="d2">setuptools</data>
+      <data key="d3">67.6.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-5rjg-fvgr-3xxf,GHSA-cx63-2mw6-8hw5,GHSA-r9hx-vwmv-q579,PYSEC-2022-43012,PYSEC-2025-49</data>
+    </node>
+    <node id="shiboken6@6.5.0">
+      <data key="d2">shiboken6</data>
+      <data key="d3">6.5.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="tomli@2.0.1">
+      <data key="d2">tomli</data>
+      <data key="d3">2.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="tomlkit@0.11.7">
+      <data key="d2">tomlkit</data>
+      <data key="d3">0.11.7</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="typing-extensions@4.5.0">
+      <data key="d2">typing-extensions</data>
+      <data key="d3">4.5.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="virtualenv@20.21.0">
+      <data key="d2">virtualenv</data>
+      <data key="d3">20.21.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-597g-3phw-6986,GHSA-rqc4-2hc7-8c8v,PYSEC-2024-187</data>
+    </node>
+    <node id="wrapt@1.15.0">
+      <data key="d2">wrapt</data>
+      <data key="d3">1.15.0</data>
+      <data key="d4">false</data>
+    </node>
+    <edge source="astroid@2.15.2" target="lazy-object-proxy@1.9.0" />
+    <edge source="astroid@2.15.2" target="typing-extensions@4.5.0" />
+    <edge source="astroid@2.15.2" target="wrapt@1.15.0" />
+    <edge source="autopep8@2.0.2" target="pycodestyle@2.10.0" />
+    <edge source="autopep8@2.0.2" target="tomli@2.0.1" />
+    <edge source="nodeenv@1.7.0" target="setuptools@67.6.1" />
+    <edge source="poethepoet@0.18.1" target="pastel@0.2.1" />
+    <edge source="poethepoet@0.18.1" target="tomli@2.0.1" />
+    <edge source="pre-commit@3.2.2" target="cfgv@3.3.1" />
+    <edge source="pre-commit@3.2.2" target="identify@2.5.22" />
+    <edge source="pre-commit@3.2.2" target="nodeenv@1.7.0" />
+    <edge source="pre-commit@3.2.2" target="pyyaml@6.0" />
+    <edge source="pre-commit@3.2.2" target="virtualenv@20.21.0" />
+    <edge source="pylint@2.17.2" target="astroid@2.15.2" />
+    <edge source="pylint@2.17.2" target="colorama@0.4.6" />
+    <edge source="pylint@2.17.2" target="dill@0.3.6" />
+    <edge source="pylint@2.17.2" target="isort@5.12.0" />
+    <edge source="pylint@2.17.2" target="mccabe@0.7.0" />
+    <edge source="pylint@2.17.2" target="platformdirs@3.2.0" />
+    <edge source="pylint@2.17.2" target="tomli@2.0.1" />
+    <edge source="pylint@2.17.2" target="tomlkit@0.11.7" />
+    <edge source="pyside6@6.5.0" target="pyside6-addons@6.5.0" />
+    <edge source="pyside6@6.5.0" target="pyside6-essentials@6.5.0" />
+    <edge source="pyside6@6.5.0" target="shiboken6@6.5.0" />
+    <edge source="pyside6-addons@6.5.0" target="pyside6-essentials@6.5.0" />
+    <edge source="pyside6-addons@6.5.0" target="shiboken6@6.5.0" />
+    <edge source="pyside6-essentials@6.5.0" target="shiboken6@6.5.0" />
+    <edge source="pytest@7.2.2" target="attrs@22.2.0" />
+    <edge source="pytest@7.2.2" target="colorama@0.4.6" />
+    <edge source="pytest@7.2.2" target="exceptiongroup@1.1.1" />
+    <edge source="pytest@7.2.2" target="iniconfig@2.0.0" />
+    <edge source="pytest@7.2.2" target="packaging@23.0" />
+    <edge source="pytest@7.2.2" target="pluggy@1.0.0" />
+    <edge source="pytest@7.2.2" target="tomli@2.0.1" />
+    <edge source="virtualenv@20.21.0" target="distlib@0.3.6" />
+    <edge source="virtualenv@20.21.0" target="filelock@3.10.7" />
+    <edge source="virtualenv@20.21.0" target="platformdirs@3.2.0" />
+    <data key="d0">HuangFuSL__pytorch-project-template</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

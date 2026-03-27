@@ -43,7 +43,8 @@ def parse_all(adapter: EcosystemAdapter | None = None) -> int:
         from .ecosystems.npm import NpmAdapter
         adapter = NpmAdapter()
 
-    lockfiles = sorted(config.LOCKFILE_DIR.glob("*.json"))
+    ext = adapter.lockfile_ext
+    lockfiles = sorted(config.LOCKFILE_DIR.glob(f"*{ext}"))
     if not lockfiles:
         raise FileNotFoundError("No lockfiles found – run fetch_lockfiles first.")
 

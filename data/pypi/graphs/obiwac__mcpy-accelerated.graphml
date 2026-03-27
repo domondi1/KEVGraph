@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="base36@0.1.1">
+      <data key="d2">base36</data>
+      <data key="d3">0.1.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="click@8.1.7">
+      <data key="d2">click</data>
+      <data key="d3">8.1.7</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="colorama@0.4.6">
+      <data key="d2">colorama</data>
+      <data key="d3">0.4.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="cython@3.0.10">
+      <data key="d2">cython</data>
+      <data key="d3">3.0.10</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="mypy-extensions@1.0.0">
+      <data key="d2">mypy-extensions</data>
+      <data key="d3">1.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="nbtlib@2.0.4">
+      <data key="d2">nbtlib</data>
+      <data key="d3">2.0.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="numpy@2.0.1">
+      <data key="d2">numpy</data>
+      <data key="d3">2.0.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-6p56-wp2h-9hxr,GHSA-fpfv-jqm9-f5jm</data>
+    </node>
+    <node id="packaging@24.1">
+      <data key="d2">packaging</data>
+      <data key="d3">24.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pathspec@0.12.1">
+      <data key="d2">pathspec</data>
+      <data key="d3">0.12.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="platformdirs@4.2.2">
+      <data key="d2">platformdirs</data>
+      <data key="d3">4.2.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyglet@2.0.16">
+      <data key="d2">pyglet</data>
+      <data key="d3">2.0.16</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyglm@2.7.1">
+      <data key="d2">pyglm</data>
+      <data key="d3">2.7.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="ruff@0.5.5">
+      <data key="d2">ruff</data>
+      <data key="d3">0.5.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="tan@23.7.0">
+      <data key="d2">tan</data>
+      <data key="d3">23.7.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="tomli@2.0.1">
+      <data key="d2">tomli</data>
+      <data key="d3">2.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="typing-extensions@4.12.2">
+      <data key="d2">typing-extensions</data>
+      <data key="d3">4.12.2</data>
+      <data key="d4">false</data>
+    </node>
+    <edge source="click@8.1.7" target="colorama@0.4.6" />
+    <edge source="nbtlib@2.0.4" target="numpy@2.0.1" />
+    <edge source="tan@23.7.0" target="click@8.1.7" />
+    <edge source="tan@23.7.0" target="mypy-extensions@1.0.0" />
+    <edge source="tan@23.7.0" target="packaging@24.1" />
+    <edge source="tan@23.7.0" target="pathspec@0.12.1" />
+    <edge source="tan@23.7.0" target="platformdirs@4.2.2" />
+    <edge source="tan@23.7.0" target="tomli@2.0.1" />
+    <edge source="tan@23.7.0" target="typing-extensions@4.12.2" />
+    <data key="d0">obiwac__mcpy-accelerated</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

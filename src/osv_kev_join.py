@@ -41,7 +41,7 @@ class VulnRecord:
     vuln_id: str                        # e.g. "GHSA-..." or "CVE-..."
     aliases: list[str] = field(default_factory=list)
     package: str = ""
-    ecosystem: str = "npm"
+    ecosystem: str = ""
     affected_range: str = ""
     fixed_version: str | None = None    # earliest fix from OSV
     severity_type: str = ""             # CVSS_V3, etc.
@@ -248,7 +248,7 @@ def _extract_severity(vuln: dict) -> tuple[str, float]:
     return "", 0.0
 
 
-def _extract_fixed_version(vuln: dict, pkg_name: str, ecosystem: str = "npm") -> str | None:
+def _extract_fixed_version(vuln: dict, pkg_name: str, ecosystem: str = "") -> str | None:
     for affected in vuln.get("affected", []):
         pkg = affected.get("package", {})
         if pkg.get("name") == pkg_name and pkg.get("ecosystem") == ecosystem:

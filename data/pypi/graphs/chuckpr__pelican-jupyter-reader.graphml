@@ -1,0 +1,598 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="appdirs@1.4.3">
+      <data key="d2">appdirs</data>
+      <data key="d3">1.4.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="appnope@0.1.0">
+      <data key="d2">appnope</data>
+      <data key="d3">0.1.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="atomicwrites@1.3.0">
+      <data key="d2">atomicwrites</data>
+      <data key="d3">1.3.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="attrs@19.3.0">
+      <data key="d2">attrs</data>
+      <data key="d3">19.3.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="backcall@0.1.0">
+      <data key="d2">backcall</data>
+      <data key="d3">0.1.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="black@19.10b0">
+      <data key="d2">black</data>
+      <data key="d3">19.10b0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-3936-cmfr-pm3m,GHSA-fj7x-q9j7-g6q6,PYSEC-2024-48</data>
+    </node>
+    <node id="bleach@3.1.4">
+      <data key="d2">bleach</data>
+      <data key="d3">3.1.4</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-vv2x-vrpj-qqpq,PYSEC-2021-865</data>
+    </node>
+    <node id="blinker@1.4">
+      <data key="d2">blinker</data>
+      <data key="d3">1.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="certifi@2020.4.5.1">
+      <data key="d2">certifi</data>
+      <data key="d3">2020.4.5.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-43fp-rhv2-5gv8,GHSA-xqr8-7jwr-rhp7,PYSEC-2022-42986,PYSEC-2023-135,GHSA-248v-346w-9cwc,PYSEC-2024-230</data>
+    </node>
+    <node id="chardet@3.0.4">
+      <data key="d2">chardet</data>
+      <data key="d3">3.0.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="click@7.1.1">
+      <data key="d2">click</data>
+      <data key="d3">7.1.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="colorama@0.4.3">
+      <data key="d2">colorama</data>
+      <data key="d3">0.4.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="coverage@5.1">
+      <data key="d2">coverage</data>
+      <data key="d3">5.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="decorator@4.4.2">
+      <data key="d2">decorator</data>
+      <data key="d3">4.4.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="defusedxml@0.6.0">
+      <data key="d2">defusedxml</data>
+      <data key="d3">0.6.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="docutils@0.16">
+      <data key="d2">docutils</data>
+      <data key="d3">0.16</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="entrypoints@0.3">
+      <data key="d2">entrypoints</data>
+      <data key="d3">0.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="feedgenerator@1.9.1">
+      <data key="d2">feedgenerator</data>
+      <data key="d3">1.9.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="flake8@3.7.9">
+      <data key="d2">flake8</data>
+      <data key="d3">3.7.9</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="flake8-black@0.1.1">
+      <data key="d2">flake8-black</data>
+      <data key="d3">0.1.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="idna@2.9">
+      <data key="d2">idna</data>
+      <data key="d3">2.9</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-jjg7-2v4v-x38h,PYSEC-2024-60</data>
+    </node>
+    <node id="importlib-metadata@1.6.0">
+      <data key="d2">importlib-metadata</data>
+      <data key="d3">1.6.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="invoke@1.4.1">
+      <data key="d2">invoke</data>
+      <data key="d3">1.4.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="ipykernel@5.2.0">
+      <data key="d2">ipykernel</data>
+      <data key="d3">5.2.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="ipython@7.13.0">
+      <data key="d2">ipython</data>
+      <data key="d3">7.13.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-29gw-9793-fvw7,GHSA-pq7m-3gw7-gq5x,PYSEC-2022-12,PYSEC-2023-17</data>
+    </node>
+    <node id="ipython-genutils@0.2.0">
+      <data key="d2">ipython-genutils</data>
+      <data key="d3">0.2.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="isort@4.3.21">
+      <data key="d2">isort</data>
+      <data key="d3">4.3.21</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="jedi@0.16.0">
+      <data key="d2">jedi</data>
+      <data key="d3">0.16.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="jinja2@2.11.2">
+      <data key="d2">jinja2</data>
+      <data key="d3">2.11.2</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-cpwx-vrp4-4pq7,GHSA-g3rq-g295-4j3m,GHSA-h5c8-rqwp-cp95,GHSA-h75v-3vvj-5mfj,GHSA-q2x7-8rv6-6q7h,PYSEC-2021-66,GHSA-gmj6-6f8f-6699</data>
+    </node>
+    <node id="json5@0.9.4">
+      <data key="d2">json5</data>
+      <data key="d3">0.9.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="jsonschema@3.2.0">
+      <data key="d2">jsonschema</data>
+      <data key="d3">3.2.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="jupyter-client@6.1.3">
+      <data key="d2">jupyter-client</data>
+      <data key="d3">6.1.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="jupyter-core@4.6.3">
+      <data key="d2">jupyter-core</data>
+      <data key="d3">4.6.3</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-33p9-3p43-82vq,GHSA-m678-f26j-3hrp,PYSEC-2022-42974</data>
+    </node>
+    <node id="jupyterlab@1.2.10">
+      <data key="d2">jupyterlab</data>
+      <data key="d3">1.2.10</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-44cc-43rp-5947,GHSA-4952-p58q-6crx,GHSA-9q39-rmj3-p4r2,GHSA-vvfj-2jqx-52jm,PYSEC-2021-130</data>
+    </node>
+    <node id="jupyterlab-server@1.1.1">
+      <data key="d2">jupyterlab-server</data>
+      <data key="d3">1.1.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="livereload@2.6.1">
+      <data key="d2">livereload</data>
+      <data key="d3">2.6.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="markdown@3.2.1">
+      <data key="d2">markdown</data>
+      <data key="d3">3.2.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-5wmx-573v-2qwq</data>
+    </node>
+    <node id="markupsafe@1.1.1">
+      <data key="d2">markupsafe</data>
+      <data key="d3">1.1.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="mccabe@0.6.1">
+      <data key="d2">mccabe</data>
+      <data key="d3">0.6.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="mistune@0.8.4">
+      <data key="d2">mistune</data>
+      <data key="d3">0.8.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="more-itertools@8.2.0">
+      <data key="d2">more-itertools</data>
+      <data key="d3">8.2.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="nbconvert@5.6.1">
+      <data key="d2">nbconvert</data>
+      <data key="d3">5.6.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-9jmq-rx5f-8jwq,GHSA-xm59-rqc7-hhvf,PYSEC-2022-249</data>
+    </node>
+    <node id="nbformat@4.4.0">
+      <data key="d2">nbformat</data>
+      <data key="d3">4.4.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="notebook@6.0.3">
+      <data key="d2">notebook</data>
+      <data key="d3">6.0.3</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-c7vm-f5p4-8fqh,GHSA-hwvq-6gjx-j797,GHSA-m87f-39q9-6f55,GHSA-v7vq-3x77-87vg,PYSEC-2020-215,PYSEC-2022-180,PYSEC-2022-212</data>
+    </node>
+    <node id="packaging@20.3">
+      <data key="d2">packaging</data>
+      <data key="d3">20.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pandocfilters@1.4.2">
+      <data key="d2">pandocfilters</data>
+      <data key="d3">1.4.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="parso@0.7.0">
+      <data key="d2">parso</data>
+      <data key="d3">0.7.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pathspec@0.8.0">
+      <data key="d2">pathspec</data>
+      <data key="d3">0.8.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pelican@4.2.0">
+      <data key="d2">pelican</data>
+      <data key="d3">4.2.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pexpect@4.8.0">
+      <data key="d2">pexpect</data>
+      <data key="d3">4.8.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pickleshare@0.7.5">
+      <data key="d2">pickleshare</data>
+      <data key="d3">0.7.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pluggy@0.13.1">
+      <data key="d2">pluggy</data>
+      <data key="d3">0.13.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="prometheus-client@0.7.1">
+      <data key="d2">prometheus-client</data>
+      <data key="d3">0.7.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="prompt-toolkit@3.0.3">
+      <data key="d2">prompt-toolkit</data>
+      <data key="d3">3.0.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="ptyprocess@0.6.0">
+      <data key="d2">ptyprocess</data>
+      <data key="d3">0.6.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="py@1.8.1">
+      <data key="d2">py</data>
+      <data key="d3">1.8.1</data>
+      <data key="d4">false</data>
+      <data key="d5">PYSEC-2022-42969,GHSA-hj5v-574p-mj7c,PYSEC-2020-92</data>
+    </node>
+    <node id="pycodestyle@2.5.0">
+      <data key="d2">pycodestyle</data>
+      <data key="d3">2.5.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyflakes@2.1.1">
+      <data key="d2">pyflakes</data>
+      <data key="d3">2.1.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pygments@2.6.1">
+      <data key="d2">pygments</data>
+      <data key="d3">2.6.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-5239-wwwm-4pmq,GHSA-mrwq-x4v8-fh7p,PYSEC-2023-117,GHSA-9w8r-397f-prfh,GHSA-pq64-v7f5-gqh8,PYSEC-2021-140,PYSEC-2021-141</data>
+    </node>
+    <node id="pyparsing@2.4.7">
+      <data key="d2">pyparsing</data>
+      <data key="d3">2.4.7</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyrsistent@0.16.0">
+      <data key="d2">pyrsistent</data>
+      <data key="d3">0.16.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pytest@5.4.1">
+      <data key="d2">pytest</data>
+      <data key="d3">5.4.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pytest-cov@2.8.1">
+      <data key="d2">pytest-cov</data>
+      <data key="d3">2.8.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pytest-pythonpath@0.7.3">
+      <data key="d2">pytest-pythonpath</data>
+      <data key="d3">0.7.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pytest-sugar@0.9.2">
+      <data key="d2">pytest-sugar</data>
+      <data key="d3">0.9.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="python-dateutil@2.8.1">
+      <data key="d2">python-dateutil</data>
+      <data key="d3">2.8.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pytz@2019.3">
+      <data key="d2">pytz</data>
+      <data key="d3">2019.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pywin32@227">
+      <data key="d2">pywin32</data>
+      <data key="d3">227</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-hwfp-hg2m-9vr2,PYSEC-2021-112</data>
+    </node>
+    <node id="pywinpty@0.5.7">
+      <data key="d2">pywinpty</data>
+      <data key="d3">0.5.7</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyzmq@19.0.0">
+      <data key="d2">pyzmq</data>
+      <data key="d3">19.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="regex@2020.4.4">
+      <data key="d2">regex</data>
+      <data key="d3">2020.4.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="requests@2.23.0">
+      <data key="d2">requests</data>
+      <data key="d3">2.23.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-9hjg-9r4m-mvj7,GHSA-9wx4-h78v-vm56,GHSA-gc5v-m9x4-r6x2,GHSA-j8r2-6x86-q33q,GHSA-x84v-xcm2-53pg,PYSEC-2018-28,PYSEC-2023-74</data>
+    </node>
+    <node id="rope@0.14.0">
+      <data key="d2">rope</data>
+      <data key="d3">0.14.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="send2trash@1.5.0">
+      <data key="d2">send2trash</data>
+      <data key="d3">1.5.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="six@1.14.0">
+      <data key="d2">six</data>
+      <data key="d3">1.14.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="termcolor@1.1.0">
+      <data key="d2">termcolor</data>
+      <data key="d3">1.1.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="terminado@0.8.3">
+      <data key="d2">terminado</data>
+      <data key="d3">0.8.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="testpath@0.4.4">
+      <data key="d2">testpath</data>
+      <data key="d3">0.4.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="toml@0.10.0">
+      <data key="d2">toml</data>
+      <data key="d3">0.10.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="tornado@6.0.4">
+      <data key="d2">tornado</data>
+      <data key="d3">6.0.4</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-753j-mpmx-qq6g,GHSA-78cv-mqj4-43f7,GHSA-7cx3-6m66-7c5m,GHSA-8w49-h785-mj3c,GHSA-hj3f-6gcp-jg8j,GHSA-qjxf-f2mg-c6mc,GHSA-qppv-j76h-2rpx,GHSA-w235-7p84-xx57,PYSEC-2023-75</data>
+    </node>
+    <node id="traitlets@4.3.3">
+      <data key="d2">traitlets</data>
+      <data key="d3">4.3.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="typed-ast@1.4.1">
+      <data key="d2">typed-ast</data>
+      <data key="d3">1.4.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="unidecode@1.1.1">
+      <data key="d2">unidecode</data>
+      <data key="d3">1.1.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="urllib3@1.25.8">
+      <data key="d2">urllib3</data>
+      <data key="d3">1.25.8</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-2xpw-w6gg-jr37,GHSA-34jh-p97f-mpxf,GHSA-38jv-5279-wg99,GHSA-g4mx-q9vg-27p4,GHSA-gwvm-45gx-3cf8,GHSA-mh33-7rrq-662w,GHSA-pq67-6m6q-mj2v,GHSA-r64q-w8jr-g9qp,GHSA-v845-jxx5-vc9f,GHSA-wqvq-5m8c-6g24,GHSA-www2-v7xj-xrc6,PYSEC-2018-32,PYSEC-2019-132,PYSEC-2019-133,PYSEC-2020-148,PYSEC-2021-108,PYSEC-2023-192,PYSEC-2023-207,PYSEC-2023-212,GHSA-gm62-xv2j-4w53,GHSA-q2q7-5pp4-w6pg,GHSA-48p4-8xcf-vxj5</data>
+    </node>
+    <node id="wcwidth@0.1.9">
+      <data key="d2">wcwidth</data>
+      <data key="d3">0.1.9</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="webencodings@0.5.1">
+      <data key="d2">webencodings</data>
+      <data key="d3">0.5.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="werkzeug@0.15.6">
+      <data key="d2">werkzeug</data>
+      <data key="d3">0.15.6</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-29vq-49wr-vm6x,GHSA-2g68-c3qc-8985,GHSA-87hc-h4r5-73f7,GHSA-f9vj-2wh5-fj8j,GHSA-hgf8-39gv-g3f2,GHSA-hrfv-mqp8-q5rw,GHSA-px8h-6qxv-m22q,GHSA-q34m-jh98-gwm2,GHSA-xg9f-g7g7-2323,PYSEC-2022-203,PYSEC-2023-221,PYSEC-2023-57,PYSEC-2023-58</data>
+    </node>
+    <node id="zipp@3.1.0">
+      <data key="d2">zipp</data>
+      <data key="d3">3.1.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-jfmj-5v4g-7637</data>
+    </node>
+    <edge source="black@19.10b0" target="appdirs@1.4.3" />
+    <edge source="black@19.10b0" target="attrs@19.3.0" />
+    <edge source="black@19.10b0" target="click@7.1.1" />
+    <edge source="black@19.10b0" target="pathspec@0.8.0" />
+    <edge source="black@19.10b0" target="regex@2020.4.4" />
+    <edge source="black@19.10b0" target="toml@0.10.0" />
+    <edge source="black@19.10b0" target="typed-ast@1.4.1" />
+    <edge source="bleach@3.1.4" target="six@1.14.0" />
+    <edge source="bleach@3.1.4" target="webencodings@0.5.1" />
+    <edge source="feedgenerator@1.9.1" target="pytz@2019.3" />
+    <edge source="feedgenerator@1.9.1" target="six@1.14.0" />
+    <edge source="flake8@3.7.9" target="entrypoints@0.3" />
+    <edge source="flake8@3.7.9" target="mccabe@0.6.1" />
+    <edge source="flake8@3.7.9" target="pycodestyle@2.5.0" />
+    <edge source="flake8@3.7.9" target="pyflakes@2.1.1" />
+    <edge source="flake8-black@0.1.1" target="black@19.10b0" />
+    <edge source="flake8-black@0.1.1" target="flake8@3.7.9" />
+    <edge source="importlib-metadata@1.6.0" target="zipp@3.1.0" />
+    <edge source="ipykernel@5.2.0" target="appnope@0.1.0" />
+    <edge source="ipykernel@5.2.0" target="ipython@7.13.0" />
+    <edge source="ipykernel@5.2.0" target="jupyter-client@6.1.3" />
+    <edge source="ipykernel@5.2.0" target="tornado@6.0.4" />
+    <edge source="ipykernel@5.2.0" target="traitlets@4.3.3" />
+    <edge source="ipython@7.13.0" target="appnope@0.1.0" />
+    <edge source="ipython@7.13.0" target="backcall@0.1.0" />
+    <edge source="ipython@7.13.0" target="colorama@0.4.3" />
+    <edge source="ipython@7.13.0" target="decorator@4.4.2" />
+    <edge source="ipython@7.13.0" target="jedi@0.16.0" />
+    <edge source="ipython@7.13.0" target="pexpect@4.8.0" />
+    <edge source="ipython@7.13.0" target="pickleshare@0.7.5" />
+    <edge source="ipython@7.13.0" target="prompt-toolkit@3.0.3" />
+    <edge source="ipython@7.13.0" target="pygments@2.6.1" />
+    <edge source="ipython@7.13.0" target="traitlets@4.3.3" />
+    <edge source="jedi@0.16.0" target="parso@0.7.0" />
+    <edge source="jinja2@2.11.2" target="markupsafe@1.1.1" />
+    <edge source="jsonschema@3.2.0" target="attrs@19.3.0" />
+    <edge source="jsonschema@3.2.0" target="pyrsistent@0.16.0" />
+    <edge source="jsonschema@3.2.0" target="six@1.14.0" />
+    <edge source="jsonschema@3.2.0" target="importlib-metadata@1.6.0" />
+    <edge source="jupyter-client@6.1.3" target="jupyter-core@4.6.3" />
+    <edge source="jupyter-client@6.1.3" target="python-dateutil@2.8.1" />
+    <edge source="jupyter-client@6.1.3" target="pyzmq@19.0.0" />
+    <edge source="jupyter-client@6.1.3" target="tornado@6.0.4" />
+    <edge source="jupyter-client@6.1.3" target="traitlets@4.3.3" />
+    <edge source="jupyter-core@4.6.3" target="pywin32@227" />
+    <edge source="jupyter-core@4.6.3" target="traitlets@4.3.3" />
+    <edge source="jupyterlab@1.2.10" target="jinja2@2.11.2" />
+    <edge source="jupyterlab@1.2.10" target="jupyterlab-server@1.1.1" />
+    <edge source="jupyterlab@1.2.10" target="notebook@6.0.3" />
+    <edge source="jupyterlab@1.2.10" target="tornado@6.0.4" />
+    <edge source="jupyterlab-server@1.1.1" target="jinja2@2.11.2" />
+    <edge source="jupyterlab-server@1.1.1" target="json5@0.9.4" />
+    <edge source="jupyterlab-server@1.1.1" target="jsonschema@3.2.0" />
+    <edge source="jupyterlab-server@1.1.1" target="notebook@6.0.3" />
+    <edge source="jupyterlab-server@1.1.1" target="requests@2.23.0" />
+    <edge source="livereload@2.6.1" target="six@1.14.0" />
+    <edge source="livereload@2.6.1" target="tornado@6.0.4" />
+    <edge source="nbconvert@5.6.1" target="bleach@3.1.4" />
+    <edge source="nbconvert@5.6.1" target="defusedxml@0.6.0" />
+    <edge source="nbconvert@5.6.1" target="entrypoints@0.3" />
+    <edge source="nbconvert@5.6.1" target="jinja2@2.11.2" />
+    <edge source="nbconvert@5.6.1" target="jupyter-core@4.6.3" />
+    <edge source="nbconvert@5.6.1" target="mistune@0.8.4" />
+    <edge source="nbconvert@5.6.1" target="nbformat@4.4.0" />
+    <edge source="nbconvert@5.6.1" target="pandocfilters@1.4.2" />
+    <edge source="nbconvert@5.6.1" target="pygments@2.6.1" />
+    <edge source="nbconvert@5.6.1" target="testpath@0.4.4" />
+    <edge source="nbconvert@5.6.1" target="traitlets@4.3.3" />
+    <edge source="nbformat@4.4.0" target="ipython-genutils@0.2.0" />
+    <edge source="nbformat@4.4.0" target="jsonschema@3.2.0" />
+    <edge source="nbformat@4.4.0" target="jupyter-core@4.6.3" />
+    <edge source="nbformat@4.4.0" target="traitlets@4.3.3" />
+    <edge source="notebook@6.0.3" target="send2trash@1.5.0" />
+    <edge source="notebook@6.0.3" target="ipykernel@5.2.0" />
+    <edge source="notebook@6.0.3" target="ipython-genutils@0.2.0" />
+    <edge source="notebook@6.0.3" target="jinja2@2.11.2" />
+    <edge source="notebook@6.0.3" target="jupyter-client@6.1.3" />
+    <edge source="notebook@6.0.3" target="jupyter-core@4.6.3" />
+    <edge source="notebook@6.0.3" target="nbconvert@5.6.1" />
+    <edge source="notebook@6.0.3" target="nbformat@4.4.0" />
+    <edge source="notebook@6.0.3" target="prometheus-client@0.7.1" />
+    <edge source="notebook@6.0.3" target="pyzmq@19.0.0" />
+    <edge source="notebook@6.0.3" target="terminado@0.8.3" />
+    <edge source="notebook@6.0.3" target="tornado@6.0.4" />
+    <edge source="notebook@6.0.3" target="traitlets@4.3.3" />
+    <edge source="packaging@20.3" target="pyparsing@2.4.7" />
+    <edge source="packaging@20.3" target="six@1.14.0" />
+    <edge source="pelican@4.2.0" target="blinker@1.4" />
+    <edge source="pelican@4.2.0" target="docutils@0.16" />
+    <edge source="pelican@4.2.0" target="feedgenerator@1.9.1" />
+    <edge source="pelican@4.2.0" target="jinja2@2.11.2" />
+    <edge source="pelican@4.2.0" target="pygments@2.6.1" />
+    <edge source="pelican@4.2.0" target="python-dateutil@2.8.1" />
+    <edge source="pelican@4.2.0" target="pytz@2019.3" />
+    <edge source="pelican@4.2.0" target="six@1.14.0" />
+    <edge source="pelican@4.2.0" target="unidecode@1.1.1" />
+    <edge source="pexpect@4.8.0" target="ptyprocess@0.6.0" />
+    <edge source="pluggy@0.13.1" target="importlib-metadata@1.6.0" />
+    <edge source="prompt-toolkit@3.0.3" target="wcwidth@0.1.9" />
+    <edge source="pyrsistent@0.16.0" target="six@1.14.0" />
+    <edge source="pytest@5.4.1" target="atomicwrites@1.3.0" />
+    <edge source="pytest@5.4.1" target="attrs@19.3.0" />
+    <edge source="pytest@5.4.1" target="colorama@0.4.3" />
+    <edge source="pytest@5.4.1" target="more-itertools@8.2.0" />
+    <edge source="pytest@5.4.1" target="packaging@20.3" />
+    <edge source="pytest@5.4.1" target="pluggy@0.13.1" />
+    <edge source="pytest@5.4.1" target="py@1.8.1" />
+    <edge source="pytest@5.4.1" target="wcwidth@0.1.9" />
+    <edge source="pytest@5.4.1" target="importlib-metadata@1.6.0" />
+    <edge source="pytest-cov@2.8.1" target="coverage@5.1" />
+    <edge source="pytest-cov@2.8.1" target="pytest@5.4.1" />
+    <edge source="pytest-pythonpath@0.7.3" target="pytest@5.4.1" />
+    <edge source="pytest-sugar@0.9.2" target="packaging@20.3" />
+    <edge source="pytest-sugar@0.9.2" target="pytest@5.4.1" />
+    <edge source="pytest-sugar@0.9.2" target="termcolor@1.1.0" />
+    <edge source="python-dateutil@2.8.1" target="six@1.14.0" />
+    <edge source="requests@2.23.0" target="certifi@2020.4.5.1" />
+    <edge source="requests@2.23.0" target="chardet@3.0.4" />
+    <edge source="requests@2.23.0" target="idna@2.9" />
+    <edge source="requests@2.23.0" target="urllib3@1.25.8" />
+    <edge source="terminado@0.8.3" target="ptyprocess@0.6.0" />
+    <edge source="terminado@0.8.3" target="pywinpty@0.5.7" />
+    <edge source="terminado@0.8.3" target="tornado@6.0.4" />
+    <edge source="traitlets@4.3.3" target="decorator@4.4.2" />
+    <edge source="traitlets@4.3.3" target="ipython-genutils@0.2.0" />
+    <edge source="traitlets@4.3.3" target="six@1.14.0" />
+    <data key="d0">chuckpr__pelican-jupyter-reader</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

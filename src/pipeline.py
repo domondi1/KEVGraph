@@ -33,7 +33,7 @@ from . import config
 from .baselines import run_all_baselines
 from .candidate_fixes import load_fixes, run_candidate_fixes
 from .collect_repos import collect_repos, write_manifest
-from .ecosystems.npm import NpmAdapter
+from .ecosystems.base import EcosystemAdapter
 from .fetch_lockfiles import fetch_lockfiles
 from .metrics import PlanMetrics, compute_metrics, metrics_to_dict
 from .osv_kev_join import load_vulns, run_join
@@ -51,12 +51,17 @@ EVAL_PATH = config.DATA_DIR / "evaluation.json"
 
 def _stage_done(stage: str) -> bool:
     """Heuristic: check whether a stage's primary output exists."""
+    from . import candidate_fixes as _cfx
+    from . import osv_kev_join as _osv
+
     checks = {
         "collect": config.MANIFEST_CSV.exists,
-        "fetch": lambda: any(config.LOCKFILE_DIR.glob("*.json")),
+        "fetch": lambda: (
+            config.LOCKFILE_DIR.exists() and any(config.LOCKFILE_DIR.iterdir())
+        ),
         "parse": lambda: any(config.GRAPH_DIR.glob("*.graphml")),
-        "join": lambda: (config.DATA_DIR / "vulns.json").exists(),
-        "fixes": lambda: (config.DATA_DIR / "fixes.json").exists(),
+        "join": lambda: _osv.VULNS_PATH.exists(),
+        "fixes": lambda: _cfx.FIXES_PATH.exists(),
         "plan": lambda: EVAL_PATH.exists(),
         "evaluate": lambda: config.RESULTS_CSV.exists(),
         "plot": lambda: any(config.PLOT_DIR.glob("*.pdf")),
@@ -73,16 +78,74 @@ def _find_resume_point() -> str:
     return STAGES[-1]
 
 
-def run_pipeline(start_stage: str | None = None, resume: bool = False) -> None:
+def _select_adapter(ecosystem: str) -> EcosystemAdapter:
+    """Instantiate the correct adapter for the given ecosystem name."""
+    if ecosystem == "npm":
+        from .ecosystems.npm import NpmAdapter
+        return NpmAdapter()
+    if ecosystem == "pypi":
+        from .ecosystems.pypi import PyPIAdapter
+        return PyPIAdapter()
+    raise ValueError(f"Unknown ecosystem: {ecosystem!r}. Choices: npm, pypi")
+
+
+def _setup_ecosystem_dirs(ecosystem: str) -> Path:
+    """Return ecosystem-namespaced EVAL_PATH and patch config dirs in-process.
+
+    For the default 'npm' ecosystem, all existing paths are left unchanged
+    (backward-compatible).  For any other ecosystem, outputs are written to
+    data/{ecosystem}/ sub-directories so npm and PyPI data never collide.
+    """
+    global EVAL_PATH
+    if ecosystem == "npm":
+        EVAL_PATH = config.DATA_DIR / "evaluation.json"
+        return EVAL_PATH
+
+    eco_dir = config.DATA_DIR / ecosystem
+    eco_dir.mkdir(parents=True, exist_ok=True)
+
+    # Patch module-level config paths for this process only
+    config.LOCKFILE_DIR = eco_dir / "lockfiles"
+    config.GRAPH_DIR = eco_dir / "graphs"
+    config.PLOT_DIR = eco_dir / "plots"
+    config.KEV_SCAN_DIR = eco_dir / "kev_scan"
+    config.MANIFEST_CSV = eco_dir / "manifest.csv"
+    config.RESULTS_CSV = eco_dir / "results.csv"
+
+    for d in (
+        config.LOCKFILE_DIR,
+        config.GRAPH_DIR,
+        config.PLOT_DIR,
+        config.KEV_SCAN_DIR,
+    ):
+        d.mkdir(parents=True, exist_ok=True)
+
+    # Patch ecosystem-specific data file paths in downstream modules so
+    # vulns.json and fixes.json land in the ecosystem subdirectory.
+    from . import candidate_fixes as _cfx
+    from . import osv_kev_join as _osv
+    _osv.VULNS_PATH = eco_dir / "vulns.json"
+    _cfx.FIXES_PATH = eco_dir / "fixes.json"
+
+    EVAL_PATH = eco_dir / "evaluation.json"
+    return EVAL_PATH
+
+
+def run_pipeline(
+    start_stage: str | None = None,
+    resume: bool = False,
+    ecosystem: str = "npm",
+) -> None:
     t_pipeline = time.perf_counter()
+
+    adapter = _select_adapter(ecosystem)
+    eval_path = _setup_ecosystem_dirs(ecosystem)
 
     if resume:
         start_stage = _find_resume_point()
         log.info("Resuming from stage: %s", start_stage)
 
     start_idx = STAGES.index(start_stage) if start_stage else 0
-
-    adapter = NpmAdapter()
 
     for stage in STAGES[start_idx:]:
         t0 = time.perf_counter()
@@ -136,7 +199,7 @@ def run_pipeline(start_stage: str | None = None, resume: bool = False) -> None:
             all_random_for_ci = random_plans
 
             # Save plans for downstream stages
-            EVAL_PATH.write_text(
+            eval_path.write_text(
                 json.dumps(
                     {
                         "plans": [
@@ -169,7 +232,7 @@ def run_pipeline(start_stage: str | None = None, resume: bool = False) -> None:
             fixes = load_fixes()
 
             # Reload plans from evaluation.json
-            eval_data = json.loads(EVAL_PATH.read_text())
+            eval_data = json.loads(eval_path.read_text())
             from .planner_greedy import PlanStep
 
             all_plans: list[RemediationPlan] = []
@@ -239,7 +302,7 @@ def run_pipeline(start_stage: str | None = None, resume: bool = False) -> None:
                 eval_data["random_baseline_ci"] = random_ci
 
                 # Also write standalone random_ci.json for quick reference
-                ci_path = config.DATA_DIR / "random_ci.json"
+                ci_path = eval_path.parent / "random_ci.json"
                 ci_path.write_text(json.dumps(random_ci, indent=2))
                 log.info("Wrote %s", ci_path)
 
@@ -256,7 +319,7 @@ def run_pipeline(start_stage: str | None = None, resume: bool = False) -> None:
                     "to generate 30-seed ensemble for bootstrap CI."
                 )
 
-            EVAL_PATH.write_text(json.dumps(eval_data, indent=2))
+            eval_path.write_text(json.dumps(eval_data, indent=2))
 
             # Print summary table
             print("\n" + "=" * 80)
@@ -267,7 +330,7 @@ def run_pipeline(start_stage: str | None = None, resume: bool = False) -> None:
 
         elif stage == "plot":
             vulns = load_vulns()
-            eval_data = json.loads(EVAL_PATH.read_text())
+            eval_data = json.loads(eval_path.read_text())
             from .planner_greedy import PlanStep
 
             all_plans = []
@@ -310,13 +373,19 @@ def main() -> None:
         action="store_true",
         help="Resume from last completed stage",
     )
+    parser.add_argument(
+        "--ecosystem",
+        choices=["npm", "pypi"],
+        default="npm",
+        help="Package ecosystem to process (default: npm)",
+    )
     args = parser.parse_args()
 
     if args.stage and args.resume:
         print("ERROR: --stage and --resume are mutually exclusive", file=sys.stderr)
         sys.exit(1)
 
-    run_pipeline(start_stage=args.stage, resume=args.resume)
+    run_pipeline(start_stage=args.stage, resume=args.resume, ecosystem=args.ecosystem)
 
 
 if __name__ == "__main__":

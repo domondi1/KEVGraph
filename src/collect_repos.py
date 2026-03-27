@@ -161,13 +161,21 @@ def collect_repos(
     return all_rows
 
 
-def collect_from_curated(curated_path: Path) -> list[dict]:
+def collect_from_curated(
+    curated_path: Path,
+    adapter: EcosystemAdapter | None = None,
+) -> list[dict]:
     """Read owner/repo lines from *curated_path* and build manifest rows.
 
     Fetches repo metadata (default_branch, stars) from the GitHub Repos API.
     Bypasses the Code Search API entirely — no GITHUB_TOKEN required, though
     providing one raises the rate limit from 60 to 5000 requests/hour.
     """
+    if adapter is None:
+        from .ecosystems.npm import NpmAdapter
+        adapter = NpmAdapter()
+
+    lockfile_filename = adapter.lockfile_filename
     lines = [
         ln.strip()
         for ln in curated_path.read_text().splitlines()
@@ -186,7 +194,7 @@ def collect_from_curated(curated_path: Path) -> list[dict]:
                 "repo_full_name": full_name,
                 "default_branch": repo_data.get("default_branch", "main"),
                 "stars": repo_data.get("stargazers_count", 0),
-                "lockfile_path": "package-lock.json",
+                "lockfile_path": lockfile_filename,
                 "collected_at": datetime.now(timezone.utc).isoformat(),
             }
         )

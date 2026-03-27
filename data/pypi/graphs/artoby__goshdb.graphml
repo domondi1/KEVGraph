@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="cachetools@5.3.3">
+      <data key="d2">cachetools</data>
+      <data key="d3">5.3.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="certifi@2024.2.2">
+      <data key="d2">certifi</data>
+      <data key="d3">2024.2.2</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-43fp-rhv2-5gv8,GHSA-xqr8-7jwr-rhp7,PYSEC-2022-42986,PYSEC-2023-135,GHSA-248v-346w-9cwc,PYSEC-2024-230</data>
+    </node>
+    <node id="charset-normalizer@3.3.2">
+      <data key="d2">charset-normalizer</data>
+      <data key="d3">3.3.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="colorama@0.4.6">
+      <data key="d2">colorama</data>
+      <data key="d3">0.4.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="et-xmlfile@1.1.0">
+      <data key="d2">et-xmlfile</data>
+      <data key="d3">1.1.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="exceptiongroup@1.2.1">
+      <data key="d2">exceptiongroup</data>
+      <data key="d3">1.2.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="google-api-core@2.19.0">
+      <data key="d2">google-api-core</data>
+      <data key="d3">2.19.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="google-api-python-client@2.128.0">
+      <data key="d2">google-api-python-client</data>
+      <data key="d3">2.128.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="google-auth@2.29.0">
+      <data key="d2">google-auth</data>
+      <data key="d3">2.29.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="google-auth-httplib2@0.2.0">
+      <data key="d2">google-auth-httplib2</data>
+      <data key="d3">0.2.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="google-auth-oauthlib@1.2.0">
+      <data key="d2">google-auth-oauthlib</data>
+      <data key="d3">1.2.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="googleapis-common-protos@1.63.0">
+      <data key="d2">googleapis-common-protos</data>
+      <data key="d3">1.63.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="httplib2@0.22.0">
+      <data key="d2">httplib2</data>
+      <data key="d3">0.22.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="idna@3.7">
+      <data key="d2">idna</data>
+      <data key="d3">3.7</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-jjg7-2v4v-x38h,PYSEC-2024-60</data>
+    </node>
+    <node id="iniconfig@2.0.0">
+      <data key="d2">iniconfig</data>
+      <data key="d3">2.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="oauthlib@3.2.2">
+      <data key="d2">oauthlib</data>
+      <data key="d3">3.2.2</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-3pgj-pg6c-r5p7,PYSEC-2022-269</data>
+    </node>
+    <node id="openpyxl@3.1.2">
+      <data key="d2">openpyxl</data>
+      <data key="d3">3.1.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="packaging@24.0">
+      <data key="d2">packaging</data>
+      <data key="d3">24.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pluggy@1.5.0">
+      <data key="d2">pluggy</data>
+      <data key="d3">1.5.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="proto-plus@1.23.0">
+      <data key="d2">proto-plus</data>
+      <data key="d3">1.23.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="protobuf@4.25.3">
+      <data key="d2">protobuf</data>
+      <data key="d3">4.25.3</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-7gcm-g887-7qv7,GHSA-8gq9-2x98-w8hf,GHSA-8qvm-5x2c-j2w7</data>
+    </node>
+    <node id="pyasn1@0.6.0">
+      <data key="d2">pyasn1</data>
+      <data key="d3">0.6.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-jr27-m4p2-rc6r,GHSA-63vm-454h-vhhq</data>
+    </node>
+    <node id="pyasn1-modules@0.4.0">
+      <data key="d2">pyasn1-modules</data>
+      <data key="d3">0.4.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyparsing@3.1.2">
+      <data key="d2">pyparsing</data>
+      <data key="d3">3.1.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pytest@8.2.0">
+      <data key="d2">pytest</data>
+      <data key="d3">8.2.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="requests@2.31.0">
+      <data key="d2">requests</data>
+      <data key="d3">2.31.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-9hjg-9r4m-mvj7,GHSA-9wx4-h78v-vm56,GHSA-gc5v-m9x4-r6x2,GHSA-j8r2-6x86-q33q,GHSA-x84v-xcm2-53pg,PYSEC-2018-28,PYSEC-2023-74</data>
+    </node>
+    <node id="requests-oauthlib@2.0.0">
+      <data key="d2">requests-oauthlib</data>
+      <data key="d3">2.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="rsa@4.2">
+      <data key="d2">rsa</data>
+      <data key="d3">4.2</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-xrx6-fmxq-rjj2,PYSEC-2020-100</data>
+    </node>
+    <node id="tomli@2.0.1">
+      <data key="d2">tomli</data>
+      <data key="d3">2.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="uritemplate@4.1.1">
+      <data key="d2">uritemplate</data>
+      <data key="d3">4.1.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="urllib3@2.2.1">
+      <data key="d2">urllib3</data>
+      <data key="d3">2.2.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-2xpw-w6gg-jr37,GHSA-34jh-p97f-mpxf,GHSA-38jv-5279-wg99,GHSA-g4mx-q9vg-27p4,GHSA-gwvm-45gx-3cf8,GHSA-mh33-7rrq-662w,GHSA-pq67-6m6q-mj2v,GHSA-r64q-w8jr-g9qp,GHSA-v845-jxx5-vc9f,GHSA-wqvq-5m8c-6g24,GHSA-www2-v7xj-xrc6,PYSEC-2018-32,PYSEC-2019-132,PYSEC-2019-133,PYSEC-2020-148,PYSEC-2021-108,PYSEC-2023-192,PYSEC-2023-207,PYSEC-2023-212,GHSA-gm62-xv2j-4w53,GHSA-q2q7-5pp4-w6pg,GHSA-48p4-8xcf-vxj5</data>
+    </node>
+    <edge source="google-api-core@2.19.0" target="google-auth@2.29.0" />
+    <edge source="google-api-core@2.19.0" target="googleapis-common-protos@1.63.0" />
+    <edge source="google-api-core@2.19.0" target="proto-plus@1.23.0" />
+    <edge source="google-api-core@2.19.0" target="protobuf@4.25.3" />
+    <edge source="google-api-core@2.19.0" target="requests@2.31.0" />
+    <edge source="google-api-python-client@2.128.0" target="google-api-core@2.19.0" />
+    <edge source="google-api-python-client@2.128.0" target="google-auth@2.29.0" />
+    <edge source="google-api-python-client@2.128.0" target="google-auth-httplib2@0.2.0" />
+    <edge source="google-api-python-client@2.128.0" target="httplib2@0.22.0" />
+    <edge source="google-api-python-client@2.128.0" target="uritemplate@4.1.1" />
+    <edge source="google-auth@2.29.0" target="cachetools@5.3.3" />
+    <edge source="google-auth@2.29.0" target="pyasn1-modules@0.4.0" />
+    <edge source="google-auth@2.29.0" target="rsa@4.2" />
+    <edge source="google-auth-httplib2@0.2.0" target="google-auth@2.29.0" />
+    <edge source="google-auth-httplib2@0.2.0" target="httplib2@0.22.0" />
+    <edge source="google-auth-oauthlib@1.2.0" target="google-auth@2.29.0" />
+    <edge source="google-auth-oauthlib@1.2.0" target="requests-oauthlib@2.0.0" />
+    <edge source="googleapis-common-protos@1.63.0" target="protobuf@4.25.3" />
+    <edge source="httplib2@0.22.0" target="pyparsing@3.1.2" />
+    <edge source="openpyxl@3.1.2" target="et-xmlfile@1.1.0" />
+    <edge source="proto-plus@1.23.0" target="protobuf@4.25.3" />
+    <edge source="pyasn1-modules@0.4.0" target="pyasn1@0.6.0" />
+    <edge source="pytest@8.2.0" target="colorama@0.4.6" />
+    <edge source="pytest@8.2.0" target="exceptiongroup@1.2.1" />
+    <edge source="pytest@8.2.0" target="iniconfig@2.0.0" />
+    <edge source="pytest@8.2.0" target="packaging@24.0" />
+    <edge source="pytest@8.2.0" target="pluggy@1.5.0" />
+    <edge source="pytest@8.2.0" target="tomli@2.0.1" />
+    <edge source="requests@2.31.0" target="certifi@2024.2.2" />
+    <edge source="requests@2.31.0" target="charset-normalizer@3.3.2" />
+    <edge source="requests@2.31.0" target="idna@3.7" />
+    <edge source="requests@2.31.0" target="urllib3@2.2.1" />
+    <edge source="requests-oauthlib@2.0.0" target="oauthlib@3.2.2" />
+    <edge source="requests-oauthlib@2.0.0" target="requests@2.31.0" />
+    <edge source="rsa@4.2" target="pyasn1@0.6.0" />
+    <data key="d0">artoby__goshdb</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

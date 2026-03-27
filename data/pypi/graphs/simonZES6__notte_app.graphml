@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="annotated-types@0.5.0">
+      <data key="d2">annotated-types</data>
+      <data key="d3">0.5.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="anyio@3.7.1">
+      <data key="d2">anyio</data>
+      <data key="d3">3.7.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="click@8.1.7">
+      <data key="d2">click</data>
+      <data key="d3">8.1.7</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="colorama@0.4.6">
+      <data key="d2">colorama</data>
+      <data key="d3">0.4.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="fastapi@0.103.1">
+      <data key="d2">fastapi</data>
+      <data key="d3">0.103.1</data>
+      <data key="d4">false</data>
+      <data key="d5">PYSEC-2024-38,GHSA-8h2j-cgx8-6xv7,PYSEC-2021-100</data>
+    </node>
+    <node id="h11@0.14.0">
+      <data key="d2">h11</data>
+      <data key="d3">0.14.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-vqfr-h8mv-ghfj</data>
+    </node>
+    <node id="httptools@0.6.0">
+      <data key="d2">httptools</data>
+      <data key="d3">0.6.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="idna@3.4">
+      <data key="d2">idna</data>
+      <data key="d3">3.4</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-jjg7-2v4v-x38h,PYSEC-2024-60</data>
+    </node>
+    <node id="pydantic@2.3.0">
+      <data key="d2">pydantic</data>
+      <data key="d3">2.3.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-mr82-8j83-vxmv</data>
+    </node>
+    <node id="pydantic-core@2.6.3">
+      <data key="d2">pydantic-core</data>
+      <data key="d3">2.6.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="python-dotenv@1.0.0">
+      <data key="d2">python-dotenv</data>
+      <data key="d3">1.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyyaml@6.0.1">
+      <data key="d2">pyyaml</data>
+      <data key="d3">6.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="sniffio@1.3.0">
+      <data key="d2">sniffio</data>
+      <data key="d3">1.3.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="starlette@0.27.0">
+      <data key="d2">starlette</data>
+      <data key="d3">0.27.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-2c2j-9gv5-cj73,GHSA-74m5-2c7w-9w3x,GHSA-f96h-pmfr-66vw,GHSA-v5gw-mw7f-84px,PYSEC-2023-48,PYSEC-2023-83,GHSA-7f5h-v6xp-fcq8</data>
+    </node>
+    <node id="typing-extensions@4.7.1">
+      <data key="d2">typing-extensions</data>
+      <data key="d3">4.7.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="uvicorn@0.23.2">
+      <data key="d2">uvicorn</data>
+      <data key="d3">0.23.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="uvloop@0.17.0">
+      <data key="d2">uvloop</data>
+      <data key="d3">0.17.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="watchfiles@0.20.0">
+      <data key="d2">watchfiles</data>
+      <data key="d3">0.20.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="websockets@11.0.3">
+      <data key="d2">websockets</data>
+      <data key="d3">11.0.3</data>
+      <data key="d4">false</data>
+    </node>
+    <edge source="anyio@3.7.1" target="idna@3.4" />
+    <edge source="anyio@3.7.1" target="sniffio@1.3.0" />
+    <edge source="click@8.1.7" target="colorama@0.4.6" />
+    <edge source="fastapi@0.103.1" target="anyio@3.7.1" />
+    <edge source="fastapi@0.103.1" target="pydantic@2.3.0" />
+    <edge source="fastapi@0.103.1" target="starlette@0.27.0" />
+    <edge source="fastapi@0.103.1" target="typing-extensions@4.7.1" />
+    <edge source="pydantic@2.3.0" target="annotated-types@0.5.0" />
+    <edge source="pydantic@2.3.0" target="pydantic-core@2.6.3" />
+    <edge source="pydantic@2.3.0" target="typing-extensions@4.7.1" />
+    <edge source="pydantic-core@2.6.3" target="typing-extensions@4.7.1" />
+    <edge source="starlette@0.27.0" target="anyio@3.7.1" />
+    <edge source="uvicorn@0.23.2" target="click@8.1.7" />
+    <edge source="uvicorn@0.23.2" target="colorama@0.4.6" />
+    <edge source="uvicorn@0.23.2" target="h11@0.14.0" />
+    <edge source="uvicorn@0.23.2" target="httptools@0.6.0" />
+    <edge source="uvicorn@0.23.2" target="python-dotenv@1.0.0" />
+    <edge source="uvicorn@0.23.2" target="pyyaml@6.0.1" />
+    <edge source="uvicorn@0.23.2" target="uvloop@0.17.0" />
+    <edge source="uvicorn@0.23.2" target="watchfiles@0.20.0" />
+    <edge source="uvicorn@0.23.2" target="websockets@11.0.3" />
+    <edge source="watchfiles@0.20.0" target="anyio@3.7.1" />
+    <data key="d0">simonZES6__notte_app</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

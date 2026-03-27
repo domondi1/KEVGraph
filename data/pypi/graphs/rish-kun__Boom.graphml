@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="aiohttp@3.7.4.post0">
+      <data key="d2">aiohttp</data>
+      <data key="d3">3.7.4.post0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-54jq-c3m8-4m76,GHSA-69f9-5gxw-wvc2,GHSA-6jhg-hg63-jvvf,GHSA-6mq8-rvhq-8wgg,GHSA-9548-qrrj-x5pj,GHSA-fh55-r93g-j68g,GHSA-g84x-mcqj-x9qq,GHSA-jj3x-wxrx-4x23,GHSA-mqqc-3gqh-h2x8,GHSA-45c4-8wx5-qw6w,GHSA-5h86-8mv2-jq9f,GHSA-5m98-qgg9-wh84,GHSA-7gpw-8wmc-pm8g,GHSA-8495-4g3g-x7pr,GHSA-8qpw-xqxj-h4r2,GHSA-gfw2-4jvh-wgfg,GHSA-pjjw-qhg8-p2p9,GHSA-q3qx-c6g2-7pw2,GHSA-qvrw-v9rv-5rjx,GHSA-xx9p-xxvh-7g8j,PYSEC-2023-120,PYSEC-2023-246,PYSEC-2023-247,PYSEC-2023-250,PYSEC-2023-251,PYSEC-2024-24,PYSEC-2024-26</data>
+    </node>
+    <node id="async-timeout@3.0.1">
+      <data key="d2">async-timeout</data>
+      <data key="d3">3.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="attrs@21.2.0">
+      <data key="d2">attrs</data>
+      <data key="d3">21.2.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="chardet@4.0.0">
+      <data key="d2">chardet</data>
+      <data key="d3">4.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="click@8.0.1">
+      <data key="d2">click</data>
+      <data key="d3">8.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="colorama@0.4.4">
+      <data key="d2">colorama</data>
+      <data key="d3">0.4.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="discord@1.7.3">
+      <data key="d2">discord</data>
+      <data key="d3">1.7.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="discord-py-interactions@3.0.2">
+      <data key="d2">discord-py-interactions</data>
+      <data key="d3">3.0.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="discord-py@1.7.3">
+      <data key="d2">discord-py</data>
+      <data key="d3">1.7.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="dnspython@2.1.0">
+      <data key="d2">dnspython</data>
+      <data key="d3">2.1.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-3rq5-2g8h-59hc</data>
+    </node>
+    <node id="flask@2.0.1">
+      <data key="d2">flask</data>
+      <data key="d3">2.0.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-68rp-wp8r-4726,GHSA-m2qf-hxjv-5gpq,PYSEC-2023-62,GHSA-4grg-w6v8-c28g</data>
+    </node>
+    <node id="idna@3.2">
+      <data key="d2">idna</data>
+      <data key="d3">3.2</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-jjg7-2v4v-x38h,PYSEC-2024-60</data>
+    </node>
+    <node id="itsdangerous@2.0.1">
+      <data key="d2">itsdangerous</data>
+      <data key="d3">2.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="jinja2@3.0.1">
+      <data key="d2">jinja2</data>
+      <data key="d3">3.0.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-cpwx-vrp4-4pq7,GHSA-g3rq-g295-4j3m,GHSA-h5c8-rqwp-cp95,GHSA-h75v-3vvj-5mfj,GHSA-q2x7-8rv6-6q7h,PYSEC-2021-66,GHSA-gmj6-6f8f-6699</data>
+    </node>
+    <node id="keep-repl-alive@1.4">
+      <data key="d2">keep-repl-alive</data>
+      <data key="d3">1.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="markupsafe@2.0.1">
+      <data key="d2">markupsafe</data>
+      <data key="d3">2.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="marshmallow@3.12.1">
+      <data key="d2">marshmallow</data>
+      <data key="d3">3.12.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-428g-f7cq-pgp5</data>
+    </node>
+    <node id="multidict@5.1.0">
+      <data key="d2">multidict</data>
+      <data key="d3">5.1.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pymongo@3.11.4">
+      <data key="d2">pymongo</data>
+      <data key="d3">3.11.4</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-m87m-mmvp-v9qm</data>
+    </node>
+    <node id="python-dotenv@0.18.0">
+      <data key="d2">python-dotenv</data>
+      <data key="d3">0.18.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="typing-extensions@3.10.0.0">
+      <data key="d2">typing-extensions</data>
+      <data key="d3">3.10.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="umongo@3.0.0">
+      <data key="d2">umongo</data>
+      <data key="d3">3.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="werkzeug@2.0.1">
+      <data key="d2">werkzeug</data>
+      <data key="d3">2.0.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-29vq-49wr-vm6x,GHSA-2g68-c3qc-8985,GHSA-87hc-h4r5-73f7,GHSA-f9vj-2wh5-fj8j,GHSA-hgf8-39gv-g3f2,GHSA-hrfv-mqp8-q5rw,GHSA-px8h-6qxv-m22q,GHSA-q34m-jh98-gwm2,GHSA-xg9f-g7g7-2323,PYSEC-2022-203,PYSEC-2023-221,PYSEC-2023-57,PYSEC-2023-58</data>
+    </node>
+    <node id="yarl@1.6.3">
+      <data key="d2">yarl</data>
+      <data key="d3">1.6.3</data>
+      <data key="d4">false</data>
+    </node>
+    <edge source="aiohttp@3.7.4.post0" target="async-timeout@3.0.1" />
+    <edge source="aiohttp@3.7.4.post0" target="attrs@21.2.0" />
+    <edge source="aiohttp@3.7.4.post0" target="chardet@4.0.0" />
+    <edge source="aiohttp@3.7.4.post0" target="multidict@5.1.0" />
+    <edge source="aiohttp@3.7.4.post0" target="typing-extensions@3.10.0.0" />
+    <edge source="aiohttp@3.7.4.post0" target="yarl@1.6.3" />
+    <edge source="click@8.0.1" target="colorama@0.4.4" />
+    <edge source="discord@1.7.3" target="discord-py@1.7.3" />
+    <edge source="discord-py-interactions@3.0.2" target="aiohttp@3.7.4.post0" />
+    <edge source="discord-py-interactions@3.0.2" target="discord-py@1.7.3" />
+    <edge source="discord-py@1.7.3" target="aiohttp@3.7.4.post0" />
+    <edge source="flask@2.0.1" target="click@8.0.1" />
+    <edge source="flask@2.0.1" target="itsdangerous@2.0.1" />
+    <edge source="flask@2.0.1" target="jinja2@3.0.1" />
+    <edge source="flask@2.0.1" target="werkzeug@2.0.1" />
+    <edge source="jinja2@3.0.1" target="markupsafe@2.0.1" />
+    <edge source="keep-repl-alive@1.4" target="flask@2.0.1" />
+    <edge source="umongo@3.0.0" target="marshmallow@3.12.1" />
+    <edge source="umongo@3.0.0" target="pymongo@3.11.4" />
+    <edge source="yarl@1.6.3" target="idna@3.2" />
+    <edge source="yarl@1.6.3" target="multidict@5.1.0" />
+    <data key="d0">rish-kun__Boom</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

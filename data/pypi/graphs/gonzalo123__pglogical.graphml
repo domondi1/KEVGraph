@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="annotated-types@0.7.0">
+      <data key="d2">annotated-types</data>
+      <data key="d3">0.7.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="bandit@1.7.10">
+      <data key="d2">bandit</data>
+      <data key="d3">1.7.10</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="colorama@0.4.6">
+      <data key="d2">colorama</data>
+      <data key="d3">0.4.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="flake8@7.1.1">
+      <data key="d2">flake8</data>
+      <data key="d3">7.1.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="markdown-it-py@3.0.0">
+      <data key="d2">markdown-it-py</data>
+      <data key="d3">3.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="mccabe@0.7.0">
+      <data key="d2">mccabe</data>
+      <data key="d3">0.7.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="mdurl@0.1.2">
+      <data key="d2">mdurl</data>
+      <data key="d3">0.1.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pbr@6.1.0">
+      <data key="d2">pbr</data>
+      <data key="d3">6.1.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="psycopg2-binary@2.9.9">
+      <data key="d2">psycopg2-binary</data>
+      <data key="d3">2.9.9</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pycodestyle@2.12.1">
+      <data key="d2">pycodestyle</data>
+      <data key="d3">2.12.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pydantic@2.9.2">
+      <data key="d2">pydantic</data>
+      <data key="d3">2.9.2</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-mr82-8j83-vxmv</data>
+    </node>
+    <node id="pydantic-core@2.23.4">
+      <data key="d2">pydantic-core</data>
+      <data key="d3">2.23.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyflakes@3.2.0">
+      <data key="d2">pyflakes</data>
+      <data key="d3">3.2.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pygments@2.18.0">
+      <data key="d2">pygments</data>
+      <data key="d3">2.18.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-5239-wwwm-4pmq,GHSA-mrwq-x4v8-fh7p,PYSEC-2023-117,GHSA-9w8r-397f-prfh,GHSA-pq64-v7f5-gqh8,PYSEC-2021-140,PYSEC-2021-141</data>
+    </node>
+    <node id="pyyaml@6.0.2">
+      <data key="d2">pyyaml</data>
+      <data key="d3">6.0.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="rich@13.9.2">
+      <data key="d2">rich</data>
+      <data key="d3">13.9.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="stevedore@5.3.0">
+      <data key="d2">stevedore</data>
+      <data key="d3">5.3.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="typing-extensions@4.12.2">
+      <data key="d2">typing-extensions</data>
+      <data key="d3">4.12.2</data>
+      <data key="d4">false</data>
+    </node>
+    <edge source="bandit@1.7.10" target="colorama@0.4.6" />
+    <edge source="bandit@1.7.10" target="pyyaml@6.0.2" />
+    <edge source="bandit@1.7.10" target="rich@13.9.2" />
+    <edge source="bandit@1.7.10" target="stevedore@5.3.0" />
+    <edge source="flake8@7.1.1" target="mccabe@0.7.0" />
+    <edge source="flake8@7.1.1" target="pycodestyle@2.12.1" />
+    <edge source="flake8@7.1.1" target="pyflakes@3.2.0" />
+    <edge source="markdown-it-py@3.0.0" target="mdurl@0.1.2" />
+    <edge source="pydantic@2.9.2" target="annotated-types@0.7.0" />
+    <edge source="pydantic@2.9.2" target="pydantic-core@2.23.4" />
+    <edge source="pydantic@2.9.2" target="typing-extensions@4.12.2" />
+    <edge source="pydantic-core@2.23.4" target="typing-extensions@4.12.2" />
+    <edge source="rich@13.9.2" target="markdown-it-py@3.0.0" />
+    <edge source="rich@13.9.2" target="pygments@2.18.0" />
+    <edge source="rich@13.9.2" target="typing-extensions@4.12.2" />
+    <edge source="stevedore@5.3.0" target="pbr@6.1.0" />
+    <data key="d0">gonzalo123__pglogical</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

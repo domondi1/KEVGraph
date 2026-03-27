@@ -1,0 +1,229 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="annotated-types@0.7.0">
+      <data key="d2">annotated-types</data>
+      <data key="d3">0.7.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="anyio@4.3.0">
+      <data key="d2">anyio</data>
+      <data key="d3">4.3.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="black@24.4.2">
+      <data key="d2">black</data>
+      <data key="d3">24.4.2</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-3936-cmfr-pm3m,GHSA-fj7x-q9j7-g6q6,PYSEC-2024-48</data>
+    </node>
+    <node id="certifi@2024.2.2">
+      <data key="d2">certifi</data>
+      <data key="d3">2024.2.2</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-43fp-rhv2-5gv8,GHSA-xqr8-7jwr-rhp7,PYSEC-2022-42986,PYSEC-2023-135,GHSA-248v-346w-9cwc,PYSEC-2024-230</data>
+    </node>
+    <node id="click@8.1.7">
+      <data key="d2">click</data>
+      <data key="d3">8.1.7</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="colorama@0.4.6">
+      <data key="d2">colorama</data>
+      <data key="d3">0.4.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="distro@1.9.0">
+      <data key="d2">distro</data>
+      <data key="d3">1.9.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="flake8@7.0.0">
+      <data key="d2">flake8</data>
+      <data key="d3">7.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="flake8-black@0.3.6">
+      <data key="d2">flake8-black</data>
+      <data key="d3">0.3.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="flake8-isort@6.1.1">
+      <data key="d2">flake8-isort</data>
+      <data key="d3">6.1.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="h11@0.14.0">
+      <data key="d2">h11</data>
+      <data key="d3">0.14.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-vqfr-h8mv-ghfj</data>
+    </node>
+    <node id="httpcore@1.0.5">
+      <data key="d2">httpcore</data>
+      <data key="d3">1.0.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="httpx@0.27.0">
+      <data key="d2">httpx</data>
+      <data key="d3">0.27.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="idna@3.7">
+      <data key="d2">idna</data>
+      <data key="d3">3.7</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-jjg7-2v4v-x38h,PYSEC-2024-60</data>
+    </node>
+    <node id="iniconfig@2.0.0">
+      <data key="d2">iniconfig</data>
+      <data key="d3">2.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="isort@5.13.2">
+      <data key="d2">isort</data>
+      <data key="d3">5.13.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="mccabe@0.7.0">
+      <data key="d2">mccabe</data>
+      <data key="d3">0.7.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="mockito@1.5.0">
+      <data key="d2">mockito</data>
+      <data key="d3">1.5.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="mypy-extensions@1.0.0">
+      <data key="d2">mypy-extensions</data>
+      <data key="d3">1.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="openai@1.30.1">
+      <data key="d2">openai</data>
+      <data key="d3">1.30.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="packaging@24.0">
+      <data key="d2">packaging</data>
+      <data key="d3">24.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pathspec@0.12.1">
+      <data key="d2">pathspec</data>
+      <data key="d3">0.12.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="platformdirs@4.2.2">
+      <data key="d2">platformdirs</data>
+      <data key="d3">4.2.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pluggy@1.5.0">
+      <data key="d2">pluggy</data>
+      <data key="d3">1.5.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pycodestyle@2.11.1">
+      <data key="d2">pycodestyle</data>
+      <data key="d3">2.11.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pydantic@2.7.1">
+      <data key="d2">pydantic</data>
+      <data key="d3">2.7.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-mr82-8j83-vxmv</data>
+    </node>
+    <node id="pydantic-core@2.18.2">
+      <data key="d2">pydantic-core</data>
+      <data key="d3">2.18.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyflakes@3.2.0">
+      <data key="d2">pyflakes</data>
+      <data key="d3">3.2.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pytest@8.2.1">
+      <data key="d2">pytest</data>
+      <data key="d3">8.2.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pytest-mockito@0.0.4">
+      <data key="d2">pytest-mockito</data>
+      <data key="d3">0.0.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="python-dotenv@1.0.1">
+      <data key="d2">python-dotenv</data>
+      <data key="d3">1.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="sniffio@1.3.1">
+      <data key="d2">sniffio</data>
+      <data key="d3">1.3.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="tqdm@4.66.4">
+      <data key="d2">tqdm</data>
+      <data key="d3">4.66.4</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-g7vv-2v7x-gj9p</data>
+    </node>
+    <node id="typing-extensions@4.11.0">
+      <data key="d2">typing-extensions</data>
+      <data key="d3">4.11.0</data>
+      <data key="d4">false</data>
+    </node>
+    <edge source="anyio@4.3.0" target="idna@3.7" />
+    <edge source="anyio@4.3.0" target="sniffio@1.3.1" />
+    <edge source="black@24.4.2" target="click@8.1.7" />
+    <edge source="black@24.4.2" target="mypy-extensions@1.0.0" />
+    <edge source="black@24.4.2" target="packaging@24.0" />
+    <edge source="black@24.4.2" target="pathspec@0.12.1" />
+    <edge source="black@24.4.2" target="platformdirs@4.2.2" />
+    <edge source="click@8.1.7" target="colorama@0.4.6" />
+    <edge source="flake8@7.0.0" target="mccabe@0.7.0" />
+    <edge source="flake8@7.0.0" target="pycodestyle@2.11.1" />
+    <edge source="flake8@7.0.0" target="pyflakes@3.2.0" />
+    <edge source="flake8-black@0.3.6" target="black@24.4.2" />
+    <edge source="flake8-black@0.3.6" target="flake8@7.0.0" />
+    <edge source="flake8-isort@6.1.1" target="flake8@7.0.0" />
+    <edge source="flake8-isort@6.1.1" target="isort@5.13.2" />
+    <edge source="httpcore@1.0.5" target="certifi@2024.2.2" />
+    <edge source="httpcore@1.0.5" target="h11@0.14.0" />
+    <edge source="httpx@0.27.0" target="anyio@4.3.0" />
+    <edge source="httpx@0.27.0" target="certifi@2024.2.2" />
+    <edge source="httpx@0.27.0" target="httpcore@1.0.5" />
+    <edge source="httpx@0.27.0" target="idna@3.7" />
+    <edge source="httpx@0.27.0" target="sniffio@1.3.1" />
+    <edge source="openai@1.30.1" target="anyio@4.3.0" />
+    <edge source="openai@1.30.1" target="distro@1.9.0" />
+    <edge source="openai@1.30.1" target="httpx@0.27.0" />
+    <edge source="openai@1.30.1" target="pydantic@2.7.1" />
+    <edge source="openai@1.30.1" target="sniffio@1.3.1" />
+    <edge source="openai@1.30.1" target="tqdm@4.66.4" />
+    <edge source="openai@1.30.1" target="typing-extensions@4.11.0" />
+    <edge source="pydantic@2.7.1" target="annotated-types@0.7.0" />
+    <edge source="pydantic@2.7.1" target="pydantic-core@2.18.2" />
+    <edge source="pydantic@2.7.1" target="typing-extensions@4.11.0" />
+    <edge source="pydantic-core@2.18.2" target="typing-extensions@4.11.0" />
+    <edge source="pytest@8.2.1" target="colorama@0.4.6" />
+    <edge source="pytest@8.2.1" target="iniconfig@2.0.0" />
+    <edge source="pytest@8.2.1" target="packaging@24.0" />
+    <edge source="pytest@8.2.1" target="pluggy@1.5.0" />
+    <edge source="pytest-mockito@0.0.4" target="mockito@1.5.0" />
+    <edge source="pytest-mockito@0.0.4" target="pytest@8.2.1" />
+    <edge source="tqdm@4.66.4" target="colorama@0.4.6" />
+    <data key="d0">malexer__discussion-bots</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

@@ -1,0 +1,406 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="appdirs@1.4.4">
+      <data key="d2">appdirs</data>
+      <data key="d3">1.4.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="assertpy@1.1">
+      <data key="d2">assertpy</data>
+      <data key="d3">1.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="atomicwrites@1.4.0">
+      <data key="d2">atomicwrites</data>
+      <data key="d3">1.4.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="attrs@20.3.0">
+      <data key="d2">attrs</data>
+      <data key="d3">20.3.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="aws-cdk-aws-events@1.106.0">
+      <data key="d2">aws-cdk-aws-events</data>
+      <data key="d3">1.106.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="aws-cdk-aws-iam@1.106.0">
+      <data key="d2">aws-cdk-aws-iam</data>
+      <data key="d3">1.106.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="aws-cdk-aws-kms@1.106.0">
+      <data key="d2">aws-cdk-aws-kms</data>
+      <data key="d3">1.106.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="aws-cdk-aws-s3@1.106.0">
+      <data key="d2">aws-cdk-aws-s3</data>
+      <data key="d3">1.106.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="aws-cdk-cloud-assembly-schema@1.106.0">
+      <data key="d2">aws-cdk-cloud-assembly-schema</data>
+      <data key="d3">1.106.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="aws-cdk-core@1.106.0">
+      <data key="d2">aws-cdk-core</data>
+      <data key="d3">1.106.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="aws-cdk-cx-api@1.106.0">
+      <data key="d2">aws-cdk-cx-api</data>
+      <data key="d3">1.106.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="aws-cdk-region-info@1.106.0">
+      <data key="d2">aws-cdk-region-info</data>
+      <data key="d3">1.106.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="black@21.5b1">
+      <data key="d2">black</data>
+      <data key="d3">21.5b1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-3936-cmfr-pm3m,GHSA-fj7x-q9j7-g6q6,PYSEC-2024-48</data>
+    </node>
+    <node id="boto3@1.17.80">
+      <data key="d2">boto3</data>
+      <data key="d3">1.17.80</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="botocore@1.20.80">
+      <data key="d2">botocore</data>
+      <data key="d3">1.20.80</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="cattrs@1.5.0">
+      <data key="d2">cattrs</data>
+      <data key="d3">1.5.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="certifi@2020.12.5">
+      <data key="d2">certifi</data>
+      <data key="d3">2020.12.5</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-43fp-rhv2-5gv8,GHSA-xqr8-7jwr-rhp7,PYSEC-2022-42986,PYSEC-2023-135,GHSA-248v-346w-9cwc,PYSEC-2024-230</data>
+    </node>
+    <node id="cffi@1.14.5">
+      <data key="d2">cffi</data>
+      <data key="d3">1.14.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="chardet@4.0.0">
+      <data key="d2">chardet</data>
+      <data key="d3">4.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="click@8.0.1">
+      <data key="d2">click</data>
+      <data key="d3">8.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="colorama@0.4.4">
+      <data key="d2">colorama</data>
+      <data key="d3">0.4.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="constructs@3.3.75">
+      <data key="d2">constructs</data>
+      <data key="d3">3.3.75</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="cryptography@3.4.7">
+      <data key="d2">cryptography</data>
+      <data key="d3">3.4.7</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-3ww4-gg4f-jr7f,GHSA-5cpq-8wj7-hf2v,GHSA-9v9h-cgj8-h64p,GHSA-hggm-jpg3-v476,GHSA-jfhm-5ghh-2f97,GHSA-jm77-qphf-c4w8,GHSA-r6ph-v2qm-q3c2,GHSA-rhm9-p9w5-fwm7,GHSA-v8gr-m533-ghj9,GHSA-w7pp-m8wf-vj6r,GHSA-x4qr-2fvf-3mr5,PYSEC-2021-62,PYSEC-2021-63,PYSEC-2023-11,PYSEC-2023-254,GHSA-39hc-v87j-747x,GHSA-h4gh-qq45-vh27,GHSA-6vqw-3v5j-54x4,GHSA-cf7p-gm2m-833m,PYSEC-2023-112,PYSEC-2024-225,GHSA-79v4-65xg-pq4g</data>
+    </node>
+    <node id="flake8@3.9.2">
+      <data key="d2">flake8</data>
+      <data key="d3">3.9.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="idna@2.10">
+      <data key="d2">idna</data>
+      <data key="d3">2.10</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-jjg7-2v4v-x38h,PYSEC-2024-60</data>
+    </node>
+    <node id="iniconfig@1.1.1">
+      <data key="d2">iniconfig</data>
+      <data key="d3">1.1.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="isort@5.8.0">
+      <data key="d2">isort</data>
+      <data key="d3">5.8.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="jinja2@3.0.1">
+      <data key="d2">jinja2</data>
+      <data key="d3">3.0.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-cpwx-vrp4-4pq7,GHSA-g3rq-g295-4j3m,GHSA-h5c8-rqwp-cp95,GHSA-h75v-3vvj-5mfj,GHSA-q2x7-8rv6-6q7h,PYSEC-2021-66,GHSA-gmj6-6f8f-6699</data>
+    </node>
+    <node id="jmespath@0.10.0">
+      <data key="d2">jmespath</data>
+      <data key="d3">0.10.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="jsii@1.29.0">
+      <data key="d2">jsii</data>
+      <data key="d3">1.29.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="markupsafe@2.0.1">
+      <data key="d2">markupsafe</data>
+      <data key="d3">2.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="mccabe@0.6.1">
+      <data key="d2">mccabe</data>
+      <data key="d3">0.6.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="more-itertools@8.8.0">
+      <data key="d2">more-itertools</data>
+      <data key="d3">8.8.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="moto@2.0.8">
+      <data key="d2">moto</data>
+      <data key="d3">2.0.8</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="mypy-extensions@0.4.3">
+      <data key="d2">mypy-extensions</data>
+      <data key="d3">0.4.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="packaging@20.9">
+      <data key="d2">packaging</data>
+      <data key="d3">20.9</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pathspec@0.8.1">
+      <data key="d2">pathspec</data>
+      <data key="d3">0.8.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pluggy@0.13.1">
+      <data key="d2">pluggy</data>
+      <data key="d3">0.13.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="publication@0.0.3">
+      <data key="d2">publication</data>
+      <data key="d3">0.0.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="py@1.10.0">
+      <data key="d2">py</data>
+      <data key="d3">1.10.0</data>
+      <data key="d4">false</data>
+      <data key="d5">PYSEC-2022-42969,GHSA-hj5v-574p-mj7c,PYSEC-2020-92</data>
+    </node>
+    <node id="pycodestyle@2.7.0">
+      <data key="d2">pycodestyle</data>
+      <data key="d3">2.7.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pycparser@2.20">
+      <data key="d2">pycparser</data>
+      <data key="d3">2.20</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyflakes@2.3.1">
+      <data key="d2">pyflakes</data>
+      <data key="d3">2.3.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyparsing@2.4.7">
+      <data key="d2">pyparsing</data>
+      <data key="d3">2.4.7</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pytest@6.2.4">
+      <data key="d2">pytest</data>
+      <data key="d3">6.2.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="python-dateutil@2.8.1">
+      <data key="d2">python-dateutil</data>
+      <data key="d3">2.8.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="python-dotenv@0.17.1">
+      <data key="d2">python-dotenv</data>
+      <data key="d3">0.17.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pytz@2021.1">
+      <data key="d2">pytz</data>
+      <data key="d3">2021.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="regex@2021.4.4">
+      <data key="d2">regex</data>
+      <data key="d3">2021.4.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="requests@2.25.1">
+      <data key="d2">requests</data>
+      <data key="d3">2.25.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-9hjg-9r4m-mvj7,GHSA-9wx4-h78v-vm56,GHSA-gc5v-m9x4-r6x2,GHSA-j8r2-6x86-q33q,GHSA-x84v-xcm2-53pg,PYSEC-2018-28,PYSEC-2023-74</data>
+    </node>
+    <node id="responses@0.13.3">
+      <data key="d2">responses</data>
+      <data key="d3">0.13.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="s3transfer@0.4.2">
+      <data key="d2">s3transfer</data>
+      <data key="d3">0.4.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="six@1.16.0">
+      <data key="d2">six</data>
+      <data key="d3">1.16.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="toml@0.10.2">
+      <data key="d2">toml</data>
+      <data key="d3">0.10.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="typing-extensions@3.10.0.0">
+      <data key="d2">typing-extensions</data>
+      <data key="d3">3.10.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="urllib3@1.26.4">
+      <data key="d2">urllib3</data>
+      <data key="d3">1.26.4</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-2xpw-w6gg-jr37,GHSA-34jh-p97f-mpxf,GHSA-38jv-5279-wg99,GHSA-g4mx-q9vg-27p4,GHSA-gwvm-45gx-3cf8,GHSA-mh33-7rrq-662w,GHSA-pq67-6m6q-mj2v,GHSA-r64q-w8jr-g9qp,GHSA-v845-jxx5-vc9f,GHSA-wqvq-5m8c-6g24,GHSA-www2-v7xj-xrc6,PYSEC-2018-32,PYSEC-2019-132,PYSEC-2019-133,PYSEC-2020-148,PYSEC-2021-108,PYSEC-2023-192,PYSEC-2023-207,PYSEC-2023-212,GHSA-gm62-xv2j-4w53,GHSA-q2q7-5pp4-w6pg,GHSA-48p4-8xcf-vxj5</data>
+    </node>
+    <node id="werkzeug@2.0.1">
+      <data key="d2">werkzeug</data>
+      <data key="d3">2.0.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-29vq-49wr-vm6x,GHSA-2g68-c3qc-8985,GHSA-87hc-h4r5-73f7,GHSA-f9vj-2wh5-fj8j,GHSA-hgf8-39gv-g3f2,GHSA-hrfv-mqp8-q5rw,GHSA-px8h-6qxv-m22q,GHSA-q34m-jh98-gwm2,GHSA-xg9f-g7g7-2323,PYSEC-2022-203,PYSEC-2023-221,PYSEC-2023-57,PYSEC-2023-58</data>
+    </node>
+    <node id="xmltodict@0.12.0">
+      <data key="d2">xmltodict</data>
+      <data key="d3">0.12.0</data>
+      <data key="d4">false</data>
+    </node>
+    <edge source="aws-cdk-aws-events@1.106.0" target="aws-cdk-aws-iam@1.106.0" />
+    <edge source="aws-cdk-aws-events@1.106.0" target="aws-cdk-core@1.106.0" />
+    <edge source="aws-cdk-aws-events@1.106.0" target="constructs@3.3.75" />
+    <edge source="aws-cdk-aws-events@1.106.0" target="jsii@1.29.0" />
+    <edge source="aws-cdk-aws-events@1.106.0" target="publication@0.0.3" />
+    <edge source="aws-cdk-aws-iam@1.106.0" target="aws-cdk-core@1.106.0" />
+    <edge source="aws-cdk-aws-iam@1.106.0" target="aws-cdk-region-info@1.106.0" />
+    <edge source="aws-cdk-aws-iam@1.106.0" target="constructs@3.3.75" />
+    <edge source="aws-cdk-aws-iam@1.106.0" target="jsii@1.29.0" />
+    <edge source="aws-cdk-aws-iam@1.106.0" target="publication@0.0.3" />
+    <edge source="aws-cdk-aws-kms@1.106.0" target="aws-cdk-aws-iam@1.106.0" />
+    <edge source="aws-cdk-aws-kms@1.106.0" target="aws-cdk-core@1.106.0" />
+    <edge source="aws-cdk-aws-kms@1.106.0" target="aws-cdk-cx-api@1.106.0" />
+    <edge source="aws-cdk-aws-kms@1.106.0" target="constructs@3.3.75" />
+    <edge source="aws-cdk-aws-kms@1.106.0" target="jsii@1.29.0" />
+    <edge source="aws-cdk-aws-kms@1.106.0" target="publication@0.0.3" />
+    <edge source="aws-cdk-aws-s3@1.106.0" target="aws-cdk-aws-events@1.106.0" />
+    <edge source="aws-cdk-aws-s3@1.106.0" target="aws-cdk-aws-iam@1.106.0" />
+    <edge source="aws-cdk-aws-s3@1.106.0" target="aws-cdk-aws-kms@1.106.0" />
+    <edge source="aws-cdk-aws-s3@1.106.0" target="aws-cdk-core@1.106.0" />
+    <edge source="aws-cdk-aws-s3@1.106.0" target="aws-cdk-cx-api@1.106.0" />
+    <edge source="aws-cdk-aws-s3@1.106.0" target="constructs@3.3.75" />
+    <edge source="aws-cdk-aws-s3@1.106.0" target="jsii@1.29.0" />
+    <edge source="aws-cdk-aws-s3@1.106.0" target="publication@0.0.3" />
+    <edge source="aws-cdk-cloud-assembly-schema@1.106.0" target="jsii@1.29.0" />
+    <edge source="aws-cdk-cloud-assembly-schema@1.106.0" target="publication@0.0.3" />
+    <edge source="aws-cdk-core@1.106.0" target="aws-cdk-cloud-assembly-schema@1.106.0" />
+    <edge source="aws-cdk-core@1.106.0" target="aws-cdk-cx-api@1.106.0" />
+    <edge source="aws-cdk-core@1.106.0" target="aws-cdk-region-info@1.106.0" />
+    <edge source="aws-cdk-core@1.106.0" target="constructs@3.3.75" />
+    <edge source="aws-cdk-core@1.106.0" target="jsii@1.29.0" />
+    <edge source="aws-cdk-core@1.106.0" target="publication@0.0.3" />
+    <edge source="aws-cdk-cx-api@1.106.0" target="aws-cdk-cloud-assembly-schema@1.106.0" />
+    <edge source="aws-cdk-cx-api@1.106.0" target="jsii@1.29.0" />
+    <edge source="aws-cdk-cx-api@1.106.0" target="publication@0.0.3" />
+    <edge source="aws-cdk-region-info@1.106.0" target="jsii@1.29.0" />
+    <edge source="aws-cdk-region-info@1.106.0" target="publication@0.0.3" />
+    <edge source="black@21.5b1" target="appdirs@1.4.4" />
+    <edge source="black@21.5b1" target="click@8.0.1" />
+    <edge source="black@21.5b1" target="mypy-extensions@0.4.3" />
+    <edge source="black@21.5b1" target="pathspec@0.8.1" />
+    <edge source="black@21.5b1" target="regex@2021.4.4" />
+    <edge source="black@21.5b1" target="toml@0.10.2" />
+    <edge source="boto3@1.17.80" target="botocore@1.20.80" />
+    <edge source="boto3@1.17.80" target="jmespath@0.10.0" />
+    <edge source="boto3@1.17.80" target="s3transfer@0.4.2" />
+    <edge source="botocore@1.20.80" target="jmespath@0.10.0" />
+    <edge source="botocore@1.20.80" target="python-dateutil@2.8.1" />
+    <edge source="botocore@1.20.80" target="urllib3@1.26.4" />
+    <edge source="cattrs@1.5.0" target="attrs@20.3.0" />
+    <edge source="cffi@1.14.5" target="pycparser@2.20" />
+    <edge source="click@8.0.1" target="colorama@0.4.4" />
+    <edge source="constructs@3.3.75" target="jsii@1.29.0" />
+    <edge source="constructs@3.3.75" target="publication@0.0.3" />
+    <edge source="cryptography@3.4.7" target="cffi@1.14.5" />
+    <edge source="flake8@3.9.2" target="mccabe@0.6.1" />
+    <edge source="flake8@3.9.2" target="pycodestyle@2.7.0" />
+    <edge source="flake8@3.9.2" target="pyflakes@2.3.1" />
+    <edge source="jinja2@3.0.1" target="markupsafe@2.0.1" />
+    <edge source="jsii@1.29.0" target="attrs@20.3.0" />
+    <edge source="jsii@1.29.0" target="cattrs@1.5.0" />
+    <edge source="jsii@1.29.0" target="python-dateutil@2.8.1" />
+    <edge source="jsii@1.29.0" target="typing-extensions@3.10.0.0" />
+    <edge source="moto@2.0.8" target="boto3@1.17.80" />
+    <edge source="moto@2.0.8" target="botocore@1.20.80" />
+    <edge source="moto@2.0.8" target="cryptography@3.4.7" />
+    <edge source="moto@2.0.8" target="jinja2@3.0.1" />
+    <edge source="moto@2.0.8" target="markupsafe@2.0.1" />
+    <edge source="moto@2.0.8" target="more-itertools@8.8.0" />
+    <edge source="moto@2.0.8" target="python-dateutil@2.8.1" />
+    <edge source="moto@2.0.8" target="pytz@2021.1" />
+    <edge source="moto@2.0.8" target="requests@2.25.1" />
+    <edge source="moto@2.0.8" target="responses@0.13.3" />
+    <edge source="moto@2.0.8" target="six@1.16.0" />
+    <edge source="moto@2.0.8" target="werkzeug@2.0.1" />
+    <edge source="moto@2.0.8" target="xmltodict@0.12.0" />
+    <edge source="packaging@20.9" target="pyparsing@2.4.7" />
+    <edge source="pytest@6.2.4" target="atomicwrites@1.4.0" />
+    <edge source="pytest@6.2.4" target="attrs@20.3.0" />
+    <edge source="pytest@6.2.4" target="colorama@0.4.4" />
+    <edge source="pytest@6.2.4" target="iniconfig@1.1.1" />
+    <edge source="pytest@6.2.4" target="packaging@20.9" />
+    <edge source="pytest@6.2.4" target="pluggy@0.13.1" />
+    <edge source="pytest@6.2.4" target="py@1.10.0" />
+    <edge source="pytest@6.2.4" target="toml@0.10.2" />
+    <edge source="python-dateutil@2.8.1" target="six@1.16.0" />
+    <edge source="requests@2.25.1" target="certifi@2020.12.5" />
+    <edge source="requests@2.25.1" target="chardet@4.0.0" />
+    <edge source="requests@2.25.1" target="idna@2.10" />
+    <edge source="requests@2.25.1" target="urllib3@1.26.4" />
+    <edge source="responses@0.13.3" target="requests@2.25.1" />
+    <edge source="responses@0.13.3" target="six@1.16.0" />
+    <edge source="responses@0.13.3" target="urllib3@1.26.4" />
+    <edge source="s3transfer@0.4.2" target="botocore@1.20.80" />
+    <data key="d0">ciaransweet__action-stations</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="black@24.10.0">
+      <data key="d2">black</data>
+      <data key="d3">24.10.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-3936-cmfr-pm3m,GHSA-fj7x-q9j7-g6q6,PYSEC-2024-48</data>
+    </node>
+    <node id="certifi@2024.8.30">
+      <data key="d2">certifi</data>
+      <data key="d3">2024.8.30</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-43fp-rhv2-5gv8,GHSA-xqr8-7jwr-rhp7,PYSEC-2022-42986,PYSEC-2023-135,GHSA-248v-346w-9cwc,PYSEC-2024-230</data>
+    </node>
+    <node id="charset-normalizer@3.4.0">
+      <data key="d2">charset-normalizer</data>
+      <data key="d3">3.4.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="click@8.1.7">
+      <data key="d2">click</data>
+      <data key="d3">8.1.7</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="colorama@0.4.6">
+      <data key="d2">colorama</data>
+      <data key="d3">0.4.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="coverage@7.6.9">
+      <data key="d2">coverage</data>
+      <data key="d3">7.6.9</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="et-xmlfile@2.0.0">
+      <data key="d2">et-xmlfile</data>
+      <data key="d3">2.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="flake8@7.1.1">
+      <data key="d2">flake8</data>
+      <data key="d3">7.1.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="idna@3.10">
+      <data key="d2">idna</data>
+      <data key="d3">3.10</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-jjg7-2v4v-x38h,PYSEC-2024-60</data>
+    </node>
+    <node id="iniconfig@2.0.0">
+      <data key="d2">iniconfig</data>
+      <data key="d3">2.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="isort@5.13.2">
+      <data key="d2">isort</data>
+      <data key="d3">5.13.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="mccabe@0.7.0">
+      <data key="d2">mccabe</data>
+      <data key="d3">0.7.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="mypy@1.13.0">
+      <data key="d2">mypy</data>
+      <data key="d3">1.13.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="mypy-extensions@1.0.0">
+      <data key="d2">mypy-extensions</data>
+      <data key="d3">1.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="numpy@2.1.3">
+      <data key="d2">numpy</data>
+      <data key="d3">2.1.3</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-6p56-wp2h-9hxr,GHSA-fpfv-jqm9-f5jm</data>
+    </node>
+    <node id="openpyxl@3.1.5">
+      <data key="d2">openpyxl</data>
+      <data key="d3">3.1.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="packaging@24.2">
+      <data key="d2">packaging</data>
+      <data key="d3">24.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pandas@2.2.3">
+      <data key="d2">pandas</data>
+      <data key="d3">2.2.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pathspec@0.12.1">
+      <data key="d2">pathspec</data>
+      <data key="d3">0.12.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="platformdirs@4.3.6">
+      <data key="d2">platformdirs</data>
+      <data key="d3">4.3.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pluggy@1.5.0">
+      <data key="d2">pluggy</data>
+      <data key="d3">1.5.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pycodestyle@2.12.1">
+      <data key="d2">pycodestyle</data>
+      <data key="d3">2.12.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyflakes@3.2.0">
+      <data key="d2">pyflakes</data>
+      <data key="d3">3.2.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pytest@8.3.4">
+      <data key="d2">pytest</data>
+      <data key="d3">8.3.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pytest-cov@6.0.0">
+      <data key="d2">pytest-cov</data>
+      <data key="d3">6.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="python-dateutil@2.9.0.post0">
+      <data key="d2">python-dateutil</data>
+      <data key="d3">2.9.0.post0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pytz@2024.2">
+      <data key="d2">pytz</data>
+      <data key="d3">2024.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="requests@2.32.3">
+      <data key="d2">requests</data>
+      <data key="d3">2.32.3</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-9hjg-9r4m-mvj7,GHSA-9wx4-h78v-vm56,GHSA-gc5v-m9x4-r6x2,GHSA-j8r2-6x86-q33q,GHSA-x84v-xcm2-53pg,PYSEC-2018-28,PYSEC-2023-74</data>
+    </node>
+    <node id="six@1.17.0">
+      <data key="d2">six</data>
+      <data key="d3">1.17.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="typing-extensions@4.12.2">
+      <data key="d2">typing-extensions</data>
+      <data key="d3">4.12.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="tzdata@2024.2">
+      <data key="d2">tzdata</data>
+      <data key="d3">2024.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="urllib3@2.2.3">
+      <data key="d2">urllib3</data>
+      <data key="d3">2.2.3</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-2xpw-w6gg-jr37,GHSA-34jh-p97f-mpxf,GHSA-38jv-5279-wg99,GHSA-g4mx-q9vg-27p4,GHSA-gwvm-45gx-3cf8,GHSA-mh33-7rrq-662w,GHSA-pq67-6m6q-mj2v,GHSA-r64q-w8jr-g9qp,GHSA-v845-jxx5-vc9f,GHSA-wqvq-5m8c-6g24,GHSA-www2-v7xj-xrc6,PYSEC-2018-32,PYSEC-2019-132,PYSEC-2019-133,PYSEC-2020-148,PYSEC-2021-108,PYSEC-2023-192,PYSEC-2023-207,PYSEC-2023-212,GHSA-gm62-xv2j-4w53,GHSA-q2q7-5pp4-w6pg,GHSA-48p4-8xcf-vxj5</data>
+    </node>
+    <edge source="black@24.10.0" target="click@8.1.7" />
+    <edge source="black@24.10.0" target="mypy-extensions@1.0.0" />
+    <edge source="black@24.10.0" target="packaging@24.2" />
+    <edge source="black@24.10.0" target="pathspec@0.12.1" />
+    <edge source="black@24.10.0" target="platformdirs@4.3.6" />
+    <edge source="click@8.1.7" target="colorama@0.4.6" />
+    <edge source="flake8@7.1.1" target="mccabe@0.7.0" />
+    <edge source="flake8@7.1.1" target="pycodestyle@2.12.1" />
+    <edge source="flake8@7.1.1" target="pyflakes@3.2.0" />
+    <edge source="mypy@1.13.0" target="mypy-extensions@1.0.0" />
+    <edge source="mypy@1.13.0" target="typing-extensions@4.12.2" />
+    <edge source="openpyxl@3.1.5" target="et-xmlfile@2.0.0" />
+    <edge source="pandas@2.2.3" target="numpy@2.1.3" />
+    <edge source="pandas@2.2.3" target="python-dateutil@2.9.0.post0" />
+    <edge source="pandas@2.2.3" target="pytz@2024.2" />
+    <edge source="pandas@2.2.3" target="tzdata@2024.2" />
+    <edge source="pytest@8.3.4" target="colorama@0.4.6" />
+    <edge source="pytest@8.3.4" target="iniconfig@2.0.0" />
+    <edge source="pytest@8.3.4" target="packaging@24.2" />
+    <edge source="pytest@8.3.4" target="pluggy@1.5.0" />
+    <edge source="pytest-cov@6.0.0" target="coverage@7.6.9" />
+    <edge source="pytest-cov@6.0.0" target="pytest@8.3.4" />
+    <edge source="python-dateutil@2.9.0.post0" target="six@1.17.0" />
+    <edge source="requests@2.32.3" target="certifi@2024.8.30" />
+    <edge source="requests@2.32.3" target="charset-normalizer@3.4.0" />
+    <edge source="requests@2.32.3" target="idna@3.10" />
+    <edge source="requests@2.32.3" target="urllib3@2.2.3" />
+    <data key="d0">Gabdulla-Khakiev__vacancies_search_with_DB</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>

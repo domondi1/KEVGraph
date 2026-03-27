@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="asn1crypto@1.5.1">
+      <data key="d2">asn1crypto</data>
+      <data key="d3">1.5.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="base58@2.1.1">
+      <data key="d2">base58</data>
+      <data key="d3">2.1.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="bitarray@2.9.2">
+      <data key="d2">bitarray</data>
+      <data key="d3">2.9.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="bitstring@4.2.3">
+      <data key="d2">bitstring</data>
+      <data key="d3">4.2.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="cffi@1.17.0">
+      <data key="d2">cffi</data>
+      <data key="d3">1.17.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="coincurve@18.0.0">
+      <data key="d2">coincurve</data>
+      <data key="d3">18.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="cryptography@41.0.7">
+      <data key="d2">cryptography</data>
+      <data key="d3">41.0.7</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-3ww4-gg4f-jr7f,GHSA-5cpq-8wj7-hf2v,GHSA-9v9h-cgj8-h64p,GHSA-hggm-jpg3-v476,GHSA-jfhm-5ghh-2f97,GHSA-jm77-qphf-c4w8,GHSA-r6ph-v2qm-q3c2,GHSA-rhm9-p9w5-fwm7,GHSA-v8gr-m533-ghj9,GHSA-w7pp-m8wf-vj6r,GHSA-x4qr-2fvf-3mr5,PYSEC-2021-62,PYSEC-2021-63,PYSEC-2023-11,PYSEC-2023-254,GHSA-39hc-v87j-747x,GHSA-h4gh-qq45-vh27,GHSA-6vqw-3v5j-54x4,GHSA-cf7p-gm2m-833m,PYSEC-2023-112,PYSEC-2024-225,GHSA-79v4-65xg-pq4g</data>
+    </node>
+    <node id="pycparser@2.22">
+      <data key="d2">pycparser</data>
+      <data key="d3">2.22</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyln-bolt7@1.0.246">
+      <data key="d2">pyln-bolt7</data>
+      <data key="d3">1.0.246</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyln-client@24.5">
+      <data key="d2">pyln-client</data>
+      <data key="d3">24.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pyln-proto@24.5">
+      <data key="d2">pyln-proto</data>
+      <data key="d3">24.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="pysocks@1.7.1">
+      <data key="d2">pysocks</data>
+      <data key="d3">1.7.1</data>
+      <data key="d4">false</data>
+    </node>
+    <edge source="bitstring@4.2.3" target="bitarray@2.9.2" />
+    <edge source="cffi@1.17.0" target="pycparser@2.22" />
+    <edge source="coincurve@18.0.0" target="asn1crypto@1.5.1" />
+    <edge source="coincurve@18.0.0" target="cffi@1.17.0" />
+    <edge source="cryptography@41.0.7" target="cffi@1.17.0" />
+    <edge source="pyln-client@24.5" target="pyln-bolt7@1.0.246" />
+    <edge source="pyln-client@24.5" target="pyln-proto@24.5" />
+    <edge source="pyln-proto@24.5" target="base58@2.1.1" />
+    <edge source="pyln-proto@24.5" target="bitstring@4.2.3" />
+    <edge source="pyln-proto@24.5" target="coincurve@18.0.0" />
+    <edge source="pyln-proto@24.5" target="cryptography@41.0.7" />
+    <edge source="pyln-proto@24.5" target="pysocks@1.7.1" />
+    <data key="d0">nepet__homelab-trampoline-server</data>
+    <data key="d1">PyPI</data>
+  </graph>
+</graphml>
