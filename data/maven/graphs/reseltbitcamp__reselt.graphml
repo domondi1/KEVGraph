@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="com.spring:ReseltProject@1.0.0-BUILD-SNAPSHOT">
+      <data key="d2">com.spring:ReseltProject</data>
+      <data key="d3">1.0.0-BUILD-SNAPSHOT</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.springframework:spring-jdbc@5.3.15">
+      <data key="d2">org.springframework:spring-jdbc</data>
+      <data key="d3">5.3.15</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.apache.commons:commons-collections4@4.4">
+      <data key="d2">org.apache.commons:commons-collections4</data>
+      <data key="d3">4.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.apache.commons:commons-dbcp2@2.9.0">
+      <data key="d2">org.apache.commons:commons-dbcp2</data>
+      <data key="d3">2.9.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.apache.taglibs:taglibs-standard-impl@1.2.5">
+      <data key="d2">org.apache.taglibs:taglibs-standard-impl</data>
+      <data key="d3">1.2.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.apache.httpcomponents:httpclient@4.5.13">
+      <data key="d2">org.apache.httpcomponents:httpclient</data>
+      <data key="d3">4.5.13</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-7r82-7xv7-xcpj,GHSA-cfh5-3ghh-wfjx,GHSA-fmj5-wv96-r2ch</data>
+    </node>
+    <node id="mysql:mysql-connector-java@8.0.28">
+      <data key="d2">mysql:mysql-connector-java</data>
+      <data key="d3">8.0.28</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-2xxh-f8r3-hvvr,GHSA-4vrv-ch96-6h42,GHSA-cjcf-wm2p-59h5,GHSA-g76j-4cxx-23h9,GHSA-jcq3-cprp-m333,GHSA-pwh7-92h3-mqr6,GHSA-w6f2-8wx4-47r5</data>
+    </node>
+    <node id="org.mybatis:mybatis@3.5.7">
+      <data key="d2">org.mybatis:mybatis</data>
+      <data key="d3">3.5.7</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-qq48-m4jx-xqh8</data>
+    </node>
+    <node id="org.mybatis:mybatis-spring@2.0.6">
+      <data key="d2">org.mybatis:mybatis-spring</data>
+      <data key="d3">2.0.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="net.sf.json-lib:json-lib@2.4">
+      <data key="d2">net.sf.json-lib:json-lib</data>
+      <data key="d3">2.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.fasterxml.jackson.core:jackson-core@2.13.0">
+      <data key="d2">com.fasterxml.jackson.core:jackson-core</data>
+      <data key="d3">2.13.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-72hv-8253-57qq,GHSA-h46c-h94j-95f3,GHSA-wf8f-6423-gfxg</data>
+    </node>
+    <node id="com.fasterxml.jackson.core:jackson-databind@2.13.0">
+      <data key="d2">com.fasterxml.jackson.core:jackson-databind</data>
+      <data key="d3">2.13.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-288c-cq4h-88gq,GHSA-3x8x-79m2-3w2w,GHSA-57j2-w4cx-62h2,GHSA-jjjh-jjxp-wpff,GHSA-rgv9-q543-rqg4,GHSA-4gq5-ch57-c2mg,GHSA-4w82-r329-3q67,GHSA-5949-rw7g-wx7w,GHSA-5r5r-6hpj-8gg9,GHSA-5ww9-j83m-q7qx,GHSA-645p-88qh-w398,GHSA-6fpp-rgj9-8rwc,GHSA-6wqp-v4v6-c87c,GHSA-85cw-hj65-qqv9,GHSA-89qr-369f-5m5x,GHSA-8c4j-34r4-xr8g,GHSA-8w26-6f25-cm9x,GHSA-9gph-22xh-8x98,GHSA-9m6f-7xcq-8vf8,GHSA-9mxf-g3x6-wv74,GHSA-c8hm-7hpq-7jhg,GHSA-cf6r-3wgc-h863,GHSA-cggj-fvv3-cqwv,GHSA-cjjf-94ff-43w7,GHSA-cmfg-87vq-g5g4,GHSA-cvm9-fjm9-3572,GHSA-f3j5-rmmp-3fc5,GHSA-f9hv-mg5h-xcw9,GHSA-f9xh-2qgp-cq57,GHSA-fmmc-742q-jg75,GHSA-fqwf-pjwf-7vqv,GHSA-gjmw-vf9h-g25v,GHSA-gwp4-hfv6-p7hw,GHSA-gww7-p5w4-wrfv,GHSA-h3cw-g4mq-c5x2,GHSA-h592-38cm-4ggp,GHSA-h822-r4r5-v8jg,GHSA-m6x4-97wx-4q27,GHSA-mph4-vhrx-mv67,GHSA-mx7p-6679-8g3q,GHSA-mx9v-gmh4-mgqw,GHSA-p43x-xfjf-5jhr,GHSA-q93h-jc49-78gg,GHSA-qjw2-hr98-qgfh,GHSA-qr7j-h6gg-jmgc,GHSA-r3gr-cxrf-hg25,GHSA-r695-7vr9-jgc2,GHSA-rfx6-vp9g-rh7v,GHSA-rpr3-cw39-3pxh,GHSA-v585-23hc-c647,GHSA-vfqx-33qm-g869,GHSA-w3f4-3q6j-rh82,GHSA-wh8g-3j2c-rqj5,GHSA-x2w5-5m2g-7h5m,GHSA-27xj-rqx5-2255,GHSA-58pp-9c76-5625,GHSA-5p34-5m6p-p58g,GHSA-758m-v56v-grj4,GHSA-95cm-88f5-f2c7,GHSA-9vvp-fxw6-jcxr,GHSA-c265-37vj-cwcc,GHSA-c2q3-4qrh-fm48,GHSA-h4rc-386g-6m85,GHSA-j823-4qch-3rgm,GHSA-mc6h-4qgp-37qh,GHSA-qmqc-x3r4-6v39,GHSA-rf6r-2c4q-2vwg,GHSA-v3xw-c963-f5hc</data>
+    </node>
+    <node id="commons-io:commons-io@2.11.0">
+      <data key="d2">commons-io:commons-io</data>
+      <data key="d3">2.11.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-gwrp-pvrq-jmwv,GHSA-78wr-2p64-hpwj</data>
+    </node>
+    <node id="commons-fileupload:commons-fileupload@1.4">
+      <data key="d2">commons-fileupload:commons-fileupload</data>
+      <data key="d3">1.4</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-7x9j-7223-rg5m,GHSA-fvm3-cfvj-gxqq,GHSA-hfrx-6qgj-fp6c,GHSA-qx6h-9567-5fqw,GHSA-vm69-474v-7q2w,GHSA-vv7r-c36w-3prj,GHSA-xx68-jfcg-xmmf</data>
+    </node>
+    <node id="org.springframework.security:spring-security-config@5.0.8.RELEASE">
+      <data key="d2">org.springframework.security:spring-security-config</data>
+      <data key="d3">5.0.8.RELEASE</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-3h6f-g5f3-gc4w,GHSA-4vpr-xfrp-cj64</data>
+    </node>
+    <node id="org.springframework.security:spring-security-core@5.0.8.RELEASE">
+      <data key="d2">org.springframework.security:spring-security-core</data>
+      <data key="d3">5.0.8.RELEASE</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-2ppp-9496-p23q,GHSA-f3jh-qvm4-mg39,GHSA-hh32-7344-cg2f,GHSA-q3v6-hm2v-pw99,GHSA-v2r2-7qm7-jj6v,GHSA-w9jg-gvgr-354m,GHSA-wx54-3278-m5g4,GHSA-x873-6rgc-94jc,GHSA-w3w6-26f2-p474</data>
+    </node>
+    <node id="org.springframework.security:spring-security-web@5.0.8.RELEASE">
+      <data key="d2">org.springframework.security:spring-security-web</data>
+      <data key="d3">5.0.8.RELEASE</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-c4q5-6c82-3qpw,GHSA-gq28-h5vg-8prx,GHSA-mf92-479x-3373</data>
+    </node>
+    <node id="org.projectlombok:lombok@1.18.22">
+      <data key="d2">org.projectlombok:lombok</data>
+      <data key="d3">1.18.22</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="org.bouncycastle:bcpkix-jdk15to18@1.68">
+      <data key="d2">org.bouncycastle:bcpkix-jdk15to18</data>
+      <data key="d3">1.68</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-4cx2-fc23-5wg6</data>
+    </node>
+    <node id="org.bouncycastle:bcprov-jdk15to18@1.68">
+      <data key="d2">org.bouncycastle:bcprov-jdk15to18</data>
+      <data key="d3">1.68</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-4h8f-2wvx-gg5w,GHSA-67mf-3cr5-8w23</data>
+    </node>
+    <node id="log4j:log4j@1.2.15">
+      <data key="d2">log4j:log4j</data>
+      <data key="d3">1.2.15</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-2qrg-x229-3v8q,GHSA-65fg-84f6-3jq3,GHSA-f7vh-qwp3-x37m,GHSA-fp5r-v3w9-4333,GHSA-vp98-w2p3-mv35,GHSA-w9p3-5cr8-m3jj</data>
+    </node>
+    <node id="javax.inject:javax.inject@1">
+      <data key="d2">javax.inject:javax.inject</data>
+      <data key="d3">1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="javax.servlet:servlet-api@2.5">
+      <data key="d2">javax.servlet:servlet-api</data>
+      <data key="d3">2.5</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="javax.servlet.jsp:jsp-api@2.1">
+      <data key="d2">javax.servlet.jsp:jsp-api</data>
+      <data key="d3">2.1</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="javax.servlet:jstl@1.2">
+      <data key="d2">javax.servlet:jstl</data>
+      <data key="d3">1.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="net.nurigo:javaSDK@2.2">
+      <data key="d2">net.nurigo:javaSDK</data>
+      <data key="d3">2.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.inicis:std@0.0.1-SNAPSHOT">
+      <data key="d2">com.inicis:std</data>
+      <data key="d3">0.0.1-SNAPSHOT</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="javax.mail:mail@1.4.7">
+      <data key="d2">javax.mail:mail</data>
+      <data key="d3">1.4.7</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.springframework:spring-context-support@5.3.9">
+      <data key="d2">org.springframework:spring-context-support</data>
+      <data key="d3">5.3.9</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="junit:junit@4.7">
+      <data key="d2">junit:junit</data>
+      <data key="d3">4.7</data>
+      <data key="d4">true</data>
+      <data key="d5">GHSA-269g-pwp5-87pp</data>
+    </node>
+    <edge source="com.spring:ReseltProject@1.0.0-BUILD-SNAPSHOT" target="org.springframework:spring-jdbc@5.3.15" />
+    <edge source="com.spring:ReseltProject@1.0.0-BUILD-SNAPSHOT" target="org.apache.commons:commons-collections4@4.4" />
+    <edge source="com.spring:ReseltProject@1.0.0-BUILD-SNAPSHOT" target="org.apache.commons:commons-dbcp2@2.9.0" />
+    <edge source="com.spring:ReseltProject@1.0.0-BUILD-SNAPSHOT" target="org.apache.taglibs:taglibs-standard-impl@1.2.5" />
+    <edge source="com.spring:ReseltProject@1.0.0-BUILD-SNAPSHOT" target="org.apache.httpcomponents:httpclient@4.5.13" />
+    <edge source="com.spring:ReseltProject@1.0.0-BUILD-SNAPSHOT" target="mysql:mysql-connector-java@8.0.28" />
+    <edge source="com.spring:ReseltProject@1.0.0-BUILD-SNAPSHOT" target="org.mybatis:mybatis@3.5.7" />
+    <edge source="com.spring:ReseltProject@1.0.0-BUILD-SNAPSHOT" target="org.mybatis:mybatis-spring@2.0.6" />
+    <edge source="com.spring:ReseltProject@1.0.0-BUILD-SNAPSHOT" target="net.sf.json-lib:json-lib@2.4" />
+    <edge source="com.spring:ReseltProject@1.0.0-BUILD-SNAPSHOT" target="com.fasterxml.jackson.core:jackson-core@2.13.0" />
+    <edge source="com.spring:ReseltProject@1.0.0-BUILD-SNAPSHOT" target="com.fasterxml.jackson.core:jackson-databind@2.13.0" />
+    <edge source="com.spring:ReseltProject@1.0.0-BUILD-SNAPSHOT" target="commons-io:commons-io@2.11.0" />
+    <edge source="com.spring:ReseltProject@1.0.0-BUILD-SNAPSHOT" target="commons-fileupload:commons-fileupload@1.4" />
+    <edge source="com.spring:ReseltProject@1.0.0-BUILD-SNAPSHOT" target="org.springframework.security:spring-security-config@5.0.8.RELEASE" />
+    <edge source="com.spring:ReseltProject@1.0.0-BUILD-SNAPSHOT" target="org.springframework.security:spring-security-core@5.0.8.RELEASE" />
+    <edge source="com.spring:ReseltProject@1.0.0-BUILD-SNAPSHOT" target="org.springframework.security:spring-security-web@5.0.8.RELEASE" />
+    <edge source="com.spring:ReseltProject@1.0.0-BUILD-SNAPSHOT" target="org.projectlombok:lombok@1.18.22" />
+    <edge source="com.spring:ReseltProject@1.0.0-BUILD-SNAPSHOT" target="org.bouncycastle:bcpkix-jdk15to18@1.68" />
+    <edge source="com.spring:ReseltProject@1.0.0-BUILD-SNAPSHOT" target="org.bouncycastle:bcprov-jdk15to18@1.68" />
+    <edge source="com.spring:ReseltProject@1.0.0-BUILD-SNAPSHOT" target="log4j:log4j@1.2.15" />
+    <edge source="com.spring:ReseltProject@1.0.0-BUILD-SNAPSHOT" target="javax.inject:javax.inject@1" />
+    <edge source="com.spring:ReseltProject@1.0.0-BUILD-SNAPSHOT" target="javax.servlet:servlet-api@2.5" />
+    <edge source="com.spring:ReseltProject@1.0.0-BUILD-SNAPSHOT" target="javax.servlet.jsp:jsp-api@2.1" />
+    <edge source="com.spring:ReseltProject@1.0.0-BUILD-SNAPSHOT" target="javax.servlet:jstl@1.2" />
+    <edge source="com.spring:ReseltProject@1.0.0-BUILD-SNAPSHOT" target="net.nurigo:javaSDK@2.2" />
+    <edge source="com.spring:ReseltProject@1.0.0-BUILD-SNAPSHOT" target="com.inicis:std@0.0.1-SNAPSHOT" />
+    <edge source="com.spring:ReseltProject@1.0.0-BUILD-SNAPSHOT" target="javax.mail:mail@1.4.7" />
+    <edge source="com.spring:ReseltProject@1.0.0-BUILD-SNAPSHOT" target="org.springframework:spring-context-support@5.3.9" />
+    <edge source="com.spring:ReseltProject@1.0.0-BUILD-SNAPSHOT" target="junit:junit@4.7" />
+    <data key="d0">reseltbitcamp__reselt</data>
+    <data key="d1">Maven</data>
+  </graph>
+</graphml>

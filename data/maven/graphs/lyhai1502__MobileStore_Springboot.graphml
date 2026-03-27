@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="com.pts:MobileStore@9.14.1">
+      <data key="d2">com.pts:MobileStore</data>
+      <data key="d3">9.14.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.springdoc:springdoc-openapi-ui@1.6.4">
+      <data key="d2">org.springdoc:springdoc-openapi-ui</data>
+      <data key="d3">1.6.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.springframework.security.oauth:spring-security-oauth2@2.5.2.RELEASE">
+      <data key="d2">org.springframework.security.oauth:spring-security-oauth2</data>
+      <data key="d3">2.5.2.RELEASE</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.springframework.boot:spring-boot-starter-oauth2-client@2.4.1">
+      <data key="d2">org.springframework.boot:spring-boot-starter-oauth2-client</data>
+      <data key="d3">2.4.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.modelmapper:modelmapper@2.3.0">
+      <data key="d2">org.modelmapper:modelmapper</data>
+      <data key="d3">2.3.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="io.jsonwebtoken:jjwt@0.9.1">
+      <data key="d2">io.jsonwebtoken:jjwt</data>
+      <data key="d3">0.9.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.google.firebase:firebase-admin@9.1.1">
+      <data key="d2">com.google.firebase:firebase-admin</data>
+      <data key="d3">9.1.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.google.cloud:google-cloud-storage@1.96.0">
+      <data key="d2">com.google.cloud:google-cloud-storage</data>
+      <data key="d3">1.96.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.google.api-client:google-api-client@1.30.4">
+      <data key="d2">com.google.api-client:google-api-client</data>
+      <data key="d3">1.30.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.apache.commons:commons-lang3@3.12.0">
+      <data key="d2">org.apache.commons:commons-lang3</data>
+      <data key="d3">3.12.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="commons-io:commons-io@2.10.0">
+      <data key="d2">commons-io:commons-io</data>
+      <data key="d3">2.10.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-gwrp-pvrq-jmwv,GHSA-78wr-2p64-hpwj</data>
+    </node>
+    <node id="org.apache.tika:tika-core@2.8.0">
+      <data key="d2">org.apache.tika:tika-core</data>
+      <data key="d3">2.8.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-f58c-gq56-vjjf,GHSA-rpjm-422r-95mh</data>
+    </node>
+    <node id="org.apache.poi:poi-ooxml@5.1.0">
+      <data key="d2">org.apache.poi:poi-ooxml</data>
+      <data key="d3">5.1.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-gmg8-593g-7mv3</data>
+    </node>
+    <edge source="com.pts:MobileStore@9.14.1" target="org.springdoc:springdoc-openapi-ui@1.6.4" />
+    <edge source="com.pts:MobileStore@9.14.1" target="org.springframework.security.oauth:spring-security-oauth2@2.5.2.RELEASE" />
+    <edge source="com.pts:MobileStore@9.14.1" target="org.springframework.boot:spring-boot-starter-oauth2-client@2.4.1" />
+    <edge source="com.pts:MobileStore@9.14.1" target="org.modelmapper:modelmapper@2.3.0" />
+    <edge source="com.pts:MobileStore@9.14.1" target="io.jsonwebtoken:jjwt@0.9.1" />
+    <edge source="com.pts:MobileStore@9.14.1" target="com.google.firebase:firebase-admin@9.1.1" />
+    <edge source="com.pts:MobileStore@9.14.1" target="com.google.cloud:google-cloud-storage@1.96.0" />
+    <edge source="com.pts:MobileStore@9.14.1" target="com.google.api-client:google-api-client@1.30.4" />
+    <edge source="com.pts:MobileStore@9.14.1" target="org.apache.commons:commons-lang3@3.12.0" />
+    <edge source="com.pts:MobileStore@9.14.1" target="commons-io:commons-io@2.10.0" />
+    <edge source="com.pts:MobileStore@9.14.1" target="org.apache.tika:tika-core@2.8.0" />
+    <edge source="com.pts:MobileStore@9.14.1" target="org.apache.poi:poi-ooxml@5.1.0" />
+    <data key="d0">lyhai1502__MobileStore_Springboot</data>
+    <data key="d1">Maven</data>
+  </graph>
+</graphml>

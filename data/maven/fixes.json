@@ -1,0 +1,2717 @@
+[
+  {
+    "fix_id": "upgrade:axis:axis@1.2->@1.4",
+    "package": "axis:axis",
+    "from_version": "1.2",
+    "to_version": "1.4",
+    "covers": [
+      "GHSA-55w9-c3g2-4rrh",
+      "GHSA-96jq-75wh-2658",
+      "GHSA-h9gj-rqrw-x4fq",
+      "GHSA-hr2c-p8rh-238h",
+      "GHSA-r53v-vm87-f72c",
+      "GHSA-rmqp-9w4c-gc7w"
+    ]
+  },
+  {
+    "fix_id": "upgrade:ch.qos.logback:logback-classic@1.2.11->@1.3.12",
+    "package": "ch.qos.logback:logback-classic",
+    "from_version": "1.2.11",
+    "to_version": "1.3.12",
+    "covers": [
+      "GHSA-vmq6-5m68-f53m"
+    ]
+  },
+  {
+    "fix_id": "upgrade:ch.qos.logback:logback-classic@1.2.3->@1.3.12",
+    "package": "ch.qos.logback:logback-classic",
+    "from_version": "1.2.3",
+    "to_version": "1.3.12",
+    "covers": [
+      "GHSA-vmq6-5m68-f53m"
+    ]
+  },
+  {
+    "fix_id": "upgrade:ch.qos.logback:logback-core@1.2.3->@1.5.25",
+    "package": "ch.qos.logback:logback-core",
+    "from_version": "1.2.3",
+    "to_version": "1.5.25",
+    "covers": [
+      "GHSA-25qh-j22f-pwp8",
+      "GHSA-668q-qrv7-99fm",
+      "GHSA-6v67-2wr5-gvf4",
+      "GHSA-pr98-23f8-jwxv",
+      "GHSA-qqpg-mvqg-649v"
+    ]
+  },
+  {
+    "fix_id": "upgrade:cn.hutool:hutool-all@4.0.12->@5.8.36",
+    "package": "cn.hutool:hutool-all",
+    "from_version": "4.0.12",
+    "to_version": "5.8.36",
+    "covers": [
+      "GHSA-6c25-cxcc-pmc4",
+      "GHSA-77h8-5j3h-jcjf",
+      "GHSA-rhq2-2574-78mc"
+    ]
+  },
+  {
+    "fix_id": "upgrade:cn.hutool:hutool-all@5.8.18->@5.8.36",
+    "package": "cn.hutool:hutool-all",
+    "from_version": "5.8.18",
+    "to_version": "5.8.36",
+    "covers": [
+      "GHSA-6c25-cxcc-pmc4",
+      "GHSA-77h8-5j3h-jcjf"
+    ]
+  },
+  {
+    "fix_id": "upgrade:com.alibaba.nacos:nacos-client@1.3.0->@3.0.2",
+    "package": "com.alibaba.nacos:nacos-client",
+    "from_version": "1.3.0",
+    "to_version": "3.0.2",
+    "covers": [
+      "GHSA-2g86-r6w2-wqqr"
+    ]
+  },
+  {
+    "fix_id": "upgrade:com.alibaba:fastjson@1.2.80->@1.2.83",
+    "package": "com.alibaba:fastjson",
+    "from_version": "1.2.80",
+    "to_version": "1.2.83",
+    "covers": [
+      "GHSA-pv7h-hx5h-mgfj"
+    ]
+  },
+  {
+    "fix_id": "upgrade:com.fasterxml.jackson.core:jackson-core@2.11.0->@2.18.6",
+    "package": "com.fasterxml.jackson.core:jackson-core",
+    "from_version": "2.11.0",
+    "to_version": "2.18.6",
+    "covers": [
+      "GHSA-72hv-8253-57qq",
+      "GHSA-h46c-h94j-95f3",
+      "GHSA-wf8f-6423-gfxg"
+    ]
+  },
+  {
+    "fix_id": "upgrade:com.fasterxml.jackson.core:jackson-core@2.11.2->@2.18.6",
+    "package": "com.fasterxml.jackson.core:jackson-core",
+    "from_version": "2.11.2",
+    "to_version": "2.18.6",
+    "covers": [
+      "GHSA-72hv-8253-57qq",
+      "GHSA-h46c-h94j-95f3",
+      "GHSA-wf8f-6423-gfxg"
+    ]
+  },
+  {
+    "fix_id": "upgrade:com.fasterxml.jackson.core:jackson-core@2.11.3->@2.18.6",
+    "package": "com.fasterxml.jackson.core:jackson-core",
+    "from_version": "2.11.3",
+    "to_version": "2.18.6",
+    "covers": [
+      "GHSA-72hv-8253-57qq",
+      "GHSA-h46c-h94j-95f3",
+      "GHSA-wf8f-6423-gfxg"
+    ]
+  },
+  {
+    "fix_id": "upgrade:com.fasterxml.jackson.core:jackson-core@2.12.1->@2.18.6",
+    "package": "com.fasterxml.jackson.core:jackson-core",
+    "from_version": "2.12.1",
+    "to_version": "2.18.6",
+    "covers": [
+      "GHSA-72hv-8253-57qq",
+      "GHSA-h46c-h94j-95f3",
+      "GHSA-wf8f-6423-gfxg"
+    ]
+  },
+  {
+    "fix_id": "upgrade:com.fasterxml.jackson.core:jackson-core@2.12.5->@2.18.6",
+    "package": "com.fasterxml.jackson.core:jackson-core",
+    "from_version": "2.12.5",
+    "to_version": "2.18.6",
+    "covers": [
+      "GHSA-72hv-8253-57qq",
+      "GHSA-h46c-h94j-95f3",
+      "GHSA-wf8f-6423-gfxg"
+    ]
+  },
+  {
+    "fix_id": "upgrade:com.fasterxml.jackson.core:jackson-core@2.13.0->@2.18.6",
+    "package": "com.fasterxml.jackson.core:jackson-core",
+    "from_version": "2.13.0",
+    "to_version": "2.18.6",
+    "covers": [
+      "GHSA-72hv-8253-57qq",
+      "GHSA-h46c-h94j-95f3"
+    ]
+  },
+  {
+    "fix_id": "upgrade:com.fasterxml.jackson.core:jackson-core@2.13.4->@2.18.6",
+    "package": "com.fasterxml.jackson.core:jackson-core",
+    "from_version": "2.13.4",
+    "to_version": "2.18.6",
+    "covers": [
+      "GHSA-72hv-8253-57qq",
+      "GHSA-h46c-h94j-95f3"
+    ]
+  },
+  {
+    "fix_id": "upgrade:com.fasterxml.jackson.core:jackson-core@2.15.0->@2.18.6",
+    "package": "com.fasterxml.jackson.core:jackson-core",
+    "from_version": "2.15.0",
+    "to_version": "2.18.6",
+    "covers": [
+      "GHSA-72hv-8253-57qq"
+    ]
+  },
+  {
+    "fix_id": "upgrade:com.fasterxml.jackson.core:jackson-core@2.15.2->@2.18.6",
+    "package": "com.fasterxml.jackson.core:jackson-core",
+    "from_version": "2.15.2",
+    "to_version": "2.18.6",
+    "covers": [
+      "GHSA-72hv-8253-57qq"
+    ]
+  },
+  {
+    "fix_id": "upgrade:com.fasterxml.jackson.core:jackson-core@2.16.1->@2.18.6",
+    "package": "com.fasterxml.jackson.core:jackson-core",
+    "from_version": "2.16.1",
+    "to_version": "2.18.6",
+    "covers": [
+      "GHSA-72hv-8253-57qq"
+    ]
+  },
+  {
+    "fix_id": "upgrade:com.fasterxml.jackson.core:jackson-core@2.17.0->@2.18.6",
+    "package": "com.fasterxml.jackson.core:jackson-core",
+    "from_version": "2.17.0",
+    "to_version": "2.18.6",
+    "covers": [
+      "GHSA-72hv-8253-57qq"
+    ]
+  },
+  {
+    "fix_id": "upgrade:com.fasterxml.jackson.core:jackson-core@2.17.2->@2.18.6",
+    "package": "com.fasterxml.jackson.core:jackson-core",
+    "from_version": "2.17.2",
+    "to_version": "2.18.6",
+    "covers": [
+      "GHSA-72hv-8253-57qq"
+    ]
+  },
+  {
+    "fix_id": "upgrade:com.fasterxml.jackson.core:jackson-core@2.18.0->@2.18.6",
+    "package": "com.fasterxml.jackson.core:jackson-core",
+    "from_version": "2.18.0",
+    "to_version": "2.18.6",
+    "covers": [
+      "GHSA-72hv-8253-57qq"
+    ]
+  },
+  {
+    "fix_id": "upgrade:com.fasterxml.jackson.core:jackson-core@2.18.1->@2.18.6",
+    "package": "com.fasterxml.jackson.core:jackson-core",
+    "from_version": "2.18.1",
+    "to_version": "2.18.6",
+    "covers": [
+      "GHSA-72hv-8253-57qq"
+    ]
+  },
+  {
+    "fix_id": "upgrade:com.fasterxml.jackson.core:jackson-core@2.18.3->@2.18.6",
+    "package": "com.fasterxml.jackson.core:jackson-core",
+    "from_version": "2.18.3",
+    "to_version": "2.18.6",
+    "covers": [
+      "GHSA-72hv-8253-57qq"
+    ]
+  },
+  {
+    "fix_id": "upgrade:com.fasterxml.jackson.core:jackson-databind@2.10.1->@2.13.2.1",
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "from_version": "2.10.1",
+    "to_version": "2.13.2.1",
+    "covers": [
+      "GHSA-3x8x-79m2-3w2w",
+      "GHSA-57j2-w4cx-62h2",
+      "GHSA-jjjh-jjxp-wpff",
+      "GHSA-rgv9-q543-rqg4"
+    ]
+  },
+  {
+    "fix_id": "upgrade:com.fasterxml.jackson.core:jackson-databind@2.10.2->@2.13.2.1",
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "from_version": "2.10.2",
+    "to_version": "2.13.2.1",
+    "covers": [
+      "GHSA-3x8x-79m2-3w2w",
+      "GHSA-57j2-w4cx-62h2",
+      "GHSA-jjjh-jjxp-wpff",
+      "GHSA-rgv9-q543-rqg4"
+    ]
+  },
+  {
+    "fix_id": "upgrade:com.fasterxml.jackson.core:jackson-databind@2.11.0->@2.13.2.1",
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "from_version": "2.11.0",
+    "to_version": "2.13.2.1",
+    "covers": [
+      "GHSA-3x8x-79m2-3w2w",
+      "GHSA-57j2-w4cx-62h2",
+      "GHSA-jjjh-jjxp-wpff",
+      "GHSA-rgv9-q543-rqg4"
+    ]
+  },
+  {
+    "fix_id": "upgrade:com.fasterxml.jackson.core:jackson-databind@2.11.3->@2.13.2.1",
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "from_version": "2.11.3",
+    "to_version": "2.13.2.1",
+    "covers": [
+      "GHSA-3x8x-79m2-3w2w",
+      "GHSA-57j2-w4cx-62h2",
+      "GHSA-jjjh-jjxp-wpff",
+      "GHSA-rgv9-q543-rqg4"
+    ]
+  },
+  {
+    "fix_id": "upgrade:com.fasterxml.jackson.core:jackson-databind@2.12.1->@2.13.2.1",
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "from_version": "2.12.1",
+    "to_version": "2.13.2.1",
+    "covers": [
+      "GHSA-3x8x-79m2-3w2w",
+      "GHSA-57j2-w4cx-62h2",
+      "GHSA-jjjh-jjxp-wpff",
+      "GHSA-rgv9-q543-rqg4"
+    ]
+  },
+  {
+    "fix_id": "upgrade:com.fasterxml.jackson.core:jackson-databind@2.12.5->@2.13.2.1",
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "from_version": "2.12.5",
+    "to_version": "2.13.2.1",
+    "covers": [
+      "GHSA-3x8x-79m2-3w2w",
+      "GHSA-57j2-w4cx-62h2",
+      "GHSA-jjjh-jjxp-wpff",
+      "GHSA-rgv9-q543-rqg4"
+    ]
+  },
+  {
+    "fix_id": "upgrade:com.fasterxml.jackson.core:jackson-databind@2.13.0->@2.13.2.1",
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "from_version": "2.13.0",
+    "to_version": "2.13.2.1",
+    "covers": [
+      "GHSA-57j2-w4cx-62h2"
+    ]
+  },
+  {
+    "fix_id": "upgrade:com.fasterxml.jackson.core:jackson-databind@2.8.9->@2.13.2.1",
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "from_version": "2.8.9",
+    "to_version": "2.13.2.1",
+    "covers": [
+      "GHSA-3x8x-79m2-3w2w",
+      "GHSA-57j2-w4cx-62h2",
+      "GHSA-jjjh-jjxp-wpff",
+      "GHSA-rgv9-q543-rqg4",
+      "GHSA-4gq5-ch57-c2mg",
+      "GHSA-5949-rw7g-wx7w",
+      "GHSA-5r5r-6hpj-8gg9",
+      "GHSA-5ww9-j83m-q7qx",
+      "GHSA-645p-88qh-w398",
+      "GHSA-6fpp-rgj9-8rwc",
+      "GHSA-85cw-hj65-qqv9",
+      "GHSA-89qr-369f-5m5x",
+      "GHSA-8c4j-34r4-xr8g",
+      "GHSA-8w26-6f25-cm9x",
+      "GHSA-9gph-22xh-8x98",
+      "GHSA-9m6f-7xcq-8vf8",
+      "GHSA-9mxf-g3x6-wv74",
+      "GHSA-c8hm-7hpq-7jhg",
+      "GHSA-cggj-fvv3-cqwv",
+      "GHSA-cmfg-87vq-g5g4",
+      "GHSA-cvm9-fjm9-3572",
+      "GHSA-f3j5-rmmp-3fc5",
+      "GHSA-f9hv-mg5h-xcw9",
+      "GHSA-f9xh-2qgp-cq57",
+      "GHSA-fmmc-742q-jg75",
+      "GHSA-fqwf-pjwf-7vqv",
+      "GHSA-gjmw-vf9h-g25v",
+      "GHSA-gwp4-hfv6-p7hw",
+      "GHSA-h3cw-g4mq-c5x2",
+      "GHSA-h592-38cm-4ggp",
+      "GHSA-h822-r4r5-v8jg",
+      "GHSA-m6x4-97wx-4q27",
+      "GHSA-mph4-vhrx-mv67",
+      "GHSA-mx7p-6679-8g3q",
+      "GHSA-p43x-xfjf-5jhr",
+      "GHSA-q93h-jc49-78gg",
+      "GHSA-r3gr-cxrf-hg25",
+      "GHSA-r695-7vr9-jgc2",
+      "GHSA-rfx6-vp9g-rh7v",
+      "GHSA-rpr3-cw39-3pxh",
+      "GHSA-v585-23hc-c647",
+      "GHSA-vfqx-33qm-g869",
+      "GHSA-w3f4-3q6j-rh82",
+      "GHSA-wh8g-3j2c-rqj5",
+      "GHSA-x2w5-5m2g-7h5m",
+      "GHSA-27xj-rqx5-2255",
+      "GHSA-58pp-9c76-5625",
+      "GHSA-5p34-5m6p-p58g",
+      "GHSA-758m-v56v-grj4",
+      "GHSA-95cm-88f5-f2c7",
+      "GHSA-9vvp-fxw6-jcxr",
+      "GHSA-c265-37vj-cwcc",
+      "GHSA-c2q3-4qrh-fm48",
+      "GHSA-h4rc-386g-6m85",
+      "GHSA-j823-4qch-3rgm",
+      "GHSA-mc6h-4qgp-37qh",
+      "GHSA-qmqc-x3r4-6v39",
+      "GHSA-rf6r-2c4q-2vwg",
+      "GHSA-v3xw-c963-f5hc"
+    ]
+  },
+  {
+    "fix_id": "upgrade:com.fasterxml.jackson.core:jackson-databind@2.9.0->@2.13.2.1",
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "from_version": "2.9.0",
+    "to_version": "2.13.2.1",
+    "covers": [
+      "GHSA-3x8x-79m2-3w2w",
+      "GHSA-57j2-w4cx-62h2",
+      "GHSA-jjjh-jjxp-wpff",
+      "GHSA-rgv9-q543-rqg4",
+      "GHSA-4gq5-ch57-c2mg",
+      "GHSA-5949-rw7g-wx7w",
+      "GHSA-5r5r-6hpj-8gg9",
+      "GHSA-5ww9-j83m-q7qx",
+      "GHSA-645p-88qh-w398",
+      "GHSA-6fpp-rgj9-8rwc",
+      "GHSA-85cw-hj65-qqv9",
+      "GHSA-89qr-369f-5m5x",
+      "GHSA-8c4j-34r4-xr8g",
+      "GHSA-8w26-6f25-cm9x",
+      "GHSA-9gph-22xh-8x98",
+      "GHSA-9m6f-7xcq-8vf8",
+      "GHSA-9mxf-g3x6-wv74",
+      "GHSA-c8hm-7hpq-7jhg",
+      "GHSA-cmfg-87vq-g5g4",
+      "GHSA-cvm9-fjm9-3572",
+      "GHSA-f3j5-rmmp-3fc5",
+      "GHSA-f9hv-mg5h-xcw9",
+      "GHSA-f9xh-2qgp-cq57",
+      "GHSA-fmmc-742q-jg75",
+      "GHSA-fqwf-pjwf-7vqv",
+      "GHSA-gjmw-vf9h-g25v",
+      "GHSA-gwp4-hfv6-p7hw",
+      "GHSA-h3cw-g4mq-c5x2",
+      "GHSA-h822-r4r5-v8jg",
+      "GHSA-m6x4-97wx-4q27",
+      "GHSA-mph4-vhrx-mv67",
+      "GHSA-mx7p-6679-8g3q",
+      "GHSA-p43x-xfjf-5jhr",
+      "GHSA-q93h-jc49-78gg",
+      "GHSA-r3gr-cxrf-hg25",
+      "GHSA-r695-7vr9-jgc2",
+      "GHSA-rfx6-vp9g-rh7v",
+      "GHSA-rpr3-cw39-3pxh",
+      "GHSA-v585-23hc-c647",
+      "GHSA-vfqx-33qm-g869",
+      "GHSA-wh8g-3j2c-rqj5",
+      "GHSA-x2w5-5m2g-7h5m",
+      "GHSA-27xj-rqx5-2255",
+      "GHSA-58pp-9c76-5625",
+      "GHSA-5p34-5m6p-p58g",
+      "GHSA-758m-v56v-grj4",
+      "GHSA-95cm-88f5-f2c7",
+      "GHSA-9vvp-fxw6-jcxr",
+      "GHSA-c265-37vj-cwcc",
+      "GHSA-c2q3-4qrh-fm48",
+      "GHSA-h4rc-386g-6m85",
+      "GHSA-j823-4qch-3rgm",
+      "GHSA-mc6h-4qgp-37qh",
+      "GHSA-qmqc-x3r4-6v39",
+      "GHSA-rf6r-2c4q-2vwg",
+      "GHSA-v3xw-c963-f5hc"
+    ]
+  },
+  {
+    "fix_id": "upgrade:com.fasterxml.jackson.core:jackson-databind@2.9.6->@2.13.2.1",
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "from_version": "2.9.6",
+    "to_version": "2.13.2.1",
+    "covers": [
+      "GHSA-3x8x-79m2-3w2w",
+      "GHSA-57j2-w4cx-62h2",
+      "GHSA-jjjh-jjxp-wpff",
+      "GHSA-rgv9-q543-rqg4",
+      "GHSA-4gq5-ch57-c2mg",
+      "GHSA-5949-rw7g-wx7w",
+      "GHSA-5r5r-6hpj-8gg9",
+      "GHSA-5ww9-j83m-q7qx",
+      "GHSA-645p-88qh-w398",
+      "GHSA-6fpp-rgj9-8rwc",
+      "GHSA-85cw-hj65-qqv9",
+      "GHSA-89qr-369f-5m5x",
+      "GHSA-8c4j-34r4-xr8g",
+      "GHSA-8w26-6f25-cm9x",
+      "GHSA-9gph-22xh-8x98",
+      "GHSA-9m6f-7xcq-8vf8",
+      "GHSA-9mxf-g3x6-wv74",
+      "GHSA-c8hm-7hpq-7jhg",
+      "GHSA-cmfg-87vq-g5g4",
+      "GHSA-cvm9-fjm9-3572",
+      "GHSA-f3j5-rmmp-3fc5",
+      "GHSA-f9hv-mg5h-xcw9",
+      "GHSA-f9xh-2qgp-cq57",
+      "GHSA-fmmc-742q-jg75",
+      "GHSA-fqwf-pjwf-7vqv",
+      "GHSA-gjmw-vf9h-g25v",
+      "GHSA-gwp4-hfv6-p7hw",
+      "GHSA-h3cw-g4mq-c5x2",
+      "GHSA-h822-r4r5-v8jg",
+      "GHSA-m6x4-97wx-4q27",
+      "GHSA-mph4-vhrx-mv67",
+      "GHSA-mx7p-6679-8g3q",
+      "GHSA-p43x-xfjf-5jhr",
+      "GHSA-q93h-jc49-78gg",
+      "GHSA-r3gr-cxrf-hg25",
+      "GHSA-r695-7vr9-jgc2",
+      "GHSA-rpr3-cw39-3pxh",
+      "GHSA-v585-23hc-c647",
+      "GHSA-vfqx-33qm-g869",
+      "GHSA-wh8g-3j2c-rqj5",
+      "GHSA-x2w5-5m2g-7h5m",
+      "GHSA-27xj-rqx5-2255",
+      "GHSA-58pp-9c76-5625",
+      "GHSA-5p34-5m6p-p58g",
+      "GHSA-758m-v56v-grj4",
+      "GHSA-95cm-88f5-f2c7",
+      "GHSA-9vvp-fxw6-jcxr",
+      "GHSA-c265-37vj-cwcc",
+      "GHSA-c2q3-4qrh-fm48",
+      "GHSA-h4rc-386g-6m85",
+      "GHSA-j823-4qch-3rgm",
+      "GHSA-mc6h-4qgp-37qh",
+      "GHSA-qmqc-x3r4-6v39",
+      "GHSA-rf6r-2c4q-2vwg",
+      "GHSA-v3xw-c963-f5hc"
+    ]
+  },
+  {
+    "fix_id": "upgrade:com.fasterxml.jackson.core:jackson-databind@2.9.9->@2.13.2.1",
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "from_version": "2.9.9",
+    "to_version": "2.13.2.1",
+    "covers": [
+      "GHSA-3x8x-79m2-3w2w",
+      "GHSA-57j2-w4cx-62h2",
+      "GHSA-jjjh-jjxp-wpff",
+      "GHSA-rgv9-q543-rqg4",
+      "GHSA-5949-rw7g-wx7w",
+      "GHSA-5r5r-6hpj-8gg9",
+      "GHSA-6fpp-rgj9-8rwc",
+      "GHSA-85cw-hj65-qqv9",
+      "GHSA-89qr-369f-5m5x",
+      "GHSA-8c4j-34r4-xr8g",
+      "GHSA-8w26-6f25-cm9x",
+      "GHSA-9gph-22xh-8x98",
+      "GHSA-9m6f-7xcq-8vf8",
+      "GHSA-cmfg-87vq-g5g4",
+      "GHSA-cvm9-fjm9-3572",
+      "GHSA-f3j5-rmmp-3fc5",
+      "GHSA-f9xh-2qgp-cq57",
+      "GHSA-fmmc-742q-jg75",
+      "GHSA-fqwf-pjwf-7vqv",
+      "GHSA-gjmw-vf9h-g25v",
+      "GHSA-gwp4-hfv6-p7hw",
+      "GHSA-h3cw-g4mq-c5x2",
+      "GHSA-h822-r4r5-v8jg",
+      "GHSA-m6x4-97wx-4q27",
+      "GHSA-mph4-vhrx-mv67",
+      "GHSA-mx7p-6679-8g3q",
+      "GHSA-p43x-xfjf-5jhr",
+      "GHSA-q93h-jc49-78gg",
+      "GHSA-r3gr-cxrf-hg25",
+      "GHSA-r695-7vr9-jgc2",
+      "GHSA-rpr3-cw39-3pxh",
+      "GHSA-v585-23hc-c647",
+      "GHSA-vfqx-33qm-g869",
+      "GHSA-wh8g-3j2c-rqj5",
+      "GHSA-27xj-rqx5-2255",
+      "GHSA-58pp-9c76-5625",
+      "GHSA-5p34-5m6p-p58g",
+      "GHSA-758m-v56v-grj4",
+      "GHSA-95cm-88f5-f2c7",
+      "GHSA-9vvp-fxw6-jcxr",
+      "GHSA-c265-37vj-cwcc",
+      "GHSA-c2q3-4qrh-fm48",
+      "GHSA-h4rc-386g-6m85",
+      "GHSA-j823-4qch-3rgm",
+      "GHSA-mc6h-4qgp-37qh",
+      "GHSA-qmqc-x3r4-6v39",
+      "GHSA-rf6r-2c4q-2vwg",
+      "GHSA-v3xw-c963-f5hc"
+    ]
+  },
+  {
+    "fix_id": "upgrade:com.google.code.gson:gson@2.2.4->@2.8.9",
+    "package": "com.google.code.gson:gson",
+    "from_version": "2.2.4",
+    "to_version": "2.8.9",
+    "covers": [
+      "GHSA-4jrv-ppp4-jm57"
+    ]
+  },
+  {
+    "fix_id": "upgrade:com.google.code.gson:gson@2.3->@2.8.9",
+    "package": "com.google.code.gson:gson",
+    "from_version": "2.3",
+    "to_version": "2.8.9",
+    "covers": [
+      "GHSA-4jrv-ppp4-jm57"
+    ]
+  },
+  {
+    "fix_id": "upgrade:com.google.code.gson:gson@2.8.0->@2.8.9",
+    "package": "com.google.code.gson:gson",
+    "from_version": "2.8.0",
+    "to_version": "2.8.9",
+    "covers": [
+      "GHSA-4jrv-ppp4-jm57"
+    ]
+  },
+  {
+    "fix_id": "upgrade:com.google.code.gson:gson@2.8.5->@2.8.9",
+    "package": "com.google.code.gson:gson",
+    "from_version": "2.8.5",
+    "to_version": "2.8.9",
+    "covers": [
+      "GHSA-4jrv-ppp4-jm57"
+    ]
+  },
+  {
+    "fix_id": "upgrade:com.google.code.gson:gson@2.8.6->@2.8.9",
+    "package": "com.google.code.gson:gson",
+    "from_version": "2.8.6",
+    "to_version": "2.8.9",
+    "covers": [
+      "GHSA-4jrv-ppp4-jm57"
+    ]
+  },
+  {
+    "fix_id": "upgrade:com.google.code.gson:gson@2.8.7->@2.8.9",
+    "package": "com.google.code.gson:gson",
+    "from_version": "2.8.7",
+    "to_version": "2.8.9",
+    "covers": [
+      "GHSA-4jrv-ppp4-jm57"
+    ]
+  },
+  {
+    "fix_id": "upgrade:com.google.code.gson:gson@2.8.8->@2.8.9",
+    "package": "com.google.code.gson:gson",
+    "from_version": "2.8.8",
+    "to_version": "2.8.9",
+    "covers": [
+      "GHSA-4jrv-ppp4-jm57"
+    ]
+  },
+  {
+    "fix_id": "upgrade:com.google.guava:guava@16.0.1->@32.0.0-android",
+    "package": "com.google.guava:guava",
+    "from_version": "16.0.1",
+    "to_version": "32.0.0-android",
+    "covers": [
+      "GHSA-5mg8-w23w-74h3",
+      "GHSA-7g45-4rm6-3mm3",
+      "GHSA-mvr2-9pj6-7w5j"
+    ]
+  },
+  {
+    "fix_id": "upgrade:com.google.guava:guava@17.0->@32.0.0-android",
+    "package": "com.google.guava:guava",
+    "from_version": "17.0",
+    "to_version": "32.0.0-android",
+    "covers": [
+      "GHSA-5mg8-w23w-74h3",
+      "GHSA-7g45-4rm6-3mm3",
+      "GHSA-mvr2-9pj6-7w5j"
+    ]
+  },
+  {
+    "fix_id": "upgrade:com.google.guava:guava@27.0.1-jre->@32.0.0-android",
+    "package": "com.google.guava:guava",
+    "from_version": "27.0.1-jre",
+    "to_version": "32.0.0-android",
+    "covers": [
+      "GHSA-5mg8-w23w-74h3",
+      "GHSA-7g45-4rm6-3mm3",
+      "GHSA-mvr2-9pj6-7w5j"
+    ]
+  },
+  {
+    "fix_id": "upgrade:com.google.guava:guava@28.0-jre->@32.0.0-android",
+    "package": "com.google.guava:guava",
+    "from_version": "28.0-jre",
+    "to_version": "32.0.0-android",
+    "covers": [
+      "GHSA-5mg8-w23w-74h3",
+      "GHSA-7g45-4rm6-3mm3",
+      "GHSA-mvr2-9pj6-7w5j"
+    ]
+  },
+  {
+    "fix_id": "upgrade:com.google.guava:guava@28.1-jre->@32.0.0-android",
+    "package": "com.google.guava:guava",
+    "from_version": "28.1-jre",
+    "to_version": "32.0.0-android",
+    "covers": [
+      "GHSA-5mg8-w23w-74h3",
+      "GHSA-7g45-4rm6-3mm3",
+      "GHSA-mvr2-9pj6-7w5j"
+    ]
+  },
+  {
+    "fix_id": "upgrade:com.google.guava:guava@31.0.1-jre->@32.0.0-android",
+    "package": "com.google.guava:guava",
+    "from_version": "31.0.1-jre",
+    "to_version": "32.0.0-android",
+    "covers": [
+      "GHSA-5mg8-w23w-74h3",
+      "GHSA-7g45-4rm6-3mm3",
+      "GHSA-mvr2-9pj6-7w5j"
+    ]
+  },
+  {
+    "fix_id": "upgrade:com.google.guava:guava@31.1-jre->@32.0.0-android",
+    "package": "com.google.guava:guava",
+    "from_version": "31.1-jre",
+    "to_version": "32.0.0-android",
+    "covers": [
+      "GHSA-5mg8-w23w-74h3",
+      "GHSA-7g45-4rm6-3mm3",
+      "GHSA-mvr2-9pj6-7w5j"
+    ]
+  },
+  {
+    "fix_id": "upgrade:com.google.guava:guava@33.4.8-jre->@32.0.0-android",
+    "package": "com.google.guava:guava",
+    "from_version": "33.4.8-jre",
+    "to_version": "32.0.0-android",
+    "covers": [
+      "GHSA-5mg8-w23w-74h3",
+      "GHSA-7g45-4rm6-3mm3",
+      "GHSA-mvr2-9pj6-7w5j"
+    ]
+  },
+  {
+    "fix_id": "upgrade:com.google.guava:guava@33.5.0-jre->@32.0.0-android",
+    "package": "com.google.guava:guava",
+    "from_version": "33.5.0-jre",
+    "to_version": "32.0.0-android",
+    "covers": [
+      "GHSA-5mg8-w23w-74h3",
+      "GHSA-7g45-4rm6-3mm3",
+      "GHSA-mvr2-9pj6-7w5j"
+    ]
+  },
+  {
+    "fix_id": "upgrade:com.google.protobuf:protobuf-java@3.11.0->@3.25.5",
+    "package": "com.google.protobuf:protobuf-java",
+    "from_version": "3.11.0",
+    "to_version": "3.25.5",
+    "covers": [
+      "GHSA-4gg5-vx3j-xwc7",
+      "GHSA-735f-pc8j-v9w8",
+      "GHSA-g5ww-5jh7-63cx",
+      "GHSA-h4h5-3hr4-j3g2",
+      "GHSA-wrvw-hg22-4m67"
+    ]
+  },
+  {
+    "fix_id": "upgrade:com.google.protobuf:protobuf-java@3.22.0->@3.25.5",
+    "package": "com.google.protobuf:protobuf-java",
+    "from_version": "3.22.0",
+    "to_version": "3.25.5",
+    "covers": [
+      "GHSA-735f-pc8j-v9w8"
+    ]
+  },
+  {
+    "fix_id": "upgrade:com.h2database:h2@1.4.197->@2.2.220",
+    "package": "com.h2database:h2",
+    "from_version": "1.4.197",
+    "to_version": "2.2.220",
+    "covers": [
+      "GHSA-45hx-wfhj-473x",
+      "GHSA-h376-j262-vhq6",
+      "GHSA-22wj-vf5f-wrvj",
+      "GHSA-7rpj-hg47-cx62"
+    ]
+  },
+  {
+    "fix_id": "upgrade:com.h2database:h2@1.4.200->@2.2.220",
+    "package": "com.h2database:h2",
+    "from_version": "1.4.200",
+    "to_version": "2.2.220",
+    "covers": [
+      "GHSA-45hx-wfhj-473x",
+      "GHSA-h376-j262-vhq6",
+      "GHSA-22wj-vf5f-wrvj",
+      "GHSA-7rpj-hg47-cx62"
+    ]
+  },
+  {
+    "fix_id": "upgrade:com.itextpdf:itextpdf@5.3.4->@5.5.13.3",
+    "package": "com.itextpdf:itextpdf",
+    "from_version": "5.3.4",
+    "to_version": "5.5.13.3",
+    "covers": [
+      "GHSA-86p9-x5pw-94qx",
+      "GHSA-gv87-q66h-4277"
+    ]
+  },
+  {
+    "fix_id": "upgrade:com.itextpdf:itextpdf@5.5.10->@5.5.13.3",
+    "package": "com.itextpdf:itextpdf",
+    "from_version": "5.5.10",
+    "to_version": "5.5.13.3",
+    "covers": [
+      "GHSA-86p9-x5pw-94qx",
+      "GHSA-gv87-q66h-4277"
+    ]
+  },
+  {
+    "fix_id": "upgrade:com.jayway.jsonpath:json-path@2.8.0->@2.9.0",
+    "package": "com.jayway.jsonpath:json-path",
+    "from_version": "2.8.0",
+    "to_version": "2.9.0",
+    "covers": [
+      "GHSA-pfh2-hfmq-phg5"
+    ]
+  },
+  {
+    "fix_id": "upgrade:com.mchange:c3p0@0.9.5.2->@0.12.0",
+    "package": "com.mchange:c3p0",
+    "from_version": "0.9.5.2",
+    "to_version": "0.12.0",
+    "covers": [
+      "GHSA-5476-xc4j-rqcv",
+      "GHSA-84p2-vf58-xhxv",
+      "GHSA-q485-j897-qc27"
+    ]
+  },
+  {
+    "fix_id": "upgrade:com.mchange:c3p0@0.9.5.5->@0.12.0",
+    "package": "com.mchange:c3p0",
+    "from_version": "0.9.5.5",
+    "to_version": "0.12.0",
+    "covers": [
+      "GHSA-5476-xc4j-rqcv"
+    ]
+  },
+  {
+    "fix_id": "upgrade:com.microsoft.sqlserver:mssql-jdbc@6.4.0.jre8->@10.2.4.jre11",
+    "package": "com.microsoft.sqlserver:mssql-jdbc",
+    "from_version": "6.4.0.jre8",
+    "to_version": "10.2.4.jre11",
+    "covers": [
+      "GHSA-m494-w24q-6f7w"
+    ]
+  },
+  {
+    "fix_id": "upgrade:com.microsoft.sqlserver:mssql-jdbc@9.4.0.jre11->@10.2.4.jre11",
+    "package": "com.microsoft.sqlserver:mssql-jdbc",
+    "from_version": "9.4.0.jre11",
+    "to_version": "10.2.4.jre11",
+    "covers": [
+      "GHSA-m494-w24q-6f7w"
+    ]
+  },
+  {
+    "fix_id": "upgrade:com.mysql:mysql-connector-j@8.0.32->@8.2.0",
+    "package": "com.mysql:mysql-connector-j",
+    "from_version": "8.0.32",
+    "to_version": "8.2.0",
+    "covers": [
+      "GHSA-m6vm-37g8-gqvh"
+    ]
+  },
+  {
+    "fix_id": "upgrade:com.mysql:mysql-connector-j@8.0.33->@8.2.0",
+    "package": "com.mysql:mysql-connector-j",
+    "from_version": "8.0.33",
+    "to_version": "8.2.0",
+    "covers": [
+      "GHSA-m6vm-37g8-gqvh"
+    ]
+  },
+  {
+    "fix_id": "upgrade:com.rabbitmq:amqp-client@5.5.1->@5.18.0",
+    "package": "com.rabbitmq:amqp-client",
+    "from_version": "5.5.1",
+    "to_version": "5.18.0",
+    "covers": [
+      "GHSA-mm8h-8587-p46h"
+    ]
+  },
+  {
+    "fix_id": "upgrade:com.sparkjava:spark-core@2.7.1->@2.7.2",
+    "package": "com.sparkjava:spark-core",
+    "from_version": "2.7.1",
+    "to_version": "2.7.2",
+    "covers": [
+      "GHSA-76qr-mmh8-cp8f"
+    ]
+  },
+  {
+    "fix_id": "upgrade:commons-beanutils:commons-beanutils@1.8.0->@1.11.0",
+    "package": "commons-beanutils:commons-beanutils",
+    "from_version": "1.8.0",
+    "to_version": "1.11.0",
+    "covers": [
+      "GHSA-6phf-73q6-gh87",
+      "GHSA-p66x-2cv9-qq3v",
+      "GHSA-wxr5-93ph-8wr9"
+    ]
+  },
+  {
+    "fix_id": "upgrade:commons-beanutils:commons-beanutils@1.9.2->@1.11.0",
+    "package": "commons-beanutils:commons-beanutils",
+    "from_version": "1.9.2",
+    "to_version": "1.11.0",
+    "covers": [
+      "GHSA-6phf-73q6-gh87",
+      "GHSA-p66x-2cv9-qq3v",
+      "GHSA-wxr5-93ph-8wr9"
+    ]
+  },
+  {
+    "fix_id": "upgrade:commons-beanutils:commons-beanutils@1.9.4->@1.11.0",
+    "package": "commons-beanutils:commons-beanutils",
+    "from_version": "1.9.4",
+    "to_version": "1.11.0",
+    "covers": [
+      "GHSA-wxr5-93ph-8wr9"
+    ]
+  },
+  {
+    "fix_id": "upgrade:commons-collections:commons-collections@3.2.1->@3.2.2",
+    "package": "commons-collections:commons-collections",
+    "from_version": "3.2.1",
+    "to_version": "3.2.2",
+    "covers": [
+      "GHSA-6hgm-866r-3cjv",
+      "GHSA-fjq5-5j5f-mvxh"
+    ]
+  },
+  {
+    "fix_id": "upgrade:commons-configuration:commons-configuration@1.7->@1.10",
+    "package": "commons-configuration:commons-configuration",
+    "from_version": "1.7",
+    "to_version": "1.10",
+    "covers": [
+      "GHSA-pvp8-3xj6-8c6x"
+    ]
+  },
+  {
+    "fix_id": "upgrade:commons-fileupload:commons-fileupload@1.2->@1.6.0",
+    "package": "commons-fileupload:commons-fileupload",
+    "from_version": "1.2",
+    "to_version": "1.6.0",
+    "covers": [
+      "GHSA-7x9j-7223-rg5m",
+      "GHSA-fvm3-cfvj-gxqq",
+      "GHSA-hfrx-6qgj-fp6c",
+      "GHSA-qx6h-9567-5fqw",
+      "GHSA-vm69-474v-7q2w",
+      "GHSA-vv7r-c36w-3prj",
+      "GHSA-xx68-jfcg-xmmf"
+    ]
+  },
+  {
+    "fix_id": "upgrade:commons-fileupload:commons-fileupload@1.2.2->@1.6.0",
+    "package": "commons-fileupload:commons-fileupload",
+    "from_version": "1.2.2",
+    "to_version": "1.6.0",
+    "covers": [
+      "GHSA-7x9j-7223-rg5m",
+      "GHSA-fvm3-cfvj-gxqq",
+      "GHSA-hfrx-6qgj-fp6c",
+      "GHSA-qx6h-9567-5fqw",
+      "GHSA-vv7r-c36w-3prj",
+      "GHSA-xx68-jfcg-xmmf"
+    ]
+  },
+  {
+    "fix_id": "upgrade:commons-fileupload:commons-fileupload@1.3.1->@1.6.0",
+    "package": "commons-fileupload:commons-fileupload",
+    "from_version": "1.3.1",
+    "to_version": "1.6.0",
+    "covers": [
+      "GHSA-7x9j-7223-rg5m",
+      "GHSA-fvm3-cfvj-gxqq",
+      "GHSA-hfrx-6qgj-fp6c",
+      "GHSA-vv7r-c36w-3prj"
+    ]
+  },
+  {
+    "fix_id": "upgrade:commons-fileupload:commons-fileupload@1.3.2->@1.6.0",
+    "package": "commons-fileupload:commons-fileupload",
+    "from_version": "1.3.2",
+    "to_version": "1.6.0",
+    "covers": [
+      "GHSA-7x9j-7223-rg5m",
+      "GHSA-hfrx-6qgj-fp6c",
+      "GHSA-vv7r-c36w-3prj"
+    ]
+  },
+  {
+    "fix_id": "upgrade:commons-fileupload:commons-fileupload@1.3.3->@1.6.0",
+    "package": "commons-fileupload:commons-fileupload",
+    "from_version": "1.3.3",
+    "to_version": "1.6.0",
+    "covers": [
+      "GHSA-hfrx-6qgj-fp6c",
+      "GHSA-vv7r-c36w-3prj"
+    ]
+  },
+  {
+    "fix_id": "upgrade:commons-fileupload:commons-fileupload@1.4->@1.6.0",
+    "package": "commons-fileupload:commons-fileupload",
+    "from_version": "1.4",
+    "to_version": "1.6.0",
+    "covers": [
+      "GHSA-hfrx-6qgj-fp6c",
+      "GHSA-vv7r-c36w-3prj"
+    ]
+  },
+  {
+    "fix_id": "upgrade:commons-fileupload:commons-fileupload@1.5->@1.6.0",
+    "package": "commons-fileupload:commons-fileupload",
+    "from_version": "1.5",
+    "to_version": "1.6.0",
+    "covers": [
+      "GHSA-vv7r-c36w-3prj"
+    ]
+  },
+  {
+    "fix_id": "upgrade:commons-io:commons-io@1.3.2->@2.14.0",
+    "package": "commons-io:commons-io",
+    "from_version": "1.3.2",
+    "to_version": "2.14.0",
+    "covers": [
+      "GHSA-gwrp-pvrq-jmwv",
+      "GHSA-78wr-2p64-hpwj"
+    ]
+  },
+  {
+    "fix_id": "upgrade:commons-io:commons-io@1.4->@2.14.0",
+    "package": "commons-io:commons-io",
+    "from_version": "1.4",
+    "to_version": "2.14.0",
+    "covers": [
+      "GHSA-gwrp-pvrq-jmwv",
+      "GHSA-78wr-2p64-hpwj"
+    ]
+  },
+  {
+    "fix_id": "upgrade:commons-io:commons-io@2.10.0->@2.14.0",
+    "package": "commons-io:commons-io",
+    "from_version": "2.10.0",
+    "to_version": "2.14.0",
+    "covers": [
+      "GHSA-78wr-2p64-hpwj"
+    ]
+  },
+  {
+    "fix_id": "upgrade:commons-io:commons-io@2.11.0->@2.14.0",
+    "package": "commons-io:commons-io",
+    "from_version": "2.11.0",
+    "to_version": "2.14.0",
+    "covers": [
+      "GHSA-78wr-2p64-hpwj"
+    ]
+  },
+  {
+    "fix_id": "upgrade:commons-io:commons-io@2.13.0->@2.14.0",
+    "package": "commons-io:commons-io",
+    "from_version": "2.13.0",
+    "to_version": "2.14.0",
+    "covers": [
+      "GHSA-78wr-2p64-hpwj"
+    ]
+  },
+  {
+    "fix_id": "upgrade:commons-io:commons-io@2.2->@2.14.0",
+    "package": "commons-io:commons-io",
+    "from_version": "2.2",
+    "to_version": "2.14.0",
+    "covers": [
+      "GHSA-gwrp-pvrq-jmwv",
+      "GHSA-78wr-2p64-hpwj"
+    ]
+  },
+  {
+    "fix_id": "upgrade:commons-io:commons-io@2.4->@2.14.0",
+    "package": "commons-io:commons-io",
+    "from_version": "2.4",
+    "to_version": "2.14.0",
+    "covers": [
+      "GHSA-gwrp-pvrq-jmwv",
+      "GHSA-78wr-2p64-hpwj"
+    ]
+  },
+  {
+    "fix_id": "upgrade:commons-io:commons-io@2.5->@2.14.0",
+    "package": "commons-io:commons-io",
+    "from_version": "2.5",
+    "to_version": "2.14.0",
+    "covers": [
+      "GHSA-gwrp-pvrq-jmwv",
+      "GHSA-78wr-2p64-hpwj"
+    ]
+  },
+  {
+    "fix_id": "upgrade:commons-io:commons-io@2.6->@2.14.0",
+    "package": "commons-io:commons-io",
+    "from_version": "2.6",
+    "to_version": "2.14.0",
+    "covers": [
+      "GHSA-gwrp-pvrq-jmwv",
+      "GHSA-78wr-2p64-hpwj"
+    ]
+  },
+  {
+    "fix_id": "upgrade:commons-io:commons-io@2.8.0->@2.14.0",
+    "package": "commons-io:commons-io",
+    "from_version": "2.8.0",
+    "to_version": "2.14.0",
+    "covers": [
+      "GHSA-78wr-2p64-hpwj"
+    ]
+  },
+  {
+    "fix_id": "upgrade:commons-net:commons-net@3.6->@3.9.0",
+    "package": "commons-net:commons-net",
+    "from_version": "3.6",
+    "to_version": "3.9.0",
+    "covers": [
+      "GHSA-cgp8-4m63-fhh5"
+    ]
+  },
+  {
+    "fix_id": "upgrade:dnsjava:dnsjava@2.1.9->@3.6.0",
+    "package": "dnsjava:dnsjava",
+    "from_version": "2.1.9",
+    "to_version": "3.6.0",
+    "covers": [
+      "GHSA-cfxw-4h78-h7fw"
+    ]
+  },
+  {
+    "fix_id": "upgrade:io.github.bonigarcia:webdrivermanager@3.2.0->@6.1.0",
+    "package": "io.github.bonigarcia:webdrivermanager",
+    "from_version": "3.2.0",
+    "to_version": "6.1.0",
+    "covers": [
+      "GHSA-pwm3-776c-8q7q"
+    ]
+  },
+  {
+    "fix_id": "upgrade:io.github.bonigarcia:webdrivermanager@4.4.3->@6.1.0",
+    "package": "io.github.bonigarcia:webdrivermanager",
+    "from_version": "4.4.3",
+    "to_version": "6.1.0",
+    "covers": [
+      "GHSA-pwm3-776c-8q7q"
+    ]
+  },
+  {
+    "fix_id": "upgrade:io.github.bonigarcia:webdrivermanager@5.6.2->@6.1.0",
+    "package": "io.github.bonigarcia:webdrivermanager",
+    "from_version": "5.6.2",
+    "to_version": "6.1.0",
+    "covers": [
+      "GHSA-pwm3-776c-8q7q"
+    ]
+  },
+  {
+    "fix_id": "upgrade:io.github.bonigarcia:webdrivermanager@5.6.3->@6.1.0",
+    "package": "io.github.bonigarcia:webdrivermanager",
+    "from_version": "5.6.3",
+    "to_version": "6.1.0",
+    "covers": [
+      "GHSA-pwm3-776c-8q7q"
+    ]
+  },
+  {
+    "fix_id": "upgrade:io.github.bonigarcia:webdrivermanager@5.9.2->@6.1.0",
+    "package": "io.github.bonigarcia:webdrivermanager",
+    "from_version": "5.9.2",
+    "to_version": "6.1.0",
+    "covers": [
+      "GHSA-pwm3-776c-8q7q"
+    ]
+  },
+  {
+    "fix_id": "upgrade:io.grpc:grpc-netty-shaded@1.31.0->@1.75.0",
+    "package": "io.grpc:grpc-netty-shaded",
+    "from_version": "1.31.0",
+    "to_version": "1.75.0",
+    "covers": [
+      "GHSA-prj3-ccx8-p6x4"
+    ]
+  },
+  {
+    "fix_id": "upgrade:io.kubernetes:client-java@9.0.2->@11.0.1",
+    "package": "io.kubernetes:client-java",
+    "from_version": "9.0.2",
+    "to_version": "11.0.1",
+    "covers": [
+      "GHSA-m8wh-mqgf-rr8g"
+    ]
+  },
+  {
+    "fix_id": "upgrade:io.minio:minio@8.4.3->@8.6.0",
+    "package": "io.minio:minio",
+    "from_version": "8.4.3",
+    "to_version": "8.6.0",
+    "covers": [
+      "GHSA-h7rh-xfpj-hpcm"
+    ]
+  },
+  {
+    "fix_id": "upgrade:io.netty:netty-all@4.0.23.Final->@4.1.42.Final",
+    "package": "io.netty:netty-all",
+    "from_version": "4.0.23.Final",
+    "to_version": "4.1.42.Final",
+    "covers": [
+      "GHSA-p979-4mfw-53vg"
+    ]
+  },
+  {
+    "fix_id": "upgrade:io.netty:netty-all@4.1.51.Final->@4.1.42.Final",
+    "package": "io.netty:netty-all",
+    "from_version": "4.1.51.Final",
+    "to_version": "4.1.42.Final",
+    "covers": [
+      "GHSA-p979-4mfw-53vg"
+    ]
+  },
+  {
+    "fix_id": "upgrade:io.socket:socket.io-client@1.0.0->@2.0.1",
+    "package": "io.socket:socket.io-client",
+    "from_version": "1.0.0",
+    "to_version": "2.0.1",
+    "covers": [
+      "GHSA-85xx-xhjm-rhrw"
+    ]
+  },
+  {
+    "fix_id": "upgrade:io.springfox:springfox-swagger-ui@2.9.2->@2.10.0",
+    "package": "io.springfox:springfox-swagger-ui",
+    "from_version": "2.9.2",
+    "to_version": "2.10.0",
+    "covers": [
+      "GHSA-c427-hjc3-wrfw"
+    ]
+  },
+  {
+    "fix_id": "upgrade:junit:junit@3.8.1->@4.13.1",
+    "package": "junit:junit",
+    "from_version": "3.8.1",
+    "to_version": "4.13.1",
+    "covers": [
+      "GHSA-269g-pwp5-87pp"
+    ]
+  },
+  {
+    "fix_id": "upgrade:junit:junit@4.11->@4.13.1",
+    "package": "junit:junit",
+    "from_version": "4.11",
+    "to_version": "4.13.1",
+    "covers": [
+      "GHSA-269g-pwp5-87pp"
+    ]
+  },
+  {
+    "fix_id": "upgrade:junit:junit@4.12->@4.13.1",
+    "package": "junit:junit",
+    "from_version": "4.12",
+    "to_version": "4.13.1",
+    "covers": [
+      "GHSA-269g-pwp5-87pp"
+    ]
+  },
+  {
+    "fix_id": "upgrade:junit:junit@4.13->@4.13.1",
+    "package": "junit:junit",
+    "from_version": "4.13",
+    "to_version": "4.13.1",
+    "covers": [
+      "GHSA-269g-pwp5-87pp"
+    ]
+  },
+  {
+    "fix_id": "upgrade:junit:junit@4.7->@4.13.1",
+    "package": "junit:junit",
+    "from_version": "4.7",
+    "to_version": "4.13.1",
+    "covers": [
+      "GHSA-269g-pwp5-87pp"
+    ]
+  },
+  {
+    "fix_id": "upgrade:log4j:log4j@1.2.15->@2.0",
+    "package": "log4j:log4j",
+    "from_version": "1.2.15",
+    "to_version": "2.0",
+    "covers": [
+      "GHSA-2qrg-x229-3v8q",
+      "GHSA-65fg-84f6-3jq3",
+      "GHSA-f7vh-qwp3-x37m",
+      "GHSA-fp5r-v3w9-4333",
+      "GHSA-vp98-w2p3-mv35",
+      "GHSA-w9p3-5cr8-m3jj"
+    ]
+  },
+  {
+    "fix_id": "upgrade:log4j:log4j@1.2.17->@2.0",
+    "package": "log4j:log4j",
+    "from_version": "1.2.17",
+    "to_version": "2.0",
+    "covers": [
+      "GHSA-2qrg-x229-3v8q",
+      "GHSA-65fg-84f6-3jq3",
+      "GHSA-f7vh-qwp3-x37m",
+      "GHSA-fp5r-v3w9-4333",
+      "GHSA-vp98-w2p3-mv35",
+      "GHSA-w9p3-5cr8-m3jj"
+    ]
+  },
+  {
+    "fix_id": "upgrade:log4j:log4j@1.2.8->@2.0",
+    "package": "log4j:log4j",
+    "from_version": "1.2.8",
+    "to_version": "2.0",
+    "covers": [
+      "GHSA-2qrg-x229-3v8q",
+      "GHSA-65fg-84f6-3jq3",
+      "GHSA-f7vh-qwp3-x37m",
+      "GHSA-fp5r-v3w9-4333",
+      "GHSA-vp98-w2p3-mv35",
+      "GHSA-w9p3-5cr8-m3jj"
+    ]
+  },
+  {
+    "fix_id": "upgrade:log4j:log4j@1.3alpha-8->@2.0",
+    "package": "log4j:log4j",
+    "from_version": "1.3alpha-8",
+    "to_version": "2.0",
+    "covers": [
+      "GHSA-2qrg-x229-3v8q",
+      "GHSA-65fg-84f6-3jq3",
+      "GHSA-f7vh-qwp3-x37m",
+      "GHSA-fp5r-v3w9-4333",
+      "GHSA-vp98-w2p3-mv35",
+      "GHSA-w9p3-5cr8-m3jj"
+    ]
+  },
+  {
+    "fix_id": "upgrade:mysql:mysql-connector-java@5.1.35->@8.0.28",
+    "package": "mysql:mysql-connector-java",
+    "from_version": "5.1.35",
+    "to_version": "8.0.28",
+    "covers": [
+      "GHSA-2xxh-f8r3-hvvr",
+      "GHSA-4vrv-ch96-6h42",
+      "GHSA-cjcf-wm2p-59h5",
+      "GHSA-g76j-4cxx-23h9",
+      "GHSA-jcq3-cprp-m333",
+      "GHSA-pwh7-92h3-mqr6",
+      "GHSA-w6f2-8wx4-47r5"
+    ]
+  },
+  {
+    "fix_id": "upgrade:mysql:mysql-connector-java@5.1.37->@8.0.28",
+    "package": "mysql:mysql-connector-java",
+    "from_version": "5.1.37",
+    "to_version": "8.0.28",
+    "covers": [
+      "GHSA-2xxh-f8r3-hvvr",
+      "GHSA-4vrv-ch96-6h42",
+      "GHSA-cjcf-wm2p-59h5",
+      "GHSA-g76j-4cxx-23h9",
+      "GHSA-jcq3-cprp-m333",
+      "GHSA-pwh7-92h3-mqr6",
+      "GHSA-w6f2-8wx4-47r5"
+    ]
+  },
+  {
+    "fix_id": "upgrade:mysql:mysql-connector-java@5.1.39->@8.0.28",
+    "package": "mysql:mysql-connector-java",
+    "from_version": "5.1.39",
+    "to_version": "8.0.28",
+    "covers": [
+      "GHSA-2xxh-f8r3-hvvr",
+      "GHSA-4vrv-ch96-6h42",
+      "GHSA-cjcf-wm2p-59h5",
+      "GHSA-g76j-4cxx-23h9",
+      "GHSA-jcq3-cprp-m333",
+      "GHSA-pwh7-92h3-mqr6",
+      "GHSA-w6f2-8wx4-47r5"
+    ]
+  },
+  {
+    "fix_id": "upgrade:mysql:mysql-connector-java@5.1.47->@8.0.28",
+    "package": "mysql:mysql-connector-java",
+    "from_version": "5.1.47",
+    "to_version": "8.0.28",
+    "covers": [
+      "GHSA-4vrv-ch96-6h42",
+      "GHSA-g76j-4cxx-23h9",
+      "GHSA-jcq3-cprp-m333",
+      "GHSA-w6f2-8wx4-47r5"
+    ]
+  },
+  {
+    "fix_id": "upgrade:mysql:mysql-connector-java@8.0.11->@8.0.28",
+    "package": "mysql:mysql-connector-java",
+    "from_version": "8.0.11",
+    "to_version": "8.0.28",
+    "covers": [
+      "GHSA-4vrv-ch96-6h42",
+      "GHSA-g76j-4cxx-23h9",
+      "GHSA-jcq3-cprp-m333",
+      "GHSA-w6f2-8wx4-47r5"
+    ]
+  },
+  {
+    "fix_id": "upgrade:mysql:mysql-connector-java@8.0.18->@8.0.28",
+    "package": "mysql:mysql-connector-java",
+    "from_version": "8.0.18",
+    "to_version": "8.0.28",
+    "covers": [
+      "GHSA-g76j-4cxx-23h9",
+      "GHSA-w6f2-8wx4-47r5"
+    ]
+  },
+  {
+    "fix_id": "upgrade:mysql:mysql-connector-java@8.0.25->@8.0.28",
+    "package": "mysql:mysql-connector-java",
+    "from_version": "8.0.25",
+    "to_version": "8.0.28",
+    "covers": [
+      "GHSA-g76j-4cxx-23h9",
+      "GHSA-w6f2-8wx4-47r5"
+    ]
+  },
+  {
+    "fix_id": "upgrade:mysql:mysql-connector-java@8.0.26->@8.0.28",
+    "package": "mysql:mysql-connector-java",
+    "from_version": "8.0.26",
+    "to_version": "8.0.28",
+    "covers": [
+      "GHSA-g76j-4cxx-23h9",
+      "GHSA-w6f2-8wx4-47r5"
+    ]
+  },
+  {
+    "fix_id": "upgrade:net.sf.jasperreports:jasperreports@5.6.0->@7.0.4",
+    "package": "net.sf.jasperreports:jasperreports",
+    "from_version": "5.6.0",
+    "to_version": "7.0.4",
+    "covers": [
+      "GHSA-7c3f-cg9x-f3gr"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.apache.commons:commons-compress@1.20->@1.26.0",
+    "package": "org.apache.commons:commons-compress",
+    "from_version": "1.20",
+    "to_version": "1.26.0",
+    "covers": [
+      "GHSA-4g9r-vxhx-9pgx",
+      "GHSA-7hfm-57qf-j43q",
+      "GHSA-crv7-7245-f45f",
+      "GHSA-mc84-pj99-q6hh",
+      "GHSA-xqfj-vm6h-2x34"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.apache.commons:commons-compress@1.8.1->@1.26.0",
+    "package": "org.apache.commons:commons-compress",
+    "from_version": "1.8.1",
+    "to_version": "1.26.0",
+    "covers": [
+      "GHSA-4g9r-vxhx-9pgx",
+      "GHSA-7hfm-57qf-j43q",
+      "GHSA-crv7-7245-f45f",
+      "GHSA-mc84-pj99-q6hh",
+      "GHSA-xqfj-vm6h-2x34",
+      "GHSA-hrmr-f5m6-m9pq"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.apache.httpcomponents.client5:httpclient5@5.2.3->@5.4.3",
+    "package": "org.apache.httpcomponents.client5:httpclient5",
+    "from_version": "5.2.3",
+    "to_version": "5.4.3",
+    "covers": [
+      "GHSA-73m2-qfq3-56cx"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.apache.httpcomponents.client5:httpclient5@5.4-beta1->@5.4.3",
+    "package": "org.apache.httpcomponents.client5:httpclient5",
+    "from_version": "5.4-beta1",
+    "to_version": "5.4.3",
+    "covers": [
+      "GHSA-73m2-qfq3-56cx"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.apache.httpcomponents:httpclient@4.3.3->@4.5.13",
+    "package": "org.apache.httpcomponents:httpclient",
+    "from_version": "4.3.3",
+    "to_version": "4.5.13",
+    "covers": [
+      "GHSA-7r82-7xv7-xcpj",
+      "GHSA-cfh5-3ghh-wfjx",
+      "GHSA-fmj5-wv96-r2ch"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.apache.httpcomponents:httpclient@4.4->@4.5.13",
+    "package": "org.apache.httpcomponents:httpclient",
+    "from_version": "4.4",
+    "to_version": "4.5.13",
+    "covers": [
+      "GHSA-7r82-7xv7-xcpj"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.apache.httpcomponents:httpclient@4.5.2->@4.5.13",
+    "package": "org.apache.httpcomponents:httpclient",
+    "from_version": "4.5.2",
+    "to_version": "4.5.13",
+    "covers": [
+      "GHSA-7r82-7xv7-xcpj"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.apache.httpcomponents:httpclient@4.5.3->@4.5.13",
+    "package": "org.apache.httpcomponents:httpclient",
+    "from_version": "4.5.3",
+    "to_version": "4.5.13",
+    "covers": [
+      "GHSA-7r82-7xv7-xcpj"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.apache.logging.log4j:log4j-core@2.14.1->@2.25.3",
+    "package": "org.apache.logging.log4j:log4j-core",
+    "from_version": "2.14.1",
+    "to_version": "2.25.3",
+    "covers": [
+      "GHSA-7rjr-3q55-vv33",
+      "GHSA-jfh8-c2jp-5v3q",
+      "GHSA-vc5p-v9hr-52mj"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.apache.logging.log4j:log4j-core@2.17.2->@2.25.3",
+    "package": "org.apache.logging.log4j:log4j-core",
+    "from_version": "2.17.2",
+    "to_version": "2.25.3",
+    "covers": [
+      "GHSA-vc5p-v9hr-52mj"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.apache.logging.log4j:log4j-core@2.18.0->@2.25.3",
+    "package": "org.apache.logging.log4j:log4j-core",
+    "from_version": "2.18.0",
+    "to_version": "2.25.3",
+    "covers": [
+      "GHSA-vc5p-v9hr-52mj"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.apache.logging.log4j:log4j-core@2.19.0->@2.25.3",
+    "package": "org.apache.logging.log4j:log4j-core",
+    "from_version": "2.19.0",
+    "to_version": "2.25.3",
+    "covers": [
+      "GHSA-vc5p-v9hr-52mj"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.apache.logging.log4j:log4j-core@2.20.0->@2.25.3",
+    "package": "org.apache.logging.log4j:log4j-core",
+    "from_version": "2.20.0",
+    "to_version": "2.25.3",
+    "covers": [
+      "GHSA-vc5p-v9hr-52mj"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.apache.logging.log4j:log4j-core@2.23.1->@2.25.3",
+    "package": "org.apache.logging.log4j:log4j-core",
+    "from_version": "2.23.1",
+    "to_version": "2.25.3",
+    "covers": [
+      "GHSA-vc5p-v9hr-52mj"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.apache.logging.log4j:log4j-core@2.24.1->@2.25.3",
+    "package": "org.apache.logging.log4j:log4j-core",
+    "from_version": "2.24.1",
+    "to_version": "2.25.3",
+    "covers": [
+      "GHSA-vc5p-v9hr-52mj"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.apache.logging.log4j:log4j-core@2.24.3->@2.25.3",
+    "package": "org.apache.logging.log4j:log4j-core",
+    "from_version": "2.24.3",
+    "to_version": "2.25.3",
+    "covers": [
+      "GHSA-vc5p-v9hr-52mj"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.apache.poi:poi@3.10.1->@4.1.1",
+    "package": "org.apache.poi:poi",
+    "from_version": "3.10.1",
+    "to_version": "4.1.1",
+    "covers": [
+      "GHSA-523c-xh4g-mh5m",
+      "GHSA-78vv-qj73-h9m5",
+      "GHSA-9jwc-q6j3-8g9g",
+      "GHSA-x9mm-6gpf-f749"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.apache.poi:poi@3.11->@4.1.1",
+    "package": "org.apache.poi:poi",
+    "from_version": "3.11",
+    "to_version": "4.1.1",
+    "covers": [
+      "GHSA-523c-xh4g-mh5m",
+      "GHSA-78vv-qj73-h9m5",
+      "GHSA-9jwc-q6j3-8g9g"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.apache.poi:poi@3.13->@4.1.1",
+    "package": "org.apache.poi:poi",
+    "from_version": "3.13",
+    "to_version": "4.1.1",
+    "covers": [
+      "GHSA-523c-xh4g-mh5m",
+      "GHSA-78vv-qj73-h9m5",
+      "GHSA-9jwc-q6j3-8g9g"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.apache.poi:poi-examples@3.9->@3.14",
+    "package": "org.apache.poi:poi-examples",
+    "from_version": "3.9",
+    "to_version": "3.14",
+    "covers": [
+      "GHSA-pmqq-7wfv-jfff"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.apache.poi:poi-ooxml@3.10.1->@5.4.0",
+    "package": "org.apache.poi:poi-ooxml",
+    "from_version": "3.10.1",
+    "to_version": "5.4.0",
+    "covers": [
+      "GHSA-gmg8-593g-7mv3"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.apache.poi:poi-ooxml@3.17->@5.4.0",
+    "package": "org.apache.poi:poi-ooxml",
+    "from_version": "3.17",
+    "to_version": "5.4.0",
+    "covers": [
+      "GHSA-gmg8-593g-7mv3"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.apache.poi:poi-ooxml@3.9->@5.4.0",
+    "package": "org.apache.poi:poi-ooxml",
+    "from_version": "3.9",
+    "to_version": "5.4.0",
+    "covers": [
+      "GHSA-gmg8-593g-7mv3"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.apache.poi:poi-ooxml@4.1.2->@5.4.0",
+    "package": "org.apache.poi:poi-ooxml",
+    "from_version": "4.1.2",
+    "to_version": "5.4.0",
+    "covers": [
+      "GHSA-gmg8-593g-7mv3"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.apache.poi:poi-ooxml@5.1.0->@5.4.0",
+    "package": "org.apache.poi:poi-ooxml",
+    "from_version": "5.1.0",
+    "to_version": "5.4.0",
+    "covers": [
+      "GHSA-gmg8-593g-7mv3"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.apache.poi:poi-ooxml@5.2.2->@5.4.0",
+    "package": "org.apache.poi:poi-ooxml",
+    "from_version": "5.2.2",
+    "to_version": "5.4.0",
+    "covers": [
+      "GHSA-gmg8-593g-7mv3"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.apache.poi:poi-ooxml@5.2.3->@5.4.0",
+    "package": "org.apache.poi:poi-ooxml",
+    "from_version": "5.2.3",
+    "to_version": "5.4.0",
+    "covers": [
+      "GHSA-gmg8-593g-7mv3"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.apache.poi:poi-ooxml@5.2.5->@5.4.0",
+    "package": "org.apache.poi:poi-ooxml",
+    "from_version": "5.2.5",
+    "to_version": "5.4.0",
+    "covers": [
+      "GHSA-gmg8-593g-7mv3"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.apache.poi:poi-ooxml@5.3.0->@5.4.0",
+    "package": "org.apache.poi:poi-ooxml",
+    "from_version": "5.3.0",
+    "to_version": "5.4.0",
+    "covers": [
+      "GHSA-gmg8-593g-7mv3"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.apache.poi:poi-scratchpad@3.9->@5.2.1",
+    "package": "org.apache.poi:poi-scratchpad",
+    "from_version": "3.9",
+    "to_version": "5.2.1",
+    "covers": [
+      "GHSA-jqx5-h2hw-5q4f",
+      "GHSA-mqvp-7rrg-9jxc"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.apache.spark:spark-core_2.12@3.1.2->@3.5.7",
+    "package": "org.apache.spark:spark-core_2.12",
+    "from_version": "3.1.2",
+    "to_version": "3.5.7",
+    "covers": [
+      "GHSA-329j-jfvr-rhr6",
+      "GHSA-43xg-8wmj-cw8h",
+      "GHSA-jwp6-cvj8-fw65"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.apache.struts:struts2-core@2.5->@6.8.0",
+    "package": "org.apache.struts:struts2-core",
+    "from_version": "2.5",
+    "to_version": "6.8.0",
+    "covers": [
+      "GHSA-2j39-qcjm-428w",
+      "GHSA-43mq-6xmg-29vm",
+      "GHSA-4g42-gqrg-4633",
+      "GHSA-729q-fcgp-r5xh",
+      "GHSA-86vq-8qhc-5rqw",
+      "GHSA-8f6x-v685-g2xc",
+      "GHSA-8m5q-crqq-6pmf",
+      "GHSA-9gp7-jvm2-r4mx",
+      "GHSA-ccp5-gg58-pxfm",
+      "GHSA-jc35-q369-45pv",
+      "GHSA-qcfc-hmrc-59x7",
+      "GHSA-rg58-xhh7-mqjw",
+      "GHSA-v8j6-6c2r-r27c",
+      "GHSA-wp4h-pvgw-5727",
+      "GHSA-xx7v-hqxh-cjr9"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.apache.tika:tika-core@2.3.0->@3.2.2",
+    "package": "org.apache.tika:tika-core",
+    "from_version": "2.3.0",
+    "to_version": "3.2.2",
+    "covers": [
+      "GHSA-f58c-gq56-vjjf"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.apache.tika:tika-core@2.4.1->@3.2.2",
+    "package": "org.apache.tika:tika-core",
+    "from_version": "2.4.1",
+    "to_version": "3.2.2",
+    "covers": [
+      "GHSA-f58c-gq56-vjjf"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.apache.tika:tika-core@2.8.0->@3.2.2",
+    "package": "org.apache.tika:tika-core",
+    "from_version": "2.8.0",
+    "to_version": "3.2.2",
+    "covers": [
+      "GHSA-f58c-gq56-vjjf"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.apache.tiles:tiles-core@3.0.3->@3.0.8",
+    "package": "org.apache.tiles:tiles-core",
+    "from_version": "3.0.3",
+    "to_version": "3.0.8",
+    "covers": [
+      "GHSA-qw4h-3xjj-84cc"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.apache.tiles:tiles-core@3.0.5->@3.0.8",
+    "package": "org.apache.tiles:tiles-core",
+    "from_version": "3.0.5",
+    "to_version": "3.0.8",
+    "covers": [
+      "GHSA-qw4h-3xjj-84cc"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.apache.tomcat.embed:tomcat-embed-core@10.0.2->@11.0.15",
+    "package": "org.apache.tomcat.embed:tomcat-embed-core",
+    "from_version": "10.0.2",
+    "to_version": "11.0.15",
+    "covers": [
+      "GHSA-qppj-fm5r-hxr3",
+      "GHSA-27hp-xhwr-wr2m",
+      "GHSA-2rvv-w9r2-rg7m",
+      "GHSA-42wg-hm62-jcwg",
+      "GHSA-5j33-cvvr-w245",
+      "GHSA-83qj-6fr2-vhqg",
+      "GHSA-fccv-jmmp-qg76",
+      "GHSA-fpj8-gq4v-p354",
+      "GHSA-g8pj-r55q-5c2v",
+      "GHSA-gqp3-2cvr-x8m3",
+      "GHSA-h3gc-qfqq-6h8f",
+      "GHSA-hgrr-935x-pq79",
+      "GHSA-qq5r-98hh-rxc9",
+      "GHSA-r6j3-px5g-cq3x",
+      "GHSA-wc4r-xq3c-5cf3",
+      "GHSA-wm9w-rjj3-j356",
+      "GHSA-wmwf-9ccg-fff5",
+      "GHSA-wr62-c79q-cv37"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.apache.tomcat.embed:tomcat-embed-core@9.0.29->@11.0.15",
+    "package": "org.apache.tomcat.embed:tomcat-embed-core",
+    "from_version": "9.0.29",
+    "to_version": "11.0.15",
+    "covers": [
+      "GHSA-qppj-fm5r-hxr3",
+      "GHSA-25xr-qj8w-c4vf",
+      "GHSA-27hp-xhwr-wr2m",
+      "GHSA-2rvv-w9r2-rg7m",
+      "GHSA-42wg-hm62-jcwg",
+      "GHSA-5j33-cvvr-w245",
+      "GHSA-83qj-6fr2-vhqg",
+      "GHSA-c9hw-wf7x-jp9j",
+      "GHSA-fccv-jmmp-qg76",
+      "GHSA-fpj8-gq4v-p354",
+      "GHSA-g8pj-r55q-5c2v",
+      "GHSA-gqp3-2cvr-x8m3",
+      "GHSA-h2fw-rfh5-95r3",
+      "GHSA-h3gc-qfqq-6h8f",
+      "GHSA-hgrr-935x-pq79",
+      "GHSA-j39c-c8hj-x4j3",
+      "GHSA-jgwr-3qm3-26f3",
+      "GHSA-qq5r-98hh-rxc9",
+      "GHSA-r6j3-px5g-cq3x",
+      "GHSA-wc4r-xq3c-5cf3",
+      "GHSA-wm9w-rjj3-j356",
+      "GHSA-wmwf-9ccg-fff5",
+      "GHSA-wr62-c79q-cv37"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.bouncycastle:bcpkix-jdk15to18@1.68->@1.79",
+    "package": "org.bouncycastle:bcpkix-jdk15to18",
+    "from_version": "1.68",
+    "to_version": "1.79",
+    "covers": [
+      "GHSA-4cx2-fc23-5wg6"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.bouncycastle:bcprov-jdk15on@1.68->@1.78",
+    "package": "org.bouncycastle:bcprov-jdk15on",
+    "from_version": "1.68",
+    "to_version": "1.78",
+    "covers": [
+      "GHSA-8xfc-gm6g-vgpv",
+      "GHSA-hr8g-6v94-x4m9",
+      "GHSA-v435-xc8x-wvr9",
+      "GHSA-wjxj-5m7g-mg7q"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.bouncycastle:bcprov-jdk15on@1.70->@1.78",
+    "package": "org.bouncycastle:bcprov-jdk15on",
+    "from_version": "1.70",
+    "to_version": "1.78",
+    "covers": [
+      "GHSA-8xfc-gm6g-vgpv",
+      "GHSA-hr8g-6v94-x4m9",
+      "GHSA-v435-xc8x-wvr9",
+      "GHSA-wjxj-5m7g-mg7q"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.bouncycastle:bcprov-jdk15to18@1.68->@1.78",
+    "package": "org.bouncycastle:bcprov-jdk15to18",
+    "from_version": "1.68",
+    "to_version": "1.78",
+    "covers": [
+      "GHSA-4h8f-2wvx-gg5w",
+      "GHSA-67mf-3cr5-8w23"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.codehaus.groovy:groovy@2.3.4->@2.4.21",
+    "package": "org.codehaus.groovy:groovy",
+    "from_version": "2.3.4",
+    "to_version": "2.4.21",
+    "covers": [
+      "GHSA-qg25-hgjv-cg9q",
+      "GHSA-rcjj-h6gh-jf3r",
+      "GHSA-xphj-m9cc-8fmq"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.codehaus.jackson:jackson-mapper-asl@1.5.0->@1.9.13",
+    "package": "org.codehaus.jackson:jackson-mapper-asl",
+    "from_version": "1.5.0",
+    "to_version": "1.9.13",
+    "covers": [
+      "GHSA-c27h-mcmw-48hv",
+      "GHSA-r6j9-8759-g62w"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.codehaus.jackson:jackson-mapper-asl@1.9.10->@1.9.13",
+    "package": "org.codehaus.jackson:jackson-mapper-asl",
+    "from_version": "1.9.10",
+    "to_version": "1.9.13",
+    "covers": [
+      "GHSA-c27h-mcmw-48hv",
+      "GHSA-r6j9-8759-g62w"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.codehaus.plexus:plexus-archiver@4.3.0->@4.8.0",
+    "package": "org.codehaus.plexus:plexus-archiver",
+    "from_version": "4.3.0",
+    "to_version": "4.8.0",
+    "covers": [
+      "GHSA-wh3p-fphp-9h2m"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.eclipse.jetty:jetty-server@12.0.12->@12.1.6",
+    "package": "org.eclipse.jetty:jetty-server",
+    "from_version": "12.0.12",
+    "to_version": "12.1.6",
+    "covers": [
+      "GHSA-xxh7-fcf3-rj7f"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.hibernate.validator:hibernate-validator@6.0.13.Final->@6.2.0.CR1",
+    "package": "org.hibernate.validator:hibernate-validator",
+    "from_version": "6.0.13.Final",
+    "to_version": "6.2.0.CR1",
+    "covers": [
+      "GHSA-7v6m-28jr-rg84",
+      "GHSA-m8p2-495h-ccmh",
+      "GHSA-rmrm-75hp-phr2",
+      "GHSA-x83m-pf6f-pf9g"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.hibernate.validator:hibernate-validator@6.2.0.Final->@6.2.0.CR1",
+    "package": "org.hibernate.validator:hibernate-validator",
+    "from_version": "6.2.0.Final",
+    "to_version": "6.2.0.CR1",
+    "covers": [
+      "GHSA-7v6m-28jr-rg84",
+      "GHSA-m8p2-495h-ccmh",
+      "GHSA-rmrm-75hp-phr2",
+      "GHSA-x83m-pf6f-pf9g"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.hibernate.validator:hibernate-validator@6.2.4.Final->@6.2.0.CR1",
+    "package": "org.hibernate.validator:hibernate-validator",
+    "from_version": "6.2.4.Final",
+    "to_version": "6.2.0.CR1",
+    "covers": [
+      "GHSA-7v6m-28jr-rg84",
+      "GHSA-m8p2-495h-ccmh",
+      "GHSA-rmrm-75hp-phr2",
+      "GHSA-x83m-pf6f-pf9g"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.hibernate.validator:hibernate-validator@7.0.5.Final->@6.2.0.CR1",
+    "package": "org.hibernate.validator:hibernate-validator",
+    "from_version": "7.0.5.Final",
+    "to_version": "6.2.0.CR1",
+    "covers": [
+      "GHSA-7v6m-28jr-rg84",
+      "GHSA-m8p2-495h-ccmh",
+      "GHSA-rmrm-75hp-phr2",
+      "GHSA-x83m-pf6f-pf9g"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.hibernate.validator:hibernate-validator@8.0.1.Final->@6.2.0.CR1",
+    "package": "org.hibernate.validator:hibernate-validator",
+    "from_version": "8.0.1.Final",
+    "to_version": "6.2.0.CR1",
+    "covers": [
+      "GHSA-7v6m-28jr-rg84",
+      "GHSA-m8p2-495h-ccmh",
+      "GHSA-rmrm-75hp-phr2",
+      "GHSA-x83m-pf6f-pf9g"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.hibernate:hibernate-core@3.6.10.Final->@5.3.18",
+    "package": "org.hibernate:hibernate-core",
+    "from_version": "3.6.10.Final",
+    "to_version": "5.3.18",
+    "covers": [
+      "GHSA-8grg-q944-cch5",
+      "GHSA-j8jw-g6fq-mp7h"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.hibernate:hibernate-core@5.4.25.Final->@5.3.18",
+    "package": "org.hibernate:hibernate-core",
+    "from_version": "5.4.25.Final",
+    "to_version": "5.3.18",
+    "covers": [
+      "GHSA-8grg-q944-cch5",
+      "GHSA-j8jw-g6fq-mp7h"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.hibernate:hibernate-core@5.4.28.Final->@5.3.18",
+    "package": "org.hibernate:hibernate-core",
+    "from_version": "5.4.28.Final",
+    "to_version": "5.3.18",
+    "covers": [
+      "GHSA-8grg-q944-cch5",
+      "GHSA-j8jw-g6fq-mp7h"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.hibernate:hibernate-core@5.5.6.Final->@5.3.18",
+    "package": "org.hibernate:hibernate-core",
+    "from_version": "5.5.6.Final",
+    "to_version": "5.3.18",
+    "covers": [
+      "GHSA-8grg-q944-cch5",
+      "GHSA-j8jw-g6fq-mp7h"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.hibernate:hibernate-core@5.6.14.Final->@5.3.18",
+    "package": "org.hibernate:hibernate-core",
+    "from_version": "5.6.14.Final",
+    "to_version": "5.3.18",
+    "covers": [
+      "GHSA-8grg-q944-cch5",
+      "GHSA-j8jw-g6fq-mp7h"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.hibernate:hibernate-core@5.6.15.Final->@5.3.18",
+    "package": "org.hibernate:hibernate-core",
+    "from_version": "5.6.15.Final",
+    "to_version": "5.3.18",
+    "covers": [
+      "GHSA-8grg-q944-cch5",
+      "GHSA-j8jw-g6fq-mp7h"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.hibernate:hibernate-validator@5.1.3.Final->@5.2.5.Final",
+    "package": "org.hibernate:hibernate-validator",
+    "from_version": "5.1.3.Final",
+    "to_version": "5.2.5.Final",
+    "covers": [
+      "GHSA-xxgp-pcfc-3vgc"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.hibernate:hibernate-validator@5.2.4.Final->@5.2.5.Final",
+    "package": "org.hibernate:hibernate-validator",
+    "from_version": "5.2.4.Final",
+    "to_version": "5.2.5.Final",
+    "covers": [
+      "GHSA-xxgp-pcfc-3vgc"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.java-websocket:Java-WebSocket@1.3.5->@1.5.0",
+    "package": "org.java-websocket:Java-WebSocket",
+    "from_version": "1.3.5",
+    "to_version": "1.5.0",
+    "covers": [
+      "GHSA-gw55-jm4h-x339"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.json:json@20090211->@20231013",
+    "package": "org.json:json",
+    "from_version": "20090211",
+    "to_version": "20231013",
+    "covers": [
+      "GHSA-3vqj-43w4-2q58",
+      "GHSA-4jq9-2xhw-jpx7"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.json:json@20201115->@20231013",
+    "package": "org.json:json",
+    "from_version": "20201115",
+    "to_version": "20231013",
+    "covers": [
+      "GHSA-3vqj-43w4-2q58",
+      "GHSA-4jq9-2xhw-jpx7"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.json:json@20210307->@20231013",
+    "package": "org.json:json",
+    "from_version": "20210307",
+    "to_version": "20231013",
+    "covers": [
+      "GHSA-3vqj-43w4-2q58",
+      "GHSA-4jq9-2xhw-jpx7"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.json:json@20211205->@20231013",
+    "package": "org.json:json",
+    "from_version": "20211205",
+    "to_version": "20231013",
+    "covers": [
+      "GHSA-3vqj-43w4-2q58",
+      "GHSA-4jq9-2xhw-jpx7"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.json:json@20220320->@20231013",
+    "package": "org.json:json",
+    "from_version": "20220320",
+    "to_version": "20231013",
+    "covers": [
+      "GHSA-3vqj-43w4-2q58",
+      "GHSA-4jq9-2xhw-jpx7"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.jsoup:jsoup@1.13.1->@1.15.3",
+    "package": "org.jsoup:jsoup",
+    "from_version": "1.13.1",
+    "to_version": "1.15.3",
+    "covers": [
+      "GHSA-gp7f-rwcx-9369",
+      "GHSA-m72m-mhq2-9p6c"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.jsoup:jsoup@1.8.3->@1.15.3",
+    "package": "org.jsoup:jsoup",
+    "from_version": "1.8.3",
+    "to_version": "1.15.3",
+    "covers": [
+      "GHSA-gp7f-rwcx-9369",
+      "GHSA-m72m-mhq2-9p6c"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.lz4:lz4-java@1.8.0->@1.8.1",
+    "package": "org.lz4:lz4-java",
+    "from_version": "1.8.0",
+    "to_version": "1.8.1",
+    "covers": [
+      "GHSA-cmp6-m4wj-q63q",
+      "GHSA-vqf4-7m7x-wgfc"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.mindrot:jbcrypt@0.3m->@0.4",
+    "package": "org.mindrot:jbcrypt",
+    "from_version": "0.3m",
+    "to_version": "0.4",
+    "covers": [
+      "GHSA-9h6p-92jq-888x"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.mybatis:mybatis@3.2.2->@3.5.6",
+    "package": "org.mybatis:mybatis",
+    "from_version": "3.2.2",
+    "to_version": "3.5.6",
+    "covers": [
+      "GHSA-qq48-m4jx-xqh8"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.mybatis:mybatis@3.2.3->@3.5.6",
+    "package": "org.mybatis:mybatis",
+    "from_version": "3.2.3",
+    "to_version": "3.5.6",
+    "covers": [
+      "GHSA-qq48-m4jx-xqh8"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.mybatis:mybatis@3.2.8->@3.5.6",
+    "package": "org.mybatis:mybatis",
+    "from_version": "3.2.8",
+    "to_version": "3.5.6",
+    "covers": [
+      "GHSA-qq48-m4jx-xqh8"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.mybatis:mybatis@3.3.1->@3.5.6",
+    "package": "org.mybatis:mybatis",
+    "from_version": "3.3.1",
+    "to_version": "3.5.6",
+    "covers": [
+      "GHSA-qq48-m4jx-xqh8"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.mybatis:mybatis@3.4.6->@3.5.6",
+    "package": "org.mybatis:mybatis",
+    "from_version": "3.4.6",
+    "to_version": "3.5.6",
+    "covers": [
+      "GHSA-qq48-m4jx-xqh8"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.mybatis:mybatis@3.5.0->@3.5.6",
+    "package": "org.mybatis:mybatis",
+    "from_version": "3.5.0",
+    "to_version": "3.5.6",
+    "covers": [
+      "GHSA-qq48-m4jx-xqh8"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.mybatis:mybatis@3.5.3->@3.5.6",
+    "package": "org.mybatis:mybatis",
+    "from_version": "3.5.3",
+    "to_version": "3.5.6",
+    "covers": [
+      "GHSA-qq48-m4jx-xqh8"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.postgresql:postgresql@42.2.24->@42.3.3",
+    "package": "org.postgresql:postgresql",
+    "from_version": "42.2.24",
+    "to_version": "42.3.3",
+    "covers": [
+      "GHSA-24rp-q3w6-vc56",
+      "GHSA-562r-vg33-8x8h",
+      "GHSA-673j-qm5f-xpv8",
+      "GHSA-727h-hrw8-jg8q",
+      "GHSA-r38f-c4h4-hqq2",
+      "GHSA-v7wg-cpwc-24m4"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.quartz-scheduler:quartz@2.2.1->@2.3.2",
+    "package": "org.quartz-scheduler:quartz",
+    "from_version": "2.2.1",
+    "to_version": "2.3.2",
+    "covers": [
+      "GHSA-9qcf-c26r-x5rf"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.redisson:redisson@3.17.7->@3.22.0",
+    "package": "org.redisson:redisson",
+    "from_version": "3.17.7",
+    "to_version": "3.22.0",
+    "covers": [
+      "GHSA-4hvc-qwr2-f8rv"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.redisson:redisson@3.8.1->@3.22.0",
+    "package": "org.redisson:redisson",
+    "from_version": "3.8.1",
+    "to_version": "3.22.0",
+    "covers": [
+      "GHSA-4hvc-qwr2-f8rv"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.springframework.hateoas:spring-hateoas@1.4.1->@1.5.5",
+    "package": "org.springframework.hateoas:spring-hateoas",
+    "from_version": "1.4.1",
+    "to_version": "1.5.5",
+    "covers": [
+      "GHSA-7m5c-fgwf-mwph"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.springframework.security:spring-security-config@5.0.8.RELEASE->@5.8.5",
+    "package": "org.springframework.security:spring-security-config",
+    "from_version": "5.0.8.RELEASE",
+    "to_version": "5.8.5",
+    "covers": [
+      "GHSA-3h6f-g5f3-gc4w",
+      "GHSA-4vpr-xfrp-cj64"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.springframework.security:spring-security-config@5.1.5.RELEASE->@5.8.5",
+    "package": "org.springframework.security:spring-security-config",
+    "from_version": "5.1.5.RELEASE",
+    "to_version": "5.8.5",
+    "covers": [
+      "GHSA-3h6f-g5f3-gc4w",
+      "GHSA-4vpr-xfrp-cj64"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.springframework.security:spring-security-config@5.4.2->@5.8.5",
+    "package": "org.springframework.security:spring-security-config",
+    "from_version": "5.4.2",
+    "to_version": "5.8.5",
+    "covers": [
+      "GHSA-3h6f-g5f3-gc4w",
+      "GHSA-4vpr-xfrp-cj64"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.springframework.security:spring-security-config@5.5.3->@5.8.5",
+    "package": "org.springframework.security:spring-security-config",
+    "from_version": "5.5.3",
+    "to_version": "5.8.5",
+    "covers": [
+      "GHSA-3h6f-g5f3-gc4w",
+      "GHSA-4vpr-xfrp-cj64"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.springframework.security:spring-security-core@5.0.8.RELEASE->@6.1.7",
+    "package": "org.springframework.security:spring-security-core",
+    "from_version": "5.0.8.RELEASE",
+    "to_version": "6.1.7",
+    "covers": [
+      "GHSA-2ppp-9496-p23q",
+      "GHSA-f3jh-qvm4-mg39",
+      "GHSA-hh32-7344-cg2f",
+      "GHSA-q3v6-hm2v-pw99",
+      "GHSA-v2r2-7qm7-jj6v",
+      "GHSA-w9jg-gvgr-354m",
+      "GHSA-wx54-3278-m5g4",
+      "GHSA-x873-6rgc-94jc",
+      "GHSA-w3w6-26f2-p474"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.springframework.security:spring-security-core@5.1.5.RELEASE->@6.1.7",
+    "package": "org.springframework.security:spring-security-core",
+    "from_version": "5.1.5.RELEASE",
+    "to_version": "6.1.7",
+    "covers": [
+      "GHSA-2ppp-9496-p23q",
+      "GHSA-f3jh-qvm4-mg39",
+      "GHSA-hh32-7344-cg2f",
+      "GHSA-q3v6-hm2v-pw99",
+      "GHSA-v2r2-7qm7-jj6v",
+      "GHSA-w9jg-gvgr-354m",
+      "GHSA-wx54-3278-m5g4",
+      "GHSA-x873-6rgc-94jc",
+      "GHSA-w3w6-26f2-p474"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.springframework.security:spring-security-core@5.4.2->@6.1.7",
+    "package": "org.springframework.security:spring-security-core",
+    "from_version": "5.4.2",
+    "to_version": "6.1.7",
+    "covers": [
+      "GHSA-f3jh-qvm4-mg39",
+      "GHSA-hh32-7344-cg2f",
+      "GHSA-q3v6-hm2v-pw99",
+      "GHSA-w9jg-gvgr-354m",
+      "GHSA-wx54-3278-m5g4",
+      "GHSA-x873-6rgc-94jc",
+      "GHSA-w3w6-26f2-p474"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.springframework.security:spring-security-core@5.5.3->@6.1.7",
+    "package": "org.springframework.security:spring-security-core",
+    "from_version": "5.5.3",
+    "to_version": "6.1.7",
+    "covers": [
+      "GHSA-f3jh-qvm4-mg39",
+      "GHSA-hh32-7344-cg2f",
+      "GHSA-q3v6-hm2v-pw99",
+      "GHSA-wx54-3278-m5g4",
+      "GHSA-x873-6rgc-94jc",
+      "GHSA-w3w6-26f2-p474"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.springframework.security:spring-security-core@5.7.5->@6.1.7",
+    "package": "org.springframework.security:spring-security-core",
+    "from_version": "5.7.5",
+    "to_version": "6.1.7",
+    "covers": [
+      "GHSA-f3jh-qvm4-mg39",
+      "GHSA-q3v6-hm2v-pw99",
+      "GHSA-x873-6rgc-94jc",
+      "GHSA-w3w6-26f2-p474"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.springframework.security:spring-security-core@6.1.1->@6.1.7",
+    "package": "org.springframework.security:spring-security-core",
+    "from_version": "6.1.1",
+    "to_version": "6.1.7",
+    "covers": [
+      "GHSA-w3w6-26f2-p474"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.springframework.security:spring-security-crypto@5.3.3.RELEASE->@6.3.8",
+    "package": "org.springframework.security:spring-security-crypto",
+    "from_version": "5.3.3.RELEASE",
+    "to_version": "6.3.8",
+    "covers": [
+      "GHSA-mg83-c7gq-rv5c"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.springframework.security:spring-security-crypto@6.1.1->@6.3.8",
+    "package": "org.springframework.security:spring-security-crypto",
+    "from_version": "6.1.1",
+    "to_version": "6.3.8",
+    "covers": [
+      "GHSA-mg83-c7gq-rv5c"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.springframework.security:spring-security-crypto@6.2.1->@6.3.8",
+    "package": "org.springframework.security:spring-security-crypto",
+    "from_version": "6.2.1",
+    "to_version": "6.3.8",
+    "covers": [
+      "GHSA-mg83-c7gq-rv5c"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.springframework.security:spring-security-crypto@6.2.2->@6.3.8",
+    "package": "org.springframework.security:spring-security-crypto",
+    "from_version": "6.2.2",
+    "to_version": "6.3.8",
+    "covers": [
+      "GHSA-mg83-c7gq-rv5c"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.springframework.security:spring-security-web@5.0.8.RELEASE->@6.5.9",
+    "package": "org.springframework.security:spring-security-web",
+    "from_version": "5.0.8.RELEASE",
+    "to_version": "6.5.9",
+    "covers": [
+      "GHSA-c4q5-6c82-3qpw",
+      "GHSA-gq28-h5vg-8prx",
+      "GHSA-mf92-479x-3373"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.springframework.security:spring-security-web@5.1.5.RELEASE->@6.5.9",
+    "package": "org.springframework.security:spring-security-web",
+    "from_version": "5.1.5.RELEASE",
+    "to_version": "6.5.9",
+    "covers": [
+      "GHSA-c4q5-6c82-3qpw",
+      "GHSA-gq28-h5vg-8prx",
+      "GHSA-mf92-479x-3373"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.springframework.security:spring-security-web@5.4.2->@6.5.9",
+    "package": "org.springframework.security:spring-security-web",
+    "from_version": "5.4.2",
+    "to_version": "6.5.9",
+    "covers": [
+      "GHSA-c4q5-6c82-3qpw",
+      "GHSA-gq28-h5vg-8prx",
+      "GHSA-mf92-479x-3373"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.springframework.security:spring-security-web@5.5.3->@6.5.9",
+    "package": "org.springframework.security:spring-security-web",
+    "from_version": "5.5.3",
+    "to_version": "6.5.9",
+    "covers": [
+      "GHSA-c4q5-6c82-3qpw",
+      "GHSA-mf92-479x-3373"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.springframework.security:spring-security-web@6.2.1->@6.5.9",
+    "package": "org.springframework.security:spring-security-web",
+    "from_version": "6.2.1",
+    "to_version": "6.5.9",
+    "covers": [
+      "GHSA-mf92-479x-3373"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.springframework:spring-context@5.1.5.RELEASE->@6.2.7",
+    "package": "org.springframework:spring-context",
+    "from_version": "5.1.5.RELEASE",
+    "to_version": "6.2.7",
+    "covers": [
+      "GHSA-4gc7-5j7h-4qph",
+      "GHSA-4wp7-92pw-q264",
+      "GHSA-g5mm-vmx4-3rg7"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.springframework:spring-core@5.3.10->@6.2.11",
+    "package": "org.springframework:spring-core",
+    "from_version": "5.3.10",
+    "to_version": "6.2.11",
+    "covers": [
+      "GHSA-6gf2-pvqw-37ph",
+      "GHSA-jmp9-x22r-554x",
+      "GHSA-rfmp-97jj-h8m6"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.springframework:spring-expression@4.3.13.RELEASE->@6.0.8",
+    "package": "org.springframework:spring-expression",
+    "from_version": "4.3.13.RELEASE",
+    "to_version": "6.0.8",
+    "covers": [
+      "GHSA-558x-2xjg-6232",
+      "GHSA-564r-hj7v-mcr5",
+      "GHSA-9cmq-m9j5-mvww",
+      "GHSA-wxqc-pxw9-g2p8"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.springframework:spring-web@5.3.10->@6.1.5",
+    "package": "org.springframework:spring-web",
+    "from_version": "5.3.10",
+    "to_version": "6.1.5",
+    "covers": [
+      "GHSA-2rmj-mq67-h97g",
+      "GHSA-2wrp-6fg6-hmc5",
+      "GHSA-4wrc-f8pq-fpqp",
+      "GHSA-ccgv-vj62-xf9h",
+      "GHSA-hgjh-9rj2-g67j"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.springframework:spring-webmvc@5.0.2.RELEASE->@5.2.20.RELEASE",
+    "package": "org.springframework:spring-webmvc",
+    "from_version": "5.0.2.RELEASE",
+    "to_version": "5.2.20.RELEASE",
+    "covers": [
+      "GHSA-36p3-wjmg-h94x",
+      "GHSA-8wx2-9q48-vm9r",
+      "GHSA-g5vr-rgqm-vf78",
+      "GHSA-4773-3jfm-qmx3",
+      "GHSA-6hcq-hmm3-jj3c",
+      "GHSA-7phw-cxx7-q9vq",
+      "GHSA-cx7f-g6mp-7hqm",
+      "GHSA-r936-gwx5-v52f",
+      "GHSA-w3c8-7r8f-9jp8"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.springframework:spring-webmvc@5.1.1.RELEASE->@5.2.20.RELEASE",
+    "package": "org.springframework:spring-webmvc",
+    "from_version": "5.1.1.RELEASE",
+    "to_version": "5.2.20.RELEASE",
+    "covers": [
+      "GHSA-36p3-wjmg-h94x",
+      "GHSA-8wx2-9q48-vm9r",
+      "GHSA-g5vr-rgqm-vf78",
+      "GHSA-4773-3jfm-qmx3",
+      "GHSA-6hcq-hmm3-jj3c",
+      "GHSA-7phw-cxx7-q9vq",
+      "GHSA-cx7f-g6mp-7hqm",
+      "GHSA-r936-gwx5-v52f",
+      "GHSA-w3c8-7r8f-9jp8"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.springframework:spring-webmvc@5.2.10.RELEASE->@5.2.20.RELEASE",
+    "package": "org.springframework:spring-webmvc",
+    "from_version": "5.2.10.RELEASE",
+    "to_version": "5.2.20.RELEASE",
+    "covers": [
+      "GHSA-36p3-wjmg-h94x",
+      "GHSA-8wx2-9q48-vm9r",
+      "GHSA-g5vr-rgqm-vf78",
+      "GHSA-4773-3jfm-qmx3",
+      "GHSA-6hcq-hmm3-jj3c",
+      "GHSA-7phw-cxx7-q9vq",
+      "GHSA-cx7f-g6mp-7hqm",
+      "GHSA-r936-gwx5-v52f",
+      "GHSA-w3c8-7r8f-9jp8"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.springframework:spring-webmvc@5.3.9->@5.2.20.RELEASE",
+    "package": "org.springframework:spring-webmvc",
+    "from_version": "5.3.9",
+    "to_version": "5.2.20.RELEASE",
+    "covers": [
+      "GHSA-36p3-wjmg-h94x",
+      "GHSA-8wx2-9q48-vm9r",
+      "GHSA-g5vr-rgqm-vf78",
+      "GHSA-4773-3jfm-qmx3",
+      "GHSA-6hcq-hmm3-jj3c",
+      "GHSA-7phw-cxx7-q9vq",
+      "GHSA-cx7f-g6mp-7hqm",
+      "GHSA-r936-gwx5-v52f",
+      "GHSA-w3c8-7r8f-9jp8"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.springframework:spring-websocket@4.3.22.RELEASE->@6.2.12",
+    "package": "org.springframework:spring-websocket",
+    "from_version": "4.3.22.RELEASE",
+    "to_version": "6.2.12",
+    "covers": [
+      "GHSA-7fch-4f2f-jcgm"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.springframework:spring-websocket@5.1.5.RELEASE->@6.2.12",
+    "package": "org.springframework:spring-websocket",
+    "from_version": "5.1.5.RELEASE",
+    "to_version": "6.2.12",
+    "covers": [
+      "GHSA-7fch-4f2f-jcgm"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.springframework:spring-websocket@6.1.4->@6.2.12",
+    "package": "org.springframework:spring-websocket",
+    "from_version": "6.1.4",
+    "to_version": "6.2.12",
+    "covers": [
+      "GHSA-7fch-4f2f-jcgm"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.testng:testng@6.14.3->@7.5.1",
+    "package": "org.testng:testng",
+    "from_version": "6.14.3",
+    "to_version": "7.5.1",
+    "covers": [
+      "GHSA-rc2q-x9mf-w3vf"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.webjars.npm:angular@1.6.9->@1.8.3",
+    "package": "org.webjars.npm:angular",
+    "from_version": "1.6.9",
+    "to_version": "1.8.3",
+    "covers": [
+      "GHSA-4w4v-5hc9-xrr2"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.xerial:sqlite-jdbc@3.39.3.0->@3.41.2.2",
+    "package": "org.xerial:sqlite-jdbc",
+    "from_version": "3.39.3.0",
+    "to_version": "3.41.2.2",
+    "covers": [
+      "GHSA-6phf-6h5g-97j2"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.yaml:snakeyaml@1.17->@2.0",
+    "package": "org.yaml:snakeyaml",
+    "from_version": "1.17",
+    "to_version": "2.0",
+    "covers": [
+      "GHSA-3mc7-4q67-w48m",
+      "GHSA-98wm-3w3q-mw94",
+      "GHSA-9w3m-gqgf-c4p9",
+      "GHSA-c4r9-r8fh-9vj2",
+      "GHSA-hhhw-99gj-p3c3",
+      "GHSA-mjmj-j48q-9wg2",
+      "GHSA-rvwf-54qp-4r6v",
+      "GHSA-w37g-rhq8-7m4j"
+    ]
+  },
+  {
+    "fix_id": "upgrade:org.yaml:snakeyaml@1.30->@2.0",
+    "package": "org.yaml:snakeyaml",
+    "from_version": "1.30",
+    "to_version": "2.0",
+    "covers": [
+      "GHSA-3mc7-4q67-w48m",
+      "GHSA-98wm-3w3q-mw94",
+      "GHSA-9w3m-gqgf-c4p9",
+      "GHSA-c4r9-r8fh-9vj2",
+      "GHSA-hhhw-99gj-p3c3",
+      "GHSA-mjmj-j48q-9wg2",
+      "GHSA-w37g-rhq8-7m4j"
+    ]
+  }
+]

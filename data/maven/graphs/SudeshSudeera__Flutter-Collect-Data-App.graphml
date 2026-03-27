@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="com.dsmp:collect-data-dsmp-api@0.0.1-SNAPSHOT">
+      <data key="d2">com.dsmp:collect-data-dsmp-api</data>
+      <data key="d3">0.0.1-SNAPSHOT</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.sendgrid:sendgrid-java@4.4.0">
+      <data key="d2">com.sendgrid:sendgrid-java</data>
+      <data key="d3">4.4.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.google.guava:guava@28.1-jre">
+      <data key="d2">com.google.guava:guava</data>
+      <data key="d3">28.1-jre</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-5mg8-w23w-74h3,GHSA-7g45-4rm6-3mm3,GHSA-mvr2-9pj6-7w5j</data>
+    </node>
+    <node id="javax.mail:mail@1.4">
+      <data key="d2">javax.mail:mail</data>
+      <data key="d3">1.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.amazonaws:aws-java-sdk@1.12.369">
+      <data key="d2">com.amazonaws:aws-java-sdk</data>
+      <data key="d3">1.12.369</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.vladmihalcea:hibernate-types-52@2.12.1">
+      <data key="d2">com.vladmihalcea:hibernate-types-52</data>
+      <data key="d3">2.12.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.slf4j:slf4j-api@1.7.25">
+      <data key="d2">org.slf4j:slf4j-api</data>
+      <data key="d3">1.7.25</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.modelmapper:modelmapper@2.4.2">
+      <data key="d2">org.modelmapper:modelmapper</data>
+      <data key="d3">2.4.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="io.springfox:springfox-swagger2@2.9.2">
+      <data key="d2">io.springfox:springfox-swagger2</data>
+      <data key="d3">2.9.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="io.springfox:springfox-swagger-ui@2.9.2">
+      <data key="d2">io.springfox:springfox-swagger-ui</data>
+      <data key="d3">2.9.2</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-c427-hjc3-wrfw</data>
+    </node>
+    <node id="mysql:mysql-connector-java@8.0.33">
+      <data key="d2">mysql:mysql-connector-java</data>
+      <data key="d3">8.0.33</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-2xxh-f8r3-hvvr,GHSA-4vrv-ch96-6h42,GHSA-cjcf-wm2p-59h5,GHSA-g76j-4cxx-23h9,GHSA-jcq3-cprp-m333,GHSA-pwh7-92h3-mqr6,GHSA-w6f2-8wx4-47r5</data>
+    </node>
+    <edge source="com.dsmp:collect-data-dsmp-api@0.0.1-SNAPSHOT" target="com.sendgrid:sendgrid-java@4.4.0" />
+    <edge source="com.dsmp:collect-data-dsmp-api@0.0.1-SNAPSHOT" target="com.google.guava:guava@28.1-jre" />
+    <edge source="com.dsmp:collect-data-dsmp-api@0.0.1-SNAPSHOT" target="javax.mail:mail@1.4" />
+    <edge source="com.dsmp:collect-data-dsmp-api@0.0.1-SNAPSHOT" target="com.amazonaws:aws-java-sdk@1.12.369" />
+    <edge source="com.dsmp:collect-data-dsmp-api@0.0.1-SNAPSHOT" target="com.vladmihalcea:hibernate-types-52@2.12.1" />
+    <edge source="com.dsmp:collect-data-dsmp-api@0.0.1-SNAPSHOT" target="org.slf4j:slf4j-api@1.7.25" />
+    <edge source="com.dsmp:collect-data-dsmp-api@0.0.1-SNAPSHOT" target="org.modelmapper:modelmapper@2.4.2" />
+    <edge source="com.dsmp:collect-data-dsmp-api@0.0.1-SNAPSHOT" target="io.springfox:springfox-swagger2@2.9.2" />
+    <edge source="com.dsmp:collect-data-dsmp-api@0.0.1-SNAPSHOT" target="io.springfox:springfox-swagger-ui@2.9.2" />
+    <edge source="com.dsmp:collect-data-dsmp-api@0.0.1-SNAPSHOT" target="mysql:mysql-connector-java@8.0.33" />
+    <data key="d0">SudeshSudeera__Flutter-Collect-Data-App</data>
+    <data key="d1">Maven</data>
+  </graph>
+</graphml>

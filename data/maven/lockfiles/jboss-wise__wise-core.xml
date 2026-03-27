@@ -1,0 +1,599 @@
+	<!--
+		Licensed to the Apache Software Foundation (ASF) under one or more
+		contributor license agreements. See the NOTICE file distributed with
+		this work for additional information regarding copyright ownership.
+		The ASF licenses this file to you under the Apache License, Version
+		2.0 (the "License"); you may not use this file except in compliance
+		with the License. You may obtain a copy of the License at
+
+		http://www.apache.org/licenses/LICENSE-2.0 Unless required by
+		applicable law or agreed to in writing, software distributed under the
+		License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+		CONDITIONS OF ANY KIND, either express or implied. See the License for
+		the specific language governing permissions and limitations under the
+		License.
+	-->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<name>Wise Integration Test</name>
+	<artifactId>wise-integration-testsuite</artifactId>
+    <packaging>pom</packaging>
+    
+	<parent>
+		<groupId>org.jboss.wise</groupId>
+		<artifactId>wise</artifactId>
+		<version>2.2.1-SNAPSHOT</version>
+		<relativePath>../pom.xml</relativePath>
+	</parent>
+
+    <modules>
+			<module>common</module>
+    </modules>
+
+	<properties>
+		<version.wise.core>${project.version}</version.wise.core>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>javax.mail</groupId>
+			<artifactId>javax.mail-api</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>javax.ejb</groupId>
+			<artifactId>ejb-api</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.jboss.wise</groupId>
+			<artifactId>wise-core</artifactId>
+			<version>${version.wise.core}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>net.jcip</groupId>
+			<artifactId>jcip-annotations</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.jboss.shrinkwrap</groupId>
+			<artifactId>shrinkwrap-depchain</artifactId>
+			<type>pom</type>
+		</dependency>
+
+		<dependency>
+			<groupId>org.jboss.arquillian.junit</groupId>
+			<artifactId>arquillian-junit-container</artifactId>
+			<version>${arquillian.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.jboss.shrinkwrap.resolver</groupId>
+			<artifactId>shrinkwrap-resolver-impl-maven</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+	</dependencies>
+
+	<build>
+		<testResources>
+		</testResources>
+		<plugins>
+			<plugin>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<configuration>
+					<skip>true</skip>
+				</configuration>
+				<executions>
+					<execution>
+						<id>unit-tests</id>
+						<phase>test</phase>
+						<goals>
+							<goal>test</goal>
+						</goals>
+						<configuration>
+							<skip>false</skip>
+							<excludes>
+								<exclude>**/*Test.java</exclude>
+								<exclude>**/*StressTest.java</exclude>
+								<exclude>**/*$*.java</exclude>
+							</excludes>
+							<systemPropertyVariables>
+								<jboss.remoting.protocol>${jboss.remoting.protocol}</jboss.remoting.protocol>
+                                <java.naming.factory.initial>${java.naming.factory.initial}</java.naming.factory.initial>
+								<java.protocol.handler.pkgs>org.jboss.net.protocol|org.jboss.vfs.protocol|org.jboss.virtual.protocol</java.protocol.handler.pkgs>
+								<jboss.home>${jboss.home}</jboss.home>
+								<test.resources.directory>${test.resources.directory}</test.resources.directory>
+							</systemPropertyVariables>
+						</configuration>
+					</execution>
+
+					<execution>
+						<id>integration-tests</id>
+						<phase>integration-test</phase>
+						<goals>
+							<goal>test</goal>
+						</goals>
+						<configuration>
+							<skip>false</skip>
+							<excludes>
+								<exclude>**/*StressTest.java</exclude>
+								<exclude>**/*$*.java</exclude>
+							</excludes>
+							<includes>
+								<include>**/*Integration*Test.java</include>
+							</includes>
+							<systemPropertyVariables>
+								<jboss.remoting.protocol>${jboss.remoting.protocol}</jboss.remoting.protocol>
+                                <java.naming.factory.initial>${java.naming.factory.initial}</java.naming.factory.initial>
+								<java.protocol.handler.pkgs>org.jboss.net.protocol|org.jboss.vfs.protocol|org.jboss.virtual.protocol</java.protocol.handler.pkgs>
+								<jboss.home>${jboss.home}</jboss.home>
+								<test.resources.directory>${test.resources.directory}</test.resources.directory>
+							</systemPropertyVariables>
+							<systemProperties>
+								<property>
+									<name>log4j.configuration</name>
+									<value>integration-test-log4j.xml</value>
+								</property>
+							</systemProperties>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<artifactId>maven-antrun-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>validate-jboss-home</id>
+						<phase>validate</phase>
+						<goals>
+							<goal>run</goal>
+						</goals>
+						<configuration>
+							<target>
+								<echo />
+								<echo message="profile=${jbossws.integration.target}" />
+								<echo message="jboss.home=${jboss.home}" />
+							</target>
+						</configuration>
+					</execution>
+					<execution>
+						<id>debug-system-properties</id>
+						<phase>integration-test</phase>
+						<goals>
+							<goal>run</goal>
+						</goals>
+						<configuration>
+							<target>
+								<echo message="server.home=${server.home}" />
+								<echo message="test.resources.directory=${test.resources.directory}" />
+							</target>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+
+		</plugins>
+	</build>
+	
+	<profiles>
+		<profile>
+			<id>ipv6</id>
+			<activation>
+				<property>
+					<name>ipv6</name>
+				</property>
+			</activation>
+			<properties>
+				<ipVerArgs>-Djava.net.preferIPv4Stack=false -Djava.net.preferIPv6Addresses=true</ipVerArgs>
+			</properties>
+		</profile>
+		<profile>
+			<id>ipv4</id>
+			<activation>
+				<property>
+					<name>!ipv6</name>
+				</property>
+			</activation>
+			<properties>
+				<ipVerArgs>-Djava.net.preferIPv4Stack=true -Djava.net.preferIPv6Addresses=false</ipVerArgs>
+			</properties>
+		</profile>
+
+		<profile>
+			<id>cxf</id>
+			<activation>
+				<property>
+					<name>!no-cxf.stack</name>
+				</property>
+			</activation>
+			<modules>
+				<module>cxf</module>
+			</modules>
+			<dependencies>
+				<dependency>
+					<groupId>org.jboss.ws.cxf</groupId>
+					<artifactId>jbossws-cxf-client</artifactId>
+					<scope>runtime</scope> <!-- runtime scope to avoid having the dependency while compiling -->
+				</dependency>
+				<dependency>
+					<groupId>org.jboss.wise</groupId>
+					<artifactId>wise-core-cxf</artifactId>
+					<version>${version.wise.core}</version>
+					<scope>runtime</scope> <!-- runtime scope to avoid having the dependency while compiling -->
+				</dependency>
+			</dependencies>
+		</profile>
+
+		<!--
+        Name:  download
+        Descr: Download WildFly
+     -->
+		<profile>
+			<id>download</id>
+			<activation>
+				<property>
+					<name>!server.home</name>
+				</property>
+			</activation>
+			<build>
+				<plugins>
+					<plugin>
+						<artifactId>maven-dependency-plugin</artifactId>
+						<executions>
+							<execution>
+								<id>unpack</id>
+								<phase>validate</phase>
+								<goals>
+									<goal>unpack</goal>
+								</goals>
+								<configuration>
+									<artifactItems>
+										<artifactItem>
+											<groupId>org.wildfly</groupId>
+											<artifactId>wildfly-dist</artifactId>
+											<version>${jboss.version}</version>
+											<type>zip</type>
+											<overWrite>false</overWrite>
+											<outputDirectory>${project.build.directory}</outputDirectory>
+										</artifactItem>
+									</artifactItems>
+								</configuration>
+							</execution>
+						</executions>
+					</plugin>
+				</plugins>
+			</build>
+			<properties>
+				<jboss.home>${project.build.directory}/wildfly-${jboss.version}</jboss.home>
+			</properties>
+		</profile>
+
+		<!--
+        Name:  wildfly2302
+        Descr: WildFly-23.0.2 specific options
+     -->
+		<profile>
+			<id>wildfly2302</id>
+			<properties>
+				<server.home>${project.basedir}/target/wildfly-${wildfly2302.version}</server.home>
+				<test.resources.directory>${project.basedir}/src/test/resources</test.resources.directory>
+				<jbossws.integration.target>wildfly2302</jbossws.integration.target>
+				<jboss.home>${server.home}</jboss.home>
+				<jboss.version>${wildfly2302.version}</jboss.version>
+				<additionalJvmArgs>-Djavax.wsdl.factory.WSDLFactory=com.ibm.wsdl.factory.WSDLFactoryImpl ${ipVerArgs}</additionalJvmArgs>
+				<jboss.remoting.protocol>remote+http</jboss.remoting.protocol>
+				<java.naming.factory.initial>org.wildfly.naming.client.WildFlyInitialContextFactory</java.naming.factory.initial>
+			</properties>
+			<dependencies>
+				<dependency>
+					<groupId>org.wildfly</groupId>
+					<artifactId>wildfly-webservices-tests-integration</artifactId>
+					<version>${jboss.version}</version>
+					<exclusions>
+						<exclusion>
+							<groupId>org.picketbox</groupId>
+							<artifactId>picketbox</artifactId>
+						</exclusion>
+						<exclusion>
+							<groupId>org.picketbox</groupId>
+							<artifactId>picketbox-infinispan</artifactId>
+						</exclusion>
+					</exclusions>
+				</dependency>
+				<!-- Arquillian container integration -->
+				<dependency>
+					<groupId>org.wildfly.arquillian</groupId>
+					<artifactId>wildfly-arquillian-container-managed</artifactId>
+				</dependency>
+				<dependency>
+					<groupId>org.jboss.arquillian.protocol</groupId>
+					<artifactId>arquillian-protocol-servlet</artifactId>
+					<version>${arquillian.version}</version>
+					<scope>test</scope>
+				</dependency>
+				<!-- LittleProxy depencency declared in this profile as other profiles require different exclusions -->
+				<dependency>
+					<groupId>org.littleshoot</groupId>
+					<artifactId>littleproxy</artifactId>
+					<version>${org.littleshoot.littleproxy.version}</version>
+					<scope>test</scope>
+					<exclusions>
+						<exclusion>
+							<groupId>org.slf4j</groupId>
+							<artifactId>slf4j-api</artifactId>
+						</exclusion>
+						<exclusion>
+							<groupId>org.slf4j</groupId>
+							<artifactId>slf4j-log4j12</artifactId>
+						</exclusion>
+						<exclusion>
+							<groupId>net.sf.ehcache</groupId>
+							<artifactId>ehcache-core</artifactId>
+						</exclusion>
+						<!-- Let the container messaging subsystem control the Netty dependency version  -->
+						<exclusion>
+							<groupId>io.netty</groupId>
+							<artifactId>netty-all</artifactId>
+						</exclusion>
+					</exclusions>
+				</dependency>
+			</dependencies>
+			<build>
+				<plugins>
+					<plugin>
+						<artifactId>maven-compiler-plugin</artifactId>
+						<configuration>
+							<compilerArguments>
+								<endorseddirs>${project.build.directory}/endorsed</endorseddirs>
+							</compilerArguments>
+						</configuration>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+
+		<!--
+        Name:  wildfly2201
+        Descr: WildFly-22.0.1 specific options
+     -->
+		<profile>
+			<id>wildfly2201</id>
+			<properties>
+				<server.home>${project.basedir}/target/wildfly-${wildfly2201.version}</server.home>
+				<test.resources.directory>${project.basedir}/src/test/resources</test.resources.directory>
+				<jbossws.integration.target>wildfly2201</jbossws.integration.target>
+				<jboss.home>${server.home}</jboss.home>
+				<jboss.version>${wildfly2201.version}</jboss.version>
+				<additionalJvmArgs>-Djavax.wsdl.factory.WSDLFactory=com.ibm.wsdl.factory.WSDLFactoryImpl ${ipVerArgs}</additionalJvmArgs>
+				<jboss.remoting.protocol>remote+http</jboss.remoting.protocol>
+				<java.naming.factory.initial>org.wildfly.naming.client.WildFlyInitialContextFactory</java.naming.factory.initial>
+			</properties>
+			<dependencies>
+				<dependency>
+					<groupId>org.wildfly</groupId>
+					<artifactId>wildfly-webservices-tests-integration</artifactId>
+					<version>${jboss.version}</version>
+					<exclusions>
+						<exclusion>
+							<groupId>org.picketbox</groupId>
+							<artifactId>picketbox</artifactId>
+						</exclusion>
+						<exclusion>
+							<groupId>org.picketbox</groupId>
+							<artifactId>picketbox-infinispan</artifactId>
+						</exclusion>
+					</exclusions>
+				</dependency>
+				<!-- Arquillian container integration -->
+				<dependency>
+					<groupId>org.wildfly.arquillian</groupId>
+					<artifactId>wildfly-arquillian-container-managed</artifactId>
+				</dependency>
+				<dependency>
+					<groupId>org.jboss.arquillian.protocol</groupId>
+					<artifactId>arquillian-protocol-servlet</artifactId>
+					<version>${arquillian.version}</version>
+					<scope>test</scope>
+				</dependency>
+				<!-- LittleProxy depencency declared in this profile as other profiles require different exclusions -->
+				<dependency>
+					<groupId>org.littleshoot</groupId>
+					<artifactId>littleproxy</artifactId>
+					<version>${org.littleshoot.littleproxy.version}</version>
+					<scope>test</scope>
+					<exclusions>
+						<exclusion>
+							<groupId>org.slf4j</groupId>
+							<artifactId>slf4j-api</artifactId>
+						</exclusion>
+						<exclusion>
+							<groupId>org.slf4j</groupId>
+							<artifactId>slf4j-log4j12</artifactId>
+						</exclusion>
+						<exclusion>
+							<groupId>net.sf.ehcache</groupId>
+							<artifactId>ehcache-core</artifactId>
+						</exclusion>
+						<!-- Let the container messaging subsystem control the Netty dependency version  -->
+						<exclusion>
+							<groupId>io.netty</groupId>
+							<artifactId>netty-all</artifactId>
+						</exclusion>
+					</exclusions>
+				</dependency>
+			</dependencies>
+			<build>
+				<plugins>
+					<plugin>
+						<artifactId>maven-compiler-plugin</artifactId>
+						<configuration>
+							<compilerArguments>
+								<endorseddirs>${project.build.directory}/endorsed</endorseddirs>
+							</compilerArguments>
+						</configuration>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+		
+		
+	<!--
+        Name:  wildfly2102
+        Descr: WildFly-21.0.2 specific options
+     -->
+		<profile>
+			<id>wildfly2102</id>
+			<properties>
+				<server.home>${project.basedir}/target/wildfly-${wildfly2102.version}</server.home>
+				<test.resources.directory>${project.basedir}/src/test/resources</test.resources.directory>
+				<jbossws.integration.target>wildfly2102</jbossws.integration.target>
+				<jboss.home>${server.home}</jboss.home>
+				<jboss.version>${wildfly2102.version}</jboss.version>
+				<additionalJvmArgs>-Djavax.wsdl.factory.WSDLFactory=com.ibm.wsdl.factory.WSDLFactoryImpl ${ipVerArgs}</additionalJvmArgs>
+				<jboss.remoting.protocol>remote+http</jboss.remoting.protocol>
+				<java.naming.factory.initial>org.wildfly.naming.client.WildFlyInitialContextFactory</java.naming.factory.initial>
+			</properties>
+			<dependencies>
+				<dependency>
+					<groupId>org.wildfly</groupId>
+					<artifactId>wildfly-webservices-tests-integration</artifactId>
+					<version>${jboss.version}</version>
+					<exclusions>
+						<exclusion>
+							<groupId>org.picketbox</groupId>
+							<artifactId>picketbox</artifactId>
+						</exclusion>
+						<exclusion>
+							<groupId>org.picketbox</groupId>
+							<artifactId>picketbox-infinispan</artifactId>
+						</exclusion>
+					</exclusions>
+				</dependency>
+				<!-- Arquillian container integration -->
+				<dependency>
+					<groupId>org.wildfly.arquillian</groupId>
+					<artifactId>wildfly-arquillian-container-managed</artifactId>
+				</dependency>
+				<dependency>
+					<groupId>org.jboss.arquillian.protocol</groupId>
+					<artifactId>arquillian-protocol-servlet</artifactId>
+					<version>${arquillian.version}</version>
+					<scope>test</scope>
+				</dependency>
+				<!-- LittleProxy depencency declared in this profile as other profiles require different exclusions -->
+				<dependency>
+					<groupId>org.littleshoot</groupId>
+					<artifactId>littleproxy</artifactId>
+					<version>${org.littleshoot.littleproxy.version}</version>
+					<scope>test</scope>
+					<exclusions>
+						<exclusion>
+							<groupId>org.slf4j</groupId>
+							<artifactId>slf4j-api</artifactId>
+						</exclusion>
+						<exclusion>
+							<groupId>org.slf4j</groupId>
+							<artifactId>slf4j-log4j12</artifactId>
+						</exclusion>
+						<exclusion>
+							<groupId>net.sf.ehcache</groupId>
+							<artifactId>ehcache-core</artifactId>
+						</exclusion>
+						<!-- Let the container messaging subsystem control the Netty dependency version  -->
+						<exclusion>
+							<groupId>io.netty</groupId>
+							<artifactId>netty-all</artifactId>
+						</exclusion>
+					</exclusions>
+				</dependency>
+			</dependencies>
+			<build>
+				<plugins>
+					<plugin>
+						<artifactId>maven-compiler-plugin</artifactId>
+						<configuration>
+							<compilerArguments>
+								<endorseddirs>${project.build.directory}/endorsed</endorseddirs>
+							</compilerArguments>
+						</configuration>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+
+		<profile>
+			<id>use.endorsed.dir</id>
+			<activation>
+				<property>
+					<name>endorsed.dir</name>
+				</property>
+			</activation>
+			<build>
+				<plugins>
+					<plugin>
+						<artifactId>maven-surefire-plugin</artifactId>
+						<configuration>
+							<argLine>-Djava.endorsed.dirs=${endorsed.dir}</argLine>
+						</configuration>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+		<profile>
+			<id>stress.tests</id>
+			<build>
+				<plugins>
+					<plugin>
+						<artifactId>maven-surefire-plugin</artifactId>
+						<executions>
+							<execution>
+								<id>integration-tests</id>
+								<phase>integration-test</phase>
+								<goals>
+									<goal>test</goal>
+								</goals>
+								<configuration>
+									<systemProperties>
+										<property>
+											<name>wise.stress.threads</name>
+											<value>300</value>
+										</property>
+										<property>
+											<name>wise.stress.threadPoolSize</name>
+											<value>50</value>
+										</property>
+										<property>
+											<name>wise.stress.expensive.threads</name>
+											<value>30</value>
+										</property>
+										<property>
+											<name>wise.stress.expensive.threadPoolSize</name>
+											<value>5</value>
+										</property>
+									</systemProperties>
+									<excludes>
+										<exclude>**/*Integration*Test.java</exclude>
+										<exclude>**/*$*.java</exclude>
+									</excludes>
+									<includes>
+										<include>**/*StressTest.java</include>
+									</includes>
+								</configuration>
+							</execution>
+						</executions>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+	</profiles>
+</project>

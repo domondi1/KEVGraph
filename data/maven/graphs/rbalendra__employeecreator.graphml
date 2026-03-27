@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="nology:employeecreator@0.0.1-SNAPSHOT">
+      <data key="d2">nology:employeecreator</data>
+      <data key="d3">0.0.1-SNAPSHOT</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.modelmapper:modelmapper@3.2.2">
+      <data key="d2">org.modelmapper:modelmapper</data>
+      <data key="d3">3.2.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.github.javafaker:javafaker@1.0.2">
+      <data key="d2">com.github.javafaker:javafaker</data>
+      <data key="d3">1.0.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.mockito:mockito-core@5.17.0">
+      <data key="d2">org.mockito:mockito-core</data>
+      <data key="d3">5.17.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="com.h2database:h2@2.3.232">
+      <data key="d2">com.h2database:h2</data>
+      <data key="d3">2.3.232</data>
+      <data key="d4">true</data>
+      <data key="d5">GHSA-45hx-wfhj-473x,GHSA-h376-j262-vhq6,GHSA-22wj-vf5f-wrvj,GHSA-7rpj-hg47-cx62</data>
+    </node>
+    <node id="io.rest-assured:rest-assured@5.5.5">
+      <data key="d2">io.rest-assured:rest-assured</data>
+      <data key="d3">5.5.5</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="io.rest-assured:json-path@5.5.5">
+      <data key="d2">io.rest-assured:json-path</data>
+      <data key="d3">5.5.5</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="io.rest-assured:json-schema-validator@5.5.5">
+      <data key="d2">io.rest-assured:json-schema-validator</data>
+      <data key="d3">5.5.5</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="com.cloudinary:cloudinary-http44@1.39.0">
+      <data key="d2">com.cloudinary:cloudinary-http44</data>
+      <data key="d3">1.39.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.junit.jupiter:junit-jupiter-api@5.12.2">
+      <data key="d2">org.junit.jupiter:junit-jupiter-api</data>
+      <data key="d3">5.12.2</data>
+      <data key="d4">true</data>
+    </node>
+    <edge source="nology:employeecreator@0.0.1-SNAPSHOT" target="org.modelmapper:modelmapper@3.2.2" />
+    <edge source="nology:employeecreator@0.0.1-SNAPSHOT" target="com.github.javafaker:javafaker@1.0.2" />
+    <edge source="nology:employeecreator@0.0.1-SNAPSHOT" target="org.mockito:mockito-core@5.17.0" />
+    <edge source="nology:employeecreator@0.0.1-SNAPSHOT" target="com.h2database:h2@2.3.232" />
+    <edge source="nology:employeecreator@0.0.1-SNAPSHOT" target="io.rest-assured:rest-assured@5.5.5" />
+    <edge source="nology:employeecreator@0.0.1-SNAPSHOT" target="io.rest-assured:json-path@5.5.5" />
+    <edge source="nology:employeecreator@0.0.1-SNAPSHOT" target="io.rest-assured:json-schema-validator@5.5.5" />
+    <edge source="nology:employeecreator@0.0.1-SNAPSHOT" target="com.cloudinary:cloudinary-http44@1.39.0" />
+    <edge source="nology:employeecreator@0.0.1-SNAPSHOT" target="org.junit.jupiter:junit-jupiter-api@5.12.2" />
+    <data key="d0">rbalendra__employeecreator</data>
+    <data key="d1">Maven</data>
+  </graph>
+</graphml>

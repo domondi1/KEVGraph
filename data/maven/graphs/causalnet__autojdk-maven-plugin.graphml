@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="au.net.causal.maven.plugins:autojdk-maven-plugin@1.0-SNAPSHOT">
+      <data key="d2">au.net.causal.maven.plugins:autojdk-maven-plugin</data>
+      <data key="d3">1.0-SNAPSHOT</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.apache.maven.plugin-tools:maven-plugin-annotations@3.6.4">
+      <data key="d2">org.apache.maven.plugin-tools:maven-plugin-annotations</data>
+      <data key="d3">3.6.4</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="org.codehaus.plexus:plexus-archiver@4.3.0">
+      <data key="d2">org.codehaus.plexus:plexus-archiver</data>
+      <data key="d3">4.3.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-wh3p-fphp-9h2m</data>
+    </node>
+    <node id="org.apache.commons:commons-lang3@3.12.0">
+      <data key="d2">org.apache.commons:commons-lang3</data>
+      <data key="d3">3.12.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="eu.hansolo:jdktools@11.0.19">
+      <data key="d2">eu.hansolo:jdktools</data>
+      <data key="d3">11.0.19</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="jakarta.xml.bind:jakarta.xml.bind-api@4.0.0">
+      <data key="d2">jakarta.xml.bind:jakarta.xml.bind-api</data>
+      <data key="d3">4.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.sun.xml.bind:jaxb-impl@4.0.0">
+      <data key="d2">com.sun.xml.bind:jaxb-impl</data>
+      <data key="d3">4.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.openapitools:jackson-databind-nullable@0.2.3">
+      <data key="d2">org.openapitools:jackson-databind-nullable</data>
+      <data key="d3">0.2.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.wiremock:wiremock@3.5.4">
+      <data key="d2">org.wiremock:wiremock</data>
+      <data key="d3">3.5.4</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="ch.qos.logback:logback-classic@1.2.11">
+      <data key="d2">ch.qos.logback:logback-classic</data>
+      <data key="d3">1.2.11</data>
+      <data key="d4">true</data>
+      <data key="d5">GHSA-vmq6-5m68-f53m</data>
+    </node>
+    <edge source="au.net.causal.maven.plugins:autojdk-maven-plugin@1.0-SNAPSHOT" target="org.apache.maven.plugin-tools:maven-plugin-annotations@3.6.4" />
+    <edge source="au.net.causal.maven.plugins:autojdk-maven-plugin@1.0-SNAPSHOT" target="org.codehaus.plexus:plexus-archiver@4.3.0" />
+    <edge source="au.net.causal.maven.plugins:autojdk-maven-plugin@1.0-SNAPSHOT" target="org.apache.commons:commons-lang3@3.12.0" />
+    <edge source="au.net.causal.maven.plugins:autojdk-maven-plugin@1.0-SNAPSHOT" target="eu.hansolo:jdktools@11.0.19" />
+    <edge source="au.net.causal.maven.plugins:autojdk-maven-plugin@1.0-SNAPSHOT" target="jakarta.xml.bind:jakarta.xml.bind-api@4.0.0" />
+    <edge source="au.net.causal.maven.plugins:autojdk-maven-plugin@1.0-SNAPSHOT" target="com.sun.xml.bind:jaxb-impl@4.0.0" />
+    <edge source="au.net.causal.maven.plugins:autojdk-maven-plugin@1.0-SNAPSHOT" target="org.openapitools:jackson-databind-nullable@0.2.3" />
+    <edge source="au.net.causal.maven.plugins:autojdk-maven-plugin@1.0-SNAPSHOT" target="org.wiremock:wiremock@3.5.4" />
+    <edge source="au.net.causal.maven.plugins:autojdk-maven-plugin@1.0-SNAPSHOT" target="ch.qos.logback:logback-classic@1.2.11" />
+    <data key="d0">causalnet__autojdk-maven-plugin</data>
+    <data key="d1">Maven</data>
+  </graph>
+</graphml>

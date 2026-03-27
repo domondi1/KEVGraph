@@ -1,0 +1,106 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.brettonw</groupId>
+        <artifactId>pom</artifactId>
+        <version>1.0.4</version>
+    </parent>
+
+    <artifactId>webgl</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>war</packaging>
+
+    <name>WebGl</name>
+    <description>A foundation for rapidly building microservices with client interactions.</description>
+    <url>https://bedrock.brettonw.com/</url>
+
+    <scm>
+        <connection>scm:git:git@github.com:brettonw/webgl.js.git</connection>
+        <developerConnection>scm:git:git@github.com:brettonw/webgl.js.git</developerConnection>
+        <url>https://github.com:brettonw/webgl.js.git</url>
+    </scm>
+
+    <properties>
+        <log4j.version>RELEASE</log4j.version>
+        <javascript.srcDistLatestDirectory>src/main/webapp/dist/latest</javascript.srcDistLatestDirectory>
+        <javascript.testSrcDirectory>src/test/javascript</javascript.testSrcDirectory>
+    </properties>
+
+    <build>
+        <finalName>webgl</finalName>
+        <plugins>
+            <plugin>
+                <artifactId>maven-antrun-plugin</artifactId>
+                <version>1.8</version>
+                <executions>
+                    <execution>
+                        <id>clean</id>
+                        <phase>clean</phase>
+                        <configuration>
+                            <target>
+                                <exec executable="bin/clean.sh" failonerror="true">
+                                    <arg value="${project.version}" />
+                                </exec>
+                            </target>
+                        </configuration>
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>compile</id>
+                        <phase>generate-sources</phase>
+                        <configuration>
+                            <target>
+                                <exec executable="bin/generate-sources.sh" failonerror="true">
+                                    <arg value="${project.version}" />
+                                </exec>
+                            </target>
+                        </configuration>
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>test</id>
+                        <phase>test</phase>
+                        <configuration>
+                            <target>
+                                <exec executable="bin/test.sh" failonerror="true">
+                                    <arg value="${project.version}"/>
+                                </exec>
+                                <exec executable="jjs" failonerror="true">
+                                    <arg value="-scripting"/>
+                                    <arg value="--language=es6"/>
+                                    <arg value="${javascript.testSrcDirectory}/test-harness.js"/>
+                                    <arg value="${javascript.srcDistLatestDirectory}/webgl-debug.js"/>
+                                    <arg value="${javascript.testSrcDirectory}/test.js"/>
+                                </exec>
+                            </target>
+                        </configuration>
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>deploy</id>
+                        <phase>deploy</phase>
+                        <configuration>
+                            <target>
+                                <exec executable="eb" failonerror="true">
+                                    <arg value="deploy" />
+                                </exec>
+                            </target>
+                        </configuration>
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>

@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="com.bit:springboard@1.0-SNAPSHOT">
+      <data key="d2">com.bit:springboard</data>
+      <data key="d3">1.0-SNAPSHOT</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="jakarta.inject:jakarta.inject-api@2.0.1">
+      <data key="d2">jakarta.inject:jakarta.inject-api</data>
+      <data key="d3">2.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="jakarta.servlet:jakarta.servlet-api@6.0.0">
+      <data key="d2">jakarta.servlet:jakarta.servlet-api</data>
+      <data key="d3">6.0.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="jakarta.servlet.jsp:jakarta.servlet.jsp-api@3.1.0">
+      <data key="d2">jakarta.servlet.jsp:jakarta.servlet.jsp-api</data>
+      <data key="d3">3.1.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api@3.0.0">
+      <data key="d2">jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api</data>
+      <data key="d3">3.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.glassfish.web:jakarta.servlet.jsp.jstl@3.0.1">
+      <data key="d2">org.glassfish.web:jakarta.servlet.jsp.jstl</data>
+      <data key="d3">3.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="jakarta.el:jakarta.el-api@5.0.0">
+      <data key="d2">jakarta.el:jakarta.el-api</data>
+      <data key="d3">5.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="jakarta.annotation:jakarta.annotation-api@3.0.0">
+      <data key="d2">jakarta.annotation:jakarta.annotation-api</data>
+      <data key="d3">3.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.apache.commons:commons-dbcp2@2.12.0">
+      <data key="d2">org.apache.commons:commons-dbcp2</data>
+      <data key="d3">2.12.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.mysql:mysql-connector-j@8.3.0">
+      <data key="d2">com.mysql:mysql-connector-j</data>
+      <data key="d3">8.3.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-m6vm-37g8-gqvh</data>
+    </node>
+    <node id="org.mybatis:mybatis@3.5.16">
+      <data key="d2">org.mybatis:mybatis</data>
+      <data key="d3">3.5.16</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-qq48-m4jx-xqh8</data>
+    </node>
+    <node id="org.mybatis:mybatis-spring@3.0.3">
+      <data key="d2">org.mybatis:mybatis-spring</data>
+      <data key="d3">3.0.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.fasterxml.jackson.core:jackson-databind@2.17.2">
+      <data key="d2">com.fasterxml.jackson.core:jackson-databind</data>
+      <data key="d3">2.17.2</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-288c-cq4h-88gq,GHSA-3x8x-79m2-3w2w,GHSA-57j2-w4cx-62h2,GHSA-jjjh-jjxp-wpff,GHSA-rgv9-q543-rqg4,GHSA-4gq5-ch57-c2mg,GHSA-4w82-r329-3q67,GHSA-5949-rw7g-wx7w,GHSA-5r5r-6hpj-8gg9,GHSA-5ww9-j83m-q7qx,GHSA-645p-88qh-w398,GHSA-6fpp-rgj9-8rwc,GHSA-6wqp-v4v6-c87c,GHSA-85cw-hj65-qqv9,GHSA-89qr-369f-5m5x,GHSA-8c4j-34r4-xr8g,GHSA-8w26-6f25-cm9x,GHSA-9gph-22xh-8x98,GHSA-9m6f-7xcq-8vf8,GHSA-9mxf-g3x6-wv74,GHSA-c8hm-7hpq-7jhg,GHSA-cf6r-3wgc-h863,GHSA-cggj-fvv3-cqwv,GHSA-cjjf-94ff-43w7,GHSA-cmfg-87vq-g5g4,GHSA-cvm9-fjm9-3572,GHSA-f3j5-rmmp-3fc5,GHSA-f9hv-mg5h-xcw9,GHSA-f9xh-2qgp-cq57,GHSA-fmmc-742q-jg75,GHSA-fqwf-pjwf-7vqv,GHSA-gjmw-vf9h-g25v,GHSA-gwp4-hfv6-p7hw,GHSA-gww7-p5w4-wrfv,GHSA-h3cw-g4mq-c5x2,GHSA-h592-38cm-4ggp,GHSA-h822-r4r5-v8jg,GHSA-m6x4-97wx-4q27,GHSA-mph4-vhrx-mv67,GHSA-mx7p-6679-8g3q,GHSA-mx9v-gmh4-mgqw,GHSA-p43x-xfjf-5jhr,GHSA-q93h-jc49-78gg,GHSA-qjw2-hr98-qgfh,GHSA-qr7j-h6gg-jmgc,GHSA-r3gr-cxrf-hg25,GHSA-r695-7vr9-jgc2,GHSA-rfx6-vp9g-rh7v,GHSA-rpr3-cw39-3pxh,GHSA-v585-23hc-c647,GHSA-vfqx-33qm-g869,GHSA-w3f4-3q6j-rh82,GHSA-wh8g-3j2c-rqj5,GHSA-x2w5-5m2g-7h5m,GHSA-27xj-rqx5-2255,GHSA-58pp-9c76-5625,GHSA-5p34-5m6p-p58g,GHSA-758m-v56v-grj4,GHSA-95cm-88f5-f2c7,GHSA-9vvp-fxw6-jcxr,GHSA-c265-37vj-cwcc,GHSA-c2q3-4qrh-fm48,GHSA-h4rc-386g-6m85,GHSA-j823-4qch-3rgm,GHSA-mc6h-4qgp-37qh,GHSA-qmqc-x3r4-6v39,GHSA-rf6r-2c4q-2vwg,GHSA-v3xw-c963-f5hc</data>
+    </node>
+    <node id="net.sargue:java-time-jsptags@2.0.0">
+      <data key="d2">net.sargue:java-time-jsptags</data>
+      <data key="d3">2.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <edge source="com.bit:springboard@1.0-SNAPSHOT" target="jakarta.inject:jakarta.inject-api@2.0.1" />
+    <edge source="com.bit:springboard@1.0-SNAPSHOT" target="jakarta.servlet:jakarta.servlet-api@6.0.0" />
+    <edge source="com.bit:springboard@1.0-SNAPSHOT" target="jakarta.servlet.jsp:jakarta.servlet.jsp-api@3.1.0" />
+    <edge source="com.bit:springboard@1.0-SNAPSHOT" target="jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api@3.0.0" />
+    <edge source="com.bit:springboard@1.0-SNAPSHOT" target="org.glassfish.web:jakarta.servlet.jsp.jstl@3.0.1" />
+    <edge source="com.bit:springboard@1.0-SNAPSHOT" target="jakarta.el:jakarta.el-api@5.0.0" />
+    <edge source="com.bit:springboard@1.0-SNAPSHOT" target="jakarta.annotation:jakarta.annotation-api@3.0.0" />
+    <edge source="com.bit:springboard@1.0-SNAPSHOT" target="org.apache.commons:commons-dbcp2@2.12.0" />
+    <edge source="com.bit:springboard@1.0-SNAPSHOT" target="com.mysql:mysql-connector-j@8.3.0" />
+    <edge source="com.bit:springboard@1.0-SNAPSHOT" target="org.mybatis:mybatis@3.5.16" />
+    <edge source="com.bit:springboard@1.0-SNAPSHOT" target="org.mybatis:mybatis-spring@3.0.3" />
+    <edge source="com.bit:springboard@1.0-SNAPSHOT" target="com.fasterxml.jackson.core:jackson-databind@2.17.2" />
+    <edge source="com.bit:springboard@1.0-SNAPSHOT" target="net.sargue:java-time-jsptags@2.0.0" />
+    <data key="d0">watashijxxnsuka__SpringFramework_EX</data>
+    <data key="d1">Maven</data>
+  </graph>
+</graphml>

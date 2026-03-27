@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="de.fernunihagen.dbis.anguillasearch:anguillasearch@0.0.0">
+      <data key="d2">de.fernunihagen.dbis.anguillasearch:anguillasearch</data>
+      <data key="d3">0.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.apache.logging.log4j:log4j-slf4j2-impl@3.0.0-beta2">
+      <data key="d2">org.apache.logging.log4j:log4j-slf4j2-impl</data>
+      <data key="d3">3.0.0-beta2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.apache.logging.log4j:log4j-api@3.0.0-beta2">
+      <data key="d2">org.apache.logging.log4j:log4j-api</data>
+      <data key="d3">3.0.0-beta2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.apache.logging.log4j:log4j-core@3.0.0-beta2">
+      <data key="d2">org.apache.logging.log4j:log4j-core</data>
+      <data key="d3">3.0.0-beta2</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-7rjr-3q55-vv33,GHSA-8489-44mv-ggj8,GHSA-jfh8-c2jp-5v3q,GHSA-p6xc-xr62-6r2g,GHSA-vc5p-v9hr-52mj</data>
+    </node>
+    <node id="org.javatuples:javatuples@1.2">
+      <data key="d2">org.javatuples:javatuples</data>
+      <data key="d3">1.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.jsoup:jsoup@1.18.1">
+      <data key="d2">org.jsoup:jsoup</data>
+      <data key="d3">1.18.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-gp7f-rwcx-9369,GHSA-m72m-mhq2-9p6c</data>
+    </node>
+    <node id="org.junit.jupiter:junit-jupiter-api@5.11.0">
+      <data key="d2">org.junit.jupiter:junit-jupiter-api</data>
+      <data key="d3">5.11.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="org.junit.jupiter:junit-jupiter-engine@5.11.0">
+      <data key="d2">org.junit.jupiter:junit-jupiter-engine</data>
+      <data key="d3">5.11.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="edu.stanford.nlp:stanford-corenlp@4.4.0">
+      <data key="d2">edu.stanford.nlp:stanford-corenlp</data>
+      <data key="d3">4.4.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.tinyjee.jgraphx:jgraphx@3.4.1.3">
+      <data key="d2">org.tinyjee.jgraphx:jgraphx</data>
+      <data key="d3">3.4.1.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.google.code.gson:gson@2.11.0">
+      <data key="d2">com.google.code.gson:gson</data>
+      <data key="d3">2.11.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-4jrv-ppp4-jm57</data>
+    </node>
+    <edge source="de.fernunihagen.dbis.anguillasearch:anguillasearch@0.0.0" target="org.apache.logging.log4j:log4j-slf4j2-impl@3.0.0-beta2" />
+    <edge source="de.fernunihagen.dbis.anguillasearch:anguillasearch@0.0.0" target="org.apache.logging.log4j:log4j-api@3.0.0-beta2" />
+    <edge source="de.fernunihagen.dbis.anguillasearch:anguillasearch@0.0.0" target="org.apache.logging.log4j:log4j-core@3.0.0-beta2" />
+    <edge source="de.fernunihagen.dbis.anguillasearch:anguillasearch@0.0.0" target="org.javatuples:javatuples@1.2" />
+    <edge source="de.fernunihagen.dbis.anguillasearch:anguillasearch@0.0.0" target="org.jsoup:jsoup@1.18.1" />
+    <edge source="de.fernunihagen.dbis.anguillasearch:anguillasearch@0.0.0" target="org.junit.jupiter:junit-jupiter-api@5.11.0" />
+    <edge source="de.fernunihagen.dbis.anguillasearch:anguillasearch@0.0.0" target="org.junit.jupiter:junit-jupiter-engine@5.11.0" />
+    <edge source="de.fernunihagen.dbis.anguillasearch:anguillasearch@0.0.0" target="edu.stanford.nlp:stanford-corenlp@4.4.0" />
+    <edge source="de.fernunihagen.dbis.anguillasearch:anguillasearch@0.0.0" target="org.tinyjee.jgraphx:jgraphx@3.4.1.3" />
+    <edge source="de.fernunihagen.dbis.anguillasearch:anguillasearch@0.0.0" target="com.google.code.gson:gson@2.11.0" />
+    <data key="d0">fabolhak__anguilla-search</data>
+    <data key="d1">Maven</data>
+  </graph>
+</graphml>

@@ -1,0 +1,150 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>edu.usfca.cs272</groupId>
+	<artifactId>SearchEngineTests</artifactId>
+	<version>2021-08</version>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.release>16</maven.compiler.release>
+
+		<!-- dependency versions -->
+		<jupiterVersion>5.7.2</jupiterVersion>
+		<platformVersion>1.7.2</platformVersion>
+
+		<opennlpVersion>1.9.3</opennlpVersion>
+		<logj4Version>2.15.0</logj4Version>
+		<commonsLang3Version>3.12.0</commonsLang3Version>
+		<commonsTextVersion>1.9</commonsTextVersion>
+
+		<jakartaVersion>5.0.0</jakartaVersion>
+		<jettyVersion>11.0.6</jettyVersion>
+
+		<!-- plugin versions -->
+		<compilerPluginVersion>3.8.1</compilerPluginVersion>
+		<surefirePluginVersion>3.0.0-M5</surefirePluginVersion>
+		<surefireReportVersion>3.0.0-M5</surefireReportVersion>
+
+		<!-- compiler arguments -->
+		<compileOptionXlint>-Xlint:all</compileOptionXlint>
+		<compileOptionXdoclint>-Xdoclint:all/private</compileOptionXdoclint>
+		<compileOptionFail>false</compileOptionFail>
+	</properties>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>${compilerPluginVersion}</version>
+
+				<configuration>
+					<compilerArgs>
+						<arg>${compileOptionXlint}</arg>
+						<arg>${compileOptionXdoclint}</arg>
+					</compilerArgs>
+
+					<failOnWarning>${compileOptionFail}</failOnWarning>
+					<showWarnings>true</showWarnings>
+					<fork>true</fork>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>${surefirePluginVersion}</version>
+
+				<configuration>
+					<runOrder>alphabetical</runOrder>
+					<excludes>
+						<exclude />
+					</excludes>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-report-plugin</artifactId>
+				<version>${surefireReportVersion}</version>
+			</plugin>
+		</plugins>
+	</build>
+
+	<dependencies>
+		<!-- for unit testing -->
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter</artifactId>
+			<version>${jupiterVersion}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.junit.platform</groupId>
+			<artifactId>junit-platform-launcher</artifactId>
+			<version>${platformVersion}</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- for stemming words -->
+		<dependency>
+			<groupId>org.apache.opennlp</groupId>
+			<artifactId>opennlp-tools</artifactId>
+			<version>${opennlpVersion}</version>
+		</dependency>
+
+		<!-- for logging -->
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-api</artifactId>
+			<version>${logj4Version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-core</artifactId>
+			<version>${logj4Version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-slf4j-impl</artifactId>
+			<version>${logj4Version}</version>
+		</dependency>
+
+		<!-- for apache commons -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>${commonsLang3Version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-text</artifactId>
+			<version>${commonsTextVersion}</version>
+		</dependency>
+
+		<!-- for jetty -->
+		<dependency>
+			<groupId>jakarta.servlet</groupId>
+			<artifactId>jakarta.servlet-api</artifactId>
+			<version>${jakartaVersion}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.eclipse.jetty</groupId>
+			<artifactId>jetty-server</artifactId>
+			<version>${jettyVersion}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.eclipse.jetty</groupId>
+			<artifactId>jetty-servlet</artifactId>
+			<version>${jettyVersion}</version>
+		</dependency>
+	</dependencies>
+</project>

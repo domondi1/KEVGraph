@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="com.itwill:post@0.0.1-SNAPSHOT">
+      <data key="d2">com.itwill:post</data>
+      <data key="d3">0.0.1-SNAPSHOT</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api@3.0.0">
+      <data key="d2">jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api</data>
+      <data key="d3">3.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.glassfish.web:jakarta.servlet.jsp.jstl@3.0.1">
+      <data key="d2">org.glassfish.web:jakarta.servlet.jsp.jstl</data>
+      <data key="d3">3.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.junit.jupiter:junit-jupiter-engine@5.9.3">
+      <data key="d2">org.junit.jupiter:junit-jupiter-engine</data>
+      <data key="d3">5.9.3</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="org.junit.jupiter:junit-jupiter-api@5.9.3">
+      <data key="d2">org.junit.jupiter:junit-jupiter-api</data>
+      <data key="d3">5.9.3</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="com.oracle.database.jdbc:ojdbc11@23.2.0.0">
+      <data key="d2">com.oracle.database.jdbc:ojdbc11</data>
+      <data key="d3">23.2.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.zaxxer:HikariCP@5.0.1">
+      <data key="d2">com.zaxxer:HikariCP</data>
+      <data key="d3">5.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.apache.logging.log4j:log4j-core@2.20.0">
+      <data key="d2">org.apache.logging.log4j:log4j-core</data>
+      <data key="d3">2.20.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-7rjr-3q55-vv33,GHSA-8489-44mv-ggj8,GHSA-jfh8-c2jp-5v3q,GHSA-p6xc-xr62-6r2g,GHSA-vc5p-v9hr-52mj</data>
+    </node>
+    <node id="org.apache.logging.log4j:log4j-api@2.20.0">
+      <data key="d2">org.apache.logging.log4j:log4j-api</data>
+      <data key="d3">2.20.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.apache.logging.log4j:log4j-slf4j-impl@2.20.0">
+      <data key="d2">org.apache.logging.log4j:log4j-slf4j-impl</data>
+      <data key="d3">2.20.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.slf4j:slf4j-api@1.7.36">
+      <data key="d2">org.slf4j:slf4j-api</data>
+      <data key="d3">1.7.36</data>
+      <data key="d4">false</data>
+    </node>
+    <edge source="com.itwill:post@0.0.1-SNAPSHOT" target="jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api@3.0.0" />
+    <edge source="com.itwill:post@0.0.1-SNAPSHOT" target="org.glassfish.web:jakarta.servlet.jsp.jstl@3.0.1" />
+    <edge source="com.itwill:post@0.0.1-SNAPSHOT" target="org.junit.jupiter:junit-jupiter-engine@5.9.3" />
+    <edge source="com.itwill:post@0.0.1-SNAPSHOT" target="org.junit.jupiter:junit-jupiter-api@5.9.3" />
+    <edge source="com.itwill:post@0.0.1-SNAPSHOT" target="com.oracle.database.jdbc:ojdbc11@23.2.0.0" />
+    <edge source="com.itwill:post@0.0.1-SNAPSHOT" target="com.zaxxer:HikariCP@5.0.1" />
+    <edge source="com.itwill:post@0.0.1-SNAPSHOT" target="org.apache.logging.log4j:log4j-core@2.20.0" />
+    <edge source="com.itwill:post@0.0.1-SNAPSHOT" target="org.apache.logging.log4j:log4j-api@2.20.0" />
+    <edge source="com.itwill:post@0.0.1-SNAPSHOT" target="org.apache.logging.log4j:log4j-slf4j-impl@2.20.0" />
+    <edge source="com.itwill:post@0.0.1-SNAPSHOT" target="org.slf4j:slf4j-api@1.7.36" />
+    <data key="d0">kkwh__java_lec_web</data>
+    <data key="d1">Maven</data>
+  </graph>
+</graphml>

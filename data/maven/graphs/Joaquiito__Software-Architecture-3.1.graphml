@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="com.mycompany.tp3arquitecturasw:Ejercicio1-Practico3@1.0-SNAPSHOT">
+      <data key="d2">com.mycompany.tp3arquitecturasw:Ejercicio1-Practico3</data>
+      <data key="d3">1.0-SNAPSHOT</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.sparkjava:spark-core@2.7.1">
+      <data key="d2">com.sparkjava:spark-core</data>
+      <data key="d3">2.7.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-76qr-mmh8-cp8f</data>
+    </node>
+    <node id="org.apache.velocity:velocity@1.7">
+      <data key="d2">org.apache.velocity:velocity</data>
+      <data key="d3">1.7</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-59j4-wjwp-mw9m</data>
+    </node>
+    <node id="org.sql2o:sql2o@1.5.4">
+      <data key="d2">org.sql2o:sql2o</data>
+      <data key="d3">1.5.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="mysql:mysql-connector-java@5.1.37">
+      <data key="d2">mysql:mysql-connector-java</data>
+      <data key="d3">5.1.37</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-2xxh-f8r3-hvvr,GHSA-4vrv-ch96-6h42,GHSA-cjcf-wm2p-59h5,GHSA-g76j-4cxx-23h9,GHSA-jcq3-cprp-m333,GHSA-pwh7-92h3-mqr6,GHSA-w6f2-8wx4-47r5</data>
+    </node>
+    <node id="com.mysql:mysql-connector-j@8.3.0">
+      <data key="d2">com.mysql:mysql-connector-j</data>
+      <data key="d3">8.3.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-m6vm-37g8-gqvh</data>
+    </node>
+    <node id="org.projectlombok:lombok@1.18.32">
+      <data key="d2">org.projectlombok:lombok</data>
+      <data key="d3">1.18.32</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="javax.json:javax.json-api@1.0">
+      <data key="d2">javax.json:javax.json-api</data>
+      <data key="d3">1.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.codehaus.jackson:jackson-mapper-asl@1.9.10">
+      <data key="d2">org.codehaus.jackson:jackson-mapper-asl</data>
+      <data key="d3">1.9.10</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-c27h-mcmw-48hv,GHSA-r6j9-8759-g62w</data>
+    </node>
+    <node id="org.slf4j:slf4j-api@1.8.0-beta0">
+      <data key="d2">org.slf4j:slf4j-api</data>
+      <data key="d3">1.8.0-beta0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.slf4j:slf4j-log4j12@1.8.0-beta0">
+      <data key="d2">org.slf4j:slf4j-log4j12</data>
+      <data key="d3">1.8.0-beta0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.sparkjava:spark-debug-tools@0.5">
+      <data key="d2">com.sparkjava:spark-debug-tools</data>
+      <data key="d3">0.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.mindrot:jbcrypt@0.3m">
+      <data key="d2">org.mindrot:jbcrypt</data>
+      <data key="d3">0.3m</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-9h6p-92jq-888x</data>
+    </node>
+    <edge source="com.mycompany.tp3arquitecturasw:Ejercicio1-Practico3@1.0-SNAPSHOT" target="com.sparkjava:spark-core@2.7.1" />
+    <edge source="com.mycompany.tp3arquitecturasw:Ejercicio1-Practico3@1.0-SNAPSHOT" target="org.apache.velocity:velocity@1.7" />
+    <edge source="com.mycompany.tp3arquitecturasw:Ejercicio1-Practico3@1.0-SNAPSHOT" target="org.sql2o:sql2o@1.5.4" />
+    <edge source="com.mycompany.tp3arquitecturasw:Ejercicio1-Practico3@1.0-SNAPSHOT" target="mysql:mysql-connector-java@5.1.37" />
+    <edge source="com.mycompany.tp3arquitecturasw:Ejercicio1-Practico3@1.0-SNAPSHOT" target="com.mysql:mysql-connector-j@8.3.0" />
+    <edge source="com.mycompany.tp3arquitecturasw:Ejercicio1-Practico3@1.0-SNAPSHOT" target="org.projectlombok:lombok@1.18.32" />
+    <edge source="com.mycompany.tp3arquitecturasw:Ejercicio1-Practico3@1.0-SNAPSHOT" target="javax.json:javax.json-api@1.0" />
+    <edge source="com.mycompany.tp3arquitecturasw:Ejercicio1-Practico3@1.0-SNAPSHOT" target="org.codehaus.jackson:jackson-mapper-asl@1.9.10" />
+    <edge source="com.mycompany.tp3arquitecturasw:Ejercicio1-Practico3@1.0-SNAPSHOT" target="org.slf4j:slf4j-api@1.8.0-beta0" />
+    <edge source="com.mycompany.tp3arquitecturasw:Ejercicio1-Practico3@1.0-SNAPSHOT" target="org.slf4j:slf4j-log4j12@1.8.0-beta0" />
+    <edge source="com.mycompany.tp3arquitecturasw:Ejercicio1-Practico3@1.0-SNAPSHOT" target="com.sparkjava:spark-debug-tools@0.5" />
+    <edge source="com.mycompany.tp3arquitecturasw:Ejercicio1-Practico3@1.0-SNAPSHOT" target="org.mindrot:jbcrypt@0.3m" />
+    <data key="d0">Joaquiito__Software-Architecture-3.1</data>
+    <data key="d1">Maven</data>
+  </graph>
+</graphml>

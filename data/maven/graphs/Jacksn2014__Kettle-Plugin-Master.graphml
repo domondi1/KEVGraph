@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="org.pentaho:pentaho-kettle-redis-sentinels-plugin@0.0.1-SNAPSHOT">
+      <data key="d2">org.pentaho:pentaho-kettle-redis-sentinels-plugin</data>
+      <data key="d3">0.0.1-SNAPSHOT</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="junit:junit@3.8.1">
+      <data key="d2">junit:junit</data>
+      <data key="d3">3.8.1</data>
+      <data key="d4">true</data>
+      <data key="d5">GHSA-269g-pwp5-87pp</data>
+    </node>
+    <node id="redis.clients:jedis@2.9.0">
+      <data key="d2">redis.clients:jedis</data>
+      <data key="d3">2.9.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.pentaho.di:kettle-core@6.1.0.1">
+      <data key="d2">org.pentaho.di:kettle-core</data>
+      <data key="d3">6.1.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.pentaho.ui:kettle-dbdialog@6.1.0.1">
+      <data key="d2">org.pentaho.ui:kettle-dbdialog</data>
+      <data key="d3">6.1.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.pentaho:kettle-engine@6.1.0.1">
+      <data key="d2">org.pentaho:kettle-engine</data>
+      <data key="d3">6.1.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.pentaho:kettle-ui-swt@6.1.0.1">
+      <data key="d2">org.pentaho:kettle-ui-swt</data>
+      <data key="d3">6.1.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.pentaho.di.core.logging:kettle5-log4j-plugin@6.1.0.1">
+      <data key="d2">org.pentaho.di.core.logging:kettle5-log4j-plugin</data>
+      <data key="d3">6.1.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.pentaho:metastore@6.1.0.1">
+      <data key="d2">org.pentaho:metastore</data>
+      <data key="d3">6.1.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.eclipse:swt@6.1.0.1">
+      <data key="d2">org.eclipse:swt</data>
+      <data key="d3">6.1.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <edge source="org.pentaho:pentaho-kettle-redis-sentinels-plugin@0.0.1-SNAPSHOT" target="junit:junit@3.8.1" />
+    <edge source="org.pentaho:pentaho-kettle-redis-sentinels-plugin@0.0.1-SNAPSHOT" target="redis.clients:jedis@2.9.0" />
+    <edge source="org.pentaho:pentaho-kettle-redis-sentinels-plugin@0.0.1-SNAPSHOT" target="org.pentaho.di:kettle-core@6.1.0.1" />
+    <edge source="org.pentaho:pentaho-kettle-redis-sentinels-plugin@0.0.1-SNAPSHOT" target="org.pentaho.ui:kettle-dbdialog@6.1.0.1" />
+    <edge source="org.pentaho:pentaho-kettle-redis-sentinels-plugin@0.0.1-SNAPSHOT" target="org.pentaho:kettle-engine@6.1.0.1" />
+    <edge source="org.pentaho:pentaho-kettle-redis-sentinels-plugin@0.0.1-SNAPSHOT" target="org.pentaho:kettle-ui-swt@6.1.0.1" />
+    <edge source="org.pentaho:pentaho-kettle-redis-sentinels-plugin@0.0.1-SNAPSHOT" target="org.pentaho.di.core.logging:kettle5-log4j-plugin@6.1.0.1" />
+    <edge source="org.pentaho:pentaho-kettle-redis-sentinels-plugin@0.0.1-SNAPSHOT" target="org.pentaho:metastore@6.1.0.1" />
+    <edge source="org.pentaho:pentaho-kettle-redis-sentinels-plugin@0.0.1-SNAPSHOT" target="org.eclipse:swt@6.1.0.1" />
+    <data key="d0">Jacksn2014__Kettle-Plugin-Master</data>
+    <data key="d1">Maven</data>
+  </graph>
+</graphml>

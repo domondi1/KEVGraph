@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="com.algezz:sis2@1.0-SNAPSHOT">
+      <data key="d2">com.algezz:sis2</data>
+      <data key="d3">1.0-SNAPSHOT</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.hibernate:hibernate-entitymanager@5.6.14.Final">
+      <data key="d2">org.hibernate:hibernate-entitymanager</data>
+      <data key="d3">5.6.14.Final</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.hibernate:hibernate-core@5.6.14.Final">
+      <data key="d2">org.hibernate:hibernate-core</data>
+      <data key="d3">5.6.14.Final</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-8grg-q944-cch5,GHSA-j8jw-g6fq-mp7h</data>
+    </node>
+    <node id="org.hibernate.javax.persistence:hibernate-jpa-2.1-api@1.0.2.Final">
+      <data key="d2">org.hibernate.javax.persistence:hibernate-jpa-2.1-api</data>
+      <data key="d3">1.0.2.Final</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.mysql:mysql-connector-j@9.5.0">
+      <data key="d2">com.mysql:mysql-connector-j</data>
+      <data key="d3">9.5.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-m6vm-37g8-gqvh</data>
+    </node>
+    <node id="org.apache.poi:poi@5.2.3">
+      <data key="d2">org.apache.poi:poi</data>
+      <data key="d3">5.2.3</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-523c-xh4g-mh5m,GHSA-78vv-qj73-h9m5,GHSA-9jwc-q6j3-8g9g,GHSA-x9mm-6gpf-f749</data>
+    </node>
+    <node id="org.apache.poi:poi-ooxml@5.2.3">
+      <data key="d2">org.apache.poi:poi-ooxml</data>
+      <data key="d3">5.2.3</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-gmg8-593g-7mv3</data>
+    </node>
+    <node id="org.jdom:jdom@2.0.2">
+      <data key="d2">org.jdom:jdom</data>
+      <data key="d3">2.0.2</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-2363-cqg2-863c</data>
+    </node>
+    <node id="org.apache.logging.log4j:log4j-api@2.18.0">
+      <data key="d2">org.apache.logging.log4j:log4j-api</data>
+      <data key="d3">2.18.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.apache.logging.log4j:log4j-core@2.18.0">
+      <data key="d2">org.apache.logging.log4j:log4j-core</data>
+      <data key="d3">2.18.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-7rjr-3q55-vv33,GHSA-8489-44mv-ggj8,GHSA-jfh8-c2jp-5v3q,GHSA-p6xc-xr62-6r2g,GHSA-vc5p-v9hr-52mj</data>
+    </node>
+    <edge source="com.algezz:sis2@1.0-SNAPSHOT" target="org.hibernate:hibernate-entitymanager@5.6.14.Final" />
+    <edge source="com.algezz:sis2@1.0-SNAPSHOT" target="org.hibernate:hibernate-core@5.6.14.Final" />
+    <edge source="com.algezz:sis2@1.0-SNAPSHOT" target="org.hibernate.javax.persistence:hibernate-jpa-2.1-api@1.0.2.Final" />
+    <edge source="com.algezz:sis2@1.0-SNAPSHOT" target="com.mysql:mysql-connector-j@9.5.0" />
+    <edge source="com.algezz:sis2@1.0-SNAPSHOT" target="org.apache.poi:poi@5.2.3" />
+    <edge source="com.algezz:sis2@1.0-SNAPSHOT" target="org.apache.poi:poi-ooxml@5.2.3" />
+    <edge source="com.algezz:sis2@1.0-SNAPSHOT" target="org.jdom:jdom@2.0.2" />
+    <edge source="com.algezz:sis2@1.0-SNAPSHOT" target="org.apache.logging.log4j:log4j-api@2.18.0" />
+    <edge source="com.algezz:sis2@1.0-SNAPSHOT" target="org.apache.logging.log4j:log4j-core@2.18.0" />
+    <data key="d0">Algezz__sis2</data>
+    <data key="d1">Maven</data>
+  </graph>
+</graphml>

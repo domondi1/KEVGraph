@@ -1,0 +1,6193 @@
+{
+  "GHSA-55w9-c3g2-4rrh": {
+    "vuln_id": "GHSA-55w9-c3g2-4rrh",
+    "aliases": [
+      "CVE-2012-5784"
+    ],
+    "package": "axis:axis",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'last_affected': '1.4'}]",
+    "fixed_version": null,
+    "severity_type": "",
+    "severity_score": 0.0,
+    "epss_score": 0.01566,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Man-in-the-middle attack in Apache Axis",
+    "is_dev_only": false
+  },
+  "GHSA-96jq-75wh-2658": {
+    "vuln_id": "GHSA-96jq-75wh-2658",
+    "aliases": [
+      "CVE-2018-8032"
+    ],
+    "package": "axis:axis",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'last_affected': '1.4'}]",
+    "fixed_version": null,
+    "severity_type": "CVSS_V3",
+    "severity_score": 6.1,
+    "epss_score": 0.02343,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Moderate severity vulnerability that affects apache axis",
+    "is_dev_only": false
+  },
+  "GHSA-h9gj-rqrw-x4fq": {
+    "vuln_id": "GHSA-h9gj-rqrw-x4fq",
+    "aliases": [
+      "CVE-2019-0227"
+    ],
+    "package": "axis:axis",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'last_affected': '1.4'}]",
+    "fixed_version": null,
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.90014,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Server Side Request Forgery in Apache Axis",
+    "is_dev_only": false
+  },
+  "GHSA-hr2c-p8rh-238h": {
+    "vuln_id": "GHSA-hr2c-p8rh-238h",
+    "aliases": [
+      "CVE-2023-51441"
+    ],
+    "package": "axis:axis",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'last_affected': '1.3'}]",
+    "fixed_version": null,
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.2,
+    "epss_score": 0.00063,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Apache Axis Improper Input Validation vulnerability",
+    "is_dev_only": false
+  },
+  "GHSA-r53v-vm87-f72c": {
+    "vuln_id": "GHSA-r53v-vm87-f72c",
+    "aliases": [
+      "CVE-2014-3596"
+    ],
+    "package": "axis:axis",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'last_affected': '1.4'}]",
+    "fixed_version": null,
+    "severity_type": "",
+    "severity_score": 0.0,
+    "epss_score": 0.01225,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Improper Validation of Certificates in apache axis",
+    "is_dev_only": false
+  },
+  "GHSA-rmqp-9w4c-gc7w": {
+    "vuln_id": "GHSA-rmqp-9w4c-gc7w",
+    "aliases": [
+      "CVE-2023-40743"
+    ],
+    "package": "axis:axis",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'last_affected': '1.4'}]",
+    "fixed_version": null,
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.8,
+    "epss_score": 0.01048,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Apache Axis 1.x (EOL) may allow RCE when untrusted input is passed to getService",
+    "is_dev_only": false
+  },
+  "GHSA-vmq6-5m68-f53m": {
+    "vuln_id": "GHSA-vmq6-5m68-f53m",
+    "aliases": [
+      "CVE-2023-6378"
+    ],
+    "package": "ch.qos.logback:logback-classic",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '1.3.0'}, {'fixed': '1.3.12'}]",
+    "fixed_version": "1.3.12",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.1,
+    "epss_score": 0.00613,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "logback serialization vulnerability",
+    "is_dev_only": false
+  },
+  "GHSA-25qh-j22f-pwp8": {
+    "vuln_id": "GHSA-25qh-j22f-pwp8",
+    "aliases": [
+      "CVE-2025-11226"
+    ],
+    "package": "ch.qos.logback:logback-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '1.4.0'}, {'fixed': '1.5.19'}]",
+    "fixed_version": "1.5.19",
+    "severity_type": "",
+    "severity_score": 0.0,
+    "epss_score": 0.00058,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "QOS.CH logback-core is vulnerable to Arbitrary Code Execution through file processing",
+    "is_dev_only": false
+  },
+  "GHSA-668q-qrv7-99fm": {
+    "vuln_id": "GHSA-668q-qrv7-99fm",
+    "aliases": [
+      "CVE-2021-42550"
+    ],
+    "package": "ch.qos.logback:logback-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '1.2.9'}]",
+    "fixed_version": "1.2.9",
+    "severity_type": "CVSS_V3",
+    "severity_score": 6.6,
+    "epss_score": 0.02729,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Deserialization of Untrusted Data in logback",
+    "is_dev_only": false
+  },
+  "GHSA-6v67-2wr5-gvf4": {
+    "vuln_id": "GHSA-6v67-2wr5-gvf4",
+    "aliases": [
+      "CVE-2024-12801"
+    ],
+    "package": "ch.qos.logback:logback-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '1.4.0'}, {'fixed': '1.5.13'}]",
+    "fixed_version": "1.5.13",
+    "severity_type": "",
+    "severity_score": 0.0,
+    "epss_score": 0.00046,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "QOS.CH logback-core Server-Side Request Forgery vulnerability",
+    "is_dev_only": false
+  },
+  "GHSA-pr98-23f8-jwxv": {
+    "vuln_id": "GHSA-pr98-23f8-jwxv",
+    "aliases": [
+      "CVE-2024-12798"
+    ],
+    "package": "ch.qos.logback:logback-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '1.4.0'}, {'fixed': '1.5.13'}]",
+    "fixed_version": "1.5.13",
+    "severity_type": "",
+    "severity_score": 0.0,
+    "epss_score": 0.00089,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "QOS.CH logback-core Expression Language Injection vulnerability",
+    "is_dev_only": false
+  },
+  "GHSA-qqpg-mvqg-649v": {
+    "vuln_id": "GHSA-qqpg-mvqg-649v",
+    "aliases": [
+      "CVE-2026-1225"
+    ],
+    "package": "ch.qos.logback:logback-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '1.5.25'}]",
+    "fixed_version": "1.5.25",
+    "severity_type": "",
+    "severity_score": 0.0,
+    "epss_score": 0.0001,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Logback allows an attacker to instantiate classes already present on the class path",
+    "is_dev_only": false
+  },
+  "GHSA-6c25-cxcc-pmc4": {
+    "vuln_id": "GHSA-6c25-cxcc-pmc4",
+    "aliases": [
+      "CVE-2023-24163"
+    ],
+    "package": "cn.hutool:hutool-all",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '5.8.21'}]",
+    "fixed_version": "5.8.21",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.8,
+    "epss_score": 0.00454,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Dromara hutool vulnerable to SQL Injection",
+    "is_dev_only": false
+  },
+  "GHSA-77h8-5j3h-jcjf": {
+    "vuln_id": "GHSA-77h8-5j3h-jcjf",
+    "aliases": [
+      "CVE-2023-24162"
+    ],
+    "package": "cn.hutool:hutool-all",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'last_affected': '5.8.11'}]",
+    "fixed_version": null,
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.8,
+    "epss_score": 0.00836,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Dromara Hutool Deserialization of Untrusted Data vulnerability",
+    "is_dev_only": false
+  },
+  "GHSA-rhq2-2574-78mc": {
+    "vuln_id": "GHSA-rhq2-2574-78mc",
+    "aliases": [
+      "CVE-2018-17297"
+    ],
+    "package": "cn.hutool:hutool-all",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '4.1.12'}]",
+    "fixed_version": "4.1.12",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.00425,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Unzip function in ZipUtil.java in Hutool allows remote attackers to overwrite arbitrary files via directory traversal",
+    "is_dev_only": false
+  },
+  "GHSA-2g86-r6w2-wqqr": {
+    "vuln_id": "GHSA-2g86-r6w2-wqqr",
+    "aliases": [
+      "CVE-2021-43116"
+    ],
+    "package": "com.alibaba.nacos:nacos-client",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'last_affected': '2.0.3'}]",
+    "fixed_version": null,
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.8,
+    "epss_score": 0.12517,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Use of Hard-coded Credentials in Nacos",
+    "is_dev_only": false
+  },
+  "GHSA-pv7h-hx5h-mgfj": {
+    "vuln_id": "GHSA-pv7h-hx5h-mgfj",
+    "aliases": [
+      "CVE-2022-25845"
+    ],
+    "package": "com.alibaba:fastjson",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '1.2.25'}, {'fixed': '1.2.83'}]",
+    "fixed_version": "1.2.83",
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.1,
+    "epss_score": 0.88361,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Unsafe deserialization in com.alibaba:fastjson",
+    "is_dev_only": false
+  },
+  "GHSA-72hv-8253-57qq": {
+    "vuln_id": "GHSA-72hv-8253-57qq",
+    "aliases": [],
+    "package": "com.fasterxml.jackson.core:jackson-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '3.0.0'}, {'fixed': '3.1.0'}]",
+    "fixed_version": "2.18.6",
+    "severity_type": "",
+    "severity_score": 0.0,
+    "epss_score": 0.0,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "jackson-core: Number Length Constraint Bypass in Async Parser Leads to Potential DoS Condition",
+    "is_dev_only": false
+  },
+  "GHSA-h46c-h94j-95f3": {
+    "vuln_id": "GHSA-h46c-h94j-95f3",
+    "aliases": [
+      "CVE-2025-52999"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '2.15.0'}]",
+    "fixed_version": "2.15.0",
+    "severity_type": "",
+    "severity_score": 0.0,
+    "epss_score": 0.00078,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "jackson-core can throw a StackoverflowError when processing deeply nested data",
+    "is_dev_only": false
+  },
+  "GHSA-wf8f-6423-gfxg": {
+    "vuln_id": "GHSA-wf8f-6423-gfxg",
+    "aliases": [
+      "CVE-2025-49128"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.0.0'}, {'fixed': '2.13.0'}]",
+    "fixed_version": "2.13.0",
+    "severity_type": "CVSS_V3",
+    "severity_score": 4.0,
+    "epss_score": 0.0001,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Jackson-core Vulnerable to Memory Disclosure via Source Snippet in JsonLocation",
+    "is_dev_only": false
+  },
+  "GHSA-288c-cq4h-88gq": {
+    "vuln_id": "GHSA-288c-cq4h-88gq",
+    "aliases": [
+      "CVE-2020-25649"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.6.0'}, {'fixed': '2.6.7.4'}]",
+    "fixed_version": "2.6.7.4",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.00018,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "XML External Entity (XXE) Injection in Jackson Databind",
+    "is_dev_only": false
+  },
+  "GHSA-3x8x-79m2-3w2w": {
+    "vuln_id": "GHSA-3x8x-79m2-3w2w",
+    "aliases": [
+      "CVE-2021-46877"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.10.0'}, {'fixed': '2.12.6'}]",
+    "fixed_version": "2.12.6",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.00252,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "jackson-databind possible Denial of Service if using JDK serialization to serialize JsonNode",
+    "is_dev_only": false
+  },
+  "GHSA-57j2-w4cx-62h2": {
+    "vuln_id": "GHSA-57j2-w4cx-62h2",
+    "aliases": [
+      "CVE-2020-36518"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.13.0'}, {'fixed': '2.13.2.1'}]",
+    "fixed_version": "2.13.2.1",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.00514,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Deeply nested json in jackson-databind",
+    "is_dev_only": false
+  },
+  "GHSA-jjjh-jjxp-wpff": {
+    "vuln_id": "GHSA-jjjh-jjxp-wpff",
+    "aliases": [
+      "CVE-2022-42003"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.4.0-rc1'}, {'fixed': '2.12.7.1'}]",
+    "fixed_version": "2.12.7.1",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.00302,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Uncontrolled Resource Consumption in Jackson-databind",
+    "is_dev_only": false
+  },
+  "GHSA-rgv9-q543-rqg4": {
+    "vuln_id": "GHSA-rgv9-q543-rqg4",
+    "aliases": [
+      "CVE-2022-42004"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '2.12.7.1'}]",
+    "fixed_version": "2.12.7.1",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.00259,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Uncontrolled Resource Consumption in FasterXML jackson-databind",
+    "is_dev_only": false
+  },
+  "GHSA-4gq5-ch57-c2mg": {
+    "vuln_id": "GHSA-4gq5-ch57-c2mg",
+    "aliases": [
+      "CVE-2018-14719"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.9.0'}, {'fixed': '2.9.7'}]",
+    "fixed_version": "2.9.7",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.8,
+    "epss_score": 0.03461,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Arbitrary Code Execution in jackson-databind",
+    "is_dev_only": false
+  },
+  "GHSA-4w82-r329-3q67": {
+    "vuln_id": "GHSA-4w82-r329-3q67",
+    "aliases": [
+      "CVE-2020-8840"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.0.0'}, {'fixed': '2.6.7.4'}]",
+    "fixed_version": "2.6.7.4",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.8,
+    "epss_score": 0.08164,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Deserialization of Untrusted Data in jackson-databind",
+    "is_dev_only": false
+  },
+  "GHSA-5949-rw7g-wx7w": {
+    "vuln_id": "GHSA-5949-rw7g-wx7w",
+    "aliases": [
+      "BIT-nifi-2021-20190",
+      "CVE-2021-20190"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.7.0'}, {'fixed': '2.9.10.7'}]",
+    "fixed_version": "2.9.10.7",
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.1,
+    "epss_score": 0.00502,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Deserialization of untrusted data in jackson-databind",
+    "is_dev_only": false
+  },
+  "GHSA-5r5r-6hpj-8gg9": {
+    "vuln_id": "GHSA-5r5r-6hpj-8gg9",
+    "aliases": [
+      "CVE-2020-35728"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.0.0'}, {'fixed': '2.9.10.8'}]",
+    "fixed_version": "2.9.10.8",
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.1,
+    "epss_score": 0.40254,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Serialization gadget exploit in jackson-databind",
+    "is_dev_only": false
+  },
+  "GHSA-5ww9-j83m-q7qx": {
+    "vuln_id": "GHSA-5ww9-j83m-q7qx",
+    "aliases": [
+      "CVE-2019-12086"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.9.0'}, {'fixed': '2.9.9'}]",
+    "fixed_version": "2.9.9",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.15501,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Information exposure in FasterXML jackson-databind",
+    "is_dev_only": false
+  },
+  "GHSA-645p-88qh-w398": {
+    "vuln_id": "GHSA-645p-88qh-w398",
+    "aliases": [
+      "CVE-2018-14718"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.9.0'}, {'fixed': '2.9.7'}]",
+    "fixed_version": "2.9.7",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.8,
+    "epss_score": 0.14515,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Arbitrary Code Execution in jackson-databind",
+    "is_dev_only": false
+  },
+  "GHSA-6fpp-rgj9-8rwc": {
+    "vuln_id": "GHSA-6fpp-rgj9-8rwc",
+    "aliases": [
+      "CVE-2019-14379"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.9.0'}, {'fixed': '2.9.9.2'}]",
+    "fixed_version": "2.9.9.2",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.8,
+    "epss_score": 0.01455,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Deserialization of untrusted data in FasterXML jackson-databind",
+    "is_dev_only": false
+  },
+  "GHSA-6wqp-v4v6-c87c": {
+    "vuln_id": "GHSA-6wqp-v4v6-c87c",
+    "aliases": [
+      "CVE-2018-12023"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.7.0'}, {'fixed': '2.7.9.4'}]",
+    "fixed_version": "2.7.9.4",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.04812,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Deserialization of Untrusted Data",
+    "is_dev_only": false
+  },
+  "GHSA-85cw-hj65-qqv9": {
+    "vuln_id": "GHSA-85cw-hj65-qqv9",
+    "aliases": [
+      "CVE-2019-16335"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.9.0'}, {'fixed': '2.9.10'}]",
+    "fixed_version": "2.9.10",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.8,
+    "epss_score": 0.00651,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Polymorphic Typing issue in FasterXML jackson-databind",
+    "is_dev_only": false
+  },
+  "GHSA-89qr-369f-5m5x": {
+    "vuln_id": "GHSA-89qr-369f-5m5x",
+    "aliases": [
+      "CVE-2020-36182"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.7.0'}, {'fixed': '2.9.10.8'}]",
+    "fixed_version": "2.9.10.8",
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.1,
+    "epss_score": 0.02715,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Unsafe Deserialization in jackson-databind",
+    "is_dev_only": false
+  },
+  "GHSA-8c4j-34r4-xr8g": {
+    "vuln_id": "GHSA-8c4j-34r4-xr8g",
+    "aliases": [
+      "CVE-2020-36180"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.7.0'}, {'fixed': '2.9.10.8'}]",
+    "fixed_version": "2.9.10.8",
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.1,
+    "epss_score": 0.02715,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Unsafe Deserialization in jackson-databind",
+    "is_dev_only": false
+  },
+  "GHSA-8w26-6f25-cm9x": {
+    "vuln_id": "GHSA-8w26-6f25-cm9x",
+    "aliases": [
+      "CVE-2020-36185"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.0.0'}, {'fixed': '2.9.10.8'}]",
+    "fixed_version": "2.9.10.8",
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.1,
+    "epss_score": 0.02715,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Unsafe Deserialization in jackson-databind",
+    "is_dev_only": false
+  },
+  "GHSA-9gph-22xh-8x98": {
+    "vuln_id": "GHSA-9gph-22xh-8x98",
+    "aliases": [
+      "CVE-2020-36179"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.7.0'}, {'fixed': '2.9.10.8'}]",
+    "fixed_version": "2.9.10.8",
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.1,
+    "epss_score": 0.60256,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Unsafe Deserialization in jackson-databind",
+    "is_dev_only": false
+  },
+  "GHSA-9m6f-7xcq-8vf8": {
+    "vuln_id": "GHSA-9m6f-7xcq-8vf8",
+    "aliases": [
+      "CVE-2020-36183"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.7.00'}, {'fixed': '2.9.10.8'}]",
+    "fixed_version": "2.9.10.8",
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.1,
+    "epss_score": 0.02061,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Unsafe Deserialization in jackson-databind",
+    "is_dev_only": false
+  },
+  "GHSA-9mxf-g3x6-wv74": {
+    "vuln_id": "GHSA-9mxf-g3x6-wv74",
+    "aliases": [
+      "CVE-2018-14721"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.9.0'}, {'fixed': '2.9.7'}]",
+    "fixed_version": "2.9.7",
+    "severity_type": "CVSS_V3",
+    "severity_score": 10.0,
+    "epss_score": 0.09436,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Server-Side Request Forgery (SSRF) in jackson-databind",
+    "is_dev_only": false
+  },
+  "GHSA-c8hm-7hpq-7jhg": {
+    "vuln_id": "GHSA-c8hm-7hpq-7jhg",
+    "aliases": [
+      "CVE-2018-19362"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.9.0'}, {'fixed': '2.9.8'}]",
+    "fixed_version": "2.9.8",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.8,
+    "epss_score": 0.04124,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "com.fasterxml.jackson.core:jackson-databind vulnerable to Deserialization of Untrusted Data",
+    "is_dev_only": false
+  },
+  "GHSA-cf6r-3wgc-h863": {
+    "vuln_id": "GHSA-cf6r-3wgc-h863",
+    "aliases": [
+      "CVE-2019-14892"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '2.6.7.3'}]",
+    "fixed_version": "2.6.7.3",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.00873,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Polymorphic deserialization of malicious object in jackson-databind",
+    "is_dev_only": false
+  },
+  "GHSA-cggj-fvv3-cqwv": {
+    "vuln_id": "GHSA-cggj-fvv3-cqwv",
+    "aliases": [
+      "CVE-2018-7489"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.8.0'}, {'fixed': '2.8.11.1'}]",
+    "fixed_version": "2.8.11.1",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.8,
+    "epss_score": 0.36207,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "FasterXML jackson-databind allows unauthenticated remote code execution ",
+    "is_dev_only": false
+  },
+  "GHSA-cjjf-94ff-43w7": {
+    "vuln_id": "GHSA-cjjf-94ff-43w7",
+    "aliases": [
+      "CVE-2018-12022"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '2.7.9.4'}]",
+    "fixed_version": "2.7.9.4",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.03035,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "jackson-databind Deserialization of Untrusted Data vulnerability",
+    "is_dev_only": false
+  },
+  "GHSA-cmfg-87vq-g5g4": {
+    "vuln_id": "GHSA-cmfg-87vq-g5g4",
+    "aliases": [
+      "CVE-2019-12814"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.9.0'}, {'fixed': '2.9.9.1'}]",
+    "fixed_version": "2.9.9.1",
+    "severity_type": "CVSS_V3",
+    "severity_score": 5.9,
+    "epss_score": 0.18339,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Deserialization of untrusted data in FasterXML jackson-databind",
+    "is_dev_only": false
+  },
+  "GHSA-cvm9-fjm9-3572": {
+    "vuln_id": "GHSA-cvm9-fjm9-3572",
+    "aliases": [
+      "CVE-2020-36181"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.7.0'}, {'fixed': '2.9.10.8'}]",
+    "fixed_version": "2.9.10.8",
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.1,
+    "epss_score": 0.05412,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Unsafe Deserialization in jackson-databind",
+    "is_dev_only": false
+  },
+  "GHSA-f3j5-rmmp-3fc5": {
+    "vuln_id": "GHSA-f3j5-rmmp-3fc5",
+    "aliases": [
+      "CVE-2019-17267"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.9.0'}, {'fixed': '2.9.10'}]",
+    "fixed_version": "2.9.10",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.8,
+    "epss_score": 0.01195,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Improper Input Validation in jackson-databind",
+    "is_dev_only": false
+  },
+  "GHSA-f9hv-mg5h-xcw9": {
+    "vuln_id": "GHSA-f9hv-mg5h-xcw9",
+    "aliases": [
+      "CVE-2018-19360"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.9.0'}, {'fixed': '2.9.8'}]",
+    "fixed_version": "2.9.8",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.8,
+    "epss_score": 0.06658,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Deserialization of Untrusted Data in jackson-databind due to polymorphic deserialization",
+    "is_dev_only": false
+  },
+  "GHSA-f9xh-2qgp-cq57": {
+    "vuln_id": "GHSA-f9xh-2qgp-cq57",
+    "aliases": [
+      "CVE-2020-36188"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.7.0'}, {'fixed': '2.9.10.8'}]",
+    "fixed_version": "2.9.10.8",
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.1,
+    "epss_score": 0.0944,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Unsafe Deserialization in jackson-databind",
+    "is_dev_only": false
+  },
+  "GHSA-fmmc-742q-jg75": {
+    "vuln_id": "GHSA-fmmc-742q-jg75",
+    "aliases": [
+      "CVE-2019-16943"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.9.0'}, {'fixed': '2.9.10.1'}]",
+    "fixed_version": "2.9.10.1",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.8,
+    "epss_score": 0.01841,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "jackson-databind polymorphic typing issue",
+    "is_dev_only": false
+  },
+  "GHSA-fqwf-pjwf-7vqv": {
+    "vuln_id": "GHSA-fqwf-pjwf-7vqv",
+    "aliases": [
+      "CVE-2020-10673"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.7.0'}, {'fixed': '2.9.10.4'}]",
+    "fixed_version": "2.9.10.4",
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.8,
+    "epss_score": 0.20473,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "jackson-databind mishandles the interaction between serialization gadgets and typing",
+    "is_dev_only": false
+  },
+  "GHSA-gjmw-vf9h-g25v": {
+    "vuln_id": "GHSA-gjmw-vf9h-g25v",
+    "aliases": [
+      "CVE-2019-17531"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.9.0'}, {'fixed': '2.9.10.1'}]",
+    "fixed_version": "2.9.10.1",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.8,
+    "epss_score": 0.0119,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "jackson-databind polymorphic typing issue",
+    "is_dev_only": false
+  },
+  "GHSA-gwp4-hfv6-p7hw": {
+    "vuln_id": "GHSA-gwp4-hfv6-p7hw",
+    "aliases": [
+      "CVE-2019-14439"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.9.0'}, {'fixed': '2.9.9.2'}]",
+    "fixed_version": "2.9.9.2",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.10318,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Deserialization of untrusted data in FasterXML jackson-databind",
+    "is_dev_only": false
+  },
+  "GHSA-gww7-p5w4-wrfv": {
+    "vuln_id": "GHSA-gww7-p5w4-wrfv",
+    "aliases": [
+      "CVE-2019-20330"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.0.0'}, {'fixed': '2.6.7.4'}]",
+    "fixed_version": "2.6.7.4",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.8,
+    "epss_score": 0.01863,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Deserialization of Untrusted Data in jackson-databind",
+    "is_dev_only": false
+  },
+  "GHSA-h3cw-g4mq-c5x2": {
+    "vuln_id": "GHSA-h3cw-g4mq-c5x2",
+    "aliases": [
+      "CVE-2020-24616"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.0.0'}, {'fixed': '2.9.10.6'}]",
+    "fixed_version": "2.9.10.6",
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.1,
+    "epss_score": 0.02676,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Code Injection in jackson-databind",
+    "is_dev_only": false
+  },
+  "GHSA-h592-38cm-4ggp": {
+    "vuln_id": "GHSA-h592-38cm-4ggp",
+    "aliases": [
+      "CVE-2017-15095"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.8.0'}, {'fixed': '2.8.11'}]",
+    "fixed_version": "2.8.11",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.8,
+    "epss_score": 0.09261,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "jackson-databind vulnerable to deserialization flaw leading to unauthenticated remote code execution",
+    "is_dev_only": false
+  },
+  "GHSA-h822-r4r5-v8jg": {
+    "vuln_id": "GHSA-h822-r4r5-v8jg",
+    "aliases": [
+      "CVE-2019-14540"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.9.0'}, {'fixed': '2.9.10'}]",
+    "fixed_version": "2.9.10",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.8,
+    "epss_score": 0.07082,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Polymorphic Typing issue in FasterXML jackson-databind",
+    "is_dev_only": false
+  },
+  "GHSA-m6x4-97wx-4q27": {
+    "vuln_id": "GHSA-m6x4-97wx-4q27",
+    "aliases": [
+      "CVE-2020-36184"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.0.0'}, {'fixed': '2.9.10.8'}]",
+    "fixed_version": "2.9.10.8",
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.1,
+    "epss_score": 0.0691,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Unsafe Deserialization in jackson-databind",
+    "is_dev_only": false
+  },
+  "GHSA-mph4-vhrx-mv67": {
+    "vuln_id": "GHSA-mph4-vhrx-mv67",
+    "aliases": [
+      "CVE-2019-12384"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.9.0'}, {'fixed': '2.9.9.1'}]",
+    "fixed_version": "2.9.9.1",
+    "severity_type": "CVSS_V3",
+    "severity_score": 5.9,
+    "epss_score": 0.51675,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Deserialization of Untrusted Data in FasterXML jackson-databind",
+    "is_dev_only": false
+  },
+  "GHSA-mx7p-6679-8g3q": {
+    "vuln_id": "GHSA-mx7p-6679-8g3q",
+    "aliases": [
+      "CVE-2019-16942"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.9.0'}, {'fixed': '2.9.10.1'}]",
+    "fixed_version": "2.9.10.1",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.8,
+    "epss_score": 0.00415,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Polymorphic Typing in FasterXML jackson-databind",
+    "is_dev_only": false
+  },
+  "GHSA-mx9v-gmh4-mgqw": {
+    "vuln_id": "GHSA-mx9v-gmh4-mgqw",
+    "aliases": [
+      "CVE-2018-19361"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.7.0'}, {'fixed': '2.7.9.5'}]",
+    "fixed_version": "2.7.9.5",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.8,
+    "epss_score": 0.02435,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Deserialization of Untrusted Data in jackson-databind",
+    "is_dev_only": false
+  },
+  "GHSA-p43x-xfjf-5jhr": {
+    "vuln_id": "GHSA-p43x-xfjf-5jhr",
+    "aliases": [
+      "CVE-2020-9548"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.9.0'}, {'fixed': '2.9.10.4'}]",
+    "fixed_version": "2.9.10.4",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.8,
+    "epss_score": 0.57602,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "jackson-databind mishandles the interaction between serialization gadgets and typing",
+    "is_dev_only": false
+  },
+  "GHSA-q93h-jc49-78gg": {
+    "vuln_id": "GHSA-q93h-jc49-78gg",
+    "aliases": [
+      "CVE-2020-9547"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.9.0'}, {'fixed': '2.9.10.4'}]",
+    "fixed_version": "2.9.10.4",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.8,
+    "epss_score": 0.38262,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "jackson-databind mishandles the interaction between serialization gadgets and typing",
+    "is_dev_only": false
+  },
+  "GHSA-qjw2-hr98-qgfh": {
+    "vuln_id": "GHSA-qjw2-hr98-qgfh",
+    "aliases": [
+      "CVE-2020-24750"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.0'}, {'fixed': '2.6.7.5'}]",
+    "fixed_version": "2.6.7.5",
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.1,
+    "epss_score": 0.01997,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Unsafe Deserialization in jackson-databind",
+    "is_dev_only": false
+  },
+  "GHSA-qr7j-h6gg-jmgc": {
+    "vuln_id": "GHSA-qr7j-h6gg-jmgc",
+    "aliases": [
+      "CVE-2018-11307"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.0.0'}, {'fixed': '2.7.9.4'}]",
+    "fixed_version": "2.7.9.4",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.8,
+    "epss_score": 0.12636,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Deserialization of Untrusted Data in jackson-databind",
+    "is_dev_only": false
+  },
+  "GHSA-r3gr-cxrf-hg25": {
+    "vuln_id": "GHSA-r3gr-cxrf-hg25",
+    "aliases": [
+      "CVE-2020-35491"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.0.0'}, {'fixed': '2.9.10.8'}]",
+    "fixed_version": "2.9.10.8",
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.1,
+    "epss_score": 0.05713,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Serialization gadgets exploit in jackson-databind",
+    "is_dev_only": false
+  },
+  "GHSA-r695-7vr9-jgc2": {
+    "vuln_id": "GHSA-r695-7vr9-jgc2",
+    "aliases": [
+      "CVE-2020-36187"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.0.0'}, {'fixed': '2.9.10.8'}]",
+    "fixed_version": "2.9.10.8",
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.1,
+    "epss_score": 0.02147,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Unsafe Deserialization in jackson-databind",
+    "is_dev_only": false
+  },
+  "GHSA-rfx6-vp9g-rh7v": {
+    "vuln_id": "GHSA-rfx6-vp9g-rh7v",
+    "aliases": [
+      "CVE-2017-17485"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.9.0'}, {'fixed': '2.9.4'}]",
+    "fixed_version": "2.9.4",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.8,
+    "epss_score": 0.79787,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "jackson-databind vulnerable to remote code execution due to incorrect deserialization and blocklist bypass",
+    "is_dev_only": false
+  },
+  "GHSA-rpr3-cw39-3pxh": {
+    "vuln_id": "GHSA-rpr3-cw39-3pxh",
+    "aliases": [
+      "CVE-2020-10650"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '2.9.10.4'}]",
+    "fixed_version": "2.9.10.4",
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.1,
+    "epss_score": 0.09853,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "jackson-databind vulnerable to unsafe deserialization",
+    "is_dev_only": false
+  },
+  "GHSA-v585-23hc-c647": {
+    "vuln_id": "GHSA-v585-23hc-c647",
+    "aliases": [
+      "CVE-2020-36186"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.0.0'}, {'fixed': '2.9.10.8'}]",
+    "fixed_version": "2.9.10.8",
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.1,
+    "epss_score": 0.02413,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Unsafe Deserialization in jackson-databind",
+    "is_dev_only": false
+  },
+  "GHSA-vfqx-33qm-g869": {
+    "vuln_id": "GHSA-vfqx-33qm-g869",
+    "aliases": [
+      "CVE-2020-36189"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.7.0'}, {'fixed': '2.9.10.8'}]",
+    "fixed_version": "2.9.10.8",
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.1,
+    "epss_score": 0.03642,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Unsafe Deserialization in jackson-databind",
+    "is_dev_only": false
+  },
+  "GHSA-w3f4-3q6j-rh82": {
+    "vuln_id": "GHSA-w3f4-3q6j-rh82",
+    "aliases": [
+      "CVE-2018-5968"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.8.0'}, {'fixed': '2.8.11.1'}]",
+    "fixed_version": "2.8.11.1",
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.1,
+    "epss_score": 0.01965,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Deserialization of Untrusted Data in jackson-databind",
+    "is_dev_only": false
+  },
+  "GHSA-wh8g-3j2c-rqj5": {
+    "vuln_id": "GHSA-wh8g-3j2c-rqj5",
+    "aliases": [
+      "CVE-2020-35490"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.0.0'}, {'fixed': '2.9.10.8'}]",
+    "fixed_version": "2.9.10.8",
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.1,
+    "epss_score": 0.03916,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Serialization gadgets exploit in jackson-databind",
+    "is_dev_only": false
+  },
+  "GHSA-x2w5-5m2g-7h5m": {
+    "vuln_id": "GHSA-x2w5-5m2g-7h5m",
+    "aliases": [
+      "CVE-2018-14720"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.9.0'}, {'fixed': '2.9.7'}]",
+    "fixed_version": "2.9.7",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.8,
+    "epss_score": 0.03348,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "XML External Entity Reference (XXE) in jackson-databind",
+    "is_dev_only": false
+  },
+  "GHSA-27xj-rqx5-2255": {
+    "vuln_id": "GHSA-27xj-rqx5-2255",
+    "aliases": [
+      "CVE-2020-11619"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.9.0'}, {'fixed': '2.9.10.4'}]",
+    "fixed_version": "2.9.10.4",
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.1,
+    "epss_score": 0.0133,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "jackson-databind mishandles the interaction between serialization gadgets and typing",
+    "is_dev_only": false
+  },
+  "GHSA-58pp-9c76-5625": {
+    "vuln_id": "GHSA-58pp-9c76-5625",
+    "aliases": [
+      "CVE-2020-11112"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.9.0'}, {'fixed': '2.9.10.4'}]",
+    "fixed_version": "2.9.10.4",
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.8,
+    "epss_score": 0.06772,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "jackson-databind mishandles the interaction between serialization gadgets and typing",
+    "is_dev_only": false
+  },
+  "GHSA-5p34-5m6p-p58g": {
+    "vuln_id": "GHSA-5p34-5m6p-p58g",
+    "aliases": [
+      "CVE-2020-9546"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.9.0'}, {'fixed': '2.9.10.4'}]",
+    "fixed_version": "2.9.10.4",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.8,
+    "epss_score": 0.02327,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "jackson-databind mishandles the interaction between serialization gadgets and typing",
+    "is_dev_only": false
+  },
+  "GHSA-758m-v56v-grj4": {
+    "vuln_id": "GHSA-758m-v56v-grj4",
+    "aliases": [
+      "CVE-2020-10969"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.9.0'}, {'fixed': '2.9.10.4'}]",
+    "fixed_version": "2.9.10.4",
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.8,
+    "epss_score": 0.01035,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "jackson-databind mishandles the interaction between serialization gadgets and typing",
+    "is_dev_only": false
+  },
+  "GHSA-95cm-88f5-f2c7": {
+    "vuln_id": "GHSA-95cm-88f5-f2c7",
+    "aliases": [
+      "CVE-2020-10672"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.9.0'}, {'fixed': '2.9.10.4'}]",
+    "fixed_version": "2.9.10.4",
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.8,
+    "epss_score": 0.4007,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "jackson-databind mishandles the interaction between serialization gadgets and typing",
+    "is_dev_only": false
+  },
+  "GHSA-9vvp-fxw6-jcxr": {
+    "vuln_id": "GHSA-9vvp-fxw6-jcxr",
+    "aliases": [
+      "CVE-2020-11113"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.9.0'}, {'fixed': '2.9.10.4'}]",
+    "fixed_version": "2.9.10.4",
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.8,
+    "epss_score": 0.60714,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "jackson-databind mishandles the interaction between serialization gadgets and typing",
+    "is_dev_only": false
+  },
+  "GHSA-c265-37vj-cwcc": {
+    "vuln_id": "GHSA-c265-37vj-cwcc",
+    "aliases": [
+      "CVE-2020-14062"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.9.0'}, {'fixed': '2.9.10.5'}]",
+    "fixed_version": "2.9.10.5",
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.1,
+    "epss_score": 0.07334,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Deserialization of untrusted data in Jackson Databind",
+    "is_dev_only": false
+  },
+  "GHSA-c2q3-4qrh-fm48": {
+    "vuln_id": "GHSA-c2q3-4qrh-fm48",
+    "aliases": [
+      "CVE-2020-14061"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.9.0'}, {'fixed': '2.9.10.5'}]",
+    "fixed_version": "2.9.10.5",
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.1,
+    "epss_score": 0.0615,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Deserialization of untrusted data in Jackson Databind",
+    "is_dev_only": false
+  },
+  "GHSA-h4rc-386g-6m85": {
+    "vuln_id": "GHSA-h4rc-386g-6m85",
+    "aliases": [
+      "CVE-2020-11620"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.9.0'}, {'fixed': '2.9.10.4'}]",
+    "fixed_version": "2.9.10.4",
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.1,
+    "epss_score": 0.02124,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "jackson-databind mishandles the interaction between serialization gadgets and typing",
+    "is_dev_only": false
+  },
+  "GHSA-j823-4qch-3rgm": {
+    "vuln_id": "GHSA-j823-4qch-3rgm",
+    "aliases": [
+      "CVE-2020-14060"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.9.0'}, {'fixed': '2.9.10.5'}]",
+    "fixed_version": "2.9.10.5",
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.1,
+    "epss_score": 0.08718,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Deserialization of untrusted data in Jackson Databind",
+    "is_dev_only": false
+  },
+  "GHSA-mc6h-4qgp-37qh": {
+    "vuln_id": "GHSA-mc6h-4qgp-37qh",
+    "aliases": [
+      "CVE-2020-14195"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.9.0'}, {'fixed': '2.9.10.5'}]",
+    "fixed_version": "2.9.10.5",
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.1,
+    "epss_score": 0.09511,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Deserialization of untrusted data in Jackson Databind",
+    "is_dev_only": false
+  },
+  "GHSA-qmqc-x3r4-6v39": {
+    "vuln_id": "GHSA-qmqc-x3r4-6v39",
+    "aliases": [
+      "CVE-2019-14893"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.9.0'}, {'fixed': '2.9.10'}]",
+    "fixed_version": "2.9.10",
+    "severity_type": "",
+    "severity_score": 0.0,
+    "epss_score": 0.00956,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Polymorphic deserialization of malicious object in jackson-databind",
+    "is_dev_only": false
+  },
+  "GHSA-rf6r-2c4q-2vwg": {
+    "vuln_id": "GHSA-rf6r-2c4q-2vwg",
+    "aliases": [
+      "CVE-2020-10968"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.9.0'}, {'fixed': '2.9.10.4'}]",
+    "fixed_version": "2.9.10.4",
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.8,
+    "epss_score": 0.04028,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "jackson-databind mishandles the interaction between serialization gadgets and typing",
+    "is_dev_only": false
+  },
+  "GHSA-v3xw-c963-f5hc": {
+    "vuln_id": "GHSA-v3xw-c963-f5hc",
+    "aliases": [
+      "CVE-2020-11111"
+    ],
+    "package": "com.fasterxml.jackson.core:jackson-databind",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.9.0'}, {'fixed': '2.9.10.4'}]",
+    "fixed_version": "2.9.10.4",
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.8,
+    "epss_score": 0.02082,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "jackson-databind mishandles the interaction between serialization gadgets and typing",
+    "is_dev_only": false
+  },
+  "GHSA-4jrv-ppp4-jm57": {
+    "vuln_id": "GHSA-4jrv-ppp4-jm57",
+    "aliases": [
+      "CVE-2022-25647"
+    ],
+    "package": "com.google.code.gson:gson",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '2.8.9'}]",
+    "fixed_version": "2.8.9",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.7,
+    "epss_score": 0.02798,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Deserialization of Untrusted Data in Gson",
+    "is_dev_only": false
+  },
+  "GHSA-5mg8-w23w-74h3": {
+    "vuln_id": "GHSA-5mg8-w23w-74h3",
+    "aliases": [
+      "CVE-2020-8908"
+    ],
+    "package": "com.google.guava:guava",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '32.0.0-android'}]",
+    "fixed_version": "32.0.0-android",
+    "severity_type": "CVSS_V3",
+    "severity_score": 3.3,
+    "epss_score": 0.00074,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Information Disclosure in Guava",
+    "is_dev_only": false
+  },
+  "GHSA-7g45-4rm6-3mm3": {
+    "vuln_id": "GHSA-7g45-4rm6-3mm3",
+    "aliases": [
+      "CVE-2023-2976"
+    ],
+    "package": "com.google.guava:guava",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '1.0'}, {'fixed': '32.0.0-android'}]",
+    "fixed_version": "32.0.0-android",
+    "severity_type": "CVSS_V3",
+    "severity_score": 5.5,
+    "epss_score": 0.00065,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Guava vulnerable to insecure use of temporary directory",
+    "is_dev_only": false
+  },
+  "GHSA-mvr2-9pj6-7w5j": {
+    "vuln_id": "GHSA-mvr2-9pj6-7w5j",
+    "aliases": [
+      "CVE-2018-10237"
+    ],
+    "package": "com.google.guava:guava",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '11.0'}, {'fixed': '24.1.1-android'}]",
+    "fixed_version": "24.1.1-android",
+    "severity_type": "CVSS_V3",
+    "severity_score": 5.9,
+    "epss_score": 0.03347,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Denial of Service in Google Guava",
+    "is_dev_only": false
+  },
+  "GHSA-4gg5-vx3j-xwc7": {
+    "vuln_id": "GHSA-4gg5-vx3j-xwc7",
+    "aliases": [
+      "CVE-2022-3510"
+    ],
+    "package": "com.google.protobuf:protobuf-java",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '3.0.0'}, {'fixed': '3.16.3'}]",
+    "fixed_version": "3.16.3",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.00077,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Protobuf Java vulnerable to Uncontrolled Resource Consumption",
+    "is_dev_only": false
+  },
+  "GHSA-735f-pc8j-v9w8": {
+    "vuln_id": "GHSA-735f-pc8j-v9w8",
+    "aliases": [
+      "CVE-2024-7254"
+    ],
+    "package": "com.google.protobuf:protobuf-java",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '3.25.5'}]",
+    "fixed_version": "3.25.5",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.00077,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "protobuf-java has potential Denial of Service issue",
+    "is_dev_only": false
+  },
+  "GHSA-g5ww-5jh7-63cx": {
+    "vuln_id": "GHSA-g5ww-5jh7-63cx",
+    "aliases": [
+      "CVE-2022-3509"
+    ],
+    "package": "com.google.protobuf:protobuf-java",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '3.0.0'}, {'fixed': '3.16.3'}]",
+    "fixed_version": "3.16.3",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.00131,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Protobuf Java vulnerable to Uncontrolled Resource Consumption",
+    "is_dev_only": false
+  },
+  "GHSA-h4h5-3hr4-j3g2": {
+    "vuln_id": "GHSA-h4h5-3hr4-j3g2",
+    "aliases": [
+      "CVE-2022-3171"
+    ],
+    "package": "com.google.protobuf:protobuf-java",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '3.21.0-rc-1'}, {'fixed': '3.21.7'}]",
+    "fixed_version": "3.21.7",
+    "severity_type": "CVSS_V3",
+    "severity_score": 5.7,
+    "epss_score": 0.00084,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "protobuf-java has a potential Denial of Service issue",
+    "is_dev_only": false
+  },
+  "GHSA-wrvw-hg22-4m67": {
+    "vuln_id": "GHSA-wrvw-hg22-4m67",
+    "aliases": [
+      "CVE-2021-22569"
+    ],
+    "package": "com.google.protobuf:protobuf-java",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '3.16.1'}]",
+    "fixed_version": "3.16.1",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.00268,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "A potential Denial of Service issue in protobuf-java",
+    "is_dev_only": false
+  },
+  "GHSA-45hx-wfhj-473x": {
+    "vuln_id": "GHSA-45hx-wfhj-473x",
+    "aliases": [
+      "CVE-2022-23221"
+    ],
+    "package": "com.h2database:h2",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '2.1.210'}]",
+    "fixed_version": "2.1.210",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.8,
+    "epss_score": 0.26568,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Arbitrary code execution in H2 Console",
+    "is_dev_only": false
+  },
+  "GHSA-h376-j262-vhq6": {
+    "vuln_id": "GHSA-h376-j262-vhq6",
+    "aliases": [
+      "CVE-2021-42392"
+    ],
+    "package": "com.h2database:h2",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '1.1.100'}, {'fixed': '2.0.206'}]",
+    "fixed_version": "2.0.206",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.8,
+    "epss_score": 0.90773,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "RCE in H2 Console",
+    "is_dev_only": false
+  },
+  "GHSA-22wj-vf5f-wrvj": {
+    "vuln_id": "GHSA-22wj-vf5f-wrvj",
+    "aliases": [
+      "CVE-2022-45868"
+    ],
+    "package": "com.h2database:h2",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '1.4.198'}, {'fixed': '2.2.220'}]",
+    "fixed_version": "2.2.220",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.8,
+    "epss_score": 0.00293,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Password exposure in H2 Database ",
+    "is_dev_only": false
+  },
+  "GHSA-7rpj-hg47-cx62": {
+    "vuln_id": "GHSA-7rpj-hg47-cx62",
+    "aliases": [
+      "CVE-2021-23463"
+    ],
+    "package": "com.h2database:h2",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '1.4.198'}, {'fixed': '2.0.202'}]",
+    "fixed_version": "2.0.202",
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.1,
+    "epss_score": 0.00766,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Improper Restriction of XML External Entity Reference in com.h2database:h2.",
+    "is_dev_only": false
+  },
+  "GHSA-86p9-x5pw-94qx": {
+    "vuln_id": "GHSA-86p9-x5pw-94qx",
+    "aliases": [
+      "CVE-2017-9096"
+    ],
+    "package": "com.itextpdf:itextpdf",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '5.5.12'}]",
+    "fixed_version": "5.5.12",
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.8,
+    "epss_score": 0.08838,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Improper Restriction of XML External Entity Reference in  iText",
+    "is_dev_only": false
+  },
+  "GHSA-gv87-q66h-4277": {
+    "vuln_id": "GHSA-gv87-q66h-4277",
+    "aliases": [
+      "CVE-2021-43113"
+    ],
+    "package": "com.itextpdf:itextpdf",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '7.1.17'}]",
+    "fixed_version": "5.5.13.3",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.8,
+    "epss_score": 0.02698,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Command injection in itext7-core",
+    "is_dev_only": false
+  },
+  "GHSA-pfh2-hfmq-phg5": {
+    "vuln_id": "GHSA-pfh2-hfmq-phg5",
+    "aliases": [
+      "CVE-2023-51074"
+    ],
+    "package": "com.jayway.jsonpath:json-path",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.2.0'}, {'fixed': '2.9.0'}]",
+    "fixed_version": "2.9.0",
+    "severity_type": "CVSS_V3",
+    "severity_score": 5.3,
+    "epss_score": 0.00116,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "json-path Out-of-bounds Write vulnerability",
+    "is_dev_only": false
+  },
+  "GHSA-5476-xc4j-rqcv": {
+    "vuln_id": "GHSA-5476-xc4j-rqcv",
+    "aliases": [
+      "CVE-2026-27830"
+    ],
+    "package": "com.mchange:c3p0",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '0.12.0'}]",
+    "fixed_version": "0.12.0",
+    "severity_type": "",
+    "severity_score": 0.0,
+    "epss_score": 0.00173,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "c3p0 vulnerable to Remote Code Execution via unsafe deserialization of userOverridesAsString property",
+    "is_dev_only": false
+  },
+  "GHSA-84p2-vf58-xhxv": {
+    "vuln_id": "GHSA-84p2-vf58-xhxv",
+    "aliases": [
+      "CVE-2019-5427"
+    ],
+    "package": "com.mchange:c3p0",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '0.9.5.4'}]",
+    "fixed_version": "0.9.5.4",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.03913,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Billion laughs attack in c3p0",
+    "is_dev_only": false
+  },
+  "GHSA-q485-j897-qc27": {
+    "vuln_id": "GHSA-q485-j897-qc27",
+    "aliases": [
+      "CVE-2018-20433"
+    ],
+    "package": "com.mchange:c3p0",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '0.9.5.3'}]",
+    "fixed_version": "0.9.5.3",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.8,
+    "epss_score": 0.02404,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "XML External Entity Reference in mchange:c3p0",
+    "is_dev_only": false
+  },
+  "GHSA-m494-w24q-6f7w": {
+    "vuln_id": "GHSA-m494-w24q-6f7w",
+    "aliases": [
+      "CVE-2025-59250"
+    ],
+    "package": "com.microsoft.sqlserver:mssql-jdbc",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '8.3.0.jre11-preview'}, {'fixed': '10.2.4.jre11'}]",
+    "fixed_version": "10.2.4.jre11",
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.1,
+    "epss_score": 0.00077,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "JDBC Driver for SQL Server has improper input validation issue",
+    "is_dev_only": false
+  },
+  "GHSA-m6vm-37g8-gqvh": {
+    "vuln_id": "GHSA-m6vm-37g8-gqvh",
+    "aliases": [
+      "CVE-2023-22102"
+    ],
+    "package": "com.mysql:mysql-connector-j",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '8.2.0'}]",
+    "fixed_version": "8.2.0",
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.3,
+    "epss_score": 0.03493,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "MySQL Connectors takeover vulnerability",
+    "is_dev_only": false
+  },
+  "GHSA-mm8h-8587-p46h": {
+    "vuln_id": "GHSA-mm8h-8587-p46h",
+    "aliases": [
+      "CVE-2023-46120"
+    ],
+    "package": "com.rabbitmq:amqp-client",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '5.18.0'}]",
+    "fixed_version": "5.18.0",
+    "severity_type": "CVSS_V3",
+    "severity_score": 4.9,
+    "epss_score": 0.01,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "RabbitMQ Java client's Lack of Message Size Limitation leads to Remote DoS Attack",
+    "is_dev_only": false
+  },
+  "GHSA-76qr-mmh8-cp8f": {
+    "vuln_id": "GHSA-76qr-mmh8-cp8f",
+    "aliases": [
+      "CVE-2018-9159"
+    ],
+    "package": "com.sparkjava:spark-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '2.7.2'}]",
+    "fixed_version": "2.7.2",
+    "severity_type": "CVSS_V3",
+    "severity_score": 5.3,
+    "epss_score": 0.00372,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Moderate severity vulnerability that affects com.sparkjava:spark-core",
+    "is_dev_only": false
+  },
+  "GHSA-6phf-73q6-gh87": {
+    "vuln_id": "GHSA-6phf-73q6-gh87",
+    "aliases": [
+      "CVE-2019-10086"
+    ],
+    "package": "commons-beanutils:commons-beanutils",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '1.9.4'}]",
+    "fixed_version": "1.9.4",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.3,
+    "epss_score": 0.01239,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Insecure Deserialization in Apache Commons Beanutils",
+    "is_dev_only": false
+  },
+  "GHSA-p66x-2cv9-qq3v": {
+    "vuln_id": "GHSA-p66x-2cv9-qq3v",
+    "aliases": [
+      "CVE-2014-0114"
+    ],
+    "package": "commons-beanutils:commons-beanutils",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '1.8.0'}, {'fixed': '1.9.4'}]",
+    "fixed_version": "1.9.4",
+    "severity_type": "",
+    "severity_score": 0.0,
+    "epss_score": 0.92739,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Arbitrary code execution in Apache Commons BeanUtils",
+    "is_dev_only": false
+  },
+  "GHSA-wxr5-93ph-8wr9": {
+    "vuln_id": "GHSA-wxr5-93ph-8wr9",
+    "aliases": [
+      "CVE-2025-48734"
+    ],
+    "package": "commons-beanutils:commons-beanutils",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '1.0'}, {'fixed': '1.11.0'}]",
+    "fixed_version": "1.11.0",
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.8,
+    "epss_score": 0.00186,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Apache Commons Improper Access Control vulnerability",
+    "is_dev_only": false
+  },
+  "GHSA-6hgm-866r-3cjv": {
+    "vuln_id": "GHSA-6hgm-866r-3cjv",
+    "aliases": [
+      "CVE-2015-6420"
+    ],
+    "package": "commons-collections:commons-collections",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '4.1'}]",
+    "fixed_version": "3.2.2",
+    "severity_type": "",
+    "severity_score": 0.0,
+    "epss_score": 0.212,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Insecure Deserialization in Apache Commons Collection",
+    "is_dev_only": false
+  },
+  "GHSA-fjq5-5j5f-mvxh": {
+    "vuln_id": "GHSA-fjq5-5j5f-mvxh",
+    "aliases": [
+      "CVE-2015-7501"
+    ],
+    "package": "commons-collections:commons-collections",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '3.2.2'}]",
+    "fixed_version": "3.2.2",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.8,
+    "epss_score": 0.71461,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Deserialization of Untrusted Data in Apache commons collections",
+    "is_dev_only": false
+  },
+  "GHSA-pvp8-3xj6-8c6x": {
+    "vuln_id": "GHSA-pvp8-3xj6-8c6x",
+    "aliases": [
+      "CVE-2025-46392"
+    ],
+    "package": "commons-configuration:commons-configuration",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'last_affected': '1.10'}]",
+    "fixed_version": null,
+    "severity_type": "",
+    "severity_score": 0.0,
+    "epss_score": 0.00762,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Apache Commons Configuration Uncontrolled Resource Consumption",
+    "is_dev_only": false
+  },
+  "GHSA-7x9j-7223-rg5m": {
+    "vuln_id": "GHSA-7x9j-7223-rg5m",
+    "aliases": [
+      "CVE-2016-1000031"
+    ],
+    "package": "commons-fileupload:commons-fileupload",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '1.3.3'}]",
+    "fixed_version": "1.3.3",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.8,
+    "epss_score": 0.5067,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Improper Access Control in commons-fileupload",
+    "is_dev_only": false
+  },
+  "GHSA-fvm3-cfvj-gxqq": {
+    "vuln_id": "GHSA-fvm3-cfvj-gxqq",
+    "aliases": [
+      "CVE-2016-3092"
+    ],
+    "package": "commons-fileupload:commons-fileupload",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '1.3.2'}]",
+    "fixed_version": "1.3.2",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.33871,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "High severity vulnerability that affects commons-fileupload:commons-fileupload",
+    "is_dev_only": false
+  },
+  "GHSA-hfrx-6qgj-fp6c": {
+    "vuln_id": "GHSA-hfrx-6qgj-fp6c",
+    "aliases": [
+      "CVE-2023-24998"
+    ],
+    "package": "commons-fileupload:commons-fileupload",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '1.5'}]",
+    "fixed_version": "1.5",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.53531,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Apache Commons FileUpload denial of service vulnerability",
+    "is_dev_only": false
+  },
+  "GHSA-qx6h-9567-5fqw": {
+    "vuln_id": "GHSA-qx6h-9567-5fqw",
+    "aliases": [
+      "CVE-2013-2186"
+    ],
+    "package": "commons-fileupload:commons-fileupload",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '1.3.1'}]",
+    "fixed_version": "1.3.1",
+    "severity_type": "",
+    "severity_score": 0.0,
+    "epss_score": 0.87099,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Arbitrary file write in Apache Commons Fileupload",
+    "is_dev_only": false
+  },
+  "GHSA-vm69-474v-7q2w": {
+    "vuln_id": "GHSA-vm69-474v-7q2w",
+    "aliases": [
+      "CVE-2013-0248"
+    ],
+    "package": "commons-fileupload:commons-fileupload",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '1.0'}, {'fixed': '1.2.2'}]",
+    "fixed_version": "1.2.2",
+    "severity_type": "",
+    "severity_score": 0.0,
+    "epss_score": 0.00068,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Incorrect Default Permissions in Apache Commons FileUpload",
+    "is_dev_only": false
+  },
+  "GHSA-vv7r-c36w-3prj": {
+    "vuln_id": "GHSA-vv7r-c36w-3prj",
+    "aliases": [
+      "CVE-2025-48976"
+    ],
+    "package": "commons-fileupload:commons-fileupload",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '1.0'}, {'fixed': '1.6.0'}]",
+    "fixed_version": "1.6.0",
+    "severity_type": "",
+    "severity_score": 0.0,
+    "epss_score": 0.00439,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Apache Commons FileUpload, Apache Commons FileUpload: FileUpload DoS via part headers",
+    "is_dev_only": false
+  },
+  "GHSA-xx68-jfcg-xmmf": {
+    "vuln_id": "GHSA-xx68-jfcg-xmmf",
+    "aliases": [
+      "CVE-2014-0050"
+    ],
+    "package": "commons-fileupload:commons-fileupload",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '1.3.1'}]",
+    "fixed_version": "1.3.1",
+    "severity_type": "",
+    "severity_score": 0.0,
+    "epss_score": 0.92717,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Commons FileUpload Denial of service vulnerability",
+    "is_dev_only": false
+  },
+  "GHSA-3832-9276-x7gf": {
+    "vuln_id": "GHSA-3832-9276-x7gf",
+    "aliases": [
+      "CVE-2012-5783"
+    ],
+    "package": "commons-httpclient:commons-httpclient",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '3.0'}]",
+    "fixed_version": null,
+    "severity_type": "",
+    "severity_score": 0.0,
+    "epss_score": 0.00616,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Improper Certificate Validation in Apache Commons HttpClient",
+    "is_dev_only": false
+  },
+  "GHSA-gwrp-pvrq-jmwv": {
+    "vuln_id": "GHSA-gwrp-pvrq-jmwv",
+    "aliases": [
+      "CVE-2021-29425"
+    ],
+    "package": "commons-io:commons-io",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '2.7'}]",
+    "fixed_version": "2.7",
+    "severity_type": "CVSS_V3",
+    "severity_score": 4.8,
+    "epss_score": 0.00485,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Path Traversal and Improper Input Validation in Apache Commons IO",
+    "is_dev_only": false
+  },
+  "GHSA-78wr-2p64-hpwj": {
+    "vuln_id": "GHSA-78wr-2p64-hpwj",
+    "aliases": [
+      "CVE-2024-47554"
+    ],
+    "package": "commons-io:commons-io",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.0'}, {'fixed': '2.14.0'}]",
+    "fixed_version": "2.14.0",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.00173,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Apache Commons IO: Possible denial of service attack on untrusted input to XmlStreamReader",
+    "is_dev_only": false
+  },
+  "GHSA-j288-q9x7-2f5v": {
+    "vuln_id": "GHSA-j288-q9x7-2f5v",
+    "aliases": [
+      "CVE-2025-48924"
+    ],
+    "package": "commons-lang:commons-lang",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '3.0'}, {'fixed': '3.18.0'}]",
+    "fixed_version": null,
+    "severity_type": "CVSS_V3",
+    "severity_score": 6.5,
+    "epss_score": 0.00022,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Apache Commons Lang is vulnerable to Uncontrolled Recursion when processing long inputs",
+    "is_dev_only": false
+  },
+  "GHSA-cgp8-4m63-fhh5": {
+    "vuln_id": "GHSA-cgp8-4m63-fhh5",
+    "aliases": [
+      "CVE-2021-37533"
+    ],
+    "package": "commons-net:commons-net",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '3.9.0'}]",
+    "fixed_version": "3.9.0",
+    "severity_type": "CVSS_V3",
+    "severity_score": 6.5,
+    "epss_score": 0.00214,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Apache Commons Net vulnerable to information leakage via malicious server",
+    "is_dev_only": false
+  },
+  "GHSA-cfxw-4h78-h7fw": {
+    "vuln_id": "GHSA-cfxw-4h78-h7fw",
+    "aliases": [
+      "CVE-2024-25638"
+    ],
+    "package": "dnsjava:dnsjava",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '3.6.0'}]",
+    "fixed_version": "3.6.0",
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.9,
+    "epss_score": 0.00188,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "DNSJava DNSSEC Bypass",
+    "is_dev_only": false
+  },
+  "GHSA-pwm3-776c-8q7q": {
+    "vuln_id": "GHSA-pwm3-776c-8q7q",
+    "aliases": [
+      "CVE-2025-4641"
+    ],
+    "package": "io.github.bonigarcia:webdrivermanager",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '1.0.0'}, {'fixed': '6.1.0'}]",
+    "fixed_version": "6.1.0",
+    "severity_type": "",
+    "severity_score": 0.0,
+    "epss_score": 0.00508,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "BoniGarcia WebDriverManager Affected By Improper Restriction of XML External Entity Reference",
+    "is_dev_only": false
+  },
+  "GHSA-prj3-ccx8-p6x4": {
+    "vuln_id": "GHSA-prj3-ccx8-p6x4",
+    "aliases": [
+      "CVE-2025-55163"
+    ],
+    "package": "io.grpc:grpc-netty-shaded",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '4.2.0.Alpha1'}, {'fixed': '4.2.4.Final'}]",
+    "fixed_version": "1.75.0",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.00036,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Netty affected by MadeYouReset HTTP/2 DDoS vulnerability",
+    "is_dev_only": false
+  },
+  "GHSA-m8wh-mqgf-rr8g": {
+    "vuln_id": "GHSA-m8wh-mqgf-rr8g",
+    "aliases": [
+      "CVE-2021-25738"
+    ],
+    "package": "io.kubernetes:client-java",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '11.0.1'}]",
+    "fixed_version": "11.0.1",
+    "severity_type": "CVSS_V3",
+    "severity_score": 6.7,
+    "epss_score": 0.00116,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Code injection in Kubernetes Java Client",
+    "is_dev_only": false
+  },
+  "GHSA-h7rh-xfpj-hpcm": {
+    "vuln_id": "GHSA-h7rh-xfpj-hpcm",
+    "aliases": [
+      "CVE-2025-59952"
+    ],
+    "package": "io.minio:minio",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '8.6.0'}]",
+    "fixed_version": "8.6.0",
+    "severity_type": "",
+    "severity_score": 0.0,
+    "epss_score": 0.00023,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "MinIO Java Client XML Tag Value Substitution Vulnerability",
+    "is_dev_only": false
+  },
+  "GHSA-p979-4mfw-53vg": {
+    "vuln_id": "GHSA-p979-4mfw-53vg",
+    "aliases": [
+      "CVE-2019-16869"
+    ],
+    "package": "io.netty:netty-all",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '4.0.0.Alpha1'}, {'fixed': '4.1.42.Final'}]",
+    "fixed_version": "4.1.42.Final",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.04028,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "HTTP Request Smuggling in Netty",
+    "is_dev_only": false
+  },
+  "GHSA-85xx-xhjm-rhrw": {
+    "vuln_id": "GHSA-85xx-xhjm-rhrw",
+    "aliases": [
+      "CVE-2022-25867"
+    ],
+    "package": "io.socket:socket.io-client",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '2.0.1'}]",
+    "fixed_version": "2.0.1",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.00882,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Socket.IO-client Java before 2.0.1 vulnerable to NULL Pointer Dereference",
+    "is_dev_only": false
+  },
+  "GHSA-c427-hjc3-wrfw": {
+    "vuln_id": "GHSA-c427-hjc3-wrfw",
+    "aliases": [
+      "CVE-2019-17495"
+    ],
+    "package": "io.springfox:springfox-swagger-ui",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '3.23.11'}]",
+    "fixed_version": "2.10.0",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.8,
+    "epss_score": 0.1184,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Cross-site scripting in Swagger-UI",
+    "is_dev_only": false
+  },
+  "GHSA-269g-pwp5-87pp": {
+    "vuln_id": "GHSA-269g-pwp5-87pp",
+    "aliases": [
+      "CVE-2020-15250"
+    ],
+    "package": "junit:junit",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '4.7'}, {'fixed': '4.13.1'}]",
+    "fixed_version": "4.13.1",
+    "severity_type": "CVSS_V3",
+    "severity_score": 4.4,
+    "epss_score": 0.00056,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "TemporaryFolder on unix-like systems does not limit access to created files",
+    "is_dev_only": false
+  },
+  "GHSA-2qrg-x229-3v8q": {
+    "vuln_id": "GHSA-2qrg-x229-3v8q",
+    "aliases": [
+      "CVE-2019-17571"
+    ],
+    "package": "log4j:log4j",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '1.2'}, {'last_affected': '1.2.17'}]",
+    "fixed_version": null,
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.8,
+    "epss_score": 0.37542,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Deserialization of Untrusted Data in Log4j",
+    "is_dev_only": false
+  },
+  "GHSA-65fg-84f6-3jq3": {
+    "vuln_id": "GHSA-65fg-84f6-3jq3",
+    "aliases": [
+      "CVE-2022-23305"
+    ],
+    "package": "log4j:log4j",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'last_affected': '1.2.17'}]",
+    "fixed_version": null,
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.8,
+    "epss_score": 0.07956,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "SQL Injection in Log4j 1.2.x",
+    "is_dev_only": false
+  },
+  "GHSA-f7vh-qwp3-x37m": {
+    "vuln_id": "GHSA-f7vh-qwp3-x37m",
+    "aliases": [
+      "CVE-2022-23307"
+    ],
+    "package": "log4j:log4j",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'last_affected': '1.2.17'}]",
+    "fixed_version": null,
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.8,
+    "epss_score": 0.02155,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Deserialization of Untrusted Data in Apache Log4j",
+    "is_dev_only": false
+  },
+  "GHSA-fp5r-v3w9-4333": {
+    "vuln_id": "GHSA-fp5r-v3w9-4333",
+    "aliases": [
+      "CVE-2021-4104"
+    ],
+    "package": "log4j:log4j",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '1.2.0'}, {'last_affected': '1.2.17'}]",
+    "fixed_version": null,
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.69284,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "JMSAppender in Log4j 1.2 is vulnerable to deserialization of untrusted data",
+    "is_dev_only": false
+  },
+  "GHSA-vp98-w2p3-mv35": {
+    "vuln_id": "GHSA-vp98-w2p3-mv35",
+    "aliases": [
+      "CVE-2023-26464"
+    ],
+    "package": "log4j:log4j",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '1.0.4'}, {'fixed': '2.0'}]",
+    "fixed_version": "2.0",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.00126,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Apache Log4j 1.x (EOL) allows Denial of Service (DoS)",
+    "is_dev_only": false
+  },
+  "GHSA-w9p3-5cr8-m3jj": {
+    "vuln_id": "GHSA-w9p3-5cr8-m3jj",
+    "aliases": [
+      "CVE-2022-23302"
+    ],
+    "package": "log4j:log4j",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'last_affected': '1.2.17'}]",
+    "fixed_version": null,
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.8,
+    "epss_score": 0.00647,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Deserialization of Untrusted Data in Log4j 1.x",
+    "is_dev_only": false
+  },
+  "GHSA-2xxh-f8r3-hvvr": {
+    "vuln_id": "GHSA-2xxh-f8r3-hvvr",
+    "aliases": [
+      "CVE-2017-3523"
+    ],
+    "package": "mysql:mysql-connector-java",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '5.1.41'}]",
+    "fixed_version": "5.1.41",
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.0,
+    "epss_score": 0.01378,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Improper Access Control in MySQL Connectors Java",
+    "is_dev_only": false
+  },
+  "GHSA-4vrv-ch96-6h42": {
+    "vuln_id": "GHSA-4vrv-ch96-6h42",
+    "aliases": [
+      "CVE-2018-3258"
+    ],
+    "package": "mysql:mysql-connector-java",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '8.0.13'}]",
+    "fixed_version": "8.0.13",
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.8,
+    "epss_score": 0.04126,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Improper Privilege Management in MySQL Connectors Java",
+    "is_dev_only": false
+  },
+  "GHSA-cjcf-wm2p-59h5": {
+    "vuln_id": "GHSA-cjcf-wm2p-59h5",
+    "aliases": [
+      "CVE-2017-3589"
+    ],
+    "package": "mysql:mysql-connector-java",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '5.1.42'}]",
+    "fixed_version": "5.1.42",
+    "severity_type": "CVSS_V3",
+    "severity_score": 3.3,
+    "epss_score": 0.0004,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Exposure of Sensitive Information to an Unauthorized Actor in Oracle MySQL Connectors Java",
+    "is_dev_only": false
+  },
+  "GHSA-g76j-4cxx-23h9": {
+    "vuln_id": "GHSA-g76j-4cxx-23h9",
+    "aliases": [
+      "CVE-2022-21363"
+    ],
+    "package": "mysql:mysql-connector-java",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '8.0.28'}]",
+    "fixed_version": "8.0.28",
+    "severity_type": "CVSS_V3",
+    "severity_score": 6.6,
+    "epss_score": 0.00754,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Improper Handling of Insufficient Permissions or Privileges in MySQL Connectors Java",
+    "is_dev_only": false
+  },
+  "GHSA-jcq3-cprp-m333": {
+    "vuln_id": "GHSA-jcq3-cprp-m333",
+    "aliases": [
+      "CVE-2019-2692"
+    ],
+    "package": "mysql:mysql-connector-java",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '8.0.16'}]",
+    "fixed_version": "8.0.16",
+    "severity_type": "CVSS_V3",
+    "severity_score": 6.3,
+    "epss_score": 0.00733,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Privilege escalation in mysql-connector-jav",
+    "is_dev_only": false
+  },
+  "GHSA-pwh7-92h3-mqr6": {
+    "vuln_id": "GHSA-pwh7-92h3-mqr6",
+    "aliases": [
+      "CVE-2017-3586"
+    ],
+    "package": "mysql:mysql-connector-java",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '5.1.42'}]",
+    "fixed_version": "5.1.42",
+    "severity_type": "CVSS_V3",
+    "severity_score": 5.5,
+    "epss_score": 0.0056,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Exposure of Sensitive Information to an Unauthorized Actor in Oracle MySQL Connectors Java",
+    "is_dev_only": false
+  },
+  "GHSA-w6f2-8wx4-47r5": {
+    "vuln_id": "GHSA-w6f2-8wx4-47r5",
+    "aliases": [
+      "CVE-2021-2471"
+    ],
+    "package": "mysql:mysql-connector-java",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '8.0.0'}, {'fixed': '8.0.27'}]",
+    "fixed_version": "8.0.27",
+    "severity_type": "CVSS_V3",
+    "severity_score": 5.9,
+    "epss_score": 0.63823,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Incorrect Authorization in MySQL Connector Java",
+    "is_dev_only": false
+  },
+  "GHSA-7c3f-cg9x-f3gr": {
+    "vuln_id": "GHSA-7c3f-cg9x-f3gr",
+    "aliases": [
+      "CVE-2025-10492"
+    ],
+    "package": "net.sf.jasperreports:jasperreports",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '7.0.4'}]",
+    "fixed_version": "7.0.4",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.8,
+    "epss_score": 0.0038,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "JasperReports has a Java deserialisation vulnerability",
+    "is_dev_only": false
+  },
+  "GHSA-4g9r-vxhx-9pgx": {
+    "vuln_id": "GHSA-4g9r-vxhx-9pgx",
+    "aliases": [
+      "CVE-2024-25710"
+    ],
+    "package": "org.apache.commons:commons-compress",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '1.3'}, {'fixed': '1.26.0'}]",
+    "fixed_version": "1.26.0",
+    "severity_type": "CVSS_V3",
+    "severity_score": 5.9,
+    "epss_score": 0.00018,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Apache Commons Compress: Denial of service caused by an infinite loop for a corrupted DUMP file",
+    "is_dev_only": false
+  },
+  "GHSA-7hfm-57qf-j43q": {
+    "vuln_id": "GHSA-7hfm-57qf-j43q",
+    "aliases": [
+      "CVE-2021-35515"
+    ],
+    "package": "org.apache.commons:commons-compress",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '1.21'}]",
+    "fixed_version": "1.21",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.00598,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Excessive Iteration in Compress",
+    "is_dev_only": false
+  },
+  "GHSA-crv7-7245-f45f": {
+    "vuln_id": "GHSA-crv7-7245-f45f",
+    "aliases": [
+      "CVE-2021-35516"
+    ],
+    "package": "org.apache.commons:commons-compress",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '1.21'}]",
+    "fixed_version": "1.21",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.01402,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Improper Handling of Length Parameter Inconsistency in Compress",
+    "is_dev_only": false
+  },
+  "GHSA-mc84-pj99-q6hh": {
+    "vuln_id": "GHSA-mc84-pj99-q6hh",
+    "aliases": [
+      "CVE-2021-36090"
+    ],
+    "package": "org.apache.commons:commons-compress",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '1.21'}]",
+    "fixed_version": "1.21",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.00592,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Improper Handling of Length Parameter Inconsistency in Compress",
+    "is_dev_only": false
+  },
+  "GHSA-xqfj-vm6h-2x34": {
+    "vuln_id": "GHSA-xqfj-vm6h-2x34",
+    "aliases": [
+      "CVE-2021-35517"
+    ],
+    "package": "org.apache.commons:commons-compress",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '1.21'}]",
+    "fixed_version": "1.21",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.01062,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Improper Handling of Length Parameter Inconsistency in Compress",
+    "is_dev_only": false
+  },
+  "GHSA-hrmr-f5m6-m9pq": {
+    "vuln_id": "GHSA-hrmr-f5m6-m9pq",
+    "aliases": [
+      "CVE-2018-11771"
+    ],
+    "package": "org.apache.commons:commons-compress",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '1.7'}, {'fixed': '1.18'}]",
+    "fixed_version": "1.18",
+    "severity_type": "CVSS_V3",
+    "severity_score": 5.5,
+    "epss_score": 0.01084,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Moderate severity vulnerability that affects org.apache.commons:commons-compress",
+    "is_dev_only": false
+  },
+  "GHSA-73m2-qfq3-56cx": {
+    "vuln_id": "GHSA-73m2-qfq3-56cx",
+    "aliases": [
+      "CVE-2025-27820"
+    ],
+    "package": "org.apache.httpcomponents.client5:httpclient5",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '5.4-alpha1'}, {'fixed': '5.4.3'}]",
+    "fixed_version": "5.4.3",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.00327,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Apache HttpClient disables domain checks",
+    "is_dev_only": false
+  },
+  "GHSA-7r82-7xv7-xcpj": {
+    "vuln_id": "GHSA-7r82-7xv7-xcpj",
+    "aliases": [
+      "CVE-2020-13956"
+    ],
+    "package": "org.apache.httpcomponents:httpclient",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '4.5.13'}]",
+    "fixed_version": "4.5.13",
+    "severity_type": "CVSS_V3",
+    "severity_score": 5.3,
+    "epss_score": 0.00505,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Cross-site scripting in Apache HttpClient",
+    "is_dev_only": false
+  },
+  "GHSA-cfh5-3ghh-wfjx": {
+    "vuln_id": "GHSA-cfh5-3ghh-wfjx",
+    "aliases": [
+      "CVE-2014-3577"
+    ],
+    "package": "org.apache.httpcomponents:httpclient",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '4.3.5'}]",
+    "fixed_version": "4.3.5",
+    "severity_type": "",
+    "severity_score": 0.0,
+    "epss_score": 0.02398,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Improper Verification of Cryptographic Signature in org.apache.httpcomponents:httpclient",
+    "is_dev_only": false
+  },
+  "GHSA-fmj5-wv96-r2ch": {
+    "vuln_id": "GHSA-fmj5-wv96-r2ch",
+    "aliases": [
+      "CVE-2015-5262"
+    ],
+    "package": "org.apache.httpcomponents:httpclient",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '4.3.6'}]",
+    "fixed_version": "4.3.6",
+    "severity_type": "",
+    "severity_score": 0.0,
+    "epss_score": 0.0092,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Denial of service vulnerability in org.apache.httpcomponents:httpclient",
+    "is_dev_only": false
+  },
+  "GHSA-7rjr-3q55-vv33": {
+    "vuln_id": "GHSA-7rjr-3q55-vv33",
+    "aliases": [
+      "CVE-2021-45046"
+    ],
+    "package": "org.apache.logging.log4j:log4j-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.13.0'}, {'fixed': '2.16.0'}]",
+    "fixed_version": "2.16.0",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.0,
+    "epss_score": 0.9434,
+    "in_kev": true,
+    "kev_date_added": "2023-05-01",
+    "kev_due_date": "2023-05-22",
+    "summary": "Incomplete fix for Apache Log4j vulnerability",
+    "is_dev_only": false
+  },
+  "GHSA-8489-44mv-ggj8": {
+    "vuln_id": "GHSA-8489-44mv-ggj8",
+    "aliases": [
+      "CVE-2021-44832"
+    ],
+    "package": "org.apache.logging.log4j:log4j-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.0-beta7'}, {'fixed': '2.3.2'}]",
+    "fixed_version": "2.3.2",
+    "severity_type": "CVSS_V3",
+    "severity_score": 6.6,
+    "epss_score": 0.53648,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Improper Input Validation and Injection in Apache Log4j2",
+    "is_dev_only": false
+  },
+  "GHSA-jfh8-c2jp-5v3q": {
+    "vuln_id": "GHSA-jfh8-c2jp-5v3q",
+    "aliases": [
+      "CVE-2021-44228"
+    ],
+    "package": "org.apache.logging.log4j:log4j-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.13.0'}, {'fixed': '2.15.0'}]",
+    "fixed_version": "2.15.0",
+    "severity_type": "CVSS_V3",
+    "severity_score": 10.0,
+    "epss_score": 0.94358,
+    "in_kev": true,
+    "kev_date_added": "2021-12-10",
+    "kev_due_date": "2021-12-24",
+    "summary": "Remote code injection in Log4j",
+    "is_dev_only": false
+  },
+  "GHSA-p6xc-xr62-6r2g": {
+    "vuln_id": "GHSA-p6xc-xr62-6r2g",
+    "aliases": [
+      "CVE-2021-45105"
+    ],
+    "package": "org.apache.logging.log4j:log4j-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.4.0'}, {'fixed': '2.12.3'}]",
+    "fixed_version": "2.12.3",
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.6,
+    "epss_score": 0.7042,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Apache Log4j2 vulnerable to Improper Input Validation and Uncontrolled Recursion",
+    "is_dev_only": false
+  },
+  "GHSA-vc5p-v9hr-52mj": {
+    "vuln_id": "GHSA-vc5p-v9hr-52mj",
+    "aliases": [
+      "CVE-2025-68161"
+    ],
+    "package": "org.apache.logging.log4j:log4j-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.0-beta9'}, {'fixed': '2.25.3'}]",
+    "fixed_version": "2.25.3",
+    "severity_type": "",
+    "severity_score": 0.0,
+    "epss_score": 0.00034,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Apache Log4j does not verify the TLS hostname in its Socket Appender",
+    "is_dev_only": false
+  },
+  "GHSA-523c-xh4g-mh5m": {
+    "vuln_id": "GHSA-523c-xh4g-mh5m",
+    "aliases": [
+      "CVE-2017-12626"
+    ],
+    "package": "org.apache.poi:poi",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '3.17'}]",
+    "fixed_version": "3.17",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.01272,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Denial of Service in Apache POI",
+    "is_dev_only": false
+  },
+  "GHSA-78vv-qj73-h9m5": {
+    "vuln_id": "GHSA-78vv-qj73-h9m5",
+    "aliases": [
+      "CVE-2017-5644"
+    ],
+    "package": "org.apache.poi:poi",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '3.15'}]",
+    "fixed_version": "3.15",
+    "severity_type": "CVSS_V3",
+    "severity_score": 5.5,
+    "epss_score": 0.0066,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Improper Restriction of Recursive Entity References in DTDs in Apache POI",
+    "is_dev_only": false
+  },
+  "GHSA-9jwc-q6j3-8g9g": {
+    "vuln_id": "GHSA-9jwc-q6j3-8g9g",
+    "aliases": [
+      "CVE-2019-12415"
+    ],
+    "package": "org.apache.poi:poi",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '4.1.1'}]",
+    "fixed_version": "4.1.1",
+    "severity_type": "CVSS_V3",
+    "severity_score": 5.5,
+    "epss_score": 0.00022,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Improper Restriction of XML External Entity Reference in Apache POI ",
+    "is_dev_only": false
+  },
+  "GHSA-x9mm-6gpf-f749": {
+    "vuln_id": "GHSA-x9mm-6gpf-f749",
+    "aliases": [
+      "CVE-2014-9527"
+    ],
+    "package": "org.apache.poi:poi",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '3.11'}]",
+    "fixed_version": "3.11",
+    "severity_type": "",
+    "severity_score": 0.0,
+    "epss_score": 0.01231,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Loop with Unreachable Exit Condition in Apache POI",
+    "is_dev_only": false
+  },
+  "GHSA-pmqq-7wfv-jfff": {
+    "vuln_id": "GHSA-pmqq-7wfv-jfff",
+    "aliases": [
+      "CVE-2016-5000"
+    ],
+    "package": "org.apache.poi:poi-examples",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '3.14'}]",
+    "fixed_version": "3.14",
+    "severity_type": "CVSS_V3",
+    "severity_score": 5.5,
+    "epss_score": 0.0033,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Apache POI's XLSX2CSV Example XML External Entity (XXE) Vulnerability",
+    "is_dev_only": false
+  },
+  "GHSA-gmg8-593g-7mv3": {
+    "vuln_id": "GHSA-gmg8-593g-7mv3",
+    "aliases": [
+      "CVE-2025-31672"
+    ],
+    "package": "org.apache.poi:poi-ooxml",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '5.4.0'}]",
+    "fixed_version": "5.4.0",
+    "severity_type": "CVSS_V3",
+    "severity_score": 5.3,
+    "epss_score": 0.01006,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Apache POI OOXML Vulnerable to Improper Input Validation in OOXML File Parsing",
+    "is_dev_only": false
+  },
+  "GHSA-jqx5-h2hw-5q4f": {
+    "vuln_id": "GHSA-jqx5-h2hw-5q4f",
+    "aliases": [
+      "CVE-2012-0213"
+    ],
+    "package": "org.apache.poi:poi-scratchpad",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '3.10-beta1'}]",
+    "fixed_version": "3.10-beta1",
+    "severity_type": "",
+    "severity_score": 0.0,
+    "epss_score": 0.13063,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Denial of Service in Apache POI",
+    "is_dev_only": false
+  },
+  "GHSA-mqvp-7rrg-9jxc": {
+    "vuln_id": "GHSA-mqvp-7rrg-9jxc",
+    "aliases": [
+      "CVE-2022-26336"
+    ],
+    "package": "org.apache.poi:poi-scratchpad",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '3.8-beta1'}, {'fixed': '5.2.1'}]",
+    "fixed_version": "5.2.1",
+    "severity_type": "CVSS_V3",
+    "severity_score": 5.5,
+    "epss_score": 0.00042,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Improper Input Validation and Allocation of Resources Without Limits or Throttling in poi-scratchpad",
+    "is_dev_only": false
+  },
+  "GHSA-329j-jfvr-rhr6": {
+    "vuln_id": "GHSA-329j-jfvr-rhr6",
+    "aliases": [
+      "BIT-spark-2023-22946",
+      "CVE-2023-22946",
+      "PYSEC-2023-44"
+    ],
+    "package": "org.apache.spark:spark-core_2.12",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '3.3.3'}]",
+    "fixed_version": "3.3.3",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.1,
+    "epss_score": 0.00368,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Apache Spark vulnerable to Improper Privilege Management",
+    "is_dev_only": false
+  },
+  "GHSA-43xg-8wmj-cw8h": {
+    "vuln_id": "GHSA-43xg-8wmj-cw8h",
+    "aliases": [
+      "BIT-spark-2022-31777",
+      "CVE-2022-31777",
+      "PYSEC-2022-42976"
+    ],
+    "package": "org.apache.spark:spark-core_2.12",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '3.2.2'}]",
+    "fixed_version": "3.2.2",
+    "severity_type": "CVSS_V3",
+    "severity_score": 4.8,
+    "epss_score": 0.00126,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Apache Spark vulnerable to Log Injection",
+    "is_dev_only": false
+  },
+  "GHSA-jwp6-cvj8-fw65": {
+    "vuln_id": "GHSA-jwp6-cvj8-fw65",
+    "aliases": [
+      "BIT-spark-2025-54920",
+      "CVE-2025-54920"
+    ],
+    "package": "org.apache.spark:spark-core_2.12",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '4.0.0'}, {'fixed': '4.0.1'}]",
+    "fixed_version": "3.5.7",
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.8,
+    "epss_score": 0.00498,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Apache Spark: Spark History Server Code Execution Vulnerability",
+    "is_dev_only": false
+  },
+  "GHSA-2j39-qcjm-428w": {
+    "vuln_id": "GHSA-2j39-qcjm-428w",
+    "aliases": [
+      "CVE-2023-50164"
+    ],
+    "package": "org.apache.struts:struts2-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.0.0'}, {'fixed': '2.5.33'}]",
+    "fixed_version": "2.5.33",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.8,
+    "epss_score": 0.93657,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Apache Struts vulnerable to path traversal",
+    "is_dev_only": false
+  },
+  "GHSA-43mq-6xmg-29vm": {
+    "vuln_id": "GHSA-43mq-6xmg-29vm",
+    "aliases": [
+      "CVE-2024-53677"
+    ],
+    "package": "org.apache.struts:struts2-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '6.4.0'}]",
+    "fixed_version": "6.4.0",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.8,
+    "epss_score": 0.91785,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Apache Struts file upload logic is flawed",
+    "is_dev_only": false
+  },
+  "GHSA-4g42-gqrg-4633": {
+    "vuln_id": "GHSA-4g42-gqrg-4633",
+    "aliases": [
+      "CVE-2023-34396"
+    ],
+    "package": "org.apache.struts:struts2-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '2.5.31'}]",
+    "fixed_version": "2.5.31",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.00115,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Apache Struts vulnerable to memory exhaustion",
+    "is_dev_only": false
+  },
+  "GHSA-729q-fcgp-r5xh": {
+    "vuln_id": "GHSA-729q-fcgp-r5xh",
+    "aliases": [
+      "CVE-2023-41835"
+    ],
+    "package": "org.apache.struts:struts2-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '6.2.0'}, {'fixed': '6.3.0.1'}]",
+    "fixed_version": "6.3.0.1",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.00224,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Apache Struts Improper Control of Dynamically-Managed Code Resources vulnerability",
+    "is_dev_only": false
+  },
+  "GHSA-86vq-8qhc-5rqw": {
+    "vuln_id": "GHSA-86vq-8qhc-5rqw",
+    "aliases": [
+      "CVE-2016-8738"
+    ],
+    "package": "org.apache.struts:struts2-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.5.0'}, {'fixed': '2.5.13'}]",
+    "fixed_version": "2.5.13",
+    "severity_type": "CVSS_V3",
+    "severity_score": 5.9,
+    "epss_score": 0.01107,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Apache Struts vulnerable to possible DoS attack when using URLValidator",
+    "is_dev_only": false
+  },
+  "GHSA-8f6x-v685-g2xc": {
+    "vuln_id": "GHSA-8f6x-v685-g2xc",
+    "aliases": [
+      "CVE-2023-34149"
+    ],
+    "package": "org.apache.struts:struts2-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '2.5.31'}]",
+    "fixed_version": "2.5.31",
+    "severity_type": "CVSS_V3",
+    "severity_score": 6.5,
+    "epss_score": 0.00062,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Apache Struts vulnerable to memory exhaustion",
+    "is_dev_only": false
+  },
+  "GHSA-8fx9-5hx8-crhm": {
+    "vuln_id": "GHSA-8fx9-5hx8-crhm",
+    "aliases": [
+      "CVE-2017-12611"
+    ],
+    "package": "org.apache.struts:struts2-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.0.1'}, {'fixed': '2.3.34'}]",
+    "fixed_version": "2.3.34",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.8,
+    "epss_score": 0.94228,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Apache Struts 2.0.1 uses an unintentional expression in a Freemarker tag instead of string literal",
+    "is_dev_only": false
+  },
+  "GHSA-8m5q-crqq-6pmf": {
+    "vuln_id": "GHSA-8m5q-crqq-6pmf",
+    "aliases": [
+      "CVE-2012-1592"
+    ],
+    "package": "org.apache.struts:struts2-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.0'}, {'fixed': '2.5.22'}]",
+    "fixed_version": "2.5.22",
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.8,
+    "epss_score": 0.00588,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Unrestricted Upload of File with Dangerous Type in Apache Struts2",
+    "is_dev_only": false
+  },
+  "GHSA-8mr5-h28g-36qx": {
+    "vuln_id": "GHSA-8mr5-h28g-36qx",
+    "aliases": [
+      "CVE-2017-9787"
+    ],
+    "package": "org.apache.struts:struts2-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.3.7'}, {'fixed': '2.3.33'}]",
+    "fixed_version": "2.3.33",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.08229,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Spring AOP functionality (Struts) vulnerable to DoS attack",
+    "is_dev_only": false
+  },
+  "GHSA-9gp7-jvm2-r4mx": {
+    "vuln_id": "GHSA-9gp7-jvm2-r4mx",
+    "aliases": [
+      "CVE-2017-7672"
+    ],
+    "package": "org.apache.struts:struts2-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.5.0'}, {'fixed': '2.5.12'}]",
+    "fixed_version": "2.5.12",
+    "severity_type": "CVSS_V3",
+    "severity_score": 5.9,
+    "epss_score": 0.01346,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Apache Struts Improper Input Validation vulnerability",
+    "is_dev_only": false
+  },
+  "GHSA-ccp5-gg58-pxfm": {
+    "vuln_id": "GHSA-ccp5-gg58-pxfm",
+    "aliases": [
+      "CVE-2019-0233"
+    ],
+    "package": "org.apache.struts:struts2-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.0.0'}, {'fixed': '2.5.22'}]",
+    "fixed_version": "2.5.22",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.0778,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Improper Preservation of Permissions in Apache Struts",
+    "is_dev_only": false
+  },
+  "GHSA-cr6j-3jp9-rw65": {
+    "vuln_id": "GHSA-cr6j-3jp9-rw65",
+    "aliases": [
+      "CVE-2018-11776"
+    ],
+    "package": "org.apache.struts:struts2-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.0.4'}, {'fixed': '2.3.35'}]",
+    "fixed_version": "2.3.35",
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.1,
+    "epss_score": 0.94431,
+    "in_kev": true,
+    "kev_date_added": "2021-11-03",
+    "kev_due_date": "2022-05-03",
+    "summary": "Apache Struts vulnerable to remote command execution (RCE) due to improper input validation",
+    "is_dev_only": false
+  },
+  "GHSA-j77q-2qqg-6989": {
+    "vuln_id": "GHSA-j77q-2qqg-6989",
+    "aliases": [
+      "CVE-2017-5638"
+    ],
+    "package": "org.apache.struts:struts2-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.3.0'}, {'fixed': '2.3.32'}]",
+    "fixed_version": "2.3.32",
+    "severity_type": "CVSS_V3",
+    "severity_score": 10.0,
+    "epss_score": 0.94267,
+    "in_kev": true,
+    "kev_date_added": "2021-11-03",
+    "kev_due_date": "2022-05-03",
+    "summary": "Apache Struts vulnerable to remote arbitrary command execution due to improper input validation",
+    "is_dev_only": false
+  },
+  "GHSA-jc35-q369-45pv": {
+    "vuln_id": "GHSA-jc35-q369-45pv",
+    "aliases": [
+      "CVE-2020-17530"
+    ],
+    "package": "org.apache.struts:struts2-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.0.0'}, {'fixed': '2.5.26'}]",
+    "fixed_version": "2.5.26",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.8,
+    "epss_score": 0.94376,
+    "in_kev": true,
+    "kev_date_added": "2021-11-03",
+    "kev_due_date": "2022-05-03",
+    "summary": "Remote code execution in Apache Struts",
+    "is_dev_only": false
+  },
+  "GHSA-qcfc-hmrc-59x7": {
+    "vuln_id": "GHSA-qcfc-hmrc-59x7",
+    "aliases": [
+      "CVE-2025-68493"
+    ],
+    "package": "org.apache.struts:struts2-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.0.0'}, {'last_affected': '2.3.37'}]",
+    "fixed_version": "6.1.1",
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.1,
+    "epss_score": 0.00027,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Apache Struts 2 is Missing XML Validation",
+    "is_dev_only": false
+  },
+  "GHSA-rg58-xhh7-mqjw": {
+    "vuln_id": "GHSA-rg58-xhh7-mqjw",
+    "aliases": [
+      "CVE-2025-66675"
+    ],
+    "package": "org.apache.struts:struts2-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.0.0'}, {'fixed': '6.8.0'}]",
+    "fixed_version": "6.8.0",
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.2,
+    "epss_score": 0.00124,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Apache Struts has a Denial of Service vulnerability",
+    "is_dev_only": false
+  },
+  "GHSA-v8j6-6c2r-r27c": {
+    "vuln_id": "GHSA-v8j6-6c2r-r27c",
+    "aliases": [
+      "CVE-2021-31805"
+    ],
+    "package": "org.apache.struts:struts2-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.0.0'}, {'fixed': '2.5.30'}]",
+    "fixed_version": "2.5.30",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.8,
+    "epss_score": 0.93956,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Expression Language Injection in Apache Struts",
+    "is_dev_only": false
+  },
+  "GHSA-wp4h-pvgw-5727": {
+    "vuln_id": "GHSA-wp4h-pvgw-5727",
+    "aliases": [
+      "CVE-2019-0230"
+    ],
+    "package": "org.apache.struts:struts2-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.0.0'}, {'fixed': '2.5.22'}]",
+    "fixed_version": "2.5.22",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.8,
+    "epss_score": 0.93727,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Improperly Controlled Modification of Dynamically-Determined Object Attributes in Apache Struts",
+    "is_dev_only": false
+  },
+  "GHSA-x5x7-3v85-wpc4": {
+    "vuln_id": "GHSA-x5x7-3v85-wpc4",
+    "aliases": [
+      "CVE-2017-9804"
+    ],
+    "package": "org.apache.struts:struts2-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.3.7'}, {'fixed': '2.3.34'}]",
+    "fixed_version": "2.3.34",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.04618,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Apache Struts allows entering a custom URL in a form field if built-in URLValidator is used",
+    "is_dev_only": false
+  },
+  "GHSA-xg75-68x3-7p3q": {
+    "vuln_id": "GHSA-xg75-68x3-7p3q",
+    "aliases": [
+      "CVE-2016-4465"
+    ],
+    "package": "org.apache.struts:struts2-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.3.20'}, {'fixed': '2.3.29'}]",
+    "fixed_version": "2.3.29",
+    "severity_type": "CVSS_V3",
+    "severity_score": 5.3,
+    "epss_score": 0.10357,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Apache Struts vulnerable to possible DoS attack when using URLValidator",
+    "is_dev_only": false
+  },
+  "GHSA-xm92-v2mq-842q": {
+    "vuln_id": "GHSA-xm92-v2mq-842q",
+    "aliases": [
+      "CVE-2016-4436"
+    ],
+    "package": "org.apache.struts:struts2-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.0.0'}, {'fixed': '2.3.29'}]",
+    "fixed_version": "2.3.29",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.8,
+    "epss_score": 0.04767,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Apache Struts improper action name cleanup",
+    "is_dev_only": false
+  },
+  "GHSA-xx7v-hqxh-cjr9": {
+    "vuln_id": "GHSA-xx7v-hqxh-cjr9",
+    "aliases": [
+      "CVE-2025-64775"
+    ],
+    "package": "org.apache.struts:struts2-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '6.0.0'}, {'fixed': '6.8.0'}]",
+    "fixed_version": "6.8.0",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.00105,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Apache Struts is Vulnerable to DoS via File Leak",
+    "is_dev_only": false
+  },
+  "GHSA-f58c-gq56-vjjf": {
+    "vuln_id": "GHSA-f58c-gq56-vjjf",
+    "aliases": [
+      "CVE-2025-66516"
+    ],
+    "package": "org.apache.tika:tika-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '1.13'}, {'fixed': '3.2.2'}]",
+    "fixed_version": "3.2.2",
+    "severity_type": "",
+    "severity_score": 0.0,
+    "epss_score": 0.01458,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Apache Tika has XXE vulnerability",
+    "is_dev_only": false
+  },
+  "GHSA-rpjm-422r-95mh": {
+    "vuln_id": "GHSA-rpjm-422r-95mh",
+    "aliases": [
+      "CVE-2022-30126"
+    ],
+    "package": "org.apache.tika:tika-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '1.17'}, {'fixed': '1.28.2'}]",
+    "fixed_version": "1.28.2",
+    "severity_type": "CVSS_V3",
+    "severity_score": 5.5,
+    "epss_score": 0.01313,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Regular expression denial of service in apache tika",
+    "is_dev_only": false
+  },
+  "GHSA-qw4h-3xjj-84cc": {
+    "vuln_id": "GHSA-qw4h-3xjj-84cc",
+    "aliases": [
+      "CVE-2023-49735"
+    ],
+    "package": "org.apache.tiles:tiles-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.0.0'}]",
+    "fixed_version": null,
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.00856,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Apache Tiles: Unvalidated input may lead to path traversal and XXE",
+    "is_dev_only": false
+  },
+  "GHSA-p22x-g9px-3945": {
+    "vuln_id": "GHSA-p22x-g9px-3945",
+    "aliases": [
+      "BIT-tomcat-2022-42252",
+      "CVE-2022-42252"
+    ],
+    "package": "org.apache.tomcat.embed:tomcat-embed-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '8.5.0'}, {'fixed': '8.5.83'}]",
+    "fixed_version": "8.5.83",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.00158,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Apache Tomcat may reject request containing invalid Content-Length header",
+    "is_dev_only": false
+  },
+  "GHSA-qppj-fm5r-hxr3": {
+    "vuln_id": "GHSA-qppj-fm5r-hxr3",
+    "aliases": [
+      "BIT-apisix-2023-44487",
+      "BIT-aspnet-core-2023-44487",
+      "BIT-contour-2023-44487",
+      "BIT-dotnet-2023-44487",
+      "BIT-dotnet-sdk-2023-44487",
+      "BIT-envoy-2023-44487",
+      "BIT-golang-2023-44487",
+      "BIT-jenkins-2023-44487",
+      "BIT-kong-2023-44487",
+      "BIT-nginx-2023-44487",
+      "BIT-nginx-gateway-2023-44487",
+      "BIT-nginx-ingress-controller-2023-44487",
+      "BIT-node-2023-44487",
+      "BIT-node-min-2023-44487",
+      "BIT-solr-2023-44487",
+      "BIT-tomcat-2023-44487",
+      "BIT-varnish-2023-44487",
+      "CVE-2023-44487"
+    ],
+    "package": "org.apache.tomcat.embed:tomcat-embed-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '1.28.0'}]",
+    "fixed_version": "11.0.0-M12",
+    "severity_type": "CVSS_V3",
+    "severity_score": 5.3,
+    "epss_score": 0.94491,
+    "in_kev": true,
+    "kev_date_added": "2023-10-10",
+    "kev_due_date": "2023-10-31",
+    "summary": "HTTP/2 Stream Cancellation Attack",
+    "is_dev_only": false
+  },
+  "GHSA-25xr-qj8w-c4vf": {
+    "vuln_id": "GHSA-25xr-qj8w-c4vf",
+    "aliases": [
+      "BIT-tomcat-2025-53506",
+      "CVE-2025-53506"
+    ],
+    "package": "org.apache.tomcat.embed:tomcat-embed-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '11.0.0-M1'}, {'fixed': '11.0.9'}]",
+    "fixed_version": "9.0.107",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.00324,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Apache Tomcat Coyote vulnerable to Denial of Service via excessive HTTP/2 streams",
+    "is_dev_only": false
+  },
+  "GHSA-27hp-xhwr-wr2m": {
+    "vuln_id": "GHSA-27hp-xhwr-wr2m",
+    "aliases": [
+      "BIT-tomcat-2024-56337",
+      "CVE-2024-56337"
+    ],
+    "package": "org.apache.tomcat.embed:tomcat-embed-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '11.0.0-M1'}, {'fixed': '11.0.2'}]",
+    "fixed_version": "11.0.2",
+    "severity_type": "",
+    "severity_score": 0.0,
+    "epss_score": 0.10134,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Apache Tomcat Time-of-check Time-of-use (TOCTOU) Race Condition vulnerability",
+    "is_dev_only": false
+  },
+  "GHSA-2rvv-w9r2-rg7m": {
+    "vuln_id": "GHSA-2rvv-w9r2-rg7m",
+    "aliases": [
+      "BIT-tomcat-2021-24122",
+      "CVE-2021-24122"
+    ],
+    "package": "org.apache.tomcat.embed:tomcat-embed-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '10.0.0-M1'}, {'fixed': '10.0.0-M10'}]",
+    "fixed_version": "10.0.0-M10",
+    "severity_type": "CVSS_V3",
+    "severity_score": 5.9,
+    "epss_score": 0.53943,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Information Disclosure in Apache Tomcat",
+    "is_dev_only": false
+  },
+  "GHSA-42wg-hm62-jcwg": {
+    "vuln_id": "GHSA-42wg-hm62-jcwg",
+    "aliases": [
+      "BIT-tomcat-2025-49124",
+      "CVE-2025-49124"
+    ],
+    "package": "org.apache.tomcat.embed:tomcat-embed-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '11.0.0-M1'}, {'fixed': '11.0.8'}]",
+    "fixed_version": "11.0.8",
+    "severity_type": "",
+    "severity_score": 0.0,
+    "epss_score": 0.00062,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Apache Tomcat installer for Windows has an untrusted search path vulnerability",
+    "is_dev_only": false
+  },
+  "GHSA-5j33-cvvr-w245": {
+    "vuln_id": "GHSA-5j33-cvvr-w245",
+    "aliases": [
+      "BIT-tomcat-2024-50379",
+      "CVE-2024-50379"
+    ],
+    "package": "org.apache.tomcat.embed:tomcat-embed-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '11.0.0-M1'}, {'fixed': '11.0.2'}]",
+    "fixed_version": "11.0.2",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.8,
+    "epss_score": 0.87447,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Apache Tomcat Time-of-check Time-of-use (TOCTOU) Race Condition vulnerability",
+    "is_dev_only": false
+  },
+  "GHSA-767j-jfh2-jvrc": {
+    "vuln_id": "GHSA-767j-jfh2-jvrc",
+    "aliases": [
+      "CVE-2019-17569"
+    ],
+    "package": "org.apache.tomcat.embed:tomcat-embed-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '7.0.98'}, {'fixed': '7.0.100'}]",
+    "fixed_version": "7.0.100",
+    "severity_type": "CVSS_V3",
+    "severity_score": 4.8,
+    "epss_score": 0.06063,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Potential HTTP request smuggling in Apache Tomcat",
+    "is_dev_only": false
+  },
+  "GHSA-7w75-32cg-r6g2": {
+    "vuln_id": "GHSA-7w75-32cg-r6g2",
+    "aliases": [
+      "BIT-tomcat-2024-24549",
+      "CVE-2024-24549"
+    ],
+    "package": "org.apache.tomcat.embed:tomcat-embed-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '11.0.0-M1'}, {'fixed': '11.0.0-M17'}]",
+    "fixed_version": "8.5.99",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.53028,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Apache Tomcat Denial of Service due to improper input validation vulnerability for HTTP/2 requests",
+    "is_dev_only": false
+  },
+  "GHSA-83qj-6fr2-vhqg": {
+    "vuln_id": "GHSA-83qj-6fr2-vhqg",
+    "aliases": [
+      "BIT-tomcat-2025-24813",
+      "CVE-2025-24813"
+    ],
+    "package": "org.apache.tomcat.embed:tomcat-embed-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '11.0.0-M1'}, {'fixed': '11.0.3'}]",
+    "fixed_version": "11.0.3",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.8,
+    "epss_score": 0.94165,
+    "in_kev": true,
+    "kev_date_added": "2025-04-01",
+    "kev_due_date": "2025-04-22",
+    "summary": "Apache Tomcat: Potential RCE and/or information disclosure and/or information corruption with partial PUT",
+    "is_dev_only": false
+  },
+  "GHSA-9xcj-c8cr-8c3c": {
+    "vuln_id": "GHSA-9xcj-c8cr-8c3c",
+    "aliases": [
+      "CVE-2019-17563"
+    ],
+    "package": "org.apache.tomcat.embed:tomcat-embed-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '7.0.99'}]",
+    "fixed_version": "7.0.99",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.02427,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "In Apache Tomcat, when using FORM authentication there was a narrow window where an attacker could perform a session fixation attack",
+    "is_dev_only": false
+  },
+  "GHSA-c9hw-wf7x-jp9j": {
+    "vuln_id": "GHSA-c9hw-wf7x-jp9j",
+    "aliases": [
+      "BIT-tomcat-2020-1938",
+      "CVE-2020-1938"
+    ],
+    "package": "org.apache.tomcat.embed:tomcat-embed-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '9.0.0'}, {'fixed': '9.0.31'}]",
+    "fixed_version": "9.0.31",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.8,
+    "epss_score": 0.94469,
+    "in_kev": true,
+    "kev_date_added": "2022-03-03",
+    "kev_due_date": "2022-03-17",
+    "summary": "Improper Privilege Management in Tomcat",
+    "is_dev_only": false
+  },
+  "GHSA-fccv-jmmp-qg76": {
+    "vuln_id": "GHSA-fccv-jmmp-qg76",
+    "aliases": [
+      "BIT-tomcat-2023-46589",
+      "CVE-2023-46589"
+    ],
+    "package": "org.apache.tomcat.embed:tomcat-embed-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '11.0.0-M1'}, {'fixed': '11.0.0-M11'}]",
+    "fixed_version": "11.0.0-M11",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.53163,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Apache Tomcat Improper Input Validation vulnerability",
+    "is_dev_only": false
+  },
+  "GHSA-fpj8-gq4v-p354": {
+    "vuln_id": "GHSA-fpj8-gq4v-p354",
+    "aliases": [
+      "BIT-tomcat-2025-66614",
+      "CVE-2025-66614"
+    ],
+    "package": "org.apache.tomcat.embed:tomcat-embed-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '11.0.0-M1'}, {'fixed': '11.0.15'}]",
+    "fixed_version": "11.0.15",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.1,
+    "epss_score": 0.00043,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Apache Tomcat - Client certificate verification bypass",
+    "is_dev_only": false
+  },
+  "GHSA-g8pj-r55q-5c2v": {
+    "vuln_id": "GHSA-g8pj-r55q-5c2v",
+    "aliases": [
+      "BIT-tomcat-2023-42795",
+      "CVE-2023-42795"
+    ],
+    "package": "org.apache.tomcat.embed:tomcat-embed-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '11.0.0-M1'}, {'fixed': '11.0.0-M12'}]",
+    "fixed_version": "11.0.0-M12",
+    "severity_type": "CVSS_V3",
+    "severity_score": 5.3,
+    "epss_score": 0.00692,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Apache Tomcat Incomplete Cleanup vulnerability",
+    "is_dev_only": false
+  },
+  "GHSA-gqp3-2cvr-x8m3": {
+    "vuln_id": "GHSA-gqp3-2cvr-x8m3",
+    "aliases": [
+      "BIT-tomcat-2025-48989",
+      "CVE-2025-48989"
+    ],
+    "package": "org.apache.tomcat.embed:tomcat-embed-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '11.0.0-M1'}, {'fixed': '11.0.10'}]",
+    "fixed_version": "11.0.10",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.00241,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Apache Tomcat Improper Resource Shutdown or Release vulnerability",
+    "is_dev_only": false
+  },
+  "GHSA-h2fw-rfh5-95r3": {
+    "vuln_id": "GHSA-h2fw-rfh5-95r3",
+    "aliases": [
+      "BIT-tomcat-2025-46701",
+      "CVE-2025-46701"
+    ],
+    "package": "org.apache.tomcat.embed:tomcat-embed-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '9.0.0.M1'}, {'fixed': '9.0.105'}]",
+    "fixed_version": "9.0.105",
+    "severity_type": "",
+    "severity_score": 0.0,
+    "epss_score": 0.00132,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Apache Tomcat - CGI security constraint bypass",
+    "is_dev_only": false
+  },
+  "GHSA-h3gc-qfqq-6h8f": {
+    "vuln_id": "GHSA-h3gc-qfqq-6h8f",
+    "aliases": [
+      "BIT-tomcat-2025-48988",
+      "CVE-2025-48988"
+    ],
+    "package": "org.apache.tomcat.embed:tomcat-embed-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '11.0.0-M1'}, {'fixed': '11.0.8'}]",
+    "fixed_version": "11.0.8",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.0026,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Apache Tomcat - DoS in multipart upload",
+    "is_dev_only": false
+  },
+  "GHSA-hgrr-935x-pq79": {
+    "vuln_id": "GHSA-hgrr-935x-pq79",
+    "aliases": [
+      "BIT-tomcat-2025-61795",
+      "CVE-2025-61795"
+    ],
+    "package": "org.apache.tomcat.embed:tomcat-embed-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '11.0.0-M1'}, {'fixed': '11.0.12'}]",
+    "fixed_version": "11.0.12",
+    "severity_type": "",
+    "severity_score": 0.0,
+    "epss_score": 0.00089,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Apache Tomcat Vulnerable to Improper Resource Shutdown or Release",
+    "is_dev_only": false
+  },
+  "GHSA-j39c-c8hj-x4j3": {
+    "vuln_id": "GHSA-j39c-c8hj-x4j3",
+    "aliases": [
+      "BIT-tomcat-2021-25122",
+      "CVE-2021-25122"
+    ],
+    "package": "org.apache.tomcat.embed:tomcat-embed-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '10.0.0'}, {'fixed': '10.0.2'}]",
+    "fixed_version": "10.0.2",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.02775,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Exposure of Sensitive Information to an Unauthorized Actor in Apache Tomcat",
+    "is_dev_only": false
+  },
+  "GHSA-jgwr-3qm3-26f3": {
+    "vuln_id": "GHSA-jgwr-3qm3-26f3",
+    "aliases": [
+      "BIT-tomcat-2021-25329",
+      "CVE-2021-25329"
+    ],
+    "package": "org.apache.tomcat.embed:tomcat-embed-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '10.0.0-M1'}, {'fixed': '10.0.2'}]",
+    "fixed_version": "10.0.2",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.0,
+    "epss_score": 0.00802,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Potential remote code execution in Apache Tomcat",
+    "is_dev_only": false
+  },
+  "GHSA-q3mw-pvr8-9ggc": {
+    "vuln_id": "GHSA-q3mw-pvr8-9ggc",
+    "aliases": [
+      "BIT-tomcat-2023-41080",
+      "CVE-2023-41080"
+    ],
+    "package": "org.apache.tomcat.embed:tomcat-embed-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '11.0.0-M1'}, {'fixed': '11.0.0-M11'}]",
+    "fixed_version": "8.5.93",
+    "severity_type": "CVSS_V3",
+    "severity_score": 6.1,
+    "epss_score": 0.13662,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Apache Tomcat Open Redirect vulnerability",
+    "is_dev_only": false
+  },
+  "GHSA-qq5r-98hh-rxc9": {
+    "vuln_id": "GHSA-qq5r-98hh-rxc9",
+    "aliases": [
+      "BIT-tomcat-2026-24733",
+      "CVE-2026-24733"
+    ],
+    "package": "org.apache.tomcat.embed:tomcat-embed-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '11.0.0-M1'}, {'fixed': '11.0.15'}]",
+    "fixed_version": "11.0.15",
+    "severity_type": "",
+    "severity_score": 0.0,
+    "epss_score": 0.00185,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Apache Tomcat - Security constraint bypass with HTTP/0.9",
+    "is_dev_only": false
+  },
+  "GHSA-qxf4-chvg-4r8r": {
+    "vuln_id": "GHSA-qxf4-chvg-4r8r",
+    "aliases": [
+      "BIT-tomcat-2020-1935",
+      "CVE-2020-1935"
+    ],
+    "package": "org.apache.tomcat.embed:tomcat-embed-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '7.0.100'}]",
+    "fixed_version": "7.0.100",
+    "severity_type": "CVSS_V3",
+    "severity_score": 4.8,
+    "epss_score": 0.0101,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Potential HTTP request smuggling in Apache Tomcat",
+    "is_dev_only": false
+  },
+  "GHSA-r6j3-px5g-cq3x": {
+    "vuln_id": "GHSA-r6j3-px5g-cq3x",
+    "aliases": [
+      "BIT-tomcat-2023-45648",
+      "CVE-2023-45648"
+    ],
+    "package": "org.apache.tomcat.embed:tomcat-embed-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '11.0.0-M1'}, {'fixed': '11.0.0-M12'}]",
+    "fixed_version": "11.0.0-M12",
+    "severity_type": "CVSS_V3",
+    "severity_score": 5.3,
+    "epss_score": 0.62371,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Apache Tomcat Improper Input Validation vulnerability",
+    "is_dev_only": false
+  },
+  "GHSA-wc4r-xq3c-5cf3": {
+    "vuln_id": "GHSA-wc4r-xq3c-5cf3",
+    "aliases": [
+      "BIT-tomcat-2025-49125",
+      "CVE-2025-49125"
+    ],
+    "package": "org.apache.tomcat.embed:tomcat-embed-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '11.0.0-M1'}, {'fixed': '11.0.8'}]",
+    "fixed_version": "11.0.8",
+    "severity_type": "",
+    "severity_score": 0.0,
+    "epss_score": 0.00151,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Apache Tomcat - Security constraint bypass for pre/post-resources",
+    "is_dev_only": false
+  },
+  "GHSA-wm9w-rjj3-j356": {
+    "vuln_id": "GHSA-wm9w-rjj3-j356",
+    "aliases": [
+      "BIT-tomcat-2024-34750",
+      "CVE-2024-34750"
+    ],
+    "package": "org.apache.tomcat.embed:tomcat-embed-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '11.0.0-M1'}, {'fixed': '11.0.0-M21'}]",
+    "fixed_version": "11.0.0-M21",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.17622,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Apache Tomcat - Denial of Service",
+    "is_dev_only": false
+  },
+  "GHSA-wmwf-9ccg-fff5": {
+    "vuln_id": "GHSA-wmwf-9ccg-fff5",
+    "aliases": [
+      "BIT-tomcat-2025-55752",
+      "CVE-2025-55752"
+    ],
+    "package": "org.apache.tomcat.embed:tomcat-embed-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '11.0.0-M1'}, {'fixed': '11.0.11'}]",
+    "fixed_version": "11.0.11",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.0017,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Apache Tomcat Vulnerable to Relative Path Traversal",
+    "is_dev_only": false
+  },
+  "GHSA-wr62-c79q-cv37": {
+    "vuln_id": "GHSA-wr62-c79q-cv37",
+    "aliases": [
+      "BIT-tomcat-2025-52520",
+      "CVE-2025-52520"
+    ],
+    "package": "org.apache.tomcat.embed:tomcat-embed-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '11.0.0-M1'}, {'fixed': '11.0.9'}]",
+    "fixed_version": "11.0.9",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.00176,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Apache Tomcat Catalina is vulnerable to DoS attack through bypassing of size limits",
+    "is_dev_only": false
+  },
+  "GHSA-344f-f5vg-2jfj": {
+    "vuln_id": "GHSA-344f-f5vg-2jfj",
+    "aliases": [
+      "BIT-tomcat-2020-9484",
+      "CVE-2020-9484"
+    ],
+    "package": "org.apache.tomcat:tomcat-catalina",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '10.0.0-M1'}, {'fixed': '10.0.0-M5'}]",
+    "fixed_version": "10.0.0-M5",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.0,
+    "epss_score": 0.93325,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Potential remote code execution in Apache Tomcat",
+    "is_dev_only": true
+  },
+  "GHSA-3vx3-xf6q-r5xp": {
+    "vuln_id": "GHSA-3vx3-xf6q-r5xp",
+    "aliases": [
+      "CVE-2017-5648"
+    ],
+    "package": "org.apache.tomcat:tomcat-catalina",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '9.0.0.M1'}, {'fixed': '9.0.0.M18'}]",
+    "fixed_version": "9.0.0.M18",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.1,
+    "epss_score": 0.2441,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Exposure of Resource to Wrong Sphere in Apache Tomcat",
+    "is_dev_only": true
+  },
+  "GHSA-8qq4-8jvq-mfw4": {
+    "vuln_id": "GHSA-8qq4-8jvq-mfw4",
+    "aliases": [
+      "CVE-2017-12616"
+    ],
+    "package": "org.apache.tomcat:tomcat-catalina",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '7.0.0'}, {'fixed': '7.0.81'}]",
+    "fixed_version": "7.0.81",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.91499,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Exposure of Sensitive Information to an Unauthorized Actor in Apache Tomcat",
+    "is_dev_only": true
+  },
+  "GHSA-9xrj-439h-62hg": {
+    "vuln_id": "GHSA-9xrj-439h-62hg",
+    "aliases": [
+      "CVE-2012-5886"
+    ],
+    "package": "org.apache.tomcat:tomcat-catalina",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '5.5.0'}, {'fixed': '5.5.36'}]",
+    "fixed_version": "5.5.36",
+    "severity_type": "",
+    "severity_score": 0.0,
+    "epss_score": 0.0057,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Improper Authentication in Apache Tomcat",
+    "is_dev_only": true
+  },
+  "GHSA-cw54-59pw-4g8c": {
+    "vuln_id": "GHSA-cw54-59pw-4g8c",
+    "aliases": [
+      "CVE-2016-8735"
+    ],
+    "package": "org.apache.tomcat:tomcat-catalina",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '6.0.48'}]",
+    "fixed_version": "6.0.48",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.8,
+    "epss_score": 0.93668,
+    "in_kev": true,
+    "kev_date_added": "2023-05-12",
+    "kev_due_date": "2023-06-02",
+    "summary": "Apache Tomcat Improper Access Control vulnerability",
+    "is_dev_only": true
+  },
+  "GHSA-prc3-7f44-w48j": {
+    "vuln_id": "GHSA-prc3-7f44-w48j",
+    "aliases": [
+      "CVE-2014-0119"
+    ],
+    "package": "org.apache.tomcat:tomcat-catalina",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '6.0.40'}]",
+    "fixed_version": "6.0.40",
+    "severity_type": "",
+    "severity_score": 0.0,
+    "epss_score": 0.04351,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Missing XML Validation in Apache Tomcat",
+    "is_dev_only": true
+  },
+  "GHSA-qprx-q2r7-3rx6": {
+    "vuln_id": "GHSA-qprx-q2r7-3rx6",
+    "aliases": [
+      "CVE-2014-0096"
+    ],
+    "package": "org.apache.tomcat:tomcat-catalina",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '6.0.40'}]",
+    "fixed_version": "6.0.40",
+    "severity_type": "",
+    "severity_score": 0.0,
+    "epss_score": 0.05795,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Improper Input Validation in Apache Tomcat",
+    "is_dev_only": true
+  },
+  "GHSA-v646-rx6w-r3qq": {
+    "vuln_id": "GHSA-v646-rx6w-r3qq",
+    "aliases": [
+      "CVE-2016-5388"
+    ],
+    "package": "org.apache.tomcat:tomcat-catalina",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '7.0.0'}, {'fixed': '7.0.72'}]",
+    "fixed_version": "7.0.72",
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.1,
+    "epss_score": 0.3676,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Improper Access Control in Apache Tomcat",
+    "is_dev_only": true
+  },
+  "GHSA-xcpr-7mr4-h4xq": {
+    "vuln_id": "GHSA-xcpr-7mr4-h4xq",
+    "aliases": [
+      "BIT-tomcat-2024-52316",
+      "CVE-2024-52316"
+    ],
+    "package": "org.apache.tomcat:tomcat-catalina",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '9.0.96'}]",
+    "fixed_version": "9.0.96",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.8,
+    "epss_score": 0.01846,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Apache Tomcat - Authentication Bypass",
+    "is_dev_only": true
+  },
+  "GHSA-xjgh-84hx-56c5": {
+    "vuln_id": "GHSA-xjgh-84hx-56c5",
+    "aliases": [
+      "CVE-2017-12617"
+    ],
+    "package": "org.apache.tomcat:tomcat-catalina",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '9.0.0.M1'}, {'fixed': '9.0.1'}]",
+    "fixed_version": "9.0.1",
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.1,
+    "epss_score": 0.94356,
+    "in_kev": true,
+    "kev_date_added": "2022-03-25",
+    "kev_due_date": "2022-04-15",
+    "summary": "Unrestricted Upload of File with Dangerous Type Apache Tomcat",
+    "is_dev_only": true
+  },
+  "GHSA-59j4-wjwp-mw9m": {
+    "vuln_id": "GHSA-59j4-wjwp-mw9m",
+    "aliases": [
+      "CVE-2020-13936"
+    ],
+    "package": "org.apache.velocity:velocity",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '2.3'}]",
+    "fixed_version": null,
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.8,
+    "epss_score": 0.16401,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Sandbox Bypass in Apache Velocity Engine",
+    "is_dev_only": false
+  },
+  "GHSA-rqfh-9r24-8c9r": {
+    "vuln_id": "GHSA-rqfh-9r24-8c9r",
+    "aliases": [
+      "CVE-2026-24400"
+    ],
+    "package": "org.assertj:assertj-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '1.4.0'}, {'fixed': '3.27.7'}]",
+    "fixed_version": "3.27.7",
+    "severity_type": "",
+    "severity_score": 0.0,
+    "epss_score": 0.00012,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "AssertJ has XML External Entity (XXE) vulnerability when parsing untrusted XML via isXmlEqualTo assertion",
+    "is_dev_only": true
+  },
+  "GHSA-4cx2-fc23-5wg6": {
+    "vuln_id": "GHSA-4cx2-fc23-5wg6",
+    "aliases": [
+      "CVE-2025-8916"
+    ],
+    "package": "org.bouncycastle:bcpkix-jdk15to18",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '1.44'}, {'fixed': '1.79'}]",
+    "fixed_version": "1.79",
+    "severity_type": "",
+    "severity_score": 0.0,
+    "epss_score": 0.00036,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Bouncy Castle for Java bcpkix, bcprov, bcpkix-fips on All (API modules) allows Excessive Allocation",
+    "is_dev_only": false
+  },
+  "GHSA-8xfc-gm6g-vgpv": {
+    "vuln_id": "GHSA-8xfc-gm6g-vgpv",
+    "aliases": [
+      "CVE-2024-29857"
+    ],
+    "package": "org.bouncycastle:bcprov-jdk15on",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '1.78'}]",
+    "fixed_version": "1.78",
+    "severity_type": "CVSS_V3",
+    "severity_score": 5.3,
+    "epss_score": 0.00191,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Bouncy Castle certificate parsing issues cause high CPU usage during parameter evaluation.",
+    "is_dev_only": false
+  },
+  "GHSA-hr8g-6v94-x4m9": {
+    "vuln_id": "GHSA-hr8g-6v94-x4m9",
+    "aliases": [
+      "CVE-2023-33201"
+    ],
+    "package": "org.bouncycastle:bcprov-jdk15on",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '1.74'}]",
+    "fixed_version": null,
+    "severity_type": "CVSS_V3",
+    "severity_score": 5.3,
+    "epss_score": 0.003,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Bouncy Castle For Java LDAP injection vulnerability",
+    "is_dev_only": false
+  },
+  "GHSA-v435-xc8x-wvr9": {
+    "vuln_id": "GHSA-v435-xc8x-wvr9",
+    "aliases": [
+      "CVE-2024-30171"
+    ],
+    "package": "org.bouncycastle:bcprov-jdk15on",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '1.0.19'}]",
+    "fixed_version": "1.78",
+    "severity_type": "CVSS_V3",
+    "severity_score": 5.9,
+    "epss_score": 0.00105,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Bouncy Castle affected by timing side-channel for RSA key exchange (\"The Marvin Attack\")",
+    "is_dev_only": false
+  },
+  "GHSA-wjxj-5m7g-mg7q": {
+    "vuln_id": "GHSA-wjxj-5m7g-mg7q",
+    "aliases": [
+      "CVE-2023-33202"
+    ],
+    "package": "org.bouncycastle:bcprov-jdk15on",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '1.73'}]",
+    "fixed_version": null,
+    "severity_type": "CVSS_V3",
+    "severity_score": 5.5,
+    "epss_score": 0.00159,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Bouncy Castle Denial of Service (DoS)",
+    "is_dev_only": false
+  },
+  "GHSA-4h8f-2wvx-gg5w": {
+    "vuln_id": "GHSA-4h8f-2wvx-gg5w",
+    "aliases": [
+      "CVE-2024-34447"
+    ],
+    "package": "org.bouncycastle:bcprov-jdk15to18",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '1.61'}, {'fixed': '1.78'}]",
+    "fixed_version": "1.78",
+    "severity_type": "CVSS_V3",
+    "severity_score": 5.9,
+    "epss_score": 0.00107,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Bouncy Castle Java Cryptography API vulnerable to DNS poisoning",
+    "is_dev_only": false
+  },
+  "GHSA-67mf-3cr5-8w23": {
+    "vuln_id": "GHSA-67mf-3cr5-8w23",
+    "aliases": [
+      "CVE-2025-8885"
+    ],
+    "package": "org.bouncycastle:bcprov-jdk15to18",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '1.0'}, {'fixed': '1.78'}]",
+    "fixed_version": "1.78",
+    "severity_type": "",
+    "severity_score": 0.0,
+    "epss_score": 0.00071,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Bouncy Castle for Java on All (API modules) allows Excessive Allocation",
+    "is_dev_only": false
+  },
+  "GHSA-qg25-hgjv-cg9q": {
+    "vuln_id": "GHSA-qg25-hgjv-cg9q",
+    "aliases": [
+      "CVE-2015-3253"
+    ],
+    "package": "org.codehaus.groovy:groovy",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '1.7.0'}, {'fixed': '2.4.4'}]",
+    "fixed_version": "2.4.4",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.8,
+    "epss_score": 0.72424,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Improper Neutralization of Special Elements in Output Used by a Downstream Component in Apache Groovy",
+    "is_dev_only": false
+  },
+  "GHSA-rcjj-h6gh-jf3r": {
+    "vuln_id": "GHSA-rcjj-h6gh-jf3r",
+    "aliases": [
+      "CVE-2020-17521"
+    ],
+    "package": "org.codehaus.groovy:groovy",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '2.0.0'}, {'fixed': '2.4.21'}]",
+    "fixed_version": "2.4.21",
+    "severity_type": "CVSS_V3",
+    "severity_score": 5.5,
+    "epss_score": 0.02425,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Information Disclosure in Apache Groovy",
+    "is_dev_only": false
+  },
+  "GHSA-xphj-m9cc-8fmq": {
+    "vuln_id": "GHSA-xphj-m9cc-8fmq",
+    "aliases": [
+      "CVE-2016-6814"
+    ],
+    "package": "org.codehaus.groovy:groovy",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '1.7.0'}, {'fixed': '2.4.8'}]",
+    "fixed_version": "2.4.8",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.8,
+    "epss_score": 0.25712,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Deserialization of Untrusted Data in Groovy",
+    "is_dev_only": false
+  },
+  "GHSA-c27h-mcmw-48hv": {
+    "vuln_id": "GHSA-c27h-mcmw-48hv",
+    "aliases": [
+      "CVE-2019-10202"
+    ],
+    "package": "org.codehaus.jackson:jackson-mapper-asl",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'last_affected': '1.9.13'}]",
+    "fixed_version": null,
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.8,
+    "epss_score": 0.0724,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Deserialization of Untrusted Data in org.codehaus.jackson:jackson-mapper-asl",
+    "is_dev_only": false
+  },
+  "GHSA-r6j9-8759-g62w": {
+    "vuln_id": "GHSA-r6j9-8759-g62w",
+    "aliases": [
+      "CVE-2019-10172"
+    ],
+    "package": "org.codehaus.jackson:jackson-mapper-asl",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'last_affected': '1.9.13'}]",
+    "fixed_version": null,
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.00563,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Improper Restriction of XML External Entity Reference in jackson-mapper-asl",
+    "is_dev_only": false
+  },
+  "GHSA-wh3p-fphp-9h2m": {
+    "vuln_id": "GHSA-wh3p-fphp-9h2m",
+    "aliases": [
+      "CVE-2023-37460"
+    ],
+    "package": "org.codehaus.plexus:plexus-archiver",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '4.8.0'}]",
+    "fixed_version": "4.8.0",
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.1,
+    "epss_score": 0.36558,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Arbitrary File Creation in AbstractUnArchiver",
+    "is_dev_only": false
+  },
+  "GHSA-xxh7-fcf3-rj7f": {
+    "vuln_id": "GHSA-xxh7-fcf3-rj7f",
+    "aliases": [
+      "CVE-2026-1605"
+    ],
+    "package": "org.eclipse.jetty:jetty-server",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '12.1.0'}, {'fixed': '12.1.6'}]",
+    "fixed_version": "12.1.6",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.00055,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "The Eclipse Jetty Server Artifact has a Gzip request memory leak ",
+    "is_dev_only": false
+  },
+  "GHSA-7v6m-28jr-rg84": {
+    "vuln_id": "GHSA-7v6m-28jr-rg84",
+    "aliases": [
+      "CVE-2025-35036"
+    ],
+    "package": "org.hibernate.validator:hibernate-validator",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '6.2.0.CR1'}]",
+    "fixed_version": "6.2.0.CR1",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.3,
+    "epss_score": 0.00578,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Hibernate Validator may interpolate user-supplied input in a constraint violation message with Expression Language",
+    "is_dev_only": false
+  },
+  "GHSA-m8p2-495h-ccmh": {
+    "vuln_id": "GHSA-m8p2-495h-ccmh",
+    "aliases": [
+      "CVE-2019-10219"
+    ],
+    "package": "org.hibernate.validator:hibernate-validator",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '6.1.0.Alpha1'}, {'fixed': '6.1.0.Alpha6'}]",
+    "fixed_version": "6.1.0.Alpha6",
+    "severity_type": "CVSS_V3",
+    "severity_score": 6.5,
+    "epss_score": 0.01674,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "The SafeHtml annotation in Hibernate-Validator does not properly guard against XSS attacks",
+    "is_dev_only": false
+  },
+  "GHSA-rmrm-75hp-phr2": {
+    "vuln_id": "GHSA-rmrm-75hp-phr2",
+    "aliases": [
+      "CVE-2020-10693"
+    ],
+    "package": "org.hibernate.validator:hibernate-validator",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '6.1.0.Final'}, {'fixed': '6.1.5.Final'}]",
+    "fixed_version": "6.1.5.Final",
+    "severity_type": "CVSS_V3",
+    "severity_score": 5.3,
+    "epss_score": 0.00282,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Improper Input Validation in Hibernate Validator",
+    "is_dev_only": false
+  },
+  "GHSA-x83m-pf6f-pf9g": {
+    "vuln_id": "GHSA-x83m-pf6f-pf9g",
+    "aliases": [
+      "CVE-2023-1932"
+    ],
+    "package": "org.hibernate.validator:hibernate-validator",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '6.2.0.Final'}]",
+    "fixed_version": "6.2.0.Final",
+    "severity_type": "CVSS_V3",
+    "severity_score": 6.1,
+    "epss_score": 0.00624,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "hibernate-validator Cross-site Scripting vulnerability",
+    "is_dev_only": false
+  },
+  "GHSA-8grg-q944-cch5": {
+    "vuln_id": "GHSA-8grg-q944-cch5",
+    "aliases": [
+      "CVE-2019-14900"
+    ],
+    "package": "org.hibernate:hibernate-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '5.3.18'}]",
+    "fixed_version": "5.3.18",
+    "severity_type": "CVSS_V3",
+    "severity_score": 6.5,
+    "epss_score": 0.01814,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "SQL Injection in Hibernate ORM",
+    "is_dev_only": false
+  },
+  "GHSA-j8jw-g6fq-mp7h": {
+    "vuln_id": "GHSA-j8jw-g6fq-mp7h",
+    "aliases": [
+      "CVE-2020-25638"
+    ],
+    "package": "org.hibernate:hibernate-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '5.4.0.Final'}, {'fixed': '5.4.24.Final'}]",
+    "fixed_version": "5.4.24.Final",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.4,
+    "epss_score": 0.00844,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "SQL injection in hibernate-core",
+    "is_dev_only": false
+  },
+  "GHSA-xxgp-pcfc-3vgc": {
+    "vuln_id": "GHSA-xxgp-pcfc-3vgc",
+    "aliases": [
+      "CVE-2017-7536"
+    ],
+    "package": "org.hibernate:hibernate-validator",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '5.2.0'}, {'fixed': '5.2.5.Final'}]",
+    "fixed_version": "5.2.5.Final",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.0,
+    "epss_score": 0.00104,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Privilege Escalation in Hibernate Validator",
+    "is_dev_only": false
+  },
+  "GHSA-gw55-jm4h-x339": {
+    "vuln_id": "GHSA-gw55-jm4h-x339",
+    "aliases": [
+      "CVE-2020-11050"
+    ],
+    "package": "org.java-websocket:Java-WebSocket",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '1.5.0'}]",
+    "fixed_version": "1.5.0",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.0,
+    "epss_score": 0.00191,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Improper Validation of Certificate with Host Mismatch in Java-WebSocket",
+    "is_dev_only": false
+  },
+  "GHSA-2363-cqg2-863c": {
+    "vuln_id": "GHSA-2363-cqg2-863c",
+    "aliases": [
+      "BIT-solr-2021-33813",
+      "CVE-2021-33813"
+    ],
+    "package": "org.jdom:jdom",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '2.0.6.1'}]",
+    "fixed_version": null,
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.01393,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "XML External Entity (XXE) Injection in JDOM",
+    "is_dev_only": false
+  },
+  "GHSA-3vqj-43w4-2q58": {
+    "vuln_id": "GHSA-3vqj-43w4-2q58",
+    "aliases": [
+      "CVE-2022-45688"
+    ],
+    "package": "org.json:json",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '5.8.25'}]",
+    "fixed_version": "20230227",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.00911,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "json stack overflow vulnerability",
+    "is_dev_only": false
+  },
+  "GHSA-4jq9-2xhw-jpx7": {
+    "vuln_id": "GHSA-4jq9-2xhw-jpx7",
+    "aliases": [
+      "CVE-2023-5072"
+    ],
+    "package": "org.json:json",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '20231013'}]",
+    "fixed_version": "20231013",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.00741,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Java: DoS Vulnerability in JSON-JAVA",
+    "is_dev_only": false
+  },
+  "GHSA-gp7f-rwcx-9369": {
+    "vuln_id": "GHSA-gp7f-rwcx-9369",
+    "aliases": [
+      "CVE-2022-36033"
+    ],
+    "package": "org.jsoup:jsoup",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '1.15.3'}]",
+    "fixed_version": "1.15.3",
+    "severity_type": "CVSS_V3",
+    "severity_score": 6.1,
+    "epss_score": 0.01637,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "jsoup may not sanitize code injection XSS attempts if SafeList.preserveRelativeLinks is enabled",
+    "is_dev_only": false
+  },
+  "GHSA-m72m-mhq2-9p6c": {
+    "vuln_id": "GHSA-m72m-mhq2-9p6c",
+    "aliases": [
+      "CVE-2021-37714"
+    ],
+    "package": "org.jsoup:jsoup",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '1.14.2'}]",
+    "fixed_version": "1.14.2",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.04351,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Uncaught Exception in jsoup",
+    "is_dev_only": false
+  },
+  "GHSA-cmp6-m4wj-q63q": {
+    "vuln_id": "GHSA-cmp6-m4wj-q63q",
+    "aliases": [
+      "CVE-2025-66566"
+    ],
+    "package": "org.lz4:lz4-java",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '1.10.1'}]",
+    "fixed_version": null,
+    "severity_type": "",
+    "severity_score": 0.0,
+    "epss_score": 0.00068,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "yawkat LZ4 Java has a possible information leak in Java safe decompressor",
+    "is_dev_only": false
+  },
+  "GHSA-vqf4-7m7x-wgfc": {
+    "vuln_id": "GHSA-vqf4-7m7x-wgfc",
+    "aliases": [
+      "CVE-2025-12183"
+    ],
+    "package": "org.lz4:lz4-java",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '1.8.1'}]",
+    "fixed_version": "1.8.1",
+    "severity_type": "",
+    "severity_score": 0.0,
+    "epss_score": 0.00065,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "LZ4 Java Compression has Out-of-bounds memory operations which can cause DoS",
+    "is_dev_only": false
+  },
+  "GHSA-9h6p-92jq-888x": {
+    "vuln_id": "GHSA-9h6p-92jq-888x",
+    "aliases": [
+      "CVE-2015-0886"
+    ],
+    "package": "org.mindrot:jbcrypt",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '0.4'}]",
+    "fixed_version": "0.4",
+    "severity_type": "",
+    "severity_score": 0.0,
+    "epss_score": 0.02478,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Integer Overflow or Wraparound in JBCrypt",
+    "is_dev_only": false
+  },
+  "GHSA-qq48-m4jx-xqh8": {
+    "vuln_id": "GHSA-qq48-m4jx-xqh8",
+    "aliases": [
+      "CVE-2020-26945"
+    ],
+    "package": "org.mybatis:mybatis",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '3.5.6'}]",
+    "fixed_version": "3.5.6",
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.1,
+    "epss_score": 0.0115,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "\"Deserialization errors in MyBatis\"",
+    "is_dev_only": false
+  },
+  "GHSA-24rp-q3w6-vc56": {
+    "vuln_id": "GHSA-24rp-q3w6-vc56",
+    "aliases": [
+      "BIT-postgresql-jdbc-driver-2024-1597",
+      "CVE-2024-1597"
+    ],
+    "package": "org.postgresql:postgresql",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '42.2.28'}]",
+    "fixed_version": "42.2.28",
+    "severity_type": "CVSS_V3",
+    "severity_score": 10.0,
+    "epss_score": 0.00476,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "org.postgresql:postgresql vulnerable to SQL Injection via line comment generation",
+    "is_dev_only": false
+  },
+  "GHSA-562r-vg33-8x8h": {
+    "vuln_id": "GHSA-562r-vg33-8x8h",
+    "aliases": [
+      "BIT-postgresql-jdbc-driver-2022-41946",
+      "CVE-2022-41946"
+    ],
+    "package": "org.postgresql:postgresql",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '42.2.0'}, {'fixed': '42.2.27'}]",
+    "fixed_version": "42.2.27",
+    "severity_type": "CVSS_V3",
+    "severity_score": 4.7,
+    "epss_score": 0.00126,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "TemporaryFolder on unix-like systems does not limit access to created files",
+    "is_dev_only": false
+  },
+  "GHSA-673j-qm5f-xpv8": {
+    "vuln_id": "GHSA-673j-qm5f-xpv8",
+    "aliases": [],
+    "package": "org.postgresql:postgresql",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '42.1.0'}, {'fixed': '42.3.3'}]",
+    "fixed_version": "42.3.3",
+    "severity_type": "",
+    "severity_score": 0.0,
+    "epss_score": 0.0,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "pgjdbc Arbitrary File Write Vulnerability",
+    "is_dev_only": false
+  },
+  "GHSA-727h-hrw8-jg8q": {
+    "vuln_id": "GHSA-727h-hrw8-jg8q",
+    "aliases": [
+      "BIT-postgresql-jdbc-driver-2022-26520",
+      "CVE-2022-26520"
+    ],
+    "package": "org.postgresql:postgresql",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '42.1.0'}, {'fixed': '42.3.3'}]",
+    "fixed_version": "42.3.3",
+    "severity_type": "",
+    "severity_score": 0.0,
+    "epss_score": 0.0128,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Path traversal in org.postgresql:postgresql",
+    "is_dev_only": false
+  },
+  "GHSA-r38f-c4h4-hqq2": {
+    "vuln_id": "GHSA-r38f-c4h4-hqq2",
+    "aliases": [
+      "BIT-postgresql-jdbc-driver-2022-31197",
+      "CVE-2022-31197"
+    ],
+    "package": "org.postgresql:postgresql",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '42.2.26'}]",
+    "fixed_version": "42.2.26",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.1,
+    "epss_score": 0.03579,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "PostgreSQL JDBC Driver SQL Injection in ResultSet.refreshRow() with malicious column names",
+    "is_dev_only": false
+  },
+  "GHSA-v7wg-cpwc-24m4": {
+    "vuln_id": "GHSA-v7wg-cpwc-24m4",
+    "aliases": [
+      "BIT-postgresql-jdbc-driver-2022-21724",
+      "CVE-2022-21724"
+    ],
+    "package": "org.postgresql:postgresql",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '9.4.1208'}, {'fixed': '42.2.25'}]",
+    "fixed_version": "42.2.25",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.0,
+    "epss_score": 0.04807,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "pgjdbc Does Not Check Class Instantiation when providing Plugin Classes",
+    "is_dev_only": false
+  },
+  "GHSA-9qcf-c26r-x5rf": {
+    "vuln_id": "GHSA-9qcf-c26r-x5rf",
+    "aliases": [
+      "CVE-2019-13990"
+    ],
+    "package": "org.quartz-scheduler:quartz",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '2.3.2'}]",
+    "fixed_version": "2.3.2",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.8,
+    "epss_score": 0.17243,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "XML external entity injection in Terracotta Quartz Scheduler",
+    "is_dev_only": false
+  },
+  "GHSA-4hvc-qwr2-f8rv": {
+    "vuln_id": "GHSA-4hvc-qwr2-f8rv",
+    "aliases": [
+      "CVE-2023-42809"
+    ],
+    "package": "org.redisson:redisson",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '3.22.0'}]",
+    "fixed_version": "3.22.0",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.6,
+    "epss_score": 0.0107,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Redisson vulnerable to Deserialization of Untrusted Data",
+    "is_dev_only": false
+  },
+  "GHSA-7m5c-fgwf-mwph": {
+    "vuln_id": "GHSA-7m5c-fgwf-mwph",
+    "aliases": [
+      "CVE-2023-34036"
+    ],
+    "package": "org.springframework.hateoas:spring-hateoas",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '1.5.5'}]",
+    "fixed_version": "1.5.5",
+    "severity_type": "CVSS_V3",
+    "severity_score": 5.3,
+    "epss_score": 0.00306,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Spring HATEOAS vulnerable to Improper Neutralization of HTTP Headers for Scripting Syntax",
+    "is_dev_only": false
+  },
+  "GHSA-3h6f-g5f3-gc4w": {
+    "vuln_id": "GHSA-3h6f-g5f3-gc4w",
+    "aliases": [
+      "CVE-2023-34034"
+    ],
+    "package": "org.springframework.security:spring-security-config",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '5.6.0'}, {'fixed': '5.6.12'}]",
+    "fixed_version": "5.6.12",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.1,
+    "epss_score": 0.47909,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Access Control Bypass in Spring Security",
+    "is_dev_only": false
+  },
+  "GHSA-4vpr-xfrp-cj64": {
+    "vuln_id": "GHSA-4vpr-xfrp-cj64",
+    "aliases": [
+      "CVE-2023-34035"
+    ],
+    "package": "org.springframework.security:spring-security-config",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '5.8.0'}, {'fixed': '5.8.5'}]",
+    "fixed_version": "5.8.5",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.3,
+    "epss_score": 0.02176,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Spring Security's authorization rules can be misconfigured when using multiple servlets",
+    "is_dev_only": false
+  },
+  "GHSA-2ppp-9496-p23q": {
+    "vuln_id": "GHSA-2ppp-9496-p23q",
+    "aliases": [
+      "CVE-2020-5408"
+    ],
+    "package": "org.springframework.security:spring-security-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '5.3.0'}, {'fixed': '5.3.2'}]",
+    "fixed_version": "5.3.2",
+    "severity_type": "CVSS_V3",
+    "severity_score": 6.5,
+    "epss_score": 0.00468,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Insufficient Entropy in Spring Security",
+    "is_dev_only": false
+  },
+  "GHSA-f3jh-qvm4-mg39": {
+    "vuln_id": "GHSA-f3jh-qvm4-mg39",
+    "aliases": [
+      "CVE-2024-22257"
+    ],
+    "package": "org.springframework.security:spring-security-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '5.7.12'}]",
+    "fixed_version": "5.7.12",
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.2,
+    "epss_score": 0.00264,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Erroneous authentication pass in Spring Security",
+    "is_dev_only": false
+  },
+  "GHSA-hh32-7344-cg2f": {
+    "vuln_id": "GHSA-hh32-7344-cg2f",
+    "aliases": [
+      "CVE-2022-22978"
+    ],
+    "package": "org.springframework.security:spring-security-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '5.5.0'}, {'fixed': '5.5.7'}]",
+    "fixed_version": "5.5.7",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.8,
+    "epss_score": 0.90406,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Authorization bypass in Spring Security",
+    "is_dev_only": false
+  },
+  "GHSA-q3v6-hm2v-pw99": {
+    "vuln_id": "GHSA-q3v6-hm2v-pw99",
+    "aliases": [
+      "CVE-2024-38827"
+    ],
+    "package": "org.springframework.security:spring-security-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '5.7.14'}]",
+    "fixed_version": "5.7.14",
+    "severity_type": "CVSS_V3",
+    "severity_score": 4.8,
+    "epss_score": 0.00294,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Spring Framework has Authorization Bypass for Case Sensitive Comparisons",
+    "is_dev_only": false
+  },
+  "GHSA-v2r2-7qm7-jj6v": {
+    "vuln_id": "GHSA-v2r2-7qm7-jj6v",
+    "aliases": [
+      "CVE-2019-3795"
+    ],
+    "package": "org.springframework.security:spring-security-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '4.2.0'}, {'fixed': '4.2.12'}]",
+    "fixed_version": "4.2.12",
+    "severity_type": "CVSS_V3",
+    "severity_score": 5.3,
+    "epss_score": 0.00548,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Spring Security uses insufficiently random values",
+    "is_dev_only": false
+  },
+  "GHSA-w9jg-gvgr-354m": {
+    "vuln_id": "GHSA-w9jg-gvgr-354m",
+    "aliases": [
+      "CVE-2021-22119"
+    ],
+    "package": "org.springframework.security:spring-security-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '5.5.0'}, {'fixed': '5.5.1'}]",
+    "fixed_version": "5.5.1",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.04895,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Resource Exhaustion in Spring Security",
+    "is_dev_only": false
+  },
+  "GHSA-wx54-3278-m5g4": {
+    "vuln_id": "GHSA-wx54-3278-m5g4",
+    "aliases": [
+      "CVE-2022-22976"
+    ],
+    "package": "org.springframework.security:spring-security-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '5.2.0.RELEASE'}, {'fixed': '5.5.7'}]",
+    "fixed_version": "5.5.7",
+    "severity_type": "CVSS_V3",
+    "severity_score": 5.3,
+    "epss_score": 0.0036,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Integer overflow in BCrypt class in Spring Security",
+    "is_dev_only": false
+  },
+  "GHSA-x873-6rgc-94jc": {
+    "vuln_id": "GHSA-x873-6rgc-94jc",
+    "aliases": [
+      "CVE-2023-20862"
+    ],
+    "package": "org.springframework.security:spring-security-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '5.7.0'}, {'fixed': '5.7.8'}]",
+    "fixed_version": "5.7.8",
+    "severity_type": "CVSS_V3",
+    "severity_score": 6.3,
+    "epss_score": 0.00397,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Spring Security logout not clearing security context",
+    "is_dev_only": false
+  },
+  "GHSA-w3w6-26f2-p474": {
+    "vuln_id": "GHSA-w3w6-26f2-p474",
+    "aliases": [
+      "CVE-2024-22234"
+    ],
+    "package": "org.springframework.security:spring-security-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '6.1.0'}, {'fixed': '6.1.7'}]",
+    "fixed_version": "6.1.7",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.4,
+    "epss_score": 0.01656,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Broken Access Control in Spring Security With Direct Use of isFullyAuthenticated",
+    "is_dev_only": false
+  },
+  "GHSA-mg83-c7gq-rv5c": {
+    "vuln_id": "GHSA-mg83-c7gq-rv5c",
+    "aliases": [
+      "CVE-2025-22228"
+    ],
+    "package": "org.springframework.security:spring-security-crypto",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '6.3.0'}, {'fixed': '6.3.8'}]",
+    "fixed_version": "6.3.8",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.4,
+    "epss_score": 0.00032,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Spring Security Does Not Enforce Password Length",
+    "is_dev_only": false
+  },
+  "GHSA-c4q5-6c82-3qpw": {
+    "vuln_id": "GHSA-c4q5-6c82-3qpw",
+    "aliases": [
+      "CVE-2024-38821"
+    ],
+    "package": "org.springframework.security:spring-security-web",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '5.7.13'}]",
+    "fixed_version": "5.7.13",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.1,
+    "epss_score": 0.1309,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Spring Security vulnerable to Authorization Bypass of Static Resources in WebFlux Applications",
+    "is_dev_only": false
+  },
+  "GHSA-gq28-h5vg-8prx": {
+    "vuln_id": "GHSA-gq28-h5vg-8prx",
+    "aliases": [
+      "CVE-2021-22112"
+    ],
+    "package": "org.springframework.security:spring-security-web",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '5.4.0'}, {'fixed': '5.4.4'}]",
+    "fixed_version": "5.4.4",
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.8,
+    "epss_score": 0.00979,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Privilege escalation in spring security",
+    "is_dev_only": false
+  },
+  "GHSA-mf92-479x-3373": {
+    "vuln_id": "GHSA-mf92-479x-3373",
+    "aliases": [
+      "CVE-2026-22732"
+    ],
+    "package": "org.springframework.security:spring-security-web",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'last_affected': '5.7.14'}]",
+    "fixed_version": "6.5.9",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.1,
+    "epss_score": 0.00014,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Spring Security HTTP Headers Are not Written Under Some Conditions",
+    "is_dev_only": false
+  },
+  "GHSA-4gc7-5j7h-4qph": {
+    "vuln_id": "GHSA-4gc7-5j7h-4qph",
+    "aliases": [
+      "CVE-2024-38820"
+    ],
+    "package": "org.springframework:spring-context",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '6.1.0'}, {'fixed': '6.1.14'}]",
+    "fixed_version": "6.1.14",
+    "severity_type": "CVSS_V3",
+    "severity_score": 5.3,
+    "epss_score": 0.01473,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Spring Framework DataBinder Case Sensitive Match Exception",
+    "is_dev_only": false
+  },
+  "GHSA-4wp7-92pw-q264": {
+    "vuln_id": "GHSA-4wp7-92pw-q264",
+    "aliases": [
+      "CVE-2025-22233"
+    ],
+    "package": "org.springframework:spring-context",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '6.2.0'}, {'fixed': '6.2.7'}]",
+    "fixed_version": "6.2.7",
+    "severity_type": "CVSS_V3",
+    "severity_score": 3.1,
+    "epss_score": 0.00083,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Spring Framework DataBinder Case Sensitive Match Exception",
+    "is_dev_only": false
+  },
+  "GHSA-g5mm-vmx4-3rg7": {
+    "vuln_id": "GHSA-g5mm-vmx4-3rg7",
+    "aliases": [
+      "CVE-2022-22968"
+    ],
+    "package": "org.springframework:spring-context",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '5.3.0'}, {'fixed': '5.3.19'}]",
+    "fixed_version": "5.3.19",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.2051,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Improper handling of case sensitivity in Spring Framework",
+    "is_dev_only": false
+  },
+  "GHSA-6gf2-pvqw-37ph": {
+    "vuln_id": "GHSA-6gf2-pvqw-37ph",
+    "aliases": [
+      "CVE-2021-22060"
+    ],
+    "package": "org.springframework:spring-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '5.3.0'}, {'fixed': '5.3.14'}]",
+    "fixed_version": "5.3.14",
+    "severity_type": "CVSS_V3",
+    "severity_score": 4.3,
+    "epss_score": 0.00164,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Log entry injection in Spring Framework",
+    "is_dev_only": false
+  },
+  "GHSA-jmp9-x22r-554x": {
+    "vuln_id": "GHSA-jmp9-x22r-554x",
+    "aliases": [
+      "CVE-2025-41249"
+    ],
+    "package": "org.springframework:spring-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '5.3.0'}, {'last_affected': '5.3.44'}]",
+    "fixed_version": "6.2.11",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.00064,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Spring Framework annotation detection mechanism may result in improper authorization",
+    "is_dev_only": false
+  },
+  "GHSA-rfmp-97jj-h8m6": {
+    "vuln_id": "GHSA-rfmp-97jj-h8m6",
+    "aliases": [
+      "CVE-2021-22096"
+    ],
+    "package": "org.springframework:spring-core",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '5.3.0'}, {'fixed': '5.3.11'}]",
+    "fixed_version": "5.3.11",
+    "severity_type": "CVSS_V3",
+    "severity_score": 4.3,
+    "epss_score": 0.00221,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Improper Output Neutralization for Logs in Spring Framework",
+    "is_dev_only": false
+  },
+  "GHSA-558x-2xjg-6232": {
+    "vuln_id": "GHSA-558x-2xjg-6232",
+    "aliases": [
+      "CVE-2022-22950"
+    ],
+    "package": "org.springframework:spring-expression",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '5.3.0'}, {'fixed': '5.3.17'}]",
+    "fixed_version": "5.3.17",
+    "severity_type": "CVSS_V3",
+    "severity_score": 6.5,
+    "epss_score": 0.04122,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Allocation of Resources Without Limits or Throttling in Spring Framework",
+    "is_dev_only": false
+  },
+  "GHSA-564r-hj7v-mcr5": {
+    "vuln_id": "GHSA-564r-hj7v-mcr5",
+    "aliases": [
+      "CVE-2023-20861"
+    ],
+    "package": "org.springframework:spring-expression",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '6.0.0'}, {'fixed': '6.0.7'}]",
+    "fixed_version": "6.0.7",
+    "severity_type": "CVSS_V3",
+    "severity_score": 6.5,
+    "epss_score": 0.00352,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Spring Framework vulnerable to denial of service via specially crafted SpEL expression",
+    "is_dev_only": false
+  },
+  "GHSA-9cmq-m9j5-mvww": {
+    "vuln_id": "GHSA-9cmq-m9j5-mvww",
+    "aliases": [
+      "CVE-2024-38808"
+    ],
+    "package": "org.springframework:spring-expression",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '5.3.39'}]",
+    "fixed_version": "5.3.39",
+    "severity_type": "CVSS_V3",
+    "severity_score": 4.3,
+    "epss_score": 0.00809,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Spring Framework vulnerable to Denial of Service",
+    "is_dev_only": false
+  },
+  "GHSA-wxqc-pxw9-g2p8": {
+    "vuln_id": "GHSA-wxqc-pxw9-g2p8",
+    "aliases": [
+      "CVE-2023-20863"
+    ],
+    "package": "org.springframework:spring-expression",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '6.0.0'}, {'fixed': '6.0.8'}]",
+    "fixed_version": "6.0.8",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.00783,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Spring Framework vulnerable to denial of service",
+    "is_dev_only": false
+  },
+  "GHSA-2rmj-mq67-h97g": {
+    "vuln_id": "GHSA-2rmj-mq67-h97g",
+    "aliases": [
+      "CVE-2024-38809"
+    ],
+    "package": "org.springframework:spring-web",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '5.3.38'}]",
+    "fixed_version": "5.3.38",
+    "severity_type": "CVSS_V3",
+    "severity_score": 5.3,
+    "epss_score": 0.0014,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Spring Framework DoS via conditional HTTP request",
+    "is_dev_only": false
+  },
+  "GHSA-2wrp-6fg6-hmc5": {
+    "vuln_id": "GHSA-2wrp-6fg6-hmc5",
+    "aliases": [
+      "CVE-2024-22262"
+    ],
+    "package": "org.springframework:spring-web",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '5.3.34'}]",
+    "fixed_version": "5.3.34",
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.1,
+    "epss_score": 0.15205,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Spring Framework URL Parsing with Host Validation",
+    "is_dev_only": false
+  },
+  "GHSA-4wrc-f8pq-fpqp": {
+    "vuln_id": "GHSA-4wrc-f8pq-fpqp",
+    "aliases": [
+      "CVE-2016-1000027"
+    ],
+    "package": "org.springframework:spring-web",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '6.0.0'}]",
+    "fixed_version": "6.0.0",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.8,
+    "epss_score": 0.60417,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Pivotal Spring Framework contains unsafe Java deserialization methods",
+    "is_dev_only": false
+  },
+  "GHSA-ccgv-vj62-xf9h": {
+    "vuln_id": "GHSA-ccgv-vj62-xf9h",
+    "aliases": [
+      "CVE-2024-22243"
+    ],
+    "package": "org.springframework:spring-web",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '6.1.0'}, {'fixed': '6.1.4'}]",
+    "fixed_version": "6.1.4",
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.1,
+    "epss_score": 0.61736,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Spring Web vulnerable to Open Redirect or Server Side Request Forgery",
+    "is_dev_only": false
+  },
+  "GHSA-hgjh-9rj2-g67j": {
+    "vuln_id": "GHSA-hgjh-9rj2-g67j",
+    "aliases": [
+      "CVE-2024-22259"
+    ],
+    "package": "org.springframework:spring-web",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '6.1.0'}, {'fixed': '6.1.5'}]",
+    "fixed_version": "6.1.5",
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.1,
+    "epss_score": 0.56395,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Spring Framework URL Parsing with Host Validation Vulnerability",
+    "is_dev_only": false
+  },
+  "GHSA-36p3-wjmg-h94x": {
+    "vuln_id": "GHSA-36p3-wjmg-h94x",
+    "aliases": [
+      "CVE-2022-22965"
+    ],
+    "package": "org.springframework:spring-webmvc",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '5.2.20.RELEASE'}]",
+    "fixed_version": "5.2.20.RELEASE",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.8,
+    "epss_score": 0.94428,
+    "in_kev": true,
+    "kev_date_added": "2022-04-04",
+    "kev_due_date": "2022-04-25",
+    "summary": "Remote Code Execution in Spring Framework",
+    "is_dev_only": false
+  },
+  "GHSA-8wx2-9q48-vm9r": {
+    "vuln_id": "GHSA-8wx2-9q48-vm9r",
+    "aliases": [
+      "CVE-2020-5398"
+    ],
+    "package": "org.springframework:spring-webmvc",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '5.2.0.RELEASE'}, {'fixed': '5.2.3.RELEASE'}]",
+    "fixed_version": "5.2.3.RELEASE",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.90184,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "RFD attack via Content-Disposition header sourced from request input by Spring MVC or Spring WebFlux Application",
+    "is_dev_only": false
+  },
+  "GHSA-g5vr-rgqm-vf78": {
+    "vuln_id": "GHSA-g5vr-rgqm-vf78",
+    "aliases": [
+      "CVE-2024-38819"
+    ],
+    "package": "org.springframework:spring-webmvc",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '6.1.0'}, {'fixed': '6.1.14'}]",
+    "fixed_version": "6.1.14",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.74498,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Spring Framework Path Traversal vulnerability",
+    "is_dev_only": false
+  },
+  "GHSA-4773-3jfm-qmx3": {
+    "vuln_id": "GHSA-4773-3jfm-qmx3",
+    "aliases": [
+      "CVE-2026-22737"
+    ],
+    "package": "org.springframework:spring-webmvc",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '7.0.0-M1'}, {'fixed': '7.0.6'}]",
+    "fixed_version": "7.0.6",
+    "severity_type": "CVSS_V3",
+    "severity_score": 5.9,
+    "epss_score": 0.00063,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Spring Framework Improper Path Limitation with Script View Templates",
+    "is_dev_only": false
+  },
+  "GHSA-6hcq-hmm3-jj3c": {
+    "vuln_id": "GHSA-6hcq-hmm3-jj3c",
+    "aliases": [
+      "CVE-2026-22735"
+    ],
+    "package": "org.springframework:spring-webmvc",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '7.0.0-M1'}, {'fixed': '7.0.6'}]",
+    "fixed_version": "7.0.6",
+    "severity_type": "CVSS_V3",
+    "severity_score": 2.6,
+    "epss_score": 0.00026,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Spring MVC and WebFlux has Server Sent Event stream corruption",
+    "is_dev_only": false
+  },
+  "GHSA-7phw-cxx7-q9vq": {
+    "vuln_id": "GHSA-7phw-cxx7-q9vq",
+    "aliases": [
+      "CVE-2023-20860"
+    ],
+    "package": "org.springframework:spring-webmvc",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '6.0.0'}, {'fixed': '6.0.7'}]",
+    "fixed_version": "6.0.7",
+    "severity_type": "CVSS_V3",
+    "severity_score": 9.1,
+    "epss_score": 0.56284,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Spring Framework is vulnerable to security bypass via mvcRequestMatcher pattern mismatch",
+    "is_dev_only": false
+  },
+  "GHSA-cx7f-g6mp-7hqm": {
+    "vuln_id": "GHSA-cx7f-g6mp-7hqm",
+    "aliases": [
+      "CVE-2024-38816"
+    ],
+    "package": "org.springframework:spring-webmvc",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '6.1.0'}, {'fixed': '6.1.13'}]",
+    "fixed_version": "6.1.13",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.93889,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Path traversal vulnerability in functional web frameworks",
+    "is_dev_only": false
+  },
+  "GHSA-r936-gwx5-v52f": {
+    "vuln_id": "GHSA-r936-gwx5-v52f",
+    "aliases": [
+      "CVE-2025-41242"
+    ],
+    "package": "org.springframework:spring-webmvc",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '6.2.0'}, {'fixed': '6.2.10'}]",
+    "fixed_version": "6.2.10",
+    "severity_type": "CVSS_V3",
+    "severity_score": 5.9,
+    "epss_score": 0.00072,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Spring Framework MVC Applications Path Traversal Vulnerability",
+    "is_dev_only": false
+  },
+  "GHSA-w3c8-7r8f-9jp8": {
+    "vuln_id": "GHSA-w3c8-7r8f-9jp8",
+    "aliases": [
+      "CVE-2024-38828"
+    ],
+    "package": "org.springframework:spring-webmvc",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '5.3.0'}, {'fixed': '5.3.42'}]",
+    "fixed_version": "5.3.42",
+    "severity_type": "CVSS_V3",
+    "severity_score": 5.3,
+    "epss_score": 0.00076,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Spring MVC controller vulnerable to a DoS attack",
+    "is_dev_only": false
+  },
+  "GHSA-7fch-4f2f-jcgm": {
+    "vuln_id": "GHSA-7fch-4f2f-jcgm",
+    "aliases": [
+      "CVE-2025-41254"
+    ],
+    "package": "org.springframework:spring-websocket",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '6.2.0'}, {'fixed': '6.2.12'}]",
+    "fixed_version": "6.2.12",
+    "severity_type": "CVSS_V3",
+    "severity_score": 4.3,
+    "epss_score": 0.0006,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Spring Framework STOMP over WebSocket applications may allow attackers to send unauthorized messages",
+    "is_dev_only": false
+  },
+  "GHSA-rc2q-x9mf-w3vf": {
+    "vuln_id": "GHSA-rc2q-x9mf-w3vf",
+    "aliases": [
+      "CVE-2022-4065"
+    ],
+    "package": "org.testng:testng",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '6.13'}, {'fixed': '7.5.1'}]",
+    "fixed_version": "7.5.1",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.8,
+    "epss_score": 0.00532,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "TestNG is vulnerable to Path Traversal",
+    "is_dev_only": false
+  },
+  "GHSA-4w4v-5hc9-xrr2": {
+    "vuln_id": "GHSA-4w4v-5hc9-xrr2",
+    "aliases": [
+      "CVE-2024-21490"
+    ],
+    "package": "org.webjars.npm:angular",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '1.3.0'}, {'last_affected': '1.8.3'}]",
+    "fixed_version": null,
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.02307,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "angular vulnerable to super-linear runtime due to backtracking",
+    "is_dev_only": false
+  },
+  "GHSA-6phf-6h5g-97j2": {
+    "vuln_id": "GHSA-6phf-6h5g-97j2",
+    "aliases": [
+      "CVE-2023-32697"
+    ],
+    "package": "org.xerial:sqlite-jdbc",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '3.6.14.1'}, {'fixed': '3.41.2.2'}]",
+    "fixed_version": "3.41.2.2",
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.8,
+    "epss_score": 0.05451,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Sqlite-jdbc vulnerable to remote code execution when JDBC url is attacker controlled",
+    "is_dev_only": false
+  },
+  "GHSA-3mc7-4q67-w48m": {
+    "vuln_id": "GHSA-3mc7-4q67-w48m",
+    "aliases": [
+      "CVE-2022-25857"
+    ],
+    "package": "org.yaml:snakeyaml",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '1.31'}]",
+    "fixed_version": "1.31",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.00869,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Uncontrolled Resource Consumption in snakeyaml",
+    "is_dev_only": false
+  },
+  "GHSA-98wm-3w3q-mw94": {
+    "vuln_id": "GHSA-98wm-3w3q-mw94",
+    "aliases": [
+      "CVE-2022-38751"
+    ],
+    "package": "org.yaml:snakeyaml",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '1.31'}]",
+    "fixed_version": "1.31",
+    "severity_type": "CVSS_V3",
+    "severity_score": 6.5,
+    "epss_score": 0.0021,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "snakeYAML before 1.31 vulnerable to Denial of Service due to Out-of-bounds Write",
+    "is_dev_only": false
+  },
+  "GHSA-9w3m-gqgf-c4p9": {
+    "vuln_id": "GHSA-9w3m-gqgf-c4p9",
+    "aliases": [
+      "CVE-2022-38752"
+    ],
+    "package": "org.yaml:snakeyaml",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '1.32'}]",
+    "fixed_version": "1.32",
+    "severity_type": "CVSS_V3",
+    "severity_score": 6.5,
+    "epss_score": 0.00166,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "snakeYAML before 1.32 vulnerable to Denial of Service due to Out-of-bounds Write",
+    "is_dev_only": false
+  },
+  "GHSA-c4r9-r8fh-9vj2": {
+    "vuln_id": "GHSA-c4r9-r8fh-9vj2",
+    "aliases": [
+      "CVE-2022-38749"
+    ],
+    "package": "org.yaml:snakeyaml",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '1.31'}]",
+    "fixed_version": "1.31",
+    "severity_type": "CVSS_V3",
+    "severity_score": 6.5,
+    "epss_score": 0.00533,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "snakeYAML before 1.31 vulnerable to Denial of Service due to Out-of-bounds Write",
+    "is_dev_only": false
+  },
+  "GHSA-hhhw-99gj-p3c3": {
+    "vuln_id": "GHSA-hhhw-99gj-p3c3",
+    "aliases": [
+      "CVE-2022-38750"
+    ],
+    "package": "org.yaml:snakeyaml",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '1.31'}]",
+    "fixed_version": "1.31",
+    "severity_type": "CVSS_V3",
+    "severity_score": 5.5,
+    "epss_score": 0.00155,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "snakeYAML before 1.31 vulnerable to Denial of Service due to Out-of-bounds Write",
+    "is_dev_only": false
+  },
+  "GHSA-mjmj-j48q-9wg2": {
+    "vuln_id": "GHSA-mjmj-j48q-9wg2",
+    "aliases": [
+      "CVE-2022-1471"
+    ],
+    "package": "org.yaml:snakeyaml",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '2.0'}]",
+    "fixed_version": "2.0",
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.3,
+    "epss_score": 0.93849,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "SnakeYaml Constructor Deserialization Remote Code Execution",
+    "is_dev_only": false
+  },
+  "GHSA-rvwf-54qp-4r6v": {
+    "vuln_id": "GHSA-rvwf-54qp-4r6v",
+    "aliases": [
+      "CVE-2017-18640"
+    ],
+    "package": "org.yaml:snakeyaml",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '1.26'}]",
+    "fixed_version": "1.26",
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.02166,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "SnakeYAML Entity Expansion during load operation",
+    "is_dev_only": false
+  },
+  "GHSA-w37g-rhq8-7m4j": {
+    "vuln_id": "GHSA-w37g-rhq8-7m4j",
+    "aliases": [
+      "CVE-2022-41854"
+    ],
+    "package": "org.yaml:snakeyaml",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '1.32'}]",
+    "fixed_version": "1.32",
+    "severity_type": "CVSS_V3",
+    "severity_score": 6.5,
+    "epss_score": 0.00082,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Snakeyaml vulnerable to Stack overflow leading to denial of service",
+    "is_dev_only": false
+  },
+  "GHSA-5ggr-mpgw-3mgx": {
+    "vuln_id": "GHSA-5ggr-mpgw-3mgx",
+    "aliases": [
+      "CVE-2016-1182"
+    ],
+    "package": "struts:struts",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'last_affected': '1.3.10'}]",
+    "fixed_version": null,
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.2,
+    "epss_score": 0.01805,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Improper Input Validation in Apache Struts",
+    "is_dev_only": false
+  },
+  "GHSA-7jw3-5q4w-89qg": {
+    "vuln_id": "GHSA-7jw3-5q4w-89qg",
+    "aliases": [
+      "CVE-2016-1181"
+    ],
+    "package": "struts:struts",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'last_affected': '1.3.10'}]",
+    "fixed_version": null,
+    "severity_type": "CVSS_V3",
+    "severity_score": 8.1,
+    "epss_score": 0.09394,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Improper Input Validation in Apache Struts",
+    "is_dev_only": false
+  },
+  "GHSA-9848-v244-962p": {
+    "vuln_id": "GHSA-9848-v244-962p",
+    "aliases": [
+      "CVE-2012-1007"
+    ],
+    "package": "struts:struts",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'last_affected': '1.3.10'}]",
+    "fixed_version": null,
+    "severity_type": "",
+    "severity_score": 0.0,
+    "epss_score": 0.23022,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Apache Struts XSS",
+    "is_dev_only": false
+  },
+  "GHSA-cvvx-r33m-v7pq": {
+    "vuln_id": "GHSA-cvvx-r33m-v7pq",
+    "aliases": [
+      "CVE-2015-0899"
+    ],
+    "package": "struts:struts",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '1.1'}, {'last_affected': '1.3.10'}]",
+    "fixed_version": null,
+    "severity_type": "CVSS_V3",
+    "severity_score": 7.5,
+    "epss_score": 0.69459,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Improper Input Validation in Apache Struts",
+    "is_dev_only": false
+  },
+  "GHSA-cx25-xg7c-xfm5": {
+    "vuln_id": "GHSA-cx25-xg7c-xfm5",
+    "aliases": [
+      "CVE-2025-54656"
+    ],
+    "package": "struts:struts",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'last_affected': '1.3.10'}]",
+    "fixed_version": null,
+    "severity_type": "CVSS_V3",
+    "severity_score": 6.5,
+    "epss_score": 0.00246,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Apache Struts Extras Before 2 has an Improper Output Neutralization for Logs Vulnerability",
+    "is_dev_only": false
+  },
+  "GHSA-wcgx-2hvx-5cwr": {
+    "vuln_id": "GHSA-wcgx-2hvx-5cwr",
+    "aliases": [
+      "CVE-2008-2025"
+    ],
+    "package": "struts:struts",
+    "ecosystem": "Maven",
+    "affected_range": "[{'introduced': '0'}, {'fixed': '1.2.9-162.31.1'}]",
+    "fixed_version": "1.2.9-162.31.1",
+    "severity_type": "",
+    "severity_score": 0.0,
+    "epss_score": 0.0322,
+    "in_kev": false,
+    "kev_date_added": "",
+    "kev_due_date": "",
+    "summary": "Apache Struts Cross-site Scripting vulnerability",
+    "is_dev_only": false
+  }
+}

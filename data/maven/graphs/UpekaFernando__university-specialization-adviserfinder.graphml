@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="com.university:advisor-finder@0.0.1-SNAPSHOT">
+      <data key="d2">com.university:advisor-finder</data>
+      <data key="d3">0.0.1-SNAPSHOT</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="mysql:mysql-connector-java@8.0.30">
+      <data key="d2">mysql:mysql-connector-java</data>
+      <data key="d3">8.0.30</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-2xxh-f8r3-hvvr,GHSA-4vrv-ch96-6h42,GHSA-cjcf-wm2p-59h5,GHSA-g76j-4cxx-23h9,GHSA-jcq3-cprp-m333,GHSA-pwh7-92h3-mqr6,GHSA-w6f2-8wx4-47r5</data>
+    </node>
+    <node id="io.cucumber:cucumber-java@7.14.0">
+      <data key="d2">io.cucumber:cucumber-java</data>
+      <data key="d3">7.14.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="io.cucumber:cucumber-junit-platform-engine@7.14.0">
+      <data key="d2">io.cucumber:cucumber-junit-platform-engine</data>
+      <data key="d3">7.14.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="io.cucumber:cucumber-spring@7.14.0">
+      <data key="d2">io.cucumber:cucumber-spring</data>
+      <data key="d3">7.14.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="org.junit.platform:junit-platform-suite@1.9.3">
+      <data key="d2">org.junit.platform:junit-platform-suite</data>
+      <data key="d3">1.9.3</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="io.rest-assured:rest-assured@4.5.1">
+      <data key="d2">io.rest-assured:rest-assured</data>
+      <data key="d3">4.5.1</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="io.rest-assured:json-path@4.5.1">
+      <data key="d2">io.rest-assured:json-path</data>
+      <data key="d3">4.5.1</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="org.seleniumhq.selenium:selenium-java@3.141.59">
+      <data key="d2">org.seleniumhq.selenium:selenium-java</data>
+      <data key="d3">3.141.59</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="org.seleniumhq.selenium:selenium-chrome-driver@3.141.59">
+      <data key="d2">org.seleniumhq.selenium:selenium-chrome-driver</data>
+      <data key="d3">3.141.59</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="org.seleniumhq.selenium:selenium-firefox-driver@3.141.59">
+      <data key="d2">org.seleniumhq.selenium:selenium-firefox-driver</data>
+      <data key="d3">3.141.59</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="org.seleniumhq.selenium:selenium-edge-driver@3.141.59">
+      <data key="d2">org.seleniumhq.selenium:selenium-edge-driver</data>
+      <data key="d3">3.141.59</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="org.seleniumhq.selenium:selenium-safari-driver@3.141.59">
+      <data key="d2">org.seleniumhq.selenium:selenium-safari-driver</data>
+      <data key="d3">3.141.59</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="io.github.bonigarcia:webdrivermanager@4.4.3">
+      <data key="d2">io.github.bonigarcia:webdrivermanager</data>
+      <data key="d3">4.4.3</data>
+      <data key="d4">true</data>
+      <data key="d5">GHSA-pwm3-776c-8q7q</data>
+    </node>
+    <edge source="com.university:advisor-finder@0.0.1-SNAPSHOT" target="mysql:mysql-connector-java@8.0.30" />
+    <edge source="com.university:advisor-finder@0.0.1-SNAPSHOT" target="io.cucumber:cucumber-java@7.14.0" />
+    <edge source="com.university:advisor-finder@0.0.1-SNAPSHOT" target="io.cucumber:cucumber-junit-platform-engine@7.14.0" />
+    <edge source="com.university:advisor-finder@0.0.1-SNAPSHOT" target="io.cucumber:cucumber-spring@7.14.0" />
+    <edge source="com.university:advisor-finder@0.0.1-SNAPSHOT" target="org.junit.platform:junit-platform-suite@1.9.3" />
+    <edge source="com.university:advisor-finder@0.0.1-SNAPSHOT" target="io.rest-assured:rest-assured@4.5.1" />
+    <edge source="com.university:advisor-finder@0.0.1-SNAPSHOT" target="io.rest-assured:json-path@4.5.1" />
+    <edge source="com.university:advisor-finder@0.0.1-SNAPSHOT" target="org.seleniumhq.selenium:selenium-java@3.141.59" />
+    <edge source="com.university:advisor-finder@0.0.1-SNAPSHOT" target="org.seleniumhq.selenium:selenium-chrome-driver@3.141.59" />
+    <edge source="com.university:advisor-finder@0.0.1-SNAPSHOT" target="org.seleniumhq.selenium:selenium-firefox-driver@3.141.59" />
+    <edge source="com.university:advisor-finder@0.0.1-SNAPSHOT" target="org.seleniumhq.selenium:selenium-edge-driver@3.141.59" />
+    <edge source="com.university:advisor-finder@0.0.1-SNAPSHOT" target="org.seleniumhq.selenium:selenium-safari-driver@3.141.59" />
+    <edge source="com.university:advisor-finder@0.0.1-SNAPSHOT" target="io.github.bonigarcia:webdrivermanager@4.4.3" />
+    <data key="d0">UpekaFernando__university-specialization-adviserfinder</data>
+    <data key="d1">Maven</data>
+  </graph>
+</graphml>

@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="org.example:mySpbft@1.0-SNAPSHOT">
+      <data key="d2">org.example:mySpbft</data>
+      <data key="d3">1.0-SNAPSHOT</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.google.guava:guava@16.0.1">
+      <data key="d2">com.google.guava:guava</data>
+      <data key="d3">16.0.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-5mg8-w23w-74h3,GHSA-7g45-4rm6-3mm3,GHSA-mvr2-9pj6-7w5j</data>
+    </node>
+    <node id="cglib:cglib@3.1">
+      <data key="d2">cglib:cglib</data>
+      <data key="d3">3.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="commons-httpclient:commons-httpclient@3.1">
+      <data key="d2">commons-httpclient:commons-httpclient</data>
+      <data key="d3">3.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-3832-9276-x7gf</data>
+    </node>
+    <node id="com.google.code.gson:gson@2.8.0">
+      <data key="d2">com.google.code.gson:gson</data>
+      <data key="d3">2.8.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-4jrv-ppp4-jm57</data>
+    </node>
+    <node id="bouncycastle:bcprov-jdk16@140">
+      <data key="d2">bouncycastle:bcprov-jdk16</data>
+      <data key="d3">140</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.google.zxing:core@3.0.0">
+      <data key="d2">com.google.zxing:core</data>
+      <data key="d3">3.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="javax.mail:mail@1.4.7">
+      <data key="d2">javax.mail:mail</data>
+      <data key="d3">1.4.7</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.esotericsoftware:kryo@4.0.0">
+      <data key="d2">com.esotericsoftware:kryo</data>
+      <data key="d3">4.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.itextpdf:itextpdf@5.5.10">
+      <data key="d2">com.itextpdf:itextpdf</data>
+      <data key="d3">5.5.10</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-86p9-x5pw-94qx,GHSA-gv87-q66h-4277</data>
+    </node>
+    <node id="com.itextpdf.tool:xmlworker@5.5.10">
+      <data key="d2">com.itextpdf.tool:xmlworker</data>
+      <data key="d3">5.5.10</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="redis.clients:jedis@2.5.1">
+      <data key="d2">redis.clients:jedis</data>
+      <data key="d3">2.5.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.redisson:redisson@3.8.1">
+      <data key="d2">org.redisson:redisson</data>
+      <data key="d3">3.8.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-4hvc-qwr2-f8rv</data>
+    </node>
+    <node id="org.springframework.boot:spring-boot-starter-test@1.4.6.RELEASE">
+      <data key="d2">org.springframework.boot:spring-boot-starter-test</data>
+      <data key="d3">1.4.6.RELEASE</data>
+      <data key="d4">true</data>
+    </node>
+    <edge source="org.example:mySpbft@1.0-SNAPSHOT" target="com.google.guava:guava@16.0.1" />
+    <edge source="org.example:mySpbft@1.0-SNAPSHOT" target="cglib:cglib@3.1" />
+    <edge source="org.example:mySpbft@1.0-SNAPSHOT" target="commons-httpclient:commons-httpclient@3.1" />
+    <edge source="org.example:mySpbft@1.0-SNAPSHOT" target="com.google.code.gson:gson@2.8.0" />
+    <edge source="org.example:mySpbft@1.0-SNAPSHOT" target="bouncycastle:bcprov-jdk16@140" />
+    <edge source="org.example:mySpbft@1.0-SNAPSHOT" target="com.google.zxing:core@3.0.0" />
+    <edge source="org.example:mySpbft@1.0-SNAPSHOT" target="javax.mail:mail@1.4.7" />
+    <edge source="org.example:mySpbft@1.0-SNAPSHOT" target="com.esotericsoftware:kryo@4.0.0" />
+    <edge source="org.example:mySpbft@1.0-SNAPSHOT" target="com.itextpdf:itextpdf@5.5.10" />
+    <edge source="org.example:mySpbft@1.0-SNAPSHOT" target="com.itextpdf.tool:xmlworker@5.5.10" />
+    <edge source="org.example:mySpbft@1.0-SNAPSHOT" target="redis.clients:jedis@2.5.1" />
+    <edge source="org.example:mySpbft@1.0-SNAPSHOT" target="org.redisson:redisson@3.8.1" />
+    <edge source="org.example:mySpbft@1.0-SNAPSHOT" target="org.springframework.boot:spring-boot-starter-test@1.4.6.RELEASE" />
+    <data key="d0">rfhfwe__bft_study</data>
+    <data key="d1">Maven</data>
+  </graph>
+</graphml>

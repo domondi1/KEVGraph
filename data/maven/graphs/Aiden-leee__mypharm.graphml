@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="com.prj:mypharm@1.0.0-BUILD-SNAPSHOT">
+      <data key="d2">com.prj:mypharm</data>
+      <data key="d3">1.0.0-BUILD-SNAPSHOT</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="log4j:log4j@1.2.15">
+      <data key="d2">log4j:log4j</data>
+      <data key="d3">1.2.15</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-2qrg-x229-3v8q,GHSA-65fg-84f6-3jq3,GHSA-f7vh-qwp3-x37m,GHSA-fp5r-v3w9-4333,GHSA-vp98-w2p3-mv35,GHSA-w9p3-5cr8-m3jj</data>
+    </node>
+    <node id="javax.inject:javax.inject@1">
+      <data key="d2">javax.inject:javax.inject</data>
+      <data key="d3">1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="javax.servlet:javax.servlet-api@3.1.0">
+      <data key="d2">javax.servlet:javax.servlet-api</data>
+      <data key="d3">3.1.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="javax.servlet.jsp:jsp-api@2.1">
+      <data key="d2">javax.servlet.jsp:jsp-api</data>
+      <data key="d3">2.1</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="javax.servlet:jstl@1.2">
+      <data key="d2">javax.servlet:jstl</data>
+      <data key="d3">1.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="junit:junit@4.7">
+      <data key="d2">junit:junit</data>
+      <data key="d3">4.7</data>
+      <data key="d4">true</data>
+      <data key="d5">GHSA-269g-pwp5-87pp</data>
+    </node>
+    <node id="com.fasterxml.jackson.core:jackson-databind@2.13.0">
+      <data key="d2">com.fasterxml.jackson.core:jackson-databind</data>
+      <data key="d3">2.13.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-288c-cq4h-88gq,GHSA-3x8x-79m2-3w2w,GHSA-57j2-w4cx-62h2,GHSA-jjjh-jjxp-wpff,GHSA-rgv9-q543-rqg4,GHSA-4gq5-ch57-c2mg,GHSA-4w82-r329-3q67,GHSA-5949-rw7g-wx7w,GHSA-5r5r-6hpj-8gg9,GHSA-5ww9-j83m-q7qx,GHSA-645p-88qh-w398,GHSA-6fpp-rgj9-8rwc,GHSA-6wqp-v4v6-c87c,GHSA-85cw-hj65-qqv9,GHSA-89qr-369f-5m5x,GHSA-8c4j-34r4-xr8g,GHSA-8w26-6f25-cm9x,GHSA-9gph-22xh-8x98,GHSA-9m6f-7xcq-8vf8,GHSA-9mxf-g3x6-wv74,GHSA-c8hm-7hpq-7jhg,GHSA-cf6r-3wgc-h863,GHSA-cggj-fvv3-cqwv,GHSA-cjjf-94ff-43w7,GHSA-cmfg-87vq-g5g4,GHSA-cvm9-fjm9-3572,GHSA-f3j5-rmmp-3fc5,GHSA-f9hv-mg5h-xcw9,GHSA-f9xh-2qgp-cq57,GHSA-fmmc-742q-jg75,GHSA-fqwf-pjwf-7vqv,GHSA-gjmw-vf9h-g25v,GHSA-gwp4-hfv6-p7hw,GHSA-gww7-p5w4-wrfv,GHSA-h3cw-g4mq-c5x2,GHSA-h592-38cm-4ggp,GHSA-h822-r4r5-v8jg,GHSA-m6x4-97wx-4q27,GHSA-mph4-vhrx-mv67,GHSA-mx7p-6679-8g3q,GHSA-mx9v-gmh4-mgqw,GHSA-p43x-xfjf-5jhr,GHSA-q93h-jc49-78gg,GHSA-qjw2-hr98-qgfh,GHSA-qr7j-h6gg-jmgc,GHSA-r3gr-cxrf-hg25,GHSA-r695-7vr9-jgc2,GHSA-rfx6-vp9g-rh7v,GHSA-rpr3-cw39-3pxh,GHSA-v585-23hc-c647,GHSA-vfqx-33qm-g869,GHSA-w3f4-3q6j-rh82,GHSA-wh8g-3j2c-rqj5,GHSA-x2w5-5m2g-7h5m,GHSA-27xj-rqx5-2255,GHSA-58pp-9c76-5625,GHSA-5p34-5m6p-p58g,GHSA-758m-v56v-grj4,GHSA-95cm-88f5-f2c7,GHSA-9vvp-fxw6-jcxr,GHSA-c265-37vj-cwcc,GHSA-c2q3-4qrh-fm48,GHSA-h4rc-386g-6m85,GHSA-j823-4qch-3rgm,GHSA-mc6h-4qgp-37qh,GHSA-qmqc-x3r4-6v39,GHSA-rf6r-2c4q-2vwg,GHSA-v3xw-c963-f5hc</data>
+    </node>
+    <node id="com.googlecode.json-simple:json-simple@1.1.1">
+      <data key="d2">com.googlecode.json-simple:json-simple</data>
+      <data key="d3">1.1.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.google.code.gson:gson@2.8.7">
+      <data key="d2">com.google.code.gson:gson</data>
+      <data key="d3">2.8.7</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-4jrv-ppp4-jm57</data>
+    </node>
+    <node id="mysql:mysql-connector-java@8.0.33">
+      <data key="d2">mysql:mysql-connector-java</data>
+      <data key="d3">8.0.33</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-2xxh-f8r3-hvvr,GHSA-4vrv-ch96-6h42,GHSA-cjcf-wm2p-59h5,GHSA-g76j-4cxx-23h9,GHSA-jcq3-cprp-m333,GHSA-pwh7-92h3-mqr6,GHSA-w6f2-8wx4-47r5</data>
+    </node>
+    <node id="com.zaxxer:HikariCP@5.0.1">
+      <data key="d2">com.zaxxer:HikariCP</data>
+      <data key="d3">5.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.mybatis:mybatis@3.4.6">
+      <data key="d2">org.mybatis:mybatis</data>
+      <data key="d3">3.4.6</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-qq48-m4jx-xqh8</data>
+    </node>
+    <node id="org.mybatis:mybatis-spring@1.3.2">
+      <data key="d2">org.mybatis:mybatis-spring</data>
+      <data key="d3">1.3.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.bgee.log4jdbc-log4j2:log4jdbc-log4j2-jdbc4@1.16">
+      <data key="d2">org.bgee.log4jdbc-log4j2:log4jdbc-log4j2-jdbc4</data>
+      <data key="d3">1.16</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.projectlombok:lombok@1.18.28">
+      <data key="d2">org.projectlombok:lombok</data>
+      <data key="d3">1.18.28</data>
+      <data key="d4">true</data>
+    </node>
+    <edge source="com.prj:mypharm@1.0.0-BUILD-SNAPSHOT" target="log4j:log4j@1.2.15" />
+    <edge source="com.prj:mypharm@1.0.0-BUILD-SNAPSHOT" target="javax.inject:javax.inject@1" />
+    <edge source="com.prj:mypharm@1.0.0-BUILD-SNAPSHOT" target="javax.servlet:javax.servlet-api@3.1.0" />
+    <edge source="com.prj:mypharm@1.0.0-BUILD-SNAPSHOT" target="javax.servlet.jsp:jsp-api@2.1" />
+    <edge source="com.prj:mypharm@1.0.0-BUILD-SNAPSHOT" target="javax.servlet:jstl@1.2" />
+    <edge source="com.prj:mypharm@1.0.0-BUILD-SNAPSHOT" target="junit:junit@4.7" />
+    <edge source="com.prj:mypharm@1.0.0-BUILD-SNAPSHOT" target="com.fasterxml.jackson.core:jackson-databind@2.13.0" />
+    <edge source="com.prj:mypharm@1.0.0-BUILD-SNAPSHOT" target="com.googlecode.json-simple:json-simple@1.1.1" />
+    <edge source="com.prj:mypharm@1.0.0-BUILD-SNAPSHOT" target="com.google.code.gson:gson@2.8.7" />
+    <edge source="com.prj:mypharm@1.0.0-BUILD-SNAPSHOT" target="mysql:mysql-connector-java@8.0.33" />
+    <edge source="com.prj:mypharm@1.0.0-BUILD-SNAPSHOT" target="com.zaxxer:HikariCP@5.0.1" />
+    <edge source="com.prj:mypharm@1.0.0-BUILD-SNAPSHOT" target="org.mybatis:mybatis@3.4.6" />
+    <edge source="com.prj:mypharm@1.0.0-BUILD-SNAPSHOT" target="org.mybatis:mybatis-spring@1.3.2" />
+    <edge source="com.prj:mypharm@1.0.0-BUILD-SNAPSHOT" target="org.bgee.log4jdbc-log4j2:log4jdbc-log4j2-jdbc4@1.16" />
+    <edge source="com.prj:mypharm@1.0.0-BUILD-SNAPSHOT" target="org.projectlombok:lombok@1.18.28" />
+    <data key="d0">Aiden-leee__mypharm</data>
+    <data key="d1">Maven</data>
+  </graph>
+</graphml>

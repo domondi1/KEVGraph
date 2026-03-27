@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="com.example:demo@0.0.1-SNAPSHOT">
+      <data key="d2">com.example:demo</data>
+      <data key="d3">0.0.1-SNAPSHOT</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="io.jsonwebtoken:jjwt-api@0.11.5">
+      <data key="d2">io.jsonwebtoken:jjwt-api</data>
+      <data key="d3">0.11.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="io.jsonwebtoken:jjwt-impl@0.11.5">
+      <data key="d2">io.jsonwebtoken:jjwt-impl</data>
+      <data key="d3">0.11.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="io.jsonwebtoken:jjwt-jackson@0.11.5">
+      <data key="d2">io.jsonwebtoken:jjwt-jackson</data>
+      <data key="d3">0.11.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.itextpdf:kernel@7.2.5">
+      <data key="d2">com.itextpdf:kernel</data>
+      <data key="d3">7.2.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.itextpdf:layout@7.2.5">
+      <data key="d2">com.itextpdf:layout</data>
+      <data key="d3">7.2.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.google.zxing:core@3.5.0">
+      <data key="d2">com.google.zxing:core</data>
+      <data key="d3">3.5.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.google.zxing:javase@3.5.0">
+      <data key="d2">com.google.zxing:javase</data>
+      <data key="d3">3.5.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.sun.mail:jakarta.mail@2.0.1">
+      <data key="d2">com.sun.mail:jakarta.mail</data>
+      <data key="d3">2.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.stripe:stripe-java@24.8.0">
+      <data key="d2">com.stripe:stripe-java</data>
+      <data key="d3">24.8.0</data>
+      <data key="d4">false</data>
+    </node>
+    <edge source="com.example:demo@0.0.1-SNAPSHOT" target="io.jsonwebtoken:jjwt-api@0.11.5" />
+    <edge source="com.example:demo@0.0.1-SNAPSHOT" target="io.jsonwebtoken:jjwt-impl@0.11.5" />
+    <edge source="com.example:demo@0.0.1-SNAPSHOT" target="io.jsonwebtoken:jjwt-jackson@0.11.5" />
+    <edge source="com.example:demo@0.0.1-SNAPSHOT" target="com.itextpdf:kernel@7.2.5" />
+    <edge source="com.example:demo@0.0.1-SNAPSHOT" target="com.itextpdf:layout@7.2.5" />
+    <edge source="com.example:demo@0.0.1-SNAPSHOT" target="com.google.zxing:core@3.5.0" />
+    <edge source="com.example:demo@0.0.1-SNAPSHOT" target="com.google.zxing:javase@3.5.0" />
+    <edge source="com.example:demo@0.0.1-SNAPSHOT" target="com.sun.mail:jakarta.mail@2.0.1" />
+    <edge source="com.example:demo@0.0.1-SNAPSHOT" target="com.stripe:stripe-java@24.8.0" />
+    <data key="d0">salwaalimoussa__Projet_app_web</data>
+    <data key="d1">Maven</data>
+  </graph>
+</graphml>

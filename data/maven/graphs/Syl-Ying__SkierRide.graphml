@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="org.sylvia:Servlet@1.0-SNAPSHOT">
+      <data key="d2">org.sylvia:Servlet</data>
+      <data key="d3">1.0-SNAPSHOT</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="javax.servlet:javax.servlet-api@4.0.1">
+      <data key="d2">javax.servlet:javax.servlet-api</data>
+      <data key="d3">4.0.1</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="com.google.code.gson:gson@2.11.0">
+      <data key="d2">com.google.code.gson:gson</data>
+      <data key="d3">2.11.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-4jrv-ppp4-jm57</data>
+    </node>
+    <node id="io.swagger:swagger-java-client@1.0.0">
+      <data key="d2">io.swagger:swagger-java-client</data>
+      <data key="d3">1.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="javax.xml.bind:jaxb-api@2.2.11">
+      <data key="d2">javax.xml.bind:jaxb-api</data>
+      <data key="d3">2.2.11</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.sun.xml.bind:jaxb-core@2.2.11">
+      <data key="d2">com.sun.xml.bind:jaxb-core</data>
+      <data key="d3">2.2.11</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.sun.xml.bind:jaxb-impl@2.2.11">
+      <data key="d2">com.sun.xml.bind:jaxb-impl</data>
+      <data key="d3">2.2.11</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="javax.activation:activation@1.1.1">
+      <data key="d2">javax.activation:activation</data>
+      <data key="d3">1.1.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="javax.annotation:javax.annotation-api@1.3.2">
+      <data key="d2">javax.annotation:javax.annotation-api</data>
+      <data key="d3">1.3.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.rabbitmq:amqp-client@5.22.0">
+      <data key="d2">com.rabbitmq:amqp-client</data>
+      <data key="d3">5.22.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-mm8h-8587-p46h</data>
+    </node>
+    <node id="org.slf4j:slf4j-log4j12@2.0.5">
+      <data key="d2">org.slf4j:slf4j-log4j12</data>
+      <data key="d3">2.0.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.projectlombok:lombok@1.18.26">
+      <data key="d2">org.projectlombok:lombok</data>
+      <data key="d3">1.18.26</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="io.github.resilience4j:resilience4j-ratelimiter@2.2.0">
+      <data key="d2">io.github.resilience4j:resilience4j-ratelimiter</data>
+      <data key="d3">2.2.0</data>
+      <data key="d4">false</data>
+    </node>
+    <edge source="org.sylvia:Servlet@1.0-SNAPSHOT" target="javax.servlet:javax.servlet-api@4.0.1" />
+    <edge source="org.sylvia:Servlet@1.0-SNAPSHOT" target="com.google.code.gson:gson@2.11.0" />
+    <edge source="org.sylvia:Servlet@1.0-SNAPSHOT" target="io.swagger:swagger-java-client@1.0.0" />
+    <edge source="org.sylvia:Servlet@1.0-SNAPSHOT" target="javax.xml.bind:jaxb-api@2.2.11" />
+    <edge source="org.sylvia:Servlet@1.0-SNAPSHOT" target="com.sun.xml.bind:jaxb-core@2.2.11" />
+    <edge source="org.sylvia:Servlet@1.0-SNAPSHOT" target="com.sun.xml.bind:jaxb-impl@2.2.11" />
+    <edge source="org.sylvia:Servlet@1.0-SNAPSHOT" target="javax.activation:activation@1.1.1" />
+    <edge source="org.sylvia:Servlet@1.0-SNAPSHOT" target="javax.annotation:javax.annotation-api@1.3.2" />
+    <edge source="org.sylvia:Servlet@1.0-SNAPSHOT" target="com.rabbitmq:amqp-client@5.22.0" />
+    <edge source="org.sylvia:Servlet@1.0-SNAPSHOT" target="org.slf4j:slf4j-log4j12@2.0.5" />
+    <edge source="org.sylvia:Servlet@1.0-SNAPSHOT" target="org.projectlombok:lombok@1.18.26" />
+    <edge source="org.sylvia:Servlet@1.0-SNAPSHOT" target="io.github.resilience4j:resilience4j-ratelimiter@2.2.0" />
+    <data key="d0">Syl-Ying__SkierRide</data>
+    <data key="d1">Maven</data>
+  </graph>
+</graphml>

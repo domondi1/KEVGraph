@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="it.pagopa.pn.pdfraster:pn-pdfraster@2.0.0">
+      <data key="d2">it.pagopa.pn.pdfraster:pn-pdfraster</data>
+      <data key="d3">2.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.samskivert:jmustache@1.16">
+      <data key="d2">com.samskivert:jmustache</data>
+      <data key="d3">1.16</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.apache.commons:commons-pool2@2.12.0">
+      <data key="d2">org.apache.commons:commons-pool2</data>
+      <data key="d3">2.12.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="it.pagopa.pn:pn-commons@2.15.0-SPRINGBOOT3">
+      <data key="d2">it.pagopa.pn:pn-commons</data>
+      <data key="d3">2.15.0-SPRINGBOOT3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.openapitools:jackson-databind-nullable@0.2.4">
+      <data key="d2">org.openapitools:jackson-databind-nullable</data>
+      <data key="d3">0.2.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="io.swagger:swagger-annotations@1.6.5">
+      <data key="d2">io.swagger:swagger-annotations</data>
+      <data key="d3">1.6.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.springdoc:springdoc-openapi-starter-webflux-ui@2.3.0">
+      <data key="d2">org.springdoc:springdoc-openapi-starter-webflux-ui</data>
+      <data key="d3">2.3.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="io.gsonfire:gson-fire@1.9.0-alpha2">
+      <data key="d2">io.gsonfire:gson-fire</data>
+      <data key="d3">1.9.0-alpha2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="redis.clients:jedis@5.1.2">
+      <data key="d2">redis.clients:jedis</data>
+      <data key="d3">5.1.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="commons-io:commons-io@2.15.1">
+      <data key="d2">commons-io:commons-io</data>
+      <data key="d3">2.15.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-gwrp-pvrq-jmwv,GHSA-78wr-2p64-hpwj</data>
+    </node>
+    <node id="org.apache.pdfbox:pdfbox@3.0.4">
+      <data key="d2">org.apache.pdfbox:pdfbox</data>
+      <data key="d3">3.0.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.apache.pdfbox:pdfbox-tools@3.0.4">
+      <data key="d2">org.apache.pdfbox:pdfbox-tools</data>
+      <data key="d3">3.0.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.apache.pdfbox:jbig2-imageio@3.0.4">
+      <data key="d2">org.apache.pdfbox:jbig2-imageio</data>
+      <data key="d3">3.0.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="info.picocli:picocli@4.7.6">
+      <data key="d2">info.picocli:picocli</data>
+      <data key="d3">4.7.6</data>
+      <data key="d4">false</data>
+    </node>
+    <edge source="it.pagopa.pn.pdfraster:pn-pdfraster@2.0.0" target="com.samskivert:jmustache@1.16" />
+    <edge source="it.pagopa.pn.pdfraster:pn-pdfraster@2.0.0" target="org.apache.commons:commons-pool2@2.12.0" />
+    <edge source="it.pagopa.pn.pdfraster:pn-pdfraster@2.0.0" target="it.pagopa.pn:pn-commons@2.15.0-SPRINGBOOT3" />
+    <edge source="it.pagopa.pn.pdfraster:pn-pdfraster@2.0.0" target="org.openapitools:jackson-databind-nullable@0.2.4" />
+    <edge source="it.pagopa.pn.pdfraster:pn-pdfraster@2.0.0" target="io.swagger:swagger-annotations@1.6.5" />
+    <edge source="it.pagopa.pn.pdfraster:pn-pdfraster@2.0.0" target="org.springdoc:springdoc-openapi-starter-webflux-ui@2.3.0" />
+    <edge source="it.pagopa.pn.pdfraster:pn-pdfraster@2.0.0" target="io.gsonfire:gson-fire@1.9.0-alpha2" />
+    <edge source="it.pagopa.pn.pdfraster:pn-pdfraster@2.0.0" target="redis.clients:jedis@5.1.2" />
+    <edge source="it.pagopa.pn.pdfraster:pn-pdfraster@2.0.0" target="commons-io:commons-io@2.15.1" />
+    <edge source="it.pagopa.pn.pdfraster:pn-pdfraster@2.0.0" target="org.apache.pdfbox:pdfbox@3.0.4" />
+    <edge source="it.pagopa.pn.pdfraster:pn-pdfraster@2.0.0" target="org.apache.pdfbox:pdfbox-tools@3.0.4" />
+    <edge source="it.pagopa.pn.pdfraster:pn-pdfraster@2.0.0" target="org.apache.pdfbox:jbig2-imageio@3.0.4" />
+    <edge source="it.pagopa.pn.pdfraster:pn-pdfraster@2.0.0" target="info.picocli:picocli@4.7.6" />
+    <data key="d0">pagopa__pn-pdfraster</data>
+    <data key="d1">Maven</data>
+  </graph>
+</graphml>

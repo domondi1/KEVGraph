@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="com.example:testapp1202@0.0.1-SNAPSHOT">
+      <data key="d2">com.example:testapp1202</data>
+      <data key="d3">0.0.1-SNAPSHOT</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.projectlombok:lombok@1.18.26">
+      <data key="d2">org.projectlombok:lombok</data>
+      <data key="d3">1.18.26</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="org.mariadb.jdbc:mariadb-java-client@2.6.0">
+      <data key="d2">org.mariadb.jdbc:mariadb-java-client</data>
+      <data key="d3">2.6.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.apache.velocity:velocity@1.7">
+      <data key="d2">org.apache.velocity:velocity</data>
+      <data key="d3">1.7</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-59j4-wjwp-mw9m</data>
+    </node>
+    <node id="javax.servlet:javax.servlet-api@4.0.1">
+      <data key="d2">javax.servlet:javax.servlet-api</data>
+      <data key="d3">4.0.1</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="dnsjava:dnsjava@2.1.9">
+      <data key="d2">dnsjava:dnsjava</data>
+      <data key="d3">2.1.9</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-cfxw-4h78-h7fw</data>
+    </node>
+    <node id="org.apache.commons:commons-lang3@3.5">
+      <data key="d2">org.apache.commons:commons-lang3</data>
+      <data key="d3">3.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.modelmapper:modelmapper@2.3.2">
+      <data key="d2">org.modelmapper:modelmapper</data>
+      <data key="d3">2.3.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="net.logstash.logback:logstash-logback-encoder@6.2">
+      <data key="d2">net.logstash.logback:logstash-logback-encoder</data>
+      <data key="d3">6.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.springframework:spring-context-support@5.2.8.RELEASE">
+      <data key="d2">org.springframework:spring-context-support</data>
+      <data key="d3">5.2.8.RELEASE</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.springframework.boot:spring-boot-starter-mail@2.5.6">
+      <data key="d2">org.springframework.boot:spring-boot-starter-mail</data>
+      <data key="d3">2.5.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="jakarta.mail:jakarta.mail-api@2.1.0">
+      <data key="d2">jakarta.mail:jakarta.mail-api</data>
+      <data key="d3">2.1.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="org.eclipse.angus:jakarta.mail@1.0.0">
+      <data key="d2">org.eclipse.angus:jakarta.mail</data>
+      <data key="d3">1.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <edge source="com.example:testapp1202@0.0.1-SNAPSHOT" target="org.projectlombok:lombok@1.18.26" />
+    <edge source="com.example:testapp1202@0.0.1-SNAPSHOT" target="org.mariadb.jdbc:mariadb-java-client@2.6.0" />
+    <edge source="com.example:testapp1202@0.0.1-SNAPSHOT" target="org.apache.velocity:velocity@1.7" />
+    <edge source="com.example:testapp1202@0.0.1-SNAPSHOT" target="javax.servlet:javax.servlet-api@4.0.1" />
+    <edge source="com.example:testapp1202@0.0.1-SNAPSHOT" target="dnsjava:dnsjava@2.1.9" />
+    <edge source="com.example:testapp1202@0.0.1-SNAPSHOT" target="org.apache.commons:commons-lang3@3.5" />
+    <edge source="com.example:testapp1202@0.0.1-SNAPSHOT" target="org.modelmapper:modelmapper@2.3.2" />
+    <edge source="com.example:testapp1202@0.0.1-SNAPSHOT" target="net.logstash.logback:logstash-logback-encoder@6.2" />
+    <edge source="com.example:testapp1202@0.0.1-SNAPSHOT" target="org.springframework:spring-context-support@5.2.8.RELEASE" />
+    <edge source="com.example:testapp1202@0.0.1-SNAPSHOT" target="org.springframework.boot:spring-boot-starter-mail@2.5.6" />
+    <edge source="com.example:testapp1202@0.0.1-SNAPSHOT" target="jakarta.mail:jakarta.mail-api@2.1.0" />
+    <edge source="com.example:testapp1202@0.0.1-SNAPSHOT" target="org.eclipse.angus:jakarta.mail@1.0.0" />
+    <data key="d0">60secondAppsAI__testapp1202-0001</data>
+    <data key="d1">Maven</data>
+  </graph>
+</graphml>

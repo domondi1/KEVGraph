@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>io.fabric8.crd-generator.victools</groupId>
+  <artifactId>crd-generator-victools</artifactId>
+  <version>0.5.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <modules>
+    <module>annotations</module>
+    <module>spi</module>
+    <module>api</module>
+    <module>compliance-test</module>
+    <module>test</module>
+    <module>maven-plugin</module>
+    <module>cli</module>
+  </modules>
+
+  <scm>
+    <connection>scm:git:git@github.com:baloo42/crd-generator-victools.git</connection>
+    <developerConnection>scm:git:git@github.com:baloo42/crd-generator-victools.git</developerConnection>
+    <tag>${project.version}</tag>
+    <url>https://github.com/baloo42/crd-generator-victools/</url>
+  </scm>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.release>17</maven.compiler.release>
+
+    <!-- Maven plugins -->
+    <maven.compiler.version>3.14.0</maven.compiler.version>
+    <maven.resources.version>3.3.1</maven.resources.version>
+    <maven.surefire.version>3.5.3</maven.surefire.version>
+    <maven.shade.version>3.6.0</maven.shade.version>
+    <maven.invoker.version>3.9.0</maven.invoker.version>
+    <maven.plugin.version>3.15.1</maven.plugin.version>
+    <maven.deploy.version>3.1.4</maven.deploy.version>
+    <maven.release.version>3.1.1</maven.release.version>
+
+    <spotless-maven-plugin.version>2.44.5</spotless-maven-plugin.version>
+    <jandex-maven-plugin.version>3.3.1</jandex-maven-plugin.version>
+    <really-executable-jar-maven-plugin.version>2.1.1</really-executable-jar-maven-plugin.version>
+
+    <!-- Dependencies -->
+    <fabric8-client.version>7.0.1</fabric8-client.version>
+    <victools-jsonschema.version>4.38.0</victools-jsonschema.version>
+    <lombok.version>1.18.34</lombok.version>
+    <picocli.version>4.7.7</picocli.version>
+    <slf4j.version>2.0.17</slf4j.version>
+    <jandex.version>3.3.1</jandex.version>
+    <log4j.version>2.24.3</log4j.version>
+    <maven-core.version>3.9.9</maven-core.version>
+    <maven-plugin-annotations.version>3.15.1</maven-plugin-annotations.version>
+
+    <junit.version>5.13.0</junit.version>
+    <jakarta-validation-api.version>3.1.1</jakarta-validation-api.version>
+    <javax-validation-api.version>2.0.1.Final</javax-validation-api.version>
+    <assertj.core.version>3.27.3</assertj.core.version>
+    <approvaltests.version>24.22.0</approvaltests.version>
+    <mockito.version>5.18.0</mockito.version>
+
+    <skipTests>false</skipTests>
+  </properties>
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>io.fabric8</groupId>
+        <artifactId>kubernetes-client-bom-with-deps</artifactId>
+        <version>${fabric8-client.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>com.github.victools</groupId>
+        <artifactId>jsonschema-generator-bom</artifactId>
+        <version>${victools-jsonschema.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.logging.log4j</groupId>
+        <artifactId>log4j-bom</artifactId>
+        <version>${log4j.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>io.smallrye</groupId>
+        <artifactId>jandex</artifactId>
+        <version>${jandex.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>info.picocli</groupId>
+        <artifactId>picocli</artifactId>
+        <version>${picocli.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.slf4j</groupId>
+        <artifactId>slf4j-api</artifactId>
+        <version>${slf4j.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.slf4j</groupId>
+        <artifactId>slf4j-simple</artifactId>
+        <version>${slf4j.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.apache.maven</groupId>
+        <artifactId>maven-core</artifactId>
+        <version>${maven-core.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.maven.plugin-tools</groupId>
+        <artifactId>maven-plugin-annotations</artifactId>
+        <version>${maven-plugin-annotations.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-api</artifactId>
+        <version>${junit.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-engine</artifactId>
+        <version>${junit.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-params</artifactId>
+        <version>${junit.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.assertj</groupId>
+        <artifactId>assertj-core</artifactId>
+        <version>${assertj.core.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>com.approvaltests</groupId>
+        <artifactId>approvaltests</artifactId>
+        <version>${approvaltests.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.mockito</groupId>
+        <artifactId>mockito-core</artifactId>
+        <version>${mockito.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>javax.validation</groupId>
+        <artifactId>validation-api</artifactId>
+        <version>${javax-validation-api.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>jakarta.validation</groupId>
+        <artifactId>jakarta.validation-api</artifactId>
+        <version>${jakarta-validation-api.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>io.fabric8.crd-generator.victools</groupId>
+        <artifactId>annotations</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.fabric8.crd-generator.victools</groupId>
+        <artifactId>spi</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.fabric8.crd-generator.victools</groupId>
+        <artifactId>api</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
+  <repositories>
+    <repository>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+      <id>sonatype-maven-org</id>
+      <name>Sonatype Maven Repository (maven.org)</name>
+      <url>https://repo1.maven.org/maven2/</url>
+    </repository>
+  </repositories>
+
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>${maven.compiler.version}</version>
+          <configuration>
+            <parameters>true</parameters>
+          </configuration>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-resources-plugin</artifactId>
+          <version>${maven.resources.version}</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>${maven.surefire.version}</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-invoker-plugin</artifactId>
+          <version>${maven.invoker.version}</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-shade-plugin</artifactId>
+          <version>${maven.shade.version}</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-plugin-plugin</artifactId>
+          <version>${maven.plugin.version}</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-deploy-plugin</artifactId>
+          <version>${maven.deploy.version}</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-release-plugin</artifactId>
+          <version>${maven.release.version}</version>
+          <configuration>
+            <tagNameFormat>v@{version}</tagNameFormat>
+            <!-- don't deploy yet -->
+            <goals>verify</goals>
+          </configuration>
+        </plugin>
+        <plugin>
+          <groupId>io.smallrye</groupId>
+          <artifactId>jandex-maven-plugin</artifactId>
+          <version>${jandex-maven-plugin.version}</version>
+        </plugin>
+        <plugin>
+          <groupId>org.skife.maven</groupId>
+          <artifactId>really-executable-jar-maven-plugin</artifactId>
+          <version>${really-executable-jar-maven-plugin.version}</version>
+        </plugin>
+        <plugin>
+          <groupId>com.diffplug.spotless</groupId>
+          <artifactId>spotless-maven-plugin</artifactId>
+          <version>${spotless-maven-plugin.version}</version>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+
+    <plugins>
+      <plugin>
+        <groupId>com.diffplug.spotless</groupId>
+        <artifactId>spotless-maven-plugin</artifactId>
+        <configuration>
+          <java>
+            <includes>
+              <include>src/main/java/**/*.java</include>
+              <include>src/test/java/**/*.java</include>
+              <include>src/it/**/src/main/java/**/*.java</include>
+              <include>src/it/**/src/test/java/**/*.java</include>
+            </includes>
+            <eclipse>
+              <file>ide-config/eclipse-format.xml</file>
+            </eclipse>
+            <importOrder>
+              <file>ide-config/eclipse.importorder</file>
+            </importOrder>
+            <removeUnusedImports />
+            <toggleOffOn />
+          </java>
+          <groovy>
+            <includes>
+              <include>src/main/groovy/**/*.groovy</include>
+              <include>src/test/groovy/**/*.groovy</include>
+              <include>src/it/**/*.groovy</include>
+            </includes>
+            <importOrder />
+            <greclipse />
+          </groovy>
+          <pom>
+            <sortPom>
+              <expandEmptyElements>false</expandEmptyElements>
+              <!-- required to be compatible to maven release plugin -->
+              <spaceBeforeCloseEmptyElement>true</spaceBeforeCloseEmptyElement>
+            </sortPom>
+          </pom>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>

@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="cn.myst.web:foodie-shop@1.0">
+      <data key="d2">cn.myst.web:foodie-shop</data>
+      <data key="d3">1.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.mybatis.spring.boot:mybatis-spring-boot-starter@2.2.2">
+      <data key="d2">org.mybatis.spring.boot:mybatis-spring-boot-starter</data>
+      <data key="d3">2.2.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.redisson:redisson-spring-boot-starter@3.17.0">
+      <data key="d2">org.redisson:redisson-spring-boot-starter</data>
+      <data key="d3">3.17.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.alibaba:fastjson@1.2.80">
+      <data key="d2">com.alibaba:fastjson</data>
+      <data key="d3">1.2.80</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-pv7h-hx5h-mgfj</data>
+    </node>
+    <node id="com.baomidou:mybatis-plus-boot-starter@3.5.1">
+      <data key="d2">com.baomidou:mybatis-plus-boot-starter</data>
+      <data key="d3">3.5.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.springdoc:springdoc-openapi-ui@1.6.7">
+      <data key="d2">org.springdoc:springdoc-openapi-ui</data>
+      <data key="d3">1.6.7</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.github.pagehelper:pagehelper-spring-boot-starter@1.4.2">
+      <data key="d2">com.github.pagehelper:pagehelper-spring-boot-starter</data>
+      <data key="d3">1.4.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.google.guava:guava@31.1-jre">
+      <data key="d2">com.google.guava:guava</data>
+      <data key="d3">31.1-jre</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-5mg8-w23w-74h3,GHSA-7g45-4rm6-3mm3,GHSA-mvr2-9pj6-7w5j</data>
+    </node>
+    <node id="org.apache.tika:tika-core@2.3.0">
+      <data key="d2">org.apache.tika:tika-core</data>
+      <data key="d3">2.3.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-f58c-gq56-vjjf,GHSA-rpjm-422r-95mh</data>
+    </node>
+    <node id="commons-codec:commons-codec@1.15">
+      <data key="d2">commons-codec:commons-codec</data>
+      <data key="d3">1.15</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.apache.commons:commons-lang3@3.12.0">
+      <data key="d2">org.apache.commons:commons-lang3</data>
+      <data key="d3">3.12.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="commons-io:commons-io@2.11.0">
+      <data key="d2">commons-io:commons-io</data>
+      <data key="d3">2.11.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-gwrp-pvrq-jmwv,GHSA-78wr-2p64-hpwj</data>
+    </node>
+    <node id="com.github.tobato:fastdfs-client@1.27.2">
+      <data key="d2">com.github.tobato:fastdfs-client</data>
+      <data key="d3">1.27.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.aliyun.oss:aliyun-sdk-oss@3.14.0">
+      <data key="d2">com.aliyun.oss:aliyun-sdk-oss</data>
+      <data key="d3">3.14.0</data>
+      <data key="d4">false</data>
+    </node>
+    <edge source="cn.myst.web:foodie-shop@1.0" target="org.mybatis.spring.boot:mybatis-spring-boot-starter@2.2.2" />
+    <edge source="cn.myst.web:foodie-shop@1.0" target="org.redisson:redisson-spring-boot-starter@3.17.0" />
+    <edge source="cn.myst.web:foodie-shop@1.0" target="com.alibaba:fastjson@1.2.80" />
+    <edge source="cn.myst.web:foodie-shop@1.0" target="com.baomidou:mybatis-plus-boot-starter@3.5.1" />
+    <edge source="cn.myst.web:foodie-shop@1.0" target="org.springdoc:springdoc-openapi-ui@1.6.7" />
+    <edge source="cn.myst.web:foodie-shop@1.0" target="com.github.pagehelper:pagehelper-spring-boot-starter@1.4.2" />
+    <edge source="cn.myst.web:foodie-shop@1.0" target="com.google.guava:guava@31.1-jre" />
+    <edge source="cn.myst.web:foodie-shop@1.0" target="org.apache.tika:tika-core@2.3.0" />
+    <edge source="cn.myst.web:foodie-shop@1.0" target="commons-codec:commons-codec@1.15" />
+    <edge source="cn.myst.web:foodie-shop@1.0" target="org.apache.commons:commons-lang3@3.12.0" />
+    <edge source="cn.myst.web:foodie-shop@1.0" target="commons-io:commons-io@2.11.0" />
+    <edge source="cn.myst.web:foodie-shop@1.0" target="com.github.tobato:fastdfs-client@1.27.2" />
+    <edge source="cn.myst.web:foodie-shop@1.0" target="com.aliyun.oss:aliyun-sdk-oss@3.14.0" />
+    <data key="d0">MystWeb__foodie-shop</data>
+    <data key="d1">Maven</data>
+  </graph>
+</graphml>

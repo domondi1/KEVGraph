@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="kurtulussahin:java-education@1.0-SNAPSHOT">
+      <data key="d2">kurtulussahin:java-education</data>
+      <data key="d3">1.0-SNAPSHOT</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.hibernate:hibernate-core@5.6.15.Final">
+      <data key="d2">org.hibernate:hibernate-core</data>
+      <data key="d3">5.6.15.Final</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-8grg-q944-cch5,GHSA-j8jw-g6fq-mp7h</data>
+    </node>
+    <node id="com.vividsolutions:jts-core@1.14.0">
+      <data key="d2">com.vividsolutions:jts-core</data>
+      <data key="d3">1.14.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.javassist:javassist@3.22.0-GA">
+      <data key="d2">org.javassist:javassist</data>
+      <data key="d3">3.22.0-GA</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.postgresql:postgresql@42.7.2">
+      <data key="d2">org.postgresql:postgresql</data>
+      <data key="d3">42.7.2</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-24rp-q3w6-vc56,GHSA-562r-vg33-8x8h,GHSA-673j-qm5f-xpv8,GHSA-727h-hrw8-jg8q,GHSA-r38f-c4h4-hqq2,GHSA-v7wg-cpwc-24m4</data>
+    </node>
+    <node id="javax.activation:javax.activation-api@1.2.0">
+      <data key="d2">javax.activation:javax.activation-api</data>
+      <data key="d3">1.2.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.fasterxml.jackson.core:jackson-core@2.18.0">
+      <data key="d2">com.fasterxml.jackson.core:jackson-core</data>
+      <data key="d3">2.18.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-72hv-8253-57qq,GHSA-h46c-h94j-95f3,GHSA-wf8f-6423-gfxg</data>
+    </node>
+    <node id="net.bytebuddy:byte-buddy-agent@1.15.10">
+      <data key="d2">net.bytebuddy:byte-buddy-agent</data>
+      <data key="d3">1.15.10</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec@1.1.1.Final">
+      <data key="d2">org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec</data>
+      <data key="d3">1.1.1.Final</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="net.bytebuddy:byte-buddy@1.15.10">
+      <data key="d2">net.bytebuddy:byte-buddy</data>
+      <data key="d3">1.15.10</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.geolatte:geolatte-geom@1.3.0">
+      <data key="d2">org.geolatte:geolatte-geom</data>
+      <data key="d3">1.3.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="javax.interceptor:javax.interceptor-api@1.2">
+      <data key="d2">javax.interceptor:javax.interceptor-api</data>
+      <data key="d3">1.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.approvaltests:approvaltests-util@24.7.0">
+      <data key="d2">com.approvaltests:approvaltests-util</data>
+      <data key="d3">24.7.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.apache.commons:commons-lang3@3.17.0">
+      <data key="d2">org.apache.commons:commons-lang3</data>
+      <data key="d3">3.17.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.fasterxml.jackson.core:jackson-databind@2.18.0">
+      <data key="d2">com.fasterxml.jackson.core:jackson-databind</data>
+      <data key="d3">2.18.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-288c-cq4h-88gq,GHSA-3x8x-79m2-3w2w,GHSA-57j2-w4cx-62h2,GHSA-jjjh-jjxp-wpff,GHSA-rgv9-q543-rqg4,GHSA-4gq5-ch57-c2mg,GHSA-4w82-r329-3q67,GHSA-5949-rw7g-wx7w,GHSA-5r5r-6hpj-8gg9,GHSA-5ww9-j83m-q7qx,GHSA-645p-88qh-w398,GHSA-6fpp-rgj9-8rwc,GHSA-6wqp-v4v6-c87c,GHSA-85cw-hj65-qqv9,GHSA-89qr-369f-5m5x,GHSA-8c4j-34r4-xr8g,GHSA-8w26-6f25-cm9x,GHSA-9gph-22xh-8x98,GHSA-9m6f-7xcq-8vf8,GHSA-9mxf-g3x6-wv74,GHSA-c8hm-7hpq-7jhg,GHSA-cf6r-3wgc-h863,GHSA-cggj-fvv3-cqwv,GHSA-cjjf-94ff-43w7,GHSA-cmfg-87vq-g5g4,GHSA-cvm9-fjm9-3572,GHSA-f3j5-rmmp-3fc5,GHSA-f9hv-mg5h-xcw9,GHSA-f9xh-2qgp-cq57,GHSA-fmmc-742q-jg75,GHSA-fqwf-pjwf-7vqv,GHSA-gjmw-vf9h-g25v,GHSA-gwp4-hfv6-p7hw,GHSA-gww7-p5w4-wrfv,GHSA-h3cw-g4mq-c5x2,GHSA-h592-38cm-4ggp,GHSA-h822-r4r5-v8jg,GHSA-m6x4-97wx-4q27,GHSA-mph4-vhrx-mv67,GHSA-mx7p-6679-8g3q,GHSA-mx9v-gmh4-mgqw,GHSA-p43x-xfjf-5jhr,GHSA-q93h-jc49-78gg,GHSA-qjw2-hr98-qgfh,GHSA-qr7j-h6gg-jmgc,GHSA-r3gr-cxrf-hg25,GHSA-r695-7vr9-jgc2,GHSA-rfx6-vp9g-rh7v,GHSA-rpr3-cw39-3pxh,GHSA-v585-23hc-c647,GHSA-vfqx-33qm-g869,GHSA-w3f4-3q6j-rh82,GHSA-wh8g-3j2c-rqj5,GHSA-x2w5-5m2g-7h5m,GHSA-27xj-rqx5-2255,GHSA-58pp-9c76-5625,GHSA-5p34-5m6p-p58g,GHSA-758m-v56v-grj4,GHSA-95cm-88f5-f2c7,GHSA-9vvp-fxw6-jcxr,GHSA-c265-37vj-cwcc,GHSA-c2q3-4qrh-fm48,GHSA-h4rc-386g-6m85,GHSA-j823-4qch-3rgm,GHSA-mc6h-4qgp-37qh,GHSA-qmqc-x3r4-6v39,GHSA-rf6r-2c4q-2vwg,GHSA-v3xw-c963-f5hc</data>
+    </node>
+    <node id="com.fasterxml.jackson.core:jackson-annotations@2.18.0">
+      <data key="d2">com.fasterxml.jackson.core:jackson-annotations</data>
+      <data key="d3">2.18.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.approvaltests:approvaltests@24.7.0">
+      <data key="d2">com.approvaltests:approvaltests</data>
+      <data key="d3">24.7.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.sun.istack:istack-commons-runtime@3.0.5">
+      <data key="d2">com.sun.istack:istack-commons-runtime</data>
+      <data key="d3">3.0.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="javax.persistence:javax.persistence-api@2.2">
+      <data key="d2">javax.persistence:javax.persistence-api</data>
+      <data key="d3">2.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.junit.jupiter:junit-jupiter@5.10.0">
+      <data key="d2">org.junit.jupiter:junit-jupiter</data>
+      <data key="d3">5.10.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="org.junit.jupiter:junit-jupiter-api@5.10.0">
+      <data key="d2">org.junit.jupiter:junit-jupiter-api</data>
+      <data key="d3">5.10.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="junit:junit@4.13.1">
+      <data key="d2">junit:junit</data>
+      <data key="d3">4.13.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-269g-pwp5-87pp</data>
+    </node>
+    <node id="org.junit.jupiter:junit-jupiter-params@5.10.0">
+      <data key="d2">org.junit.jupiter:junit-jupiter-params</data>
+      <data key="d3">5.10.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.mockito:mockito-core@5.12.0">
+      <data key="d2">org.mockito:mockito-core</data>
+      <data key="d3">5.12.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="ch.qos.logback:logback-classic@1.2.3">
+      <data key="d2">ch.qos.logback:logback-classic</data>
+      <data key="d3">1.2.3</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-vmq6-5m68-f53m</data>
+    </node>
+    <node id="org.slf4j:slf4j-api@1.7.29">
+      <data key="d2">org.slf4j:slf4j-api</data>
+      <data key="d3">1.7.29</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.jcabi:jcabi-http@2.0.0">
+      <data key="d2">com.jcabi:jcabi-http</data>
+      <data key="d3">2.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.glassfish.jersey.core:jersey-common@3.1.2">
+      <data key="d2">org.glassfish.jersey.core:jersey-common</data>
+      <data key="d3">3.1.2</data>
+      <data key="d4">false</data>
+    </node>
+    <edge source="kurtulussahin:java-education@1.0-SNAPSHOT" target="org.hibernate:hibernate-core@5.6.15.Final" />
+    <edge source="kurtulussahin:java-education@1.0-SNAPSHOT" target="com.vividsolutions:jts-core@1.14.0" />
+    <edge source="kurtulussahin:java-education@1.0-SNAPSHOT" target="org.javassist:javassist@3.22.0-GA" />
+    <edge source="kurtulussahin:java-education@1.0-SNAPSHOT" target="org.postgresql:postgresql@42.7.2" />
+    <edge source="kurtulussahin:java-education@1.0-SNAPSHOT" target="javax.activation:javax.activation-api@1.2.0" />
+    <edge source="kurtulussahin:java-education@1.0-SNAPSHOT" target="com.fasterxml.jackson.core:jackson-core@2.18.0" />
+    <edge source="kurtulussahin:java-education@1.0-SNAPSHOT" target="net.bytebuddy:byte-buddy-agent@1.15.10" />
+    <edge source="kurtulussahin:java-education@1.0-SNAPSHOT" target="org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec@1.1.1.Final" />
+    <edge source="kurtulussahin:java-education@1.0-SNAPSHOT" target="net.bytebuddy:byte-buddy@1.15.10" />
+    <edge source="kurtulussahin:java-education@1.0-SNAPSHOT" target="org.geolatte:geolatte-geom@1.3.0" />
+    <edge source="kurtulussahin:java-education@1.0-SNAPSHOT" target="javax.interceptor:javax.interceptor-api@1.2" />
+    <edge source="kurtulussahin:java-education@1.0-SNAPSHOT" target="com.approvaltests:approvaltests-util@24.7.0" />
+    <edge source="kurtulussahin:java-education@1.0-SNAPSHOT" target="org.apache.commons:commons-lang3@3.17.0" />
+    <edge source="kurtulussahin:java-education@1.0-SNAPSHOT" target="com.fasterxml.jackson.core:jackson-databind@2.18.0" />
+    <edge source="kurtulussahin:java-education@1.0-SNAPSHOT" target="com.fasterxml.jackson.core:jackson-annotations@2.18.0" />
+    <edge source="kurtulussahin:java-education@1.0-SNAPSHOT" target="com.approvaltests:approvaltests@24.7.0" />
+    <edge source="kurtulussahin:java-education@1.0-SNAPSHOT" target="com.sun.istack:istack-commons-runtime@3.0.5" />
+    <edge source="kurtulussahin:java-education@1.0-SNAPSHOT" target="javax.persistence:javax.persistence-api@2.2" />
+    <edge source="kurtulussahin:java-education@1.0-SNAPSHOT" target="org.junit.jupiter:junit-jupiter@5.10.0" />
+    <edge source="kurtulussahin:java-education@1.0-SNAPSHOT" target="org.junit.jupiter:junit-jupiter-api@5.10.0" />
+    <edge source="kurtulussahin:java-education@1.0-SNAPSHOT" target="junit:junit@4.13.1" />
+    <edge source="kurtulussahin:java-education@1.0-SNAPSHOT" target="org.junit.jupiter:junit-jupiter-params@5.10.0" />
+    <edge source="kurtulussahin:java-education@1.0-SNAPSHOT" target="org.mockito:mockito-core@5.12.0" />
+    <edge source="kurtulussahin:java-education@1.0-SNAPSHOT" target="ch.qos.logback:logback-classic@1.2.3" />
+    <edge source="kurtulussahin:java-education@1.0-SNAPSHOT" target="org.slf4j:slf4j-api@1.7.29" />
+    <edge source="kurtulussahin:java-education@1.0-SNAPSHOT" target="com.jcabi:jcabi-http@2.0.0" />
+    <edge source="kurtulussahin:java-education@1.0-SNAPSHOT" target="org.glassfish.jersey.core:jersey-common@3.1.2" />
+    <data key="d0">kurtulussahin__java-education</data>
+    <data key="d1">Maven</data>
+  </graph>
+</graphml>

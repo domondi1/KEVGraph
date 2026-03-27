@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="dev.codescreen:Bank_Ledger@1.0.0">
+      <data key="d2">dev.codescreen:Bank_Ledger</data>
+      <data key="d3">1.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="io.swagger.core.v3:swagger-annotations@2.2.21">
+      <data key="d2">io.swagger.core.v3:swagger-annotations</data>
+      <data key="d3">2.2.21</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.openapitools:jackson-databind-nullable@0.2.6">
+      <data key="d2">org.openapitools:jackson-databind-nullable</data>
+      <data key="d3">0.2.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="jakarta.annotation:jakarta.annotation-api@2.1.1">
+      <data key="d2">jakarta.annotation:jakarta.annotation-api</data>
+      <data key="d3">2.1.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.mongodb:mongodb-driver-sync@5.1.0">
+      <data key="d2">org.mongodb:mongodb-driver-sync</data>
+      <data key="d3">5.1.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.mongodb:mongodb-driver-core@5.1.0">
+      <data key="d2">org.mongodb:mongodb-driver-core</data>
+      <data key="d3">5.1.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="jakarta.validation:jakarta.validation-api@3.1.0-M2">
+      <data key="d2">jakarta.validation:jakarta.validation-api</data>
+      <data key="d3">3.1.0-M2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="javax.validation:validation-api@2.0.1.Final">
+      <data key="d2">javax.validation:validation-api</data>
+      <data key="d3">2.0.1.Final</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.hibernate.validator:hibernate-validator@8.0.1.Final">
+      <data key="d2">org.hibernate.validator:hibernate-validator</data>
+      <data key="d3">8.0.1.Final</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-7v6m-28jr-rg84,GHSA-m8p2-495h-ccmh,GHSA-rmrm-75hp-phr2,GHSA-x83m-pf6f-pf9g</data>
+    </node>
+    <node id="jakarta.servlet:jakarta.servlet-api@6.0.0">
+      <data key="d2">jakarta.servlet:jakarta.servlet-api</data>
+      <data key="d3">6.0.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="javax.servlet:javax.servlet-api@3.1.0">
+      <data key="d2">javax.servlet:javax.servlet-api</data>
+      <data key="d3">3.1.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="io.springfox:springfox-boot-starter@3.0.0">
+      <data key="d2">io.springfox:springfox-boot-starter</data>
+      <data key="d3">3.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <edge source="dev.codescreen:Bank_Ledger@1.0.0" target="io.swagger.core.v3:swagger-annotations@2.2.21" />
+    <edge source="dev.codescreen:Bank_Ledger@1.0.0" target="org.openapitools:jackson-databind-nullable@0.2.6" />
+    <edge source="dev.codescreen:Bank_Ledger@1.0.0" target="jakarta.annotation:jakarta.annotation-api@2.1.1" />
+    <edge source="dev.codescreen:Bank_Ledger@1.0.0" target="org.mongodb:mongodb-driver-sync@5.1.0" />
+    <edge source="dev.codescreen:Bank_Ledger@1.0.0" target="org.mongodb:mongodb-driver-core@5.1.0" />
+    <edge source="dev.codescreen:Bank_Ledger@1.0.0" target="jakarta.validation:jakarta.validation-api@3.1.0-M2" />
+    <edge source="dev.codescreen:Bank_Ledger@1.0.0" target="javax.validation:validation-api@2.0.1.Final" />
+    <edge source="dev.codescreen:Bank_Ledger@1.0.0" target="org.hibernate.validator:hibernate-validator@8.0.1.Final" />
+    <edge source="dev.codescreen:Bank_Ledger@1.0.0" target="jakarta.servlet:jakarta.servlet-api@6.0.0" />
+    <edge source="dev.codescreen:Bank_Ledger@1.0.0" target="javax.servlet:javax.servlet-api@3.1.0" />
+    <edge source="dev.codescreen:Bank_Ledger@1.0.0" target="io.springfox:springfox-boot-starter@3.0.0" />
+    <data key="d0">venkatchel__Bank_Ledger</data>
+    <data key="d1">Maven</data>
+  </graph>
+</graphml>

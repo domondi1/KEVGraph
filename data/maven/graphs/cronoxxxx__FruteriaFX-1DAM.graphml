@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="org.example:CRUDFX@1.0-SNAPSHOT">
+      <data key="d2">org.example:CRUDFX</data>
+      <data key="d3">1.0-SNAPSHOT</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="net.datafaker:datafaker@2.1.0">
+      <data key="d2">net.datafaker:datafaker</data>
+      <data key="d3">2.1.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.projectlombok:lombok@1.18.30">
+      <data key="d2">org.projectlombok:lombok</data>
+      <data key="d3">1.18.30</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.google.code.gson:gson@2.10.1">
+      <data key="d2">com.google.code.gson:gson</data>
+      <data key="d3">2.10.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-4jrv-ppp4-jm57</data>
+    </node>
+    <node id="org.apache.logging.log4j:log4j-core@2.20.0">
+      <data key="d2">org.apache.logging.log4j:log4j-core</data>
+      <data key="d3">2.20.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-7rjr-3q55-vv33,GHSA-8489-44mv-ggj8,GHSA-jfh8-c2jp-5v3q,GHSA-p6xc-xr62-6r2g,GHSA-vc5p-v9hr-52mj</data>
+    </node>
+    <node id="org.apache.logging.log4j:log4j-api@2.20.0">
+      <data key="d2">org.apache.logging.log4j:log4j-api</data>
+      <data key="d3">2.20.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.openjfx:javafx-base@19.0.2.1">
+      <data key="d2">org.openjfx:javafx-base</data>
+      <data key="d3">19.0.2.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.openjfx:javafx-fxml@19.0.2.1">
+      <data key="d2">org.openjfx:javafx-fxml</data>
+      <data key="d3">19.0.2.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="io.github.palexdev:materialfx@11.13.5">
+      <data key="d2">io.github.palexdev:materialfx</data>
+      <data key="d3">11.13.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.kordamp.bootstrapfx:bootstrapfx-core@0.4.0">
+      <data key="d2">org.kordamp.bootstrapfx:bootstrapfx-core</data>
+      <data key="d3">0.4.0</data>
+      <data key="d4">false</data>
+    </node>
+    <edge source="org.example:CRUDFX@1.0-SNAPSHOT" target="net.datafaker:datafaker@2.1.0" />
+    <edge source="org.example:CRUDFX@1.0-SNAPSHOT" target="org.projectlombok:lombok@1.18.30" />
+    <edge source="org.example:CRUDFX@1.0-SNAPSHOT" target="com.google.code.gson:gson@2.10.1" />
+    <edge source="org.example:CRUDFX@1.0-SNAPSHOT" target="org.apache.logging.log4j:log4j-core@2.20.0" />
+    <edge source="org.example:CRUDFX@1.0-SNAPSHOT" target="org.apache.logging.log4j:log4j-api@2.20.0" />
+    <edge source="org.example:CRUDFX@1.0-SNAPSHOT" target="org.openjfx:javafx-base@19.0.2.1" />
+    <edge source="org.example:CRUDFX@1.0-SNAPSHOT" target="org.openjfx:javafx-fxml@19.0.2.1" />
+    <edge source="org.example:CRUDFX@1.0-SNAPSHOT" target="io.github.palexdev:materialfx@11.13.5" />
+    <edge source="org.example:CRUDFX@1.0-SNAPSHOT" target="org.kordamp.bootstrapfx:bootstrapfx-core@0.4.0" />
+    <data key="d0">cronoxxxx__FruteriaFX-1DAM</data>
+    <data key="d1">Maven</data>
+  </graph>
+</graphml>

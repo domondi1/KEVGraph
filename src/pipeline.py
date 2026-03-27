@@ -86,7 +86,10 @@ def _select_adapter(ecosystem: str) -> EcosystemAdapter:
     if ecosystem == "pypi":
         from .ecosystems.pypi import PyPIAdapter
         return PyPIAdapter()
-    raise ValueError(f"Unknown ecosystem: {ecosystem!r}. Choices: npm, pypi")
+    if ecosystem == "maven":
+        from .ecosystems.maven import MavenAdapter
+        return MavenAdapter()
+    raise ValueError(f"Unknown ecosystem: {ecosystem!r}. Choices: npm, pypi, maven")
 
 
 def _setup_ecosystem_dirs(ecosystem: str) -> Path:
@@ -375,7 +378,7 @@ def main() -> None:
     )
     parser.add_argument(
         "--ecosystem",
-        choices=["npm", "pypi"],
+        choices=["npm", "pypi", "maven"],
         default="npm",
         help="Package ecosystem to process (default: npm)",
     )

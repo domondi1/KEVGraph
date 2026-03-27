@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="Swiggy-Automation:Swiggy-Automation@0.0.1-SNAPSHOT">
+      <data key="d2">Swiggy-Automation:Swiggy-Automation</data>
+      <data key="d3">0.0.1-SNAPSHOT</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="io.github.bonigarcia:webdrivermanager@3.2.0">
+      <data key="d2">io.github.bonigarcia:webdrivermanager</data>
+      <data key="d3">3.2.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-pwm3-776c-8q7q</data>
+    </node>
+    <node id="org.slf4j:slf4j-simple@1.6.1">
+      <data key="d2">org.slf4j:slf4j-simple</data>
+      <data key="d3">1.6.1</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="org.seleniumhq.selenium:selenium-server-standalone@2.53.0">
+      <data key="d2">org.seleniumhq.selenium:selenium-server-standalone</data>
+      <data key="d3">2.53.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="junit:junit@4.12">
+      <data key="d2">junit:junit</data>
+      <data key="d3">4.12</data>
+      <data key="d4">true</data>
+      <data key="d5">GHSA-269g-pwp5-87pp</data>
+    </node>
+    <node id="info.cukes:cucumber-java@1.2.5">
+      <data key="d2">info.cukes:cucumber-java</data>
+      <data key="d3">1.2.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="info.cukes:cucumber-core@1.2.5">
+      <data key="d2">info.cukes:cucumber-core</data>
+      <data key="d3">1.2.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="info.cukes:cucumber-junit@1.2.5">
+      <data key="d2">info.cukes:cucumber-junit</data>
+      <data key="d3">1.2.5</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="io.cucumber:cucumber-jvm@4.2.3">
+      <data key="d2">io.cucumber:cucumber-jvm</data>
+      <data key="d3">4.2.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="info.cukes:cucumber-jvm-deps@1.0.5">
+      <data key="d2">info.cukes:cucumber-jvm-deps</data>
+      <data key="d3">1.0.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.aventstack:extentreports@3.1.1">
+      <data key="d2">com.aventstack:extentreports</data>
+      <data key="d3">3.1.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.vimalselvam:cucumber-extentsreport@3.1.1">
+      <data key="d2">com.vimalselvam:cucumber-extentsreport</data>
+      <data key="d3">3.1.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="log4j:log4j@1.2.17">
+      <data key="d2">log4j:log4j</data>
+      <data key="d3">1.2.17</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-2qrg-x229-3v8q,GHSA-65fg-84f6-3jq3,GHSA-f7vh-qwp3-x37m,GHSA-fp5r-v3w9-4333,GHSA-vp98-w2p3-mv35,GHSA-w9p3-5cr8-m3jj</data>
+    </node>
+    <edge source="Swiggy-Automation:Swiggy-Automation@0.0.1-SNAPSHOT" target="io.github.bonigarcia:webdrivermanager@3.2.0" />
+    <edge source="Swiggy-Automation:Swiggy-Automation@0.0.1-SNAPSHOT" target="org.slf4j:slf4j-simple@1.6.1" />
+    <edge source="Swiggy-Automation:Swiggy-Automation@0.0.1-SNAPSHOT" target="org.seleniumhq.selenium:selenium-server-standalone@2.53.0" />
+    <edge source="Swiggy-Automation:Swiggy-Automation@0.0.1-SNAPSHOT" target="junit:junit@4.12" />
+    <edge source="Swiggy-Automation:Swiggy-Automation@0.0.1-SNAPSHOT" target="info.cukes:cucumber-java@1.2.5" />
+    <edge source="Swiggy-Automation:Swiggy-Automation@0.0.1-SNAPSHOT" target="info.cukes:cucumber-core@1.2.5" />
+    <edge source="Swiggy-Automation:Swiggy-Automation@0.0.1-SNAPSHOT" target="info.cukes:cucumber-junit@1.2.5" />
+    <edge source="Swiggy-Automation:Swiggy-Automation@0.0.1-SNAPSHOT" target="io.cucumber:cucumber-jvm@4.2.3" />
+    <edge source="Swiggy-Automation:Swiggy-Automation@0.0.1-SNAPSHOT" target="info.cukes:cucumber-jvm-deps@1.0.5" />
+    <edge source="Swiggy-Automation:Swiggy-Automation@0.0.1-SNAPSHOT" target="com.aventstack:extentreports@3.1.1" />
+    <edge source="Swiggy-Automation:Swiggy-Automation@0.0.1-SNAPSHOT" target="com.vimalselvam:cucumber-extentsreport@3.1.1" />
+    <edge source="Swiggy-Automation:Swiggy-Automation@0.0.1-SNAPSHOT" target="log4j:log4j@1.2.17" />
+    <data key="d0">shivpalSW__BDD_CUCUMBER_AutomationTestingDraft</data>
+    <data key="d1">Maven</data>
+  </graph>
+</graphml>

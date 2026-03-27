@@ -1,0 +1,288 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="cafe.kegu:Kagu@0.0.1">
+      <data key="d2">cafe.kegu:Kagu</data>
+      <data key="d3">0.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.google.code.gson:gson@2.2.4">
+      <data key="d2">com.google.code.gson:gson</data>
+      <data key="d3">2.2.4</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-4jrv-ppp4-jm57</data>
+    </node>
+    <node id="com.google.guava:guava@17.0">
+      <data key="d2">com.google.guava:guava</data>
+      <data key="d3">17.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-5mg8-w23w-74h3,GHSA-7g45-4rm6-3mm3,GHSA-mvr2-9pj6-7w5j</data>
+    </node>
+    <node id="com.ibm.icu:icu4j-core-mojang@51.2">
+      <data key="d2">com.ibm.icu:icu4j-core-mojang</data>
+      <data key="d3">51.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.mojang:authlib@1.5.21">
+      <data key="d2">com.mojang:authlib</data>
+      <data key="d3">1.5.21</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.mojang:netty@1.8.8">
+      <data key="d2">com.mojang:netty</data>
+      <data key="d3">1.8.8</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.mojang:realms@1.7.39">
+      <data key="d2">com.mojang:realms</data>
+      <data key="d3">1.7.39</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.paulscode:codecjorbis@20101023">
+      <data key="d2">com.paulscode:codecjorbis</data>
+      <data key="d3">20101023</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.paulscode:codecwav@20101023">
+      <data key="d2">com.paulscode:codecwav</data>
+      <data key="d3">20101023</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.paulscode:libraryjavasound@20101123">
+      <data key="d2">com.paulscode:libraryjavasound</data>
+      <data key="d3">20101123</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.paulscode:librarylwjglopenal@20100824">
+      <data key="d2">com.paulscode:librarylwjglopenal</data>
+      <data key="d3">20100824</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.paulscode:soundsystem@20120107">
+      <data key="d2">com.paulscode:soundsystem</data>
+      <data key="d3">20120107</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="commons-codec:commons-codec@1.9">
+      <data key="d2">commons-codec:commons-codec</data>
+      <data key="d3">1.9</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="commons-io:commons-io@2.4">
+      <data key="d2">commons-io:commons-io</data>
+      <data key="d3">2.4</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-gwrp-pvrq-jmwv,GHSA-78wr-2p64-hpwj</data>
+    </node>
+    <node id="commons-logging:commons-logging@1.1.3">
+      <data key="d2">commons-logging:commons-logging</data>
+      <data key="d3">1.1.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="io.netty:netty-all@4.0.23.Final">
+      <data key="d2">io.netty:netty-all</data>
+      <data key="d3">4.0.23.Final</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-p979-4mfw-53vg</data>
+    </node>
+    <node id="net.java.jinput:jinput@2.0.5">
+      <data key="d2">net.java.jinput:jinput</data>
+      <data key="d3">2.0.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="net.java.jinput:jinput-platform@2.0.5">
+      <data key="d2">net.java.jinput:jinput-platform</data>
+      <data key="d3">2.0.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="net.java.jutils:jutils@1.0.0">
+      <data key="d2">net.java.jutils:jutils</data>
+      <data key="d3">1.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="net.sf.jopt-simple:jopt-simple@4.6">
+      <data key="d2">net.sf.jopt-simple:jopt-simple</data>
+      <data key="d3">4.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.apache.commons:commons-compress@1.8.1">
+      <data key="d2">org.apache.commons:commons-compress</data>
+      <data key="d3">1.8.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-4g9r-vxhx-9pgx,GHSA-7hfm-57qf-j43q,GHSA-crv7-7245-f45f,GHSA-mc84-pj99-q6hh,GHSA-xqfj-vm6h-2x34,GHSA-hrmr-f5m6-m9pq</data>
+    </node>
+    <node id="org.apache.commons:commons-lang3@3.3.2">
+      <data key="d2">org.apache.commons:commons-lang3</data>
+      <data key="d3">3.3.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.apache.httpcomponents:httpclient@4.3.3">
+      <data key="d2">org.apache.httpcomponents:httpclient</data>
+      <data key="d3">4.3.3</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-7r82-7xv7-xcpj,GHSA-cfh5-3ghh-wfjx,GHSA-fmj5-wv96-r2ch</data>
+    </node>
+    <node id="org.apache.httpcomponents:httpcore@4.3.2">
+      <data key="d2">org.apache.httpcomponents:httpcore</data>
+      <data key="d3">4.3.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.lwjgl.lwjgl:lwjgl@2.9.4-nightly-20150209">
+      <data key="d2">org.lwjgl.lwjgl:lwjgl</data>
+      <data key="d3">2.9.4-nightly-20150209</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.lwjgl.lwjgl:lwjgl-platform@2.9.4-nightly-20150209">
+      <data key="d2">org.lwjgl.lwjgl:lwjgl-platform</data>
+      <data key="d3">2.9.4-nightly-20150209</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.lwjgl.lwjgl:lwjgl_util@2.9.4-nightly-20150209">
+      <data key="d2">org.lwjgl.lwjgl:lwjgl_util</data>
+      <data key="d3">2.9.4-nightly-20150209</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="tv.twitch:twitch@6.5">
+      <data key="d2">tv.twitch:twitch</data>
+      <data key="d3">6.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="tv.twitch:twitch-external-platform@4.5">
+      <data key="d2">tv.twitch:twitch-external-platform</data>
+      <data key="d3">4.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="tv.twitch:twitch-platform@6.5">
+      <data key="d2">tv.twitch:twitch-platform</data>
+      <data key="d3">6.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.apache.logging.log4j:log4j-core@2.19.0">
+      <data key="d2">org.apache.logging.log4j:log4j-core</data>
+      <data key="d3">2.19.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-7rjr-3q55-vv33,GHSA-8489-44mv-ggj8,GHSA-jfh8-c2jp-5v3q,GHSA-p6xc-xr62-6r2g,GHSA-vc5p-v9hr-52mj</data>
+    </node>
+    <node id="org.apache.logging.log4j:log4j-api@2.19.0">
+      <data key="d2">org.apache.logging.log4j:log4j-api</data>
+      <data key="d3">2.19.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.fasterxml.jackson.core:jackson-core@2.13.4">
+      <data key="d2">com.fasterxml.jackson.core:jackson-core</data>
+      <data key="d3">2.13.4</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-72hv-8253-57qq,GHSA-h46c-h94j-95f3,GHSA-wf8f-6423-gfxg</data>
+    </node>
+    <node id="javax.vecmath:vecmath@1.5.2">
+      <data key="d2">javax.vecmath:vecmath</data>
+      <data key="d3">1.5.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.json:json@20220320">
+      <data key="d2">org.json:json</data>
+      <data key="d3">20220320</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-3vqj-43w4-2q58,GHSA-4jq9-2xhw-jpx7</data>
+    </node>
+    <node id="org.apache.httpcomponents:httpclient@4.5.13">
+      <data key="d2">org.apache.httpcomponents:httpclient</data>
+      <data key="d3">4.5.13</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-7r82-7xv7-xcpj,GHSA-cfh5-3ghh-wfjx,GHSA-fmj5-wv96-r2ch</data>
+    </node>
+    <node id="org.apache.httpcomponents:httpcore@4.4.15">
+      <data key="d2">org.apache.httpcomponents:httpcore</data>
+      <data key="d3">4.4.15</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.yaml:snakeyaml@1.30">
+      <data key="d2">org.yaml:snakeyaml</data>
+      <data key="d3">1.30</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-3mc7-4q67-w48m,GHSA-98wm-3w3q-mw94,GHSA-9w3m-gqgf-c4p9,GHSA-c4r9-r8fh-9vj2,GHSA-hhhw-99gj-p3c3,GHSA-mjmj-j48q-9wg2,GHSA-rvwf-54qp-4r6v,GHSA-w37g-rhq8-7m4j</data>
+    </node>
+    <node id="com.sparkjava:spark-core@2.9.4">
+      <data key="d2">com.sparkjava:spark-core</data>
+      <data key="d3">2.9.4</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-76qr-mmh8-cp8f</data>
+    </node>
+    <node id="org.slf4j:slf4j-api@2.0.0-alpha7">
+      <data key="d2">org.slf4j:slf4j-api</data>
+      <data key="d3">2.0.0-alpha7</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.slf4j:slf4j-simple@2.0.0-alpha7">
+      <data key="d2">org.slf4j:slf4j-simple</data>
+      <data key="d3">2.0.0-alpha7</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="net.java.dev.jna:jna@5.12.1">
+      <data key="d2">net.java.dev.jna:jna</data>
+      <data key="d3">5.12.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="cafe.kagu:keyauth@0.0.1">
+      <data key="d2">cafe.kagu:keyauth</data>
+      <data key="d3">0.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.github.oshi:oshi-core@6.2.2">
+      <data key="d2">com.github.oshi:oshi-core</data>
+      <data key="d3">6.2.2</data>
+      <data key="d4">false</data>
+    </node>
+    <edge source="cafe.kegu:Kagu@0.0.1" target="com.google.code.gson:gson@2.2.4" />
+    <edge source="cafe.kegu:Kagu@0.0.1" target="com.google.guava:guava@17.0" />
+    <edge source="cafe.kegu:Kagu@0.0.1" target="com.ibm.icu:icu4j-core-mojang@51.2" />
+    <edge source="cafe.kegu:Kagu@0.0.1" target="com.mojang:authlib@1.5.21" />
+    <edge source="cafe.kegu:Kagu@0.0.1" target="com.mojang:netty@1.8.8" />
+    <edge source="cafe.kegu:Kagu@0.0.1" target="com.mojang:realms@1.7.39" />
+    <edge source="cafe.kegu:Kagu@0.0.1" target="com.paulscode:codecjorbis@20101023" />
+    <edge source="cafe.kegu:Kagu@0.0.1" target="com.paulscode:codecwav@20101023" />
+    <edge source="cafe.kegu:Kagu@0.0.1" target="com.paulscode:libraryjavasound@20101123" />
+    <edge source="cafe.kegu:Kagu@0.0.1" target="com.paulscode:librarylwjglopenal@20100824" />
+    <edge source="cafe.kegu:Kagu@0.0.1" target="com.paulscode:soundsystem@20120107" />
+    <edge source="cafe.kegu:Kagu@0.0.1" target="commons-codec:commons-codec@1.9" />
+    <edge source="cafe.kegu:Kagu@0.0.1" target="commons-io:commons-io@2.4" />
+    <edge source="cafe.kegu:Kagu@0.0.1" target="commons-logging:commons-logging@1.1.3" />
+    <edge source="cafe.kegu:Kagu@0.0.1" target="io.netty:netty-all@4.0.23.Final" />
+    <edge source="cafe.kegu:Kagu@0.0.1" target="net.java.jinput:jinput@2.0.5" />
+    <edge source="cafe.kegu:Kagu@0.0.1" target="net.java.jinput:jinput-platform@2.0.5" />
+    <edge source="cafe.kegu:Kagu@0.0.1" target="net.java.jutils:jutils@1.0.0" />
+    <edge source="cafe.kegu:Kagu@0.0.1" target="net.sf.jopt-simple:jopt-simple@4.6" />
+    <edge source="cafe.kegu:Kagu@0.0.1" target="org.apache.commons:commons-compress@1.8.1" />
+    <edge source="cafe.kegu:Kagu@0.0.1" target="org.apache.commons:commons-lang3@3.3.2" />
+    <edge source="cafe.kegu:Kagu@0.0.1" target="org.apache.httpcomponents:httpclient@4.3.3" />
+    <edge source="cafe.kegu:Kagu@0.0.1" target="org.apache.httpcomponents:httpcore@4.3.2" />
+    <edge source="cafe.kegu:Kagu@0.0.1" target="org.lwjgl.lwjgl:lwjgl@2.9.4-nightly-20150209" />
+    <edge source="cafe.kegu:Kagu@0.0.1" target="org.lwjgl.lwjgl:lwjgl-platform@2.9.4-nightly-20150209" />
+    <edge source="cafe.kegu:Kagu@0.0.1" target="org.lwjgl.lwjgl:lwjgl_util@2.9.4-nightly-20150209" />
+    <edge source="cafe.kegu:Kagu@0.0.1" target="tv.twitch:twitch@6.5" />
+    <edge source="cafe.kegu:Kagu@0.0.1" target="tv.twitch:twitch-external-platform@4.5" />
+    <edge source="cafe.kegu:Kagu@0.0.1" target="tv.twitch:twitch-platform@6.5" />
+    <edge source="cafe.kegu:Kagu@0.0.1" target="org.apache.logging.log4j:log4j-core@2.19.0" />
+    <edge source="cafe.kegu:Kagu@0.0.1" target="org.apache.logging.log4j:log4j-api@2.19.0" />
+    <edge source="cafe.kegu:Kagu@0.0.1" target="com.fasterxml.jackson.core:jackson-core@2.13.4" />
+    <edge source="cafe.kegu:Kagu@0.0.1" target="javax.vecmath:vecmath@1.5.2" />
+    <edge source="cafe.kegu:Kagu@0.0.1" target="org.json:json@20220320" />
+    <edge source="cafe.kegu:Kagu@0.0.1" target="org.apache.httpcomponents:httpclient@4.5.13" />
+    <edge source="cafe.kegu:Kagu@0.0.1" target="org.apache.httpcomponents:httpcore@4.4.15" />
+    <edge source="cafe.kegu:Kagu@0.0.1" target="org.yaml:snakeyaml@1.30" />
+    <edge source="cafe.kegu:Kagu@0.0.1" target="com.sparkjava:spark-core@2.9.4" />
+    <edge source="cafe.kegu:Kagu@0.0.1" target="org.slf4j:slf4j-api@2.0.0-alpha7" />
+    <edge source="cafe.kegu:Kagu@0.0.1" target="org.slf4j:slf4j-simple@2.0.0-alpha7" />
+    <edge source="cafe.kegu:Kagu@0.0.1" target="net.java.dev.jna:jna@5.12.1" />
+    <edge source="cafe.kegu:Kagu@0.0.1" target="cafe.kagu:keyauth@0.0.1" />
+    <edge source="cafe.kegu:Kagu@0.0.1" target="com.github.oshi:oshi-core@6.2.2" />
+    <data key="d0">Kagu-Cafe__Kagu</data>
+    <data key="d1">Maven</data>
+  </graph>
+</graphml>

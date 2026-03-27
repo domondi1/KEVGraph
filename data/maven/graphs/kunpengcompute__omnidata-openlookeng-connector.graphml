@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="unknown:openlookeng-omnidata-connector@0.0.0">
+      <data key="d2">unknown:openlookeng-omnidata-connector</data>
+      <data key="d3">0.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.bouncycastle:bcprov-jdk15on@1.68">
+      <data key="d2">org.bouncycastle:bcprov-jdk15on</data>
+      <data key="d3">1.68</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-8xfc-gm6g-vgpv,GHSA-hr8g-6v94-x4m9,GHSA-v435-xc8x-wvr9,GHSA-wjxj-5m7g-mg7q</data>
+    </node>
+    <node id="io.airlift:parameternames@1.4">
+      <data key="d2">io.airlift:parameternames</data>
+      <data key="d3">1.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.google.inject:guice@5.0.1">
+      <data key="d2">com.google.inject:guice</data>
+      <data key="d3">5.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="joda-time:joda-time@2.10.9">
+      <data key="d2">joda-time:joda-time</data>
+      <data key="d3">2.10.9</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="io.airlift:slice@0.39">
+      <data key="d2">io.airlift:slice</data>
+      <data key="d3">0.39</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.huawei.boostkit:boostkit-omnidata-server@1.3.0">
+      <data key="d2">com.huawei.boostkit:boostkit-omnidata-server</data>
+      <data key="d3">1.3.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.apache.hadoop:hadoop-aws@3.2.0">
+      <data key="d2">org.apache.hadoop:hadoop-aws</data>
+      <data key="d3">3.2.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.amazonaws:aws-java-sdk-dynamodb@1.11.445">
+      <data key="d2">com.amazonaws:aws-java-sdk-dynamodb</data>
+      <data key="d3">1.11.445</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.apache.commons:commons-text@1.3">
+      <data key="d2">org.apache.commons:commons-text</data>
+      <data key="d3">1.3</data>
+      <data key="d4">false</data>
+    </node>
+    <edge source="unknown:openlookeng-omnidata-connector@0.0.0" target="org.bouncycastle:bcprov-jdk15on@1.68" />
+    <edge source="unknown:openlookeng-omnidata-connector@0.0.0" target="io.airlift:parameternames@1.4" />
+    <edge source="unknown:openlookeng-omnidata-connector@0.0.0" target="com.google.inject:guice@5.0.1" />
+    <edge source="unknown:openlookeng-omnidata-connector@0.0.0" target="joda-time:joda-time@2.10.9" />
+    <edge source="unknown:openlookeng-omnidata-connector@0.0.0" target="io.airlift:slice@0.39" />
+    <edge source="unknown:openlookeng-omnidata-connector@0.0.0" target="com.huawei.boostkit:boostkit-omnidata-server@1.3.0" />
+    <edge source="unknown:openlookeng-omnidata-connector@0.0.0" target="org.apache.hadoop:hadoop-aws@3.2.0" />
+    <edge source="unknown:openlookeng-omnidata-connector@0.0.0" target="com.amazonaws:aws-java-sdk-dynamodb@1.11.445" />
+    <edge source="unknown:openlookeng-omnidata-connector@0.0.0" target="org.apache.commons:commons-text@1.3" />
+    <data key="d0">kunpengcompute__omnidata-openlookeng-connector</data>
+    <data key="d1">Maven</data>
+  </graph>
+</graphml>

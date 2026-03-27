@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="in.co.rays:project_3@0.0.1-SNAPSHOT">
+      <data key="d2">in.co.rays:project_3</data>
+      <data key="d3">0.0.1-SNAPSHOT</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="junit:junit@3.8.1">
+      <data key="d2">junit:junit</data>
+      <data key="d3">3.8.1</data>
+      <data key="d4">true</data>
+      <data key="d5">GHSA-269g-pwp5-87pp</data>
+    </node>
+    <node id="log4j:log4j@1.2.17">
+      <data key="d2">log4j:log4j</data>
+      <data key="d3">1.2.17</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-2qrg-x229-3v8q,GHSA-65fg-84f6-3jq3,GHSA-f7vh-qwp3-x37m,GHSA-fp5r-v3w9-4333,GHSA-vp98-w2p3-mv35,GHSA-w9p3-5cr8-m3jj</data>
+    </node>
+    <node id="org.hibernate:hibernate-core@3.6.10.Final">
+      <data key="d2">org.hibernate:hibernate-core</data>
+      <data key="d3">3.6.10.Final</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-8grg-q944-cch5,GHSA-j8jw-g6fq-mp7h</data>
+    </node>
+    <node id="javassist:javassist@3.12.1.GA">
+      <data key="d2">javassist:javassist</data>
+      <data key="d3">3.12.1.GA</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="javax.servlet:javax.servlet-api@4.0.1">
+      <data key="d2">javax.servlet:javax.servlet-api</data>
+      <data key="d3">4.0.1</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="com.mchange:c3p0@0.9.5.2">
+      <data key="d2">com.mchange:c3p0</data>
+      <data key="d3">0.9.5.2</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-5476-xc4j-rqcv,GHSA-84p2-vf58-xhxv,GHSA-q485-j897-qc27</data>
+    </node>
+    <node id="mysql:mysql-connector-java@8.0.29">
+      <data key="d2">mysql:mysql-connector-java</data>
+      <data key="d3">8.0.29</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-2xxh-f8r3-hvvr,GHSA-4vrv-ch96-6h42,GHSA-cjcf-wm2p-59h5,GHSA-g76j-4cxx-23h9,GHSA-jcq3-cprp-m333,GHSA-pwh7-92h3-mqr6,GHSA-w6f2-8wx4-47r5</data>
+    </node>
+    <node id="javax.mail:mail@1.4.7">
+      <data key="d2">javax.mail:mail</data>
+      <data key="d3">1.4.7</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.hibernate.common:hibernate-commons-annotations@5.1.1.Final">
+      <data key="d2">org.hibernate.common:hibernate-commons-annotations</data>
+      <data key="d3">5.1.1.Final</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.apache.maven.plugins:maven-war-plugin@3.1.0">
+      <data key="d2">org.apache.maven.plugins:maven-war-plugin</data>
+      <data key="d3">3.1.0</data>
+      <data key="d4">false</data>
+    </node>
+    <edge source="in.co.rays:project_3@0.0.1-SNAPSHOT" target="junit:junit@3.8.1" />
+    <edge source="in.co.rays:project_3@0.0.1-SNAPSHOT" target="log4j:log4j@1.2.17" />
+    <edge source="in.co.rays:project_3@0.0.1-SNAPSHOT" target="org.hibernate:hibernate-core@3.6.10.Final" />
+    <edge source="in.co.rays:project_3@0.0.1-SNAPSHOT" target="javassist:javassist@3.12.1.GA" />
+    <edge source="in.co.rays:project_3@0.0.1-SNAPSHOT" target="javax.servlet:javax.servlet-api@4.0.1" />
+    <edge source="in.co.rays:project_3@0.0.1-SNAPSHOT" target="com.mchange:c3p0@0.9.5.2" />
+    <edge source="in.co.rays:project_3@0.0.1-SNAPSHOT" target="mysql:mysql-connector-java@8.0.29" />
+    <edge source="in.co.rays:project_3@0.0.1-SNAPSHOT" target="javax.mail:mail@1.4.7" />
+    <edge source="in.co.rays:project_3@0.0.1-SNAPSHOT" target="org.hibernate.common:hibernate-commons-annotations@5.1.1.Final" />
+    <edge source="in.co.rays:project_3@0.0.1-SNAPSHOT" target="org.apache.maven.plugins:maven-war-plugin@3.1.0" />
+    <data key="d0">DipanshiMukati__UseCase3</data>
+    <data key="d1">Maven</data>
+  </graph>
+</graphml>

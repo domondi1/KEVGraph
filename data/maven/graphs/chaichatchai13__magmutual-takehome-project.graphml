@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="com.magmutual.users:magmutual-takehome-project@0.0.1-SNAPSHOT">
+      <data key="d2">com.magmutual.users:magmutual-takehome-project</data>
+      <data key="d3">0.0.1-SNAPSHOT</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.postgresql:postgresql@42.2.24">
+      <data key="d2">org.postgresql:postgresql</data>
+      <data key="d3">42.2.24</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-24rp-q3w6-vc56,GHSA-562r-vg33-8x8h,GHSA-673j-qm5f-xpv8,GHSA-727h-hrw8-jg8q,GHSA-r38f-c4h4-hqq2,GHSA-v7wg-cpwc-24m4</data>
+    </node>
+    <node id="org.springdoc:springdoc-openapi-starter-webmvc-api@2.0.2">
+      <data key="d2">org.springdoc:springdoc-openapi-starter-webmvc-api</data>
+      <data key="d3">2.0.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="io.jsonwebtoken:jjwt@0.9.1">
+      <data key="d2">io.jsonwebtoken:jjwt</data>
+      <data key="d3">0.9.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="javax.xml.bind:jaxb-api@2.3.1">
+      <data key="d2">javax.xml.bind:jaxb-api</data>
+      <data key="d3">2.3.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.glassfish.jaxb:jaxb-runtime@2.3.1">
+      <data key="d2">org.glassfish.jaxb:jaxb-runtime</data>
+      <data key="d3">2.3.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.sun.activation:javax.activation@1.2.0">
+      <data key="d2">com.sun.activation:javax.activation</data>
+      <data key="d3">1.2.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.projectlombok:lombok@1.18.32">
+      <data key="d2">org.projectlombok:lombok</data>
+      <data key="d3">1.18.32</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.junit.jupiter:junit-jupiter-api@5.10.3">
+      <data key="d2">org.junit.jupiter:junit-jupiter-api</data>
+      <data key="d3">5.10.3</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="org.apache.commons:commons-csv@1.11.0">
+      <data key="d2">org.apache.commons:commons-csv</data>
+      <data key="d3">1.11.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.springdoc:springdoc-openapi-starter-webmvc-ui@2.0.0">
+      <data key="d2">org.springdoc:springdoc-openapi-starter-webmvc-ui</data>
+      <data key="d3">2.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.mockito:mockito-junit-jupiter@5.5.0">
+      <data key="d2">org.mockito:mockito-junit-jupiter</data>
+      <data key="d3">5.5.0</data>
+      <data key="d4">true</data>
+    </node>
+    <edge source="com.magmutual.users:magmutual-takehome-project@0.0.1-SNAPSHOT" target="org.postgresql:postgresql@42.2.24" />
+    <edge source="com.magmutual.users:magmutual-takehome-project@0.0.1-SNAPSHOT" target="org.springdoc:springdoc-openapi-starter-webmvc-api@2.0.2" />
+    <edge source="com.magmutual.users:magmutual-takehome-project@0.0.1-SNAPSHOT" target="io.jsonwebtoken:jjwt@0.9.1" />
+    <edge source="com.magmutual.users:magmutual-takehome-project@0.0.1-SNAPSHOT" target="javax.xml.bind:jaxb-api@2.3.1" />
+    <edge source="com.magmutual.users:magmutual-takehome-project@0.0.1-SNAPSHOT" target="org.glassfish.jaxb:jaxb-runtime@2.3.1" />
+    <edge source="com.magmutual.users:magmutual-takehome-project@0.0.1-SNAPSHOT" target="com.sun.activation:javax.activation@1.2.0" />
+    <edge source="com.magmutual.users:magmutual-takehome-project@0.0.1-SNAPSHOT" target="org.projectlombok:lombok@1.18.32" />
+    <edge source="com.magmutual.users:magmutual-takehome-project@0.0.1-SNAPSHOT" target="org.junit.jupiter:junit-jupiter-api@5.10.3" />
+    <edge source="com.magmutual.users:magmutual-takehome-project@0.0.1-SNAPSHOT" target="org.apache.commons:commons-csv@1.11.0" />
+    <edge source="com.magmutual.users:magmutual-takehome-project@0.0.1-SNAPSHOT" target="org.springdoc:springdoc-openapi-starter-webmvc-ui@2.0.0" />
+    <edge source="com.magmutual.users:magmutual-takehome-project@0.0.1-SNAPSHOT" target="org.mockito:mockito-junit-jupiter@5.5.0" />
+    <data key="d0">chaichatchai13__magmutual-takehome-project</data>
+    <data key="d1">Maven</data>
+  </graph>
+</graphml>

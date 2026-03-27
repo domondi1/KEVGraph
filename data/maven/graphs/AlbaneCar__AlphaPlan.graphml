@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="fr.eseo:backendAlphaPlan@0.0.1-SNAPSHOT">
+      <data key="d2">fr.eseo:backendAlphaPlan</data>
+      <data key="d3">0.0.1-SNAPSHOT</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="javax.persistence:javax.persistence-api@2.2">
+      <data key="d2">javax.persistence:javax.persistence-api</data>
+      <data key="d3">2.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="mysql:mysql-connector-java@8.0.33">
+      <data key="d2">mysql:mysql-connector-java</data>
+      <data key="d3">8.0.33</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-2xxh-f8r3-hvvr,GHSA-4vrv-ch96-6h42,GHSA-cjcf-wm2p-59h5,GHSA-g76j-4cxx-23h9,GHSA-jcq3-cprp-m333,GHSA-pwh7-92h3-mqr6,GHSA-w6f2-8wx4-47r5</data>
+    </node>
+    <node id="org.projectlombok:lombok@1.18.32">
+      <data key="d2">org.projectlombok:lombok</data>
+      <data key="d3">1.18.32</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="org.springdoc:springdoc-openapi-starter-webmvc-ui@2.5.0">
+      <data key="d2">org.springdoc:springdoc-openapi-starter-webmvc-ui</data>
+      <data key="d3">2.5.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.apache.poi:poi@5.2.5">
+      <data key="d2">org.apache.poi:poi</data>
+      <data key="d3">5.2.5</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-523c-xh4g-mh5m,GHSA-78vv-qj73-h9m5,GHSA-9jwc-q6j3-8g9g,GHSA-x9mm-6gpf-f749</data>
+    </node>
+    <node id="org.apache.poi:poi-ooxml@5.2.5">
+      <data key="d2">org.apache.poi:poi-ooxml</data>
+      <data key="d3">5.2.5</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-gmg8-593g-7mv3</data>
+    </node>
+    <node id="org.apache.commons:commons-csv@1.8">
+      <data key="d2">org.apache.commons:commons-csv</data>
+      <data key="d3">1.8</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="io.github.bonigarcia:webdrivermanager@5.6.3">
+      <data key="d2">io.github.bonigarcia:webdrivermanager</data>
+      <data key="d3">5.6.3</data>
+      <data key="d4">true</data>
+      <data key="d5">GHSA-pwm3-776c-8q7q</data>
+    </node>
+    <node id="io.jsonwebtoken:jjwt-api@0.11.5">
+      <data key="d2">io.jsonwebtoken:jjwt-api</data>
+      <data key="d3">0.11.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="io.jsonwebtoken:jjwt-impl@0.11.5">
+      <data key="d2">io.jsonwebtoken:jjwt-impl</data>
+      <data key="d3">0.11.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="io.jsonwebtoken:jjwt-jackson@0.11.5">
+      <data key="d2">io.jsonwebtoken:jjwt-jackson</data>
+      <data key="d3">0.11.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.springframework.security:spring-security-crypto@6.2.1">
+      <data key="d2">org.springframework.security:spring-security-crypto</data>
+      <data key="d3">6.2.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-mg83-c7gq-rv5c</data>
+    </node>
+    <node id="org.springframework.security:spring-security-core@6.2.1">
+      <data key="d2">org.springframework.security:spring-security-core</data>
+      <data key="d3">6.2.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-2ppp-9496-p23q,GHSA-f3jh-qvm4-mg39,GHSA-hh32-7344-cg2f,GHSA-q3v6-hm2v-pw99,GHSA-v2r2-7qm7-jj6v,GHSA-w9jg-gvgr-354m,GHSA-wx54-3278-m5g4,GHSA-x873-6rgc-94jc,GHSA-w3w6-26f2-p474</data>
+    </node>
+    <node id="org.springframework.security:spring-security-config@6.2.1">
+      <data key="d2">org.springframework.security:spring-security-config</data>
+      <data key="d3">6.2.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-3h6f-g5f3-gc4w,GHSA-4vpr-xfrp-cj64</data>
+    </node>
+    <node id="org.springframework.security:spring-security-web@6.2.1">
+      <data key="d2">org.springframework.security:spring-security-web</data>
+      <data key="d3">6.2.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-c4q5-6c82-3qpw,GHSA-gq28-h5vg-8prx,GHSA-mf92-479x-3373</data>
+    </node>
+    <node id="org.jacoco:jacoco-maven-plugin@0.8.7">
+      <data key="d2">org.jacoco:jacoco-maven-plugin</data>
+      <data key="d3">0.8.7</data>
+      <data key="d4">false</data>
+    </node>
+    <edge source="fr.eseo:backendAlphaPlan@0.0.1-SNAPSHOT" target="javax.persistence:javax.persistence-api@2.2" />
+    <edge source="fr.eseo:backendAlphaPlan@0.0.1-SNAPSHOT" target="mysql:mysql-connector-java@8.0.33" />
+    <edge source="fr.eseo:backendAlphaPlan@0.0.1-SNAPSHOT" target="org.projectlombok:lombok@1.18.32" />
+    <edge source="fr.eseo:backendAlphaPlan@0.0.1-SNAPSHOT" target="org.springdoc:springdoc-openapi-starter-webmvc-ui@2.5.0" />
+    <edge source="fr.eseo:backendAlphaPlan@0.0.1-SNAPSHOT" target="org.apache.poi:poi@5.2.5" />
+    <edge source="fr.eseo:backendAlphaPlan@0.0.1-SNAPSHOT" target="org.apache.poi:poi-ooxml@5.2.5" />
+    <edge source="fr.eseo:backendAlphaPlan@0.0.1-SNAPSHOT" target="org.apache.commons:commons-csv@1.8" />
+    <edge source="fr.eseo:backendAlphaPlan@0.0.1-SNAPSHOT" target="io.github.bonigarcia:webdrivermanager@5.6.3" />
+    <edge source="fr.eseo:backendAlphaPlan@0.0.1-SNAPSHOT" target="io.jsonwebtoken:jjwt-api@0.11.5" />
+    <edge source="fr.eseo:backendAlphaPlan@0.0.1-SNAPSHOT" target="io.jsonwebtoken:jjwt-impl@0.11.5" />
+    <edge source="fr.eseo:backendAlphaPlan@0.0.1-SNAPSHOT" target="io.jsonwebtoken:jjwt-jackson@0.11.5" />
+    <edge source="fr.eseo:backendAlphaPlan@0.0.1-SNAPSHOT" target="org.springframework.security:spring-security-crypto@6.2.1" />
+    <edge source="fr.eseo:backendAlphaPlan@0.0.1-SNAPSHOT" target="org.springframework.security:spring-security-core@6.2.1" />
+    <edge source="fr.eseo:backendAlphaPlan@0.0.1-SNAPSHOT" target="org.springframework.security:spring-security-config@6.2.1" />
+    <edge source="fr.eseo:backendAlphaPlan@0.0.1-SNAPSHOT" target="org.springframework.security:spring-security-web@6.2.1" />
+    <edge source="fr.eseo:backendAlphaPlan@0.0.1-SNAPSHOT" target="org.jacoco:jacoco-maven-plugin@0.8.7" />
+    <data key="d0">AlbaneCar__AlphaPlan</data>
+    <data key="d1">Maven</data>
+  </graph>
+</graphml>

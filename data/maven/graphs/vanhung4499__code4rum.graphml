@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="unknown:codeforum-core@0.0.0">
+      <data key="d2">unknown:codeforum-core</data>
+      <data key="d3">0.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.hnv99.forum:codeforum-api@0.0.1-SNAPSHOT">
+      <data key="d2">com.hnv99.forum:codeforum-api</data>
+      <data key="d3">0.0.1-SNAPSHOT</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.lionsoul:ip2region@2.6.6">
+      <data key="d2">org.lionsoul:ip2region</data>
+      <data key="d3">2.6.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.rabbitmq:amqp-client@5.5.1">
+      <data key="d2">com.rabbitmq:amqp-client</data>
+      <data key="d3">5.5.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-mm8h-8587-p46h</data>
+    </node>
+    <node id="com.vladsch.flexmark:flexmark-all@0.62.2">
+      <data key="d2">com.vladsch.flexmark:flexmark-all</data>
+      <data key="d3">0.62.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.mybatis:mybatis@3.5.10">
+      <data key="d2">org.mybatis:mybatis</data>
+      <data key="d3">3.5.10</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-qq48-m4jx-xqh8</data>
+    </node>
+    <node id="org.mybatis:mybatis-spring@2.0.7">
+      <data key="d2">org.mybatis:mybatis-spring</data>
+      <data key="d3">2.0.7</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.baomidou:mybatis-plus-core@3.4.3.4">
+      <data key="d2">com.baomidou:mybatis-plus-core</data>
+      <data key="d3">3.4.3.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.alibaba:druid-spring-boot-starter@1.2.16">
+      <data key="d2">com.alibaba:druid-spring-boot-starter</data>
+      <data key="d3">1.2.16</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="com.github.plexpt:chatgpt@4.0.5">
+      <data key="d2">com.github.plexpt:chatgpt</data>
+      <data key="d3">4.0.5</data>
+      <data key="d4">false</data>
+    </node>
+    <edge source="unknown:codeforum-core@0.0.0" target="com.hnv99.forum:codeforum-api@0.0.1-SNAPSHOT" />
+    <edge source="unknown:codeforum-core@0.0.0" target="org.lionsoul:ip2region@2.6.6" />
+    <edge source="unknown:codeforum-core@0.0.0" target="com.rabbitmq:amqp-client@5.5.1" />
+    <edge source="unknown:codeforum-core@0.0.0" target="com.vladsch.flexmark:flexmark-all@0.62.2" />
+    <edge source="unknown:codeforum-core@0.0.0" target="org.mybatis:mybatis@3.5.10" />
+    <edge source="unknown:codeforum-core@0.0.0" target="org.mybatis:mybatis-spring@2.0.7" />
+    <edge source="unknown:codeforum-core@0.0.0" target="com.baomidou:mybatis-plus-core@3.4.3.4" />
+    <edge source="unknown:codeforum-core@0.0.0" target="com.alibaba:druid-spring-boot-starter@1.2.16" />
+    <edge source="unknown:codeforum-core@0.0.0" target="com.github.plexpt:chatgpt@4.0.5" />
+    <data key="d0">vanhung4499__code4rum</data>
+    <data key="d1">Maven</data>
+  </graph>
+</graphml>

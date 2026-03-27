@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="com.nerdroco:UserSignIn@1.0-SNAPSHOT">
+      <data key="d2">com.nerdroco:UserSignIn</data>
+      <data key="d3">1.0-SNAPSHOT</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="se.michaelthelin.spotify:spotify-web-api-java@6.5.1">
+      <data key="d2">se.michaelthelin.spotify:spotify-web-api-java</data>
+      <data key="d3">6.5.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="junit:junit@4.13.1">
+      <data key="d2">junit:junit</data>
+      <data key="d3">4.13.1</data>
+      <data key="d4">true</data>
+      <data key="d5">GHSA-269g-pwp5-87pp</data>
+    </node>
+    <node id="org.apache.tomcat.embed:tomcat-embed-core@10.0.2">
+      <data key="d2">org.apache.tomcat.embed:tomcat-embed-core</data>
+      <data key="d3">10.0.2</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-p22x-g9px-3945,GHSA-qppj-fm5r-hxr3,GHSA-25xr-qj8w-c4vf,GHSA-27hp-xhwr-wr2m,GHSA-2rvv-w9r2-rg7m,GHSA-42wg-hm62-jcwg,GHSA-5j33-cvvr-w245,GHSA-767j-jfh2-jvrc,GHSA-7w75-32cg-r6g2,GHSA-83qj-6fr2-vhqg,GHSA-9xcj-c8cr-8c3c,GHSA-c9hw-wf7x-jp9j,GHSA-fccv-jmmp-qg76,GHSA-fpj8-gq4v-p354,GHSA-g8pj-r55q-5c2v,GHSA-gqp3-2cvr-x8m3,GHSA-h2fw-rfh5-95r3,GHSA-h3gc-qfqq-6h8f,GHSA-hgrr-935x-pq79,GHSA-j39c-c8hj-x4j3,GHSA-jgwr-3qm3-26f3,GHSA-q3mw-pvr8-9ggc,GHSA-qq5r-98hh-rxc9,GHSA-qxf4-chvg-4r8r,GHSA-r6j3-px5g-cq3x,GHSA-wc4r-xq3c-5cf3,GHSA-wm9w-rjj3-j356,GHSA-wmwf-9ccg-fff5,GHSA-wr62-c79q-cv37</data>
+    </node>
+    <node id="org.apache.tomcat.embed:tomcat-embed-jasper@10.0.2">
+      <data key="d2">org.apache.tomcat.embed:tomcat-embed-jasper</data>
+      <data key="d3">10.0.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.apache.tomcat.embed:tomcat-embed-el@10.0.0">
+      <data key="d2">org.apache.tomcat.embed:tomcat-embed-el</data>
+      <data key="d3">10.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.apache.tomcat.embed:tomcat-embed-websocket@10.0.0">
+      <data key="d2">org.apache.tomcat.embed:tomcat-embed-websocket</data>
+      <data key="d3">10.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.apache.tomcat.embed:tomcat-embed-logging-log4j@9.0.0.M6">
+      <data key="d2">org.apache.tomcat.embed:tomcat-embed-logging-log4j</data>
+      <data key="d3">9.0.0.M6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="jstl:jstl@1.2">
+      <data key="d2">jstl:jstl</data>
+      <data key="d3">1.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="mysql:mysql-connector-java@5.1.39">
+      <data key="d2">mysql:mysql-connector-java</data>
+      <data key="d3">5.1.39</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-2xxh-f8r3-hvvr,GHSA-4vrv-ch96-6h42,GHSA-cjcf-wm2p-59h5,GHSA-g76j-4cxx-23h9,GHSA-jcq3-cprp-m333,GHSA-pwh7-92h3-mqr6,GHSA-w6f2-8wx4-47r5</data>
+    </node>
+    <node id="org.hibernate:hibernate-core@5.4.28.Final">
+      <data key="d2">org.hibernate:hibernate-core</data>
+      <data key="d3">5.4.28.Final</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-8grg-q944-cch5,GHSA-j8jw-g6fq-mp7h</data>
+    </node>
+    <edge source="com.nerdroco:UserSignIn@1.0-SNAPSHOT" target="se.michaelthelin.spotify:spotify-web-api-java@6.5.1" />
+    <edge source="com.nerdroco:UserSignIn@1.0-SNAPSHOT" target="junit:junit@4.13.1" />
+    <edge source="com.nerdroco:UserSignIn@1.0-SNAPSHOT" target="org.apache.tomcat.embed:tomcat-embed-core@10.0.2" />
+    <edge source="com.nerdroco:UserSignIn@1.0-SNAPSHOT" target="org.apache.tomcat.embed:tomcat-embed-jasper@10.0.2" />
+    <edge source="com.nerdroco:UserSignIn@1.0-SNAPSHOT" target="org.apache.tomcat.embed:tomcat-embed-el@10.0.0" />
+    <edge source="com.nerdroco:UserSignIn@1.0-SNAPSHOT" target="org.apache.tomcat.embed:tomcat-embed-websocket@10.0.0" />
+    <edge source="com.nerdroco:UserSignIn@1.0-SNAPSHOT" target="org.apache.tomcat.embed:tomcat-embed-logging-log4j@9.0.0.M6" />
+    <edge source="com.nerdroco:UserSignIn@1.0-SNAPSHOT" target="jstl:jstl@1.2" />
+    <edge source="com.nerdroco:UserSignIn@1.0-SNAPSHOT" target="mysql:mysql-connector-java@5.1.39" />
+    <edge source="com.nerdroco:UserSignIn@1.0-SNAPSHOT" target="org.hibernate:hibernate-core@5.4.28.Final" />
+    <data key="d0">AyoHandGod__UserSignIn</data>
+    <data key="d1">Maven</data>
+  </graph>
+</graphml>

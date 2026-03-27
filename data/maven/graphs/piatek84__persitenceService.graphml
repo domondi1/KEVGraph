@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="com.coronel:persistenceService@0.0.1-SNAPSHOT">
+      <data key="d2">com.coronel:persistenceService</data>
+      <data key="d3">0.0.1-SNAPSHOT</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.springframework.boot:spring-boot-starter-parent@3.4.4">
+      <data key="d2">org.springframework.boot:spring-boot-starter-parent</data>
+      <data key="d3">3.4.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.springdoc:springdoc-openapi-starter-webmvc-ui@2.8.6">
+      <data key="d2">org.springdoc:springdoc-openapi-starter-webmvc-ui</data>
+      <data key="d3">2.8.6</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.projectlombok:lombok@1.18.36">
+      <data key="d2">org.projectlombok:lombok</data>
+      <data key="d3">1.18.36</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="com.fasterxml.jackson.datatype:jackson-datatype-jsr310@2.15.3">
+      <data key="d2">com.fasterxml.jackson.datatype:jackson-datatype-jsr310</data>
+      <data key="d3">2.15.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.testcontainers:testcontainers@1.20.6">
+      <data key="d2">org.testcontainers:testcontainers</data>
+      <data key="d3">1.20.6</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="org.junit.jupiter:junit-jupiter-api@5.11.4">
+      <data key="d2">org.junit.jupiter:junit-jupiter-api</data>
+      <data key="d3">5.11.4</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="org.ff4j:ff4j-spring-boot-starter@1.9">
+      <data key="d2">org.ff4j:ff4j-spring-boot-starter</data>
+      <data key="d3">1.9</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.ff4j:ff4j-web@2.1">
+      <data key="d2">org.ff4j:ff4j-web</data>
+      <data key="d3">2.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.ff4j:ff4j-store-mongodb@2.1">
+      <data key="d2">org.ff4j:ff4j-store-mongodb</data>
+      <data key="d3">2.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="io.qameta.allure:allure-junit5@2.29.1">
+      <data key="d2">io.qameta.allure:allure-junit5</data>
+      <data key="d3">2.29.1</data>
+      <data key="d4">true</data>
+    </node>
+    <edge source="com.coronel:persistenceService@0.0.1-SNAPSHOT" target="org.springframework.boot:spring-boot-starter-parent@3.4.4" />
+    <edge source="com.coronel:persistenceService@0.0.1-SNAPSHOT" target="org.springdoc:springdoc-openapi-starter-webmvc-ui@2.8.6" />
+    <edge source="com.coronel:persistenceService@0.0.1-SNAPSHOT" target="org.projectlombok:lombok@1.18.36" />
+    <edge source="com.coronel:persistenceService@0.0.1-SNAPSHOT" target="com.fasterxml.jackson.datatype:jackson-datatype-jsr310@2.15.3" />
+    <edge source="com.coronel:persistenceService@0.0.1-SNAPSHOT" target="org.testcontainers:testcontainers@1.20.6" />
+    <edge source="com.coronel:persistenceService@0.0.1-SNAPSHOT" target="org.junit.jupiter:junit-jupiter-api@5.11.4" />
+    <edge source="com.coronel:persistenceService@0.0.1-SNAPSHOT" target="org.ff4j:ff4j-spring-boot-starter@1.9" />
+    <edge source="com.coronel:persistenceService@0.0.1-SNAPSHOT" target="org.ff4j:ff4j-web@2.1" />
+    <edge source="com.coronel:persistenceService@0.0.1-SNAPSHOT" target="org.ff4j:ff4j-store-mongodb@2.1" />
+    <edge source="com.coronel:persistenceService@0.0.1-SNAPSHOT" target="io.qameta.allure:allure-junit5@2.29.1" />
+    <data key="d0">piatek84__persitenceService</data>
+    <data key="d1">Maven</data>
+  </graph>
+</graphml>

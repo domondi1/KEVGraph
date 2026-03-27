@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="org.dataone:dataone-index-worker@3.2.0">
+      <data key="d2">org.dataone:dataone-index-worker</data>
+      <data key="d3">3.2.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="xerces:xercesImpl@2.12.2">
+      <data key="d2">xerces:xercesImpl</data>
+      <data key="d3">2.12.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="junit:junit@4.13.2">
+      <data key="d2">junit:junit</data>
+      <data key="d3">4.13.2</data>
+      <data key="d4">true</data>
+      <data key="d5">GHSA-269g-pwp5-87pp</data>
+    </node>
+    <node id="commons-beanutils:commons-beanutils@1.11.0">
+      <data key="d2">commons-beanutils:commons-beanutils</data>
+      <data key="d3">1.11.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-6phf-73q6-gh87,GHSA-p66x-2cv9-qq3v,GHSA-wxr5-93ph-8wr9</data>
+    </node>
+    <node id="com.h2database:h2@2.3.232">
+      <data key="d2">com.h2database:h2</data>
+      <data key="d3">2.3.232</data>
+      <data key="d4">true</data>
+      <data key="d5">GHSA-45hx-wfhj-473x,GHSA-h376-j262-vhq6,GHSA-22wj-vf5f-wrvj,GHSA-7rpj-hg47-cx62</data>
+    </node>
+    <node id="org.springframework.data:spring-data-jpa@3.3.4">
+      <data key="d2">org.springframework.data:spring-data-jpa</data>
+      <data key="d3">3.3.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.springframework.data:spring-data-commons@3.3.4">
+      <data key="d2">org.springframework.data:spring-data-commons</data>
+      <data key="d3">3.3.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.apache.commons:commons-lang3@3.18.0">
+      <data key="d2">org.apache.commons:commons-lang3</data>
+      <data key="d3">3.18.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.slf4j:slf4j-api@2.0.17">
+      <data key="d2">org.slf4j:slf4j-api</data>
+      <data key="d3">2.0.17</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.slf4j:slf4j-reload4j@2.0.17">
+      <data key="d2">org.slf4j:slf4j-reload4j</data>
+      <data key="d3">2.0.17</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="net.minidev:json-smart@2.5.2">
+      <data key="d2">net.minidev:json-smart</data>
+      <data key="d3">2.5.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.apache.jena:jena-tdb@1.1.2">
+      <data key="d2">org.apache.jena:jena-tdb</data>
+      <data key="d3">1.1.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="commons-collections:commons-collections@3.2.2">
+      <data key="d2">commons-collections:commons-collections</data>
+      <data key="d3">3.2.2</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-6hgm-866r-3cjv,GHSA-fjq5-5j5f-mvxh</data>
+    </node>
+    <node id="ch.hsr:geohash@1.0.10">
+      <data key="d2">ch.hsr:geohash</data>
+      <data key="d3">1.0.10</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="net.sf.saxon:Saxon-HE@9.9.1-3">
+      <data key="d2">net.sf.saxon:Saxon-HE</data>
+      <data key="d3">9.9.1-3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.github.jsonld-java:jsonld-java@0.13.2">
+      <data key="d2">com.github.jsonld-java:jsonld-java</data>
+      <data key="d3">0.13.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.rabbitmq:amqp-client@5.21.0">
+      <data key="d2">com.rabbitmq:amqp-client</data>
+      <data key="d3">5.21.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-mm8h-8587-p46h</data>
+    </node>
+    <node id="com.fasterxml.jackson.core:jackson-annotations@2.18.3">
+      <data key="d2">com.fasterxml.jackson.core:jackson-annotations</data>
+      <data key="d3">2.18.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="jakarta.xml.bind:jakarta.xml.bind-api@2.3.2">
+      <data key="d2">jakarta.xml.bind:jakarta.xml.bind-api</data>
+      <data key="d3">2.3.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.glassfish.jaxb:jaxb-runtime@2.3.2">
+      <data key="d2">org.glassfish.jaxb:jaxb-runtime</data>
+      <data key="d3">2.3.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.dataone:hashstore@1.1.0">
+      <data key="d2">org.dataone:hashstore</data>
+      <data key="d3">1.1.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="uk.org.webcompere:system-stubs-junit4@2.1.7">
+      <data key="d2">uk.org.webcompere:system-stubs-junit4</data>
+      <data key="d3">2.1.7</data>
+      <data key="d4">true</data>
+    </node>
+    <edge source="org.dataone:dataone-index-worker@3.2.0" target="xerces:xercesImpl@2.12.2" />
+    <edge source="org.dataone:dataone-index-worker@3.2.0" target="junit:junit@4.13.2" />
+    <edge source="org.dataone:dataone-index-worker@3.2.0" target="commons-beanutils:commons-beanutils@1.11.0" />
+    <edge source="org.dataone:dataone-index-worker@3.2.0" target="com.h2database:h2@2.3.232" />
+    <edge source="org.dataone:dataone-index-worker@3.2.0" target="org.springframework.data:spring-data-jpa@3.3.4" />
+    <edge source="org.dataone:dataone-index-worker@3.2.0" target="org.springframework.data:spring-data-commons@3.3.4" />
+    <edge source="org.dataone:dataone-index-worker@3.2.0" target="org.apache.commons:commons-lang3@3.18.0" />
+    <edge source="org.dataone:dataone-index-worker@3.2.0" target="org.slf4j:slf4j-api@2.0.17" />
+    <edge source="org.dataone:dataone-index-worker@3.2.0" target="org.slf4j:slf4j-reload4j@2.0.17" />
+    <edge source="org.dataone:dataone-index-worker@3.2.0" target="net.minidev:json-smart@2.5.2" />
+    <edge source="org.dataone:dataone-index-worker@3.2.0" target="org.apache.jena:jena-tdb@1.1.2" />
+    <edge source="org.dataone:dataone-index-worker@3.2.0" target="commons-collections:commons-collections@3.2.2" />
+    <edge source="org.dataone:dataone-index-worker@3.2.0" target="ch.hsr:geohash@1.0.10" />
+    <edge source="org.dataone:dataone-index-worker@3.2.0" target="net.sf.saxon:Saxon-HE@9.9.1-3" />
+    <edge source="org.dataone:dataone-index-worker@3.2.0" target="com.github.jsonld-java:jsonld-java@0.13.2" />
+    <edge source="org.dataone:dataone-index-worker@3.2.0" target="com.rabbitmq:amqp-client@5.21.0" />
+    <edge source="org.dataone:dataone-index-worker@3.2.0" target="com.fasterxml.jackson.core:jackson-annotations@2.18.3" />
+    <edge source="org.dataone:dataone-index-worker@3.2.0" target="jakarta.xml.bind:jakarta.xml.bind-api@2.3.2" />
+    <edge source="org.dataone:dataone-index-worker@3.2.0" target="org.glassfish.jaxb:jaxb-runtime@2.3.2" />
+    <edge source="org.dataone:dataone-index-worker@3.2.0" target="org.dataone:hashstore@1.1.0" />
+    <edge source="org.dataone:dataone-index-worker@3.2.0" target="uk.org.webcompere:system-stubs-junit4@2.1.7" />
+    <data key="d0">DataONEorg__dataone-indexer</data>
+    <data key="d1">Maven</data>
+  </graph>
+</graphml>

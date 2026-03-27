@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one or more
+    contributor license agreements.  See the NOTICE file distributed with
+    this work for additional information regarding copyright ownership.
+    The ASF licenses this file to You under the Apache License, Version 2.0
+    (the "License"); you may not use this file except in compliance with
+    the License.  You may obtain a copy of the License at
+  
+       https://www.apache.org/licenses/LICENSE-2.0
+  
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.apache.jdo</groupId>
+        <artifactId>parent-pom</artifactId>
+        <version>3.3-SNAPSHOT</version>
+        <relativePath>../parent-pom</relativePath>
+    </parent>
+
+    <groupId>org.apache.jdo</groupId>
+    <artifactId>jdo-tck</artifactId>
+    <version>3.3-SNAPSHOT</version>
+    <name>JDO Technology Compatibility Kit (TCK)</name>
+    <description>The Java Data Objects (JDO) API is a standard interface-based Java model abstraction of persistence, developed as Java Specification Request JSR 243 under the auspices of the Java Community Process.
+
+        The JDO TCK is a test suite designed to test implementations of the Java Data Objects specification. In order to claim compatibility with JDO, an implementation must pass all relevant tests of the JDOTCK.
+
+    NOTE!! There are no unit tests in this project.</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>javax.jdo</groupId>
+            <artifactId>jdo-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-params</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.platform</groupId>
+            <artifactId>junit-platform-suite-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.platform</groupId>
+            <artifactId>junit-platform-launcher</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.platform</groupId>
+            <artifactId>junit-platform-console</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>javax.transaction</groupId>
+            <artifactId>javax.transaction-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.persistence</groupId>
+            <artifactId>javax.persistence</artifactId>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <resources>
+            <resource>
+                <directory>${basedir}/src/main/resources/conf</directory>
+            </resource>
+            <resource>
+                <directory>${basedir}/src/main/resources/jdo</directory>
+            </resource>
+            <resource>
+                <directory>${basedir}/src/main/resources/orm</directory>
+            </resource>
+            <resource>
+                <directory>${basedir}/src/main/resources/sql</directory>
+            </resource>
+            <resource>
+                <directory>${basedir}/src/main/resources/meta</directory>
+            </resource>
+        </resources>
+        <plugins>
+            <plugin>
+                <!-- store dependencies into property dependency.classpath -->
+                <artifactId>maven-dependency-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>build-classpath</goal>
+                        </goals>
+                        <phase>generate-sources</phase>
+                        <configuration>
+                            <outputProperty>dependency.classpath</outputProperty>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.jdo</groupId>
+                <artifactId>jdo-exectck</artifactId>
+                <version>3.3-SNAPSHOT</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>help</goal>
+                            <goal>installSchema</goal>
+                            <goal>enhance</goal>
+                            <goal>runtck</goal>
+                        </goals>
+                        <phase>integration-test</phase>
+                        <configuration>
+                            <!-- pass property dependency.classpath to plugin -->
+                            <dependencyClasspath>${dependency.classpath}</dependencyClasspath>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <artifactId>maven-jar-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <configuration>
+                    <doctitle>${project.name} ${pom.currentVersion}</doctitle>
+                    <windowtitle>${project.name} ${pom.currentVersion}</windowtitle>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-deploy-plugin</artifactId>
+                <configuration>
+                    <skip>true</skip>
+                </configuration>
+            </plugin>
+            <plugin>
+                <artifactId>maven-clean-plugin</artifactId>
+                <configuration>
+                    <filesets>
+                        <fileset>
+                            <directory>${basedir}</directory>
+                            <includes>
+                                <include>datanucleus.txt</include>
+                                <include>query.ser</include>
+                                <include>tck.txt</include>
+                            </includes>
+                        </fileset>
+                    </filesets>
+                    <failOnError>false</failOnError>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+    <reporting>
+        <plugins>
+            <plugin>
+                <artifactId>maven-changes-plugin</artifactId>
+                <configuration>
+                    <xmlPath>${basedir}/xdocs/changes.xml</xmlPath>
+                </configuration>
+            </plugin>
+            <plugin>
+                <artifactId>maven-checkstyle-plugin</artifactId>
+                <configuration>
+                    <configLocation>${basedir}/../jdo_checks.xml</configLocation>
+                    <headerLocation>${basedir}/../LICENSE.txt</headerLocation>
+                </configuration>
+            </plugin>
+        </plugins>
+    </reporting>
+    <profiles>
+        <profile>
+            <id>iut</id>
+            <activation>
+                <property>
+                    <name>jdo.tck.impl</name>
+                    <value>iut</value>
+                </property>
+            </activation>
+            <dependencies>
+                <!-- add the iut dependencies here -->
+            </dependencies>
+        </profile>
+        <profile>
+            <id>jdori</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+                <property>
+                    <name>jdo.tck.impl</name>
+                    <value>jdori</value>
+                </property>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>org.datanucleus</groupId>
+                    <artifactId>datanucleus-core</artifactId>
+                    <version>5.2.11</version>
+                </dependency>
+                <dependency>
+                    <groupId>org.datanucleus</groupId>
+                    <artifactId>datanucleus-rdbms</artifactId>
+                    <version>5.2.13</version>
+                </dependency>
+                <dependency>
+                    <groupId>org.datanucleus</groupId>
+                    <artifactId>datanucleus-api-jdo</artifactId>
+                    <version>5.2.11</version>
+                </dependency>
+                <dependency>
+                    <groupId>org.datanucleus</groupId>
+                    <artifactId>datanucleus-jdo-query</artifactId>
+                    <version>5.0.10</version>
+                </dependency>
+                <dependency>
+                    <groupId>org.datanucleus</groupId>
+                    <artifactId>datanucleus-api-jpa</artifactId>
+                    <version>5.2.8</version>
+                </dependency>
+                <dependency>
+                    <groupId>org.apache.logging.log4j</groupId>
+                    <artifactId>log4j-api</artifactId>
+                    <version>2.25.3</version>
+                </dependency>
+                <dependency>
+                    <groupId>org.apache.logging.log4j</groupId>
+                    <artifactId>log4j-core</artifactId>
+                    <version>2.25.3</version>
+                </dependency>
+                <dependency>
+                    <groupId>org.apache.logging.log4j</groupId>
+                    <artifactId>log4j-jcl</artifactId>
+                    <version>2.25.3</version>
+                </dependency>
+                <dependency>
+                    <!-- License: CDDL + GPLv2 with classpath exception https://github.com/javaee/javax.annotation/blob/master/LICENSE -->
+                    <groupId>javax.annotation</groupId>
+                    <artifactId>javax.annotation-api</artifactId>
+                    <version>1.3.2</version>
+                </dependency>
+                <dependency>
+                    <!-- License: EDL 1.0 https://www.eclipse.org/org/documents/edl-v10.php -->
+                    <groupId>org.glassfish.corba</groupId>
+                    <artifactId>glassfish-corba-orb</artifactId>
+                    <version>5.0.0</version>
+                </dependency>
+            </dependencies>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-compiler-plugin</artifactId>
+                        <configuration>
+                            <showWarnings>${showWarnings}</showWarnings>
+                            <fork>true</fork>
+                            <compilerArgument>${compilerArgument}</compilerArgument>
+                            <annotationProcessorPaths>
+                                <path>
+                                    <groupId>org.datanucleus</groupId>
+                                    <artifactId>datanucleus-jdo-query</artifactId>
+                                    <version>5.0.10</version>
+                                </path>
+                                <path>
+                                    <groupId>javax.jdo</groupId>
+                                    <artifactId>jdo-api</artifactId>
+                                    <version>3.3-SNAPSHOT</version>
+                                </path>
+                            </annotationProcessorPaths>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+        <profile>
+            <id>jdori-dn6</id>
+            <activation>
+                <activeByDefault>false</activeByDefault>
+                <property>
+                    <name>jdo.tck.impl</name>
+                    <value>jdori</value>
+                </property>
+            </activation>
+            <properties>
+                <maven.compiler.target>11</maven.compiler.target>
+            </properties>
+            <dependencies>
+                <dependency>
+                    <groupId>org.datanucleus</groupId>
+                    <artifactId>datanucleus-core</artifactId>
+                    <version>6.0.11</version>
+                </dependency>
+                <dependency>
+                    <groupId>org.datanucleus</groupId>
+                    <artifactId>datanucleus-rdbms</artifactId>
+                    <version>6.0.10</version>
+                </dependency>
+                <dependency>
+                    <groupId>org.datanucleus</groupId>
+                    <artifactId>datanucleus-api-jdo</artifactId>
+                    <version>6.0.5</version>
+                </dependency>
+                <dependency>
+                    <groupId>org.datanucleus</groupId>
+                    <artifactId>datanucleus-jdo-query</artifactId>
+                    <version>6.0.2</version>
+                </dependency>
+                <dependency>
+                    <groupId>org.datanucleus</groupId>
+                    <artifactId>datanucleus-api-jpa</artifactId>
+                    <version>6.0.2</version>
+                </dependency>
+                <dependency>
+                    <groupId>org.apache.logging.log4j</groupId>
+                    <artifactId>log4j-api</artifactId>
+                    <version>2.25.3</version>
+                </dependency>
+                <dependency>
+                    <groupId>org.apache.logging.log4j</groupId>
+                    <artifactId>log4j-core</artifactId>
+                    <version>2.25.3</version>
+                </dependency>
+                <dependency>
+                    <groupId>org.apache.logging.log4j</groupId>
+                    <artifactId>log4j-jcl</artifactId>
+                    <version>2.25.3</version>
+                </dependency>
+                <dependency>
+                    <!-- License: CDDL + GPLv2 with classpath exception https://github.com/javaee/javax.annotation/blob/master/LICENSE -->
+                    <groupId>javax.annotation</groupId>
+                    <artifactId>javax.annotation-api</artifactId>
+                    <version>1.3.2</version>
+                </dependency>
+                <dependency>
+                    <!-- License: EDL 1.0 https://www.eclipse.org/org/documents/edl-v10.php -->
+                    <groupId>org.glassfish.corba</groupId>
+                    <artifactId>glassfish-corba-orb</artifactId>
+                    <version>5.0.0</version>
+                </dependency>
+            </dependencies>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-compiler-plugin</artifactId>
+                        <configuration>
+                            <showWarnings>${showWarnings}</showWarnings>
+                            <fork>true</fork>
+                            <compilerArgument>${compilerArgument}</compilerArgument>
+                            <annotationProcessorPaths>
+                                <path>
+                                    <groupId>org.datanucleus</groupId>
+                                    <artifactId>datanucleus-jdo-query</artifactId>
+                                    <version>6.0.2</version>
+                                </path>
+                                <path>
+                                    <groupId>javax.jdo</groupId>
+                                    <artifactId>jdo-api</artifactId>
+                                    <version>3.3-SNAPSHOT</version>
+                                </path>
+                            </annotationProcessorPaths>
+                        </configuration>
+                    </plugin>
+
+                    <plugin>
+                    <!-- This plugin makes sure to run the profile with a JDK 11 or above -->
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-enforcer-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>enforce-versions</id>
+                                <goals>
+                                    <goal>enforce</goal>
+                                </goals>
+                                <configuration>
+                                    <rules>
+                                        <requireJavaVersion>
+                                            <version>[11,)</version>
+                                        </requireJavaVersion>
+                                    </rules>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
+</project>

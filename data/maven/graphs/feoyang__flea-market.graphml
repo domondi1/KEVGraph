@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="cn.edu.mwpu.fleamarket:FleaMarket@1.0-SNAPSHOT">
+      <data key="d2">cn.edu.mwpu.fleamarket:FleaMarket</data>
+      <data key="d3">1.0-SNAPSHOT</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="jakarta.servlet:jakarta.servlet-api@6.1.0-M1">
+      <data key="d2">jakarta.servlet:jakarta.servlet-api</data>
+      <data key="d3">6.1.0-M1</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="jakarta.platform:jakarta.jakartaee-web-api@9.1.0">
+      <data key="d2">jakarta.platform:jakarta.jakartaee-web-api</data>
+      <data key="d3">9.1.0</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="jakarta.mvc:jakarta.mvc-api@2.0.0">
+      <data key="d2">jakarta.mvc:jakarta.mvc-api</data>
+      <data key="d3">2.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="jakarta.annotation:jakarta.annotation-api@3.0.0-M1">
+      <data key="d2">jakarta.annotation:jakarta.annotation-api</data>
+      <data key="d3">3.0.0-M1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api@3.0.0">
+      <data key="d2">jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api</data>
+      <data key="d3">3.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.glassfish.web:jakarta.servlet.jsp.jstl@3.0.1">
+      <data key="d2">org.glassfish.web:jakarta.servlet.jsp.jstl</data>
+      <data key="d3">3.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.apache.taglibs:taglibs-standard-impl@1.2.5">
+      <data key="d2">org.apache.taglibs:taglibs-standard-impl</data>
+      <data key="d3">1.2.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.apache.taglibs:taglibs-standard-spec@1.2.5">
+      <data key="d2">org.apache.taglibs:taglibs-standard-spec</data>
+      <data key="d3">1.2.5</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.hibernate.orm:hibernate-core@6.0.2.Final">
+      <data key="d2">org.hibernate.orm:hibernate-core</data>
+      <data key="d3">6.0.2.Final</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.hibernate.validator:hibernate-validator@7.0.5.Final">
+      <data key="d2">org.hibernate.validator:hibernate-validator</data>
+      <data key="d3">7.0.5.Final</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-7v6m-28jr-rg84,GHSA-m8p2-495h-ccmh,GHSA-rmrm-75hp-phr2,GHSA-x83m-pf6f-pf9g</data>
+    </node>
+    <node id="com.mysql:mysql-connector-j@8.2.0">
+      <data key="d2">com.mysql:mysql-connector-j</data>
+      <data key="d3">8.2.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-m6vm-37g8-gqvh</data>
+    </node>
+    <node id="org.mybatis:mybatis@3.5.14">
+      <data key="d2">org.mybatis:mybatis</data>
+      <data key="d3">3.5.14</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-qq48-m4jx-xqh8</data>
+    </node>
+    <node id="org.mybatis:mybatis-spring@3.0.3">
+      <data key="d2">org.mybatis:mybatis-spring</data>
+      <data key="d3">3.0.3</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="log4j:log4j@1.2.17">
+      <data key="d2">log4j:log4j</data>
+      <data key="d3">1.2.17</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-2qrg-x229-3v8q,GHSA-65fg-84f6-3jq3,GHSA-f7vh-qwp3-x37m,GHSA-fp5r-v3w9-4333,GHSA-vp98-w2p3-mv35,GHSA-w9p3-5cr8-m3jj</data>
+    </node>
+    <node id="org.projectlombok:lombok@1.18.30">
+      <data key="d2">org.projectlombok:lombok</data>
+      <data key="d3">1.18.30</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="com.mchange:c3p0@0.9.5.5">
+      <data key="d2">com.mchange:c3p0</data>
+      <data key="d3">0.9.5.5</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-5476-xc4j-rqcv,GHSA-84p2-vf58-xhxv,GHSA-q485-j897-qc27</data>
+    </node>
+    <node id="org.json:json@20231013">
+      <data key="d2">org.json:json</data>
+      <data key="d3">20231013</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-3vqj-43w4-2q58,GHSA-4jq9-2xhw-jpx7</data>
+    </node>
+    <node id="com.alibaba:fastjson@2.0.32">
+      <data key="d2">com.alibaba:fastjson</data>
+      <data key="d3">2.0.32</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-pv7h-hx5h-mgfj</data>
+    </node>
+    <node id="org.redisson:redisson@3.23.3">
+      <data key="d2">org.redisson:redisson</data>
+      <data key="d3">3.23.3</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-4hvc-qwr2-f8rv</data>
+    </node>
+    <node id="org.glassfish.jaxb:jaxb-runtime@3.0.2">
+      <data key="d2">org.glassfish.jaxb:jaxb-runtime</data>
+      <data key="d3">3.0.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.apache.commons:commons-fileupload2-jakarta@2.0.0-M1">
+      <data key="d2">org.apache.commons:commons-fileupload2-jakarta</data>
+      <data key="d3">2.0.0-M1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.aspectj:aspectjweaver@1.9.21.M1">
+      <data key="d2">org.aspectj:aspectjweaver</data>
+      <data key="d3">1.9.21.M1</data>
+      <data key="d4">false</data>
+    </node>
+    <edge source="cn.edu.mwpu.fleamarket:FleaMarket@1.0-SNAPSHOT" target="jakarta.servlet:jakarta.servlet-api@6.1.0-M1" />
+    <edge source="cn.edu.mwpu.fleamarket:FleaMarket@1.0-SNAPSHOT" target="jakarta.platform:jakarta.jakartaee-web-api@9.1.0" />
+    <edge source="cn.edu.mwpu.fleamarket:FleaMarket@1.0-SNAPSHOT" target="jakarta.mvc:jakarta.mvc-api@2.0.0" />
+    <edge source="cn.edu.mwpu.fleamarket:FleaMarket@1.0-SNAPSHOT" target="jakarta.annotation:jakarta.annotation-api@3.0.0-M1" />
+    <edge source="cn.edu.mwpu.fleamarket:FleaMarket@1.0-SNAPSHOT" target="jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api@3.0.0" />
+    <edge source="cn.edu.mwpu.fleamarket:FleaMarket@1.0-SNAPSHOT" target="org.glassfish.web:jakarta.servlet.jsp.jstl@3.0.1" />
+    <edge source="cn.edu.mwpu.fleamarket:FleaMarket@1.0-SNAPSHOT" target="org.apache.taglibs:taglibs-standard-impl@1.2.5" />
+    <edge source="cn.edu.mwpu.fleamarket:FleaMarket@1.0-SNAPSHOT" target="org.apache.taglibs:taglibs-standard-spec@1.2.5" />
+    <edge source="cn.edu.mwpu.fleamarket:FleaMarket@1.0-SNAPSHOT" target="org.hibernate.orm:hibernate-core@6.0.2.Final" />
+    <edge source="cn.edu.mwpu.fleamarket:FleaMarket@1.0-SNAPSHOT" target="org.hibernate.validator:hibernate-validator@7.0.5.Final" />
+    <edge source="cn.edu.mwpu.fleamarket:FleaMarket@1.0-SNAPSHOT" target="com.mysql:mysql-connector-j@8.2.0" />
+    <edge source="cn.edu.mwpu.fleamarket:FleaMarket@1.0-SNAPSHOT" target="org.mybatis:mybatis@3.5.14" />
+    <edge source="cn.edu.mwpu.fleamarket:FleaMarket@1.0-SNAPSHOT" target="org.mybatis:mybatis-spring@3.0.3" />
+    <edge source="cn.edu.mwpu.fleamarket:FleaMarket@1.0-SNAPSHOT" target="log4j:log4j@1.2.17" />
+    <edge source="cn.edu.mwpu.fleamarket:FleaMarket@1.0-SNAPSHOT" target="org.projectlombok:lombok@1.18.30" />
+    <edge source="cn.edu.mwpu.fleamarket:FleaMarket@1.0-SNAPSHOT" target="com.mchange:c3p0@0.9.5.5" />
+    <edge source="cn.edu.mwpu.fleamarket:FleaMarket@1.0-SNAPSHOT" target="org.json:json@20231013" />
+    <edge source="cn.edu.mwpu.fleamarket:FleaMarket@1.0-SNAPSHOT" target="com.alibaba:fastjson@2.0.32" />
+    <edge source="cn.edu.mwpu.fleamarket:FleaMarket@1.0-SNAPSHOT" target="org.redisson:redisson@3.23.3" />
+    <edge source="cn.edu.mwpu.fleamarket:FleaMarket@1.0-SNAPSHOT" target="org.glassfish.jaxb:jaxb-runtime@3.0.2" />
+    <edge source="cn.edu.mwpu.fleamarket:FleaMarket@1.0-SNAPSHOT" target="org.apache.commons:commons-fileupload2-jakarta@2.0.0-M1" />
+    <edge source="cn.edu.mwpu.fleamarket:FleaMarket@1.0-SNAPSHOT" target="org.aspectj:aspectjweaver@1.9.21.M1" />
+    <data key="d0">feoyang__flea-market</data>
+    <data key="d1">Maven</data>
+  </graph>
+</graphml>

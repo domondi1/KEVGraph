@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="com.anhtester:PlaywrightJava@1.52.0">
+      <data key="d2">com.anhtester:PlaywrightJava</data>
+      <data key="d3">1.52.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.microsoft.playwright:playwright@1.52.0">
+      <data key="d2">com.microsoft.playwright:playwright</data>
+      <data key="d3">1.52.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.testng:testng@7.11.0">
+      <data key="d2">org.testng:testng</data>
+      <data key="d3">7.11.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-rc2q-x9mf-w3vf</data>
+    </node>
+    <node id="org.apache.poi:poi@5.4.1">
+      <data key="d2">org.apache.poi:poi</data>
+      <data key="d3">5.4.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-523c-xh4g-mh5m,GHSA-78vv-qj73-h9m5,GHSA-9jwc-q6j3-8g9g,GHSA-x9mm-6gpf-f749</data>
+    </node>
+    <node id="org.apache.poi:poi-ooxml@5.4.1">
+      <data key="d2">org.apache.poi:poi-ooxml</data>
+      <data key="d3">5.4.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-gmg8-593g-7mv3</data>
+    </node>
+    <node id="commons-io:commons-io@2.19.0">
+      <data key="d2">commons-io:commons-io</data>
+      <data key="d3">2.19.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-gwrp-pvrq-jmwv,GHSA-78wr-2p64-hpwj</data>
+    </node>
+    <node id="com.github.stephenc.monte:monte-screen-recorder@0.7.7.0">
+      <data key="d2">com.github.stephenc.monte:monte-screen-recorder</data>
+      <data key="d3">0.7.7.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.aventstack:extentreports@5.1.2">
+      <data key="d2">com.aventstack:extentreports</data>
+      <data key="d3">5.1.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="io.qameta.allure:allure-testng@2.29.1">
+      <data key="d2">io.qameta.allure:allure-testng</data>
+      <data key="d3">2.29.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="io.qameta.allure:allure-attachments@2.29.1">
+      <data key="d2">io.qameta.allure:allure-attachments</data>
+      <data key="d3">2.29.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.aspectj:aspectjweaver@1.9.24">
+      <data key="d2">org.aspectj:aspectjweaver</data>
+      <data key="d3">1.9.24</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.projectlombok:lombok@1.18.38">
+      <data key="d2">org.projectlombok:lombok</data>
+      <data key="d3">1.18.38</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="com.google.guava:guava@33.4.8-jre">
+      <data key="d2">com.google.guava:guava</data>
+      <data key="d3">33.4.8-jre</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-5mg8-w23w-74h3,GHSA-7g45-4rm6-3mm3,GHSA-mvr2-9pj6-7w5j</data>
+    </node>
+    <edge source="com.anhtester:PlaywrightJava@1.52.0" target="com.microsoft.playwright:playwright@1.52.0" />
+    <edge source="com.anhtester:PlaywrightJava@1.52.0" target="org.testng:testng@7.11.0" />
+    <edge source="com.anhtester:PlaywrightJava@1.52.0" target="org.apache.poi:poi@5.4.1" />
+    <edge source="com.anhtester:PlaywrightJava@1.52.0" target="org.apache.poi:poi-ooxml@5.4.1" />
+    <edge source="com.anhtester:PlaywrightJava@1.52.0" target="commons-io:commons-io@2.19.0" />
+    <edge source="com.anhtester:PlaywrightJava@1.52.0" target="com.github.stephenc.monte:monte-screen-recorder@0.7.7.0" />
+    <edge source="com.anhtester:PlaywrightJava@1.52.0" target="com.aventstack:extentreports@5.1.2" />
+    <edge source="com.anhtester:PlaywrightJava@1.52.0" target="io.qameta.allure:allure-testng@2.29.1" />
+    <edge source="com.anhtester:PlaywrightJava@1.52.0" target="io.qameta.allure:allure-attachments@2.29.1" />
+    <edge source="com.anhtester:PlaywrightJava@1.52.0" target="org.aspectj:aspectjweaver@1.9.24" />
+    <edge source="com.anhtester:PlaywrightJava@1.52.0" target="org.projectlombok:lombok@1.18.38" />
+    <edge source="com.anhtester:PlaywrightJava@1.52.0" target="com.google.guava:guava@33.4.8-jre" />
+    <data key="d0">rdhandapani88__PlaywrightJava</data>
+    <data key="d1">Maven</data>
+  </graph>
+</graphml>

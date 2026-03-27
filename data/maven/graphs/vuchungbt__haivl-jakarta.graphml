@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="net.blwsmartware.haivl:haivl-jakarta@1.2024.1">
+      <data key="d2">net.blwsmartware.haivl:haivl-jakarta</data>
+      <data key="d3">1.2024.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="jakarta.el:jakarta.el-api@5.0.0">
+      <data key="d2">jakarta.el:jakarta.el-api</data>
+      <data key="d3">5.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="jakarta.enterprise:jakarta.enterprise.cdi-api@4.1.0">
+      <data key="d2">jakarta.enterprise:jakarta.enterprise.cdi-api</data>
+      <data key="d3">4.1.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="net.coobird:thumbnailator@0.4.20">
+      <data key="d2">net.coobird:thumbnailator</data>
+      <data key="d3">0.4.20</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.apache.commons:commons-text@1.12.0">
+      <data key="d2">org.apache.commons:commons-text</data>
+      <data key="d3">1.12.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.auth0:java-jwt@4.4.0">
+      <data key="d2">com.auth0:java-jwt</data>
+      <data key="d3">4.4.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="commons-codec:commons-codec@1.17.1">
+      <data key="d2">commons-codec:commons-codec</data>
+      <data key="d3">1.17.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="junit:junit@3.8.1">
+      <data key="d2">junit:junit</data>
+      <data key="d3">3.8.1</data>
+      <data key="d4">true</data>
+      <data key="d5">GHSA-269g-pwp5-87pp</data>
+    </node>
+    <node id="org.apache.httpcomponents.client5:httpclient5@5.4-beta1">
+      <data key="d2">org.apache.httpcomponents.client5:httpclient5</data>
+      <data key="d3">5.4-beta1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-73m2-qfq3-56cx</data>
+    </node>
+    <node id="org.apache.httpcomponents.core5:httpcore5@5.3-beta1">
+      <data key="d2">org.apache.httpcomponents.core5:httpcore5</data>
+      <data key="d3">5.3-beta1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.google.code.gson:gson@2.10.1">
+      <data key="d2">com.google.code.gson:gson</data>
+      <data key="d3">2.10.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-4jrv-ppp4-jm57</data>
+    </node>
+    <node id="org.glassfish.web:jakarta.servlet.jsp.jstl@3.0.1">
+      <data key="d2">org.glassfish.web:jakarta.servlet.jsp.jstl</data>
+      <data key="d3">3.0.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.zaxxer:HikariCP@5.1.0">
+      <data key="d2">com.zaxxer:HikariCP</data>
+      <data key="d3">5.1.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.apache.commons:commons-fileupload2-jakarta@2.0.0-M1">
+      <data key="d2">org.apache.commons:commons-fileupload2-jakarta</data>
+      <data key="d3">2.0.0-M1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="commons-io:commons-io@2.16.1">
+      <data key="d2">commons-io:commons-io</data>
+      <data key="d3">2.16.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-gwrp-pvrq-jmwv,GHSA-78wr-2p64-hpwj</data>
+    </node>
+    <node id="commons-beanutils:commons-beanutils@1.9.4">
+      <data key="d2">commons-beanutils:commons-beanutils</data>
+      <data key="d3">1.9.4</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-6phf-73q6-gh87,GHSA-p66x-2cv9-qq3v,GHSA-wxr5-93ph-8wr9</data>
+    </node>
+    <edge source="net.blwsmartware.haivl:haivl-jakarta@1.2024.1" target="jakarta.el:jakarta.el-api@5.0.0" />
+    <edge source="net.blwsmartware.haivl:haivl-jakarta@1.2024.1" target="jakarta.enterprise:jakarta.enterprise.cdi-api@4.1.0" />
+    <edge source="net.blwsmartware.haivl:haivl-jakarta@1.2024.1" target="net.coobird:thumbnailator@0.4.20" />
+    <edge source="net.blwsmartware.haivl:haivl-jakarta@1.2024.1" target="org.apache.commons:commons-text@1.12.0" />
+    <edge source="net.blwsmartware.haivl:haivl-jakarta@1.2024.1" target="com.auth0:java-jwt@4.4.0" />
+    <edge source="net.blwsmartware.haivl:haivl-jakarta@1.2024.1" target="commons-codec:commons-codec@1.17.1" />
+    <edge source="net.blwsmartware.haivl:haivl-jakarta@1.2024.1" target="junit:junit@3.8.1" />
+    <edge source="net.blwsmartware.haivl:haivl-jakarta@1.2024.1" target="org.apache.httpcomponents.client5:httpclient5@5.4-beta1" />
+    <edge source="net.blwsmartware.haivl:haivl-jakarta@1.2024.1" target="org.apache.httpcomponents.core5:httpcore5@5.3-beta1" />
+    <edge source="net.blwsmartware.haivl:haivl-jakarta@1.2024.1" target="com.google.code.gson:gson@2.10.1" />
+    <edge source="net.blwsmartware.haivl:haivl-jakarta@1.2024.1" target="org.glassfish.web:jakarta.servlet.jsp.jstl@3.0.1" />
+    <edge source="net.blwsmartware.haivl:haivl-jakarta@1.2024.1" target="com.zaxxer:HikariCP@5.1.0" />
+    <edge source="net.blwsmartware.haivl:haivl-jakarta@1.2024.1" target="org.apache.commons:commons-fileupload2-jakarta@2.0.0-M1" />
+    <edge source="net.blwsmartware.haivl:haivl-jakarta@1.2024.1" target="commons-io:commons-io@2.16.1" />
+    <edge source="net.blwsmartware.haivl:haivl-jakarta@1.2024.1" target="commons-beanutils:commons-beanutils@1.9.4" />
+    <data key="d0">vuchungbt__haivl-jakarta</data>
+    <data key="d1">Maven</data>
+  </graph>
+</graphml>

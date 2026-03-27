@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="WebGoat:WebGoat@5.4.8.28-RELEASE">
+      <data key="d2">WebGoat:WebGoat</data>
+      <data key="d3">5.4.8.28-RELEASE</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.fasterxml.jackson.core:jackson-databind@2.8.9">
+      <data key="d2">com.fasterxml.jackson.core:jackson-databind</data>
+      <data key="d3">2.8.9</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-288c-cq4h-88gq,GHSA-3x8x-79m2-3w2w,GHSA-57j2-w4cx-62h2,GHSA-jjjh-jjxp-wpff,GHSA-rgv9-q543-rqg4,GHSA-4gq5-ch57-c2mg,GHSA-4w82-r329-3q67,GHSA-5949-rw7g-wx7w,GHSA-5r5r-6hpj-8gg9,GHSA-5ww9-j83m-q7qx,GHSA-645p-88qh-w398,GHSA-6fpp-rgj9-8rwc,GHSA-6wqp-v4v6-c87c,GHSA-85cw-hj65-qqv9,GHSA-89qr-369f-5m5x,GHSA-8c4j-34r4-xr8g,GHSA-8w26-6f25-cm9x,GHSA-9gph-22xh-8x98,GHSA-9m6f-7xcq-8vf8,GHSA-9mxf-g3x6-wv74,GHSA-c8hm-7hpq-7jhg,GHSA-cf6r-3wgc-h863,GHSA-cggj-fvv3-cqwv,GHSA-cjjf-94ff-43w7,GHSA-cmfg-87vq-g5g4,GHSA-cvm9-fjm9-3572,GHSA-f3j5-rmmp-3fc5,GHSA-f9hv-mg5h-xcw9,GHSA-f9xh-2qgp-cq57,GHSA-fmmc-742q-jg75,GHSA-fqwf-pjwf-7vqv,GHSA-gjmw-vf9h-g25v,GHSA-gwp4-hfv6-p7hw,GHSA-gww7-p5w4-wrfv,GHSA-h3cw-g4mq-c5x2,GHSA-h592-38cm-4ggp,GHSA-h822-r4r5-v8jg,GHSA-m6x4-97wx-4q27,GHSA-mph4-vhrx-mv67,GHSA-mx7p-6679-8g3q,GHSA-mx9v-gmh4-mgqw,GHSA-p43x-xfjf-5jhr,GHSA-q93h-jc49-78gg,GHSA-qjw2-hr98-qgfh,GHSA-qr7j-h6gg-jmgc,GHSA-r3gr-cxrf-hg25,GHSA-r695-7vr9-jgc2,GHSA-rfx6-vp9g-rh7v,GHSA-rpr3-cw39-3pxh,GHSA-v585-23hc-c647,GHSA-vfqx-33qm-g869,GHSA-w3f4-3q6j-rh82,GHSA-wh8g-3j2c-rqj5,GHSA-x2w5-5m2g-7h5m,GHSA-27xj-rqx5-2255,GHSA-58pp-9c76-5625,GHSA-5p34-5m6p-p58g,GHSA-758m-v56v-grj4,GHSA-95cm-88f5-f2c7,GHSA-9vvp-fxw6-jcxr,GHSA-c265-37vj-cwcc,GHSA-c2q3-4qrh-fm48,GHSA-h4rc-386g-6m85,GHSA-j823-4qch-3rgm,GHSA-mc6h-4qgp-37qh,GHSA-qmqc-x3r4-6v39,GHSA-rf6r-2c4q-2vwg,GHSA-v3xw-c963-f5hc</data>
+    </node>
+    <node id="org.apache.poi:poi@3.13">
+      <data key="d2">org.apache.poi:poi</data>
+      <data key="d3">3.13</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-523c-xh4g-mh5m,GHSA-78vv-qj73-h9m5,GHSA-9jwc-q6j3-8g9g,GHSA-x9mm-6gpf-f749</data>
+    </node>
+    <node id="struts:struts@1.2.9">
+      <data key="d2">struts:struts</data>
+      <data key="d3">1.2.9</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-5ggr-mpgw-3mgx,GHSA-7jw3-5q4w-89qg,GHSA-9848-v244-962p,GHSA-cvvx-r33m-v7pq,GHSA-cx25-xg7c-xfm5,GHSA-wcgx-2hvx-5cwr</data>
+    </node>
+    <node id="org.apache.struts:struts2-core@2.5">
+      <data key="d2">org.apache.struts:struts2-core</data>
+      <data key="d3">2.5</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-2j39-qcjm-428w,GHSA-43mq-6xmg-29vm,GHSA-4g42-gqrg-4633,GHSA-729q-fcgp-r5xh,GHSA-86vq-8qhc-5rqw,GHSA-8f6x-v685-g2xc,GHSA-8fx9-5hx8-crhm,GHSA-8m5q-crqq-6pmf,GHSA-8mr5-h28g-36qx,GHSA-9gp7-jvm2-r4mx,GHSA-ccp5-gg58-pxfm,GHSA-cr6j-3jp9-rw65,GHSA-j77q-2qqg-6989,GHSA-jc35-q369-45pv,GHSA-qcfc-hmrc-59x7,GHSA-rg58-xhh7-mqjw,GHSA-v8j6-6c2r-r27c,GHSA-wp4h-pvgw-5727,GHSA-x5x7-3v85-wpc4,GHSA-xg75-68x3-7p3q,GHSA-xm92-v2mq-842q,GHSA-xx7v-hqxh-cjr9</data>
+    </node>
+    <node id="org.webjars.npm:angular@1.6.9">
+      <data key="d2">org.webjars.npm:angular</data>
+      <data key="d3">1.6.9</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-4w4v-5hc9-xrr2</data>
+    </node>
+    <node id="org.springframework:spring-expression@4.3.13.RELEASE">
+      <data key="d2">org.springframework:spring-expression</data>
+      <data key="d3">4.3.13.RELEASE</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-558x-2xjg-6232,GHSA-564r-hj7v-mcr5,GHSA-9cmq-m9j5-mvww,GHSA-wxqc-pxw9-g2p8</data>
+    </node>
+    <node id="javax.activation:activation@1.1">
+      <data key="d2">javax.activation:activation</data>
+      <data key="d3">1.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="axis:axis@1.2">
+      <data key="d2">axis:axis</data>
+      <data key="d3">1.2</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-55w9-c3g2-4rrh,GHSA-96jq-75wh-2658,GHSA-h9gj-rqrw-x4fq,GHSA-hr2c-p8rh-238h,GHSA-r53v-vm87-f72c,GHSA-rmqp-9w4c-gc7w</data>
+    </node>
+    <node id="axis:axis-saaj@1.2">
+      <data key="d2">axis:axis-saaj</data>
+      <data key="d3">1.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="axis:axis-jaxrpc@1.2">
+      <data key="d2">axis:axis-jaxrpc</data>
+      <data key="d3">1.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="axis:axis-ant@1.2">
+      <data key="d2">axis:axis-ant</data>
+      <data key="d3">1.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="commons-fileupload:commons-fileupload@1.3.2">
+      <data key="d2">commons-fileupload:commons-fileupload</data>
+      <data key="d3">1.3.2</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-7x9j-7223-rg5m,GHSA-fvm3-cfvj-gxqq,GHSA-hfrx-6qgj-fp6c,GHSA-qx6h-9567-5fqw,GHSA-vm69-474v-7q2w,GHSA-vv7r-c36w-3prj,GHSA-xx68-jfcg-xmmf</data>
+    </node>
+    <node id="commons-io:commons-io@1.4">
+      <data key="d2">commons-io:commons-io</data>
+      <data key="d3">1.4</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-gwrp-pvrq-jmwv,GHSA-78wr-2p64-hpwj</data>
+    </node>
+    <node id="commons-collections:commons-collections@3.2.1">
+      <data key="d2">commons-collections:commons-collections</data>
+      <data key="d3">3.2.1</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-6hgm-866r-3cjv,GHSA-fjq5-5j5f-mvxh</data>
+    </node>
+    <node id="commons-digester:commons-digester@1.4.1">
+      <data key="d2">commons-digester:commons-digester</data>
+      <data key="d3">1.4.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="commons-logging:commons-logging@1.1.1">
+      <data key="d2">commons-logging:commons-logging</data>
+      <data key="d3">1.1.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="commons-discovery:commons-discovery@0.2">
+      <data key="d2">commons-discovery:commons-discovery</data>
+      <data key="d3">0.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="javax.servlet:jstl@1.2">
+      <data key="d2">javax.servlet:jstl</data>
+      <data key="d3">1.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="javax.mail:mail@1.4.2">
+      <data key="d2">javax.mail:mail</data>
+      <data key="d3">1.4.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="javax.mail:mailapi@1.4.2">
+      <data key="d2">javax.mail:mailapi</data>
+      <data key="d3">1.4.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="hsqldb:hsqldb@1.8.0.10">
+      <data key="d2">hsqldb:hsqldb</data>
+      <data key="d3">1.8.0.10</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="log4j:log4j@1.2.8">
+      <data key="d2">log4j:log4j</data>
+      <data key="d3">1.2.8</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-2qrg-x229-3v8q,GHSA-65fg-84f6-3jq3,GHSA-f7vh-qwp3-x37m,GHSA-fp5r-v3w9-4333,GHSA-vp98-w2p3-mv35,GHSA-w9p3-5cr8-m3jj</data>
+    </node>
+    <node id="wsdl4j:wsdl4j@1.5.1">
+      <data key="d2">wsdl4j:wsdl4j</data>
+      <data key="d3">1.5.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="java2html:j2h@1.3.1">
+      <data key="d2">java2html:j2h</data>
+      <data key="d3">1.3.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="ecs:ecs@1.4.2">
+      <data key="d2">ecs:ecs</data>
+      <data key="d3">1.4.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="javax.transaction:jta@1.1">
+      <data key="d2">javax.transaction:jta</data>
+      <data key="d3">1.1</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="net.sourceforge.jtds:jtds@1.2.2">
+      <data key="d2">net.sourceforge.jtds:jtds</data>
+      <data key="d3">1.2.2</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="javax.servlet:servlet-api@2.3">
+      <data key="d2">javax.servlet:servlet-api</data>
+      <data key="d3">2.3</data>
+      <data key="d4">true</data>
+    </node>
+    <node id="org.apache.tomcat:tomcat-catalina@7.0.27">
+      <data key="d2">org.apache.tomcat:tomcat-catalina</data>
+      <data key="d3">7.0.27</data>
+      <data key="d4">true</data>
+      <data key="d5">GHSA-344f-f5vg-2jfj,GHSA-3vx3-xf6q-r5xp,GHSA-8qq4-8jvq-mfw4,GHSA-9xrj-439h-62hg,GHSA-cw54-59pw-4g8c,GHSA-prc3-7f44-w48j,GHSA-qprx-q2r7-3rx6,GHSA-v646-rx6w-r3qq,GHSA-xcpr-7mr4-h4xq,GHSA-xjgh-84hx-56c5</data>
+    </node>
+    <node id="org.apache.httpcomponents:httpclient@4.5.2">
+      <data key="d2">org.apache.httpcomponents:httpclient</data>
+      <data key="d3">4.5.2</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-7r82-7xv7-xcpj,GHSA-cfh5-3ghh-wfjx,GHSA-fmj5-wv96-r2ch</data>
+    </node>
+    <edge source="WebGoat:WebGoat@5.4.8.28-RELEASE" target="com.fasterxml.jackson.core:jackson-databind@2.8.9" />
+    <edge source="WebGoat:WebGoat@5.4.8.28-RELEASE" target="org.apache.poi:poi@3.13" />
+    <edge source="WebGoat:WebGoat@5.4.8.28-RELEASE" target="struts:struts@1.2.9" />
+    <edge source="WebGoat:WebGoat@5.4.8.28-RELEASE" target="org.apache.struts:struts2-core@2.5" />
+    <edge source="WebGoat:WebGoat@5.4.8.28-RELEASE" target="org.webjars.npm:angular@1.6.9" />
+    <edge source="WebGoat:WebGoat@5.4.8.28-RELEASE" target="org.springframework:spring-expression@4.3.13.RELEASE" />
+    <edge source="WebGoat:WebGoat@5.4.8.28-RELEASE" target="javax.activation:activation@1.1" />
+    <edge source="WebGoat:WebGoat@5.4.8.28-RELEASE" target="axis:axis@1.2" />
+    <edge source="WebGoat:WebGoat@5.4.8.28-RELEASE" target="axis:axis-saaj@1.2" />
+    <edge source="WebGoat:WebGoat@5.4.8.28-RELEASE" target="axis:axis-jaxrpc@1.2" />
+    <edge source="WebGoat:WebGoat@5.4.8.28-RELEASE" target="axis:axis-ant@1.2" />
+    <edge source="WebGoat:WebGoat@5.4.8.28-RELEASE" target="commons-fileupload:commons-fileupload@1.3.2" />
+    <edge source="WebGoat:WebGoat@5.4.8.28-RELEASE" target="commons-io:commons-io@1.4" />
+    <edge source="WebGoat:WebGoat@5.4.8.28-RELEASE" target="commons-collections:commons-collections@3.2.1" />
+    <edge source="WebGoat:WebGoat@5.4.8.28-RELEASE" target="commons-digester:commons-digester@1.4.1" />
+    <edge source="WebGoat:WebGoat@5.4.8.28-RELEASE" target="commons-logging:commons-logging@1.1.1" />
+    <edge source="WebGoat:WebGoat@5.4.8.28-RELEASE" target="commons-discovery:commons-discovery@0.2" />
+    <edge source="WebGoat:WebGoat@5.4.8.28-RELEASE" target="javax.servlet:jstl@1.2" />
+    <edge source="WebGoat:WebGoat@5.4.8.28-RELEASE" target="javax.mail:mail@1.4.2" />
+    <edge source="WebGoat:WebGoat@5.4.8.28-RELEASE" target="javax.mail:mailapi@1.4.2" />
+    <edge source="WebGoat:WebGoat@5.4.8.28-RELEASE" target="hsqldb:hsqldb@1.8.0.10" />
+    <edge source="WebGoat:WebGoat@5.4.8.28-RELEASE" target="log4j:log4j@1.2.8" />
+    <edge source="WebGoat:WebGoat@5.4.8.28-RELEASE" target="wsdl4j:wsdl4j@1.5.1" />
+    <edge source="WebGoat:WebGoat@5.4.8.28-RELEASE" target="java2html:j2h@1.3.1" />
+    <edge source="WebGoat:WebGoat@5.4.8.28-RELEASE" target="ecs:ecs@1.4.2" />
+    <edge source="WebGoat:WebGoat@5.4.8.28-RELEASE" target="javax.transaction:jta@1.1" />
+    <edge source="WebGoat:WebGoat@5.4.8.28-RELEASE" target="net.sourceforge.jtds:jtds@1.2.2" />
+    <edge source="WebGoat:WebGoat@5.4.8.28-RELEASE" target="javax.servlet:servlet-api@2.3" />
+    <edge source="WebGoat:WebGoat@5.4.8.28-RELEASE" target="org.apache.tomcat:tomcat-catalina@7.0.27" />
+    <edge source="WebGoat:WebGoat@5.4.8.28-RELEASE" target="org.apache.httpcomponents:httpclient@4.5.2" />
+    <data key="d0">cremerica__WebGoat</data>
+    <data key="d1">Maven</data>
+  </graph>
+</graphml>

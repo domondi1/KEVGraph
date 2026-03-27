@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="vulns" attr.type="string" />
+  <key id="d4" for="node" attr.name="dev" attr.type="string" />
+  <key id="d3" for="node" attr.name="version" attr.type="string" />
+  <key id="d2" for="node" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="ecosystem" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="org.example:xRPC@1.0-SNAPSHOT">
+      <data key="d2">org.example:xRPC</data>
+      <data key="d3">1.0-SNAPSHOT</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.projectlombok:lombok@1.18.30">
+      <data key="d2">org.projectlombok:lombok</data>
+      <data key="d3">1.18.30</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.apache.commons:commons-collections4@4.4">
+      <data key="d2">org.apache.commons:commons-collections4</data>
+      <data key="d3">4.4</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.apache.logging.log4j:log4j-core@2.20.0">
+      <data key="d2">org.apache.logging.log4j:log4j-core</data>
+      <data key="d3">2.20.0</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-7rjr-3q55-vv33,GHSA-8489-44mv-ggj8,GHSA-jfh8-c2jp-5v3q,GHSA-p6xc-xr62-6r2g,GHSA-vc5p-v9hr-52mj</data>
+    </node>
+    <node id="org.apache.logging.log4j:log4j-api@2.20.0">
+      <data key="d2">org.apache.logging.log4j:log4j-api</data>
+      <data key="d3">2.20.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="org.apache.logging.log4j:log4j-slf4j-impl@2.20.0">
+      <data key="d2">org.apache.logging.log4j:log4j-slf4j-impl</data>
+      <data key="d3">2.20.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="ch.qos.logback:logback-classic@1.2.11">
+      <data key="d2">ch.qos.logback:logback-classic</data>
+      <data key="d3">1.2.11</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-vmq6-5m68-f53m</data>
+    </node>
+    <node id="io.netty:netty-all@4.1.51.Final">
+      <data key="d2">io.netty:netty-all</data>
+      <data key="d3">4.1.51.Final</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-p979-4mfw-53vg</data>
+    </node>
+    <node id="org.apache.curator:curator-recipes@5.1.0">
+      <data key="d2">org.apache.curator:curator-recipes</data>
+      <data key="d3">5.1.0</data>
+      <data key="d4">false</data>
+    </node>
+    <node id="com.alibaba:fastjson@1.2.83">
+      <data key="d2">com.alibaba:fastjson</data>
+      <data key="d3">1.2.83</data>
+      <data key="d4">false</data>
+      <data key="d5">GHSA-pv7h-hx5h-mgfj</data>
+    </node>
+    <node id="com.github.rholder:guava-retrying@2.0.0">
+      <data key="d2">com.github.rholder:guava-retrying</data>
+      <data key="d3">2.0.0</data>
+      <data key="d4">false</data>
+    </node>
+    <edge source="org.example:xRPC@1.0-SNAPSHOT" target="org.projectlombok:lombok@1.18.30" />
+    <edge source="org.example:xRPC@1.0-SNAPSHOT" target="org.apache.commons:commons-collections4@4.4" />
+    <edge source="org.example:xRPC@1.0-SNAPSHOT" target="org.apache.logging.log4j:log4j-core@2.20.0" />
+    <edge source="org.example:xRPC@1.0-SNAPSHOT" target="org.apache.logging.log4j:log4j-api@2.20.0" />
+    <edge source="org.example:xRPC@1.0-SNAPSHOT" target="org.apache.logging.log4j:log4j-slf4j-impl@2.20.0" />
+    <edge source="org.example:xRPC@1.0-SNAPSHOT" target="ch.qos.logback:logback-classic@1.2.11" />
+    <edge source="org.example:xRPC@1.0-SNAPSHOT" target="io.netty:netty-all@4.1.51.Final" />
+    <edge source="org.example:xRPC@1.0-SNAPSHOT" target="org.apache.curator:curator-recipes@5.1.0" />
+    <edge source="org.example:xRPC@1.0-SNAPSHOT" target="com.alibaba:fastjson@1.2.83" />
+    <edge source="org.example:xRPC@1.0-SNAPSHOT" target="com.github.rholder:guava-retrying@2.0.0" />
+    <data key="d0">lqz72__xRPC</data>
+    <data key="d1">Maven</data>
+  </graph>
+</graphml>
