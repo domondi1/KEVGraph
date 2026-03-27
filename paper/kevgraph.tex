@@ -614,13 +614,16 @@ non-redundant fixes are included):
 
 Table~\ref{tab:results} reports all metrics for each plan on the npm
 corpus.
-Figure~\ref{fig:kev_heatmap} shows the step at which each KEV vulnerability
-is first covered under each plan---the clearest illustration of the ordering
-gap.
+Figure~\ref{fig:cvss_kev} explains the root cause of CVSS-first's failure:
+186 non-KEV vulnerabilities have CVSS~$>$~8, crowding out the lower-CVSS
+KEV-listed packages (vite: 5.3, puppeteer: 6.5, jquery: 6.9) in severity
+ordering.
+Figure~\ref{fig:kev_heatmap} shows the resulting step at which each KEV
+vulnerability is first covered under each plan---the clearest illustration
+of the ordering gap.
 Figure~\ref{fig:aucc} shows \aucc scores with the random 95\% CI band.
 Figure~\ref{fig:kev_curve} shows KEV-specific coverage in the first 30
 upgrade actions.
-Figure~\ref{fig:action_eff} compares plan cardinality with the random CI.
 
 \begin{table*}[t]
 \centering
@@ -644,6 +647,22 @@ Dependabot         & 0.0011 & 0.0053 & 0.5886 & 18 & 421 & 937 & 0.192 \\
 \bottomrule
 \end{tabular}
 \end{table*}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{../data/plots/cvss_epss_kev.pdf}
+\caption{CVSS base score vs.\ EPSS 30-day exploitation probability for all
+1,046 npm vulnerabilities (grey dots); 5 KEV-listed vulnerabilities highlighted
+as diamonds.
+\textbf{CVSS does not predict active exploitation:} 186 non-KEV vulnerabilities
+have CVSS~$>$~8, outranking vite (5.3), puppeteer (6.5), and jquery (6.9) in
+CVSS-first ordering---mechanistically explaining the 17-step KEV exposure gap.
+\textbf{EPSS correlates better but has a critical outlier:} four of five KEV
+vulnerabilities have EPSS~$>$~0.35; however, electron/libvpx (EPSS~$=$~0.048)
+is not identifiable from EPSS alone, motivating the use of the authoritative
+KEV catalogue as the primary ordering signal.}
+\label{fig:cvss_kev}
+\end{figure}
 
 \begin{figure}[t]
 \centering
@@ -687,21 +706,6 @@ CVSS-first and Dependabot remain at zero KEV coverage through the entire
 \label{fig:kev_curve}
 \end{figure}
 
-\begin{figure}[t]
-\centering
-\includegraphics[width=\columnwidth]{../data/plots/action_efficiency.pdf}
-\caption{Total upgrade actions required to cover all 937 coverable
-vulnerabilities, per plan (npm corpus).
-The error bar for the random baseline spans the empirical 95\% CI
-$[481.9,\,506.3]$ ($n=30$ seeds).
-Both \kevgraph planners achieve 417 actions---the ILP-proven minimum---
-15.9\% fewer than the random mean of 495.4.
-CVSS-first and EPSS-first also achieve near-optimal cardinality (419 and 417,
-respectively) because all methods use the same set-cover fix generation;
-the difference is \emph{ordering}, not cardinality.}
-\label{fig:action_eff}
-\end{figure}
-
 \textbf{Key findings:}
 
 \begin{itemize}
@@ -733,14 +737,20 @@ the difference is \emph{ordering}, not cardinality.}
         coverage at each step whereas the ILP re-orders by KEV priority
         after selecting the optimal set.
 
-  \item \textbf{Both planners minimise action count.}  Both achieve 417
-        upgrade actions---the ILP's proven optimum---versus 417--421
-        for non-random baselines and 495.4 on average for random.
+  \item \textbf{Both planners minimise upgrade count.}  ILP and Greedy
+        both require 417 upgrade actions---the ILP-proven minimum (Table~\ref{tab:random_ci})---
+        15.9\% fewer than the random mean of 495.4.
+        All non-random baselines also achieve near-optimal cardinality (417--421),
+        confirming that the key differentiator between plans is \emph{ordering},
+        not total action count.
 
-  \item \textbf{CVSS-first performs poorly on KEV timing.}
-        CVSS-first's kev\_first\_rank $= 18$ and \aucc $= 0.708$
-        demonstrate that CVSS score is a poor proxy for KEV membership.
-        High CVSS severity does not imply active exploitation.
+  \item \textbf{CVSS-first fails because CVSS does not predict exploitation.}
+        As shown in Figure~\ref{fig:cvss_kev}, 186 non-KEV vulnerabilities have
+        CVSS~$>$~8, all outranking vite (CVSS~5.3), puppeteer (6.5), and
+        jquery (6.9) in CVSS-first ordering.
+        CVSS-first's kev\_first\_rank $= 18$ and \aucc $= 0.708$ are a direct
+        consequence: the system spends 17 upgrade actions on theoretically severe
+        but unexploited packages before addressing any actively-exploited one.
 \end{itemize}
 
 \subsection{Statistical Analysis of Random Baseline}
@@ -911,23 +921,30 @@ in fuelux---are addressed by the plan.
 \section{Discussion}
 \label{sec:discussion}
 
-\textbf{EPSS-first is competitive.}  The EPSS-first baseline achieves
-kev\_first\_rank $= 1$ and \aucc $= 0.989$, close to the ILP's 0.997.
-The \aucc gap between ILP and EPSS-first is 0.009---small but
-consistent across seeds.  This suggests that when EPSS scores are
-available and current, they provide a good proxy for KEV ordering.
-However, EPSS scores are probabilistic and lag behind KEV list
-additions by the FIRST API update cadence; KEV membership is a
-deterministic, authoritative signal.  The ILP provides a rigorous
-optimality guarantee on cardinality that EPSS-first cannot claim.
+\textbf{EPSS-first is competitive but not complete.}
+The EPSS-first baseline achieves kev\_first\_rank $= 1$ and \aucc $= 0.989$,
+close to the ILP's 0.997.
+Figure~\ref{fig:cvss_kev} shows why EPSS performs well: four of five KEV
+vulnerabilities have EPSS~$>$~0.35, far above the npm corpus median.
+However, electron/libvpx has EPSS~$=$~0.048---a KEV vulnerability that EPSS
+does not surface.  The residual \aucc gap (0.009) is attributable in part
+to this outlier: a vulnerability confirmed actively exploited by CISA but
+not yet reflected in FIRST's probability model at the time of evaluation.
+EPSS scores are probabilistic and lag behind KEV list additions by the
+FIRST API update cadence; KEV membership is a deterministic, authoritative
+signal.  The ILP provides a rigorous optimality guarantee on cardinality
+that EPSS-first cannot claim.
 
 \textbf{CVSS is a poor proxy for exploitability.}
-CVSS-first's kev\_first\_rank $= 18$ and \aucc $= 0.708$ demonstrate
-that high theoretical severity does not predict active exploitation.
-Several packages with CVSS $< 7.0$ are KEV-listed (vite: CVSS 5.3,
-jquery: CVSS 6.9) while many CVSS~9.0+ vulnerabilities are not.
+Figure~\ref{fig:cvss_kev} makes this concrete: 186 non-KEV vulnerabilities
+in our npm corpus have CVSS~$>$~8.0, including 118 with CVSS~$>$~9.0.
+These outrank KEV-listed packages such as vite (CVSS~5.3) and
+puppeteer (CVSS~6.5) in severity ordering, causing CVSS-first to spend
+17 upgrade actions on unexploited packages before reaching the first
+actively-exploited vulnerability.
+\aucc~$= 0.708$ and kev\_first\_rank~$= 18$ follow directly.
 This finding aligns with prior empirical studies of KEV vs.\ CVSS
-correlation~\cite{spring21}.
+correlation~\cite{spring21} and extends them to the npm ecosystem.
 
 \textbf{Set-cover overlap is essential.}
 Without per-version fix generation, the fix set contains no overlap

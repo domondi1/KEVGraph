@@ -7,7 +7,7 @@ Figures:
   2. aucc_comparison.pdf      – AUCC lollipop with random CI band
   3. kev_coverage_curve.pdf   – KEV-only coverage first 30 steps
   4. cross_ecosystem.pdf      – forest plot across 3 ecosystems
-  5. action_efficiency.pdf    – action count with random CI
+  5. cvss_epss_kev.pdf        – CVSS×EPSS scatter, KEV highlighted (mechanism)
   6. scalability.pdf          – ILP/greedy timing vs corpus size
 
 Usage:
@@ -372,59 +372,106 @@ def fig_cross_ecosystem(out: Path = PLOT_DIR / "cross_ecosystem.pdf") -> None:
     log.info("Saved %s", out)
 
 
-# ── Figure 5: Action Efficiency ───────────────────────────────────────────
-def fig_action_efficiency(results_path: Path = DATA / "results.csv",
-                          ci_path: Path = DATA / "random_ci.json",
-                          out: Path = PLOT_DIR / "action_efficiency.pdf") -> None:
-    """Bar chart of total upgrade actions with random CI annotation.
+# ── Figure 5: CVSS vs EPSS scatter — why CVSS-first fails ─────────────────
+def fig_cvss_epss_kev(vulns_path: Path = DATA / "vulns.json",
+                      out: Path = PLOT_DIR / "cvss_epss_kev.pdf") -> None:
+    """CVSS × EPSS scatter for all npm vulnerabilities, KEV-listed highlighted.
 
-    Shows that ILP achieves 15.9% fewer actions than random mean.
+    Mechanistically explains the 17-step CVSS exposure gap:
+      • 186 non-KEV vulnerabilities have CVSS > 8, outranking vite (5.3),
+        puppeteer (6.5) and jquery (6.9) in CVSS-first ordering.
+      • 4 of 5 KEV vulnerabilities have EPSS > 0.35, explaining EPSS-first's
+        kev_first_rank = 1; but electron/libvpx (EPSS = 0.048) is missed.
+    The scatter makes the CVSS-first failure mode visually self-evident.
     """
-    df = pd.read_csv(results_path)
-    ci = json.loads(ci_path.read_text())
-    rand_mean = ci["n_actions"]["mean"]
-    rand_lo = ci["n_actions"]["ci_lo_95"]
-    rand_hi = ci["n_actions"]["ci_hi_95"]
+    raw = json.loads(vulns_path.read_text())
 
-    df = df[df["plan_name"].isin(PLAN_ORDER)].copy()
-    df["sort_key"] = df["plan_name"].map({p: i for i, p in enumerate(PLAN_ORDER)})
-    df = df.sort_values("sort_key", ascending=False)  # bottom-up
+    KEV_IDS_SET = set(KEV_IDS)
 
-    fig, ax = plt.subplots(figsize=(6.5, 3.5))
-
-    y_positions = range(len(df))
-    for i, (_, row) in enumerate(df.iterrows()):
-        pname = row["plan_name"]
-        n_act = row["n_actions"]
-        color = COLORS.get(pname, "#333333")
-        alpha = 0.85
-
-        if pname == "baseline_random":
-            # Show CI for random
-            ax.barh(i, rand_mean, color=color, alpha=alpha, height=0.55)
-            ax.errorbar(rand_mean, i,
-                        xerr=[[rand_mean - rand_lo], [rand_hi - rand_mean]],
-                        fmt="none", color="#555555", capsize=5, linewidth=2)
-            ax.text(rand_mean + 3, i, f"{rand_mean:.1f} (mean, CI [{rand_lo:.0f}–{rand_hi:.0f}])",
-                    va="center", fontsize=7.5, color=color)
+    kev_rows = []
+    non_kev_cvss, non_kev_epss = [], []
+    for kid, v in raw.items():
+        cvss = v.get("severity_score")
+        epss = v.get("epss_score")
+        if cvss is None:
+            continue
+        if kid in KEV_IDS_SET:
+            kev_rows.append({
+                "id": kid,
+                "cvss": cvss,
+                "epss": epss if epss is not None else 0.0,
+                "package": v.get("package", ""),
+            })
         else:
-            ax.barh(i, n_act, color=color, alpha=alpha, height=0.55)
-            ax.text(n_act + 3, i, f"{int(n_act)}", va="center", fontsize=8.5,
-                    color=color, fontweight="bold")
+            non_kev_cvss.append(cvss)
+            if epss is not None:
+                non_kev_epss.append((cvss, epss))
 
-    # Reference line at ILP optimum
-    ilp_val = df[df["plan_name"] == "kevgraph_ilp"]["n_actions"].values[0]
-    ax.axvline(ilp_val, color="#0072B2", linestyle=":", linewidth=1.5, alpha=0.7)
-    ax.text(ilp_val + 1, len(df) - 0.3, f"ILP optimum ({int(ilp_val)})",
-            fontsize=8, color="#0072B2")
+    nk_x = [r[0] for r in non_kev_epss]
+    nk_y = [r[1] for r in non_kev_epss]
 
-    ax.set_yticks(list(y_positions))
-    ax.set_yticklabels([LABELS[p] for p in df["plan_name"]], fontsize=9)
-    ax.set_xlabel("Total upgrade actions to cover all vulnerabilities")
-    ax.set_xlim(0, rand_hi + 60)
+    fig, ax = plt.subplots(figsize=(7, 4.5))
+
+    # Non-KEV background
+    ax.scatter(nk_x, nk_y, alpha=0.18, s=14, color="#aaaaaa", zorder=1,
+               label=f"Non-KEV ({len(nk_x)} vulns)")
+
+    # Shade the high-CVSS zone where CVSS-first wastes its first 17 steps
+    n_high = sum(1 for s in non_kev_cvss if s > 8.0)
+    ax.axvspan(8.0, 10.3, alpha=0.06, color=COLORS["baseline_cvss"], zorder=0)
+    ax.text(8.05, 0.985,
+            f"{n_high} non-KEV vulns\nwith CVSS > 8",
+            va="top", ha="left", fontsize=7.5, color=COLORS["baseline_cvss"],
+            style="italic", linespacing=1.4)
+
+    # KEV vulns as large diamonds
+    kev_x = [r["cvss"] for r in kev_rows]
+    kev_y = [r["epss"] for r in kev_rows]
+    ax.scatter(kev_x, kev_y, s=130, marker="D", color=COLORS["kevgraph_ilp"],
+               zorder=5, edgecolors="white", linewidth=1.2,
+               label=f"KEV-listed ({len(kev_rows)} vulns)")
+
+    # Per-KEV labels (manual offsets to avoid overlap)
+    label_cfg = {
+        "GHSA-qqvq-6xgj-jw8g": ("electron\n(libvpx, EPSS 0.048)", (-2.0,  0.08)),
+        "GHSA-j7hp-h8jx-5ppr": ("electron\n(libwebp, EPSS 0.941)", (-2.2, -0.13)),
+        "GHSA-jpcq-cgw6-v4j6": ("jquery\n(EPSS 0.369)",             ( 0.25,  0.07)),
+        "GHSA-c2gp-86p4-5935": ("puppeteer\n(EPSS 0.896)",          ( 0.25, -0.13)),
+        "GHSA-4r4m-qw57-chr8": ("vite\n(EPSS 0.744)",               ( 0.25,  0.07)),
+    }
+    for r in kev_rows:
+        kid = r["id"]
+        if kid not in label_cfg:
+            continue
+        lbl, (dx, dy) = label_cfg[kid]
+        ax.annotate(
+            lbl,
+            xy=(r["cvss"], r["epss"]),
+            xytext=(r["cvss"] + dx, r["epss"] + dy),
+            fontsize=7.5, color=COLORS["kevgraph_ilp"], fontweight="bold",
+            ha="center",
+            arrowprops=dict(arrowstyle="-", color=COLORS["kevgraph_ilp"],
+                            lw=0.8, shrinkA=0, shrinkB=3),
+        )
+
+    # Annotate the libvpx outlier (low EPSS despite being KEV)
+    libvpx = next(r for r in kev_rows if r["id"] == "GHSA-qqvq-6xgj-jw8g")
+    ax.annotate(
+        "Low EPSS\ndespite KEV",
+        xy=(libvpx["cvss"], libvpx["epss"]),
+        xytext=(6.5, 0.18),
+        arrowprops=dict(arrowstyle="->", color="#888888", lw=1.0),
+        fontsize=7.5, color="#666666", ha="center",
+    )
+
+    ax.set_xlabel("CVSS Base Score", fontsize=10)
+    ax.set_ylabel("EPSS Score (30-day exploitation probability)", fontsize=10)
+    ax.set_xlim(-0.3, 10.5)
+    ax.set_ylim(-0.04, 1.08)
+    ax.legend(loc="upper left", fontsize=8.5, framealpha=0.9)
     ax.set_title(
-        "Remediation plan cardinality (fewer = more efficient)\n"
-        f"ILP achieves provably optimal {int(ilp_val)} actions (15.9% fewer than random mean)",
+        "CVSS score does not predict active exploitation (KEV membership)\n"
+        "High CVSS ≠ exploited; EPSS correlates better but has critical outliers",
         fontsize=10,
     )
 
@@ -491,7 +538,7 @@ def generate_all(eval_path: Path = DATA / "evaluation.json") -> None:
     fig_aucc_comparison()
     fig_kev_coverage_curve(eval_path)
     fig_cross_ecosystem()
-    fig_action_efficiency()
+    fig_cvss_epss_kev()
     fig_scalability()
     log.info("All 6 figures written to %s", PLOT_DIR)
 
