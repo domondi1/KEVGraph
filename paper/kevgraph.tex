@@ -614,10 +614,13 @@ non-redundant fixes are included):
 
 Table~\ref{tab:results} reports all metrics for each plan on the npm
 corpus.
-Figure~\ref{fig:coverage} shows cumulative vulnerability coverage curves,
-Figure~\ref{fig:metric_bars} shows grouped bar comparisons of \Tone,
-\Tfive, and \aucc, Figure~\ref{fig:kev_impact} shows KEV vs.\ non-KEV
-coverage, and Figure~\ref{fig:action_dist} shows plan sizes.
+Figure~\ref{fig:kev_heatmap} shows the step at which each KEV vulnerability
+is first covered under each plan---the clearest illustration of the ordering
+gap.
+Figure~\ref{fig:aucc} shows \aucc scores with the random 95\% CI band.
+Figure~\ref{fig:kev_curve} shows KEV-specific coverage in the first 30
+upgrade actions.
+Figure~\ref{fig:action_eff} compares plan cardinality with the random CI.
 
 \begin{table*}[t]
 \centering
@@ -644,47 +647,59 @@ Dependabot         & 0.0011 & 0.0053 & 0.5886 & 18 & 421 & 937 & 0.192 \\
 
 \begin{figure}[t]
 \centering
-\includegraphics[width=\columnwidth]{../data/plots/coverage_curve.pdf}
-\caption{Cumulative vulnerability coverage vs.\ upgrade action rank
-(npm corpus, 937 coverable vulnerabilities).
-\kevgraph (greedy) achieves the steepest initial slope, covering 11.2\%
-of all vulnerabilities within 5 actions.  The ILP plan has a slightly
-lower initial slope because it re-orders selected fixes for KEV
-priority rather than maximal coverage-per-step.  Both \kevgraph plans
-converge to 100\% coverage at step 417.}
-\label{fig:coverage}
+\includegraphics[width=\columnwidth]{../data/plots/kev_heatmap.pdf}
+\caption{Step at which each KEV vulnerability is first covered, per plan
+(npm corpus; green = early, red = late; cell value = plan step number).
+\kevgraph (ILP) covers all five KEV vulnerabilities by step~4.
+CVSS-first and Dependabot do not cover the first KEV until step~18,
+and do not reach full KEV coverage until steps 251 and 314, respectively.
+This 17-step initial exposure gap represents remediation actions spent
+on lower-risk packages while actively-exploited vulnerabilities remain open.}
+\label{fig:kev_heatmap}
 \end{figure}
 
 \begin{figure}[t]
 \centering
-\includegraphics[width=\columnwidth]{../data/plots/metric_bars.pdf}
-\caption{Grouped bar chart comparing all plans on \Tone, \Tfive,
-and \aucc.  \kevgraph (ILP) achieves the highest \aucc (0.997),
-meaning KEV vulnerabilities are consistently fixed near the beginning
-of the plan.  Dependabot achieves the lowest \aucc (0.589) and
-defers the first KEV fix to step~18.}
-\label{fig:metric_bars}
+\includegraphics[width=\columnwidth]{../data/plots/aucc_comparison.pdf}
+\caption{\aucc scores for all plans on the npm corpus.
+The shaded band is the empirical 95\% CI of the random baseline
+($[0.519,\,0.831]$, $n=30$ seeds).
+\kevgraph (ILP) achieves \aucc $= 0.997$---0.166 above the CI upper bound---
+providing statistical evidence that the observed KEV-prioritisation
+advantage is not achievable by chance.
+Dependabot achieves the lowest \aucc ($0.589$), reflecting its
+severity-bucket ordering that is insensitive to KEV membership.}
+\label{fig:aucc}
 \end{figure}
 
 \begin{figure}[t]
 \centering
-\includegraphics[width=\columnwidth]{../data/plots/kev_impact.pdf}
-\caption{KEV vs.\ non-KEV vulnerability coverage per plan (npm corpus).
-Plans achieving kev\_first\_rank $= 1$ (ILP and EPSS-first) cover KEV
-vulnerabilities at the earliest possible step.  The greedy planner
-covers the first KEV vulnerability at step~2.}
-\label{fig:kev_impact}
+\includegraphics[width=\columnwidth]{../data/plots/kev_coverage_curve.pdf}
+\caption{KEV-specific coverage in the first 30 upgrade actions (npm corpus,
+5 KEV-listed vulnerabilities).
+Unlike total-coverage curves (all plans converge to 100\% at step~417),
+this view isolates the ordering objective.
+\kevgraph (ILP) covers all 5 KEV vulnerabilities by step~4;
+\kevgraph (Greedy) covers 3 by step~4 but does not reach full KEV coverage
+until step~155 (puppeteer).
+CVSS-first and Dependabot remain at zero KEV coverage through the entire
+30-step window shown.}
+\label{fig:kev_curve}
 \end{figure}
 
 \begin{figure}[t]
 \centering
-\includegraphics[width=\columnwidth]{../data/plots/action_distribution.pdf}
-\caption{Total upgrade actions required per plan (npm corpus).
-Both \kevgraph planners and EPSS-first require 417 actions,
-while random ordering requires 502 actions (seed=0) and averages
-495.4 actions across 30 seeds.  Additional actions in random baselines
-are due to suboptimal fix selection that includes redundant upgrades.}
-\label{fig:action_dist}
+\includegraphics[width=\columnwidth]{../data/plots/action_efficiency.pdf}
+\caption{Total upgrade actions required to cover all 937 coverable
+vulnerabilities, per plan (npm corpus).
+The error bar for the random baseline spans the empirical 95\% CI
+$[481.9,\,506.3]$ ($n=30$ seeds).
+Both \kevgraph planners achieve 417 actions---the ILP-proven minimum---
+15.9\% fewer than the random mean of 495.4.
+CVSS-first and EPSS-first also achieve near-optimal cardinality (419 and 417,
+respectively) because all methods use the same set-cover fix generation;
+the difference is \emph{ordering}, not cardinality.}
+\label{fig:action_eff}
 \end{figure}
 
 \textbf{Key findings:}
@@ -769,7 +784,9 @@ under random ordering (0.519) is substantially worse.
 \subsection{Cross-Ecosystem Evaluation}
 
 Table~\ref{tab:ecosystem} and Figure~\ref{fig:ecosystem} compare
-\kevgraph across all three ecosystems.
+\kevgraph across all three ecosystems using a forest-plot layout
+where the ILP result (diamond) is compared against the shaded random
+95\% CI for each ecosystem.
 
 \begin{table}[t]
 \centering
@@ -791,11 +808,15 @@ PyPI   & 300   & 818   & 1 & 1.0000 & 0.670 $[0.232,\,0.979]$ & 99  \\
 \begin{figure}[t]
 \centering
 \includegraphics[width=\columnwidth]{../data/plots/cross_ecosystem.pdf}
-\caption{Cross-ecosystem comparison of ILP vs random AUCC (error bars
-show empirical 95\% CI).  In all three ecosystems the ILP planner lies
-above the CI upper bound, confirming statistically significant
-KEV-prioritisation advantage.  Maven shows the largest absolute gap
-(0.988 vs 0.486 mean), reflecting its higher KEV density (2.37\%).}
+\caption{Cross-ecosystem KEV-prioritisation advantage (forest plot).
+Each row shows the \aucc of \kevgraph (ILP, diamond) and EPSS-first
+(triangle) against the random baseline 95\% CI (shaded bar, $n=30$ seeds).
+In all three ecosystems, the ILP result lies above the CI upper bound.
+Maven shows the largest absolute gap ($0.988 - 0.693 = +0.295$ above CI;
+gap to random mean $= 0.502$), consistent with its higher KEV density (2.37\%).
+PyPI achieves perfect ILP \aucc $= 1.000$ with a wide random CI
+($[0.232,\,0.979]$), confirming meaningful ordering advantage even
+when KEV density is low.}
 \label{fig:ecosystem}
 \end{figure}
 
@@ -829,10 +850,13 @@ are well within practical automation budgets.
 \begin{figure}[t]
 \centering
 \includegraphics[width=\columnwidth]{../data/plots/scalability.pdf}
-\caption{Planning runtime vs corpus size (npm).  ILP solve time
-(CBC solver) stays below 130\,ms across all corpus sizes.  Greedy
-time is higher (up to 4.5\,s) due to the iterative set-cover loop
-but remains practical.  The 200\,ms reference line is shown in red.}
+\caption{Planning runtime vs corpus size (npm, log scale).
+\kevgraph (ILP, CBC solver) solves in under 130\,ms across all corpus
+sizes tested (50--924 repositories, 2,366--2,741 candidate fixes),
+well below a 200\,ms automation budget.
+Greedy time grows sub-linearly (up to 4.4\,s at full scale) due to
+the iterative set-cover selection loop.
+Both planners are practical for CI/CD integration.}
 \label{fig:scalability}
 \end{figure}
 
